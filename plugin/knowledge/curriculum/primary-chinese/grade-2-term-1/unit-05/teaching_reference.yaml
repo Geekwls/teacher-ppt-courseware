@@ -1,0 +1,32 @@
+unit_id: unit-05
+source_id: pep_chinese_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t1-u05-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「谁说得对」的争论帮助理解《坐井观天》；以「邻居劝了几次」的梳理帮助理解《寒号鸟》
+    difficulty: 学生易只记住结论而说不出理由
+    typical_misconceptions:
+    - error_pattern: 只会说「青蛙错了」而说不出理由
+      misconception_type: 理由意识不足
+    - error_pattern: 说不出寒号鸟冻死的原因
+      misconception_type: 因果链条未理清
+  variation_strategy:
+  - 分角色朗读并说出谁对谁错及理由
+  - 说说「坐井观天」这个成语的意思
+- point_id: chi-g2-t1-u05-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「蚜虫—叶子—葫芦」的联系链帮助学生理解事物之间是相互联系的
+    difficulty: 学生易把「蚜虫吃叶子」与「叶子养葫芦」的关系颠倒
+    typical_misconceptions:
+    - error_pattern: 把蚜虫、叶子、葫芦的关系弄反
+      misconception_type: 联系链未理清
+    - error_pattern: 说不出故事告诉我们的道理
+      misconception_type: 主旨理解不到位
+  variation_strategy:
+  - 画出蚜虫—叶子—葫芦的联系图
+  - 说说「我要的是葫芦」这个故事的道理

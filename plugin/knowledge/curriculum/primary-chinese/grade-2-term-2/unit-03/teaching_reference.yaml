@@ -1,0 +1,74 @@
+unit_id: unit-03
+source_id: pep_chinese_g2_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t2-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「山川美，可入画」总起，把「奔、涌、长、耸」四个动词与具体景物对应，在朗读中体会祖国山河的壮美与民族团结的意涵
+    difficulty: 学生易把「耸」的读音读错；说不出「台湾岛，隔海峡，与大陆，是一家」的意思
+    typical_misconceptions:
+    - error_pattern: 把「耸」读成「cóng」
+      misconception_type: 字音未读准
+    - error_pattern: 说不出「是一家」的含义
+      misconception_type: 主旨理解不到位
+  variation_strategy:
+  - 配画朗读并背诵《神州谣》
+  - 说说「奔、涌、长、耸」分别写的是什么
+- point_id: chi-g2-t2-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把节日与习俗一一对应，再以「时间轴」的方式排序，形成「节日—时间—习俗」的完整认知
+    difficulty: 学生易把「元宵节」与「春节」的先后顺序弄错；把「赛龙舟」归到春节
+    typical_misconceptions:
+    - error_pattern: 把元宵节排在春节之前
+      misconception_type: 节日顺序错误
+    - error_pattern: 把「赛龙舟」归到春节
+      misconception_type: 节日与习俗对应错误
+  variation_strategy:
+  - 连一连：节日与习俗
+  - 按时间顺序给六个节日排序
+- point_id: chi-g2-t2-u03-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「贝壳为什么成了钱币」为线索，把「贝」字的形体演变与「贝字旁表钱财」的规律讲清楚
+    difficulty: 学生易把「赔」与「陪」混淆；说不出「贝」为什么与钱财有关
+    typical_misconceptions:
+    - error_pattern: 把「赔钱」写成「陪钱」
+      misconception_type: 形近字未区分
+    - error_pattern: 说不出「贝」与钱财的关联
+      misconception_type: 字理意识缺失
+  variation_strategy:
+  - 讲一讲「贝」的故事
+  - 找出贝字旁的字并组词
+- point_id: chi-g2-t2-u03-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「火字旁、四点底的字多与火有关」的字理线索组织识字，把烹饪方法与具体菜品对应起来
+    difficulty: 学生易把「蒸」与「煮」、「煎」与「炸」的烹饪方式混淆
+    typical_misconceptions:
+    - error_pattern: 把「蒸」说成「煮」
+      misconception_type: 烹饪方法未区分
+    - error_pattern: 说不出四点底与「火」的关系
+      misconception_type: 字理意识缺失
+  variation_strategy:
+  - 连一连：美食与烹饪方法
+  - 给火字旁的字归类并组词
+- point_id: chi-g2-t2-u03-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「形旁表意」为线索辨析形近字：宵（夜晚）与云霄、削（用刀），赔（贝字旁，与钱财有关）与陪伴、培（提土旁，与土有关）
+    difficulty: 学生易把「元宵」写成「元霄」、「赔钱」写成「陪钱」
+    typical_misconceptions:
+    - error_pattern: 把「元宵」写成「元霄」
+      misconception_type: 形近字未区分
+    - error_pattern: 把「赔钱」写成「陪钱」
+      misconception_type: 形旁表意未掌握
+  variation_strategy:
+  - 给 ABB 式词语填空
+  - 背诵十二生肖并辨析形近字

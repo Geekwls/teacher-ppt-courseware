@@ -1,0 +1,15 @@
+unit_id: unit-05
+unit_name: 第五单元 认识立体图形
+subject: math
+edition: 人教版
+grade: 1
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: partial
+source_id: pep_math_g1_t1_2024
+teaching_reference_source_id: pep_math_g1_t1_tr_2024
+page_range: P88-P102
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版人教版小学数学一年级上册电子课本》逐页实证核定：课本 PDF 共 27 页，页脚印刷页码实测偏移 = 5（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P21。本单元真实版面为 P88–P102，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。
+unit_overview: 本单元认识长方体、正方体、圆柱、球等立体图形，通过看一看、摸一摸、滚一滚等活动感知各立体图形的特征，并能从物体中辨认出相应的立体图形。本册目录登记起始页 P88。
+numeric_upper_bound: 20

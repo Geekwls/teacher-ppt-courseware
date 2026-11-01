@@ -1,0 +1,117 @@
+unit_id: unit-02
+source_id: pep_chinese_g6_t1_2024
+points:
+- point_id: chi-g6-t1-u02-p01
+  unit_id: unit-02
+  lesson_id: chi-g6-t1-u02-l01
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 点面结合写场面
+  learning_objectives:
+  - 能识别文章中的「点」（个体）与「面」（整体）的描写
+  - 能体会点面结合写场面的好处
+  applicable_question_types:
+  - reading
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P16
+    - P19
+    anchor_text: P16–P18：《狼牙山五壮士》中既写五壮士整体（面），又写班长马宝玉等个体（点）。P19–P23：《开国大典》中既写三十万人（面），又写毛主席（点）。P13 单元扉页：「了解文章是怎样点面结合写场面的。」
+  teaching_boundary:
+    scope_allowed:
+    - 识别点与面的描写
+    - 体会点面结合的好处
+    - 用点面结合的方法写场面
+    scope_excluded:
+    - 叙事学中的全景与特写
+    - 电影镜头语言
+- point_id: chi-g6-t1-u02-p02
+  unit_id: unit-02
+  lesson_id: chi-g6-t1-u02-l02
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 体会革命前辈的精神
+  learning_objectives:
+  - 能通过人物的言行体会革命前辈的精神
+  - 能用恰当的语言表达自己的感受
+  applicable_question_types:
+  - reading
+  - writing
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P16
+    - P24
+    anchor_text: P16–P18：五壮士「纵身跳下深谷」。P24–P26：「这个伟大的战士，像千斤巨石……」
+  teaching_boundary:
+    scope_allowed:
+    - 通过人物言行体会精神
+    - 说出自己的感受
+    - 积累表现革命精神的语句
+    scope_excluded:
+    - 革命传统教育
+    - 英雄叙事的文学分析
+- point_id: chi-g6-t1-u02-p03
+  unit_id: unit-02
+  lesson_id: chi-g6-t1-u02-l03
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 把握文章的主要内容（革命题材）
+  learning_objectives:
+  - 能概括课文的主要内容
+  - 能按事件发展顺序梳理课文
+  applicable_question_types:
+  - reading
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P19
+    - P24
+    anchor_text: P19–P23：《开国大典》按「典礼开始前—典礼—阅兵式—群众游行」的顺序叙述。
+  teaching_boundary:
+    scope_allowed:
+    - 概括课文主要内容
+    - 按事件顺序梳理
+    - 把握场面描写的层次
+    scope_excluded:
+    - 叙事结构分析
+    - 历史事件叙述学
+- point_id: chi-g6-t1-u02-p04
+  unit_id: unit-02
+  lesson_id: chi-g6-t1-u02-l04
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 尝试运用点面结合的写法记一次活动（习作）
+  learning_objectives:
+  - 能选一次活动并运用点面结合的写法写清楚
+  - 能把活动的过程写清楚，突出重点
+  applicable_question_types:
+  - writing
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P28
+    anchor_text: P28 习作《多彩的活动》：「选一次活动写下来，和同学分享你的经历。」「尝试运用点面结合的写法记一次活动。」
+  teaching_boundary:
+    scope_allowed:
+    - 选择活动并确定重点
+    - 运用点面结合写场面
+    - 把活动过程写清楚
+    scope_excluded:
+    - 叙事写作教学法
+    - 新闻特写的写作技巧

@@ -1,0 +1,39 @@
+unit_id: unit-04
+blueprints:
+- blueprint_id: bp-chi-g4-t1-u04-standard
+  title: 第四单元 神话故事标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、字词积累
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 5
+    item_count: 9
+    target_points:
+    - chi-g4-t1-u04-p01
+    guidelines: 看拼音写词语、多音字辨析。
+  - slot_id: slot-02
+    section: 二、阅读理解
+    question_type: reading
+    difficulty: variation
+    points_per_item: 17
+    item_count: 2
+    target_points:
+    - chi-g4-t1-u04-p01
+    guidelines: 阅读神话片段，梳理起因、经过、结果。
+  - slot_id: slot-03
+    section: 三、习作（想象作文）
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 21
+    item_count: 1
+    target_points:
+    - chi-g4-t1-u04-p02
+    guidelines: 写一个与神话人物过一天的故事。

@@ -1,0 +1,85 @@
+unit_id: unit-06
+source_id: pep_math_g1_t2_2024
+points:
+- point_id: math-g1-t2-u06-p01
+  unit_id: unit-06
+  lesson_id: math-g1-t2-u06-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 求相差数：多几、少几的数量关系
+  learning_objectives:
+  - 理解「求一个数比另一个数多几（少几）」的数量关系，会用减法计算相差数
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P69
+    - P76
+    anchor_text: 单元起始页 P69 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 求相差数用减法
+    - 用「多几」「少几」描述关系
+    scope_excluded:
+    - 倍的关系
+    - 两步及以上的复合问题
+- point_id: math-g1-t2-u06-p02
+  unit_id: unit-06
+  lesson_id: math-g1-t2-u06-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 求比一个数多几（少几）的数
+  learning_objectives:
+  - 会求比一个数多几或少几的数，并能说出列式理由
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P69
+    - P76
+    anchor_text: 单元起始页 P69 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 求比一个数多几/少几的数
+    scope_excluded:
+    - 求一个数的几倍是多少
+    - 连乘连除问题
+- point_id: math-g1-t2-u06-p03
+  unit_id: unit-06
+  lesson_id: math-g1-t2-u06-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 用加减关系解决两步实际问题
+  learning_objectives:
+  - 能分析两步问题的数量关系，分步或列综合算式解答
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P69
+    - P76
+    anchor_text: 单元起始页 P69 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 两步加减法问题
+    scope_excluded:
+    - 三步问题
+    - 乘除两步问题

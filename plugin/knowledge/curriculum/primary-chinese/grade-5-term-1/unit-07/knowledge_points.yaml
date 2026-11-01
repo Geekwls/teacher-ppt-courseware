@@ -1,0 +1,60 @@
+unit_id: unit-07
+source_id: pep_chinese_g5_t1_2024
+points:
+- point_id: chi-g5-t1-u07-p01
+  unit_id: unit-07
+  lesson_id: chi-g5-t1-u07-l01
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 静态描写与动态描写
+  learning_objectives:
+  - 能区分静态描写与动态描写，能体会二者结合的表达效果
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P91
+    - P92
+    - P94
+    anchor_text: 单元起始页 P91 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《山居秋暝》《枫桥夜泊》《早春呈水部张十八员外》
+    - 静态描写与动态描写
+    scope_excluded:
+    - 古典诗词的意境分析
+    - 写景散文的写作技巧
+- point_id: chi-g5-t1-u07-p02
+  unit_id: unit-07
+  lesson_id: chi-g5-t1-u07-l01
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 描写景物的变化（我最喜爱的季节）
+  learning_objectives:
+  - 能按一定顺序描写景物的变化
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P98
+    - P99
+    anchor_text: 单元起始页 P98 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 按时间顺序写景物的变化
+    - 抓住景物的特点
+    scope_excluded:
+    - 时序描写的写作规范
+    - 写景散文的写作

@@ -1,0 +1,77 @@
+lessons:
+  - lesson_id: "chi-g3-t1-u06-l01"
+    unit_id: "unit-6"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 16
+    lesson_name: "第16课 富饶的西沙群岛"
+    page_range: "P70-P72"
+    official_examples:
+      - "课文按海面、海底、海滩、海岛的顺序介绍西沙群岛，表现其风景优美、物产丰富。"
+      - "课后题引导学生找出关键语句，借助关键语句理解一段话的意思。"
+      - "（原文与生字表以课本页面为准；本单元正文页未含于用户提供的电子课本预览，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u06-l02"
+    unit_id: "unit-6"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 17
+    lesson_name: "第17课 海滨小城"
+    page_range: "P73-P74"
+    official_examples:
+      - "课文按观察顺序描写海滨小城的景象，表现小城的美丽与整洁。"
+      - "课后题引导学生关注段落中的关键语句。"
+      - "（原文与生字表以课本页面为准，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u06-l03"
+    unit_id: "unit-6"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 18
+    lesson_name: "第18课 美丽的小兴安岭"
+    page_range: "P75-P77"
+    official_examples:
+      - "课文按春、夏、秋、冬的顺序描写小兴安岭一年四季的美丽景色和丰富物产。"
+      - "课后题引导学生借助关键语句理解一段话的意思。"
+      - "（原文与生字表以课本页面为准，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u06-l04"
+    unit_id: "unit-6"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 19
+    lesson_name: "第19课 香港，璀璨的明珠（略读）"
+    page_range: "P78-P79"
+    official_examples:
+      - "学习提示：默读课文，了解香港是「璀璨的明珠」的原因。"
+      - "引导学生借助关键语句体会香港的繁华与美丽。"
+      - "（原文与生字表以课本页面为准，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u06-l05"
+    unit_id: "unit-6"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 20
+    lesson_name: "习作（这儿真美）"
+    page_range: "P80"
+    official_examples:
+      - "习作《这儿真美》：围绕一个意思写一处景物，用上关键语句把内容写清楚。"
+      - "提示学生把景物写具体，表达对家乡、对祖国山河的喜爱之情。"
+
+  - lesson_id: "chi-g3-t1-u06-l06"
+    unit_id: "unit-6"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 21
+    lesson_name: "语文园地"
+    page_range: "P81-P82"
+    official_examples:
+      - "梳理与交流：回顾借助关键语句理解一段话的方法。"
+      - "日积月累：李白《早发白帝城》。"
+      - "（词句段运用等具体内容以课本页面为准，待补凭证。）"

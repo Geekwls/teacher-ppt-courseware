@@ -1,0 +1,99 @@
+unit_id: "unit-5"
+source_id: "pep_english_g3_t1_tr_2024"
+teaching_references:
+  - point_id: "eng-g3-t1-u05-p01"
+    ref_book: "人教版《教师教学用书》英语三年级上册第五单元"
+    ref_page: "P106-P109"
+    pedagogical_focus:
+      key_point: "掌握字母 Qq, Rr, Ss, Tt, Uu 的笔顺笔画与占格规范，重点攻克小写 q 的提钩占格"
+      difficulty: "小写字母 q 占中下格，右侧下竖末端向右上提钩，与字母 p（向左半圆，无提钩）彻底区分；大写 Q 与字母 O 的斜划加画规范"
+      typical_misconceptions:
+        - error_pattern: "将小写 q 与小写 p 混淆，搞错圆圈或提钩方向"
+          misconception_type: "镜面对称混淆"
+        - error_pattern: "小写 t 横画位置偏低写在中格内部"
+          misconception_type: "占格位置错误"
+    variation_strategy:
+      - "字母大小写对对碰：Q-q, R-r, S-s, T-t, U-u"
+      - "易混字母辨析：圈出所有 q 与 p"
+
+  - point_id: "eng-g3-t1-u05-p02"
+    ref_book: "人教版《教师教学用书》英语三年级上册第五单元"
+    ref_page: "P108-P111"
+    pedagogical_focus:
+      key_point: "掌握短元音 u(/ʌ/)及辅音字母 q(/kw/), r(/r/), s(/s/), t(/t/)的发音，建立 CVC 拼读感知"
+      difficulty: "短元音 /ʌ/ 的发音部位（舌中部下沉，开口度中等），以及辅音连缀 qu 发 /kw/ 的合音训练"
+      typical_misconceptions:
+        - error_pattern: "将 run 中的 /ʌ/ 读成拼音 u（类似于 wu）"
+          misconception_type: "母语负迁移"
+        - error_pattern: "将 bus 词尾清辅音 /s/ 发成浊辅音或带出元音尾音"
+          misconception_type: "尾音辅音过度发音"
+    variation_strategy:
+      - "短元音 /ʌ/ 听音辨别：听 up 选元音 /ʌ/，听 cat 选 /æ/"
+      - "拼读搭积木：c-u-t -> cut, r-u-n -> run"
+
+  - point_id: "eng-g3-t1-u05-p03"
+    ref_book: "人教版《教师教学用书》英语三年级上册第五单元"
+    ref_page: "P100-P103"
+    pedagogical_focus:
+      key_point: "熟练认读10种核心颜色词汇，掌握 a + 颜色 + 事物 结构"
+      difficulty: "orange 既可表示颜色（橙色）又可表示水果（橙子）；white 与 write 的发音辨析"
+      typical_misconceptions:
+        - error_pattern: "混淆 purple（紫色）与 brown（棕色）"
+          misconception_type: "词形形近混淆"
+        - error_pattern: "在形容词与名词组合时遗漏冠词（如 a yellow duck 漏写 a）"
+          misconception_type: "语法结构残缺"
+    variation_strategy:
+      - "调色板看色选词：给色块贴上对应英文标签"
+      - "图文配对：a yellow duck, green grass, a brown bear"
+
+  - point_id: "eng-g3-t1-u05-p04"
+    ref_book: "人教版《教师教学用书》英语三年级上册第五单元"
+    ref_page: "P98-P101"
+    pedagogical_focus:
+      key_point: "掌握 What colour is it? 及其答语 It's..."
+      difficulty: "colour 拼写（课本采用英式拼写 colour），在疑问句中作表语与主语 it 的倒装语序"
+      typical_misconceptions:
+        - error_pattern: "回答时误用 I am red. 代替 It's red."
+          misconception_type: "人称代词与物称代词混淆"
+    variation_strategy:
+      - "魔术变色提问与回答：What colour is it? It's orange."
+      - "情境对话连线"
+
+  - point_id: "eng-g3-t1-u05-p05"
+    ref_book: "人教版《教师教学用书》英语三年级上册第五单元"
+    ref_page: "P98-P102"
+    pedagogical_focus:
+      key_point: "掌握 ... and ... make ... 色彩混合句型"
+      difficulty: "两色相加用 make（原形，因主语为复数概念），牢记三种基础混合结果（红+蓝=紫，蓝+黄=绿，黄+红=橙）"
+      typical_misconceptions:
+        - error_pattern: "将 Red and blue make purple 错记为 make green"
+          misconception_type: "跨学科艺术常识与英文记忆脱节"
+    variation_strategy:
+      - "算术式英语连线：Red + Blue = ( ), Blue + Yellow = ( )"
+      - "句子填空补全：Blue and yellow make ( )."
+
+  - point_id: "eng-g3-t1-u05-p06"
+    ref_book: "人教版《教师教学用书》英语三年级上册第五单元"
+    ref_page: "P102-P105"
+    pedagogical_focus:
+      key_point: "掌握 What colours do you like? 及其答语 I like... 与 Let's draw some..."
+      difficulty: "问句中 colours 用复数（询问喜欢的颜色可能有多种），回答时用 and 连接两种颜色"
+      typical_misconceptions:
+        - error_pattern: "将 What colours do you like? 回答成 Yes, I do."
+          misconception_type: "特殊疑问句误当一般疑问句回答"
+    variation_strategy:
+      - "颜色偏好微采访：—What colours do you like? —I like green and yellow."
+      - "美术任务布置：Let's draw some purple and brown birds."
+
+  - point_id: "eng-g3-t1-u05-p07"
+    ref_book: "人教版《教师教学用书》英语三年级上册第五单元"
+    ref_page: "P112-P115"
+    pedagogical_focus:
+      key_point: "理解语篇 Colours can talk!，建立色彩与社会生活安全规则的关联"
+      difficulty: "理解拟人修辞句型 Red can say 'No!'，体会语言不仅是日常对话更是生活安全指令"
+      typical_misconceptions:
+        - error_pattern: "将交通信号中绿灯（Go）与红灯（No/Stop）指令含义倒置"
+          misconception_type: "安全常识与符号功能理解偏差"
+    variation_strategy:
+      - "生活标志与颜色连线：红灯 - No, 绿灯 - Go, 蓝色垃圾桶 - Use again"
+      - "短篇阅读理解判断题"

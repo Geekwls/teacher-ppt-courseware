@@ -1,0 +1,179 @@
+unit_id: "unit-2"
+source_id: "pep_chinese_g3_t1_2024"
+points:
+  - point_id: "chi-g3-t1-u02-p01"
+    unit_id: "unit-2"
+    lesson_id: "chi-g3-t1-u02-l02"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "看拼音写生字与词语规范书写（田字格核心）"
+    learning_objectives:
+      - "掌握本单元生字的标准读音、笔画笔顺与间架结构，能在田字格中工整规范书写"
+      - "能根据标准带声调拼音，正确默写出核心词语（如金色、水泥、规则、排列、丰收、颜料、邮票、钥匙等），无笔画错误"
+      - "注意易错笔画：『径』右边是『圣』不要多撇；『霜』字雨字头横钩规范；『磨』字半包围结构，上「广」下「林」再下「石」；『螺』字虫字旁窄长"
+    applicable_question_types: ["writing", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P14", "P17", "P20", "P23"]
+      anchor_text: >
+        2024 版课本识字表/写字表（据课本页面整理，全表以课本附录为准）：
+        《古诗三首》会认字 庭、禹、锡、未、磨、螺、萧、绍、挑、促、篱；
+        《铺满金色巴掌的水泥道》会写字 列、展、朗、珠、晶、粘、印、案、规、凌、则、乱；
+        《秋天的雨》会写字 凉、枚、杏、邮、油、票、爽、挤、争、频、菊；
+        《听听，秋的声音》会认字 抖、振、韵、掠、吟、辽。
+      version_note: "旧版生字『赠、刘、残、君、橙、送』源自旧版篇目《赠刘景文》，2024 版已不含此诗，故不予收录。"
+    teaching_boundary:
+      scope_allowed:
+        - "田字格考查生字：寒、径、霜、列、展、朗、珠、晶、印、规、则、乱、凉、枚、邮、油、票、争、菊"
+        - "看拼音写词语：金色(jīn sè)、水泥(shuǐ ní)、排列(pái liè)、规则(guī zé)、颜料(yán liào)、邮票(yóu piào)、丰收(fēng shōu)、钥匙(yào shi)"
+      scope_excluded:
+        - "超出三年级上册前两个单元范围的生僻汉字"
+        - "旧版篇目《赠刘景文》相关生字（赠、刘、残、君、橙）"
+
+  - point_id: "chi-g3-t1-u02-p02"
+    unit_id: "unit-2"
+    lesson_id: "chi-g3-t1-u02-l05"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "多音字辨析与语境选音（挑、铺、曲、扇）"
+    learning_objectives:
+      - "准确辨析本单元核心多音字在不同语境中的读音与词性含义"
+      - "能在词语和句子中根据语义给加点字选择正确读音，并用打『√』或选择形式作答"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P15", "P16", "P19", "P25"]
+      anchor_text: "识字表及词句段运用：挑(tiǎo 挑促织 / tiāo 挑选)、铺(pū 铺满 / pù 店铺)、扇(shān 扇哪扇哪 / shàn 扇子)、曲(qǔ 歌曲 / qū 弯曲)"
+    teaching_boundary:
+      scope_allowed:
+        - "挑：tiǎo（挑促织、挑战） / tiāo（挑选、挑担）"
+        - "铺：pū（铺路、铺床、铺满） / pù（店铺、床铺、当铺）"
+        - "扇：shān（扇风、扇哪扇哪） / shàn（折扇、风扇、一扇门）"
+        - "曲：qǔ（乐曲、歌曲、曲调） / qū（弯曲、九曲回肠）"
+      scope_excluded:
+        - "高考或文言文罕见僻读（如挑达 tiao ta 等冷僻古音）"
+
+  - point_id: "chi-g3-t1-u02-p03"
+    unit_id: "unit-2"
+    lesson_id: "chi-g3-t1-u02-l01"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "古诗三首名句诵读、诗意理解与精准默写"
+    learning_objectives:
+      - "背诵并熟练默写《山行》（唐·杜牧）、《望洞庭》（唐·刘禹锡）、《夜书所见》（宋·叶绍翁）三首古诗名句"
+      - "理解诗中重点字词的意思：『停车坐爱枫林晚』中『坐』为『因为』；『红于』为『比……更红』；『两相和』中『和』为『协调、和谐』；『白银盘里一青螺』以『青螺』比喻洞庭湖中的君山；『挑促织』中『挑』为『用细长的东西拨』，『促织』为『蟋蟀』"
+      - "体会诗人在深秋景色中寄托的喜爱秋天、赞美生机或思乡思亲的思想感情"
+    applicable_question_types: ["fill_blank", "choice"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P14-P15"]
+      anchor_text: "第 4 课古诗三首课文及课后思考练习：有感情地朗读课文。背诵课文。默写《山行》。结合注释理解诗句的意思。"
+      version_note: "2024 版篇目为《望洞庭》《山行》《夜书所见》；旧版《赠刘景文》已不在本册，禁止命题引用。"
+    teaching_boundary:
+      scope_allowed:
+        - "《山行》全诗四句及名句默写与字词注释"
+        - "《望洞庭》全诗四句及『两相和』『白银盘里一青螺』意境理解"
+        - "《夜书所见》全诗四句及『动客情』『挑促织』诗意与情感感知"
+      scope_excluded:
+        - "旧版篇目《赠刘景文》（『擎雨盖』『傲霜枝』『橙黄橘绿』等）"
+        - "大学中文系考据学层面的古音韵押韵平仄分析"
+
+  - point_id: "chi-g3-t1-u02-p04"
+    unit_id: "unit-2"
+    lesson_id: "chi-g3-t1-u02-l05"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "理解难懂词语的多元方法（单元核心语文要素）"
+    learning_objectives:
+      - "掌握并能运用查字典、联系上下文、结合生活实际、找近义词、插图观察等多种方法理解难懂词语"
+      - "能结合具体语境解释词语含义，如『明朗』、『凌乱』、『憧憬』、『饱满』"
+    applicable_question_types: ["choice", "fill_blank", "reading"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P25"]
+      anchor_text: "语文园地二交流平台：读书时遇到不理解的词语，你会怎么做？（联系上下文、结合生活经验、查字典、向人请教）"
+    teaching_boundary:
+      scope_allowed:
+        - "联系上下文推断词语含义"
+        - "结合具体生活常识理解成语或描写性词语"
+      scope_excluded:
+        - "死记硬背现代汉语词典严密学术定义"
+
+  - point_id: "chi-g3-t1-u02-p05"
+    unit_id: "unit-2"
+    lesson_id: "chi-g3-t1-u02-l03"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "秋天文段修辞赏析与仿写（比喻、拟人）"
+    learning_objectives:
+      - "体会课文中生动优美的句子，准确辨析比喻句与拟人句"
+      - "理解将『梧桐叶』比作『金色的小巴掌』、将『红红的枫叶』比作『一枚枚邮票』、将『黄黄的叶子』比作『一把把小扇子』的形象表达"
+      - "感知《秋天的雨》中『吹起了金色的小喇叭』等拟人化语言表现出的秋天生机"
+    applicable_question_types: ["choice", "reading", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P17", "P20"]
+      anchor_text: "课后思考练习：读一读，体会这些句子的生动形象；仿照例句写句子。"
+    teaching_boundary:
+      scope_allowed:
+        - "辨析本体与喻体，识别比喻句"
+        - "识别把事物当成人来写的拟人句"
+        - "仿照比喻句写秋天的自然景物"
+      scope_excluded:
+        - "借喻、通感等初高中高级修辞格"
+
+  - point_id: "chi-g3-t1-u02-p06"
+    unit_id: "unit-2"
+    lesson_id: "chi-g3-t1-u02-l05"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "描写秋天的成语积累与语境运用（日积月累）"
+    learning_objectives:
+      - "熟练背诵并默写语文园地二日积月累中9个描写秋天的四字成语"
+      - "理解成语的分类与意境：描写天气（秋高气爽、天高云淡、秋风习习）、描写植物（一叶知秋、金桂飘香、层林尽染）、描写丰收（五谷丰登、果实累累、春华秋实）"
+      - "能在语段填空中根据上下文情境准确选填成语"
+    applicable_question_types: ["fill_blank", "choice"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P25"]
+      anchor_text: "语文园地二日积月累：秋高气爽 天高云淡 秋风习习 一叶知秋 金桂飘香 层林尽染 五谷丰登 果实累累 春华秋实"
+    teaching_boundary:
+      scope_allowed:
+        - "日积月累9个成语的字形、注音与在语境中的准确填空运用"
+      scope_excluded:
+        - "未在教材中出现的冷门生僻成语"
+
+  - point_id: "chi-g3-t1-u02-p07"
+    unit_id: "unit-2"
+    lesson_id: "chi-g3-t1-u02-l05"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "日记格式规范与秋天微写作表达（习作要素）"
+    learning_objectives:
+      - "掌握写日记的标准格式：第一行写月日、星期和天气；正文开头空两格"
+      - "能留心观察生活中的秋天变化，写一写自己的所见、所闻、所感，表达真情实感"
+    applicable_question_types: ["choice", "writing"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P24"]
+      anchor_text: "习作：写日记。学写日记，掌握日记的基本格式，初步培养写日记的习惯。"
+    teaching_boundary:
+      scope_allowed:
+        - "日记第一行要素完整性判断（日期、星期、天气）"
+        - "观察秋天落叶、秋雨、秋风写一段100字左右的微日记"
+      scope_excluded:
+        - "初中议论文或深沉人生哲理散文写作要求"

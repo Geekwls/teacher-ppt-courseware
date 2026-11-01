@@ -1,0 +1,203 @@
+unit_id: "unit-1"
+source_id: "pep_english_g3_t1_2024"
+points:
+  - point_id: "eng-g3-t1-u01-p01"
+    lesson_id: "lesson-03"
+    point_name: "字母 Aa, Bb, Cc, Dd 的认读、大小写配对与四线三格规范书写"
+    learning_objectives:
+      - "正确认读英文字母 Aa, Bb, Cc, Dd 的大写与小写形式"
+      - "熟练进行字母大小写的准确配对与相邻字母的按序推导"
+      - "在四线三格中按照正确笔顺和占格位置规范书写 Aa, Bb, Cc, Dd"
+    prerequisites:
+      - "英文字母初步感知"
+    subsequent_points:
+      - "eng-g3-t1-u01-p02"
+    applicable_question_types: ["fill_blank", "choice", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "字母 Aa, Bb, Cc, Dd 的印刷体与手写体识别"
+        - "Aa-Dd 的字母顺序及左邻右舍填空"
+        - "大小写一一配对与分类"
+        - "四线三格占格规则（如大写占上一二格，小写b/d占上一二格且圆圈方向相反，a/c占中间一格）"
+      scope_excluded:
+        - "Ee 之后的其他字母书写（第二单元及后续学习）"
+        - "字母音标的繁琐标注与书写"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [6]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u01-p02"
+    lesson_id: "lesson-03"
+    point_name: "字母 Aa-Dd 自然拼读发音与例词拼读"
+    learning_objectives:
+      - "掌握字母 a 在闭音节中发 /æ/，b 发 /b/，c 发 /k/，d 发 /d/ 的发音规律"
+      - "能够听音辨字，准确识别例词中的首字母及其发音"
+      - "能拼读简单的辅元辅（CVC）单音节词"
+    prerequisites:
+      - "eng-g3-t1-u01-p01"
+    subsequent_points: []
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "教材核心拼读词汇：apple, bag, bed, Bob, cat, can, dog, sad"
+        - "CVC拼读词：bad, cab, dad"
+        - "根据首字母发音或单词发音选出对应字母/不同发音项"
+      scope_excluded:
+        - "非本单元字母开头的长难词汇自然拼读"
+        - "开音节元音字母字母音规则（如 a_e, 后续学期内容）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [6]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u01-p03"
+    lesson_id: "lesson-02"
+    point_name: "身体五官与部位核心词汇认读 (ear, eye, mouth, hand, arm)"
+    learning_objectives:
+      - "能够听、说、认读身体部位词汇：ear, eye, mouth, hand, arm"
+      - "能将单词与对应的身体部位图片或中文释义准确匹配"
+    prerequisites: []
+    subsequent_points:
+      - "eng-g3-t1-u01-p05"
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "核心身体部位名词：ear, eye, mouth, hand, arm"
+        - "单复数基础感知（ears, eyes, hands, arms，仅需理解语境）"
+        - "图文匹配与从混淆项中选出身体部位词"
+      scope_excluded:
+        - "头面部及身体其他拓展词（如 nose, leg, foot, body 等第二单元及后续内容）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [5]
+      example_ref: ["ex_2"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u01-p04"
+    lesson_id: "lesson-01"
+    point_name: "问候交友、自我介绍与礼貌应答表达"
+    learning_objectives:
+      - "能在真实或模拟情境中用 Hello! / Hi! 热情打招呼"
+      - "能熟练运用 I'm... 或 My name is... 介绍自己的姓名"
+      - "能用 Nice to meet you. 以及 Nice to meet you too. 进行礼貌应答"
+    prerequisites: []
+    subsequent_points:
+      - "eng-g3-t1-u01-p08"
+    applicable_question_types: ["choice", "match", "dialogue"]
+    teaching_boundary:
+      scope_allowed:
+        - "日常问候：Hello! / Hi!"
+        - "自我介绍句型：I'm + 名字. / My name is + 名字."
+        - "初次相识问候与应答：Nice to meet you. -> Nice to meet you too."
+        - "教材人物姓名识别：Mike Black, Wu Binbin, John, Sarah"
+      scope_excluded:
+        - "询问他人姓名句型 What's your name?（未作为第一单元核心主句型考查，不作重点硬性要求）"
+        - "告别语 Goodbye / See you 等扩展（课本仅涉及 Bye!）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [4]
+      example_ref: ["ex_1"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u01-p05"
+    lesson_id: "lesson-02"
+    point_name: "肢体交际动作与TPR指令理解"
+    learning_objectives:
+      - "能听懂并理解表示友好交往的动作指令"
+      - "掌握动作动词短语：Wave your hand / Look into my eyes / Point to your ear / Point to your mouth"
+    prerequisites:
+      - "eng-g3-t1-u01-p03"
+    subsequent_points: []
+    applicable_question_types: ["choice", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "Wave your hand / Wave your arm.（挥手/挥动胳膊）"
+        - "Look into my eyes.（看着我的眼睛）"
+        - "Point to your ear. Listen!（指向耳朵，倾听）"
+        - "Point to your mouth. Smile!（指向嘴巴，微笑）"
+        - "动作与身体部位的逻辑搭配"
+      scope_excluded:
+        - "非祈使句动作语法规则讲解"
+        - "其他超纲动词短语（如 touch your head 等）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [5]
+      example_ref: ["ex_2"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u01-p06"
+    lesson_id: "lesson-04"
+    point_name: "友好分享与礼貌致谢表达"
+    learning_objectives:
+      - "在同伴遇到困难或需要互助时，能主动说出 It's OK. We can share."
+      - "在得到同伴分享与帮助时，能主动使用 Thanks. 或 Thank you. 表达感谢"
+    prerequisites: []
+    subsequent_points:
+      - "eng-g3-t1-u01-p07"
+    applicable_question_types: ["choice", "match", "dialogue"]
+    teaching_boundary:
+      scope_allowed:
+        - "安慰与分享建议：It's OK. We can share."
+        - "致谢应答：Thanks. / Thank you."
+        - "情境选择（如文具忘带、共同使用物品时的恰当交流）"
+      scope_excluded:
+        - "情态动词 can 的复杂句式变换（否定疑问等）"
+        - "You're welcome 等未在第一单元出现的应答"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [7]
+      example_ref: ["ex_4"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u01-p07"
+    lesson_id: "lesson-05"
+    point_name: "好朋友品格与行为动词及陈述表达"
+    learning_objectives:
+      - "能够听、说、认读好朋友核心品格行为动词：smile, listen, help, share"
+      - "能用 I + 动词 陈述自己的友好行为（I smile. / I listen. / I help. / I share.）"
+      - "理解核心态度句：I am nice to my friends."
+    prerequisites:
+      - "eng-g3-t1-u01-p06"
+    subsequent_points:
+      - "eng-g3-t1-u01-p08"
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "核心动词：smile（微笑）, listen（倾听）, help（帮助）, share（分享）"
+        - "交友态度：I am nice to my friends."
+        - "动词与交往情境（如帮助同学、认真倾听同伴说话）的配对"
+      scope_excluded:
+        - "第三人称单数动词变位（如 smiles, helps 等，三年级上册不涉及）"
+        - "动词过去式或进行时态"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [8]
+      example_ref: ["ex_5"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u01-p08"
+    lesson_id: "lesson-06"
+    point_name: "好朋友主题海报简易语篇理解与交际判断"
+    learning_objectives:
+      - "能够读懂《I am a good friend!》简易海报与自我介绍短文"
+      - "能从图文语篇中提取关键信息，判断行为是否符合好朋友的标准"
+    prerequisites:
+      - "eng-g3-t1-u01-p04"
+      - "eng-g3-t1-u01-p07"
+    subsequent_points: []
+    applicable_question_types: ["reading", "choice", "judge"]
+    teaching_boundary:
+      scope_allowed:
+        - "海报阅读材料：包含姓名介绍、礼貌打招呼、smile, listen, help, share 等好朋友品质描述"
+        - "正误判断题（T/F）、简单信息匹配题"
+      scope_excluded:
+        - "生词率超过5%的复杂阅读理解篇章"
+        - "开放性英语长句书面写作"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [9, 10]
+      example_ref: ["ex_6"]
+    verification_status: "verified"

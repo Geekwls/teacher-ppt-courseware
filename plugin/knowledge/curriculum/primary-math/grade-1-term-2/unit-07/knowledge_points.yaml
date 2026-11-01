@@ -1,0 +1,84 @@
+unit_id: unit-07
+source_id: pep_math_g1_t2_2024
+points:
+- point_id: math-g1-t2-u07-p01
+  unit_id: unit-07
+  lesson_id: math-g1-t2-u07-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 100 以内数与加减法的结构化整理
+  learning_objectives:
+  - 能用知识图梳理 100 以内数的认识与加减法，比较熟练地计算
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P83
+    - P92
+    anchor_text: 单元起始页 P83 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 100 以内加减法综合练习
+    - 用知识图整理所学内容
+    scope_excluded:
+    - 万以内数
+    - 乘除法
+- point_id: math-g1-t2-u07-p02
+  unit_id: unit-07
+  lesson_id: math-g1-t2-u07-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 数量关系的综合运用
+  learning_objectives:
+  - 能综合运用加减关系解决实际问题，并回顾反思解题过程
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P83
+    - P92
+    anchor_text: 单元起始页 P83 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 综合解决加减法实际问题
+    scope_excluded:
+    - 乘除法实际问题
+    - 三步问题
+- point_id: math-g1-t2-u07-p03
+  unit_id: unit-07
+  lesson_id: math-g1-t2-u07-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 提出并解决数学问题（开放题）
+  learning_objectives:
+  - 能根据情境自主提出数学问题并解答，说清思考过程
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P83
+    - P92
+    anchor_text: 单元起始页 P83 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 自主提问并解答
+    scope_excluded:
+    - 脱离情境的纯计算

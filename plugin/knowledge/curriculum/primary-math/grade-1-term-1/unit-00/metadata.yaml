@@ -1,0 +1,15 @@
+unit_id: unit-00
+unit_name: 数学游戏
+subject: math
+edition: 人教版
+grade: 1
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: verified
+source_id: pep_math_g1_t1_2024
+teaching_reference_source_id: pep_math_g1_t1_tr_2024
+page_range: P1-P11
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版人教版小学数学一年级上册电子课本》逐页实证核定：课本 PDF 共 27 页，页脚印刷页码实测偏移 = 5（PDF#6 = 印刷 P1）；本册可读印刷页区间为 P1–P21。「数学游戏」为全册开篇的入学准备板块，目录起始页 P1，含「在校园里找一找」P2–P3、「在操场上玩一玩」P4–P5、「在教室里认一认」P6–P7、「在教室里玩一玩」P8–P9、「学习准备」P10–P11，全部落在可读区间内，故记为 verified。
+unit_overview: 「数学游戏」是 2024 版一年级上册的开篇入学准备板块（不计入单元序号，目录起始页 P1）。教材以「校园—操场—教室」三个真实场景为载体，让学生在游戏与活动中自然地经历数数、辨认物体形状、辨别方位、按指令行动与比较多少，完成从幼儿园到小学数学学习的过渡，同时渗透倾听、表达、遵守规则、整理学具等学习习惯。本板块不设书面算式，重在「用数学的眼光看身边的事物」。
+numeric_upper_bound: 10

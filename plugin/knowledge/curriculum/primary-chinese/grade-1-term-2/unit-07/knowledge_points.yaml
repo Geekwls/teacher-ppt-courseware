@@ -1,0 +1,60 @@
+unit_id: unit-07
+source_id: pep_chinese_g1_t2_2024
+points:
+- point_id: chi-g1-t2-u07-p01
+  unit_id: unit-07
+  lesson_id: chi-g1-t2-u07-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 《文具的家》与《一分钟》
+  learning_objectives:
+  - 能朗读两篇课文，能说出贝贝怎样给文具找到家、元元为什么迟到了二十分钟
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P78
+    - P81
+    anchor_text: 单元起始页 P78 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《文具的家》中「文具的家」指文具盒
+    - 《一分钟》中元元因多睡一分钟而迟到二十分钟的因果链
+    scope_excluded:
+    - 时间管理方法论的系统讲解
+    - 写话
+- point_id: chi-g1-t2-u07-p02
+  unit_id: unit-07
+  lesson_id: chi-g1-t2-u07-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 《动物王国开大会》《小猴子下山》与语文园地七
+  learning_objectives:
+  - 能朗读两篇课文，能说出通知要说清楚哪几项内容、小猴子为什么空着手回家
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P84
+    - P90
+    - P93
+    anchor_text: 单元起始页 P84 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 通知要说清楚时间、地点、参加人、事情等要素
+    - 《小猴子下山》中「扔了……去摘……」的反复结构
+    scope_excluded:
+    - 公文写作的系统讲解
+    - 写话

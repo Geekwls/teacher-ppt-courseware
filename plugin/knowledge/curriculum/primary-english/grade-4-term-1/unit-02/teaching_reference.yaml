@@ -1,0 +1,60 @@
+unit_id: unit-02
+source_id: pep_english_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教版PEP小学英语四年级上册教师用书》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: eng-g4-t1-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「is + 形容词」与「has + 名词」两类句型并列，让学生通过描述同一位朋友体会两种句型的区别
+    difficulty: 学生易说 He is long hair（该用 has）；易把 thin 与 short 混用
+    typical_misconceptions:
+    - error_pattern: 该用 has 时误用 is
+      misconception_type: 系动词与实义动词混淆
+    - error_pattern: 形容词词义混淆
+      misconception_type: 词汇掌握不牢
+  variation_strategy:
+  - 用 is/has 描述一位朋友
+  - 选择正确的形容词或名词短语
+- point_id: eng-g4-t1-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「猜猜他是谁」的游戏情境，让学生在问答中反复操练 his/her 的区别
+    difficulty: 学生易把 his 与 her 混用；易说成 What's he name?
+    typical_misconceptions:
+    - error_pattern: his 与 her 混用
+      misconception_type: 物主代词错误
+    - error_pattern: 问句漏掉 -'s
+      misconception_type: 所有格错误
+  variation_strategy:
+  - 用 What's his/her name? 问答
+  - 用 his/her 完成句子
+- point_id: eng-g4-t1-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「介绍我和朋友一起做的事」为任务，把动词第三人称单数形式的变化显性化
+    difficulty: 学生易在 He/She 后用动词原形（He play）；易漏掉 together
+    typical_misconceptions:
+    - error_pattern: 第三人称单数漏加 -s
+      misconception_type: 主谓一致错误
+    - error_pattern: 漏掉 together
+      misconception_type: 搭配遗漏
+  variation_strategy:
+  - 用 together 写出与朋友一起做的事
+  - 把动词改为正确的第三人称单数形式
+- point_id: eng-g4-t1-u02-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把 sh 与 ch 的例词成对呈现，让学生在对比朗读中体会两个音的区别
+    difficulty: 学生易把 sh 与 ch 混淆；易把 /ʃ/ 读成 /s/
+    typical_misconceptions:
+    - error_pattern: sh 与 ch 混淆
+      misconception_type: 音形对应错误
+    - error_pattern: /ʃ/ 读成 /s/
+      misconception_type: 发音错误
+  variation_strategy:
+  - 朗读含 sh 的例词
+  - 判断单词中含 sh 还是 ch

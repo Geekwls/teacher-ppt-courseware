@@ -1,0 +1,113 @@
+unit_id: "unit-2"
+blueprints:
+  - blueprint_id: "bp-chi-g3-t1-u02-standard"
+    title: "第二单元金秋时节标准练习卷命题蓝图"
+    target_practice: "单元综合巩固与能力提升练习"
+    total_score: 100
+    suggested_time_minutes: 60
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础题（共 60 分，占比 60%）
+      - slot_id: "slot-01"
+        section: "一、字词芳草地：读拼音，写词语（规范书写在田字格中）"
+        question_type: "writing"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["chi-g3-t1-u02-p01"]
+        guidelines: "精选本单元重点词语：金色、水泥、规则、排列、丰收。提供标准拼音，在规范田字格中工整书写。"
+
+      - slot_id: "slot-02"
+        section: "二、语音辨识营：给带点的字选择正确的读音打『√』"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 4
+        target_points: ["chi-g3-t1-u02-p02"]
+        guidelines: "考查多音字『挑、铺、曲、扇』在不同具体语境中的读音辨析。"
+
+      - slot_id: "slot-03"
+        section: "三、词语积累屋：把下列描写秋天的成语补充完整"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 1
+        item_count: 8
+        target_points: ["chi-g3-t1-u02-p06"]
+        guidelines: "考查语文园地二日积月累成语：秋高气(爽)、天高云(淡)、一叶知(秋)、金桂(飘)香、层林尽(染)、五谷丰(登)、果实(累)累、春(华)秋实。"
+
+      - slot_id: "slot-04"
+        section: "四、字词比拼台：形近字组词与词语搭配"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 4
+        target_points: ["chi-g3-t1-u02-p01"]
+        guidelines: "形近字对比组词：径/经、料/科、残/钱、寒/赛。"
+
+      - slot_id: "slot-05"
+        section: "五、古诗背诵厅：古诗名句默写与字词释义"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["chi-g3-t1-u02-p03"]
+        guidelines: "默写《山行》《望洞庭》《夜书所见》经典诗句，重点考查『霜叶红于二月花』『白银盘里一青螺』等名句。严禁出现旧版篇目《赠刘景文》。"
+
+      - slot_id: "slot-06"
+        section: "六、课文回音壁：根据课文内容填空"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["chi-g3-t1-u02-p05"]
+        guidelines: "考查《铺满金色巴掌的水泥道》《秋天的雨》关键景物描写与比喻形象。"
+
+      - slot_id: "slot-07"
+        section: "七、文体规范展：日记格式辨析"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 3
+        item_count: 2
+        target_points: ["chi-g3-t1-u02-p07"]
+        guidelines: "考查写日记第一行的要素（日期、星期、天气）与正文开头空两格的格式要求。"
+
+      # 二、变式题（共 30 分，占比 30%）
+      - slot_id: "slot-08"
+        section: "八、词句理解苑：运用多种方法理解难懂词语"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 2
+        target_points: ["chi-g3-t1-u02-p04"]
+        guidelines: "结合具体句子语境，考查『明朗』『凌乱』等词语的意思及理解方法（联系上下文、结合生活）。"
+
+      - slot_id: "slot-09"
+        section: "九、修辞芳草地：仿照例句写句子"
+        question_type: "writing"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 2
+        target_points: ["chi-g3-t1-u02-p05"]
+        guidelines: "体会『黄黄的叶子像一枚枚邮票』等比喻拟人句，仿写秋天的果实或落叶。"
+
+      - slot_id: "slot-10"
+        section: "十、课外阅读吧：秋天的童话语段阅读"
+        question_type: "reading"
+        difficulty: "variation"
+        points_per_item: 7
+        item_count: 2
+        target_points: ["chi-g3-t1-u02-p04", "chi-g3-t1-u02-p05"]
+        guidelines: "短文阅读，考查提取信息、联系上下文理解关键词以及概括秋天景物特点。"
+
+      # 三、挑战题（共 10 分，占比 10%）
+      - slot_id: "slot-11"
+        section: "十一、妙笔生花台：秋日观察微日记小练笔"
+        question_type: "writing"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["chi-g3-t1-u02-p07"]
+        guidelines: "运用标准日记格式，观察身边的秋天景物（落叶、秋雨、桂花等），写一段100字左右的生动微日记。"

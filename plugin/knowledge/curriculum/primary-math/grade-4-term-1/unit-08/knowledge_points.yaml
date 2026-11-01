@@ -1,0 +1,32 @@
+unit_id: unit-08
+source_id: pep_math_g4_t1_2024
+points:
+- point_id: math-g4-t1-u08-p01
+  unit_id: unit-08
+  lesson_id: math-g4-t1-u08-l01
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 用数对与方向距离确定位置
+  learning_objectives:
+  - 能用数对描述方格纸上点的位置，能按「方向 + 距离」的指令寻找目标位置
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P102
+    - P104
+    - P106
+    anchor_text: 单元起始页 P102 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 数对（列，行）的读法与写法
+    - 按方向与距离确定位置
+    scope_excluded:
+    - 平面直角坐标系的系统讲解
+    - 地理坐标与导航原理

@@ -1,0 +1,15 @@
+unit_id: unit-02
+unit_name: 第二单元 1～6的表内乘法
+subject: math
+edition: 人教版
+grade: 2
+term: term-1
+version: 2026.10.3
+updated_at: '2026-10-15'
+verification_status: verified
+source_id: pep_math_g2_t1_2024
+teaching_reference_source_id: pep_math_g2_t1_tr_2024
+page_range: P10-P29
+page_evidence_note: 页码于 2026-10-15 依据用户提供的完整版《2026版人教版小学数学二年级上册电子课本》（共106页，ISBN 978-7-107-38912-2）逐页实证核定：页脚印刷页码实测偏移 = 4（PDF#14 = 印刷 P10，PDF#33 = 印刷 P29）。本单元真实版面为 P10–P29，已取得逐页原文例题与练习凭证：P10 便利店情境图引出同数相加、P11-P13 乘法的初步认识（几个几相加、乘法算式读法与各部分名称乘数/积）、P14-P18 2~5的乘法口诀、P19-P22 6的乘法口诀与乘加乘减（旋转木马与糖葫芦情境）、P23-P29 解决问题与综合练习，全量实证闭环，状态晋级为 verified。
+unit_overview: 学习乘法的初步认识（乘法算式的读写、各部分名称）与 2～6 的乘法口诀，掌握乘加乘减运算顺序（先乘后加减），用表内乘法解决简单的实际问题。
+numeric_upper_bound: 100

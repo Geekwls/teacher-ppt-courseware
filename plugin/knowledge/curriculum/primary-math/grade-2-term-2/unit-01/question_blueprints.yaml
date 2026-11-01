@@ -1,0 +1,76 @@
+unit_id: unit-01
+blueprints:
+- blueprint_id: bp-math-g2-t2-u01-standard
+  title: 第一单元 有余数的除法标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、算一算：有余数的除法
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 6
+    target_points:
+    - math-g2-t2-u01-p01
+    - math-g2-t2-u01-p04
+    guidelines: 用竖式计算除数是一位数的有余数除法。
+  - slot_id: slot-02
+    section: 二、填一填：括号里最大能填几
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g2-t2-u01-p04
+    guidelines: （　）×6<57 等试商铺垫练习。
+  - slot_id: slot-03
+    section: 三、判一判：余数与除数
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g2-t2-u01-p02
+    guidelines: 判断算式是否有误，说明「余数要比除数小」。
+  - slot_id: slot-04
+    section: 四、填一填：各部分关系
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g2-t2-u01-p03
+    guidelines: 根据被除数=除数×商+余数填空或验算。
+  - slot_id: slot-05
+    section: 五、解决问题（进一法）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 8
+    item_count: 2
+    target_points:
+    - math-g2-t2-u01-p05
+    guidelines: 「至少需要几个」类问题，列式计算并说明理由。
+  - slot_id: slot-06
+    section: 六、解决问题（周期规律）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 8
+    item_count: 2
+    target_points:
+    - math-g2-t2-u01-p06
+    guidelines: 按规律排列的第 n 个物体是什么，列式并说明。
+  - slot_id: slot-07
+    section: 七、想一想（逆向问题）
+    question_type: fill_blank
+    difficulty: challenge
+    points_per_item: 8
+    item_count: 1
+    target_points:
+    - math-g2-t2-u01-p07
+    guidelines: 已知余数求除数/被数的取值范围，写出推理过程。

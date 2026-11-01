@@ -1,0 +1,28 @@
+unit_id: "unit-4"
+unit_number: 4
+unit_name: "第四单元 多位数乘一位数"
+subject: "math"
+edition: "人教版"
+grade: 3
+term: "term-1"
+version: "2026.10.2"
+updated_at: "2026-10-09"
+verification_status: "verified"
+source_id: "pep_math_g3_t1_2024"
+teaching_ref_source_id: "pep_math_g3_t1_tr_2024"
+page_range: "P39-P56"
+numeric_upper_bound: 10000
+legacy_unit_alias: "unit-6"  # 兼容旧版（2013审定版）第6单元的平移映射
+curriculum_standard_ref: "义务教育数学课程标准（2022年版）第二学段数与运算"
+page_evidence_note: >
+  页码于 2026-10-09 依据用户提供的《2024版人教版小学数学三年级上册电子课本》逐页复核：
+  单元起始页 P39（游乐园项目价格表主题图），单元结束页 P56（练习十一）。
+  本单元内部锚点：P40 口算乘法、P43 笔算乘法（不进位）、P44 一次进位、P45 连续进位、
+  P49 0 的乘法、P50 因数中间/末尾有 0、P51 用估算解决问题、P55 整理和复习。
+  此前登记的 P56-P78 系 2013 审定版第六单元版面，**已废弃**（跨版次页码复用，禁止）。
+unit_overview: >
+  本单元是在学生熟练掌握表内乘法（乘法口诀）以及百以内加减法的基础上进行学习的。
+  内容包括整十、整百、整千数乘一位数的口算，两位数乘一位数（不进位）口算，
+  两、三位数乘一位数的笔算（不进位、一次进位、连续进位），0 的乘法规律，
+  因数中间或末尾有 0 的乘法，以及用估算解决实际问题。这是后续学习多位数乘多位数
+  和小数乘法的重要基础。

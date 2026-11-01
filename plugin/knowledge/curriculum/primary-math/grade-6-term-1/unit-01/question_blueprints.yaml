@@ -1,0 +1,69 @@
+unit_id: unit-01
+blueprints:
+- blueprint_id: bp-math-g6-t1-u01-standard
+  title: 第一单元 确定位置标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填（数对）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - math-g6-t1-u01-p01
+    guidelines: 用有序数对表示图中点的位置。
+  - slot_id: slot-02
+    section: 二、填一填（方向与距离）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - math-g6-t1-u01-p02
+    guidelines: 用方向和距离描述物体的位置。
+  - slot_id: slot-03
+    section: 三、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g6-t1-u01-p01
+    - math-g6-t1-u01-p02
+    - math-g6-t1-u01-p04
+    guidelines: 判断关于确定位置的说法是否正确。
+  - slot_id: slot-04
+    section: 四、标一标（在平面图上标位置）
+    question_type: writing
+    difficulty: variation
+    points_per_item: 6
+    item_count: 3
+    target_points:
+    - math-g6-t1-u01-p03
+    guidelines: 根据描述在平面图上标出物体的位置。
+  - slot_id: slot-05
+    section: 五、说一说（描述路线）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 8
+    item_count: 2
+    target_points:
+    - math-g6-t1-u01-p03
+    guidelines: 用方向和距离按段描述行走路线。
+  - slot_id: slot-06
+    section: 六、解决问题（综合）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 9
+    item_count: 2
+    target_points:
+    - math-g6-t1-u01-p03
+    - math-g6-t1-u01-p04
+    guidelines: 综合运用两种方法解决实际问题。

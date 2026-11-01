@@ -1,0 +1,46 @@
+unit_id: unit-03
+source_id: pep_math_g1_t1_tr_2024
+ref_page_note: ''
+teaching_references:
+- point_id: math-g1-t1-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「10 个一捆成 1 捆」的操作建立十进观念
+    difficulty: 把 11 读成「一十一」，或不能理解「1 个十和 1 个一」
+    typical_misconceptions:
+    - error_pattern: 把 11、12 读作「一十一」「一十二」
+      misconception_type: 读数规则未掌握
+    - error_pattern: 捆小棒时不能把 10 根与 1 个十对应
+      misconception_type: 十进观念未建立
+  variation_strategy:
+  - 摆小棒：1 捆加几根，说出表示的数
+  - 看数摆小棒并说出「几个十和几个一」
+- point_id: math-g1-t1-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助数轴（直尺）上的位置理解数的顺序与大小
+    difficulty: 十几与二十的顺序易错（如认为 19 后面是 30）
+    typical_misconceptions:
+    - error_pattern: 19 的后面误填 30
+      misconception_type: 数序断裂
+    - error_pattern: 比较 12 与 9 时误判为 9 大（只看个位）
+      misconception_type: 数位意识缺失
+  variation_strategy:
+  - 在直尺（数轴）上标出 11～20 并读数
+  - 填相邻数、比大小
+- point_id: math-g1-t1-u03-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在数的组成基础上理解 10 加几、十几减几的算理
+    difficulty: 把 10+3 算成 13 但说不出为什么，或算 13−3 时算成 11
+    typical_misconceptions:
+    - error_pattern: 13−3 误算为 11
+      misconception_type: 算理不清、凭感觉计算
+    - error_pattern: 不能说出 15 由 1 个十和 5 个一组成
+      misconception_type: 组成表述不完整
+  variation_strategy:
+  - 用小棒演示 10+3 与 13−3 的过程
+  - 看组成直接说得数

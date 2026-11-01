@@ -1,0 +1,203 @@
+edition_lock:
+  textbook_name: 义务教育教科书 语文 二年级上册
+  publisher: 人民教育出版社
+  approval_year: 教育部2022课标2024/2026修订新版
+  grade: 2
+  term: term-1
+  unit_id: unit-08
+  unit_name: 第八单元 美好相处与伙伴真情
+  page_range: P95-P107
+  verified: true
+lessons_map:
+- lesson_id: chi-g2-t1-u08-l01
+  title: 21 称赞
+  page: P95-P97
+  core_writing_chars:
+  - 拿
+  - 仔
+  - 极
+  - 送
+  - 椅
+  - 怎
+  - 拉
+  - 收
+  - 接
+- lesson_id: chi-g2-t1-u08-l02
+  title: 22 纸船和风筝
+  page: P98-P100
+  core_writing_chars:
+  - 纸
+  - 抓
+  - 线
+  - 吵
+  - 但
+  - 受
+  - 句
+  - 哭
+- lesson_id: chi-g2-t1-u08-l03
+  title: 23 快乐的小河
+  page: P101-P103
+  core_writing_chars:
+  - 游
+  - 戏
+  - 爱
+  - 呢
+  - 跳
+  - 咱
+- lesson_id: chi-g2-t1-u08-l04
+  title: 语文园地八
+  page: P104-P107
+  core_writing_chars:
+  - 狼
+  - 蛇
+official_vocab_table:
+- word: 果子
+  lesson: 21 称赞
+- word: 木工
+  lesson: 21 称赞
+- word: 身边
+  lesson: 21 称赞
+- word: 仔细
+  lesson: 21 称赞
+- word: 能干
+  lesson: 21 称赞
+- word: 椅子
+  lesson: 21 称赞
+- word: 自信
+  lesson: 21 称赞
+- word: 从来
+  lesson: 21 称赞
+- word: 这么
+  lesson: 21 称赞
+- word: 上面
+  lesson: 22 纸船和风筝
+- word: 快乐
+  lesson: 22 纸船和风筝
+- word: 可是
+  lesson: 22 纸船和风筝
+- word: 难过
+  lesson: 22 纸船和风筝
+- word: 但是
+  lesson: 22 纸船和风筝
+- word: 和好
+  lesson: 22 纸船和风筝
+- word: 眼泪
+  lesson: 23 快乐的小河
+- word: 水花
+  lesson: 23 快乐的小河
+- word: 青草
+  lesson: 23 快乐的小河
+- word: 游戏
+  lesson: 23 快乐的小河
+- word: 只有
+  lesson: 23 快乐的小河
+- word: 可爱
+  lesson: 23 快乐的小河
+- word: 多少
+  lesson: 23 快乐的小河
+- word: 咱们
+  lesson: 23 快乐的小河
+- word: 田野
+  lesson: 23 快乐的小河
+- word: 大地
+  lesson: 23 快乐的小河
+- word: 远方
+  lesson: 23 快乐的小河
+- word: 动物
+  lesson: 语文园地八
+- word: 生肖
+  lesson: 语文园地八
+- word: 成语
+  lesson: 语文园地八
+three_tier_vocab:
+  lessons_desc: 《称赞》《纸船和风筝》《快乐的小河》
+  tier_a_phrases:
+  - pinyin: guǒ zi
+    word: 果子
+  - pinyin: mù gōng
+    word: 木工
+  - pinyin: shēn biān
+    word: 身边
+  - pinyin: zǐ xì
+    word: 仔细
+  - pinyin: néng gàn
+    word: 能干
+  - pinyin: yǐ zi
+    word: 椅子
+  - pinyin: zì xìn
+    word: 自信
+  - pinyin: cóng lái
+    word: 从来
+  - pinyin: zhè me
+    word: 这么
+  - pinyin: shàng mian
+    word: 上面
+  - pinyin: kuài lè
+    word: 快乐
+  - pinyin: kě shì
+    word: 可是
+  - pinyin: nán guò
+    word: 难过
+  - pinyin: dàn shì
+    word: 但是
+  - pinyin: hé hǎo
+    word: 和好
+  - pinyin: yǎn lèi
+    word: 眼泪
+  - pinyin: shuǐ huā
+    word: 水花
+  - pinyin: qīng cǎo
+    word: 青草
+  - pinyin: yóu xì
+    word: 游戏
+  - pinyin: zhǐ yǒu
+    word: 只有
+  - pinyin: kě ài
+    word: 可爱
+  - pinyin: duō shao
+    word: 多少
+  - pinyin: zán men
+    word: 咱们
+  - pinyin: tián yě
+    word: 田野
+  - pinyin: dà dì
+    word: 大地
+  - pinyin: yuǎn fāng
+    word: 远方
+  tier_b_pairs:
+  - char1: 仔
+    word1: 仔细
+    char2: 子
+    word2: 儿子
+  - char1: 纸
+    word1: 白纸
+    char2: 低
+    word2: 低头
+  - char1: 游
+    word1: 游戏
+    char2: 放
+    word2: 放手
+  - char1: 吵
+    word1: 吵架
+    char2: 抄
+    word2: 抄写
+  tier_c_phrases:
+  - pinyin: cì wei
+    word: 刺猬
+  - pinyin: bǎn dèng
+    word: 板凳
+  - pinyin: cū cāo
+    word: 粗糙
+  - pinyin: sōng shǔ
+    word: 松鼠
+  - pinyin: piāo dàng
+    word: 飘荡
+  - pinyin: xiè qì
+    word: 泄气
+  strokes_challenge:
+  - question_stem: “纸”的右边下面没有（    ），切勿写成“氏”多一点。
+    answer_text: 点
+  - question_stem: “游”的部首是____________旁，右半部分由“方”字、撇横部件和“子”字组成，注意右边不是反文旁（攵）。
+    answer_text: 三点水（氵）
+  - question_stem: “祝”的部首是____________旁（礻），表示祈福，切勿写成衣字旁（衤）。
+    answer_text: 示字

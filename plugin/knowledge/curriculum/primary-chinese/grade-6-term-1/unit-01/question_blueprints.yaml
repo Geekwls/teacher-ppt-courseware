@@ -1,0 +1,69 @@
+unit_id: unit-01
+blueprints:
+- blueprint_id: bp-chi-g6-t1-u01-standard
+  title: 第一单元 触摸自然标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、字词积累
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 8
+    target_points:
+    - chi-g6-t1-u01-p01
+    guidelines: 看拼音写词语、古诗默写。
+  - slot_id: slot-02
+    section: 二、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - chi-g6-t1-u01-p02
+    - chi-g6-t1-u01-p03
+    guidelines: 判断写法、比较诗词情感。
+  - slot_id: slot-03
+    section: 三、句子练习
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - chi-g6-t1-u01-p02
+    guidelines: 找出融入感受的句子并说明好处。
+  - slot_id: slot-04
+    section: 四、积累与运用
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - chi-g6-t1-u01-p01
+    - chi-g6-t1-u01-p03
+    guidelines: 古诗填空、日积月累默写。
+  - slot_id: slot-05
+    section: 五、阅读理解
+    question_type: reading
+    difficulty: variation
+    points_per_item: 9
+    item_count: 2
+    target_points:
+    - chi-g6-t1-u01-p01
+    - chi-g6-t1-u01-p02
+    guidelines: 读片段，写出联想到的内容并体会写法。
+  - slot_id: slot-06
+    section: 六、习作
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 12
+    item_count: 1
+    target_points:
+    - chi-g6-t1-u01-p04
+    guidelines: 发挥想象写「变形记」。

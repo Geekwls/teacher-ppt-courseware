@@ -1,0 +1,59 @@
+unit_id: unit-08
+source_id: pep_chinese_g2_t2_2024
+points:
+- point_id: chi-g2-t2-u08-p01
+  unit_id: unit-08
+  lesson_id: chi-g2-t2-u08-l01
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《羿射九日》与神话传说
+  learning_objectives:
+  - 能朗读《羿射九日》，能按顺序说出羿射九日的过程
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P100
+    anchor_text: 单元起始页 P100 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《羿射九日》中十个太阳带来的灾难与羿射九日的过程
+    - 神话传说中夸张与想象的表达
+    scope_excluded:
+    - 神话学的系统研究
+    - 写话
+- point_id: chi-g2-t2-u08-p02
+  unit_id: unit-08
+  lesson_id: chi-g2-t2-u08-l01
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《黄帝的传说》《大禹治水》与语文园地八
+  learning_objectives:
+  - 能朗读两篇课文，能说出黄帝的发明与大禹治水「三过家门而不入」的事迹
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P103
+    - P106
+    - P109
+    anchor_text: 单元起始页 P103 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 黄帝的传说中造车、造船等发明
+    - 大禹治水「三过家门而不入」与疏通河道的方法
+    scope_excluded:
+    - 上古史与考古发现的系统讲解
+    - 写话

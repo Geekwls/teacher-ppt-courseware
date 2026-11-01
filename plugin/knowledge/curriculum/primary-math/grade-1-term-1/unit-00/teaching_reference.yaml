@@ -1,0 +1,102 @@
+unit_id: unit-00
+source_id: pep_math_g1_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2024年秋人教版教师教学用书数学一年级上册》为**纯扫描件（270 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g1-t1-u00-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以真实场景中的数数为入口，建立数感与一一对应思想
+    difficulty: 学生易「手口不一」（点数与口说数字不同步）或漏数、重复数
+    typical_misconceptions:
+    - error_pattern: 点数时手口不一致，导致总数错误
+      misconception_type: 一一对应意识薄弱
+    - error_pattern: 把「第2层」的序数与「4层」的基数混淆
+      misconception_type: 基数与序数概念混淆
+  variation_strategy:
+  - 数一数教室里某一类物品的个数并说给同伴听
+  - 用不同方式（手指、画圈）表示同一个数
+- point_id: math-g1-t1-u00-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助实物表面初步感知平面图形，为后续「认识平面图形」积累经验
+    difficulty: 学生易把「面」与「体」混淆（把窗户说成长方体）
+    typical_misconceptions:
+    - error_pattern: 把物体的面说成整个立体图形
+      misconception_type: 面与体混淆
+    - error_pattern: 只认标准摆放的图形，旋转后即认不出
+      misconception_type: 图形表征固化
+  variation_strategy:
+  - 在教室里找一找还有哪些物体的面是长方形的
+  - 用纸描出物体表面的形状并说出名称
+- point_id: math-g1-t1-u00-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在游戏情境中产生比较需求，渗透一一对应的比较方法
+    difficulty: 学生易凭视觉长短或疏密直接判断，而非一一对应
+    typical_misconceptions:
+    - error_pattern: 凭「看起来长/密」判断多少
+      misconception_type: 未建立一一对应比较法
+    - error_pattern: 把「多1个」说成「多」而不给数量
+      misconception_type: 数量表达不精确
+  variation_strategy:
+  - 排两排物品，用连线的方式比较多少
+  - 说出「谁比谁多几个」，并说出是怎么知道的
+- point_id: math-g1-t1-u00-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以自身为中心建立左右概念，再迁移到以他人为中心
+    difficulty: 「左右」相对性易错：判断他人左右时仍按自己的左右
+    typical_misconceptions:
+    - error_pattern: 判断对面同伴的左手时按自己的左边作答
+      misconception_type: 左右相对性未掌握
+    - error_pattern: 把「前面」与「上面」混用
+      misconception_type: 方位词辨析不清
+  variation_strategy:
+  - 面对面做「摸对方的左耳」游戏并说明理由
+  - 用方位词描述自己座位前后左右的同学
+- point_id: math-g1-t1-u00-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 通过正话反做等游戏强化「第几」表示位置的观念
+    difficulty: 学生易把「第3个」理解为「3个」
+    typical_misconceptions:
+    - error_pattern: 把「第3个同学」数成3个同学
+      misconception_type: 序数与基数混淆
+    - error_pattern: 从左数、从右数起点不清导致数错
+      misconception_type: 起点意识薄弱
+  variation_strategy:
+  - 从左边数与从右边数，说出同一人的不同序号
+  - 按要求把指定序号的物品圈出来
+- point_id: math-g1-t1-u00-p06
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在拼组活动中同时发展图形感知与分类计数能力
+    difficulty: 学生易漏数被遮挡的图形，或把不同形状合并计数
+    typical_misconceptions:
+    - error_pattern: 把三角形与正方形合并成「4个图形」
+      misconception_type: 未按标准分类
+    - error_pattern: 漏数被压住的图形
+      misconception_type: 空间观察不细致
+  variation_strategy:
+  - 用学具拼一个图案，说出每种形状各用了几个
+  - 根据「用了几个」反推拼的是什么图案
+- point_id: math-g1-t1-u00-p07
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「学习准备」落实入学适应教育，培养良好学习习惯
+    difficulty: 学生易忽视倾听要求，只关注自己发言
+    typical_misconceptions:
+    - error_pattern: 打断同伴发言，不倾听
+      misconception_type: 倾听习惯未建立
+    - error_pattern: 学具摆放随意，课前准备不到位
+      misconception_type: 自理习惯待养成
+  variation_strategy:
+  - 说一说上课前要做哪些准备，并演示给同伴看
+  - 评一评图中哪位同学的做法好，说明理由

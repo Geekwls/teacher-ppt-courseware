@@ -1,0 +1,80 @@
+unit_id: unit-06
+blueprints:
+- blueprint_id: bp-chi-g2-t1-u06-standard
+  title: 第六单元 阅读标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、看拼音写词语
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - chi-g2-t1-u06-p01
+    - chi-g2-t1-u06-p02
+    guidelines: 借助拼音写出本单元的重点词语。
+  - slot_id: slot-02
+    section: 二、填一填（人物与事迹）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 2
+    item_count: 5
+    target_points:
+    - chi-g2-t1-u06-p01
+    - chi-g2-t1-u06-p02
+    guidelines: 填写课文中人物的事迹要点。
+  - slot_id: slot-03
+    section: 三、选一选（人物品质）
+    question_type: choice
+    difficulty: basic
+    points_per_item: 2
+    item_count: 4
+    target_points:
+    - chi-g2-t1-u06-p01
+    - chi-g2-t1-u06-p02
+    guidelines: 选出与人物品质相符的说法。
+  - slot_id: slot-04
+    section: 四、读一读，背一背
+    question_type: reading
+    difficulty: basic
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - chi-g2-t1-u06-p01
+    - chi-g2-t1-u06-p02
+    guidelines: 朗读课文并背诵要求背诵的段落。
+  - slot_id: slot-05
+    section: 五、连一连（人物与事迹）
+    question_type: match
+    difficulty: variation
+    points_per_item: 3
+    item_count: 3
+    target_points:
+    - chi-g2-t1-u06-p01
+    - chi-g2-t1-u06-p02
+    guidelines: 把革命先辈与相应事迹连线。
+  - slot_id: slot-06
+    section: 六、日积月累
+    question_type: reading
+    difficulty: variation
+    points_per_item: 5
+    item_count: 2
+    target_points:
+    - chi-g2-t1-u06-p02
+    guidelines: 朗读并背诵语文园地六的日积月累。
+  - slot_id: slot-07
+    section: 七、写话与表达
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 5
+    item_count: 6
+    target_points:
+    - chi-g2-t1-u06-p01
+    guidelines: 结合单元主题写一两句话（不会写的字可用拼音代替），注意语句通顺、标点正确。

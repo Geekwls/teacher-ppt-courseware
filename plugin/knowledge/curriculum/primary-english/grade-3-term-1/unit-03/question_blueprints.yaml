@@ -1,0 +1,79 @@
+unit_id: "unit-3"
+blueprints:
+  - blueprint_id: "bp-eng-g3-t1-u03-standard"
+    title: "Unit 3 Amazing animals 标准练习卷蓝图"
+    target_practice: "单元基础达标与动物世界探究素养提升练习（6:3:1 阶梯）"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、字母乐园 (Letters & Phonics)（20分）
+      - slot_id: "slot-01"
+        section: "一、字母乐园：规范书写与大小写配对"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u03-p01"]
+        guidelines: "考查字母 Ii, Jj, Kk, Ll 的大小写对应、四线三格占位与按字母表顺序填空（特别关注小写 j 占三格）。"
+
+      - slot_id: "slot-02"
+        section: "二、拼读侦探：字母发音与例词拼读"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u03-p02"]
+        guidelines: "考查 Ii-Ll 在核心词汇（ill, jet, kite, lion）中的发音，找出每组中首音或短元音 /ɪ/ 匹配项及 CVC 拼读（big, dig）。"
+
+      # 二、词汇天地 (Vocabulary & Grammar)（20分）
+      - slot_id: "slot-03"
+        section: "三、词汇天地：选出不同类的一项"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u03-p03", "eng-g3-t1-u03-p05", "eng-g3-t1-u03-p07"]
+        guidelines: "选出每组不同类的词汇（如宠物与野生动物混排、动物名词与形容词 big/small 混排）。"
+
+      - slot_id: "slot-04"
+        section: "四、冠词与图文对号入座"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u03-p03", "eng-g3-t1-u03-p05"]
+        guidelines: "看图填入动物名称或在括号内选择填入 a 或 an（如 a panda, an elephant）。"
+
+      # 三、情境交际 (Contextual Communication)（20分）
+      - slot_id: "slot-05"
+        section: "五、情境交际单项选择"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u03-p04", "eng-g3-t1-u03-p06"]
+        guidelines: "考查 Do you have a pet? 及其答语、What's this/that? 及其答语，以及 Let's go to the zoo! 和 It's cute! 的真实语境运用。"
+
+      # 四、连词成句与特征匹配 (Sentence Building & Matching)（20分）
+      - slot_id: "slot-06"
+        section: "六、动物特征手拉手与规范连词"
+        question_type: "match"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u03-p03", "eng-g3-t1-u03-p07"]
+        guidelines: "将动物与其典型动作或特征连线匹配（如 giraffe - tall, elephant - big, rabbit - hop, fish - swim）。"
+
+      # 五、阅读理解与探究大问题 (Reading & Challenge)（20分）
+      - slot_id: "slot-07"
+        section: "七、阅读短文并完成任务（动物世界大冒险）"
+        question_type: "reading_comprehension"
+        difficulty: "challenge"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u03-p04", "eng-g3-t1-u03-p05", "eng-g3-t1-u03-p07"]
+        guidelines: "阅读关于动物园参观或宠物的短篇语篇（约30-45词），根据文章判断正误或归类宠物与野生动物，回答单元大问题。"

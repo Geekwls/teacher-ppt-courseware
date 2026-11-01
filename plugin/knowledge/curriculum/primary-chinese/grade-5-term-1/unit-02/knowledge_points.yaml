@@ -1,0 +1,119 @@
+unit_id: unit-02
+source_id: pep_chinese_g5_t1_2024
+points:
+- point_id: chi-g5-t1-u02-p01
+  unit_id: unit-02
+  lesson_id: chi-g5-t1-u02-l01
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 集中注意力、不回读（提高阅读速度的方法）
+  learning_objectives:
+  - 能在默读时集中注意力，遇到不懂的词语不停下来、不回读
+  - 能记录并说出自己的阅读时间
+  applicable_question_types:
+  - reading
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P14
+    - P24
+    - P31
+    anchor_text: P14 课后题：「用较快的速度默读课文，记下所用的时间。读的时候集中注意力，遇到不懂的词语不要停下来，不要回读。」P24：「我发现每个自然段基本上讲的都是一种事物要比另一种事物的速度快。了解了课文表达上的特点，我读得更快了。」
+  teaching_boundary:
+    scope_allowed:
+    - 集中注意力默读
+    - 遇到不懂的词语不停顿
+    - 记录阅读时间
+    scope_excluded:
+    - 阅读心理学中的眼动研究
+    - 速读训练方法
+- point_id: chi-g5-t1-u02-p02
+  unit_id: unit-02
+  lesson_id: chi-g5-t1-u02-l02
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 借助关键词句把握内容
+  learning_objectives:
+  - 能借助关键语句（如每段首句）快速把握课文内容
+  - 能发现文章的篇章结构特点并据此加快阅读
+  applicable_question_types:
+  - reading
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P22
+    - P24
+    anchor_text: P22：「借助关键语句，用较快的速度默读课文，记下所用的时间。」P24：「我读到第三自然段的第一句话，就猜到这一段要讲的内容是猎豹比鸵鸟的速度快。」「我发现每个自然段基本上讲的都是一种事物要比另一种事物的速度快。」
+  teaching_boundary:
+    scope_allowed:
+    - 借助关键语句把握内容
+    - 发现篇章结构特点
+    - 据此加快阅读
+    scope_excluded:
+    - 篇章语言学中的主题句理论
+    - 信息检索中的关键词提取
+- point_id: chi-g5-t1-u02-p03
+  unit_id: unit-02
+  lesson_id: chi-g5-t1-u02-l03
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 结合具体事例写出人物的特点
+  learning_objectives:
+  - 能通过具体事例说明人物的印象
+  - 能选择能突出人物特点的事例来写
+  applicable_question_types:
+  - reading
+  - writing
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P21
+    - P30
+    anchor_text: P21 课后题：「蔺相如、廉颇给你留下了怎样的印象？结合具体事例说一说。」P30 习作：「先想想你的老师在外貌、性格、喜好等方面有什么突出的特点，再选择一两件能突出其特点的事情来写。」
+  teaching_boundary:
+    scope_allowed:
+    - 用具体事例说明人物印象
+    - 选择能突出特点的事例
+    - 通过事例表现人物特点
+    scope_excluded:
+    - 叙事学中的人物塑造
+    - 传记文学的写作方法
+- point_id: chi-g5-t1-u02-p04
+  unit_id: unit-02
+  lesson_id: chi-g5-t1-u02-l04
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 概括故事的主要内容（三个小标题）
+  learning_objectives:
+  - 能用小标题概括故事的主要情节
+  - 能把几个小标题连起来说清课文的主要内容
+  applicable_question_types:
+  - reading
+  - fill_blank
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P21
+    anchor_text: P21：「根据下面的提示（完璧归赵 渑池会面 负荆请罪），用自己的话说说课文的主要内容。」
+  teaching_boundary:
+    scope_allowed:
+    - 用小标题概括情节
+    - 连缀小标题说主要内容
+    - 把握故事的层次
+    scope_excluded:
+    - 叙事结构分析
+    - 摘要生成技术

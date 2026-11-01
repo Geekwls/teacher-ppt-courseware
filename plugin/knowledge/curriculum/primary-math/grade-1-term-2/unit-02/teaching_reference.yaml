@@ -1,0 +1,60 @@
+unit_id: unit-02
+source_id: pep_math_g1_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2025年春人教版教师教学用书数学一年级下册》为**纯扫描件（281 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g1-t2-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 通过摆小棒、圈一圈等操作理解「破十」的过程，鼓励算法多样化
+    difficulty: 只会背得数，不能说出破十过程；或拆数错误
+    typical_misconceptions:
+    - error_pattern: 把 15−9 算成 15−5−9
+      misconception_type: 步骤混乱
+    - error_pattern: 能算出得数但无法说明算法
+      misconception_type: 算理表述缺失
+  variation_strategy:
+  - 用小棒演示 15−9 的破十过程并说出步骤
+  - 比较「破十法」与「想加算减」两种算法
+- point_id: math-g1-t2-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 由十几减 9 迁移算法，突出「想加算减」中加减互逆关系的运用
+    difficulty: 迁移时仍依赖逐一倒数，不能运用算理
+    typical_misconceptions:
+    - error_pattern: 13−6 逐个数到 7，效率低且易错
+      misconception_type: 算法未内化
+    - error_pattern: 不能由 7+6=13 直接得出 13−7=6
+      misconception_type: 加减互逆关系未建立
+  variation_strategy:
+  - 给一道减法算式，说出相应的加法算式
+  - 限时口算十几减 8、7、6
+- point_id: math-g1-t2-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在算法多样化的基础上引导「择优」，形成稳定的计算策略
+    difficulty: 只会一种算法且速度慢，或频繁出错
+    typical_misconceptions:
+    - error_pattern: 减数是 5、4、3、2 时仍用破十法导致步骤繁琐易错
+      misconception_type: 策略选择不当
+    - error_pattern: 计算时混淆减数与得数
+      misconception_type: 数感薄弱
+  variation_strategy:
+  - 对比同一题的不同算法，说说哪种更简便
+  - 限时口算综合练习
+- point_id: math-g1-t2-u02-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 强调「已知—问题」的提取与数量关系的分析，避免关键词依赖
+    difficulty: 看到「还剩」就用减法而不分析数量关系
+    typical_misconceptions:
+    - error_pattern: 把「求原来有多少」也当作求剩余用减法
+      misconception_type: 数量关系误判
+    - error_pattern: 列式后不口答、不检验
+      misconception_type: 解题规范缺失
+  variation_strategy:
+  - 看图说三句话再列式
+  - 改编题目：把加法题改成减法题

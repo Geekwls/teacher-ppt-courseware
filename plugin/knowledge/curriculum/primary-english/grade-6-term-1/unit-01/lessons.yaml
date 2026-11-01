@@ -1,0 +1,46 @@
+lessons:
+- lesson_id: eng-g6-t1-u01-l01
+  unit_id: unit-01
+  subject: english
+  grade: 6
+  term: term-1
+  lesson_number: 1
+  lesson_name: 'Part A Let''s talk: 谈论旅行经历'
+  page_range: P4
+  official_examples:
+  - Zhang Peng is talking with John. Listen and choose.
+  - Where did you go? I went to … / How was your weekend? It was great!
+- lesson_id: eng-g6-t1-u01-l02
+  unit_id: unit-01
+  subject: english
+  grade: 6
+  term: term-1
+  lesson_number: 2
+  lesson_name: 'Part A Let''s learn: 介绍著名地标'
+  page_range: P5
+  official_examples:
+  - Photo show：55 kilometres / >8,700 rooms / >1,600 stops。
+  - Mike visited… / Amy walked around…
+- lesson_id: eng-g6-t1-u01-l03
+  unit_id: unit-01
+  subject: english
+  grade: 6
+  term: term-1
+  lesson_number: 3
+  lesson_name: 'Part B Let''s talk / Let''s learn: 旅行中的见闻'
+  page_range: P6-P7
+  official_examples:
+  - Amy went to Hainan. The weather was good in Guiyang.
+  - famous for peaches / >1,800 years old。Binbin and Xinxin went to… / Sarah went to Wuhan.
+- lesson_id: eng-g6-t1-u01-l04
+  unit_id: unit-01
+  subject: english
+  grade: 6
+  term: term-1
+  lesson_number: 4
+  lesson_name: Part C Read and write / Project / Reading time
+  page_range: P8-P13
+  official_examples:
+  - Read and write：Look at the text. Where could you find this? What does "Reviews" mean? Flights / Trains / Hotels。
+  - 'Project: Make a holiday scrapbook（Hangzhou：We went boating and took nice photos.）。'
+  - Reading time：Landmarks you shouldn't miss! / On Easter Island, I saw huge statues called Moai.

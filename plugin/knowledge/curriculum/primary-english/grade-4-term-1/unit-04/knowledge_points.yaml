@@ -1,0 +1,32 @@
+unit_id: unit-04
+source_id: pep_english_g4_t1_2024
+points:
+- point_id: eng-g4-t1-u04-p01
+  unit_id: unit-04
+  lesson_id: eng-g4-t1-u04-l01
+  subject: english
+  grade: 4
+  term: term-1
+  point_name: 谈论帮助社区的方式
+  learning_objectives:
+  - 能用英语谈论社区中的职业与帮助社区的方式
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_english_g4_t1_2024
+    page_ref:
+    - P38
+    - P40
+    - P44
+    anchor_text: 单元起始页 P38 依课本目录登记；正文超出可读区间，具体对话原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 社区职业词汇
+    - What can we do …? 句型
+    scope_excluded:
+    - 志愿服务研究
+    - 英语职业词汇

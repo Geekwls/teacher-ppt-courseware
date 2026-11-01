@@ -1,0 +1,68 @@
+unit_id: "unit-1"
+blueprints:
+  - blueprint_id: "bp-math-g3-t2-u01-standard"
+    title: "第一单元生活中的运动现象标准练习卷蓝图"
+    target_practice: "单元基础巩固与空间观念素养提升"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础题（共 60 分）
+      - slot_id: "slot-01"
+        section: "一、认真辨析填一填（平移与旋转生活现象）"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 8
+        target_points: ["math-g3-t2-u01-p03", "math-g3-t2-u01-p05"]
+        guidelines: "填空填写『平移』或『旋转』：缆车索道前进、钟面指针运动、风车转动、电梯上升、推拉抽屉、汽车方向盘转动等。"
+
+      - slot_id: "slot-02"
+        section: "二、精心挑选精判断（轴对称图形与对称轴数量）"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t2-u01-p01", "math-g3-t2-u01-p02"]
+        guidelines: "考查长方形（2条）、正方形（4条）、等边三角形（3条）、圆（无数条）对称轴条数及平行四边形非轴对称特性。"
+
+      - slot_id: "slot-03"
+        section: "三、明辨是非巧判断（概念深度辨析）"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 6
+        target_points: ["math-g3-t2-u01-p01", "math-g3-t2-u01-p03", "math-g3-t2-u01-p05"]
+        guidelines: "判断平移时大小方向不变、平行四边形不是轴对称图形、对称轴是虚线等真伪。"
+
+      # 二、变式题（共 30 分）
+      - slot_id: "slot-04"
+        section: "四、动手操作与位置观察（方格纸上数平移格数与对应点）"
+        question_type: "fill_blank"
+        difficulty: "variation"
+        points_per_item: 5
+        item_count: 4
+        target_points: ["math-g3-t2-u01-p04"]
+        guidelines: "方格纸上判断图形平移的方向和格数，通过对应点定位，设置间隔空白格陷阱干扰项。"
+
+      - slot_id: "slot-05"
+        section: "五、文化探秘（汉字、数字、字母与国旗中的对称美）"
+        question_type: "fill_blank"
+        difficulty: "variation"
+        points_per_item: 5
+        item_count: 2
+        target_points: ["math-g3-t2-u01-p01"]
+        guidelines: "找出成轴对称的汉字（如中、田、日、大、品）和数字（0、8），并画出或说明对称轴。"
+
+      # 三、挑战题（共 10 分）
+      - slot_id: "slot-06"
+        section: "六、思维拓展与图形变换综合应用"
+        question_type: "word_problem"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["math-g3-t2-u01-p02"]
+        guidelines: "利用对折剪纸或连续平移还原完整图案，说明对称轴与平移变换在铺地砖图案设计中的应用。"

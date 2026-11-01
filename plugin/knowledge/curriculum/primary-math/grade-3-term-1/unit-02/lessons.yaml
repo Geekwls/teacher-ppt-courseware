@@ -1,0 +1,50 @@
+unit_id: "unit-2"
+source_id: "pep_math_g3_t1_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "同级运算与两级运算的运算顺序"
+    page_range: "P6-P7"
+    official_examples:
+      - example_id: "ex_1"
+        title: "公交车上下客问题（同级运算）"
+        page: 6
+        formula_or_context: "24 − 13 + 18 = 11 + 18 = 29（人）"
+        core_concept: "只有加、减法或只有乘、除法的算式，要从左往右按顺序计算；可以把两个分步算式合并成一个综合算式，也可写出每一步的运算结果。"
+      - example_id: "ex_2"
+        title: "一共有多少盒酸奶（两级运算）"
+        page: 7
+        formula_or_context: "6 × 3 + 4 = 18 + 4 = 22（盒）；对比 4 + 6 × 3"
+        core_concept: "既有乘、除法又有加、减法的算式，要先算乘、除法，再算加、减法；先算的部分在横式上不写等号结果前需先确定顺序。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "含括号的混合运算"
+    page_range: "P8-P11"
+    official_examples:
+      - example_id: "ex_3"
+        title: "摘桃子装箱问题（括号改变运算顺序）"
+        page: 8
+        formula_or_context: "25 + 15 ÷ 8 不能先算加法 → 列成 (25 + 15) ÷ 8 = 40 ÷ 8 = 5（盒）"
+        core_concept: "算式里有括号，要先算括号里面的；括号的作用是改变原有的运算顺序，需要用括号把「先算」的部分括起来。"
+
+  - lesson_id: "lesson-03"
+    lesson_number: 3
+    lesson_name: "用综合算式解决需要两步计算的实际问题"
+    page_range: "P12-P17"
+    official_examples:
+      - example_id: "ex_4"
+        title: "剪纸小组还剩多少张没剪"
+        page: 12
+        formula_or_context: "96 − 14 − 15 = 67（张）或 96 − (14 + 15) = 96 − 29 = 67（张）"
+        core_concept: "同一问题可以有不同解法：既可以按顺序一步步减，也可以先求出两天一共剪了多少张再减；解题时按「阅读理解—分析解答—回顾反思」三步展开，可画线段图辅助分析。"
+      - example_id: "ex_5"
+        title: "小军做了多少朵花（先减后乘）"
+        page: 13
+        formula_or_context: "(8 − 3) × 2 = 5 × 2 = 10（朵）"
+        core_concept: "解决需要多步计算的问题时，要先想好先求什么、再求什么；先求的部分需要用括号括起来才能正确表达运算顺序。"
+      - example_id: "ex_6"
+        title: "红珠子比黄珠子多穿几条手链"
+        page: 14
+        formula_or_context: "72 ÷ 8 − 56 ÷ 8 = 9 − 7 = 2（条）或 (72 − 56) ÷ 8 = 16 ÷ 8 = 2（条）"
+        core_concept: "用不同思路解决同一个问题：可以先分别求出各能穿几条再相减，也可以先求多出的颗数再除以每条的颗数，两种列式结果一致。"

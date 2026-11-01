@@ -1,0 +1,75 @@
+unit_id: unit-03
+blueprints:
+- blueprint_id: bp-math-g1-t2-u03-standard
+  title: 第三单元 100以内数的认识标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、数一数
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t2-u03-p01
+    guidelines: 数出 100 以内物体的个数并写数。
+  - slot_id: slot-02
+    section: 二、填一填：数的组成
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t2-u03-p01
+    guidelines: 填写「（　）个十和（　）个一」。
+  - slot_id: slot-03
+    section: 三、读一读、写一写
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t2-u03-p02
+    guidelines: 给出数词写数，或给出数读数。
+  - slot_id: slot-04
+    section: 四、在计数器上表示数
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - math-g1-t2-u03-p02
+    guidelines: 按要求在计数器上画珠并写出数。
+  - slot_id: slot-05
+    section: 五、比大小
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t2-u03-p03
+    guidelines: 在○里填「＞」「＜」。
+  - slot_id: slot-06
+    section: 六、按规律填数
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - math-g1-t2-u03-p03
+    guidelines: 百数表或数列中填出缺失的数。
+  - slot_id: slot-07
+    section: 七、解决问题
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 10
+    item_count: 1
+    target_points:
+    - math-g1-t2-u03-p01
+    guidelines: 情境题：结合数的组成解决简单实际问题。

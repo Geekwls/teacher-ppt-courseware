@@ -1,0 +1,42 @@
+lessons:
+- lesson_id: math-g1-t2-u01-l01
+  unit_id: unit-01
+  subject: math
+  grade: 1
+  term: term-2
+  lesson_name: 认识长方形、正方形、三角形、平行四边形、圆
+  page_range: P1-P2
+  official_examples:
+  - 说一说你身边哪些物体的面是上面这些形状的。
+  - 画一画，分一分；涂一涂；画出喜欢的图案；在钉板上围一围。
+- lesson_id: math-g1-t2-u01-l02
+  unit_id: unit-01
+  subject: math
+  grade: 1
+  term: term-2
+  lesson_name: 平面图形的拼组与分割
+  page_range: P3
+  official_examples:
+  - 用 2 个同样的长方形可以拼成一个新的长方形；用 2 个同样的三角形可以拼成一个平行四边形。
+  - 将一张正方形的纸对折后沿虚线剪开，你发现了什么？
+- lesson_id: math-g1-t2-u01-l03
+  unit_id: unit-01
+  subject: math
+  grade: 1
+  term: term-2
+  lesson_name: 用七巧板拼图
+  page_range: P4
+  official_examples:
+  - 用一套七巧板拼三角形：用 2 个同样的三角形拼成了一个新的三角形。
+  - 你知道吗：七巧板是我国的一种传统益智玩具，由 7 块板组成，用它们可以拼出千变万化的图案。
+- lesson_id: math-g1-t2-u01-l04
+  unit_id: unit-01
+  subject: math
+  grade: 1
+  term: term-2
+  lesson_name: 整理和复习与练一练
+  page_range: P5-P7
+  official_examples:
+  - 在本单元的学习中，你学到了哪些知识？你还发现了什么？（一个平面图形可以分成几个平面图形；用几个平面图形可以拼成一个新的平面图形。）
+  - 练一练：在点子图上画出学过的图形；用右边的哪个物体可以画出左边的图形；缺了几块。
+  - 思考题：把一张长方形的纸剪成大小相等的两部分，你能想出哪些剪法？

@@ -1,0 +1,89 @@
+unit_id: unit-03
+source_id: pep_math_g2_t2_2024
+points:
+- point_id: math-g2-t2-u03-p01
+  unit_id: unit-03
+  lesson_id: math-g2-t2-u03-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 1000 以内数的认识与数位（百位、十位、个位）
+  learning_objectives:
+  - 认识计数单位「百」，知道 10 个一百是一千；会读、写 1000 以内的数并说出数的组成
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P41
+    - P45
+    anchor_text: 单元起始页 P41 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 1000 以内数的读写与组成
+    - 百位、十位、个位的计数单位
+    scope_excluded:
+    - 10000 以上数的认识
+    - 数位顺序表的系统运用（后续课时）
+- point_id: math-g2-t2-u03-p02
+  unit_id: unit-03
+  lesson_id: math-g2-t2-u03-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 10000 以内数的认识、数位顺序表与算盘
+  learning_objectives:
+  - 认识计数单位「千」「万」，知道相邻两个计数单位之间的十进关系；认识算盘并会拨数
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P46
+    - P50
+    anchor_text: 单元起始页 P46 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 万以内数的读写与组成
+    - 数位顺序表
+    - 算盘的认识与拨数
+    scope_excluded:
+    - 亿以内数的认识
+    - 数的改写与省略
+- point_id: math-g2-t2-u03-p03
+  unit_id: unit-03
+  lesson_id: math-g2-t2-u03-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 万以内数的读写、比较大小与近似数
+  learning_objectives:
+  - 会读、写万以内的数；会比较万以内数的大小；能找出一个数的近似数
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P51
+    - P54
+    anchor_text: 单元起始页 P51 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 万以内数的读写
+    - 万以内数的大小比较
+    - 近似数（整十/整百/整千）
+    scope_excluded:
+    - 四舍五入法的系统表述
+    - 改写以「万」为单位的数

@@ -1,0 +1,135 @@
+unit_id: "unit-2"
+source_id: "pep_math_g3_t2_tr_2026"
+teaching_references:
+  - point_id: "math-g3-t2-u02-p01"
+    ref_book: "人教版《教师教学用书》数学三年级下册第二单元"
+    ref_page: "P36-P38"
+    pedagogical_focus:
+      key_point: "理解整十、整百、整千数除以一位数的口算算理，掌握把被除数看作几个十、几个百或几个千平均分的方法"
+      difficulty: "乘除互逆转化以及商末尾0的个数判定，特别是被除数最高位除完没有余数与除数相乘产生0的混淆"
+      typical_misconceptions:
+        - error_pattern: "600÷3 算成 20（整百数除以一位数，商末尾少写一个0）"
+          misconception_type: "少写末尾0"
+        - error_pattern: "80÷4 算成 200（数位理解错误，多添了0）"
+          misconception_type: "多写末尾0"
+    variation_strategy:
+      - "对比组设计：6÷3=2, 60÷3=20, 600÷3=200, 6000÷3=2000，感受计数单位的层级对应"
+      - "逆向填空：( ) ÷ 4 = 200，考查乘除互逆思维"
+
+  - point_id: "math-g3-t2-u02-p02"
+    ref_book: "人教版《教师教学用书》数学三年级下册第二单元"
+    ref_page: "P38-P41"
+    pedagogical_focus:
+      key_point: "掌握两位数除以一位数拆分分步口算的思维过程，以及几百几十数转化为几十几个十的口算技能"
+      difficulty: "口算脱式心算时，十位除完商与个位除完商的数位组合，防止将除法与加法混淆"
+      typical_misconceptions:
+        - error_pattern: "69÷3 算成 29（只把十位6÷3=2，个位9忘记除以3直接照抄写在个位）"
+          misconception_type: "个位漏除"
+        - error_pattern: "120÷3 算成 4（将120看成12个十一并算完，漏写商末尾表示十的0）"
+          misconception_type: "计数单位漏乘10"
+    variation_strategy:
+      - "过程分解填空：69÷3，先算( )÷3=( )，再算( )÷3=( )，合起来是( )"
+      - "改错辨析：判断 84÷4=24 是否正确并说明理由"
+
+  - point_id: "math-g3-t2-u02-p03"
+    ref_book: "人教版《教师教学用书》数学三年级下册第二单元"
+    ref_page: "P41-P45"
+    pedagogical_focus:
+      key_point: "建立规范的除法竖式书写格式，掌握从高位除起的计算步骤，并养成乘法验算的好习惯"
+      difficulty: "十位除后有余数时，理解余数必须与个位落下来的数合并后再除"
+      typical_misconceptions:
+        - error_pattern: "36÷2 笔算时，十位3除以2商1余1后，将余数1直接写在下方，不与个位6合成16，导致个位误算成 6÷2=3，商得 13"
+          misconception_type: "余数未与个位合并"
+        - error_pattern: "竖式计算后忘记验算，商与除数相乘不等于被除数也未察觉"
+          misconception_type: "缺少验算闭环"
+    variation_strategy:
+      - "对比题组：36÷3（十位无余数）与 36÷2（十位有余数）对照笔算"
+      - "带验算竖式大题：计算并验算"
+
+  - point_id: "math-g3-t2-u02-p04"
+    ref_book: "人教版《教师教学用书》数学三年级下册第二单元"
+    ref_page: "P45-P48"
+    pedagogical_focus:
+      key_point: "掌握三位数除以一位数（首位够除）从最高位百位除起的笔算流程，明确商是三位数"
+      difficulty: "百位除后有余数时与十位数的合拼，以及每一步余数必须比除数小的严格检查"
+      typical_misconceptions:
+        - error_pattern: "256÷2 笔算时，百位2÷2=1，十位5÷2=2余1，十位余下的1忘记与个位6合并"
+          misconception_type: "中途余数遗落"
+    variation_strategy:
+      - "先判断商是几位数，再列竖式计算：如 855÷5 的商是（ ）位数"
+
+  - point_id: "math-g3-t2-u02-p05"
+    ref_book: "人教版《教师教学用书》数学三年级下册第二单元"
+    ref_page: "P48-P53"
+    pedagogical_focus:
+      key_point: "理解三位数除以一位数首位不够商1看前两位的算理，明确商的最高位书写在十位上，商是两位数；掌握有余数除法的验算公式"
+      difficulty: "首位不够除时商的书写数位对齐错误；试商过小导致余数大于或等于除数"
+      typical_misconceptions:
+        - error_pattern: "148÷6 笔算时，1个百不够除，看前两位14个十除以6商2，将商2错误写在百位上方"
+          misconception_type: "商最高位数位书写错位"
+        - error_pattern: "148÷6 算成商 23 余 10（试商商小了，余数10比除数6大，违反余数小于除数法则）"
+          misconception_type: "余数大于除数"
+        - error_pattern: "验算有余数除法时，只算 24×6=144，漏加余数 4"
+          misconception_type: "验算漏加余数"
+    variation_strategy:
+      - "判断商的最高位在什么位上：□48÷6，要使商是三位数，□里最小填( )；要使商是两位数，□里最大填( )"
+      - "余数极值题：一个数除以 7，有余数，余数最大是( )，此时若商是 15，被除数是( )"
+
+  - point_id: "math-g3-t2-u02-p06"
+    ref_book: "人教版《教师教学用书》数学三年级下册第二单元"
+    ref_page: "P53-P55"
+    pedagogical_focus:
+      key_point: "理解0除以任何不是0的数都得0的本质意义（平均分成几份每份都是0）"
+      difficulty: "概念辨析，区分0作为除数（无意义）与0作为被除数"
+      typical_misconceptions:
+        - error_pattern: "误认为 0 除以任何数都得任何数（混淆 0×5 与 0÷5）"
+          misconception_type: "运算法则概念混淆"
+        - error_pattern: "判断题：『0除以任何数都得0』误判为正确（漏掉了『不是0的数』这个核心前提）"
+          misconception_type: "数学语言不严谨"
+    variation_strategy:
+      - "判断题设计：『0除以任何数都得0』( × )，考查是否注意除数不能为0"
+
+  - point_id: "math-g3-t2-u02-p07"
+    ref_book: "人教版《教师教学用书》数学三年级下册第二单元"
+    ref_page: "P55-P59"
+    pedagogical_focus:
+      key_point: "掌握除到被除数的哪一位不够商1就必须在那一位上商0占位的法则，以及商中间有0的竖式简写"
+      difficulty: "学生最容易在此处出现断层式遗忘，直接跳过十位商0，导致整个商的数位少一位"
+      typical_misconceptions:
+        - error_pattern: "208÷2 算成 14（百位2÷2=1，十位0不商0，直接拿个位8÷2=4，漏写十位商0）"
+          misconception_type: "商中间漏写0"
+        - error_pattern: "216÷2 算成 18（百位2÷2=1，十位1不够商1漏写0，直接拿16÷2=8，商成了18而不是108）"
+          misconception_type: "不够商1漏写0"
+    variation_strategy:
+      - "选择题高迷惑干扰项：计算 216÷2 的商是 ( A. 18  B. 108  C. 180  D. 104 )"
+      - "小医生改错题：给出 208÷2=14 的错误竖式，指出病因并改正"
+
+  - point_id: "math-g3-t2-u02-p08"
+    ref_book: "人教版《教师教学用书》数学三年级下册第二单元"
+    ref_page: "P59-P62"
+    pedagogical_focus:
+      key_point: "掌握商末尾有0的笔算除法法则，个位不够商1写0占位，有余数时个位数字落下来作为余数"
+      difficulty: "被除数末尾有0但个位有余数时的处理，以及末尾0占位的遗漏"
+      typical_misconceptions:
+        - error_pattern: "650÷5 算成 13（百位和十位除完得13后，看到个位是0就不写了，漏写个位商0）"
+          misconception_type: "商末尾漏写0"
+        - error_pattern: "245÷8 算成 3……5（十位除完商3后，个位5不够商1，漏写个位的0，商写成3余5而不是30余5）"
+          misconception_type: "不够除时商末尾漏0"
+    variation_strategy:
+      - "选择题干扰项：650÷5 的商末尾有几个0 ( A. 0个  B. 1个  C. 2个 )"
+      - "填空题：540÷□，要使商的末尾有0，□里可以填( )"
+
+  - point_id: "math-g3-t2-u02-p09"
+    ref_book: "人教版《教师教学用书》数学三年级下册第二单元"
+    ref_page: "P62-P65, P73-P76"
+    pedagogical_focus:
+      key_point: "会分析解决问题中的数量关系，运用连除、乘除混合两步计算解决问题；体会根据现实情境合理估算"
+      difficulty: "两步计算中审题不清导致先乘后除还是先除后乘顺序混乱；实际问题中余数的『进一』或『去尾』"
+      typical_misconceptions:
+        - error_pattern: "连除应用题算成一步乘法或加减法混淆"
+          misconception_type: "数量关系分析错误"
+        - error_pattern: "装箱租车问题中计算出 35 辆余 4 人，回答租 35 辆车（漏加最后1辆，未用进一法）"
+          misconception_type: "实际情境余数处理失误"
+    variation_strategy:
+      - "实际生活应用大题：共 960 个羽毛球，每 6 个装一筒，每 8 筒装一箱，一共可以装多少箱？（连除两步应用）"
+      - "进一法应用题：有 26 位同学去划船，每条船最多坐 4 人，至少需要租几条船？"

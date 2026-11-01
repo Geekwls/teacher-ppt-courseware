@@ -1,0 +1,46 @@
+unit_id: unit-06
+source_id: pep_math_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2025年秋人教版教师教学用书数学二年级上册》为**纯扫描件（270 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g2-t1-u06-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 整理乘法口诀表，发现口诀间的规律与乘除互逆关系
+    difficulty: 能背口诀但不能灵活运用，如由「六七四十二」推「七六」
+    typical_misconceptions:
+    - error_pattern: 口诀表中有遗漏或重复
+      misconception_type: 结构化整理不完整
+    - error_pattern: 不能由一句口诀同时写出乘、除算式
+      misconception_type: 乘除互逆关系未建立
+  variation_strategy:
+  - 整理并补全乘法口诀表
+  - 找规律：口诀表中的得数有什么规律
+- point_id: math-g2-t1-u06-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 通过「求几个几的和—用乘法；平均分—用除法；合起来—用加法；求剩余—用减法」的判断路径选择运算
+    difficulty: 仅凭关键词选择运算，忽略数量关系分析
+    typical_misconceptions:
+    - error_pattern: 看到「一共」就用加法，忽略「几个几」的乘法结构
+      misconception_type: 关键词依赖
+    - error_pattern: 列式后无法说清理由
+      misconception_type: 数学表达不足
+  variation_strategy:
+  - 给一组问题分类：哪些用乘法、哪些用除法
+  - 同一情境下变换问题，选择不同运算并说明理由
+- point_id: math-g2-t1-u06-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 培养问题意识与数学表达能力
+    difficulty: 提问与已知条件无关或超出本册范围
+    typical_misconceptions:
+    - error_pattern: 提出的问题无法用已知条件解决
+      misconception_type: 问题意识与逻辑性不足
+    - error_pattern: 只会一种问法
+      misconception_type: 发散不足
+  variation_strategy:
+  - 根据同一幅图提出 3 个不同的问题
+  - 互相评价问题是否合理并解答

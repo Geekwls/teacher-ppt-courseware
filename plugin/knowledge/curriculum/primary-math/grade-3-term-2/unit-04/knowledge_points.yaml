@@ -1,0 +1,114 @@
+unit_id: "unit-4"
+source_id: "pep_math_g3_t2_2024"
+points:
+  - point_id: "math-g3-t2-u04-p01"
+    unit_id: "unit-4"
+    lesson_id: "math-g3-t2-u04-l01"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "面积的本质含义与比较图形大小的方法"
+    learning_objectives:
+      - "理解物体表面或封闭图形的大小叫作它们的面积"
+      - "掌握比较两个物体或图形面积大小的方法：观察法、重叠法、统一标准数方格法"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [52, 53, 54]
+      anchor_text: "物体表面或封闭图形的大小，就是它们的面积。比较两个图形的面积，数方格是一种好方法。"
+    teaching_boundary:
+      scope_allowed:
+        - "识别图形面积大小"
+        - "在方格纸上数满格和半格（2半格算1满格）计算面积"
+      scope_excluded:
+        - "微积分曲边梯形面积求法"
+
+  - point_id: "math-g3-t2-u04-p02"
+    unit_id: "unit-4"
+    lesson_id: "math-g3-t2-u04-l02"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "常用的面积单位（平方厘米、平方分米、平方米）表象建立"
+    learning_objectives:
+      - "掌握3个常用面积单位的定义：边长1厘米的正方形面积是1平方厘米；边长1分米的正方形面积是1平方分米；边长1米的正方形面积是1平方米"
+      - "结合生活实际合理选择面积单位（如邮票、手帕、教室地面、操场等）"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [55, 56]
+      anchor_text: "常用的面积单位有平方厘米（cm²）、平方分米（dm²）和平方米（m²）。"
+    teaching_boundary:
+      scope_allowed:
+        - "在括号里填上合适的面积单位"
+      scope_excluded:
+        - "公顷与平方千米（四年级上册教学）"
+
+  - point_id: "math-g3-t2-u04-p03"
+    unit_id: "unit-4"
+    lesson_id: "math-g3-t2-u04-l03"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "长方形和正方形面积计算公式与规范计算"
+    learning_objectives:
+      - "掌握长方形面积公式：面积 = 长 × 宽；正方形面积公式：面积 = 边长 × 边长"
+      - "能熟练根据已知条件计算长方形、正方形面积，并在计算时正确使用面积单位"
+    applicable_question_types: ["calculation", "fill_blank", "word_problem"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [57, 58, 59]
+      anchor_text: "长方形面积 = 长 × 宽；正方形面积 = 边长 × 边长。"
+    teaching_boundary:
+      scope_allowed:
+        - "10000以内自然数长方形、正方形面积直接计算"
+      scope_excluded:
+        - "平行四边形、三角形与梯形面积（五年级上册内容）"
+
+  - point_id: "math-g3-t2-u04-p04"
+    unit_id: "unit-4"
+    lesson_id: "math-g3-t2-u04-l04"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "面积单位之间的进率（100进率）与单位换算"
+    learning_objectives:
+      - "掌握面积单位间的进率：1平方米 = 100平方分米，1平方分米 = 100平方厘米，1平方米 = 10000平方厘米"
+      - "能熟练进行单名数与复名数之间的面积单位换算（高级单位改写为低级单位乘进率，低级改写为高级除以进率）"
+    applicable_question_types: ["fill_blank", "choice"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [60, 61]
+      anchor_text: "1平方分米 = 100平方厘米；1平方米 = 100平方分米。相邻两个常用面积单位之间的进率是100。"
+    teaching_boundary:
+      scope_allowed:
+        - "平方米、平方分米、平方厘米之间的整数换算"
+      scope_excluded:
+        - "带复杂循环小数的面积单位换算"
+
+  - point_id: "math-g3-t2-u04-p05"
+    unit_id: "unit-4"
+    lesson_id: "math-g3-t2-u04-l05"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "面积与周长的本质区别及铺地砖综合应用题"
+    learning_objectives:
+      - "深刻辨析周长（一维边线长度，单位米/分米/厘米）与面积（二维表面大小，单位平方米/平方分米/平方厘米）的本质区别"
+      - "解决实际生活中的铺地砖问题：房间地面面积 ÷ 单块地砖面积 = 地砖总块数；在计算前必须先统一长度或面积单位"
+    applicable_question_types: ["word_problem", "choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [62, 63, 64]
+      anchor_text: "铺地砖问题：客厅长6米、宽4米，铺边长2分米的地砖。先算客厅面积，注意统一单位。"
+    teaching_boundary:
+      scope_allowed:
+        - "统一单位后求铺砖块数或买砖总费用"
+        - "周长与面积辨析判断题"
+      scope_excluded:
+        - "考虑地砖损耗率的实际工程造价预算"

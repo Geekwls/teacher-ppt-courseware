@@ -1,0 +1,32 @@
+unit_id: unit-07
+source_id: pep_math_g4_t1_2024
+points:
+- point_id: math-g4-t1-u07-p01
+  unit_id: unit-07
+  lesson_id: math-g4-t1-u07-l01
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 条形统计图的读与画
+  learning_objectives:
+  - 能读懂条形统计图（含 1 格表示 2 个、5 个、多个单位的情形）
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P88
+    - P92
+    - P96
+    anchor_text: 单元起始页 P88 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 条形统计图用直条的长短表示数量的多少
+    - 1 格表示几个单位时的数据读取
+    scope_excluded:
+    - 统计学中图表规范的系统讲解
+    - 数据可视化的设计原则

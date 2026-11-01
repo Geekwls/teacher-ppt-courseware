@@ -1,0 +1,75 @@
+unit_id: unit-06
+blueprints:
+- blueprint_id: bp-math-g1-t1-u06-standard
+  title: 第六单元 复习与关联标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、算一算：20 以内加减法综合
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 2
+    item_count: 11
+    target_points:
+    - math-g1-t1-u06-p01
+    guidelines: 混合练习 20 以内不进位与进位加减法。
+  - slot_id: slot-02
+    section: 二、填一填：数与组成
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t1-u06-p01
+    guidelines: 20 以内数的顺序、组成与大小比较。
+  - slot_id: slot-03
+    section: 三、认一认：立体图形
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t1-u06-p02
+    guidelines: 辨认立体图形并写出名称。
+  - slot_id: slot-04
+    section: 四、分一分：算式分类
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t1-u06-p01
+    guidelines: 按「进位/不进位」给算式分类。
+  - slot_id: slot-05
+    section: 五、数一数：拼搭图形
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 6
+    item_count: 2
+    target_points:
+    - math-g1-t1-u06-p02
+    guidelines: 数出拼搭图中各种立体图形的个数。
+  - slot_id: slot-06
+    section: 六、看图提问并解答
+    question_type: reading
+    difficulty: variation
+    points_per_item: 12
+    item_count: 1
+    target_points:
+    - math-g1-t1-u06-p03
+    guidelines: 根据情境图提出一个数学问题并解答。
+  - slot_id: slot-07
+    section: 七、理一理（结构化）
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 15
+    item_count: 1
+    target_points:
+    - math-g1-t1-u06-p01
+    guidelines: 用知识图整理本册所学内容（数、加减法、图形），至少写出三类。

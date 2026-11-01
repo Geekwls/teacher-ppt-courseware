@@ -1,0 +1,46 @@
+unit_id: unit-03
+source_id: pep_chinese_g1_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t1-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 用「小 ü 见到 j q x，摘掉帽子敬个礼」等口诀帮助记忆拼写规则
+    difficulty: 学生易在 j q x 与 ü 相拼时保留 ü 上的两点
+    typical_misconceptions:
+    - error_pattern: 写「ju」时仍写成「jü」
+      misconception_type: ü 去点规则未掌握
+    - error_pattern: 把 g 与 k 的发音部位混淆
+      misconception_type: 送气与不送气未区分
+  variation_strategy:
+  - 用口诀练写 j q x 与 ü 相拼的音节
+  - 对比「nü」与「ju」的不同
+- point_id: chi-g1-t1-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「舌头的位置」为观察点区分平舌音与翘舌音
+    difficulty: 学生易把 zh ch sh 读成 z c s（平翘舌不分）
+    typical_misconceptions:
+    - error_pattern: 把「知」读成「资」
+      misconception_type: 平翘舌不分
+    - error_pattern: 把 r 读成 l
+      misconception_type: 声母混淆
+  variation_strategy:
+  - 用「四是四，十是十」类绕口令练读
+  - 给音节分类：平舌音/翘舌音
+- point_id: chi-g1-t1-u03-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把整体认读音节作为「整体记住、直接读出」的单位，不做拼读拆解
+    difficulty: 学生易把整体认读音节拆开拼读，或把 yu 写成 yü
+    typical_misconceptions:
+    - error_pattern: 把 yi 拆成 y-i 拼读
+      misconception_type: 整体认读音节未整体识记
+    - error_pattern: 把 yu 写成 yü
+      misconception_type: ü 去点规则未迁移
+  variation_strategy:
+  - 直接读出整体认读音节卡片
+  - 把整体认读音节与相应汉字连线

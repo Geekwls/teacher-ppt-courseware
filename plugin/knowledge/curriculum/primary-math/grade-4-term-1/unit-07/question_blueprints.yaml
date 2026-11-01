@@ -1,0 +1,48 @@
+unit_id: unit-07
+blueprints:
+- blueprint_id: bp-math-g4-t1-u07-standard
+  title: 第六单元 条形统计图标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、读图填空
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 5
+    item_count: 6
+    target_points:
+    - math-g4-t1-u07-p01
+    guidelines: 根据条形统计图填写各类别的数量。
+  - slot_id: slot-02
+    section: 二、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g4-t1-u07-p01
+    guidelines: 判断关于统计图的说法是否正确。
+  - slot_id: slot-03
+    section: 三、画一画（补全统计图）
+    question_type: writing
+    difficulty: variation
+    points_per_item: 10
+    item_count: 3
+    target_points:
+    - math-g4-t1-u07-p01
+    guidelines: 根据统计表在方格纸上补全条形统计图。
+  - slot_id: slot-04
+    section: 四、解决问题
+    question_type: reading
+    difficulty: variation
+    points_per_item: 12
+    item_count: 2
+    target_points:
+    - math-g4-t1-u07-p01
+    guidelines: 根据统计图提出并解决简单的数学问题。

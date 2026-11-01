@@ -1,0 +1,196 @@
+unit_id: unit-01
+source_id: pep_math_g2_t2_2024
+points:
+- point_id: math-g2-t2-u01-p01
+  unit_id: unit-01
+  lesson_id: math-g2-t2-u01-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 有余数除法的意义与余数的含义
+  learning_objectives:
+  - 理解「平均分后还有剩余」可以用有余数的除法表示
+  - 认识余数，知道余数表示分完后剩下的数，会读写有余数的除法算式
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P10
+    - P11
+    - P12
+    anchor_text: P10「有余数的除法」：「摆2个，正好摆完。8÷4=2（个）」「摆2个，还剩1根。9÷4=2（个）…… 1（根）」「读作：9除以4等于2余1。」P11「用一些小棒摆三角形，可能剩几根？」P12「还可能剩……可能剩1根。」
+  teaching_boundary:
+    scope_allowed:
+    - 有余数除法的意义与读写
+    - 余数的含义（分完后剩下的数）
+    scope_excluded:
+    - 有余数除法的竖式（后续课时）
+    - 小数除法
+- point_id: math-g2-t2-u01-p02
+  unit_id: unit-01
+  lesson_id: math-g2-t2-u01-l02
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 余数要比除数小
+  learning_objectives:
+  - 通过观察与比较发现「余数要比除数小」的规律
+  - 能运用该规律判断算式是否有误、确定余数或除数的取值范围
+  applicable_question_types:
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P12
+    anchor_text: P12：观察 6÷3=2、7÷3=2……1、8÷3=2……2、9÷3=3、10÷3=3……1 等算式，「观察每道题的余数和除数，你发现了什么？」；「注意：余数要比除数小。」「有一些巧克力，平均装在6个盒子里。如果有剩余，最多剩几颗？」
+  teaching_boundary:
+    scope_allowed:
+    - 余数小于除数的规律
+    - 由规律求余数/除数的取值范围
+    scope_excluded:
+    - 同余问题的系统解法
+    - 余数定理
+- point_id: math-g2-t2-u01-p03
+  unit_id: unit-01
+  lesson_id: math-g2-t2-u01-l03
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 有余数除法的竖式与各部分关系
+  learning_objectives:
+  - 掌握有余数除法竖式的书写格式，理解竖式中每一步的含义
+  - 理解并运用「被除数 = 除数 × 商 + 余数」的关系进行验算
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P13
+    - P14
+    anchor_text: P13「可以用除法竖式记录摆小棒的过程。13÷4=3（个）…… 1（根）」并给出竖式；P14「想一想：被除数、除数、商和余数有什么关系？」「13÷4=3……1」「13=4×3+1」（标注商、被除数、4×3的积、余数、除数）。
+  teaching_boundary:
+    scope_allowed:
+    - 有余数除法竖式的书写
+    - 被除数 = 除数 × 商 + 余数 的关系与验算
+    scope_excluded:
+    - 三位数除以一位数的竖式
+    - 小数除法
+- point_id: math-g2-t2-u01-p04
+  unit_id: unit-01
+  lesson_id: math-g2-t2-u01-l04
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 有余数除法的试商与求商
+  learning_objectives:
+  - 掌握「想除数乘几最接近被除数且小于被除数」的试商方法
+  - 能正确计算除数是一位数的有余数除法
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P15
+    - P16
+    anchor_text: P15：「（　）里最大能填几？（　）×6<57；（　）×8<26；（　）×4<31。」「43÷7=（　）……（　）：想 43 里最多有几个 7？」P16「怎样能很快想出商？」
+  teaching_boundary:
+    scope_allowed:
+    - 除数是一位数的有余数除法计算
+    - 试商方法的表述
+    scope_excluded:
+    - 除数是两位数的除法
+    - 商的定位（多位数除法）
+- point_id: math-g2-t2-u01-p05
+  unit_id: unit-01
+  lesson_id: math-g2-t2-u01-l05
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 用有余数的除法解决问题（进一法）
+  learning_objectives:
+  - 能分析「装满几盒」与「需要几个盒子」的区别
+  - 理解「剩下的也要再装一份」时商要加 1，并能说明理由
+  applicable_question_types:
+  - reading
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P17
+    anchor_text: P17：「烘焙小组做了23块蛋糕，每个盒子装4块。可以装满几盒，还剩几块？装下全部蛋糕需要几个盒子？」「23÷4=5（盒）……3（块）」「剩下的3块也需要1个盒子来装，一共需要6个盒子。」「求可以装满几盒，就是求23里面最多有几个4，用除法计算。」
+  teaching_boundary:
+    scope_allowed:
+    - 进一法解决「至少需要几个」的问题
+    - 区分「装满几盒」与「需要几个盒子」
+    scope_excluded:
+    - 去尾法（本册不要求单独归纳）
+    - 两步及以上的复合问题
+- point_id: math-g2-t2-u01-p06
+  unit_id: unit-01
+  lesson_id: math-g2-t2-u01-l06
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 用有余数的除法解决周期规律问题
+  learning_objectives:
+  - 能发现图形或物体的排列规律，确定「一组」有几个
+  - 能用有余数的除法确定第 n 个物体是什么（看余数）
+  applicable_question_types:
+  - reading
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P18
+    - P19
+    anchor_text: P18：「按照下面的规律摆下去，第16面小旗是什么颜色的？」「16÷3=5（组）……1（面）」「5组共15面，第16面是第6组的第1面。余1，就是一组中的第1面。」P19 练一练：第53个彩灯是什么颜色？第24颗珠子是什么颜色的？
+  teaching_boundary:
+    scope_allowed:
+    - 确定排列规律中的「一组」
+    - 用余数判断第 n 个物体的属性
+    scope_excluded:
+    - 复杂的数列规律
+    - 周期函数的抽象表示
+- point_id: math-g2-t2-u01-p07
+  unit_id: unit-01
+  lesson_id: math-g2-t2-u01-l07
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 整理和复习：有余数除法的结构化整理
+  learning_objectives:
+  - 能用「知识图」整理本单元内容（表内除法—有余数的除法—解决实际问题）
+  - 能综合运用有余数除法解决各类问题
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P20
+    - P21
+    - P22
+    - P23
+    anchor_text: P21「整理和复习」：「下面是小丽整理的「知识图」，有值得你学习的地方吗？」「平均分时有剩余，也可以用除法算式表示……」「求商时要注意，余数要比除数小。」「有时理解余数的含义是解决问题的关键……」P22「想一想，填一填」：☆÷5=△……□，□最大是（　）。
+  teaching_boundary:
+    scope_allowed:
+    - 有余数除法的结构化整理
+    - 综合运用与开放性问题
+    scope_excluded:
+    - 《孙子算经》「物不知数」的系统解法（仅作了解）

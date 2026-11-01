@@ -1,0 +1,81 @@
+unit_id: "unit-7"
+source_id: "pep_chinese_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《人教统编版小学语文三年级上册教师用书（教学参考）》
+  （255 页扫描件，OCR 解析）核定。第七单元位于教参 P172 起：单元说明 P172、古诗三首 P174、
+  大自然的声音 P181、读不完的大书 P186、口语交际 P191、习作 P196、语文园地 P199。
+teaching_references:
+  - point_id: "chi-g3-t1-u07-p01"
+    ref_book: "人教版《教师教学用书》语文三年级上册第七单元"
+    ref_page: "P174-P199"
+    pedagogical_focus:
+      key_point: "在阅读与习作中落实识字写字，注意形近字与易错笔画的辨析"
+      difficulty: "本单元生字随文出现，需结合自然类语境识记，避免孤立机械抄写"
+      typical_misconceptions:
+        - error_pattern: "混淆形近字（如『澡/躁』『激/缴』类部件）"
+          misconception_type: "形近部件混淆"
+        - error_pattern: "笔画增减导致错字"
+          misconception_type: "书写不规范"
+    variation_strategy:
+      - "看拼音写词语；形近字对比组词"
+      - "结合语境选字填空"
+
+  - point_id: "chi-g3-t1-u07-p02"
+    ref_book: "人教版《教师教学用书》语文三年级上册第七单元"
+    ref_page: "P172"
+    pedagogical_focus:
+      key_point: "感受课文生动的语言，主动积累喜欢的语句"
+      difficulty: "学生易停留在「读懂了」，说不出语言生动在哪里，积累流于形式"
+      typical_misconceptions:
+        - error_pattern: "能说出喜欢的句子，却讲不出喜欢的理由"
+          misconception_type: "感受不具体"
+        - error_pattern: "把积累等同于抄写，不理解语句的意思"
+          misconception_type: "积累方式不当"
+    variation_strategy:
+      - "找出课文中生动的语句，说明它好在哪里"
+      - "分类积累喜欢的语句，并在表达中尝试运用"
+
+  - point_id: "chi-g3-t1-u07-p03"
+    ref_book: "人教版《教师教学用书》语文三年级上册第七单元"
+    ref_page: "P174"
+    pedagogical_focus:
+      key_point: "诵读、背诵并默写《鹿柴》《望天门山》《饮湖上初晴后雨》，借助注释理解诗意"
+      difficulty: "学生易写错别字、把三首诗张冠李戴，或只背诵不理解画面"
+      typical_misconceptions:
+        - error_pattern: "默写古诗出现错别字或漏字"
+          misconception_type: "默写不准确"
+        - error_pattern: "混淆三首古诗的作者与内容"
+          misconception_type: "篇目混淆"
+    variation_strategy:
+      - "古诗默写与诗句填空"
+      - "借助注释与插图描述诗中画面"
+
+  - point_id: "chi-g3-t1-u07-p04"
+    ref_book: "人教版《教师教学用书》语文三年级上册第七单元"
+    ref_page: "P199"
+    pedagogical_focus:
+      key_point: "掌握摘抄的方法，按类别积累喜欢的语句并注明出处"
+      difficulty: "学生摘抄易随意、无类别，或抄而不用"
+      typical_misconceptions:
+        - error_pattern: "摘抄语句不加选择、不注明出处"
+          misconception_type: "方法不规范"
+        - error_pattern: "摘抄后不读不用，积累与表达脱节"
+          misconception_type: "积累不落地"
+    variation_strategy:
+      - "按写景、写声音等类别摘抄语句并注明出处"
+      - "从摘抄本中选一句尝试仿写或运用"
+
+  - point_id: "chi-g3-t1-u07-p05"
+    ref_book: "人教版《教师教学用书》语文三年级上册第七单元"
+    ref_page: "P196"
+    pedagogical_focus:
+      key_point: "把生活中的问题与自己的想法写清楚，尝试提出合理建议"
+      difficulty: "学生习作易只摆问题不说想法，或想法空泛、缺少依据"
+      typical_misconceptions:
+        - error_pattern: "只描述现象，没有写出自己的想法"
+          misconception_type: "内容不完整"
+        - error_pattern: "想法空泛，缺少具体事例或建议"
+          misconception_type: "写不具体"
+    variation_strategy:
+      - "围绕一个想法写清楚问题与建议"
+      - "互评：问题是否写清楚、想法是否写明白"

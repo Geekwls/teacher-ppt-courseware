@@ -1,0 +1,60 @@
+unit_id: unit-02
+source_id: pep_chinese_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g6-t1-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把课文中的「整体描写」与「个体描写」用不同颜色标出，让学生直观看到「点面结合」的结构
+    difficulty: 学生易把「面」当成「点」；易写场面时只写整体而忽略个体
+    typical_misconceptions:
+    - error_pattern: 点面混淆
+      misconception_type: 概念理解不清
+    - error_pattern: 写场面只写整体忽略个体
+      misconception_type: 方法运用不完整
+  variation_strategy:
+  - 找出文中「点」与「面」的描写
+  - 用点面结合的方法写一个场面
+- point_id: chi-g6-t1-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以人物的语言、动作、神态为切入点，让学生体会「精神」是如何通过细节表现出来的
+    difficulty: 学生易给人物贴「伟大」的标签而说不出具体依据
+    typical_misconceptions:
+    - error_pattern: 只贴标签无依据
+      misconception_type: 体会表层化
+    - error_pattern: 不能体会人物的精神
+      misconception_type: 理解不深
+  variation_strategy:
+  - 通过人物言行说出革命前辈的精神
+  - 写出自己读后的感受
+- point_id: chi-g6-t1-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《开国大典》的时间顺序为线索，让学生梳理四个场面的先后顺序
+    difficulty: 学生易把「主要内容」写成细节复述
+    typical_misconceptions:
+    - error_pattern: 主要内容写成细节复述
+      misconception_type: 概括能力不足
+    - error_pattern: 事件顺序梳理错误
+      misconception_type: 结构把握不准
+  variation_strategy:
+  - 概括课文的主要内容
+  - 按顺序梳理事件的几个场面
+- point_id: chi-g6-t1-u02-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「学校运动会」「朗诵会」等学生熟悉的活动为例，让学生先写整体气氛（面），再聚焦某个同学或某个瞬间（点）
+    difficulty: 学生易把活动写成流程记录；易只写整体或只写个体
+    typical_misconceptions:
+    - error_pattern: 活动写成流程记录
+      misconception_type: 重点不突出
+    - error_pattern: 点面未结合
+      misconception_type: 方法运用不完整
+  variation_strategy:
+  - 用点面结合的方法写一个活动场面
+  - 说说自己的习作中哪是「点」哪是「面」

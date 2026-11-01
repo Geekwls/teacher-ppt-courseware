@@ -1,0 +1,11 @@
+# 运行产物
+output/
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# 知识库原始来源(不入库,与原项目一致)
+knowledge/sources/
+
+# 本地环境
+.env

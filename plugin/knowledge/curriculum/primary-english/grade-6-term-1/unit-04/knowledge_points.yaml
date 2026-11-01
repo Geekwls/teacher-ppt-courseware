@@ -1,0 +1,32 @@
+unit_id: unit-04
+source_id: pep_english_g6_t1_2024
+points:
+- point_id: eng-g6-t1-u04-p01
+  unit_id: unit-04
+  lesson_id: eng-g6-t1-u04-l01
+  subject: english
+  grade: 6
+  term: term-1
+  point_name: 谈论合理使用与储蓄金钱
+  learning_objectives:
+  - 能用英语谈论金钱的用途、合理消费与储蓄计划
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_english_g6_t1_2024
+    page_ref:
+    - P38
+    - P40
+    - P46
+    anchor_text: 单元起始页 P38 依课本目录登记；正文超出可读区间，具体对话原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 金钱相关词汇
+    - 一般将来时（be going to）谈论计划
+    scope_excluded:
+    - 理财教育
+    - 英语一般将来时

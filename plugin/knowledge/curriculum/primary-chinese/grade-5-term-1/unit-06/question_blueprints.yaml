@@ -1,0 +1,48 @@
+unit_id: unit-06
+blueprints:
+- blueprint_id: bp-chi-g5-t1-u06-standard
+  title: 第六单元 父母之爱标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、字词积累
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 8
+    target_points:
+    - chi-g5-t1-u06-p01
+    guidelines: 看拼音写词语、词语搭配。
+  - slot_id: slot-02
+    section: 二、阅读理解
+    question_type: reading
+    difficulty: variation
+    points_per_item: 13
+    item_count: 2
+    target_points:
+    - chi-g5-t1-u06-p01
+    guidelines: 读片段，体会细节中蕴含的感情。
+  - slot_id: slot-03
+    section: 三、习作（书信）
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 18
+    item_count: 1
+    target_points:
+    - chi-g5-t1-u06-p02
+    guidelines: 写「我想对您说」的书信。
+  - slot_id: slot-04
+    section: 四、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 6
+    item_count: 4
+    target_points:
+    - chi-g5-t1-u06-p01
+    guidelines: 选出说法正确或用词恰当的一项。

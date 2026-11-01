@@ -1,0 +1,46 @@
+unit_id: unit-04
+source_id: pep_math_g2_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春人教版教师教学用书数学二年级下册》为**纯扫描件（273 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g2-t2-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「几个百、几个千相加」的计数单位思想进行口算，用估算检验结果
+    difficulty: 口算时把整百数当作个位数相加，或估算偏离过大
+    typical_misconceptions:
+    - error_pattern: 500+300 算成 8
+      misconception_type: 计数单位意识缺失
+    - error_pattern: 估算时把 298 当作 300 后忘记调整
+      misconception_type: 估算方法不当
+  variation_strategy:
+  - 口算整百整千数加减并说理
+  - 先估算再计算，比较估算与精确结果
+- point_id: math-g2-t2-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 强调「相同数位对齐、从个位算起、满十进一、不够减退一当十」
+    difficulty: 连续进位或连续退位时遗漏处理，或数位不对齐
+    typical_misconceptions:
+    - error_pattern: 连续进位时中间位漏加进位 1
+      misconception_type: 连续进位处理错误
+    - error_pattern: 退位减法中隔位退位（如 1000−236）处理错误
+      misconception_type: 连续退位未掌握
+  variation_strategy:
+  - 用竖式计算并用加法/减法验算
+  - 改错：判断竖式错在哪里并改正
+- point_id: math-g2-t2-u04-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 坚持「读题—找条件—分析—列式—检验」的完整过程，重视估算在前
+    difficulty: 两步问题漏算一步，或忽略「大约」时该用估算
+    typical_misconceptions:
+    - error_pattern: 两步问题只列一步算式
+      misconception_type: 条件遗漏
+    - error_pattern: 看到「大约」仍做精确计算或反之
+      misconception_type: 估算与精确计算的适用情境混淆
+  variation_strategy:
+  - 画图分析两步问题的数量关系
+  - 先估算再精算，检验结果合理性

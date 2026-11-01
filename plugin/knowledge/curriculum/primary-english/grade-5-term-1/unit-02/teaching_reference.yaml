@@ -1,0 +1,60 @@
+unit_id: unit-02
+source_id: pep_english_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教版PEP小学英语五年级上册教师用书》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: eng-g5-t1-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「画表情、猜情绪」的活动，让学生把面部表情与情感词汇建立联系
+    difficulty: 学生易把 excited 与 exciting 混用；易把 worried 拼成 worryed
+    typical_misconceptions:
+    - error_pattern: excited 与 exciting 混用
+      misconception_type: 分词形容词混淆
+    - error_pattern: 情感词拼写错误
+      misconception_type: 拼写不牢
+  variation_strategy:
+  - 说出常见的情感词汇
+  - 根据情境用 is 描述他人的情绪
+- point_id: eng-g5-t1-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「和妈妈谈心」的情境，把询问与表达感受的句型配对操练
+    difficulty: 学生易把 I'm feel happy 混用 be 与 do；易把 What's the matter? 说成 What's matter?
+    typical_misconceptions:
+    - error_pattern: be 与 do 混用
+      misconception_type: 系动词与助动词混淆
+    - error_pattern: 固定句型漏掉 the
+      misconception_type: 句型掌握不牢
+  variation_strategy:
+  - 用 How do you feel? 问答
+  - 根据情境表达自己的感受
+- point_id: eng-g5-t1-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「朋友不开心怎么办」的真实问题，让学生用 You can … 提出可行的建议
+    difficulty: 学生易只回答「安慰他」而说不出具体做法；易把 You can 与 You can't 混淆
+    typical_misconceptions:
+    - error_pattern: 建议笼统无具体做法
+      misconception_type: 表达不具体
+    - error_pattern: You can 与 You can't 混淆
+      misconception_type: 否定形式错误
+  variation_strategy:
+  - 用 You can … 给出两条建议
+  - 说说怎样理解他人的感受
+- point_id: eng-g5-t1-u02-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把 ee 与 ea 的例词集中呈现，让学生在朗读中发现「两种拼写、同一发音」
+    difficulty: 学生易把 ee 与 ea 的拼写记混；易把 /iː/ 读成 /ɪ/
+    typical_misconceptions:
+    - error_pattern: ee / ea 拼写混淆
+      misconception_type: 音形对应错误
+    - error_pattern: /iː/ 读成 /ɪ/
+      misconception_type: 发音错误
+  variation_strategy:
+  - 朗读含 ee / ea 的例词
+  - 按发音给单词归类

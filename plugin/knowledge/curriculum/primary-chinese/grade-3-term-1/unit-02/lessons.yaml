@@ -1,0 +1,70 @@
+lessons:
+  - lesson_id: "chi-g3-t1-u02-l01"
+    unit_id: "unit-2"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 4
+    lesson_name: "第4课 古诗三首（望洞庭、山行、夜书所见）"
+    page_range: "P14-P15"
+    official_examples:
+      - "《望洞庭》[唐] 刘禹锡：湖光秋月两相和，潭面无风镜未磨。遥望洞庭山水翠，白银盘里一青螺。"
+      - "《山行》[唐] 杜牧：远上寒山石径斜，白云生处有人家。停车坐爱枫林晚，霜叶红于二月花。"
+      - "《夜书所见》[宋] 叶绍翁：萧萧梧叶送寒声，江上秋风动客情。知有儿童挑促织，夜深篱落一灯明。"
+      - "课后练习：有感情地朗读课文。背诵课文。默写《山行》。"
+
+  - lesson_id: "chi-g3-t1-u02-l02"
+    unit_id: "unit-2"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 5
+    lesson_name: "第5课 铺满金色巴掌的水泥道"
+    page_range: "P16-P18"
+    official_examples:
+      - "道路两旁的法国梧桐树，掉下了一片片金黄金黄的叶子。"
+      - "水泥道像铺上了一块彩色的地毯。这是一块印着落叶图案的、闪闪发光的地毯。"
+      - "每一片法国梧桐树的落叶，都像一个金色的小巴掌。"
+      - "会认字（带拼音）：洼 wā、印 yìn、凌 líng、增 zēng、棕 zōng。"
+
+  - lesson_id: "chi-g3-t1-u02-l03"
+    unit_id: "unit-2"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 6
+    lesson_name: "第6课 秋天的雨"
+    page_range: "P19-P21"
+    official_examples:
+      - "秋天的雨，是一把钥匙。它带着清凉和温柔，轻轻地，轻轻地，趁你没留意，把秋天的大门打开了。"
+      - "它把黄色给了银杏树，黄黄的叶子像一把把小扇子，扇哪扇哪，扇走了夏天的炎热。"
+      - "它把红色给了枫树，红红的枫叶像一枚枚邮票，飘哇飘哇，邮来了秋天的凉爽。"
+      - "秋天的雨，吹起了金色的小喇叭。它告诉大家，冬天快要来了。"
+      - "会认字（带拼音）：钥 yào 匙 shi、缤 bīn 纷、枚 méi、邮 yóu、喇 lǎ 叭 ba、裳 shang。"
+
+  - lesson_id: "chi-g3-t1-u02-l04"
+    unit_id: "unit-2"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 7
+    lesson_name: "第7课 听听，秋的声音"
+    page_range: "P22-P23"
+    official_examples:
+      - "听听，秋的声音，大树抖抖手臂，「唰唰」，是黄叶道别的话音。"
+      - "听听，秋的声音，蟋蟀振动翅膀，「㘗㘗」，是和阳台告别的歌韵。"
+      - "秋的声音，在每一片叶子里，在每一朵小花上，在每一滴汗水里，在每一颗饱满的谷粒里。"
+      - "会认字（带拼音）：抖 dǒu、振 zhèn、韵 yùn、掠 lüè、吟 yín、辽 liáo。"
+
+  - lesson_id: "chi-g3-t1-u02-l05"
+    unit_id: "unit-2"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 8
+    lesson_name: "习作（写日记）与语文园地二"
+    page_range: "P24-P25"
+    official_examples:
+      - "日记格式：第一行写×月×日、星期几、天气；正文开头空两格。"
+      - "理解词语的方法：查字典、联系上下文、结合生活实际、找近义词、看插图。"
+      - "日积月累成语：秋高气爽、天高云淡、秋风习习、一叶知秋、金桂飘香、层林尽染、五谷丰登、果实累累、春华秋实。"

@@ -1,0 +1,79 @@
+unit_id: "unit-5"
+blueprints:
+  - blueprint_id: "bp-eng-g3-t1-u05-standard"
+    title: "Unit 5 The colourful world 标准练习卷蓝图"
+    target_practice: "单元基础达标与色彩探索审美素养提升练习（6:3:1 阶梯）"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、字母乐园 (Letters & Phonics)（20分）
+      - slot_id: "slot-01"
+        section: "一、字母乐园：规范书写与大小写配对"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u05-p01"]
+        guidelines: "考查字母 Qq, Rr, Ss, Tt, Uu 的大小写对应、四线三格占位与按字母表顺序填空（特别关注小写 q 提钩占中下格）。"
+
+      - slot_id: "slot-02"
+        section: "二、拼读侦探：字母发音与例词拼读"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u05-p02"]
+        guidelines: "考查 Qq-Uu 在核心词汇（queen, ruler, see, Ted, up, run）中的发音，短元音 /ʌ/ 识别及 CVC 拼读（cut, tub）。"
+
+      # 二、词汇天地 (Vocabulary & Expressions)（20分）
+      - slot_id: "slot-03"
+        section: "三、词汇天地：选出不同类的一项"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u05-p03"]
+        guidelines: "选出每组不同类的词汇（如颜色词汇与动物、植物、身体部位混排）。"
+
+      - slot_id: "slot-04"
+        section: "四、神奇调色板与色彩填空"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u05-p03", "eng-g3-t1-u05-p05"]
+        guidelines: "根据调色公式或图片提示填入对应颜色单词（如 Red and blue make purple; Blue and yellow make green）。"
+
+      # 三、情境交际 (Contextual Communication)（20分）
+      - slot_id: "slot-05"
+        section: "五、情境交际单项选择"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u05-p04", "eng-g3-t1-u05-p06"]
+        guidelines: "考查 What colour is it? 及答语、What colours do you like? 偏好表达、Let's draw some... 合作建议的语境运用。"
+
+      # 四、图文匹配与色彩手拉手 (Matching & Building)（20分）
+      - slot_id: "slot-06"
+        section: "六、生活色彩图文连线与句子搭配"
+        question_type: "match"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u05-p03", "eng-g3-t1-u05-p07"]
+        guidelines: "将事物与对应标志性色彩或指令连线（如 traffic light green - Go, red - No, recycle bin blue - Use again, yellow - Be careful）。"
+
+      # 五、阅读理解与探究大问题 (Reading & Challenge)（20分）
+      - slot_id: "slot-07"
+        section: "七、阅读短文并完成任务（颜色会说话）"
+        question_type: "reading_comprehension"
+        difficulty: "challenge"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u05-p03", "eng-g3-t1-u05-p05", "eng-g3-t1-u05-p07"]
+        guidelines: "阅读关于多彩生活与颜色交际功能的短篇语篇（约35-45词），根据文章完成判断正误或选择，回答单元大问题'Why are colours important?'。"

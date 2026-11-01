@@ -1,0 +1,32 @@
+unit_id: unit-04
+source_id: pep_chinese_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g4-t1-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「故事是怎么发生的、经过了什么、结果怎样」为线索，梳理神话的叙事结构
+    difficulty: 学生易把「经过」写成「结果」，叙事要素混乱
+    typical_misconceptions:
+    - error_pattern: 起因、经过、结果混淆
+      misconception_type: 叙事要素不清
+    - error_pattern: 不能体会神话的想象之美
+      misconception_type: 审美体验不足
+  variation_strategy:
+  - 按起因、经过、结果复述故事
+  - 说出神话中最神奇的地方
+- point_id: chi-g4-t1-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「我和神话人物过一天」的想象任务，激发学生的创编兴趣
+    difficulty: 学生易只罗列事件而没有故事发展
+    typical_misconceptions:
+    - error_pattern: 只罗列事件无情节发展
+      misconception_type: 叙事不完整
+    - error_pattern: 想象脱离人物特点
+      misconception_type: 想象不合理
+  variation_strategy:
+  - 编一个与神话人物过一天的故事
+  - 说明故事中最神奇的地方

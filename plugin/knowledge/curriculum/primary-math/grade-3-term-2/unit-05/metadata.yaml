@@ -1,0 +1,20 @@
+unit_id: "unit-5"
+unit_number: 5
+unit_name: "第五单元 数据的收集与整理"
+subject: "math"
+edition: "人教版"
+grade: 3
+term: "term-2"
+version: "2026.10.1"
+updated_at: "2026-10-09"
+verification_status: "verified"
+source_id: "pep_math_g3_t2_2024"
+teaching_ref_source_id: "pep_math_g3_t2_tr_2026"
+page_range: "P65-P76"
+numeric_upper_bound: 1000
+curriculum_standard_ref: "义务教育数学课程标准（2022年版）统计与概率领域·数据分类与表达"
+unit_overview: >
+  本单元是在学生已经掌握简单的单式统计表与画“正”字整理数据的基础上，进一步学习复式统计表。
+  体会从两个单式统计表合并为一个复式统计表的必要性，理解复式统计表的结构特征（复合表头）。
+  掌握根据原始数据整理填表、计算各行“合计”与全表“总计”的方法，
+  并能通过对比分析两组或多组数据，做出合理的判断与预测，发展初步的数据意识。

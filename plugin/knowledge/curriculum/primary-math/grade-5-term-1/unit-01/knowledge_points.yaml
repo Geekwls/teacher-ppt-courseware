@@ -1,0 +1,87 @@
+unit_id: unit-01
+source_id: pep_math_g5_t1_2024
+points:
+- point_id: math-g5-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: math-g5-t1-u01-l01
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 从不同方向观察组合体看到的形状
+  learning_objectives:
+  - 能说出从前面、上面、左面观察同一组合体看到的平面图形
+  - 能判断从某一方向观察不同组合体看到的图形是否相同
+  applicable_question_types:
+  - choice
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P1
+    - P2
+    anchor_text: P2：「从上面看这 3 个组合体，图形相同吗？从左面和前面看呢？」→「从上面看，图形相同；从左面看，图形也相同；从前面看，图形不相同」→「从同一方向观察不同组合体，看到的图形可能相同，也可能不同」。
+  teaching_boundary:
+    scope_allowed:
+    - 辨认从前面/上面/左面看到的形状
+    - 判断不同组合体视图是否相同
+    scope_excluded:
+    - 工程制图投影原理的系统讲解
+    - 三维重建算法
+- point_id: math-g5-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: math-g5-t1-u01-l02
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 根据从不同方向看到的图形还原组合体
+  learning_objectives:
+  - 能根据从前面、上面、左面看到的图形摆出（还原）组合体
+  - 能说出还原时「先按某一方向确定，再按另一方向调整」的思考方法
+  applicable_question_types:
+  - reading
+  - writing
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P3
+    - P5
+    anchor_text: P3：「按要求摆组合体（1）从前面看到的是…（2）从三个方向看到的图形如下。我在之前摆出的组合体的基础上，根据从左面和上面看到的进行调整。」P5：「下面是从不同方向观察同一个组合体所看到的图形，请把这个组合体摆出来。」
+  teaching_boundary:
+    scope_allowed:
+    - 由视图摆出组合体
+    - 说出还原的思考顺序
+    - 判断可能的摆法是否唯一
+    scope_excluded:
+    - 三维图形学中的视图重建
+    - 约束满足问题的求解
+- point_id: math-g5-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: math-g5-t1-u01-l03
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 视图在生活中的应用（三视图）
+  learning_objectives:
+  - 能说出视图的种类（主视图、俯视图、左视图等）
+  - 能说明视图的作用：通过不同方向观察到的视图可以确定物体的外部形状
+  applicable_question_types:
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P6
+    anchor_text: P6 生活中的数学：「当我们从某一方向观察一个物体时，所看到的平面图形叫作物体的一个视图。视图可以根据观察的方向分为主视图、俯视图、仰视图、左视图、右视图和后视图等。通过不同方向观察到的视图，我们可以确定一个物体的外部形状。」
+  teaching_boundary:
+    scope_allowed:
+    - 说出视图的种类
+    - 说明视图的作用
+    - 把生活中的观察与数学中的视图建立联系
+    scope_excluded:
+    - 工程制图标准的系统讲解
+    - 计算机图形学的投影变换

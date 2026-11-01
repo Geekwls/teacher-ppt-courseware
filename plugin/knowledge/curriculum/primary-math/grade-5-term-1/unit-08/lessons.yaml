@@ -1,0 +1,10 @@
+lessons:
+- lesson_id: math-g5-t1-u08-l01
+  unit_id: unit-08
+  subject: math
+  grade: 5
+  term: term-1
+  lesson_name: 第八单元 可能性（单元整体）
+  page_range: P98-P106
+  official_examples:
+  - 统计与概率单元：在具体情境中体验事件发生的确定性与不确定性，能用「一定」「可能」「不可能」描述事件发生的可能性，能比较可能性的大小。（例题原文待核验）

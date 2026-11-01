@@ -1,0 +1,75 @@
+unit_id: unit-06
+blueprints:
+- blueprint_id: bp-math-g2-t1-u06-standard
+  title: 第六单元 复习与关联标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、口算：表内乘除法综合
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 1
+    item_count: 15
+    target_points:
+    - math-g2-t1-u06-p01
+    guidelines: 2～9 的表内乘除法口算。
+  - slot_id: slot-02
+    section: 二、填一填：口诀与算式
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g2-t1-u06-p01
+    guidelines: 补全口诀、由口诀写算式。
+  - slot_id: slot-03
+    section: 三、在○里填「＞」「＜」或「＝」
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g2-t1-u06-p01
+    guidelines: 比较算式得数的大小。
+  - slot_id: slot-04
+    section: 四、看图列式
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 5
+    item_count: 2
+    target_points:
+    - math-g2-t1-u06-p02
+    guidelines: 根据图意选择合适运算列式。
+  - slot_id: slot-05
+    section: 五、解决问题
+    question_type: reading
+    difficulty: variation
+    points_per_item: 8
+    item_count: 3
+    target_points:
+    - math-g2-t1-u06-p02
+    guidelines: 数量关系应用题（含四则运算辨析）。
+  - slot_id: slot-06
+    section: 六、看图提问并解答
+    question_type: reading
+    difficulty: variation
+    points_per_item: 11
+    item_count: 1
+    target_points:
+    - math-g2-t1-u06-p03
+    guidelines: 根据情境图提出数学问题并解答。
+  - slot_id: slot-07
+    section: 七、理一理（结构化）
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 13
+    item_count: 1
+    target_points:
+    - math-g2-t1-u06-p01
+    guidelines: 整理乘法口诀表并写出至少 3 条规律。

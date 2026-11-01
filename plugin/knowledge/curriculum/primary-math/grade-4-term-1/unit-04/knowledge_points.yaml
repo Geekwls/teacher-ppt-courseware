@@ -1,0 +1,169 @@
+unit_id: unit-04
+source_id: pep_math_g4_t1_2024
+points:
+- point_id: math-g4-t1-u04-p01
+  unit_id: unit-04
+  lesson_id: math-g4-t1-u04-l01
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 两位数乘整十数、整百数的口算
+  learning_objectives:
+  - 能用「先拆后合」的方法口算两位数乘一位数（如 16×3）
+  - 能口算两位数乘整十数（如 12×20）与整十数乘整十数（如 30×20）
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P39
+    - P40
+    anchor_text: P39：每筐有 16 盒草莓，3 筐有多少盒？16×3=48——「10×3=30，6×3=18，30+18=48」。P40：6×10=60；12×20=240——「先算 2 盒有多少个，再算 10 个 2 盒有多少个」。
+  teaching_boundary:
+    scope_allowed:
+    - 口算两位数乘一位数
+    - 口算两位数乘整十数
+    - 说出「先算几乘几、再在积的末尾添 0」的依据
+    scope_excluded:
+    - 心算技巧的系统训练
+    - 乘法分配律的代数证明
+- point_id: math-g4-t1-u04-p02
+  unit_id: unit-04
+  lesson_id: math-g4-t1-u04-l02
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 两位数乘两位数的笔算（竖式与对位）
+  learning_objectives:
+  - 能正确列竖式计算两位数乘两位数
+  - 能说出第二步积「末位与乘数的十位对齐」的道理
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P43
+    - P44
+    anchor_text: P43：12×13=156（12×10=120，12×3=36，120+36=156）；「13 是由 1 个十和 3 个一组成的，可以用个位上的 3 和十位上的 1，分别和 12 相乘。」P44：「1. 先用一个乘数个位上的数去乘另一个乘数，得数的末位与乘数的个位对齐。2. 再用这个乘数十位上的数去乘另一个乘数，得数的末位与乘数的十位对齐。3. 然后把两次乘得的数加起来。」
+  teaching_boundary:
+    scope_allowed:
+    - 列竖式计算两位数乘两位数
+    - 说明第二步积的对位道理
+    - 用乘法验算计算结果
+    scope_excluded:
+    - 竖式计算算法的形式化证明
+    - 大数乘法的分治算法
+- point_id: math-g4-t1-u04-p03
+  unit_id: unit-04
+  lesson_id: math-g4-t1-u04-l03
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 因数末尾有 0 的乘法
+  learning_objectives:
+  - 能先算 0 前面的数，再在积的末尾添上相应个数的 0
+  - 能正确处理因数中间有 0 的情形
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P48
+    anchor_text: P48：106×63=；「你能快速算出 106×60 的结果吗？先口算 16×6，积的末尾再添 0。」试一试：160×60=。
+  teaching_boundary:
+    scope_allowed:
+    - 简算因数末尾有 0 的乘法
+    - 说明「末尾添 0」的依据
+    - 计算因数中间有 0 的乘法
+    scope_excluded:
+    - 乘法算法的优化与复杂度分析
+    - 位值原理的代数表述
+- point_id: math-g4-t1-u04-p04
+  unit_id: unit-04
+  lesson_id: math-g4-t1-u04-l04
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 积的变化规律
+  learning_objectives:
+  - 能说出「一个乘数不变，另一个乘数乘几或除以几（0 除外），积也乘或除以几」
+  - 能运用规律直接写出结果
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P49
+    anchor_text: P49：6×2=12，6×20=120，6×200=1200；20×4=80，10×4=40，5×4=20。「一个乘数不变，另一个乘数乘几或除以几（0 除外），积也乘或除以几。」
+  teaching_boundary:
+    scope_allowed:
+    - 发现并表述积的变化规律
+    - 运用规律直接写出结果
+    - 解释「除以几」时为什么 0 除外
+    scope_excluded:
+    - 函数观点下的比例关系
+    - 乘法交换律与结合律的形式证明
+- point_id: math-g4-t1-u04-p05
+  unit_id: unit-04
+  lesson_id: math-g4-t1-u04-l05
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 用计算器探索乘法中的规律
+  learning_objectives:
+  - 能用计算器算出前几题并发现规律，再直接写出后续结果
+  - 能用竖式或数的组成解释规律为什么成立
+  applicable_question_types:
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P50
+    anchor_text: P50：11×11=121，111×111=12321，1111×1111=1234321，11111×11111=123454321。「乘积左右对称，中间的数字是乘数的位数…」不计算，直接写出 111111×111111=。另一组：9×9=81，99×99=9801，999×999=998001…
+  teaching_boundary:
+    scope_allowed:
+    - 用计算器算前几题并发现规律
+    - 直接写出后续结果
+    - 尝试说明规律成立的原因
+    scope_excluded:
+    - 数列与递推关系的系统讲解
+    - 数学归纳法的严格表述
+- point_id: math-g4-t1-u04-p06
+  unit_id: unit-04
+  lesson_id: math-g4-t1-u04-l06
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 用估算解决实际问题
+  learning_objectives:
+  - 能根据问题选择「估大」或「估小」，并用估算判断钱数够不够、座位够不够
+  - 能说明估算的合理性与适用范围
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P53
+    - P55
+    anchor_text: P53：张老师要为学校舞蹈队选购 18 套相同的服装，她带了 2600 元，可以买哪几款服装？「都买②号：130×18 → 估大 → 130×20=2600（元），2600=2600，可以。」「要根据解决的问题，确定把数估大算，还是估小算。」P55 知识结构图：「用估算解决问题——要结合实际问题来确定往大估还是往小估。」
+  teaching_boundary:
+    scope_allowed:
+    - 选择估大或估小
+    - 用估算判断「够不够」
+    - 说明估算结论的可靠性与边界
+    scope_excluded:
+    - 统计估计与区间估计的系统讲解
+    - 计算精度与有效数字的工程标准

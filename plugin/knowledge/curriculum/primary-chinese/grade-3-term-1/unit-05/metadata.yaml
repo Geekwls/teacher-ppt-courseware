@@ -1,0 +1,26 @@
+unit_id: "unit-5"
+unit_name: "第五单元 留心观察"
+subject: "chinese"
+edition: "统编版"
+grade: 3
+term: "term-1"
+version: "2026.10.2"
+updated_at: "2026-10-09"
+verification_status: "partial"
+source_id: "pep_chinese_g3_t1_2024"
+teaching_reference_source_id: "pep_chinese_g3_t1_tr_2024"
+page_range: "P59-P68"
+page_evidence_note: >
+  页码于 2026-10-09 依据用户提供的《2024版人教统编版小学语文三年级上册电子课本》目录页核定：
+  第五单元起始页 P59，第14课《搭船的鸟》P60-P61、第15课《金色的草地》P62-P64、
+  习作《我们眼中的缤纷世界》P65-P66、习作例文《我爱故乡的杨梅》P67-P68。
+  **证据边界**：用户提供的语文三上电子课本为部分预览（仅含印刷页 P1–P25），第五单元正文页不在预览范围内；
+  本单元课文的生字表与原文尚未取得逐页凭证，故 verification_status 记为 partial。
+  单元语文要素经用户提供的教师教学用书（扫描件 OCR，教参 P126）核定。
+unit_overview: >
+  本单元是习作单元，围绕「留心观察」主题编排。教材编排了《搭船的鸟》《金色的草地》两篇精读课文，
+  以及习作《我们眼中的缤纷世界》和习作例文《我爱故乡的杨梅》。
+  本单元阅读方面的语文要素是「体会作者是怎样留心观察周围事物的」，
+  习作方面的语文要素是「仔细观察，把观察所得写下来」。
+  单元引导学生在阅读中体会作者留心观察、细致表达的方法，并迁移到自己的观察与习作中。
+numeric_upper_bound: 1000

@@ -1,0 +1,85 @@
+unit_id: unit-08
+source_id: pep_chinese_g1_t1_2024
+points:
+- point_id: chi-g1-t1-u08-p01
+  unit_id: unit-08
+  lesson_id: chi-g1-t1-u08-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 《比尾巴》与动物尾巴的特点
+  learning_objectives:
+  - 能朗读背诵《比尾巴》，能说出几种动物尾巴的不同特点
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P95
+    anchor_text: 单元起始页 P95 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 问答式儿歌的朗读
+    - 动物尾巴特点的对应（长、短、像把伞等）
+    scope_excluded:
+    - 动物尾巴功能的科学讲解
+    - 写话
+- point_id: chi-g1-t1-u08-p02
+  unit_id: unit-08
+  lesson_id: chi-g1-t1-u08-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 《乌鸦喝水》与《雨点儿》
+  learning_objectives:
+  - 能朗读《乌鸦喝水》并说出乌鸦的办法，能朗读《雨点儿》
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P97
+    - P99
+    anchor_text: 单元起始页 P97 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《乌鸦喝水》中乌鸦解决问题的过程
+    - 《雨点儿》中雨水的作用
+    scope_excluded:
+    - 密度等科学原理的系统解释
+    - 写话
+- point_id: chi-g1-t1-u08-p03
+  unit_id: unit-08
+  lesson_id: chi-g1-t1-u08-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 语文园地八
+  learning_objectives:
+  - 能完成语文园地八的识字、积累与运用任务
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P101
+    anchor_text: 单元起始页 P101 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 语文园地八的识字加油站与日积月累
+    - 本册识字写字的整理
+    scope_excluded:
+    - 整册知识的系统复习
+    - 写话

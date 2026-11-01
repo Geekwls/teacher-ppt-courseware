@@ -1,0 +1,122 @@
+unit_id: "unit-2"
+source_id: "pep_math_g3_t1_2024"
+points:
+  - point_id: "math-g3-t1-u02-p01"
+    lesson_id: "lesson-01"
+    point_name: "同级运算按从左往右的顺序计算"
+    learning_objectives:
+      - "理解只有加、减法或只有乘、除法的算式的运算顺序：从左往右依次计算"
+      - "能把两个相关联的分步算式合并成一个综合算式，并正确写出运算过程"
+    prerequisites:
+      - "百以内加、减法的口算与笔算"
+      - "表内乘法与表内除法"
+    subsequent_points:
+      - "math-g3-t1-u02-p02"
+    applicable_question_types: ["calculation", "fill_blank", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "连加连减（如 32+47−28、95−48−15）"
+        - "连乘连除（如 2×2×5、42÷7÷2）"
+        - "加减混合、乘除混合的两步同级运算"
+      scope_excluded:
+        - "三步及以上的同级运算（本册不作要求）"
+        - "含括号的算式（归入 p03）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [6]
+      example_ref: ["ex_1"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u02-p02"
+    lesson_id: "lesson-01"
+    point_name: "两级运算先算乘除、后算加减"
+    learning_objectives:
+      - "理解既有乘、除法又有加、减法的算式的运算顺序：先算乘、除法，再算加、减法"
+      - "能正确判断算式中的第一步运算，并按规则脱式计算"
+    prerequisites:
+      - "math-g3-t1-u02-p01"
+    subsequent_points:
+      - "math-g3-t1-u02-p03"
+    applicable_question_types: ["calculation", "fill_blank", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "乘加、乘减（如 6×3+4、4×9−5×3）"
+        - "除加、除减（如 32−18÷2、81÷9+54）"
+        - "含两级运算且需要先画线确定第一步的题目"
+      scope_excluded:
+        - "含括号的算式（归入 p03）"
+        - "小数、分数的混合运算（高年级）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [7]
+      example_ref: ["ex_2"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u02-p03"
+    lesson_id: "lesson-02"
+    point_name: "含括号的混合运算"
+    learning_objectives:
+      - "知道算式里有括号时，要先算括号里面的"
+      - "能根据问题的需要，正确使用括号改变运算顺序"
+    prerequisites:
+      - "math-g3-t1-u02-p02"
+    subsequent_points:
+      - "math-g3-t1-u02-p04"
+    applicable_question_types: ["calculation", "fill_blank", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "小括号内含加、减或乘、除的算式（如 (24−16)×9、56÷(2×4)）"
+        - "对比含括号与不含括号的算式并说明运算顺序差异"
+      scope_excluded:
+        - "中括号、多层嵌套括号（本册不作要求）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [8]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u02-p04"
+    lesson_id: "lesson-03"
+    point_name: "用综合算式解决需要两步计算的实际问题"
+    learning_objectives:
+      - "能按「阅读理解—分析解答—回顾反思」的步骤分析实际问题，先想好先求什么、再求什么"
+      - "能列出含括号的综合算式表示解题过程，并借助线段图等直观方式分析数量关系"
+    prerequisites:
+      - "math-g3-t1-u02-p03"
+      - "两步加减法实际问题的分析经验"
+    subsequent_points:
+      - "math-g3-t1-u02-p05"
+    applicable_question_types: ["word_problem", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "先加后减、先减后乘等需要两步计算的常规实际问题"
+        - "用线段图表示已知条件与问题并列综合算式"
+      scope_excluded:
+        - "需要三步及以上计算的问题（本册不作要求）"
+        - "归一、归总等典型应用题模型（四年级起）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [12, 13]
+      example_ref: ["ex_4", "ex_5"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u02-p05"
+    lesson_id: "lesson-03"
+    point_name: "用不同思路解决同一问题"
+    learning_objectives:
+      - "能对同一个实际问题提出两种不同的解题思路，并分别列出综合算式"
+      - "通过对比不同解法，体会运算顺序与数量关系的联系，发展推理意识"
+    prerequisites:
+      - "math-g3-t1-u02-p04"
+    subsequent_points: []
+    applicable_question_types: ["word_problem", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "先分别求再相减、先求差再求份数等两种思路的对比（如 72÷8−56÷8 与 (72−56)÷8）"
+      scope_excluded:
+        - "对解法优劣作绝对化评价（应鼓励多样性，不作唯一标准）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [14]
+      example_ref: ["ex_6"]
+    verification_status: "verified"

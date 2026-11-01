@@ -1,0 +1,10 @@
+lessons:
+- lesson_id: math-g1-t2-u04-l01
+  unit_id: unit-04
+  subject: math
+  grade: 1
+  term: term-2
+  lesson_name: 第四单元 100以内的口算加、减法（单元整体）
+  page_range: P43-P55
+  official_examples:
+  - 学习 100 以内的口算加、减法，包括整十数加、减整十数，两位数加、减一位数和整十数（不进位、不退位与进位、退位）。（例题原文待核验）

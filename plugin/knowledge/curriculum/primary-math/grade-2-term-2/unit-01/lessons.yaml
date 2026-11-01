@@ -1,0 +1,73 @@
+lessons:
+- lesson_id: math-g2-t2-u01-l01
+  unit_id: unit-01
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 有余数除法的意义与余数
+  page_range: P10-P11
+  official_examples:
+  - 用下面这些小棒摆图形：摆2个，正好摆完（8÷4=2）；摆2个，还剩1根（9÷4=2……1）。
+  - 读作：9除以4等于2余1。用10根小棒摆，能摆几个？有剩余吗？11根呢？
+- lesson_id: math-g2-t2-u01-l02
+  unit_id: unit-01
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 余数与除数的关系（余数要比除数小）
+  page_range: P12
+  official_examples:
+  - 用一些小棒摆三角形，可能剩几根？（6÷3=2；7÷3=2……1；8÷3=2……2；9÷3=3；10÷3=3……1）
+  - 观察每道题的余数和除数，你发现了什么？注意：余数要比除数小。
+  - 有一些巧克力，平均装在6个盒子里。如果有剩余，最多剩几颗？
+- lesson_id: math-g2-t2-u01-l03
+  unit_id: unit-01
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 有余数除法的竖式与被除数、除数、商、余数的关系
+  page_range: P13-P14
+  official_examples:
+  - 13根小棒，每4根摆一个，结果怎样？可以用除法竖式记录摆小棒的过程：13÷4=3（个）……1（根）。
+  - 想一想：被除数、除数、商和余数有什么关系？13÷4=3……1，13=4×3+1。
+- lesson_id: math-g2-t2-u01-l04
+  unit_id: unit-01
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 试商与求商方法
+  page_range: P15-P16
+  official_examples:
+  - （　）里最大能填几？（　）×6<57；（　）×8<26；（　）×4<31。注意：余数要比除数小。
+  - 43÷7=（　）……（　）：想 43 里最多有几个 7？7 和几相乘的积接近 43，并且小于 43？
+- lesson_id: math-g2-t2-u01-l05
+  unit_id: unit-01
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 用有余数的除法解决问题（进一法）
+  page_range: P17
+  official_examples:
+  - 烘焙小组做了23块蛋糕，每个盒子装4块。可以装满几盒，还剩几块？装下全部蛋糕需要几个盒子？
+  - 23÷4=5（盒）……3（块）；剩下的3块也需要1个盒子来装，一共需要6个盒子（5+1=6）。
+- lesson_id: math-g2-t2-u01-l06
+  unit_id: unit-01
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 用有余数的除法解决周期规律问题
+  page_range: P18-P19
+  official_examples:
+  - 按照下面的规律摆下去，第16面小旗是什么颜色的？16÷3=5（组）……1（面）。
+  - 5组共15面，第16面是第6组的第1面；余1，就是一组中的第1面。
+- lesson_id: math-g2-t2-u01-l07
+  unit_id: unit-01
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 整理和复习
+  page_range: P20-P23
+  official_examples:
+  - 下面是小丽整理的「知识图」，有值得你学习的地方吗？
+  - 练一练：☆÷5=△……□，□最大是（　）；☆÷□=△……5，□最小是（　）。
+  - 你知道吗：我国古代的数学著作《孙子算经》中记载了一个「物不知数」问题。

@@ -1,0 +1,46 @@
+unit_id: unit-03
+source_id: pep_english_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教版PEP小学英语六年级上册教师用书》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: eng-g6-t1-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「看医生」的情境，把询问病情与描述症状的句型配对操练
+    difficulty: 学生易把 My head hurts. 说成 My head hurt.；易把 have a cold 写成 have cold
+    typical_misconceptions:
+    - error_pattern: 第三人称 hurts 漏加 -s
+      misconception_type: 主谓一致错误
+    - error_pattern: have a cold 漏掉冠词
+      misconception_type: 冠词遗漏
+  variation_strategy:
+  - 用 What's the matter? 问答
+  - 用英语描述身体不适
+- point_id: eng-g6-t1-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「健康小达人」为任务，让学生用祈使句给同学提建议，并把健康与不健康的行为分类
+    difficulty: 学生易把 Don't stay up late. 写成 Not stay up late.；易把建议写成陈述句
+    typical_misconceptions:
+    - error_pattern: 否定祈使句用 Not
+      misconception_type: 否定形式错误
+    - error_pattern: 建议写成陈述句
+      misconception_type: 句型误用
+  variation_strategy:
+  - 用祈使句给出两条健康建议
+  - 把生活方式分为健康与不健康两类
+- point_id: eng-g6-t1-u03-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「分享自己的感受」为例，让学生理解「说出来」本身就是一种健康的应对方式
+    difficulty: 学生易认为身体没病就是健康；易把情绪问题当成「不听话」
+    typical_misconceptions:
+    - error_pattern: 只关注身体健康忽略心理
+      misconception_type: 健康观念不完整
+    - error_pattern: 不能表达自己的感受
+      misconception_type: 表达能力不足
+  variation_strategy:
+  - 说出管理情绪的方法
+  - 用英语表达自己的感受并寻求帮助

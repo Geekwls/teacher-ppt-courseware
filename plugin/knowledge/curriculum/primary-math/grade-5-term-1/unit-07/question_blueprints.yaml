@@ -1,0 +1,48 @@
+unit_id: unit-07
+blueprints:
+- blueprint_id: bp-math-g5-t1-u07-standard
+  title: 综合与实践 有趣的密铺标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、判一判（能否密铺）
+    question_type: choice
+    difficulty: basic
+    points_per_item: 5
+    item_count: 6
+    target_points:
+    - math-g5-t1-u07-p01
+    guidelines: 判断给出的平面图形能否单独密铺。
+  - slot_id: slot-02
+    section: 二、填一填（密铺特征）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g5-t1-u07-p01
+    guidelines: 填写密铺与图形边角特征的关系。
+  - slot_id: slot-03
+    section: 三、设计密铺图案
+    question_type: writing
+    difficulty: variation
+    points_per_item: 9
+    item_count: 3
+    target_points:
+    - math-g5-t1-u07-p01
+    guidelines: 用平移、旋转或轴对称设计一幅密铺图案。
+  - slot_id: slot-04
+    section: 四、解决问题
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 9
+    item_count: 3
+    target_points:
+    - math-g5-t1-u07-p01
+    guidelines: 说明密铺的理由并解决与密铺有关的问题。

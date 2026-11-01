@@ -1,0 +1,32 @@
+unit_id: unit-07
+source_id: pep_chinese_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t1-u07-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「由诗想画」的方式帮助学生理解诗句，体会古诗的画面感
+    difficulty: 学生易把两首诗的内容与作者张冠李戴
+    typical_misconceptions:
+    - error_pattern: 把两首诗的内容记混
+      misconception_type: 两首诗混淆
+    - error_pattern: 说不出「天似穹庐」的意思
+      misconception_type: 诗句理解不到位
+  variation_strategy:
+  - 配画朗读并背诵两首诗
+  - 用自己的话说说诗中的画面
+- point_id: chi-g2-t1-u07-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「雾把什么藏起来了」的顺序梳理帮助理解《雾在哪里》，以「雪孩子为什么化了」帮助理解《雪孩子》
+    difficulty: 学生易把雾藏起事物的顺序弄乱
+    typical_misconceptions:
+    - error_pattern: 把雾藏起事物的顺序弄乱
+      misconception_type: 情节顺序错误
+    - error_pattern: 说不出雪孩子最后变成什么
+      misconception_type: 情节遗漏
+  variation_strategy:
+  - 按顺序说说雾把什么藏了起来
+  - 说说雪孩子身上的品质

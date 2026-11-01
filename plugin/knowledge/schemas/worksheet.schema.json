@@ -1,0 +1,508 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WorksheetDataContract",
+  "description": "练习卷与答案解析统一数据输出契约",
+  "type": "object",
+  "required": [
+    "worksheet_id",
+    "metadata",
+    "curriculum_evidence",
+    "sections",
+    "total_score",
+    "questions"
+  ],
+  "properties": {
+    "worksheet_id": {
+      "type": "string",
+      "description": "练习卷唯一编号"
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "title",
+        "subject",
+        "grade",
+        "term",
+        "unit_name"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string",
+          "enum": [
+            "math",
+            "chinese",
+            "english"
+          ]
+        },
+        "edition": {
+          "type": "string"
+        },
+        "grade": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "term": {
+          "type": "string",
+          "enum": [
+            "term-1",
+            "term-2"
+          ]
+        },
+        "unit_id": {
+          "type": "string"
+        },
+        "unit_name": {
+          "type": "string"
+        },
+        "time_limit_minutes": {
+          "type": "integer",
+          "default": 40
+        },
+        "theme_context": {
+          "type": [
+            "string",
+            "object"
+          ],
+          "description": "大单元主题情境导语框（支持纯文本或含 tag, title, description 的对象）"
+        },
+        "paper_type": {
+          "type": "string",
+          "enum": [
+            "unit",
+            "midterm",
+            "final"
+          ],
+          "description": "试卷类型：单元卷 / 期中综合卷 / 期末综合卷（缺省视为 unit）"
+        },
+        "paper_label": {
+          "type": "string",
+          "description": "试卷类型中文名（如「期末测试」），仅综合卷存在"
+        },
+        "coverage_note": {
+          "type": "string",
+          "description": "综合卷考查范围（卷面【考查范围】栏据此打印）"
+        },
+        "paper_scope": {
+          "type": "object",
+          "description": "综合卷考查范围的结构化记录：覆盖单元、范围推定口径与证据说明",
+          "properties": {
+            "unit_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "unit_names": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "unit_count": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "scope_rule": {
+              "type": "string"
+            },
+            "evidence_note": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "curriculum_evidence": {
+      "type": "object",
+      "required": [
+        "referenced_knowledge_points",
+        "curriculum_status"
+      ],
+      "properties": {
+        "referenced_knowledge_points": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "curriculum_status": {
+          "type": "string",
+          "enum": [
+            "verified",
+            "partial",
+            "unverified",
+            "missing"
+          ]
+        },
+        "evidence_summary": {
+          "type": "string"
+        }
+      }
+    },
+    "total_score": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "section_id",
+          "title",
+          "tier",
+          "score"
+        ],
+        "properties": {
+          "section_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "tier": {
+            "type": "string",
+            "enum": [
+              "level_1_basic",
+              "level_2_intermediate",
+              "level_3_advanced"
+            ]
+          },
+          "score": {
+            "type": "integer"
+          },
+          "stage_banner": {
+            "type": "string",
+            "description": "闯关过渡胶囊标题"
+          },
+          "stage_intro": {
+            "type": "string",
+            "description": "闯关过渡引导语"
+          },
+          "title_pinyin": {
+            "type": "string",
+            "description": "低年级大题标题汉语拼音注音"
+          }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question_id",
+          "section_id",
+          "number",
+          "type",
+          "stem",
+          "score",
+          "difficulty_tier",
+          "knowledge_point_id",
+          "answer",
+          "analysis"
+        ],
+        "properties": {
+          "question_id": {
+            "type": "string"
+          },
+          "section_id": {
+            "type": "string"
+          },
+          "number": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "description": "题型。match=连线配对题（渲染器 _render_match_table 已支持，配对内容放在 match_pairs）。",
+            "enum": [
+              "calculation",
+              "fill_blank",
+              "choice",
+              "word_problem",
+              "reading",
+              "writing",
+              "judge",
+              "match",
+              "listening"
+            ]
+          },
+          "stem": {
+            "type": "string"
+          },
+          "score": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "difficulty_tier": {
+            "type": "string",
+            "enum": [
+              "level_1_basic",
+              "level_2_intermediate",
+              "level_3_advanced"
+            ]
+          },
+          "knowledge_point_id": {
+            "type": "string"
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "answer": {
+            "type": "string"
+          },
+          "analysis": {
+            "type": "string"
+          },
+          "check_expression": {
+            "type": "string",
+            "description": "针对数学计算的可独立计算校验算式，例如 24 * 3 == 72"
+          },
+          "check_expressions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "多小题计算题可声明多条校验算式，逐条独立重算，例如 [\"213 * 3 == 639\", \"148 * 5 == 740\"]"
+          },
+          "key_points": {
+            "type": "string"
+          },
+          "common_pitfalls": {
+            "type": "string"
+          },
+          "grading_criteria": {
+            "type": "string"
+          },
+          "answer_lines": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 30,
+            "description": "学生卷中该题预留的书写横线数。省略时按题型取默认值（calculation=2, word_problem=3, reading=6, writing=10，其余为 0）"
+          },
+          "match_pairs": {
+            "type": "array",
+            "description": "type=match 时的连线配对内容，每项为 [左侧, 右侧]；也兼容 \"左项 - 右项\" 字符串写法。",
+            "items": {}
+          },
+          "answer_figure": {
+            "type": "object",
+            "description": "仅出现在答案卷的配图（规格同 figure）。省略时答案卷复用题干 figure。"
+          },
+          "response_spec": {
+            "type": "object",
+            "description": "学生作答空间物理规约与呈现模式，明确学生如何作答及所需物理空间",
+            "properties": {
+              "mode": {
+                "type": "string",
+                "enum": [
+                  "inline_tianzi",
+                  "writing_grid",
+                  "vertical_calculation",
+                  "mental_inline",
+                  "steps_fraction",
+                  "equation",
+                  "word_problem",
+                  "match_pairs",
+                  "options",
+                  "underline",
+                  "four_line_grid",
+                  "table",
+                  "free_lines"
+                ],
+                "description": "作答与呈现物理模式"
+              },
+              "min_height_mm": {
+                "type": "number",
+                "minimum": 0,
+                "description": "该题作答区域的最低物理保留高度（单位：毫米）"
+              },
+              "show_work": {
+                "type": "boolean",
+                "description": "是否需要演算/解答留白框"
+              },
+              "has_check": {
+                "type": "boolean",
+                "description": "计算题是否需要验算区域"
+              },
+              "grid_type": {
+                "type": "string",
+                "description": "方格类型，如 tianzi / four_line / composition_standard"
+              },
+              "rows": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "方格行数"
+              },
+              "cols": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "方格列数"
+              },
+              "total_cells": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "作文方格总格子数"
+              },
+              "cell_size_mm": {
+                "type": "number",
+                "minimum": 1,
+                "description": "方格单格物理尺寸（单位：毫米）"
+              }
+            }
+          },
+          "tianzi_words": {
+            "type": "array",
+            "description": "田字格练字内容（语文写字题），逐字渲染于田字格矩阵。每项为 [拼音, 汉字] 二元组（渲染器 _render_multi_word_tianzi_pool 按二元组消费）；也接受纯字符串（无拼音时）。",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            }
+          },
+          "grid_type": {
+            "type": "string",
+            "description": "英语书写格类型标识（如四线三格），供渲染器选择专属版式。"
+          },
+          "dictionary_items": {
+            "type": "array",
+            "description": "语文查字典题的表项数据（音序/部首/笔画等）。",
+            "items": {}
+          },
+          "annotation_passage": {
+            "type": "object",
+            "description": "双栏批注式阅读语篇数据（正文 + 批注位）。"
+          },
+          "info_table": {
+            "type": "object",
+            "description": "非连续性文本信息表数据。"
+          },
+          "writing_outline": {
+            "type": "array",
+            "description": "习作提纲框条目。",
+            "items": {
+              "type": "string"
+            }
+          },
+          "category_boxes": {
+            "type": "object",
+            "description": "分类归位屋组件（散落词卡池 items + 多个归类容器 categories）。"
+          },
+          "star_lamps": {
+            "type": [
+              "array",
+              "object"
+            ],
+            "description": "点亮星星灯式独立四线三格音节书写组。"
+          },
+          "choice_cards": {
+            "type": [
+              "array",
+              "object"
+            ],
+            "description": "低年级易混声母/字形卡片选填组件。"
+          },
+          "flow_chart": {
+            "type": [
+              "array",
+              "object"
+            ],
+            "description": "中高年级阅读思维导图/横向流程梳理框。"
+          },
+          "context_box": {
+            "type": [
+              "string",
+              "object"
+            ],
+            "description": "中高年级主题语段微情境底纹框。"
+          },
+          "email_box": {
+            "type": [
+              "string",
+              "object"
+            ],
+            "description": "英语电子邮件/明信片仿真窗口框。"
+          },
+          "figure": {
+            "type": "object",
+            "description": "题目配图规格。图片由代码按参数化规格确定性绘制（非模型生图），同一规格复用同一文件。",
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "geometry",
+                  "grid",
+                  "numberline",
+                  "bar_chart",
+                  "fraction_bar",
+                  "clock",
+                  "line_chart",
+                  "pie_chart",
+                  "teaching_illustration",
+                  "picture_match",
+                  "syllable_cards",
+                  "svg"
+                ]
+              },
+              "shape": {
+                "type": "string",
+                "description": "kind=geometry 时的具体图形：square/rectangle/triangle/right_triangle/parallelogram/trapezoid/circle/semicircle/ring/sector/composite_house",
+                "enum": [
+                  "square",
+                  "rectangle",
+                  "triangle",
+                  "right_triangle",
+                  "parallelogram",
+                  "trapezoid",
+                  "circle",
+                  "semicircle",
+                  "ring",
+                  "sector",
+                  "composite_house"
+                ]
+              },
+              "params": {
+                "type": "object",
+                "description": "图形参数（边长、行列数、刻度等），键随 kind 而定。"
+              },
+              "labels": {
+                "type": "object",
+                "description": "图形内标注文字，如 {\"w\":\"6厘米\",\"h\":\"4厘米\"}。须与题干数值一致。"
+              },
+              "width_mm": {
+                "type": "number",
+                "description": "文档内嵌入宽度（毫米），默认 60。"
+              },
+              "caption": {
+                "type": "string",
+                "description": "图注，如「图 1」。"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

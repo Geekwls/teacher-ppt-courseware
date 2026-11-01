@@ -1,0 +1,75 @@
+lessons:
+  - lesson_id: "chi-g3-t1-u07-l01"
+    unit_id: "unit-7"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 20
+    lesson_name: "第20课 古诗三首"
+    page_range: "P84-P85"
+    official_examples:
+      - "2024 版《古诗三首》篇目为《鹿柴》（唐·王维）、《望天门山》（唐·李白）、《饮湖上初晴后雨》（宋·苏轼）。"
+      - "课后题引导学生朗读、背诵古诗，想象诗中描绘的画面，体会诗人的情感。"
+      - "（严禁混入《望洞庭》等旧版篇目；原文与生字表以课本页面为准，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u07-l02"
+    unit_id: "unit-7"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 21
+    lesson_name: "第21课 大自然的声音"
+    page_range: "P86-P88"
+    official_examples:
+      - "课文把大自然的声音比作音乐家演奏，语言生动形象，描写风、水、动物的声音。"
+      - "课后题引导学生感受课文生动的语言，积累喜欢的语句。"
+      - "（原文与生字表以课本页面为准；本单元正文页未含于用户提供的电子课本预览，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u07-l03"
+    unit_id: "unit-7"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 22
+    lesson_name: "第22课 读不完的大书"
+    page_range: "P89-P90"
+    official_examples:
+      - "课文把大自然看作一部读不完的大书，描写其中的动物、植物等，语言生动。"
+      - "课后题引导学生体会课文生动的语言，积累喜欢的语句。"
+      - "（原文与生字表以课本页面为准，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u07-l04"
+    unit_id: "unit-7"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 23
+    lesson_name: "口语交际（身边的「小事」）"
+    page_range: "P91"
+    official_examples:
+      - "口语交际《身边的「小事」》：围绕身边的小事展开交流，表达自己的想法与看法。"
+      - "提示学生把话说清楚、认真倾听、有礼貌地回应。"
+
+  - lesson_id: "chi-g3-t1-u07-l05"
+    unit_id: "unit-7"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 24
+    lesson_name: "习作（我有一个想法）"
+    page_range: "P92"
+    official_examples:
+      - "习作《我有一个想法》：把自己在生活中发现的问题和想法写下来，写清楚、写明白。"
+      - "提示学生把想法写具体，尝试提出合理的建议。"
+
+  - lesson_id: "chi-g3-t1-u07-l06"
+    unit_id: "unit-7"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 25
+    lesson_name: "语文园地"
+    page_range: "P93-P94"
+    official_examples:
+      - "梳理与交流：交流摘抄的方法，学习积累喜欢的语句。"
+      - "词句段运用与日积月累（具体内容以课本页面为准，待补凭证）。"

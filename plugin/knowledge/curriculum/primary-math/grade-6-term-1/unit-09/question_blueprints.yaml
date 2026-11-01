@@ -1,0 +1,39 @@
+unit_id: unit-09
+blueprints:
+- blueprint_id: bp-math-g6-t1-u09-standard
+  title: 第七单元 复习与关联标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填（知识梳理）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 6
+    item_count: 6
+    target_points:
+    - math-g6-t1-u09-p01
+    guidelines: 填写本册各单元的核心内容。
+  - slot_id: slot-02
+    section: 二、选一选（综合）
+    question_type: choice
+    difficulty: variation
+    points_per_item: 6
+    item_count: 4
+    target_points:
+    - math-g6-t1-u09-p01
+    guidelines: 综合本册各单元知识的判断题。
+  - slot_id: slot-03
+    section: 三、解决问题（综合）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 20
+    item_count: 2
+    target_points:
+    - math-g6-t1-u09-p01
+    guidelines: 综合运用本册知识解决实际问题。

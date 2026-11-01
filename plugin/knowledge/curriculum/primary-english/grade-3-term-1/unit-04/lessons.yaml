@@ -1,0 +1,68 @@
+unit_id: "unit-4"
+source_id: "pep_english_g3_t1_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "Part A Talk: 询问水果喜好与农场体验"
+    page_range: "P40"
+    official_examples:
+      - example_id: "ex_1"
+        title: "农场采摘交流水果喜好"
+        page: 40
+        formula_or_context: "Mike, do you like apples? / Yes, I do. And you? / No, I don't. I like bananas. / Do you like the farm? / Yes, Miss White. I like the fresh air."
+        core_concept: "掌握询问对某种水果或环境喜爱的一般疑问句'Do you like...?'及其肯定回答'Yes, I do.'与否定回答'No, I don't.'，并用'And you?'反问及用'I like...'表达个人偏好。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "Part A Learn: 核心水果词汇与植物馈赠"
+    page_range: "P41"
+    official_examples:
+      - example_id: "ex_2"
+        title: "常见水果与植物给人类的礼物"
+        page: 41
+        formula_or_context: "apples, bananas, oranges, grapes; Do you like apples? / No, I don't. I like bananas. Grapes are small. Bananas are long. Apples and oranges make you strong."
+        core_concept: "学习常见水果名词复数形式（apples, bananas, oranges, grapes），感知水果特征（small, long, make you strong），理解植物为人类带来新鲜空气、花朵与绿叶。"
+
+  - lesson_id: "lesson-03"
+    lesson_number: 3
+    lesson_name: "Part A Letters and sounds: 字母 Mm-Pp 认读、书写与拼读"
+    page_range: "P42"
+    official_examples:
+      - example_id: "ex_3"
+        title: "字母 Mm, Nn, Oo, Pp 笔顺占格与拼读"
+        page: 42
+        formula_or_context: "Mm, Nn, Oo, Pp; map, mum, new, fan, orange, fox, pen, cup; nod, hop, men, nap, pig"
+        core_concept: "规范书写字母Mm-Pp（注意大写M、N的笔顺与小写p的占格），掌握辅音m(/m/), n(/n/), p(/p/)与短元音o(/ɒ/)的发音，拼读CVC单词。"
+
+  - lesson_id: "lesson-04"
+    lesson_number: 4
+    lesson_name: "Part B Talk: 建设绿色校园与养护绿植倡议"
+    page_range: "P43"
+    official_examples:
+      - example_id: "ex_4"
+        title: "为校园花园提供养护建议"
+        page: 43
+        formula_or_context: "The school gardens need help. / We can water the flowers. / We can water the grass. / Nice. And? / We can plant new trees."
+        core_concept: "学习为校园环境提出养护行动建议的核心句型'We can water the flowers / grass.'与'We can plant new trees.'，理解助动词 can 表达能力的用法。"
+
+  - lesson_id: "lesson-05"
+    lesson_number: 5
+    lesson_name: "Part B Learn: 植物要素与生长基本条件"
+    page_range: "P44"
+    official_examples:
+      - example_id: "ex_5"
+        title: "植物生长必需的三大自然要素"
+        page: 44
+        formula_or_context: "air, water, trees, flowers, grass, sun; Plants need air, water and sun. Air, water and sun. These can all help plants grow."
+        core_concept: "学习植物生态环境核心词汇（air, water, sun, grass, flowers, trees），掌握陈述植物生长需求的句型'Plants need air, water and sun.'。"
+
+  - lesson_id: "lesson-06"
+    lesson_number: 6
+    lesson_name: "Start to read & Project: 人与植物互利共生与纸艺花园"
+    page_range: "P45-P47"
+    official_examples:
+      - example_id: "ex_6"
+        title: "阅读语篇《Plants and us》与制作纸艺花园"
+        page: 45
+        formula_or_context: "Plants can give us many things. We need plants. Plants need air, water and sun. Can we help them? Flowers need air, water and sun. We can help them."
+        core_concept: "阅读理解植物给予人类与人类帮助植物的双向互利共生关系（Give vs Help），综合运用植物与水果词汇，回答大问题'How do we connect with plants?'。"

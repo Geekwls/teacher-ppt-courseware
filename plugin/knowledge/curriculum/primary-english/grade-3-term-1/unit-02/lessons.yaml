@@ -1,0 +1,68 @@
+unit_id: "unit-2"
+source_id: "pep_english_g3_t1_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "Part A Talk: 介绍朋友与家庭长辈"
+    page_range: "P16"
+    official_examples:
+      - example_id: "ex_1"
+        title: "向父母和祖父母介绍新朋友"
+        page: 16
+        formula_or_context: "Mum! Dad! This is my friend, Sarah Miller. / Hi, Sarah. / This is my grandma. This is my grandpa. / Nice to meet you."
+        core_concept: "学习向家人介绍朋友及向朋友介绍长辈的核心句型'This is my...'，并运用'Nice to meet you.'进行礼貌交往。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "Part A Learn: 直系家庭成员核心词汇"
+    page_range: "P17"
+    official_examples:
+      - example_id: "ex_2"
+        title: "看全家福照片介绍家庭成员"
+        page: 17
+        formula_or_context: "father (dad), mother (mum), grandfather (grandpa), grandmother (grandma), sister, me; Look! This is my family. This is my..."
+        core_concept: "学习核心直系家庭成员称谓，理解口语化亲昵称呼（dad, mum, grandpa, grandma）与书面全称的对应，用'This is my...'进行流利介绍。"
+
+  - lesson_id: "lesson-03"
+    lesson_number: 3
+    lesson_name: "Part A Letters and sounds: 字母 Ee-Hh 书写与拼读"
+    page_range: "P18"
+    official_examples:
+      - example_id: "ex_3"
+        title: "字母 Ee, Ff, Gg, Hh 认读、书写与自然拼读"
+        page: 18
+        formula_or_context: "Ee, Ff, Gg, Hh; egg, nest, fish, beef, girl, pig, hot, hat; bed, fed, gab, had"
+        core_concept: "规范书写字母Ee-Hh的大小写，掌握短元音e(/e/)以及辅音字母f(/f/), g(/ɡ/), h(/h/)在词首和词中的基本发音，熟练拼读简单CVC单词。"
+
+  - lesson_id: "lesson-04"
+    lesson_number: 4
+    lesson_name: "Part B Talk: 询问并确认家庭成员"
+    page_range: "P19"
+    official_examples:
+      - example_id: "ex_4"
+        title: "根据照片询问确认亲属身份"
+        page: 19
+        formula_or_context: "Sarah, you have a big family. Is this your sister? / No, it's my cousin. / Is that your brother? / Yes, it is."
+        core_concept: "掌握用于确认对方亲属身份的一般疑问句及其肯定与否定回答：'Is this/that your...?' 'Yes, it is. / No, it's my...'。"
+
+  - lesson_id: "lesson-05"
+    lesson_number: 5
+    lesson_name: "Part B Learn: 旁系亲属与大家庭扩展词汇"
+    page_range: "P20"
+    official_examples:
+      - example_id: "ex_5"
+        title: "大家庭亲属关系与拥有的家庭成员"
+        page: 20
+        formula_or_context: "uncle, aunt, cousin, brother, baby sister; My family is big. I have a brother, a baby sister, a cousin..."
+        core_concept: "掌握旁系亲属词汇（uncle, aunt, cousin, brother, baby sister），并能运用'I have a/an...'表达自己拥有的家庭成员。"
+
+  - lesson_id: "lesson-06"
+    lesson_number: 6
+    lesson_name: "Start to read & Project: 家庭主题小语篇与家庭大问题"
+    page_range: "P21-P23"
+    official_examples:
+      - example_id: "ex_6"
+        title: "阅读语篇《Different families, same love》"
+        page: 21
+        formula_or_context: "Some families are big. Some families are small. Families are different, but family love is the same."
+        core_concept: "阅读理解关于不同规模与结构家庭的简短语篇，理解家庭的多样性与亲情的共性，回答单元大问题'What makes a family?'。"

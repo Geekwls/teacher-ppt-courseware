@@ -1,0 +1,69 @@
+unit_id: unit-01
+blueprints:
+- blueprint_id: bp-chi-g1-t1-u01-standard
+  title: 第一单元 识字标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、看图识字（连一连）
+    question_type: match
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - chi-g1-t1-u01-p01
+    - chi-g1-t1-u01-p04
+    guidelines: 把「天、地、人、日、月、水、火」等字与对应图画连线。
+  - slot_id: slot-02
+    section: 二、填一填（笔画与笔顺）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 5
+    target_points:
+    - chi-g1-t1-u01-p05
+    guidelines: 按「先横后竖」「先撇后捺」的规则填写笔画顺序。
+  - slot_id: slot-03
+    section: 三、读一读，背一背
+    question_type: reading
+    difficulty: basic
+    points_per_item: 5
+    item_count: 4
+    target_points:
+    - chi-g1-t1-u01-p02
+    - chi-g1-t1-u01-p03
+    guidelines: 朗读并背诵《金木水火土》与「站如松，坐如钟……」。
+  - slot_id: slot-04
+    section: 四、选一选（田字格与姿势）
+    question_type: choice
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - chi-g1-t1-u01-p02
+    - chi-g1-t1-u01-p03
+    guidelines: 判断笔画在田字格中的位置是否正确、站坐姿势是否规范。
+  - slot_id: slot-05
+    section: 五、数一数，写一写（六至十）
+    question_type: writing
+    difficulty: variation
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - chi-g1-t1-u01-p05
+    guidelines: 认读并书写「六、七、八、九、十」，说出笔画数。
+  - slot_id: slot-06
+    section: 六、日积月累（《咏鹅》）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 7
+    item_count: 2
+    target_points:
+    - chi-g1-t1-u01-p05
+    guidelines: 朗读并背诵《咏鹅》，说出诗中的动物与颜色。

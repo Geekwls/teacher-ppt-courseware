@@ -1,0 +1,32 @@
+unit_id: unit-02
+source_id: pep_chinese_g1_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t2-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「谁为我们做了什么」为线索引导学生理解「不忘」的含义，避免空泛说教
+    difficulty: 学生易把「挖井人」误解为普通的劳动者
+    typical_misconceptions:
+    - error_pattern: 把「挖井人」只理解成打井的人
+      misconception_type: 比喻义未理解
+    - error_pattern: 朗读时语气平淡
+      misconception_type: 情感朗读不到位
+  variation_strategy:
+  - 朗读课文并说出「不忘」的是什么
+  - 讲一讲自己知道的红色小故事
+- point_id: chi-g1-t2-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「我多想去看看」的愿望为情感支点，引导学生在朗读中表达向往之情
+    difficulty: 学生易把两个小朋友的愿望（看升旗、看雪莲）对应错
+    typical_misconceptions:
+    - error_pattern: 把「看雪莲」与「看升旗」对应错
+      misconception_type: 课文内容混淆
+    - error_pattern: 朗读时读不出「多想」的强烈愿望
+      misconception_type: 情感朗读不到位
+  variation_strategy:
+  - 分角色朗读并说出两个愿望
+  - 说说自己最想去看看的地方

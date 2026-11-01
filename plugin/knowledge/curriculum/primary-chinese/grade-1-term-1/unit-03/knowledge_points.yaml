@@ -1,0 +1,87 @@
+unit_id: unit-03
+source_id: pep_chinese_g1_t1_2024
+points:
+- point_id: chi-g1-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: chi-g1-t1-u03-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 声母 g k h、j q x 及 j q x 与 ü 相拼
+  learning_objectives:
+  - 能读准 g k h、j q x，掌握「j q x 与 ü 相拼去两点」的规则
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P32
+    - P34
+    anchor_text: 单元起始页 P32 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 声母 g k h、j q x 的读音
+    - j q x 与 ü 相拼时 ü 上两点的省略
+    scope_excluded:
+    - 三拼音节
+    - 复韵母
+- point_id: chi-g1-t1-u03-p02
+  unit_id: unit-03
+  lesson_id: chi-g1-t1-u03-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 声母 z c s、zh ch sh r 与平翘舌音辨析
+  learning_objectives:
+  - 能读准 z c s 与 zh ch sh r，能区分平舌音与翘舌音
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P36
+    - P38
+    anchor_text: 单元起始页 P36 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 声母 z c s、zh ch sh r 的读音
+    - 平舌音与翘舌音的区分
+    scope_excluded:
+    - 整体认读音节 zi ci si、zhi chi shi ri 之外的内容
+    - 儿化音
+- point_id: chi-g1-t1-u03-p03
+  unit_id: unit-03
+  lesson_id: chi-g1-t1-u03-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 声母 y w 与整体认读音节 yi wu yu
+  learning_objectives:
+  - 能读准 y w，认识整体认读音节 yi wu yu 并能直接读出
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P40
+    - P42
+    anchor_text: 单元起始页 P40 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 声母 y w 的读音
+    - 整体认读音节 yi wu yu
+    scope_excluded:
+    - 三拼音节
+    - 复韵母

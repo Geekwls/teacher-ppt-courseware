@@ -1,0 +1,69 @@
+unit_id: unit-05
+blueprints:
+- blueprint_id: bp-chi-g1-t2-u05-standard
+  title: 第五单元 识字标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、看拼音写词语
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 7
+    target_points:
+    - chi-g1-t2-u05-p01
+    - chi-g1-t2-u05-p02
+    guidelines: 借助拼音写出本单元的重点词语。
+  - slot_id: slot-02
+    section: 二、连一连（动物/动作、运动/偏旁）
+    question_type: match
+    difficulty: basic
+    points_per_item: 4
+    item_count: 5
+    target_points:
+    - chi-g1-t2-u05-p01
+    - chi-g1-t2-u05-p02
+    guidelines: 把词语与相应类别连线。
+  - slot_id: slot-03
+    section: 三、读一读，背一背
+    question_type: reading
+    difficulty: basic
+    points_per_item: 7
+    item_count: 3
+    target_points:
+    - chi-g1-t2-u05-p01
+    - chi-g1-t2-u05-p02
+    guidelines: 朗读并背诵《动物儿歌》《古对今》。
+  - slot_id: slot-04
+    section: 四、选一选（正确的字）
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - chi-g1-t2-u05-p02
+    guidelines: 选出偏旁与字义相符的汉字。
+  - slot_id: slot-05
+    section: 五、写一写（按偏旁归类）
+    question_type: writing
+    difficulty: variation
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - chi-g1-t2-u05-p02
+    guidelines: 按虫字旁、提手旁、足字旁给汉字归类。
+  - slot_id: slot-06
+    section: 六、日积月累
+    question_type: reading
+    difficulty: variation
+    points_per_item: 7
+    item_count: 2
+    target_points:
+    - chi-g1-t2-u05-p03
+    guidelines: 朗读并背诵语文园地五的日积月累。

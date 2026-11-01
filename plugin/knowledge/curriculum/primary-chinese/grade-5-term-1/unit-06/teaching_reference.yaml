@@ -1,0 +1,32 @@
+unit_id: unit-06
+source_id: pep_chinese_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g5-t1-u06-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《慈母情深》中的场景描写为切入点，体会细节中的感情
+    difficulty: 学生易只概括内容而忽略细节
+    typical_misconceptions:
+    - error_pattern: 只概括内容忽略细节
+      misconception_type: 体会不深入
+    - error_pattern: 不能体会场景中的感情
+      misconception_type: 情感体会不足
+  variation_strategy:
+  - 找出细节描写并说出蕴含的感情
+  - 体会场景描写的作用
+- point_id: chi-g5-t1-u06-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「我想对您说」的书信形式，让学生学习表达真情实感
+    difficulty: 学生易只写感谢而不敢表达真实看法
+    typical_misconceptions:
+    - error_pattern: 只写感谢不表达真实看法
+      misconception_type: 表达不真实
+    - error_pattern: 语言生硬不够恰当
+      misconception_type: 表达不恰当
+  variation_strategy:
+  - 用恰当的语言表达对父母的看法
+  - 写一封「我想对您说」的信

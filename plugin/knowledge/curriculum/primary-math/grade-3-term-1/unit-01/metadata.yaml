@@ -1,0 +1,25 @@
+unit_id: "unit-1"
+unit_number: 1
+unit_name: "第一单元 观察物体"
+subject: "math"
+edition: "人教版"
+grade: 3
+term: "term-1"
+version: "2026.10.2"
+updated_at: "2026-10-09"
+verification_status: "verified"
+source_id: "pep_math_g3_t1_2024"
+teaching_ref_source_id: "pep_math_g3_t1_tr_2024"
+page_range: "P1-P5"
+curriculum_standard_ref: "义务教育数学课程标准（2022年版）第二学段图形与几何"
+page_evidence_note: >
+  页码于 2026-10-09 依据用户提供的《2024版人教版小学数学三年级上册电子课本》逐页复核：
+  单元起始页 P1（四名同学从不同方向观察同一物体），单元结束页 P5（成长小档案）。
+  内部锚点：P1 从不同方向观察同一物体、P2 根据一个面推断立体图形、
+  P3 长方体纸盒的展开图、P4 练习一、P5 沿不同边剪开得到不同展开图。
+unit_overview: >
+  本单元是学生首次系统学习「从不同方向观察物体」，属于「图形与几何」领域。
+  内容包括：从前面、上面、左面等不同方向观察同一立体图形或实物，体会看到的形状可能不同；
+  根据看到的一个面推断立体图形的可能形状；把长方体纸盒沿不同的边剪开并平铺，
+  认识立体图形的展开图，判断平面图形能否折成正方体。
+  本单元重在发展学生的空间观念、几何直观与推理意识。

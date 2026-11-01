@@ -1,0 +1,62 @@
+unit_id: unit-04
+source_id: pep_chinese_g2_t1_2024
+points:
+- point_id: chi-g2-t1-u04-p01
+  unit_id: unit-04
+  lesson_id: chi-g2-t1-u04-l01
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《古诗二首》（登鹳雀楼、望庐山瀑布）
+  learning_objectives:
+  - 能朗读背诵《登鹳雀楼》《望庐山瀑布》，能说出诗中所写的景物
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P39
+    - P40
+    anchor_text: 单元起始页 P39 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《登鹳雀楼》「欲穷千里目，更上一层楼」的哲理
+    - 《望庐山瀑布》中「飞流直下三千尺」的夸张
+    scope_excluded:
+    - 古诗格律的系统讲解
+    - 写话
+- point_id: chi-g2-t1-u04-p02
+  unit_id: unit-04
+  lesson_id: chi-g2-t1-u04-l01
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《黄山奇石》《日月潭》《葡萄沟》
+  learning_objectives:
+  - 能朗读三篇课文，能说出黄山奇石的名称、日月潭的形状与葡萄沟的特色
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P42
+    - P45
+    - P47
+    - P50
+    anchor_text: 单元起始页 P42 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 黄山奇石的名称（仙桃石、猴子观海、仙人指路等）
+    - 日月潭的形状与传说
+    - 葡萄沟的葡萄与维吾尔族老乡
+    scope_excluded:
+    - 地理学知识的系统讲解
+    - 写话

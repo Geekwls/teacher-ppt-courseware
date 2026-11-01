@@ -1,0 +1,117 @@
+unit_id: unit-03
+source_id: pep_math_g6_t1_2024
+points:
+- point_id: math-g6-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: math-g6-t1-u03-l01
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 倒数的认识
+  learning_objectives:
+  - 能说出倒数的意义，能求一个数（0 除外）的倒数
+  - 能说明 1 的倒数是 1、0 没有倒数
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P32
+    anchor_text: P32：「乘积是 1 的两个数互为倒数。」3/5 的倒数是 5/3；6 的倒数是 1/6。「1 的倒数是多少？0 有倒数吗？」
+  teaching_boundary:
+    scope_allowed:
+    - 求一个数的倒数
+    - 说明倒数的意义
+    - 判断 0 是否有倒数
+    scope_excluded:
+    - 群论中的逆元
+    - 矩阵的逆
+- point_id: math-g6-t1-u03-p02
+  unit_id: unit-03
+  lesson_id: math-g6-t1-u03-l02
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 一个数除以整数
+  learning_objectives:
+  - 能按「除以整数等于乘这个整数的倒数」计算
+  - 能结合图形说明算理
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P33
+    anchor_text: P33：4/5÷2=2/5（公顷），4/5÷3=4/15（公顷）。「一个数除以整数（0 除外），等于乘这个整数的倒数。」
+  teaching_boundary:
+    scope_allowed:
+    - 计算一个数除以整数
+    - 结合图形说明算理
+    - 把除法转化为乘法
+    scope_excluded:
+    - 有理数除法的一般法则
+    - 分数与比的关系
+- point_id: math-g6-t1-u03-p03
+  unit_id: unit-03
+  lesson_id: math-g6-t1-u03-l03
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 一个数除以分数
+  learning_objectives:
+  - 能按「除以一个数（0 除外）等于乘这个数的倒数」计算
+  - 能用除法解决「已知一个数的几分之几是多少，求这个数」的问题
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P34
+    - P35
+    - P36
+    anchor_text: P34–P35：160÷4/5=160×5/4=200（g）；2/5÷2/3=2/5×3/2=3/5（kg）。「除以一个数（0 除外），等于乘这个数的倒数。」P36：因为除法是乘法的逆运算，所以 4÷2=4×1/2。
+  teaching_boundary:
+    scope_allowed:
+    - 计算一个数除以分数
+    - 用除法求单位「1」的量
+    - 说明除法法则的合理性
+    scope_excluded:
+    - 有理数除法的代数推导
+    - 方程求解
+- point_id: math-g6-t1-u03-p04
+  unit_id: unit-03
+  lesson_id: math-g6-t1-u03-l04
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 工程问题（把工作总量看作「1」）
+  learning_objectives:
+  - 能用「把工作总量看作 1」的方法解决工程问题
+  - 能说明「假设不同长度结果不变」的道理
+  applicable_question_types:
+  - reading
+  - writing
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P39
+    - P40
+    anchor_text: P39：1÷(1/12+1/18)=7.2（天）。「不管这条栈道有多长，他们每天合修的占全长的几分之几不变。」P40：「我假设这条栈道长 18 km…我假设这条栈道长 36 km，算出来也是 7.2 天。」
+  teaching_boundary:
+    scope_allowed:
+    - 把工作总量看作「1」
+    - 用「1÷效率和」求时间
+    - 解释结果与总量无关
+    scope_excluded:
+    - 工作效率的建模
+    - 线性规划中的资源分配

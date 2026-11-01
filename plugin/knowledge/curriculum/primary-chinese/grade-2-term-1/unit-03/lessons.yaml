@@ -1,0 +1,123 @@
+lessons:
+- lesson_id: chi-g2-t1-u03-l01
+  unit_id: unit-03
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 4
+  lesson_name: 4 彩虹
+  page_range: P28-P29
+  core_writing_chars:
+  - 丽
+  - 提
+  - 吗
+  - 圆
+  - 哥
+  - 秋
+  - 挂
+  - 啊
+  core_vocab_words:
+  - 天上
+  - 美丽
+  - 爸爸
+  - 下来
+  - 不用
+  - 高兴
+  - 哥哥
+  - 秋千
+  - 彩云
+  - 自己
+  official_examples:
+  - 雨停了，天上出现了一座美丽的桥。
+  - 爸爸，您浇花用的那把水壶呢？如果我提着它，走到桥上，把水洒下来，那不就是下雨了吗？
+  - 哥哥，您挂在树上的秋千呢？如果我把它挂在彩虹桥上，坐着秋千荡来荡去，那不就成了一朵彩云了吗？
+- lesson_id: chi-g2-t1-u03-l02
+  unit_id: unit-03
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 5
+  lesson_name: 5 去外婆家
+  page_range: P30-P31
+  core_writing_chars:
+  - 宝
+  - 玩
+  - 活
+  - 些
+  - 总
+  - 给
+  - 诉
+  - 曲
+  - 名
+  - 香
+  core_vocab_words:
+  - 宝贝
+  - 干活
+  - 回来
+  - 一些
+  - 天气
+  - 欢快
+  - 它们
+  - 告诉
+  - 名字
+  - 出门
+  official_examples:
+  - 外婆家住在一条清清的小溪边。溪水哗哗地流着，像在唱着一支快乐的歌。
+  - 我们欢快地在溪边玩耍，外婆微笑着告诉我们每种小草和小花的名字。
+- lesson_id: chi-g2-t1-u03-l03
+  unit_id: unit-03
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 6
+  lesson_name: 6 数星星的孩子
+  page_range: P32-P34
+  core_writing_chars:
+  - 数
+  - 晚
+  - 奶
+  - 您
+  - 爷
+  - 很
+  - 变
+  - 勺
+  - 张
+  - 汉
+  core_vocab_words:
+  - 星星
+  - 晚上
+  - 无数
+  - 奶奶
+  - 中间
+  - 总是
+  - 爷爷
+  - 北边
+  - 勺子
+  - 转动
+  - 这个
+  - 后来
+  official_examples:
+  - 晚上，满天的星星像无数珍珠撒在碧玉盘里。一个孩子坐在院子里，仰着头数星星。
+  - 你看，那七颗星连起来像一把勺子，叫北斗七星。勺柄指着北面一颗最亮的星，就是北极星。
+  - 这个数星星的孩子叫张衡，是汉朝人，后来成了一位著名的天文学家。
+- lesson_id: chi-g2-t1-u03-l04
+  unit_id: unit-03
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 7
+  lesson_name: 语文园地三
+  page_range: P35-P38
+  core_writing_chars:
+  - 图
+  - 泥
+  - 铁
+  - 环
+  core_vocab_words:
+  - 图画
+  - 泥土
+  - 铁环
+  - 玩具
+  official_examples:
+  - 字词句运用：读一读，选一个词说一句话（弹钢琴、练舞蹈、捏泥人、滚铁环）。
+  - 日积月累：小儿垂钓 [唐]胡令能：蓬头稚子学垂纶，侧坐莓苔草映身。路人借问遥招手，怕得鱼惊不应人。

@@ -1,0 +1,15 @@
+unit_id: unit-08
+unit_name: 综合与实践 水是生命之源
+subject: math
+edition: 人教版
+grade: 6
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: partial
+source_id: pep_math_g6_t1_2024
+teaching_reference_source_id: pep_math_g6_t1_tr_2024
+page_range: P101-P105
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版人教版小学数学六年级上册电子课本》逐页实证核定：课本 PDF 共 77 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P75。本单元真实版面为 P101–P105，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元起始页 P101 由课本目录页核定，正文页全部超出可读区间（P1–P75），未取得逐页原文凭证。
+unit_overview: 综合与实践主题活动：围绕「水是生命之源」开展调查与统计，综合运用百分数、统计图表等知识分析用水数据，提出节水建议。
+numeric_upper_bound: null

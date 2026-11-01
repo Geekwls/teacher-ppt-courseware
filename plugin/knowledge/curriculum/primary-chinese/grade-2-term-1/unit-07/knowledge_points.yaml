@@ -1,0 +1,60 @@
+unit_id: unit-07
+source_id: pep_chinese_g2_t1_2024
+points:
+- point_id: chi-g2-t1-u07-p01
+  unit_id: unit-07
+  lesson_id: chi-g2-t1-u07-l01
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《古诗二首》（江雪、敕勒歌）
+  learning_objectives:
+  - 能朗读背诵《江雪》《敕勒歌》，能说出诗中所写的景物与画面
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P81
+    - P82
+    anchor_text: 单元起始页 P81 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《江雪》「孤舟蓑笠翁，独钓寒江雪」的画面
+    - 《敕勒歌》「天似穹庐，笼盖四野」的草原景象
+    scope_excluded:
+    - 古诗格律的系统讲解
+    - 写话
+- point_id: chi-g2-t1-u07-p02
+  unit_id: unit-07
+  lesson_id: chi-g2-t1-u07-l01
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《雾在哪里》《雪孩子》与语文园地七
+  learning_objectives:
+  - 能朗读两篇课文，能说出雾把什么藏了起来、雪孩子做了什么
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P84
+    - P87
+    - P91
+    anchor_text: 单元起始页 P84 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《雾在哪里》中雾依次把大海、天空、太阳、城市藏起来
+    - 《雪孩子》中雪孩子救小白兔的情节
+    scope_excluded:
+    - 物态变化的科学原理
+    - 写话

@@ -1,0 +1,75 @@
+unit_id: unit-04
+blueprints:
+- blueprint_id: bp-math-g1-t1-u04-standard
+  title: 第四单元 20以内的进位加法标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、算一算（20 以内进位加法）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 10
+    target_points:
+    - math-g1-t1-u04-p02
+    guidelines: 直接写出 9 加几、8 加几等进位加法得数。
+  - slot_id: slot-02
+    section: 二、填一填：凑十过程
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t1-u04-p01
+    guidelines: 填写拆数过程，如 9+5=（　）→ 9+（　）=10，10+（　）=（　）。
+  - slot_id: slot-03
+    section: 三、连一连
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t1-u04-p02
+    guidelines: 把算式与得数连起来。
+  - slot_id: slot-04
+    section: 四、在○里填「＞」「＜」或「＝」
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t1-u04-p02
+    guidelines: 比较两个算式得数的大小。
+  - slot_id: slot-05
+    section: 五、看图列式
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 5
+    item_count: 2
+    target_points:
+    - math-g1-t1-u04-p03
+    guidelines: 根据图意列进位加法算式。
+  - slot_id: slot-06
+    section: 六、解决问题
+    question_type: reading
+    difficulty: variation
+    points_per_item: 8
+    item_count: 2
+    target_points:
+    - math-g1-t1-u04-p03
+    guidelines: 情境题：求一共，列式计算并口答。
+  - slot_id: slot-07
+    section: 七、想一想（简算）
+    question_type: choice
+    difficulty: challenge
+    points_per_item: 5
+    item_count: 1
+    target_points:
+    - math-g1-t1-u04-p02
+    guidelines: 运用交换加数位置的方法说出得数并说明理由。

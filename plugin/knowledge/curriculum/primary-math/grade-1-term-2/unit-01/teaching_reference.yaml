@@ -1,0 +1,74 @@
+unit_id: unit-01
+source_id: pep_math_g1_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2025年春人教版教师教学用书数学一年级下册》为**纯扫描件（281 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g1-t2-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 由「面在体上」的观察活动抽象出平面图形，重视图形表象的建立
+    difficulty: 学生易把正方形与长方形的名称互换，或把平行四边形认作长方形
+    typical_misconceptions:
+    - error_pattern: 把正方形说成长方形（或相反）
+      misconception_type: 特征辨别不清
+    - error_pattern: 只认标准摆放的图形，旋转后认不出
+      misconception_type: 图形表征僵化
+  variation_strategy:
+  - 在教室里找一找各种平面图形并说明判断依据
+  - 在点子图上画出指定的平面图形
+- point_id: math-g1-t2-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在拼与分的操作中体会图形之间的组合与分解关系
+    difficulty: 学生易忽视「同样」这一前提，用不同的图形去拼
+    typical_misconceptions:
+    - error_pattern: 忽略「同样的三角形」直接用任意两个三角形拼
+      misconception_type: 前提条件遗漏
+    - error_pattern: 拼出图形后不能说出用了什么图形、拼成了什么
+      misconception_type: 语言表达不完整
+  variation_strategy:
+  - 用 2 个同样的三角形拼一拼，说说能拼出什么图形
+  - 把正方形剪成两个完全一样的图形，有几种剪法
+- point_id: math-g1-t2-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以七巧板拼图培养空间想象与尝试—验证的推理意识
+    difficulty: 学生易拼摆失败后随意放弃，或拼出后不能说明用了哪几块
+    typical_misconceptions:
+    - error_pattern: 拼摆失败即放弃，不尝试其他组合
+      misconception_type: 尝试与调整意识不足
+    - error_pattern: 拼出图形但无法说出各块名称与数量
+      misconception_type: 图形表征与语言脱节
+  variation_strategy:
+  - 用七巧板拼出三角形并说出用了哪几块
+  - 记录同一图形的不同拼法并比较
+- point_id: math-g1-t2-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 整理复习重在建立「体—面」联系与「分—合」结构
+    difficulty: 学生易把平面图形与立体图形混为一谈
+    typical_misconceptions:
+    - error_pattern: 把长方形说成长方体
+      misconception_type: 面与体混淆
+    - error_pattern: 整理时只能罗列名称，说不出图形间关系
+      misconception_type: 结构化整理不足
+  variation_strategy:
+  - 在长方体上找出所有的长方形面
+  - 画一张「图形家族」知识图
+- point_id: math-g1-t2-u01-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 开放性任务重在鼓励多种策略与理由表达
+    difficulty: 学生易只给出一种答案即停止思考
+    typical_misconceptions:
+    - error_pattern: 只想到一种剪法
+      misconception_type: 发散思维不足
+    - error_pattern: 剪出的两部分大小不等却说「相等」
+      misconception_type: 验证意识缺失
+  variation_strategy:
+  - 把长方形剪成大小相等的两部分，说出至少两种剪法
+  - 拼出图案后数一数各用了几个图形

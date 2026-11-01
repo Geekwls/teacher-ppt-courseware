@@ -1,0 +1,21 @@
+unit_id: "unit-2"
+unit_number: 2
+unit_name: "第二单元 除数是一位数的除法"
+subject: "math"
+edition: "人教版"
+grade: 3
+term: "term-2"
+version: "2026.10.1"
+updated_at: "2026-10-08"
+verification_status: "verified"
+source_id: "pep_math_g3_t2_2024"
+teaching_ref_source_id: "pep_math_g3_t2_tr_2026"
+page_range: "P10-P38"
+numeric_upper_bound: 10000
+curriculum_standard_ref: "义务教育数学课程标准（2022年版）第二学段数与运算"
+unit_overview: >
+  本单元是在学生掌握了表内乘除法、有余数的除法以及多位数乘一位数的基础上进行教学的，
+  是小学阶段数与运算领域的关键枢纽，也是后续学习除数是两位数的除法及小数除法的重要基石。
+  主要内容包括：整十、整百、整千数及几百几十除以一位数的口算；一位数除两位数、三位数的竖式笔算（首位够除与首位不够除）；
+  有余数除法与没有余数除法的验算；有关0的除法及特殊商（商中间有0、商末尾有0）；
+  用两步连除、乘除混合运算解决实际问题，以及根据实际情境进行除法估算。

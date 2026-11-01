@@ -1,0 +1,88 @@
+unit_id: "unit-5"
+blueprints:
+  - blueprint_id: "bp-math-g3-t1-u05-standard"
+    title: "第五单元 线和角 标准练习卷蓝图"
+    target_practice: "单元综合巩固与能力提升练习"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础填空（线的特征）
+      - slot_id: "slot-01"
+        section: "一、填一填"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t1-u05-p01", "math-g3-t1-u05-p02"]
+        guidelines: >
+          5 空考查线段、射线、直线的特征：端点个数、能否度量、能否无限延伸，
+          以及「两点间所有连线中（　）最短」「两点间线段的长度叫作两点间的（　）」。
+          每题须在元数据中给出 check_expression 或判定依据。
+
+      # 二、选择（特征辨析与表示）
+      - slot_id: "slot-02"
+        section: "二、选一选"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t1-u05-p01", "math-g3-t1-u05-p04", "math-g3-t1-u05-p06"]
+        guidelines: >
+          5 道单选题：判断哪条是线段/射线/直线、角的顶点与边、直角的判断方法、
+          锐角与钝角的概念表述。干扰项须为典型错例（如「直线有两个端点」
+          「边画得长的角更大」）。
+
+      # 三、给角分类（直角为标准）
+      - slot_id: "slot-03"
+        section: "三、认一认，填一填"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t1-u05-p05", "math-g3-t1-u05-p06"]
+        guidelines: >
+          5 个角（含接近直角的锐角、明显钝角、直角），要求用三角尺上的直角比一比后，
+          在括号里填写「锐角」「直角」或「钝角」。考查以直角为标准分类的方法。
+
+      # 四、动手操作（变式）
+      - slot_id: "slot-04"
+        section: "四、画一画，比一比"
+        question_type: "reading"
+        difficulty: "variation"
+        points_per_item: 5
+        item_count: 3
+        target_points: ["math-g3-t1-u05-p03", "math-g3-t1-u05-p04", "math-g3-t1-u05-p05"]
+        guidelines: >
+          3 道操作题：①在直线上用圆规作一条与已知线段等长的线段；
+          ②从一点出发画一个比直角小的角，并标出顶点和边；
+          ③用三角尺画一个直角并说明画法。评分关注操作规范与作图痕迹。
+
+      # 五、数一数（变式）
+      - slot_id: "slot-05"
+        section: "五、数一数，填一填"
+        question_type: "fill_blank"
+        difficulty: "variation"
+        points_per_item: 5
+        item_count: 3
+        target_points: ["math-g3-t1-u05-p01", "math-g3-t1-u05-p07"]
+        guidelines: >
+          3 小题：①直线上有A、B、C三点，共有几条射线、几条线段；
+          ②图形中各有几个角、几条线段（要求用有序方法数，不重复不遗漏）；
+          ③过一点能画几条直线、过两点能画几条直线。
+
+      # 六、思维挑战（10%）
+      - slot_id: "slot-06"
+        section: "六、想一想"
+        question_type: "reading"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["math-g3-t1-u05-p07"]
+        guidelines: >
+          1 道规律探究题（10分）：下图中的2个点、3个点、4个点、5个点，
+          分别最多可以连出几条线段？你发现了什么规律？能直接说出6个点最多
+          可以连出几条线段吗？要求写出探究过程与发现的规律。

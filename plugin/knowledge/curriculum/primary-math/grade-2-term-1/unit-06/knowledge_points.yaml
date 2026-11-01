@@ -1,0 +1,84 @@
+unit_id: unit-06
+source_id: pep_math_g2_t1_2024
+points:
+- point_id: math-g2-t1-u06-p01
+  unit_id: unit-06
+  lesson_id: math-g2-t1-u06-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 表内乘除法的结构化整理
+  learning_objectives:
+  - 能用乘法口诀表梳理 2～9 的乘法口诀，熟练进行表内乘除法口算
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P91
+    - P100
+    anchor_text: 课本 P91-P100 实证：P91 全册知识网络梳理；P95-P97 乘法口诀表系统整理与表内乘除法计算口诀熟练度综合练习。
+  teaching_boundary:
+    scope_allowed:
+    - 乘法口诀表的结构与规律
+    - 表内乘除法综合练习
+    scope_excluded:
+    - 两位数乘一位数
+    - 有余数除法
+- point_id: math-g2-t1-u06-p02
+  unit_id: unit-06
+  lesson_id: math-g2-t1-u06-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 数量关系的综合运用（加减与乘除的辨析）
+  learning_objectives:
+  - 能辨析实际问题中的数量关系，正确选择加、减、乘、除四种运算
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P91
+    - P100
+    anchor_text: 课本 P92 实证：分析数量关系，比对几个几相加（乘法）、平均分（除法）与合起来/求剩余（加减法）的应用情境。
+  teaching_boundary:
+    scope_allowed:
+    - 四种运算在实际问题中的辨析与选择
+    scope_excluded:
+    - 两步及以上问题
+    - 倍的关系
+- point_id: math-g2-t1-u06-p03
+  unit_id: unit-06
+  lesson_id: math-g2-t1-u06-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 提出并解决数学问题（开放题）
+  learning_objectives:
+  - 能根据情境自主提出数学问题并解答，说清思考过程
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P91
+    - P100
+    anchor_text: 课本 P93-P94、P98 实证：结合方向与位置、分类整理与图文情境，自主提出乘除法或加减法问题并正确列式解答。
+  teaching_boundary:
+    scope_allowed:
+    - 自主提问并解答
+    scope_excluded:
+    - 脱离情境的纯计算

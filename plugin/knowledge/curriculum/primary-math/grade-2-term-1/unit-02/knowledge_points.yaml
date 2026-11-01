@@ -1,0 +1,117 @@
+unit_id: unit-02
+source_id: pep_math_g2_t1_2024
+points:
+- point_id: math-g2-t1-u02-p01
+  unit_id: unit-02
+  lesson_id: math-g2-t1-u02-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 乘法的初步认识（几个几相加与乘法算式）
+  learning_objectives:
+  - 理解乘法的含义，知道求几个相同加数的和可以用乘法；会读写乘法算式并说出各部分名称
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P11
+    - P13
+    anchor_text: 课本 P11-P13 例1/例2 游乐园与圆片实证：小飞机5个3相加（3+3+3+3+3=15）、小火车4个6相加、过山车7个2相加；引出乘法算式 3×5=15（乘数、乘号、乘数、积，读作3乘5等于15）与 4×6=24/6×4=24。
+  teaching_boundary:
+    scope_allowed:
+    - 把连加算式改写成乘法算式
+    - 说出乘法算式中各部分名称
+    - 乘法算式的读法
+    scope_excluded:
+    - 乘法交换律的抽象概括
+    - 两位数乘一位数
+- point_id: math-g2-t1-u02-p02
+  unit_id: unit-02
+  lesson_id: math-g2-t1-u02-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 2～6 的乘法口诀与用口诀求积
+  learning_objectives:
+  - 熟记 2～6 的乘法口诀，能用口诀正确求积并写出相应的乘法算式
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P16
+    - P22
+    anchor_text: 课本 P16-P22 例1/例2/例4 实证：P16 5的乘法口诀（一五得五至五五二十五）、P17 2、3、4的乘法口诀（一一得一至四四十六）、P22 6的乘法口诀（一六得六至六六三十六）。
+  teaching_boundary:
+    scope_allowed:
+    - 2～6 的乘法口诀
+    - 由口诀写乘法算式
+    - 用口诀求积
+    scope_excluded:
+    - 7～9 的乘法口诀（后续单元）
+    - 乘法竖式
+- point_id: math-g2-t1-u02-p03
+  unit_id: unit-02
+  lesson_id: math-g2-t1-u02-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 乘加、乘减与 6 的乘法口诀
+  learning_objectives:
+  - 理解乘加、乘减算式的运算顺序（先算乘法），能正确计算；掌握 6 的乘法口诀
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P21
+    - P22
+    anchor_text: 课本 P21 例3 旋转木马实证：3×3+2=11 或 3×4-1=11，“在这样的算式中，要先算乘法”；P22 冰糖葫芦情境6的乘法口诀。
+  teaching_boundary:
+    scope_allowed:
+    - 乘加、乘减的计算顺序
+    - 6 的乘法口诀
+    scope_excluded:
+    - 带括号的混合运算
+    - 两位数乘一位数
+- point_id: math-g2-t1-u02-p04
+  unit_id: unit-02
+  lesson_id: math-g2-t1-u02-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 用表内乘法解决实际问题
+  learning_objectives:
+  - 能在情境中识别「求几个几的和」的数量关系，用乘法解决并说清理由
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P25
+    - P29
+    anchor_text: 课本 P25-P29 解决问题实证：比对「求几个几的和」（4个5是多少，5×4=20）与「求几和几的和」（4和5相加是多少，4+5=9），运用乘法口诀解决购物与分组实际问题。
+  teaching_boundary:
+    scope_allowed:
+    - 用乘法解决「求几个几的和」的实际问题
+    - 比较「求几个几的和」与「求几和几的和」
+    scope_excluded:
+    - 两步问题
+    - 乘除法混合问题

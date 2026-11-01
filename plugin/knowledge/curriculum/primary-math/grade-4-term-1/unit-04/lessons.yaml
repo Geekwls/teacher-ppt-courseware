@@ -1,0 +1,76 @@
+lessons:
+- lesson_id: math-g4-t1-u04-l01
+  unit_id: unit-04
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 1
+  lesson_name: 口算乘法
+  page_range: P39-P40
+  official_examples:
+  - 每筐有 16 盒草莓，3 筐有多少盒草莓？16×3=48。我是这样算的：10×3=30，6×3=18，30+18=48。想一想：160×3=。
+  - 每袋有 6 个橙子，10 袋有多少个橙子？6×10=60。（10×6=60）每盒有 12 个苹果，20 盒有多少个苹果？12×20=240。（12×2=24，24×10=240）
+- lesson_id: math-g4-t1-u04-l02
+  unit_id: unit-04
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 2
+  lesson_name: 笔算乘法
+  page_range: P43-P44
+  official_examples:
+  - 一套书有 12 册，学校买了 13 套。一共有多少册？12×13=156。12×10=120，12×3=36，120+36=156。
+  - 讨论：乘数是两位数的乘法怎样计算？1. 先用一个乘数个位上的数去乘另一个乘数，得数的末位与乘数的个位对齐。2. 再用这个乘数十位上的数去乘另一个乘数，得数的末位与乘数的十位对齐。3. 然后把两次乘得的数加起来。
+- lesson_id: math-g4-t1-u04-l03
+  unit_id: unit-04
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 3
+  lesson_name: 因数末尾有 0 的乘法
+  page_range: P48
+  official_examples:
+  - 106×63=。你能快速算出 106×60 的结果吗？先口算 16×6，积的末尾再添 0。试一试：160×60=。
+- lesson_id: math-g4-t1-u04-l04
+  unit_id: unit-04
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 4
+  lesson_name: 积的变化规律
+  page_range: P49
+  official_examples:
+  - 观察下面两组题：6×2=12，6×20=120，6×200=1200；20×4=80，10×4=40，5×4=20。
+  - 一个乘数不变，另一个乘数乘几或除以几（0 除外），积也乘或除以几。
+- lesson_id: math-g4-t1-u04-l05
+  unit_id: unit-04
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 5
+  lesson_name: 用计算器探索规律
+  page_range: P50
+  official_examples:
+  - 11×11=121，111×111=12321，1111×1111=1234321，11111×11111=123454321。
+  - 不计算，运用发现的规律，直接写出 111111×111111=。
+- lesson_id: math-g4-t1-u04-l06
+  unit_id: unit-04
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 6
+  lesson_name: 用估算解决问题
+  page_range: P53
+  official_examples:
+  - 张老师要为学校舞蹈队选购 18 套相同的服装，她带了 2600 元，可以买哪几款服装？（108 元 / 130 元 / 208 元）
+  - 都买②号：130×18 → 估大 → 130×20=2600（元），2600=2600，可以。要根据解决的问题，确定把数估大算，还是估小算。
+- lesson_id: math-g4-t1-u04-l07
+  unit_id: unit-04
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 7
+  lesson_name: 整理和复习
+  page_range: P55-P57
+  official_examples:
+  - 知识结构图：口算乘法（24×3=72 → 20×3=60，4×3=12，60+12=72）/ 笔算乘法（15×12 计算的是 10 个 15 和 2 个 15 的和）/ 用估算解决问题。

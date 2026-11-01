@@ -1,0 +1,84 @@
+unit_id: unit-01
+blueprints:
+- blueprint_id: bp-math-g1-t1-u01-standard
+  title: 第一单元 5以内数的认识和加、减法标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、数一数：看图写数
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 2
+    item_count: 5
+    target_points:
+    - math-g1-t1-u01-p01
+    guidelines: 给出 5 以内物体图，写出对应的数。
+  - slot_id: slot-02
+    section: 二、写一写：在田字格中规范书写
+    question_type: writing
+    difficulty: basic
+    points_per_item: 2
+    item_count: 5
+    target_points:
+    - math-g1-t1-u01-p01
+    guidelines: 在田字格中按笔顺书写 1～5。
+  - slot_id: slot-03
+    section: 三、比一比：在○里填「＞」「＜」或「＝」
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t1-u01-p02
+    guidelines: 比较 5 以内两数大小，填写关系符号。
+  - slot_id: slot-04
+    section: 四、填一填：第几
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t1-u01-p03
+    guidelines: 排队图中按要求填写「第几」并区分「几个」。
+  - slot_id: slot-05
+    section: 五、分与合：填出数的组成
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t1-u01-p04
+    guidelines: 填写 2～5 的分与合，如 5 可以分成（　）和（　）。
+  - slot_id: slot-06
+    section: 六、算一算：5 以内的加减法
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 7
+    target_points:
+    - math-g1-t1-u01-p05
+    guidelines: 直接写出 5 以内加减法（含 0）的得数。
+  - slot_id: slot-07
+    section: 七、看图列式
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 5
+    item_count: 2
+    target_points:
+    - math-g1-t1-u01-p05
+    guidelines: 根据图意选择加法或减法并列出算式。
+  - slot_id: slot-08
+    section: 八、解决问题（说理）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 7
+    item_count: 1
+    target_points:
+    - math-g1-t1-u01-p04
+    guidelines: 根据情境提出一个数学问题并解答，说清用加法还是减法的理由。

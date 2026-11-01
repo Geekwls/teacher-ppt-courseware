@@ -1,0 +1,229 @@
+unit_id: "unit-6"
+source_id: "pep_math_g3_t1_2024"
+points:
+  - point_id: "math-g3-t1-u06-p01"
+    lesson_id: "lesson-01"
+    point_name: "几分之一（把一个物体平均分）"
+    learning_objectives:
+      - "结合平均分物体的过程，理解几分之一的含义：把一个物体平均分成几份，其中的1份就是它的几分之一"
+      - "认识 1/2、1/3、1/4、1/5 等分数，能结合图形说明其含义"
+      - "体会只有「平均分」才能用分数表示，等分的份数越多每份越小"
+    prerequisites:
+      - "平均分的含义"
+      - "表内除法"
+    subsequent_points:
+      - "math-g3-t1-u06-p02"
+    applicable_question_types: ["fill_blank", "choice", "reading"]
+    teaching_boundary:
+      scope_allowed:
+        - "用分数表示把一个物体平均分后其中的1份（如 1/2、1/4）"
+        - "判断图形是否平均分、能否用给定分数表示"
+      scope_excluded:
+        - "分数的意义中「单位1」的抽象定义（四年级起）"
+        - "假分数、带分数（高年级）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [74]
+      example_ref: ["ex_1", "ex_2"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u06-p02"
+    lesson_id: "lesson-01"
+    point_name: "分数的读写与各部分名称"
+    learning_objectives:
+      - "知道分数各部分的名称：分子、分数线、分母"
+      - "会正确读、写简单的分数（如 1/2 读作二分之一）"
+      - "知道像 1/2、1/3、1/4、1/5…… 这样的数都是分数"
+    prerequisites:
+      - "math-g3-t1-u06-p01"
+    subsequent_points:
+      - "math-g3-t1-u06-p03"
+    applicable_question_types: ["fill_blank", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "读写分数、指出分子分母与分数线；用分数表示涂色部分"
+        - "根据分数涂色、圈出图形的几分之一"
+      scope_excluded:
+        - "分数的基本性质与约分通分（五年级）"
+        - "百分数与分数互化（六年级）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [75]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u06-p03"
+    lesson_id: "lesson-02"
+    point_name: "几分之几"
+    learning_objectives:
+      - "理解几分之几的含义：把一个物体平均分成若干份，其中的几份就是它的几分之几"
+      - "能结合图形用分数表示其中的几份（如 2/5、3/4、7/10）"
+      - "知道分母表示平均分成的份数，分子表示取的份数"
+    prerequisites:
+      - "math-g3-t1-u06-p02"
+    subsequent_points:
+      - "math-g3-t1-u06-p04"
+    applicable_question_types: ["fill_blank", "choice", "reading"]
+    teaching_boundary:
+      scope_allowed:
+        - "用分数表示平均分后其中的几份；根据分数涂色"
+        - "在直尺（如1分米平均分成10份）上理解十分之几分米"
+      scope_excluded:
+        - "分数与除法的关系（五年级）"
+        - "带单位与不带单位的分数意义区分（四年级起系统学习）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [76]
+      example_ref: ["ex_4"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u06-p04"
+    lesson_id: "lesson-02"
+    point_name: "比较分数的大小"
+    learning_objectives:
+      - "会结合图形比较同分母分数的大小：分子大的分数大"
+      - "会比较分子是1的两个分数的大小：分母大的分数反而小"
+      - "能用「等分的份数越多，每份越小」解释比较的结果"
+    prerequisites:
+      - "math-g3-t1-u06-p03"
+    subsequent_points:
+      - "math-g3-t1-u06-p05"
+    applicable_question_types: ["choice", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "同分母分数比较大小；分子是1的分数比较大小"
+        - "借助涂色图或相同份数等分进行比较"
+      scope_excluded:
+        - "异分母分数（分子、分母都不同）的比较（五年级）"
+        - "通分后比较大小（五年级）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [77]
+      example_ref: ["ex_5"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u06-p05"
+    lesson_id: "lesson-03"
+    point_name: "同分母分数的加减法"
+    learning_objectives:
+      - "理解同分母分数加、减法的算理：分母不变，分子相加、减"
+      - "能正确计算简单的同分母分数加、减法"
+      - "能结合具体情境提出并解决与分数加减有关的实际问题"
+    prerequisites:
+      - "math-g3-t1-u06-p04"
+    subsequent_points:
+      - "math-g3-t1-u06-p06"
+    applicable_question_types: ["calculation", "fill_blank", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "同分母分数相加、减（如 1/8+2/8、5/7−3/7），结果不需约分"
+        - "解决「一共吃了这个西瓜的几分之几」「多吃了多少」等问题"
+      scope_excluded:
+        - "异分母分数加减法（五年级）"
+        - "计算结果约分、带分数（五年级）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [81]
+      example_ref: ["ex_6"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u06-p06"
+    lesson_id: "lesson-03"
+    point_name: "1减几分之几"
+    learning_objectives:
+      - "理解计算 1 减几分之几时，要先把 1 改写成与减数同分母的分数"
+      - "能正确计算 1 − 3/4 这类算式，理解 1 可以看作 4 个 1/4，就是 4/4"
+      - "能解决「用去几分之几，剩下几分之几」的实际问题"
+    prerequisites:
+      - "math-g3-t1-u06-p05"
+    subsequent_points:
+      - "math-g3-t1-u06-p07"
+    applicable_question_types: ["calculation", "fill_blank", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "1 减真分数（如 1−3/4、1−5/8）"
+        - "解决一张纸用去 3/4 剩下几分之几等实际问题"
+      scope_excluded:
+        - "被减数是整数且大于1的情况（如 2−3/4，五年级）"
+        - "分数与整数混合的四则运算"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [82]
+      example_ref: ["ex_7"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u06-p07"
+    lesson_id: "lesson-04"
+    point_name: "把一些物体看作一个整体"
+    learning_objectives:
+      - "知道可以把一些物体看作一个整体，平均分成若干份后其中的1份或几份用分数表示"
+      - "体会同一个分数在不同整体下所对应的具体数量可能不同"
+      - "能根据分数在图中圈出相应部分，或用分数表示涂色部分"
+    prerequisites:
+      - "math-g3-t1-u06-p03"
+    subsequent_points:
+      - "math-g3-t1-u06-p08"
+    applicable_question_types: ["fill_blank", "choice", "reading"]
+    teaching_boundary:
+      scope_allowed:
+        - "把一箱水、一盒苹果、一包笔记本等看作整体，用分数表示其中一部分"
+        - "同一个整体平均分成不同的份数，用不同分数表示同一部分"
+      scope_excluded:
+        - "「单位1」的抽象表述（四年级系统学习）"
+        - "两个不同整体间分数的直接比较（易误导，回避）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [85, 86]
+      example_ref: ["ex_8", "ex_9"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u06-p08"
+    lesson_id: "lesson-05"
+    point_name: "求一个数的几分之几是多少"
+    learning_objectives:
+      - "理解求一个数的几分之几是多少，就是把这个数平均分成若干份，再取其中的几份"
+      - "会用「总数 ÷ 分母 × 分子」的方法求出结果"
+      - "经历「阅读理解—分析解答—回顾反思」的过程，能检验解答是否合理"
+    prerequisites:
+      - "math-g3-t1-u06-p07"
+      - "表内除法与两位数除以一位数"
+    subsequent_points:
+      - "math-g3-t1-u06-p09"
+    applicable_question_types: ["word_problem", "fill_blank", "calculation"]
+    teaching_boundary:
+      scope_allowed:
+        - "已知总数和它的一部分占的分数，求这部分的数量（如12人的1/3、45本的4/9）"
+        - "总数能被分母整除的情形"
+      scope_excluded:
+        - "总数不能被分母整除（需先约分或涉及小数，高年级）"
+        - "已知一个数的几分之几是多少求这个数（六年级）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [87]
+      example_ref: ["ex_10"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u06-p09"
+    lesson_id: "lesson-06"
+    point_name: "分数与整数的联系（结构化整理）"
+    learning_objectives:
+      - "能从分数的意义、比较大小、简单计算三个方面整理本单元的学习内容"
+      - "体会分数与整数的联系与区别，知道分数既可以表示部分与整体的关系，也可以表示数量的多少"
+      - "初步感受分数的产生源于生活需要，发展数感"
+    prerequisites:
+      - "math-g3-t1-u06-p06"
+      - "math-g3-t1-u06-p08"
+    subsequent_points: []
+    applicable_question_types: ["fill_blank", "choice", "reading"]
+    teaching_boundary:
+      scope_allowed:
+        - "整理分数的意义、比较大小与简单计算；比较分数与整数的异同"
+        - "在数轴上（0到1米）用分数表示部分"
+      scope_excluded:
+        - "分数的分类（真分数、假分数）与分数基本性质（五年级）"
+        - "分数与小数的互化（三年级下册初步、五年级系统）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [90, 91]
+      example_ref: ["ex_11"]
+    verification_status: "verified"

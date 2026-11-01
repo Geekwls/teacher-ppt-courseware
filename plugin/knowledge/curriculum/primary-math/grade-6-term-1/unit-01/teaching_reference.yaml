@@ -1,0 +1,60 @@
+unit_id: unit-01
+source_id: pep_math_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g6-t1-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「座位表」这一真实情境，让学生把「第几列第几行」的两个信息写成一个有序数对，并强调「有序」的含义（先列后行，顺序不能颠倒）
+    difficulty: 学生易把数对的顺序写反（把行写在前面）；易把（2，3）与（3，2）当成同一个位置
+    typical_misconceptions:
+    - error_pattern: 数对顺序写反
+      misconception_type: 有序性理解不足
+    - error_pattern: 同行（列）的数对规律找错
+      misconception_type: 规律概括错误
+  variation_strategy:
+  - 用有序数对表示图中点的位置
+  - 根据有序数对在图中标出点
+- point_id: math-g6-t1-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「海上救援」这一情境让学生发现「只知道距离不能确定位置」，从而引出「方向 + 距离」两个条件，并把方向统一为「不大于 45° 的角」
+    difficulty: 学生易只描述方向或只描述距离；易把「东偏南 25°」与「南偏东 65°」当成两个不同方向
+    typical_misconceptions:
+    - error_pattern: 只描述一个条件
+      misconception_type: 要素缺失
+    - error_pattern: 两种等价说法未识别
+      misconception_type: 角度换算不熟
+  variation_strategy:
+  - 用方向和距离描述物体的位置
+  - 把一种方向说法改写成另一种说法
+- point_id: math-g6-t1-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「标位置」分解为「画射线 + 量距离」两步，把「说路线」分解为「逐段确定参照点 + 方向 + 距离」的固定句式
+    difficulty: 学生易在标位置时忘记标注距离刻度；易在描述路线时把参照点用错
+    typical_misconceptions:
+    - error_pattern: 标位置时未标注距离
+      misconception_type: 操作不完整
+    - error_pattern: 描述路线时参照点混乱
+      misconception_type: 参照点错误
+  variation_strategy:
+  - 在平面图上标出物体的位置
+  - 用方向和距离描述一条行走路线
+- point_id: math-g6-t1-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「同一个点用两种方法都能确定」为契机，让学生体会两种方法的等价性，并从「一个条件—两个条件」的对比中感受维度的含义
+    difficulty: 学生易认为两种方法互相排斥；易忽略「确定位置需要两个条件」
+    typical_misconceptions:
+    - error_pattern: 把两种方法对立起来
+      misconception_type: 联系意识不足
+    - error_pattern: 忽略「两个条件」
+      misconception_type: 必要性理解不足
+  variation_strategy:
+  - 说出两种确定位置方法的联系
+  - 判断确定一个位置需要哪些条件

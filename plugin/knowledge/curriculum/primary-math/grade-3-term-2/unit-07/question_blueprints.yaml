@@ -1,0 +1,77 @@
+unit_id: "unit-7"
+blueprints:
+  - blueprint_id: "bp-math-g3-t2-u07-standard"
+    title: "第七单元小数的初步认识标准练习卷蓝图"
+    target_practice: "小数概念表象、读写大小比较与竖式加减应用"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础题（共 60 分）
+      - slot_id: "slot-01"
+        section: "一、认真审题填一填（读写与分数小数互化）"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 8
+        target_points: ["math-g3-t2-u07-p01", "math-g3-t2-u07-p02"]
+        guidelines: "小数的读写法（3.6读作三点六，零点八写作0.8）；3元5角=(3.5)元；4/10米=(0.4)米；数轴填小数。"
+
+      - slot_id: "slot-02"
+        section: "二、精心挑选精判断（概念与大小比较）"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t2-u07-p01", "math-g3-t2-u07-p03"]
+        guidelines: "比较一位小数大小；小数加减法小数点对齐的原因；跑步成绩时间少速度快的生活比较。"
+
+      - slot_id: "slot-03"
+        section: "三、神机妙算口算堂（一位小数加减口算）"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 1
+        item_count: 8
+        target_points: ["math-g3-t2-u07-p04"]
+        guidelines: "0.5+0.3, 1.2+0.6, 0.9-0.4, 2.5-1.2, 0.7+0.8, 1.5-0.7, 3+0.8, 5-0.6。"
+
+      - slot_id: "slot-04"
+        section: "四、列竖式计算（小数点对齐进退位竖式）"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 4
+        target_points: ["math-g3-t2-u07-p04"]
+        guidelines: "2.4+3.8, 8.3-4.7, 10-4.6, 6.5+4。预留规范数位演算框，重点考查进位、退位及小数点对齐。"
+
+      # 二、变式题（共 30 分）
+      - slot_id: "slot-05"
+        section: "五、比大小与排序（多小数综合比较）"
+        question_type: "fill_blank"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 3
+        target_points: ["math-g3-t2-u07-p03"]
+        guidelines: "填上>、<或=；将4名选手的立定跳远成绩按从大到小排列。"
+
+      - slot_id: "slot-06"
+        section: "六、生活小超市（买文具与购物两步应用题）"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 6
+        item_count: 3
+        target_points: ["math-g3-t2-u07-p04", "math-g3-t2-u07-p05"]
+        guidelines: "1. 买文具盒6.8元和书包比文具盒贵多少；2. 拿10元钱买两种物品找零；3. 一桶油连桶重4.5千克，倒出一半油连桶重2.5千克求桶重。"
+
+      # 三、挑战题（共 10 分）
+      - slot_id: "slot-07"
+        section: "七、思维冲浪（小数错中求解与巧妙还原）"
+        question_type: "word_problem"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["math-g3-t2-u07-p04"]
+        guidelines: "小马虎在计算一个数加上 3.6 时，误看成加上 36，得到的结果是 48.2，求这道题正确的结果是多少（先求原数 48.2-36=12.2，再算 12.2+3.6=15.8）。"

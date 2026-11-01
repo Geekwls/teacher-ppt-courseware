@@ -1,0 +1,126 @@
+unit_id: "unit-4"
+source_id: "pep_chinese_g3_t1_2024"
+points:
+  - point_id: "chi-g3-t1-u04-p01"
+    unit_id: "unit-4"
+    lesson_id: "chi-g3-t1-u04-l01"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "本单元生字词的认读与规范书写"
+    learning_objectives:
+      - "认读并规范书写本单元要求会认、会写的生字，注意易错笔画与间架结构"
+      - "能看拼音写词语，正确默写课文中的重点词语"
+    applicable_question_types: ["writing", "fill_blank"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P46", "P49", "P52"]
+      anchor_text: "识字表/写字表页码锚点依课本目录登记；因用户提供的电子课本预览未含第四单元正文页，具体生字清单待补课本页面凭证后核定。"
+    teaching_boundary:
+      scope_allowed:
+        - "本单元会认、会写生字的认读与田字格规范书写"
+        - "看拼音写词语、形近字对比组词"
+      scope_excluded:
+        - "未在本单元课文中出现的字词"
+        - "超出三年级上册范围的生僻汉字"
+
+  - point_id: "chi-g3-t1-u04-p02"
+    unit_id: "unit-4"
+    lesson_id: "chi-g3-t1-u04-l01"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "感受童话丰富的想象，体会其中的真善美（单元核心语文要素）"
+    learning_objectives:
+      - "能感受童话中丰富而奇特的想象，说出故事里想象奇妙的地方"
+      - "能体会童话故事所蕴含的真、善、美，说出自己受到的启发"
+      - "能带着想象阅读童话，把无生命的物当作有生命的人来读"
+    applicable_question_types: ["reading", "choice", "fill_blank"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P45", "P46"]
+      anchor_text: "教师教学用书第四单元单元说明（教参 P89）：本单元阅读方面的语文要素是「感受童话丰富的想象，体会其中的真善美」；人文导语为「阅读童话，构筑充满童心的精神乐园」。"
+    teaching_boundary:
+      scope_allowed:
+        - "识别并说出童话中想象奇特、奇妙的地方"
+        - "结合故事内容体会童话蕴含的真善美"
+      scope_excluded:
+        - "脱离文本的随意想象与主观臆断"
+        - "文学理论层面的童话体裁系统分析"
+
+  - point_id: "chi-g3-t1-u04-p03"
+    unit_id: "unit-4"
+    lesson_id: "chi-g3-t1-u04-l02"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "童话人物形象与情节梳理"
+    learning_objectives:
+      - "能梳理童话故事的情节，说出故事发生、发展的过程"
+      - "能梳理《在牛肚子里旅行》中红头在牛肚子里的旅行路线"
+      - "能结合人物言行，说出童话人物的形象特点"
+    applicable_question_types: ["reading", "fill_blank", "writing"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P49", "P52"]
+      anchor_text: "依课本目录登记的课文页码范围；《在牛肚子里旅行》课后题引导学生梳理红头在牛肚子里的旅行路线，人物形象与情节梳理待补课本页面原文凭证后细化。"
+    teaching_boundary:
+      scope_allowed:
+        - "按顺序梳理故事情节，说出主要人物的特点"
+        - "结合课文内容谈自己的感受与启示"
+      scope_excluded:
+        - "脱离课文的主观臆断"
+        - "要求唯一答案的情节概括（同一情节可有不同表述）"
+
+  - point_id: "chi-g3-t1-u04-p04"
+    unit_id: "unit-4"
+    lesson_id: "chi-g3-t1-u04-l04"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "习作：我来编童话"
+    learning_objectives:
+      - "能发挥想象，自己编一个童话故事，把故事写完整"
+      - "编童话时能确定故事的角色、时间和地点，把情节写清楚"
+      - "能把想象的内容写通顺，做到语句连贯、有一定条理"
+    applicable_question_types: ["writing", "choice"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P54"]
+      anchor_text: "习作《我来编童话》：发挥想象自己编一个童话故事，把故事写清楚。（页码依课本目录登记）"
+    teaching_boundary:
+      scope_allowed:
+        - "根据角色、时间、地点等要素编写童话故事"
+        - "把想象的内容按一定顺序写清楚"
+      scope_excluded:
+        - "完整记叙文的谋篇布局与高级写作技法"
+        - "脱离童话体裁的说明性、议论性写作"
+
+  - point_id: "chi-g3-t1-u04-p05"
+    unit_id: "unit-4"
+    lesson_id: "chi-g3-t1-u04-l05"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "快乐读书吧：读童话的方法"
+    learning_objectives:
+      - "了解阅读童话的基本方法，能制定简单的课外阅读计划"
+      - "能在阅读童话时关注奇妙的想象，并主动交流阅读感受"
+      - "能积累童话中的好词好句，养成坚持阅读童话的习惯"
+    applicable_question_types: ["reading", "choice", "fill_blank"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P57", "P58"]
+      anchor_text: "快乐读书吧《在那奇妙的王国里》：引导学生阅读中外经典童话，感受童话世界的奇妙，养成课外阅读童话的习惯。（页码依课本目录登记，推荐书目待补凭证）"
+    teaching_boundary:
+      scope_allowed:
+        - "说出阅读童话的方法与阅读计划"
+        - "结合读过的童话交流感受、积累词句"
+      scope_excluded:
+        - "指定统一书目之外的强制性阅读任务"
+        - "对课外读物的长篇情节复述"

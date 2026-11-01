@@ -1,0 +1,75 @@
+unit_id: unit-03
+blueprints:
+- blueprint_id: bp-math-g1-t1-u03-standard
+  title: 第三单元 11～20的认识标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、看图写数
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t1-u03-p01
+    guidelines: 根据小棒图（1 捆加几根）写出数。
+  - slot_id: slot-02
+    section: 二、按顺序填数
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t1-u03-p02
+    guidelines: 填写 11～20 的顺序与相邻数。
+  - slot_id: slot-03
+    section: 三、比大小
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t1-u03-p02
+    guidelines: 比较 20 以内数的大小。
+  - slot_id: slot-04
+    section: 四、填组成
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t1-u03-p03
+    guidelines: 说出 11～20 各数由几个十和几个一组成。
+  - slot_id: slot-05
+    section: 五、算一算
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 8
+    target_points:
+    - math-g1-t1-u03-p03
+    guidelines: 计算 10 加几与十几减几（不退位）。
+  - slot_id: slot-06
+    section: 六、读一读、写一写
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 4
+    item_count: 3
+    target_points:
+    - math-g1-t1-u03-p01
+    guidelines: 给出中文数词写数字，或给出数字读出来。
+  - slot_id: slot-07
+    section: 七、解决问题
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 7
+    item_count: 1
+    target_points:
+    - math-g1-t1-u03-p03
+    guidelines: 情境题：结合数的组成解决简单实际问题。

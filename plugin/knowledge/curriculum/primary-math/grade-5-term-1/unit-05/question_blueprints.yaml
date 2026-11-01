@@ -1,0 +1,69 @@
+unit_id: unit-05
+blueprints:
+- blueprint_id: bp-math-g5-t1-u05-standard
+  title: 第五单元 用字母表示数和数量关系标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填（用字母表示）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 8
+    target_points:
+    - math-g5-t1-u05-p01
+    - math-g5-t1-u05-p02
+    guidelines: 用含字母的式子表示数量关系、运算律与公式。
+  - slot_id: slot-02
+    section: 二、省略乘号写出各式
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 1
+    item_count: 7
+    target_points:
+    - math-g5-t1-u05-p02
+    guidelines: 规范书写含字母的乘法式子。
+  - slot_id: slot-03
+    section: 三、求值
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g5-t1-u05-p01
+    - math-g5-t1-u05-p04
+    guidelines: 把已知数值代入式子求值。
+  - slot_id: slot-04
+    section: 四、表示规律
+    question_type: reading
+    difficulty: variation
+    points_per_item: 7
+    item_count: 3
+    target_points:
+    - math-g5-t1-u05-p03
+    guidelines: 用含字母的式子表示图形或数列中的规律。
+  - slot_id: slot-05
+    section: 五、解决问题
+    question_type: reading
+    difficulty: variation
+    points_per_item: 7
+    item_count: 2
+    target_points:
+    - math-g5-t1-u05-p04
+    guidelines: 用含字母的式子表示实际问题的数量关系并求解。
+  - slot_id: slot-06
+    section: 六、综合与拓展
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 9
+    item_count: 2
+    target_points:
+    - math-g5-t1-u05-p03
+    - math-g5-t1-u05-p04
+    guidelines: 用含字母的式子解释规律或解决较复杂的问题。

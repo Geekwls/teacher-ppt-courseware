@@ -1,0 +1,68 @@
+unit_id: "unit-4"
+blueprints:
+  - blueprint_id: "bp-math-g3-t2-u04-standard"
+    title: "第四单元图形的面积标准练习卷蓝图"
+    target_practice: "面积概念建立、单位进率与综合计算应用"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础题（共 60 分）
+      - slot_id: "slot-01"
+        section: "一、认真审题填一填（单位选用与进率换算）"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 8
+        target_points: ["math-g3-t2-u04-p02", "math-g3-t2-u04-p04"]
+        guidelines: "填合适的单位（平方厘米/平方分米/平方米/米）；面积单位换算（如 400平方厘米=4平方分米，7平方米=700平方分米）。"
+
+      - slot_id: "slot-02"
+        section: "二、精心挑选精判断（周长与面积辨析）"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t2-u04-p01", "math-g3-t2-u04-p03", "math-g3-t2-u04-p05"]
+        guidelines: "边长4分米正方形周长与面积不可比较；相邻面积单位进率是100；长方形长宽扩大对面积的影响。"
+
+      - slot_id: "slot-03"
+        section: "三、动手计算（图形面积基础求解）"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 6
+        item_count: 4
+        target_points: ["math-g3-t2-u04-p03"]
+        guidelines: "长方形面积（长×宽）与正方形面积（边长×边长）基础计算，注意单位规范标注。"
+
+      # 二、变式题（共 30 分）
+      - slot_id: "slot-04"
+        section: "四、解决问题（草坪、菜地与粉刷墙面）"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 6
+        item_count: 3
+        target_points: ["math-g3-t2-u04-p03", "math-g3-t2-u04-p05"]
+        guidelines: "1. 洒水车每分钟行驶长方形道路喷水面积；2. 一面墙扣除黑板面积后粉刷面积；3. 已知面积与长求宽的逆向应用题。"
+
+      - slot_id: "slot-05"
+        section: "五、铺砖能手（统一单位铺地砖实际问题）"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 6
+        item_count: 2
+        target_points: ["math-g3-t2-u04-p04", "math-g3-t2-u04-p05"]
+        guidelines: "客厅长宽以米为单位，地砖边长以分米为单位，必须先统一单位后再求地砖块数或花费。"
+
+      # 三、挑战题（共 10 分）
+      - slot_id: "slot-06"
+        section: "六、思维拓展（割补法求不规则组合图形面积）"
+        question_type: "word_problem"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["math-g3-t2-u04-p03"]
+        guidelines: "给出L形或凹凸组合图形，运用分割法或添补法求其面积，对比计算其周长与面积。"

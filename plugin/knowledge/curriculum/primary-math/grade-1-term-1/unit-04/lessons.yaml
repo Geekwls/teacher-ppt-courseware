@@ -1,0 +1,10 @@
+lessons:
+- lesson_id: math-g1-t1-u04-l01
+  unit_id: unit-04
+  subject: math
+  grade: 1
+  term: term-1
+  lesson_name: 第四单元 20以内的进位加法（单元整体）
+  page_range: P73-P87
+  official_examples:
+  - 9 加几、8 加几、7 加几、6 加几的进位加法；凑十法的运用；用进位加法解决实际问题。（例题原文待核验）

@@ -1,0 +1,6 @@
+{
+  "name": "teacher-ppt-courseware",
+  "version": "0.1.0",
+  "description": "小学人教版课时PPT课件生成:语数英三科,五层教材知识库证据链驱动,确定性校验门禁与 .pptx 渲染交付。",
+  "author": { "name": "weila" }
+}

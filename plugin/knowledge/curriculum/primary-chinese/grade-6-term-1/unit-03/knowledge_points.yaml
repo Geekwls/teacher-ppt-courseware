@@ -1,0 +1,120 @@
+unit_id: unit-03
+source_id: pep_chinese_g6_t1_2024
+points:
+- point_id: chi-g6-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: chi-g6-t1-u03-l01
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 根据阅读目的选择阅读内容与方法
+  learning_objectives:
+  - 能根据不同的阅读目的选择恰当的阅读内容
+  - 能根据阅读目的选用浏览、跳读、细读等阅读方法
+  applicable_question_types:
+  - reading
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P32
+    - P40
+    - P47
+    anchor_text: P31 单元扉页：「根据阅读目的，选用恰当的阅读方法。」P47 语文园地三：「生活中，常常需要根据目的进行阅读。」P40–P45：《故宫博物院》根据不同任务选择合适的材料。
+  teaching_boundary:
+    scope_allowed:
+    - 根据目的选择阅读内容
+    - 选用恰当的阅读方法
+    - 说明选择依据
+    scope_excluded:
+    - 信息检索与筛选理论
+    - 阅读任务导向研究
+- point_id: chi-g6-t1-u03-p02
+  unit_id: unit-03
+  lesson_id: chi-g6-t1-u03-l02
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 筛选与整合信息
+  learning_objectives:
+  - 能从文本中筛选出与问题相关的信息
+  - 能对筛选出的信息进行整合并作出判断
+  applicable_question_types:
+  - reading
+  - fill_blank
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P36
+    - P39
+    - P43
+    anchor_text: P39–P43：「为了了解其他星球是否存在生命，你在阅读时是怎么做的？」「有的信息可能是不准确的，需要再查查相关资料加以判断。」「与问题相关的内容我会仔细读，必要时……」
+  teaching_boundary:
+    scope_allowed:
+    - 筛选相关信息
+    - 整合信息并判断
+    - 对不确定信息加以核查
+    scope_excluded:
+    - 信息素养与批判性思维
+    - 科学探究方法
+- point_id: chi-g6-t1-u03-p03
+  unit_id: unit-03
+  lesson_id: chi-g6-t1-u03-l03
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 写生活体验并表达自己的看法
+  learning_objectives:
+  - 能写出一件事对生活的影响并说明原因
+  - 能把原因写具体，表达自己的看法
+  applicable_question_types:
+  - writing
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P46
+    - P48
+    anchor_text: P46 习作《让生活更美好》：「写之前想一想它是怎么影响你的生活的，为什么让你觉得生活更美好。写的时候注意把原因写具体。」P48：「说明理由时可以分条陈述。」
+  teaching_boundary:
+    scope_allowed:
+    - 写出事件对生活的影响
+    - 把原因写具体
+    - 分条陈述理由
+    scope_excluded:
+    - 体验式写作教学
+    - 议论文的分条论证
+- point_id: chi-g6-t1-u03-p04
+  unit_id: unit-03
+  lesson_id: chi-g6-t1-u03-l04
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 浏览、跳读与细读的结合
+  learning_objectives:
+  - 能在阅读中灵活运用浏览、跳读与细读
+  - 能说出不同阅读方法的适用场景
+  applicable_question_types:
+  - reading
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P36
+    - P40
+    anchor_text: P36–P39：《宇宙生命之谜》「与问题相关的内容我会仔细读」。P40–P45：《故宫博物院》「有的材料可以略读，有的需要细读」。
+  teaching_boundary:
+    scope_allowed:
+    - 运用浏览、跳读、细读
+    - 说明方法的适用场景
+    - 提高阅读效率
+    scope_excluded:
+    - 速读与精读的心理学研究
+    - 信息检索策略

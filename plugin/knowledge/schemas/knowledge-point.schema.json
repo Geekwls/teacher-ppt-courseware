@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CurriculumKnowledgePoint",
+  "description": "教材知识点规范定义与证据链契约",
+  "type": "object",
+  "required": [
+    "point_id",
+    "subject",
+    "edition",
+    "grade",
+    "term",
+    "unit_id",
+    "unit_name",
+    "point_name",
+    "learning_objectives",
+    "applicable_question_types",
+    "evidence",
+    "verification_status",
+    "scope_allowed",
+    "scope_excluded"
+  ],
+  "properties": {
+    "point_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_-]+$",
+      "description": "唯一标识符，如 math-g3-t1-u6-p01"
+    },
+    "version": {
+      "type": "string",
+      "description": "知识点数据版本号，如 2026.10.1"
+    },
+    "updated_at": {
+      "type": "string",
+      "description": "最后修订或核验日期，如 2026-10-04"
+    },
+    "subject": {
+      "type": "string",
+      "enum": ["math", "chinese", "english"],
+      "description": "学科"
+    },
+    "edition": {
+      "type": "string",
+      "description": "教材版本，如 人教版（统编版）"
+    },
+    "grade": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6,
+      "description": "年级（1-6）"
+    },
+    "term": {
+      "type": "string",
+      "enum": ["term-1", "term-2"],
+      "description": "上册 (term-1) 或 下册 (term-2)"
+    },
+    "unit_id": {
+      "type": "string",
+      "description": "单元ID，如 unit-6"
+    },
+    "unit_name": {
+      "type": "string",
+      "description": "单元名称，如 第六单元 多位数乘一位数"
+    },
+    "point_name": {
+      "type": "string",
+      "description": "知识点名称，如 两、三位数乘一位数的笔算乘法（不进位）"
+    },
+    "learning_objectives": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "具体的教学与课标考查目标"
+    },
+    "applicable_question_types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["calculation", "fill_blank", "choice", "word_problem", "reading", "writing", "judge"]
+      },
+      "minItems": 1,
+      "description": "适用题型"
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["source_type", "document_name", "verification_note"],
+      "properties": {
+        "source_type": {
+          "type": "string",
+          "enum": ["official_textbook", "curriculum_standard", "teaching_reference", "user_uploaded", "unverified_public"]
+        },
+        "document_name": {
+          "type": "string",
+          "description": "来源文件名或正规出版物书名"
+        },
+        "page_range": {
+          "type": "string",
+          "description": "教材对应页码范围，如 P56-P58"
+        },
+        "verified_at": {
+          "type": "string",
+          "description": "核验日期，如 2026-10-03"
+        },
+        "verification_note": {
+          "type": "string",
+          "description": "核验结论说明与核对依据"
+        }
+      }
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["verified", "partial", "unverified", "missing"],
+      "description": "知识点核验状态：verified=已根据可靠材料核验; partial=部分核验; unverified=推测待核验; missing=缺失"
+    },
+    "scope_allowed": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "严格允许出题的知识与数额范围"
+    },
+    "scope_excluded": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "明确排除与禁止出现的超纲知识或运算特征"
+    }
+  }
+}

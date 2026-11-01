@@ -1,0 +1,99 @@
+unit_id: "unit-6"
+source_id: "pep_english_g3_t1_tr_2024"
+teaching_references:
+  - point_id: "eng-g3-t1-u06-p01"
+    ref_book: "人教版《教师教学用书》英语三年级上册第六单元"
+    ref_page: "P126-P129"
+    pedagogical_focus:
+      key_point: "掌握字母 Vv, Ww, Xx, Yy, Zz 的笔顺笔画与占格规范，圆满完成26个字母学习"
+      difficulty: "小写 y 占中下格（第二笔长斜向左下延至第三格），与字母 v, w, x, z 仅占中格的区别；大写 W 与大写 V 的连折角度"
+      typical_misconceptions:
+        - error_pattern: "将小写 y 误写在上中格"
+          misconception_type: "四线三格占位错误"
+        - error_pattern: "将大写 W 写得圆滑如同两个 U"
+          misconception_type: "字母形态失真"
+    variation_strategy:
+      - "全字母表大冲关：写出 Vv-Zz 的大小写配对"
+      - "字母表邻居填空：( ), W, ( ), Y, Z"
+
+  - point_id: "eng-g3-t1-u06-p02"
+    ref_book: "人教版《教师教学用书》英语三年级上册第六单元"
+    ref_page: "P128-P131"
+    pedagogical_focus:
+      key_point: "掌握字母 v(/v/), w(/w/), x(/ks/), y(/j/), z(/z/)的发音，建立末尾音素辨析能力"
+      difficulty: "唇齿音 /v/ 与双唇音 /w/ 的发音部位区分；字母 x 在词尾发复合音 /ks/（如 box, six）的感知"
+      typical_misconceptions:
+        - error_pattern: "将 van 读成 wan（/v/ 与 /w/ 不分）"
+          misconception_type: "辅音发音部位混淆"
+        - error_pattern: "在 six 词尾遗漏清辅音 /s/ 的成分"
+          misconception_type: "复合音发音残缺"
+    variation_strategy:
+      - "听音辨首音：听 van 选 /v/，听 we 选 /w/"
+      - "拼读拆装卡片：w-e-t -> wet, v-a-t -> vat"
+
+  - point_id: "eng-g3-t1-u06-p03"
+    ref_book: "人教版《教师教学用书》英语三年级上册第六单元"
+    ref_page: "P120-P123"
+    pedagogical_focus:
+      key_point: "熟练认读基数词 1 至 10（one to ten），建立数形意对应"
+      difficulty: "three 的清辅音 /θ/ 咬舌发音；four 与 five 的词形区别；eight 的拼写规律"
+      typical_misconceptions:
+        - error_pattern: "将 three 读成 sree 或 tree（未咬舌）"
+          misconception_type: "语音音位偏离"
+        - error_pattern: "混淆 four 与 five 的英文拼写"
+          misconception_type: "词形形近混淆"
+    variation_strategy:
+      - "手指操数数与数字卡片配对"
+      - "顺数倒数接龙填空：one, ( ), three, four, ( )"
+
+  - point_id: "eng-g3-t1-u06-p04"
+    ref_book: "人教版《教师教学用书》英语三年级上册第六单元"
+    ref_page: "P118-P121"
+    pedagogical_focus:
+      key_point: "掌握询问年龄句型 How old are you? 及其回答 I'm... years old."
+      difficulty: "区分询问年龄 How old are you? 与询问身体状况 How are you?；回答中 years old 可省略但若保留必须用复数 years（除1岁外）"
+      typical_misconceptions:
+        - error_pattern: "听到 How old are you? 回答 Fine, thank you."
+          misconception_type: "特殊疑问词短语混淆"
+    variation_strategy:
+      - "生日调查情境问答：—How old are you? —I'm seven years old."
+      - "辨析微选：选择询问年龄的句子"
+
+  - point_id: "eng-g3-t1-u06-p05"
+    ref_book: "人教版《教师教学用书》英语三年级上册第六单元"
+    ref_page: "P122-P125"
+    pedagogical_focus:
+      key_point: "掌握 How many + 复数名词? 询问数量，理解提问时名词一律用复数"
+      difficulty: "无论预计数量是多少，How many 后紧跟的必定是复数名词（How many apples?，不可用 apple）"
+      typical_misconceptions:
+        - error_pattern: "提问时遗漏名词复数词尾（如写成 How many apple?）"
+          misconception_type: "语法规则失误"
+    variation_strategy:
+      - "看图数数问答：—How many bananas? —Three."
+      - "单复数挑错修改"
+
+  - point_id: "eng-g3-t1-u06-p06"
+    ref_book: "人教版《教师教学用书》英语三年级上册第六单元"
+    ref_page: "P124-P127"
+    pedagogical_focus:
+      key_point: "掌握购物付款表达 That's... yuan, please. 与递物用语 Here you are."
+      difficulty: "yuan 作为中国货币单位不加复数 -s（That's ten yuan, 不是 ten yuans）"
+      typical_misconceptions:
+        - error_pattern: "在 yuan 后面错误添加 -s"
+          misconception_type: "单位规则过度泛化"
+    variation_strategy:
+      - "小小超市收银员角色扮演问答"
+      - "结账情境对话补全"
+
+  - point_id: "eng-g3-t1-u06-p07"
+    ref_book: "人教版《教师教学用书》英语三年级上册第六单元"
+    ref_page: "P132-P135"
+    pedagogical_focus:
+      key_point: "理解数学跨学科奇数（odd）与偶数（even）概念，并在生日筹备语篇中综合运用"
+      difficulty: "odd 与 even 词义的准确记忆与数字归类，以及在阅读中捕捉时刻数字与物品数量"
+      typical_misconceptions:
+        - error_pattern: "将 odd（奇数）与 even（偶数）的概念对应颠倒"
+          misconception_type: "跨学科概念混淆"
+    variation_strategy:
+      - "数字分类进篮子：odd 篮 (1, 3, 5, 7, 9) vs even 篮 (2, 4, 6, 8, 10)"
+      - "生日邀请函短篇阅读理解"

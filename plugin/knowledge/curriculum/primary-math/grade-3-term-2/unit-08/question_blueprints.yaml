@@ -1,0 +1,77 @@
+unit_id: "unit-8"
+blueprints:
+  - blueprint_id: "bp-math-g3-t2-u08-standard"
+    title: "第八单元复习与关联期末综合练习卷蓝图"
+    target_practice: "全册知识结构化复习与综合数学素养评估"
+    total_score: 100
+    suggested_time_minutes: 60
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础题（共 60 分）
+      - slot_id: "slot-01"
+        section: "一、知识乐园填一填（全册核心概念填空）"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 8
+        target_points: ["math-g3-t2-u08-p01", "math-g3-t2-u08-p02", "math-g3-t2-u08-p04"]
+        guidelines: "全册概念穿插：除法商的位数；面积单位进率；平年闰年天数；小数意义与读写；周长公式。"
+
+      - slot_id: "slot-02"
+        section: "二、反复推敲精挑选（核心辨析单选题）"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t2-u08-p02", "math-g3-t2-u08-p03", "math-g3-t2-u08-p04"]
+        guidelines: "周长与面积不可比较；1900年是平年；平行四边形非轴对称；商中间有0判断。"
+
+      - slot_id: "slot-03"
+        section: "三、神机妙算口算堂（口算与估算能力展）"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 1
+        item_count: 8
+        target_points: ["math-g3-t2-u08-p01"]
+        guidelines: "口算除法（600÷3, 240÷6, 0÷8等）与小数加减口算（0.6+0.8, 1.4-0.9等）。"
+
+      - slot_id: "slot-04"
+        section: "四、列竖式计算（带★号验算）"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 4
+        target_points: ["math-g3-t2-u08-p01"]
+        guidelines: "除法笔算（含商中间有0、带余除法及验算）与小数加减笔算（含退位减法）。"
+
+      # 二、变式题（共 30 分）
+      - slot_id: "slot-05"
+        section: "五、动手操作与统计分析（复式统计表）"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 6
+        item_count: 2
+        target_points: ["math-g3-t2-u08-p05"]
+        guidelines: "复式统计表数据计算与问题回答；方格纸上画对称轴与平移图形。"
+
+      - slot_id: "slot-06"
+        section: "六、解决实际问题（图形与数量关系两步应用）"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 6
+        item_count: 3
+        target_points: ["math-g3-t2-u08-p02", "math-g3-t2-u08-p05"]
+        guidelines: "1. 铺地砖统一面积单位求解；2. 靠墙围篱笆与周长极值应用；3. 连乘连除实际问题。"
+
+      # 三、挑战题（共 10 分）
+      - slot_id: "slot-07"
+        section: "七、思维大冲浪（全册综合推理与决策方案）"
+        question_type: "word_problem"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["math-g3-t2-u08-p02"]
+        guidelines: "综合拼图求面积周长，或者租车购票最优化消费方案设计，考查学生综合运用所学知识解决实际问题的建模素养。"

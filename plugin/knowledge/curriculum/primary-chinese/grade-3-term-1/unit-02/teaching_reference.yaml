@@ -1,0 +1,103 @@
+unit_id: "unit-2"
+source_id: "pep_chinese_g3_t1_tr_2024"
+teaching_references:
+  - point_id: "chi-g3-t1-u02-p01"
+    ref_book: "人教版《教师教学用书》语文三年级上册第二单元"
+    ref_page: "P42-P45"
+    pedagogical_focus:
+      key_point: "掌握37个会写字在田字格中的间架结构，工整规范书写词语表中核心词语"
+      difficulty: "易错字书写笔画与间架结构：『径』右半部分是『圣』不要多写一撇；『霜』字雨字头横钩规范；『残』字右半部分两横一撇一捺加一点避免漏笔；『规』字左边是『夫』而非『天』"
+      typical_misconceptions:
+        - error_pattern: "将『规则』的『规』左边写成『天』（第一撇与第二横未穿头出头）"
+          misconception_type: "形近部件混淆"
+        - error_pattern: "将『水泥』的『泥』右下角撇竖弯钩误写成『匕』"
+          misconception_type: "笔画部件错位"
+        - error_pattern: "将『小径』的『径』右边误写成『怪』的右部或多加一撇"
+          misconception_type: "易错笔画增减"
+    variation_strategy:
+      - "看拼音写生字词语，规范在田字格中工整默写（金色、水泥、规则、排列、丰收）"
+      - "形近字对比组词：径（山径）/ 经（经过）；料（颜料）/ 科（科学）"
+
+  - point_id: "chi-g3-t1-u02-p02"
+    ref_book: "人教版《教师教学用书》语文三年级上册第二单元"
+    ref_page: "P46-P48"
+    pedagogical_focus:
+      key_point: "根据具体语境和词性含义准确判断多音字『挑、铺、曲、扇』的读音"
+      difficulty: "『挑』在表示拨弄、触动（挑促织、挑战）时读三声 tiǎo，表示担、选时读一声 tiāo；『铺』作动词时读一声 pū（铺满、铺路），作名词处所时读四声 pù（店铺、床铺、药铺）"
+      typical_misconceptions:
+        - error_pattern: "将古诗『知有儿童挑促织』的『挑』误读为一声 tiāo"
+          misconception_type: "语境含义与读音混淆"
+        - error_pattern: "将『扇风』的『扇』误读为名词读音四声 shàn，或将『折扇』误读为一声 shān"
+          misconception_type: "词性与读音对应错误"
+    variation_strategy:
+      - "语境选音打钩：秋风吹来，落叶铺（pū √ / pù）满了金色水泥道"
+      - "多音字句子辨音选择题"
+
+  - point_id: "chi-g3-t1-u02-p03"
+    ref_book: "人教版《教师教学用书》语文三年级上册第二单元"
+    ref_page: "P32-P36"
+    pedagogical_focus:
+      key_point: "背诵默写古诗名句，理解重点字词（坐、红于、擎、促织）的意思与诗意意境"
+      difficulty: "理解『停车坐爱枫林晚』中『坐』是『因为』的意思，而非现代汉语的『坐下』；准确书写默写生字『霜』『残』『君』"
+      typical_misconceptions:
+        - error_pattern: "把『停车坐爱枫林晚』中的『坐』机械理解为坐在马车里"
+          misconception_type: "古今异义误判"
+        - error_pattern: "默写《山行》时把『霜叶红于二月花』误写成『双叶』或『红月』"
+          misconception_type: "同音字默写错误"
+    variation_strategy:
+      - "古诗上下句精准填空默写"
+      - "重点文言字词注释单项选择"
+
+  - point_id: "chi-g3-t1-u02-p04"
+    ref_book: "人教版《教师教学用书》语文三年级上册第二单元"
+    ref_page: "P52-P54"
+    pedagogical_focus:
+      key_point: "运用查字典、联系上下文、结合生活实际、找近义词等多种方法理解难懂词语"
+      difficulty: "能够在具体语言环境中抓住关键词句推断陌生词义（如由『天晴了，地面没有积水』推断『明朗』）"
+      typical_misconceptions:
+        - error_pattern: "遇到难懂词语时脱离上下文语境，凭空猜测词义"
+          misconception_type: "孤立猜测脱离语境"
+    variation_strategy:
+      - "阅读语段中选出加点词在文中的意思"
+      - "方法配对：说出理解加点词所用的具体方法"
+
+  - point_id: "chi-g3-t1-u02-p05"
+    ref_book: "人教版《教师教学用书》语文三年级上册第二单元"
+    ref_page: "P38-P41"
+    pedagogical_focus:
+      key_point: "体会课文中比喻句和拟人句的表达效果，学习生动形象地描写秋天景物"
+      difficulty: "准确识别比喻句中的本体和喻体（梧桐叶比作小巴掌，枫叶比作邮票），排除非比喻的『好像』句"
+      typical_misconceptions:
+        - error_pattern: "认为凡是有『像』『好像』的句子都是比喻句（如『他长得很像他爸爸』）"
+          misconception_type: "修辞特征泛化误判"
+    variation_strategy:
+      - "修辞手法辨析选择题：下列句子中属于比喻句的是哪一项"
+      - "仿写句子：仿照课文例句写一写秋天的落叶或果实"
+
+  - point_id: "chi-g3-t1-u02-p06"
+    ref_book: "人教版《教师教学用书》语文三年级上册第二单元"
+    ref_page: "P55-P57"
+    pedagogical_focus:
+      key_point: "熟记并规范书写语文园地二日积月累中9个描写秋天的四字成语，理解分类与适用情境"
+      difficulty: "成语中易错字的准确笔画（『秋高气爽』的『爽』，『层林尽染』的『染』）；按天气、植物、丰收准确分类"
+      typical_misconceptions:
+        - error_pattern: "将『五谷丰登』误写为『五谷丰灯』或『五谷丰收』"
+          misconception_type: "成语字形同音混淆"
+        - error_pattern: "描写秋天凉爽天气的句子中误用描写果实丰收的成语（如用『果实累累』形容天气）"
+          misconception_type: "成语语境搭配不当"
+    variation_strategy:
+      - "成语补充完整填空"
+      - "语境情境选词填空"
+
+  - point_id: "chi-g3-t1-u02-p07"
+    ref_book: "人教版《教师教学用书》语文三年级上册第二单元"
+    ref_page: "P50-P52"
+    pedagogical_focus:
+      key_point: "掌握日记的第一行格式要素（年月日、星期、天气）及正文缩进规范"
+      difficulty: "日记要素完整性（容易漏掉星期或天气），正文能按顺序写清楚一件事情或秋天的一处景物"
+      typical_misconceptions:
+        - error_pattern: "日记开头直接写正文，未按规定在第一行书写日期、星期和天气"
+          misconception_type: "日记文体格式规范缺失"
+    variation_strategy:
+      - "格式改错与选择：判断日记格式是否规范"
+      - "秋日生活小练笔：写一段符合格式规范的秋天观察微日记"

@@ -1,0 +1,74 @@
+unit_id: unit-02
+source_id: pep_math_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g6-t1-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「做 2 朵花需要 2 个 3/10 张纸」的加法意义（3/10+3/10）为起点，把同分母分数加法抽象为分数乘整数
+    difficulty: 学生易把整数与分母相乘；易在约分时把整数与分子约分错误
+    typical_misconceptions:
+    - error_pattern: 整数与分母相乘
+      misconception_type: 算理错误
+    - error_pattern: 约分对象搞错
+      misconception_type: 约分错误
+  variation_strategy:
+  - 计算分数乘整数
+  - 先约分再计算并说明算理
+- point_id: math-g6-t1-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「求 2 公顷的 5/8 是多少」的图形模型（把 2 公顷平均分成 8 份取 5 份），让学生看到「分子相乘、分母相乘」的几何意义
+    difficulty: 学生易把分数乘分数的结果直接相加；易在「整数乘分数」时忘记整数可看成分母为 1
+    typical_misconceptions:
+    - error_pattern: 分数乘法当成加法
+      misconception_type: 运算意义混淆
+    - error_pattern: 整数未看成分母为 1 的分数
+      misconception_type: 算理不完整
+  variation_strategy:
+  - 计算一个数乘分数
+  - 看图列式并说明算理
+- point_id: math-g6-t1-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「分数运算律与整数相同」的类比，让学生把已掌握的运算律迁移到分数，并练习「先约分再计算」的技巧
+    difficulty: 学生易在混合运算中漏掉约分；易在分配律中漏乘其中一项
+    typical_misconceptions:
+    - error_pattern: 混合运算中漏约分
+      misconception_type: 计算不简洁
+    - error_pattern: 分配律漏乘
+      misconception_type: 运算律运用不完整
+  variation_strategy:
+  - 计算分数混合运算
+  - 用运算律进行简便计算并说明所用运算律
+- point_id: math-g6-t1-u02-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「休闲场所→运动健身区域→器械类健身区域」的两级关系，让学生用线段图把「谁占谁的几分之几」逐级表示出来
+    difficulty: 学生易把两次的「单位 1」当成同一个量；易在综合算式中把两次相乘写成相加
+    typical_misconceptions:
+    - error_pattern: 两次的「单位 1」混淆
+      misconception_type: 单位量判断错误
+    - error_pattern: 连续求几分之几写成加法
+      misconception_type: 模型错误
+  variation_strategy:
+  - 用分数乘法连续求一个数的几分之几
+  - 画线段图分析数量关系
+- point_id: math-g6-t1-u02-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「减少 1/4」「多 4/5」的线段图为工具，让学生把「比一个数多（少）几分之几」转化为「这个数 ×(1±分率)」
+    difficulty: 学生易把「比一个数多几分之几」直接乘分率而忘记加原数；易把「单位 1」认错
+    typical_misconceptions:
+    - error_pattern: 把「多几分之几」直接乘分率
+      misconception_type: 单位量遗漏
+    - error_pattern: 「单位 1」判断错误
+      misconception_type: 数量关系混乱
+  variation_strategy:
+  - 解决「求比一个数多（少）几分之几」的问题
+  - 画线段图并列式

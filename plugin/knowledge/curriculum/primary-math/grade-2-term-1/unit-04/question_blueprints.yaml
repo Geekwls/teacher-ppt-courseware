@@ -1,0 +1,75 @@
+unit_id: unit-04
+blueprints:
+- blueprint_id: bp-math-g2-t1-u04-standard
+  title: 第四单元 厘米和米标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填：填上合适的长度单位
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - math-g2-t1-u04-p03
+    guidelines: 给常见物体选择厘米或米。
+  - slot_id: slot-02
+    section: 二、量一量：看图读出长度
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g2-t1-u04-p01
+    guidelines: 根据尺子图读出物体长度。
+  - slot_id: slot-03
+    section: 三、单位换算
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g2-t1-u04-p02
+    guidelines: 1 米 =（　）厘米等换算。
+  - slot_id: slot-04
+    section: 四、比大小
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g2-t1-u04-p02
+    guidelines: 比较带单位的长度并填「＞」「＜」或「＝」。
+  - slot_id: slot-05
+    section: 五、画一画：画出指定长度的线段
+    question_type: writing
+    difficulty: variation
+    points_per_item: 5
+    item_count: 2
+    target_points:
+    - math-g2-t1-u04-p01
+    guidelines: 用尺子画出指定长度的线段。
+  - slot_id: slot-06
+    section: 六、解决问题
+    question_type: reading
+    difficulty: variation
+    points_per_item: 10
+    item_count: 2
+    target_points:
+    - math-g2-t1-u04-p03
+    guidelines: 情境题：结合长度单位的选择与计算解决问题。
+  - slot_id: slot-07
+    section: 七、估一估（开放题）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 10
+    item_count: 1
+    target_points:
+    - math-g2-t1-u04-p03
+    guidelines: 先估计身边某物体的长度，再测量并说明差距原因。

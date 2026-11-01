@@ -1,0 +1,116 @@
+unit_id: unit-01
+source_id: pep_math_g6_t1_2024
+points:
+- point_id: math-g6-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: math-g6-t1-u01-l01
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 用有序数对确定位置
+  learning_objectives:
+  - 能用有序数对表示平面内点的位置，能根据有序数对找到对应的点
+  - 能发现同一列（行）的有序数对中某个数的规律
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P1
+    - P2
+    anchor_text: P1：张亮在第 2 列、第 3 行，位置可以用有序数对（2，3）表示。P2：「同一列，有序数对的第一个数都相同。」「（2，a）表示的是哪些同学的位置？」
+  teaching_boundary:
+    scope_allowed:
+    - 用有序数对表示位置
+    - 根据有序数对确定点
+    - 发现同行（列）数对的规律
+    scope_excluded:
+    - 平面直角坐标系的系统讲解
+    - 数据库中的二维索引
+- point_id: math-g6-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: math-g6-t1-u01-l02
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 用方向和距离确定位置
+  learning_objectives:
+  - 能用「参照点 + 方向 + 距离」描述物体的位置
+  - 能理解「一般用不大于 45° 的角描述方向」的习惯
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P5
+    - P6
+    anchor_text: P5：渔船在搜救船的东偏南 25° 方向上，也可以说在搜救船的南偏东 65° 方向上；「两种说法都对，但一般习惯用不大于 45° 的角来描述」。P6：「确定平面内一个物体的准确位置，要先确定参照点，还需要知道物体相对于参照点的距离和方向。」
+  teaching_boundary:
+    scope_allowed:
+    - 用方向与距离描述位置
+    - 识别参照点
+    - 在两种方向说法之间转换
+    scope_excluded:
+    - 极坐标系
+    - 地理方位与方位角
+- point_id: math-g6-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: math-g6-t1-u01-l03
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 在平面图上标出物体位置与描述路线
+  learning_objectives:
+  - 能根据「方向 + 距离」在平面图上标出物体的位置
+  - 能用方向和距离按段描述行走路线，并说明每段的参照点
+  applicable_question_types:
+  - writing
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P8
+    - P10
+    anchor_text: P8：在搜救船北偏西 40° 的方向上画一条射线，再在上面画出刻度表示距离。P10：「描述路线时，每段路线都是以起点为参照点确定方向的。」
+  teaching_boundary:
+    scope_allowed:
+    - 在平面图上标出位置
+    - 按段描述路线
+    - 确定每段路线的参照点
+    scope_excluded:
+    - 导航路径规划
+    - GIS 中的方位描述
+- point_id: math-g6-t1-u01-p04
+  unit_id: unit-01
+  lesson_id: math-g6-t1-u01-l04
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 两种确定位置方法的联系
+  learning_objectives:
+  - 能说出确定平面内点的位置需要两个条件
+  - 能说出「有序数对」与「方向和距离」两种方法的联系
+  applicable_question_types:
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P11
+    anchor_text: P11：「平面内同一个点既可以用一个有序数对，又可以用方向和距离确定位置。」「这两种方法都需要两个条件。在直线上用一个数表示点的位置；在平面内用两个数表示点的位置。」
+  teaching_boundary:
+    scope_allowed:
+    - 说出两种方法的共同点
+    - 比较两种方法的适用情境
+    - 说明「两个条件」的必要性
+    scope_excluded:
+    - 坐标变换（极坐标与直角坐标互化）
+    - 维数概念的推广

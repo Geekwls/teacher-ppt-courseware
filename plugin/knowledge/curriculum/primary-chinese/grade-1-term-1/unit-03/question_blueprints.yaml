@@ -1,0 +1,67 @@
+unit_id: unit-03
+blueprints:
+- blueprint_id: bp-chi-g1-t1-u03-standard
+  title: 第三单元 汉语拼音标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、读一读，分一分（平翘舌）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 6
+    target_points:
+    - chi-g1-t1-u03-p02
+    guidelines: 把音节按平舌音与翘舌音分类。
+  - slot_id: slot-02
+    section: 二、拼一拼，写一写
+    question_type: writing
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - chi-g1-t1-u03-p01
+    guidelines: 写出 j q x 与 ü 相拼后的音节。
+  - slot_id: slot-03
+    section: 三、连一连（整体认读音节）
+    question_type: match
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - chi-g1-t1-u03-p03
+    guidelines: 把 yi wu yu 与相应汉字连线。
+  - slot_id: slot-04
+    section: 四、选一选（正确的音节）
+    question_type: choice
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - chi-g1-t1-u03-p01
+    - chi-g1-t1-u03-p02
+    guidelines: 选出拼写正确的一项。
+  - slot_id: slot-05
+    section: 五、读一读，背一背（绕口令）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 7
+    item_count: 2
+    target_points:
+    - chi-g1-t1-u03-p02
+    guidelines: 朗读平翘舌绕口令，做到读准、读快。
+  - slot_id: slot-06
+    section: 六、拼一拼，认一认
+    question_type: reading
+    difficulty: variation
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - chi-g1-t1-u03-p03
+    guidelines: 拼读音节并指出对应汉字。

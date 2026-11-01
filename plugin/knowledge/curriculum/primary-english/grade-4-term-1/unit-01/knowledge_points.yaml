@@ -1,0 +1,117 @@
+unit_id: unit-01
+source_id: pep_english_g4_t1_2024
+points:
+- point_id: eng-g4-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: eng-g4-t1-u01-l01
+  subject: english
+  grade: 4
+  term: term-1
+  point_name: 询问与介绍职业（What's your …'s job?）
+  learning_objectives:
+  - 能用 What's your …'s job? 询问他人的职业
+  - 能用 He's/She's a … 介绍职业并掌握职业词汇
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g4_t1_2024
+    page_ref:
+    - P4
+    - P5
+    anchor_text: P4：「What's your mother's job? He's a PE teacher. Doctors are great! My father is a doctor too.」P5：「office worker / farmer / doctor / factory worker / nurse」「He's a factory worker. What's your father's job?」
+  teaching_boundary:
+    scope_allowed:
+    - 询问职业的问句
+    - 介绍职业的答句
+    - 职业词汇 office worker/farmer/doctor/factory worker/nurse
+    scope_excluded:
+    - 职场职业分类的社会学研究
+    - 职业名词的构词法
+- point_id: eng-g4-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: eng-g4-t1-u01-l02
+  subject: english
+  grade: 4
+  term: term-1
+  point_name: 用 can 表达能力与家务活动
+  learning_objectives:
+  - 能用 I can … 表达自己会做的家务
+  - 能用 Can you …? Yes, I can. / No, I can't. 进行问答
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g4_t1_2024
+    page_ref:
+    - P3
+    - P7
+    anchor_text: P3：「Can you help? Yes, I can. I can clean my room.」P7：「Mum and Dad are busy and tired. What can we do for them? We can also make a gift!」
+  teaching_boundary:
+    scope_allowed:
+    - 用 can 表达能力
+    - Can you …? 的一般疑问句问答
+    - 家务活动短语 clean my room / sweep the floor / look after my sister
+    scope_excluded:
+    - 情态动词的语法体系
+    - 儿童劳动教育
+- point_id: eng-g4-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: eng-g4-t1-u01-l03
+  subject: english
+  grade: 4
+  term: term-1
+  point_name: 用 have/has 与形容词描述人
+  learning_objectives:
+  - 能用 He/She is … 与 He/She has … 描述人物
+  - 能正确区分 is 与 has 的用法
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g4_t1_2024
+    page_ref:
+    - P6
+    - P9
+    anchor_text: P6：「My grandpa can teach Chinese. He can make nice chairs.」P9：「You are a great nurse. You help many people.」
+  teaching_boundary:
+    scope_allowed:
+    - 用 is 描述特征
+    - 用 has 描述所有物/外貌
+    - 形容词 great/nice/good
+    scope_excluded:
+    - 描写性语言的教学方法
+    - 英语形容词语义
+- point_id: eng-g4-t1-u01-p04
+  unit_id: unit-01
+  lesson_id: eng-g4-t1-u01-l04
+  subject: english
+  grade: 4
+  term: term-1
+  point_name: 字母组合 ch 的发音
+  learning_objectives:
+  - 能掌握字母组合 ch 的发音 /tʃ/
+  - 能拼读含 ch 的例词并听音辨字
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g4_t1_2024
+    page_ref:
+    - P6
+    anchor_text: P6 Let's spell：字母组合 ch 的发音与例词（chair, Chinese, lunch, teach, peach）。
+  teaching_boundary:
+    scope_allowed:
+    - ch 的发音 /tʃ/
+    - 含 ch 的例词拼读
+    - 听音选出正确的单词
+    scope_excluded:
+    - 自然拼读教学法
+    - 英语辅音连缀

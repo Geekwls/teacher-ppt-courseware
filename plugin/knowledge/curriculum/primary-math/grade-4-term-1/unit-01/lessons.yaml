@@ -1,0 +1,108 @@
+lessons:
+- lesson_id: math-g4-t1-u01-l01
+  unit_id: unit-01
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 1
+  lesson_name: 亿以内数的认识
+  page_range: P1-P4
+  official_examples:
+  - 在日常生活和生产中，我们经常用到比万大的数。下面是 2020 年第七次全国人口普查部分地区的数据：北京 21893095 人，广东 126012510 人，山东 101527453 人，河南 99365519 人。
+  - 一万一万地数，10 个一万是十万；10 个十万是一百万；10 个一百万是一千万；10 个一千万是一亿。
+  - 个（一）、十、百、千、万、十万、百万、千万、亿都是计数单位。
+  - 按照我国的计数习惯，从右边起，每四个数位是一级：个级、万级、亿级。
+  - 表示物体个数的 1，2，3，…都是自然数；一个物体也没有，用 0 表示，0 也是自然数。最小的自然数是 0，没有最大的自然数，自然数的个数是无限的。
+- lesson_id: math-g4-t1-u01-l02
+  unit_id: unit-01
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 2
+  lesson_name: 亿以内数的读法
+  page_range: P5-P7
+  official_examples:
+  - 含有两级的数怎么读？1. 先读万级，再读个级。2. 万级的数，要按照个级的数的读法来读，再在后面加上一个「万」字。3. 每级末尾不管有几个 0，都不读，其他数位上有一个 0 或连续几个 0，都只读一个 0。
+  - 先分级，比较容易读。（如 32680 读作三万二千六百八十）
+  - 你知道吗：生活中我们有时会看到三位一分节的大数，这与一些国家以三位分级读数的方法有关。
+- lesson_id: math-g4-t1-u01-l03
+  unit_id: unit-01
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 3
+  lesson_name: 亿以内数的写法
+  page_range: P7-P9
+  official_examples:
+  - 含有两级的数怎么写？1. 先写万级，再写个级。2. 哪个数位上一个也没有，就在那个数位上写 0。
+  - 二十三万零一百八十四 写作：230184；十万二千三百四十五 写作：102345；三百零二万六千 写作：3026000；二千零四十万零七百 写作：20400700。
+- lesson_id: math-g4-t1-u01-l04
+  unit_id: unit-01
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 4
+  lesson_name: 练习一
+  page_range: P10-P11
+  official_examples:
+  - 写出横线上的数字表示的含义：32086 中「3」表示 3 个万；280064 表示 28 个万和 64 个一。
+  - 你能用不同的方式表示下面的数吗？440000=400000+40000，这个数由四十万和四万组成。
+- lesson_id: math-g4-t1-u01-l05
+  unit_id: unit-01
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 5
+  lesson_name: 亿以上数的认识与读写
+  page_range: P12-P14
+  official_examples:
+  - 10 个一亿是十亿，10 个十亿是一百亿，10 个一百亿是一千亿。
+  - 像这样每相邻两个计数单位之间的进率都是十的计数方法叫作十进制计数法。
+  - 全球人口约 8000000000 人（八十亿）。亿以上的数怎么读？先分级，再从最高级读起；读完亿级或万级的数，要加「亿」字或「万」字。
+  - 写出下面各数：三亿、三十亿九千万一千五百、七千零三亿零二十万。
+- lesson_id: math-g4-t1-u01-l06
+  unit_id: unit-01
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 6
+  lesson_name: 练习二
+  page_range: P15-P16
+  official_examples:
+  - 一个五位数，它的最高位是什么位？一个九位数呢？一个十二位数呢？
+  - 6154000000 是 61 个亿和 5400 个万。
+  - 写出下面算盘上表示的数。
+- lesson_id: math-g4-t1-u01-l07
+  unit_id: unit-01
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 7
+  lesson_name: 数的大小比较
+  page_range: P17
+  official_examples:
+  - 2021 年全国主要农产品的产量：稻谷 212842400 t，小麦 136944500 t，玉米 272550600 t，大豆 16395400 t。
+  - 位数多的数就大；位数相同的两个数，从最高位比起，最高位上的数大的那个数就大，如果最高位上的数相同，就比较下一个数位上的数。
+- lesson_id: math-g4-t1-u01-l08
+  unit_id: unit-01
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 8
+  lesson_name: 数的改写和求近似数
+  page_range: P18-P19
+  official_examples:
+  - 红细胞：25000000 个 = 2500 万个；白细胞：30000 个 = 3 万个；200000000 = 2 亿。
+  - 张阿姨说的 18 万步和李阿姨说的 22 万步是怎么得出的？182068≈18 万，218309≈22 万。
+  - 这种求近似数的方法叫「四舍五入」法：是「舍」还是「入」，要看省略的尾数部分的最高位上的数是小于 5 还是大于或等于 5。
+- lesson_id: math-g4-t1-u01-l09
+  unit_id: unit-01
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 9
+  lesson_name: 整理和复习
+  page_range: P20-P23
+  official_examples:
+  - 知识结构图：计数单位 / 数位 / 数级 / 十进制计数法 → 数的读、写 → 数的大小比较 → 数的改写（以「万」「亿」为单位）→ 求近似数（四舍五入法）。
+  - 每级末尾的 0 都不读，其他数位上有一个 0 或连续几个 0，都只读一个 0。

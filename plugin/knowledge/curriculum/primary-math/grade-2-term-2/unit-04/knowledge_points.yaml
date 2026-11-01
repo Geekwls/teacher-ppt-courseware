@@ -1,0 +1,88 @@
+unit_id: unit-04
+source_id: pep_math_g2_t2_2024
+points:
+- point_id: math-g2-t2-u04-p01
+  unit_id: unit-04
+  lesson_id: math-g2-t2-u04-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 万以内加减法的口算与估算
+  learning_objectives:
+  - 会口算整百数、整千数的加减法；会用估算判断结果是否合理
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P63
+    - P70
+    anchor_text: 单元起始页 P63 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 整百整千数加减口算
+    - 加减法的估算
+    scope_excluded:
+    - 笔算竖式（后续课时）
+    - 四则混合运算
+- point_id: math-g2-t2-u04-p02
+  unit_id: unit-04
+  lesson_id: math-g2-t2-u04-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 万以内加减法的笔算（进位与退位）
+  learning_objectives:
+  - 掌握万以内加减法竖式的书写格式与计算法则，会正确计算进位加法与退位减法
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P71
+    - P78
+    anchor_text: 单元起始页 P71 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 万以内进位加法竖式
+    - 万以内退位减法竖式
+    - 验算方法
+    scope_excluded:
+    - 多位数乘除法
+    - 小数加减法
+- point_id: math-g2-t2-u04-p03
+  unit_id: unit-04
+  lesson_id: math-g2-t2-u04-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 用万以内加减法解决实际问题
+  learning_objectives:
+  - 能分析实际问题中的数量关系，用万以内加减法（含两步）解决
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P79
+    - P82
+    anchor_text: 单元起始页 P79 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 求总数、求剩余、求相差数的实际问题
+    - 两步加减法问题
+    scope_excluded:
+    - 乘除法问题
+    - 三步问题

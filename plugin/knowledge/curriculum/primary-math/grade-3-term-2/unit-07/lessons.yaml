@@ -1,0 +1,46 @@
+lessons:
+  - lesson_id: "math-g3-t2-u07-l01"
+    unit_id: "unit-7"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 1
+    lesson_name: "第1课时 认识小数与小数的读写法"
+    page_range: "P86-P88"
+    official_examples:
+      - "例1：买文具标价牌。3.45元读作三点四五元，表示3元4角5分；0.85元读作零点八五元，表示8角5分。"
+      - "例2：把1米平均分成10份，每份是1分米，用分数表示是1/10米，用小数表示是0.1米；3分米是3/10米，也是0.3米。"
+
+  - lesson_id: "math-g3-t2-u07-l02"
+    unit_id: "unit-7"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 2
+    lesson_name: "第2课时 一位小数的大小比较"
+    page_range: "P89-P90"
+    official_examples:
+      - "例3：四名男生跳高成绩比较：0.8米、1.2米、1.1米、0.9米。先看整数部分，整数部分大的那个数就大；整数部分相同，再比较十分位上的数。1.2 > 1.1 > 0.9 > 0.8。"
+
+  - lesson_id: "math-g3-t2-u07-l03"
+    unit_id: "unit-7"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 3
+    lesson_name: "第3课时 简单的小数加、减法"
+    page_range: "P91-P92"
+    official_examples:
+      - "例4：买一个卷笔刀0.8元，一支铅笔0.6元，一共多少钱？0.8 + 0.6 = 1.4(元)。竖式计算：小数点对齐，8角+6角=14角=1元4角。"
+      - "例5：卷笔刀比铅笔贵多少钱？0.8 - 0.6 = 0.2(元)。退位减法：1.2 - 0.6 = 0.6(元)，整数部分退1作10。"
+
+  - lesson_id: "math-g3-t2-u07-l04"
+    unit_id: "unit-7"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 4
+    lesson_name: "第4课时 解决问题（买文具与小数综合应用）"
+    page_range: "P93-P94"
+    official_examples:
+      - "例6：小丽拿10元钱买了一盒画笔7.5元，还想买一本笔记本2.8元，钱够不够？（7.5+2.8=10.3元>10元，不够；或 10-7.5=2.5元<2.8元）。"

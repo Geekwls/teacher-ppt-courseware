@@ -1,0 +1,31 @@
+unit_id: unit-06
+source_id: pep_math_g6_t1_2024
+points:
+- point_id: math-g6-t1-u06-p01
+  unit_id: unit-06
+  lesson_id: math-g6-t1-u06-l01
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 从体育情境中提出并解决数学问题
+  learning_objectives:
+  - 能结合体育情境提出数学问题，并选择合适的方法解决
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P74
+    - P75
+    anchor_text: 单元起始页 P74 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 400 m 跑起跑线的设计
+    - 比赛分组与赛制安排
+    scope_excluded:
+    - 体育统计学
+    - 赛制设计的组合数学

@@ -1,0 +1,47 @@
+lessons:
+- lesson_id: math-g6-t1-u04-l01
+  unit_id: unit-04
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 1
+  lesson_name: 寻找负数
+  page_range: P44
+  official_examples:
+  - 北京 −4℃~0℃；吐鲁番盆地最低点的海拔是 −154.31 m；海平面为分界。
+  - 在生活中找一些这样的数，了解它们的含义。
+- lesson_id: math-g6-t1-u04-l02
+  unit_id: unit-04
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 2
+  lesson_name: 认识负数
+  page_range: P45
+  official_examples:
+  - 一个数前面有「−」和没有「−」，表示了相反的含义。
+  - 以 0℃ 为分界线，分为零上温度和零下温度，−10℃ 表示零下 10℃。
+  - 我们以前学过的数，如 6、4.7、…是正数；−6、−4.7、…是负数。正数和负数可以用来表示相反意义的量。
+  - 负数应该标在 0 的左边。0 是正数还是负数呢？（0 既不是正数，也不是负数。）
+- lesson_id: math-g6-t1-u04-l03
+  unit_id: unit-04
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 3
+  lesson_name: 应用负数
+  page_range: P46
+  official_examples:
+  - 春节期间收支记录：父母工资 +9500、给老人 −2000、压岁钱 −200、买年货 −500。正数表示收入，负数表示支出。
+  - 在一些体育运动中，有时会用负数记录成绩（如坐位体前屈）。
+- lesson_id: math-g6-t1-u04-l04
+  unit_id: unit-04
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 4
+  lesson_name: 小讲堂：负数的历史
+  page_range: P47
+  official_examples:
+  - 我国从很早开始就使用负数了。数学家刘徽给出了用算筹区分正、负数的方法——「正算赤、负算黑」，用红色算筹表示正数，用黑色算筹表示负数。
+  - 有了负数，小的数减大的数的结果就可以表示出来，例如 8−10=−2，20−30=−10。

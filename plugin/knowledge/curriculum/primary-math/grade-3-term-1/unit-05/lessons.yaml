@@ -1,0 +1,77 @@
+unit_id: "unit-5"
+source_id: "pep_math_g3_t1_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "线段、射线、直线"
+    page_range: "P61-P62"
+    official_examples:
+      - example_id: "ex_1"
+        title: "认识线段、射线和直线"
+        page: 61
+        formula_or_context: "线段有两个端点，可记作线段AB；射线只有一个端点，向一端无限延伸，可记作射线AB；直线没有端点，向两端无限延伸，可记作直线AB或直线l"
+        core_concept: "一根拉紧的线、绷紧的弦都可以看作线段；把线段向一端无限延伸得到射线，向两端无限延伸得到直线。"
+      - example_id: "ex_2"
+        title: "小明上学走哪条路最近"
+        page: 62
+        formula_or_context: "两点间所有连线中线段最短，这条线段的长度叫作两点间的距离"
+        core_concept: "通过比较几条连线发现「两点间线段最短」，从而认识两点间的距离。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "比较线段的长短"
+    page_range: "P63-P65"
+    official_examples:
+      - example_id: "ex_3"
+        title: "比较线段AB和线段CD的长短"
+        page: 63
+        formula_or_context: "用尺子量出长度再比较；或用圆规，使点A与点C重合，比较B与D的位置，得 AB<CD"
+        core_concept: "比较线段长短既可以用尺子量，也可以用圆规「移」出等长线段再比较；用圆规可以把一条线段移到另一处作等长线段。"
+      - example_id: "ex_4"
+        title: "在直线l上用圆规作线段BC=AB"
+        page: 64
+        formula_or_context: "在直线l上画长为3厘米的线段AB，再用圆规作线段BC，使 BC=AB"
+        core_concept: "借助圆规可以在直线上截取与已知线段相等的线段，为后续学习作准备。"
+
+  - lesson_id: "lesson-03"
+    lesson_number: 3
+    lesson_name: "角的认识与直角"
+    page_range: "P66-P67"
+    official_examples:
+      - example_id: "ex_5"
+        title: "认识角"
+        page: 66
+        formula_or_context: "从一个点引出两条射线得到的图形是角；这个点是角的顶点，两条射线是角的两条边；可记作 ∠1"
+        core_concept: "角由一个顶点和两条边组成；用符号「∠」表示角；打开折扇时张口越大角越大。"
+      - example_id: "ex_6"
+        title: "认识直角"
+        page: 67
+        formula_or_context: "用三角尺上的直角比一比；用纸折直角；用三角尺画直角"
+        core_concept: "三角尺上有一个角是直角；判断一个角是不是直角，可以用三角尺上的直角去比一比。"
+
+  - lesson_id: "lesson-04"
+    lesson_number: 4
+    lesson_name: "锐角、直角和钝角"
+    page_range: "P68-P70"
+    official_examples:
+      - example_id: "ex_7"
+        title: "在红领巾、中队旗上找角"
+        page: 68
+        formula_or_context: "比直角小的角是锐角，比直角大的角是钝角"
+        core_concept: "以直角为标准对角进行分类：锐角比直角小，钝角比直角大；用三角尺上的直角比一比即可判断。"
+      - example_id: "ex_8"
+        title: "生活中的数学·七巧板与剪角"
+        page: 70
+        formula_or_context: "正方形纸剪去一个角，还剩几个角（有多种剪法）"
+        core_concept: "综合运用角的分类知识，在动手操作与开放性问题中体会角的变化，发展空间观念。"
+
+  - lesson_id: "lesson-05"
+    lesson_number: 5
+    lesson_name: "整理和复习"
+    page_range: "P71-P72"
+    official_examples:
+      - example_id: "ex_9"
+        title: "整理「线和角」知识结构图"
+        page: 71
+        formula_or_context: "线：直线（无端点）／线段（两个端点、可度量）／射线（一个端点）；角：锐角／直角／钝角"
+        core_concept: "用知识结构图梳理本单元内容，沟通线段、射线、直线以及锐角、直角、钝角之间的联系。"

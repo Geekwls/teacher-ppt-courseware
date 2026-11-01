@@ -1,0 +1,59 @@
+unit_id: unit-08
+source_id: pep_chinese_g2_t1_2024
+points:
+- point_id: chi-g2-t1-u08-p01
+  unit_id: unit-08
+  lesson_id: chi-g2-t1-u08-l01
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《称赞》与《纸船和风筝》
+  learning_objectives:
+  - 能朗读两篇课文，能说出称赞带来的变化、小熊和小松鼠怎样和好
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P95
+    - P98
+    anchor_text: 单元起始页 P95 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《称赞》中小獾因得到称赞而做出板凳
+    - 《纸船和风筝》中松鼠与小熊用纸船和风筝和好
+    scope_excluded:
+    - 人际交往心理学的系统讲解
+    - 写话
+- point_id: chi-g2-t1-u08-p02
+  unit_id: unit-08
+  lesson_id: chi-g2-t1-u08-l01
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《快乐的小河》与语文园地八
+  learning_objectives:
+  - 能朗读《快乐的小河》，能完成语文园地八的积累与运用
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P101
+    - P104
+    anchor_text: 单元起始页 P101 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《快乐的小河》中帮助他人的快乐
+    - 语文园地八的识字与积累
+    scope_excluded:
+    - 生态学知识的系统讲解
+    - 写话

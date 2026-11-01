@@ -1,0 +1,166 @@
+unit_id: unit-03
+source_id: pep_math_g4_t1_2024
+points:
+- point_id: math-g4-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: math-g4-t1-u03-l01
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 从旋转的角度认识角（平角、周角）
+  learning_objectives:
+  - 能说出「角可以看作由一条射线绕它的端点旋转所形成的图形」
+  - 能指出平角与周角分别对应旋转半周与旋转一周
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P28
+    anchor_text: P28「角的再认识」：「角可以看作由一条射线绕着它的端点，从一个位置旋转到另一个位置所形成的图形。」「一条射线绕它的端点旋转半周，形成平角；旋转一周，形成周角。」
+  teaching_boundary:
+    scope_allowed:
+    - 用旋转的语言描述角
+    - 辨认平角与周角
+    - 在图中指出角的顶点与两条边
+    scope_excluded:
+    - 旋转角与方向角的系统讲解
+    - 弧度制的引入
+- point_id: math-g4-t1-u03-p02
+  unit_id: unit-03
+  lesson_id: math-g4-t1-u03-l02
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 锐角、直角、钝角、平角、周角之间的关系
+  learning_objectives:
+  - 能按大小顺序排列五种角
+  - 能说出 1 周角 = 2 平角 = 4 直角
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P29
+    anchor_text: P29：「（1）比一比它们的大小：锐角 < 直角 < 钝角 < 平角 < 周角。（2）1 周角 =（2）平角 =（4）直角。」
+  teaching_boundary:
+    scope_allowed:
+    - 按大小排列五种角
+    - 完成 1 周角=2 平角=4 直角的换算
+    - 判断「两个锐角合起来是否一定大于直角」这类说法
+    scope_excluded:
+    - 角度制的历史来源考证
+    - 三角函数的系统讲解
+- point_id: math-g4-t1-u03-p03
+  unit_id: unit-03
+  lesson_id: math-g4-t1-u03-l03
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 角的度量单位「度」与量角器
+  learning_objectives:
+  - 能说出 1° 角的定义（把圆平均分成 360 份，其中 1 份所对的角）
+  - 能说出量角器的构造（半圆 180 等份、中心、0° 刻度线）
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P30
+    anchor_text: P30：「人们将圆平均分成 360 份，将其中 1 份所对的角作为度量角的单位，它的大小就是 1 度，记作 1°。」「1 周角 = 360°，1 平角 = 180°，1 直角 = 90°。」「量角器是把半圆分成 180 等份制成的。」
+  teaching_boundary:
+    scope_allowed:
+    - 说出 1° 角的定义
+    - 指出量角器的中心与 0° 刻度线
+    - 说出量角器为什么是把半圆分成 180 等份
+    scope_excluded:
+    - 角度制与弧度制的换算
+    - 圆周 360 等分的历史来源考证
+- point_id: math-g4-t1-u03-p04
+  unit_id: unit-03
+  lesson_id: math-g4-t1-u03-l04
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 量角的步骤
+  learning_objectives:
+  - 能按「中心对顶点、0° 线对一边、另一边读数」的步骤量出角的度数
+  - 能说出量角时内外圈刻度如何选择
+  applicable_question_types:
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P31
+    anchor_text: P31：「量角的步骤是：（1）把量角器的中心与角的顶点重合，0° 刻度线与角的一条边重合。（2）角的另一条边所对的量角器上的刻度，就是这个角的度数。」
+  teaching_boundary:
+    scope_allowed:
+    - 按步骤量出指定角的度数
+    - 说明内外圈刻度的选择依据
+    - 判断量角操作中哪一步出错
+    scope_excluded:
+    - 角度测量的误差分析
+    - 经纬仪等专业量角工具的原理
+- point_id: math-g4-t1-u03-p05
+  unit_id: unit-03
+  lesson_id: math-g4-t1-u03-l05
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 画指定度数的角
+  learning_objectives:
+  - 能按「画射线—点刻度—连线」的步骤画出指定度数的角
+  - 能画出开口方向不同的同度数角
+  applicable_question_types:
+  - fill_blank
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P32
+    anchor_text: P32：「画一个 60° 的角。画角的步骤是：（1）画一条射线，使量角器的中心和射线的端点重合，0° 刻度线和射线重合。（2）在量角器 60° 刻度线的地方点一个点。（3）以画出的射线的端点为端点，通过刚画的点，再画一条射线。」「你能画一个开口向左的 60° 的角吗？」
+  teaching_boundary:
+    scope_allowed:
+    - 按步骤画出指定度数的角
+    - 画出开口方向不同的同度数角
+    - 用一副三角尺拼出指定度数的角
+    scope_excluded:
+    - 尺规作图的系统讲解
+    - 角的等分与三等分问题
+- point_id: math-g4-t1-u03-p06
+  unit_id: unit-03
+  lesson_id: math-g4-t1-u03-l06
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 测量长度、面积、角的共性（度量的结构）
+  learning_objectives:
+  - 能说出测量长度、面积、角都是「看被测量的图形包含了多少个相应的度量单位」
+  - 能说出各自的度量单位（1 cm、1 cm²、1°）
+  applicable_question_types:
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P34
+    - P36
+    anchor_text: P34：「（1）线段的长度包含了（  ）个 1 cm，它的长度是（  ）；（2）长方形的面积包含了（  ）个 1 cm²，它的面积是（  ）；（3）角的大小包含了（  ）个 1°，它的度数是（  ）。我发现：测量长度、测量面积、测量角都是看被测量的图形包含了多少个相应的（度量单位）。」P36 整理和复习：度量单位、度量工具（量角器）、角的再认识、量角、画角的知识结构图。
+  teaching_boundary:
+    scope_allowed:
+    - 说出三类测量的共同点
+    - 说出各自的度量单位与度量工具
+    - 把角纳入「度量」的一般框架
+    scope_excluded:
+    - 量纲分析与单位制的系统讲解
+    - 测度论的公理化表述

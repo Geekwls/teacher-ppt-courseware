@@ -1,0 +1,59 @@
+unit_id: unit-03
+source_id: pep_chinese_g1_t2_2024
+points:
+- point_id: chi-g1-t2-u03-p01
+  unit_id: unit-03
+  lesson_id: chi-g1-t2-u03-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 《小公鸡和小鸭子》与《树和喜鹊》
+  learning_objectives:
+  - 能朗读两篇课文，能说出小公鸡和小鸭子互相帮助的事，体会树和喜鹊由孤单到快乐的变化
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P26
+    - P29
+    anchor_text: 单元起始页 P26 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 小公鸡和小鸭子互相帮助的具体情节
+    - 「孤单」与「快乐」的前后对比
+    scope_excluded:
+    - 童话体裁的文学分析
+    - 写话
+- point_id: chi-g1-t2-u03-p02
+  unit_id: unit-03
+  lesson_id: chi-g1-t2-u03-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 《怎么都快乐》与语文园地三
+  learning_objectives:
+  - 能朗读《怎么都快乐》，能完成语文园地三的识字与积累
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P31
+    - P34
+    anchor_text: 单元起始页 P31 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 一个人玩、两个人玩、许多人玩的快乐
+    - 语文园地三的识字加油站与日积月累
+    scope_excluded:
+    - 游戏的系统分类
+    - 写话

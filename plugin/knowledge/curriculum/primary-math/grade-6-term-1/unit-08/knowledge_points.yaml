@@ -1,0 +1,31 @@
+unit_id: unit-08
+source_id: pep_math_g6_t1_2024
+points:
+- point_id: math-g6-t1-u08-p01
+  unit_id: unit-08
+  lesson_id: math-g6-t1-u08-l01
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 用水数据的统计与分析
+  learning_objectives:
+  - 能收集、整理用水数据，能用百分数或统计图表分析数据并提出建议
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P101
+    - P103
+    anchor_text: 单元起始页 P101 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 用水量的统计
+    - 用百分数表示节水比例
+    scope_excluded:
+    - 水资源统计
+    - 数据可视化与决策

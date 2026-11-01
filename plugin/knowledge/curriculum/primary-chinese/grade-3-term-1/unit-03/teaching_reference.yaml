@@ -1,0 +1,82 @@
+unit_id: "unit-3"
+source_id: "pep_chinese_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《人教统编版小学语文三年级上册教师用书（教学参考）》
+  （255 页扫描件，OCR 解析目录页 P11–P13 与第三单元单元说明 P58–P59）核定。
+  第三单元位于教参 P58–P88：单元说明 P58、总也倒不了的老屋 P60、犟龟 P64、小狗学叫 P74、
+  口语交际（名字里的故事）P80、习作（续写故事）P82、语文园地三 P85。
+teaching_references:
+  - point_id: "chi-g3-t1-u03-p01"
+    ref_book: "人教版《教师教学用书》语文三年级上册第三单元"
+    ref_page: "P60-P79"
+    pedagogical_focus:
+      key_point: "在阅读中落实识字写字，注意形近字与易错笔画的辨析"
+      difficulty: "本单元生字随文出现，需结合语境识记，避免孤立机械抄写"
+      typical_misconceptions:
+        - error_pattern: "混淆形近字（如『朗/郎』『漂/飘』类部件）"
+          misconception_type: "形近部件混淆"
+        - error_pattern: "笔画增减导致错字"
+          misconception_type: "书写不规范"
+    variation_strategy:
+      - "看拼音写词语；形近字对比组词"
+      - "结合语境选字填空"
+
+  - point_id: "chi-g3-t1-u03-p02"
+    ref_book: "人教版《教师教学用书》语文三年级上册第三单元"
+    ref_page: "P58-P59"
+    pedagogical_focus:
+      key_point: "把无意识的阅读心理转变为有意识的预测策略，明确预测要有依据"
+      difficulty: "学生易随意猜测，或预测后不与原文比对、不反思"
+      typical_misconceptions:
+        - error_pattern: "脱离文本线索随意猜想，说不出预测依据"
+          misconception_type: "策略意识缺失"
+        - error_pattern: "预测与原文不同就认为『预测错了』，忽视预测的多样性"
+          misconception_type: "对预测策略理解偏差"
+    variation_strategy:
+      - "读题目、看插图后预测内容，并说明依据"
+      - "边读边预测并在旁批处写下自己的猜想"
+
+  - point_id: "chi-g3-t1-u03-p03"
+    ref_book: "人教版《教师教学用书》语文三年级上册第三单元"
+    ref_page: "P64-P79"
+    pedagogical_focus:
+      key_point: "在略读课文中迁移运用预测策略，边读边猜想故事发展"
+      difficulty: "学生易把预测变成复述，或只关注情节忽略依据"
+      typical_misconceptions:
+        - error_pattern: "预测时只给结论，不说明是根据什么线索得出的"
+          misconception_type: "依据意识薄弱"
+        - error_pattern: "把预测与概括主要内容混为一谈"
+          misconception_type: "概念混淆"
+    variation_strategy:
+      - "给故事片段续猜结局并说明理由"
+      - "对照原文验证预测，交流预测不同的原因"
+
+  - point_id: "chi-g3-t1-u03-p04"
+    ref_book: "人教版《教师教学用书》语文三年级上册第三单元"
+    ref_page: "P60-P79"
+    pedagogical_focus:
+      key_point: "梳理情节、把握角色形象，体会故事蕴含的道理"
+      difficulty: "学生易停留在情节复述，缺乏对角色品质的提炼"
+      typical_misconceptions:
+        - error_pattern: "能讲故事但说不出角色特点"
+          misconception_type: "概括提炼不足"
+        - error_pattern: "把角色品质与情节细节割裂"
+          misconception_type: "缺乏依据意识"
+    variation_strategy:
+      - "用关键词概括角色特点，并从文中找依据"
+      - "讨论故事给自己的启示"
+
+  - point_id: "chi-g3-t1-u03-p05"
+    ref_book: "人教版《教师教学用书》语文三年级上册第三单元"
+    ref_page: "P82-P84"
+    pedagogical_focus:
+      key_point: "根据图意或开头续写故事，做到情节合理、前后连贯"
+      difficulty: "学生续写易偏离前文、情节跳跃或结尾草率"
+      typical_misconceptions:
+        - error_pattern: "续写内容与开头或图意不符"
+          misconception_type: "未抓住已知信息"
+        - error_pattern: "故事没有结尾或虎头蛇尾"
+          misconception_type: "结构不完整"
+    variation_strategy:
+      - "根据给定开头续写，注意与前文衔接"
+      - "互评：情节是否合理、是否写完整"

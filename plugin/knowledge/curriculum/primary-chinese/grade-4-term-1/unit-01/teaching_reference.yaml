@@ -1,0 +1,74 @@
+unit_id: unit-01
+source_id: pep_chinese_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g4-t1-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《繁星》《观潮》为例，让学生把「读到的文字」转化为「看到的画面、听到的声音」，再把这种体验用语言表达出来
+    difficulty: 学生易只复述课文原句而不展开想象；易忽略听觉、嗅觉等其他感官
+    typical_misconceptions:
+    - error_pattern: 只复述原句未展开想象
+      misconception_type: 想象不充分
+    - error_pattern: 只写视觉忽略其他感官
+      misconception_type: 感官单一
+  variation_strategy:
+  - 读句子并写出想象到的画面
+  - 说说读某段话时仿佛看到了什么、听到了什么
+- point_id: chi-g4-t1-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《观潮》的时间顺序为线索，让学生画出「潮来前—潮来时—潮头过后」的结构图，再体会每个阶段景物的变化
+    difficulty: 学生易把「描写顺序」与「游览顺序」混淆；易把比喻句当成说明句
+    typical_misconceptions:
+    - error_pattern: 描写顺序判断错误
+      misconception_type: 顺序意识不足
+    - error_pattern: 把比喻句当成说明句
+      misconception_type: 修辞辨识错误
+  variation_strategy:
+  - 说出课文的描写顺序
+  - 找出并体会比喻句的表达效果
+- point_id: chi-g4-t1-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「人声鼎沸」「鸦雀无声」等词语按「声音大—声音小」分组，让学生在对比中理解词义，再在具体情境中选用
+    difficulty: 学生易把「鸦雀无声」与「悄无声息」混用；易只堆砌词语而不顾情境
+    typical_misconceptions:
+    - error_pattern: 近义词语混用
+      misconception_type: 词义辨析不清
+    - error_pattern: 堆砌词语不顾语境
+      misconception_type: 运用不当
+  variation_strategy:
+  - 选择恰当的词语填空
+  - 用给定的词语描绘一个景象
+- point_id: chi-g4-t1-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把两组意思相同、句式不同的句子并列，让学生比较「话题是否突出」「是否连贯」等差异，体会句式选择对表达效果的影响
+    difficulty: 学生易认为「意思相同就是完全一样」；易在改写时改变原意
+    typical_misconceptions:
+    - error_pattern: 认为句式不同意思也必然不同
+      misconception_type: 表达效果意识不足
+    - error_pattern: 改写句子时改变原意
+      misconception_type: 改写不准确
+  variation_strategy:
+  - 比较两句的表达效果
+  - 按要求改写句子并保持意思不变
+- point_id: chi-g4-t1-u01-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「推荐会」为真实任务，让学生明确「写给谁看、为什么推荐」，再用「一个理由一段」的结构把文章写清楚
+    difficulty: 学生易只写「这个地方很好玩」而说不出具体理由；易把所有理由挤在一段
+    typical_misconceptions:
+    - error_pattern: 推荐理由笼统不具体
+      misconception_type: 内容空泛
+    - error_pattern: 理由不分段、条理不清
+      misconception_type: 结构混乱
+  variation_strategy:
+  - 写一段推荐理由并说明特别之处
+  - 按多个理由分段写一篇推荐短文

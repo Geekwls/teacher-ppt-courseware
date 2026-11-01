@@ -1,0 +1,252 @@
+edition_lock:
+  textbook_name: 义务教育教科书 语文 二年级上册
+  publisher: 人民教育出版社
+  approval_year: 教育部2022课标2024/2026修订新版
+  grade: 2
+  term: term-1
+  unit_id: unit-04
+  unit_name: 第四单元 家乡风景名胜
+  page_range: P39-P53
+  verified: true
+lessons_map:
+- lesson_id: chi-g2-t1-u04-l01
+  title: 7 古诗二首
+  page: P39-P41
+  core_writing_chars:
+  - 依
+  - 尽
+  - 穷
+  - 层
+  - 照
+  - 炉
+  - 烟
+  - 川
+  - 直
+  - 银
+- lesson_id: chi-g2-t1-u04-l02
+  title: 8 黄山奇石
+  page: P42-P44
+  core_writing_chars:
+  - 仙
+  - 顶
+  - 巨
+  - 位
+  - 闪
+  - 狗
+  - 形
+  - 状
+- lesson_id: chi-g2-t1-u04-l03
+  title: 9 日月潭
+  page: P45-P46
+  core_writing_chars:
+  - 湖
+  - 区
+  - 胜
+  - 岛
+  - 弯
+  - 现
+  - 就
+  - 外
+- lesson_id: chi-g2-t1-u04-l04
+  title: 10 葡萄沟
+  page: P47-P49
+  core_writing_chars:
+  - 份
+  - 枝
+  - 客
+  - 城
+  - 市
+  - 孔
+  - 钉
+  - 味
+- lesson_id: chi-g2-t1-u04-l05
+  title: 语文园地四
+  page: P50-P53
+  core_writing_chars:
+  - 货
+  - 科
+official_vocab_table:
+- word: 白日
+  lesson: 7 古诗二首
+- word: 黄河
+  lesson: 7 古诗二首
+- word: 千里
+  lesson: 7 古诗二首
+- word: 一层
+  lesson: 7 古诗二首
+- word: 香炉
+  lesson: 7 古诗二首
+- word: 瀑布
+  lesson: 7 古诗二首
+- word: 飞流
+  lesson: 7 古诗二首
+- word: 银河
+  lesson: 7 古诗二首
+- word: 那些
+  lesson: 8 黄山奇石
+- word: 山顶
+  lesson: 8 黄山奇石
+- word: 山头
+  lesson: 8 黄山奇石
+- word: 云海
+  lesson: 8 黄山奇石
+- word: 仙人
+  lesson: 8 黄山奇石
+- word: 前方
+  lesson: 8 黄山奇石
+- word: 仙女
+  lesson: 8 黄山奇石
+- word: 山区
+  lesson: 9 日月潭
+- word: 群山
+  lesson: 9 日月潭
+- word: 树木
+  lesson: 9 日月潭
+- word: 灯光
+  lesson: 9 日月潭
+- word: 中午
+  lesson: 9 日月潭
+- word: 眼前
+  lesson: 9 日月潭
+- word: 细雨
+  lesson: 9 日月潭
+- word: 风光
+  lesson: 9 日月潭
+- word: 中外
+  lesson: 9 日月潭
+- word: 名胜古迹
+  lesson: 9 日月潭
+- word: 地方
+  lesson: 10 葡萄沟
+- word: 水果
+  lesson: 10 葡萄沟
+- word: 月份
+  lesson: 10 葡萄沟
+- word: 枝叶
+  lesson: 10 葡萄沟
+- word: 五光十色
+  lesson: 10 葡萄沟
+- word: 好客
+  lesson: 10 葡萄沟
+- word: 老乡
+  lesson: 10 葡萄沟
+- word: 城市
+  lesson: 10 葡萄沟
+- word: 空气
+  lesson: 10 葡萄沟
+- word: 水分
+  lesson: 10 葡萄沟
+- word: 这里
+  lesson: 10 葡萄沟
+- word: 味道
+  lesson: 10 葡萄沟
+- word: 生产
+  lesson: 10 葡萄沟
+- word: 百货
+  lesson: 语文园地四
+- word: 科技
+  lesson: 语文园地四
+- word: 风景
+  lesson: 语文园地四
+- word: 秀丽
+  lesson: 语文园地四
+three_tier_vocab:
+  lessons_desc: 《古诗二首》《黄山奇石》《日月潭》《葡萄沟》
+  tier_a_phrases:
+  - pinyin: nà xiē
+    word: 那些
+  - pinyin: shān dǐng
+    word: 山顶
+  - pinyin: shān tóu
+    word: 山头
+  - pinyin: yún hǎi
+    word: 云海
+  - pinyin: xiān rén
+    word: 仙人
+  - pinyin: qián fāng
+    word: 前方
+  - pinyin: xiān nǚ
+    word: 仙女
+  - pinyin: shān qū
+    word: 山区
+  - pinyin: qún shān
+    word: 群山
+  - pinyin: shù mù
+    word: 树木
+  - pinyin: dēng guāng
+    word: 灯光
+  - pinyin: zhōng wǔ
+    word: 中午
+  - pinyin: yǎn qián
+    word: 眼前
+  - pinyin: xì yǔ
+    word: 细雨
+  - pinyin: fēng guāng
+    word: 风光
+  - pinyin: zhōng wài
+    word: 中外
+  - pinyin: míng shèng gǔ jì
+    word: 名胜古迹
+  - pinyin: dì fang
+    word: 地方
+  - pinyin: shuǐ guǒ
+    word: 水果
+  - pinyin: yuè fèn
+    word: 月份
+  - pinyin: zhī yè
+    word: 枝叶
+  - pinyin: wǔ guāng shí sè
+    word: 五光十色
+  - pinyin: hào kè
+    word: 好客
+  - pinyin: lǎo xiāng
+    word: 老乡
+  - pinyin: chéng shì
+    word: 城市
+  - pinyin: kōng qì
+    word: 空气
+  - pinyin: shuǐ fèn
+    word: 水分
+  - pinyin: zhè lǐ
+    word: 这里
+  - pinyin: wèi dào
+    word: 味道
+  - pinyin: shēng chǎn
+    word: 生产
+  tier_b_pairs:
+  - char1: 顶
+    word1: 山顶
+    char2: 领
+    word2: 带领
+  - char1: 位
+    word1: 座位
+    char2: 拉
+    word2: 拉手
+  - char1: 坡
+    word1: 山坡
+    char2: 波
+    word2: 波浪
+  - char1: 客
+    word1: 客人
+    char2: 容
+    word2: 容易
+  tier_c_phrases:
+  - pinyin: pù bù
+    word: 瀑布
+  - pinyin: xiāng lú
+    word: 香炉
+  - pinyin: xiān táo
+    word: 仙桃
+  - pinyin: shén qí
+    word: 神奇
+  - pinyin: mì táo
+    word: 蜜桃
+  - pinyin: wēi wú ěr
+    word: 维吾尔
+  strokes_challenge:
+  - question_stem: “照”是上下结构，下面的偏旁是____________底（灬），表示与火有关。
+    answer_text: 四点
+  - question_stem: “区”是半包围结构，部首是“匚”（三框儿），最后一笔是：____________。
+    answer_text: 竖折
+  - question_stem: “迹”是半包围结构，偏旁是走之底（辶），书写规则是先____________后____________。
+    answer_text: 内（里）；外

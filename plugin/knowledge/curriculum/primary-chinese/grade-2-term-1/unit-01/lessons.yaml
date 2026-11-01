@@ -1,0 +1,134 @@
+lessons:
+- lesson_id: chi-g2-t1-u01-l01
+  unit_id: unit-01
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 1
+  lesson_name: 1 小蝌蚪找妈妈
+  page_range: P1-P4
+  core_writing_chars:
+  - 两
+  - 条
+  - 哪
+  - 宽
+  - 那
+  - 短
+  - 孩
+  - 成
+  core_vocab_words:
+  - 妈妈
+  - 他们
+  - 看见
+  - 我们
+  - 哪里
+  - 那边
+  - 雪白
+  - 过去
+  - 孩子
+  - 什么
+  official_examples:
+  - 池塘里有一群小蝌蚪，大大的脑袋，黑灰色的身子，甩着长长的尾巴，快活地游来游去。
+  - 披着碧绿的衣裳，露着雪白的肚皮，鼓着一对大眼睛。
+  - 不知什么时候，小青蛙的尾巴已经不见了。他们跟着妈妈，天天去捉害虫。
+- lesson_id: chi-g2-t1-u01-l02
+  unit_id: unit-01
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 2
+  lesson_name: 2 我是什么
+  page_range: P5-P7
+  core_writing_chars:
+  - 升
+  - 连
+  - 起
+  - 海
+  - 洋
+  - 许
+  - 作
+  - 法
+  core_vocab_words:
+  - 太阳
+  - 天空
+  - 一起
+  - 冬天
+  - 花朵
+  - 池子
+  - 江河
+  - 海洋
+  - 许多
+  - 田地
+  - 工作
+  - 办法
+  - 你们
+  official_examples:
+  - 我会变。太阳一晒，我就变成汽，升到天空。
+  - 平常我在池子里睡觉，在小溪里散步，在江河里奔跑，在海洋里跳舞，唱歌，开大会。
+  - 有时候我穿着白衣服，有时候我穿着黑衣服，早晨和傍晚我又把红袍披在身上。
+- lesson_id: chi-g2-t1-u01-l03
+  unit_id: unit-01
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 3
+  lesson_name: 3 植物妈妈有办法
+  page_range: P8-P10
+  core_writing_chars:
+  - 如
+  - 果
+  - 已
+  - 经
+  - 别
+  - 轻
+  - 发
+  - 胆
+  - 肚
+  - 识
+  core_vocab_words:
+  - 如果
+  - 已经
+  - 告别
+  - 四海为家
+  - 你们
+  - 胆子
+  - 肚子
+  - 那里
+  - 知识
+  - 出发
+  - 大家
+  official_examples:
+  - 孩子如果已经长大，就得告别妈妈，四海为家。
+  - 蒲公英妈妈准备了降落伞，把它送给自己的娃娃。只要有风轻轻吹过，孩子们就乘着风纷纷出发。
+- lesson_id: chi-g2-t1-u01-l04
+  unit_id: unit-01
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 4
+  lesson_name: 语文园地一
+  page_range: P11-P14
+  core_writing_chars:
+  - 转
+  - 夹
+  core_vocab_words:
+  - 晴朗
+  - 雷雨
+  - 闪电
+  - 冰雹
+  - 雪花
+  official_examples:
+  - 字词句运用：体会动词的不同（迎上去／追上去，穿衣裳／披红袍，甩甩头／摇摇头）。
+  - 日积月累：《梅花》[宋]王安石：墙角数枝梅，凌寒独自开。遥知不是雪，为有暗香来。
+- lesson_id: chi-g2-t1-u01-l05
+  unit_id: unit-01
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 5
+  lesson_name: 快乐读书吧：读读童话故事
+  page_range: P15
+  core_writing_chars: []
+  core_vocab_words: []
+  official_examples:
+  - 搭上童话王国的列车，看看那里发生了什么。看封面、找书名和作者。

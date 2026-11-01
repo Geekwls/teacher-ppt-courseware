@@ -1,0 +1,46 @@
+unit_id: unit-04
+source_id: pep_math_g1_t1_tr_2024
+ref_page_note: ''
+teaching_references:
+- point_id: math-g1-t1-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助小棒或十格图理解「凑十」的过程，由动作抽象到算式
+    difficulty: 只会背得数，不能说出凑十过程；或拆错数导致计算错误
+    typical_misconceptions:
+    - error_pattern: 计算 9+5 时把 5 拆成 2 和 3（应为 1 和 4）
+      misconception_type: 凑十分解错误
+    - error_pattern: 能算出得数但说不出先凑十再相加的过程
+      misconception_type: 算理表述缺失
+  variation_strategy:
+  - 用小棒演示 9+5 的凑十过程并说出步骤
+  - 看十格图写算式，说出「9 和 1 凑成 10」
+- point_id: math-g1-t1-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 通过多种练习形式提高口算熟练度，同时渗透「交换加数位置和不变」
+    difficulty: 计算速度慢且错误率高，仍依赖点数
+    typical_misconceptions:
+    - error_pattern: 9+7 算成 15（凑十后忘加余数）
+      misconception_type: 步骤遗漏
+    - error_pattern: 不知道 5+9 可以用 9+5 来算
+      misconception_type: 简算意识缺失
+  variation_strategy:
+  - 限时口算卡片练习
+  - 比较 5+9 与 9+5 的得数，说说发现了什么
+- point_id: math-g1-t1-u04-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 坚持「读—找—列—算—答」五步，强调口答与说理
+    difficulty: 只写算式不口答，或单位名称遗漏
+    typical_misconceptions:
+    - error_pattern: 列式后不写单位名称、不口答
+      misconception_type: 解题规范缺失
+    - error_pattern: 把「比…多」类问题也一律用加法
+      misconception_type: 数量关系误判
+  variation_strategy:
+  - 看图编题并解答，说出为什么用加法
+  - 对比「求一共」与「求还剩」的问题

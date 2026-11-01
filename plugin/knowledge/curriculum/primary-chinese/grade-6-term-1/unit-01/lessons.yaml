@@ -1,0 +1,46 @@
+lessons:
+- lesson_id: chi-g6-t1-u01-l01
+  unit_id: unit-01
+  subject: chinese
+  grade: 6
+  term: term-1
+  lesson_number: 1
+  lesson_name: 1 草原
+  page_range: P2-P4
+  official_examples:
+  - 作者老舍。「这次，我看到了草原。那里的天比别处的更可爱，空气是那么清鲜，天空是那么明朗，使我总想高歌一曲，表示我满心的愉快。在天底下，一碧千里，而并不茫茫。」
+  - 课后题：朗读课文，想象草原迷人的景色；「读下面的句子，体会在景物中融入感受的写法」「那些小丘的线条是那么柔美，就像只用绿色渲染，不用墨线勾勒的中国画那样」。
+- lesson_id: chi-g6-t1-u01-l02
+  unit_id: unit-01
+  subject: chinese
+  grade: 6
+  term: term-1
+  lesson_number: 2
+  lesson_name: 2 丁香结
+  page_range: P5-P7
+  official_examples:
+  - 作者宗璞。「丁香结，这三个字给人许多想象。再联想到那些诗句，真觉得它们负担着解不开的愁怨了。」
+  - 阅读链接：《花之歌》（纪伯伦）「我是大自然的话语，大自然说出来，又收回去，藏在心间，然后又说一遍……」
+- lesson_id: chi-g6-t1-u01-l03
+  unit_id: unit-01
+  subject: chinese
+  grade: 6
+  term: term-1
+  lesson_number: 3
+  lesson_name: 3 古诗词三首
+  page_range: P8-P9
+  official_examples:
+  - 《宿建德江》[唐]孟浩然：移舟泊烟渚，日暮客愁新。野旷天低树，江清月近人。
+  - 《六月二十七日望湖楼醉书》[宋]苏轼：黑云翻墨未遮山，白雨跳珠乱入船。
+  - 《西江月·夜行黄沙道中》[宋]辛弃疾。课后题：背诵课文，默写《六月二十七日望湖楼醉书》《西江月·夜行黄沙道中》；《宿建德江》《西江月·夜行黄沙道中》都写了月夜的景色，表达的情感却不一样，结合诗句说一说。
+- lesson_id: chi-g6-t1-u01-l04
+  unit_id: unit-01
+  subject: chinese
+  grade: 6
+  term: term-1
+  lesson_number: 4
+  lesson_name: 习作·语文园地
+  page_range: P10-P12
+  official_examples:
+  - 习作《变形记》：「你可以变得很小，如一只蚂蚁，一棵草，一粒石子；也可以变得很大，如一头大象，一辆汽车，甚至是一个……」
+  - 语文园地一：朗读自然诗文；「阅读的时候想开去，可以深化对文章内容的理解」；路牌上的拼音拼写；日积月累《江畔独步寻花》。

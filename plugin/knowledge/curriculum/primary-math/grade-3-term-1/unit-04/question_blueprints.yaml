@@ -1,0 +1,92 @@
+unit_id: "unit-4"
+blueprints:
+  - blueprint_id: "bp-math-g3-t1-u04-standard"
+    title: "第四单元多位数乘一位数标准练习卷蓝图"
+    target_practice: "单元综合巩固与能力提升练习"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础计算（32分，基础60%的主力）
+      - slot_id: "slot-01"
+        section: "一、神机妙算口算堂"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 1
+        item_count: 8
+        target_points: ["math-g3-t1-u04-p01", "math-g3-t1-u04-p02", "math-g3-t1-u04-p06"]
+        guidelines: "整十整百数乘一位数4题、两位数乘一位数不进位口算3题、0的乘法1题。"
+
+      - slot_id: "slot-02"
+        section: "二、竖式计算规范展"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 6
+        item_count: 4
+        target_points: ["math-g3-t1-u04-p03", "math-g3-t1-u04-p04", "math-g3-t1-u04-p07", "math-g3-t1-u04-p08"]
+        guidelines: "1题不进位、1题一次或连续进位、1题中间有0、1题末尾有0。要求书写整洁对齐。"
+
+      # 二、精挑细选（针对典型错因生成干扰项，变式30%部分）
+      - slot_id: "slot-03"
+        section: "三、用心思考精挑选"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t1-u04-p04", "math-g3-t1-u04-p06", "math-g3-t1-u04-p07", "math-g3-t1-u04-p08", "math-g3-t1-u04-p09"]
+        distractor_policy:
+          item_1_zero_multiplication:
+            correct: "0和任何数相乘都得0"
+            distractor_1: "0和任何数相加都得0（混淆加乘）"
+            distractor_2: "0和任何数相乘都得任何数"
+            distractor_3: "无法计算"
+          item_2_middle_zero:
+            context: "604 × 8 的计算结果（课本 P50 例题）"
+            correct: "4832"
+            distractor_1: "4802（典型错因：十位 0×8 漏加个位进位数 3）"
+            distractor_2: "432（典型错因：十位 0 直接遗漏不乘，位数缩短）"
+            distractor_3: "4842（进位处理错误）"
+          item_3_end_zeros_count:
+            context: "250 × 4 的积末尾有几个0"
+            correct: "3个（25×4=100自身2个加末尾1个）"
+            distractor_1: "2个（典型错因：以为因数有1个0积多1个）"
+            distractor_2: "1个（典型错因：只看因数末尾）"
+            distractor_3: "4个"
+          item_4_carry_error:
+            context: "计算 28 × 3 时，十位上的计算过程是"
+            correct: "2×3=6，6+2=8"
+            distractor_1: "2×3=6（漏加进位数2）"
+            distractor_2: "2+2=4，4×3=12（先加后乘错序）"
+            distractor_3: "8×3=24"
+          item_5_estimation_tickets:
+            context: "电影票每张28元，买6张带180元够不够"
+            correct: "够，因为 28<30，30×6=180，实际花费小于180元"
+            distractor_1: "不够，因为 28×6=168"
+            distractor_2: "无法确定"
+            distractor_3: "正好花完"
+
+      # 三、概念辨析与填空（35分）
+      - slot_id: "slot-04"
+        section: "四、知识积累填空窗"
+        question_type: "fill_blank"
+        difficulty: "variation"
+        points_per_item: 3
+        item_count: 5
+        target_points: ["math-g3-t1-u04-p02", "math-g3-t1-u04-p05", "math-g3-t1-u04-p07", "math-g3-t1-u04-p08"]
+        guidelines: "口算拆分算理填空1题、乘法积末尾0个数填空1题、连续进位四位数极值填空1题、中间有0乘积比较1题。"
+
+      # 四、思维挑战与解决问题（33分，含10%高阶思维）
+      - slot_id: "slot-05"
+        section: "五、走进生活解决问题"
+        question_type: "word_problem"
+        difficulty: "challenge"
+        points_per_item: 11
+        item_count: 3
+        target_points: ["math-g3-t1-u04-p05", "math-g3-t1-u04-p07", "math-g3-t1-u04-p09"]
+        guidelines: >
+          第1题（常规综合应用）：学校阅览室买书或文具套装，计算多件总价。
+          第2题（实际估算与决策分析）：研学旅行租车或买门票，根据“往大估”判断准备金是否充裕。
+          第3题（思维拓展高阶数字谜/极值题）：用数字卡片 2, 4, 6, 8 组成一道三位数乘一位数的算式，积最大是多少？积最小是多少？要求写出推理过程。

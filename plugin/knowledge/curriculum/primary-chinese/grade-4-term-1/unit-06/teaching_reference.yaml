@@ -1,0 +1,32 @@
+unit_id: unit-06
+source_id: pep_chinese_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g4-t1-u06-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《颐和园》的游览路线为线索，让学生画出「移步换景」的结构图
+    difficulty: 学生易把游览顺序写成时间顺序
+    typical_misconceptions:
+    - error_pattern: 游览顺序与时间顺序混淆
+      misconception_type: 顺序判断错误
+    - error_pattern: 景物特点不突出
+      misconception_type: 描写笼统
+  variation_strategy:
+  - 按游览顺序写一处景物
+  - 找出并说出景物的特点
+- point_id: chi-g4-t1-u06-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「小小讲解员」的任务情境，让学生学习介绍一处世界文化遗产
+    difficulty: 学生易堆砌资料而没有自己的观察与感受
+    typical_misconceptions:
+    - error_pattern: 堆砌资料
+      misconception_type: 缺少个人观察
+    - error_pattern: 介绍顺序混乱
+      misconception_type: 条理不清
+  variation_strategy:
+  - 介绍一处世界文化遗产
+  - 按一定顺序组织介绍材料

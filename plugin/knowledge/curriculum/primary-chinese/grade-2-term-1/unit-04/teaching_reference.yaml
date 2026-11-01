@@ -1,0 +1,32 @@
+unit_id: unit-04
+source_id: pep_chinese_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t1-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「登高望远」与「瀑布飞泻」的画面帮助学生理解诗句，体会夸张与对偶的表达效果
+    difficulty: 学生易把两首诗的作者（王之涣、李白）与内容张冠李戴
+    typical_misconceptions:
+    - error_pattern: 把两首诗的内容记混
+      misconception_type: 两首诗混淆
+    - error_pattern: 说不出「疑是银河落九天」的意思
+      misconception_type: 诗句理解不到位
+  variation_strategy:
+  - 配画朗读并背诵两首诗
+  - 说出诗中描写的景物与感受
+- point_id: chi-g2-t1-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「景物的特点」为阅读线索，把「奇石像什么」「潭像什么」的比喻与具体画面绑定
+    difficulty: 学生易把黄山奇石的名称与它的样子对应错
+    typical_misconceptions:
+    - error_pattern: 把奇石名称与样子对应错
+      misconception_type: 内容对应错误
+    - error_pattern: 说不出日月潭名称的由来
+      misconception_type: 课文内容理解不到位
+  variation_strategy:
+  - 连一连：奇石名称与它的样子
+  - 当小导游介绍一处景物

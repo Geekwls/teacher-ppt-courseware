@@ -1,0 +1,84 @@
+unit_id: unit-04
+source_id: pep_math_g1_t1_2024
+points:
+- point_id: math-g1-t1-u04-p01
+  unit_id: unit-04
+  lesson_id: math-g1-t1-u04-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 凑十法：20 以内进位加法的算理
+  learning_objectives:
+  - 理解「凑十法」的道理：把较小的加数分成两部分，先凑成 10 再加剩下的
+  - 能用凑十法计算 9 加几、8 加几、7 加几、6 加几
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P73
+    - P87
+    anchor_text: 单元起始页 P73 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 用凑十法计算 20 以内进位加法
+    - 说出「拆小数、凑大数」的过程
+    scope_excluded:
+    - 退位减法
+    - 两位数加两位数
+- point_id: math-g1-t1-u04-p02
+  unit_id: unit-04
+  lesson_id: math-g1-t1-u04-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 20 以内进位加法的口算熟练
+  learning_objectives:
+  - 能正确、比较熟练地口算 20 以内的进位加法
+  - 发现并运用加法交换律（如 5+9 与 9+5 得数相同）简化计算
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P73
+    - P87
+    anchor_text: 单元起始页 P73 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 20 以内进位加法口算
+    - 用交换加数位置的方法简化计算
+    scope_excluded:
+    - 退位减法
+    - 连加
+- point_id: math-g1-t1-u04-p03
+  unit_id: unit-04
+  lesson_id: math-g1-t1-u04-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 用 20 以内进位加法解决实际问题
+  learning_objectives:
+  - 能在情境中识别「求一共」的数量关系，用进位加法解决
+  - 能说清列式理由，会口答结果
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P73
+    - P87
+    anchor_text: 单元起始页 P73 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 用进位加法解决「求一共」类实际问题
+    - 看图说意并列式口答
+    scope_excluded:
+    - 求相差数
+    - 两步问题

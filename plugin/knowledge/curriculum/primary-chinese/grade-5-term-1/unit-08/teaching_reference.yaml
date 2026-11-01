@@ -1,0 +1,32 @@
+unit_id: unit-08
+source_id: pep_chinese_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g5-t1-u08-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《忆读书》为例，让学生按时间线梳理作者的读书经历
+    difficulty: 学生易罗列信息而不做归类
+    typical_misconceptions:
+    - error_pattern: 罗列信息不做归类
+      misconception_type: 梳理不深入
+    - error_pattern: 遗漏要点
+      misconception_type: 信息不完整
+  variation_strategy:
+  - 按要求梳理信息并把握要点
+  - 用自己的话说出作者的观点
+- point_id: chi-g5-t1-u08-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「推荐一本书」为题，学习分条陈述推荐理由
+    difficulty: 学生易只写「这本书很好看」而说不出理由
+    typical_misconceptions:
+    - error_pattern: 推荐理由笼统
+      misconception_type: 内容不具体
+    - error_pattern: 理由不分条
+      misconception_type: 条理不清
+  variation_strategy:
+  - 分条写出推荐一本书的理由
+  - 推荐一本书并突出重点

@@ -1,0 +1,88 @@
+unit_id: unit-04
+source_id: pep_math_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g4-t1-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把口算建立在「拆分—分别乘—相加」的结构上，并用「先算 12×2，再在积的末尾添一个 0」解释整十数的口算道理
+    difficulty: 学生易在整十数口算时多添或少添 0；易把 160×3 算成 4800
+    typical_misconceptions:
+    - error_pattern: 整十数口算时 0 的个数添错
+      misconception_type: 位值意义未理解
+    - error_pattern: 把 12×20 算成 24 而漏添 0
+      misconception_type: 末尾 0 处理错误
+  variation_strategy:
+  - 口算 14×4、140×4、14×40
+  - 说出 12×20 是怎样口算的
+- point_id: math-g4-t1-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把笔算拆成两次「乘一位数」，用「13 是由 1 个十和 3 个一组成的」解释为什么第二次积要与十位对齐
+    difficulty: 学生易把第二次积的末位与个位对齐（漏写末尾的 0 又未左移一位）；易在进位处出错
+    typical_misconceptions:
+    - error_pattern: 第二次积未与十位对齐
+      misconception_type: 对位规则未掌握
+    - error_pattern: 连续进位时漏加进位数
+      misconception_type: 进位处理错误
+  variation_strategy:
+  - 列竖式计算 12×44、32×13、221×23
+  - 说出竖式中第二步积为什么末尾要与十位对齐
+- point_id: math-g4-t1-u04-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「末尾有 0」的乘法化归为「0 前面的数相乘 + 末尾补 0」，并用位值意义说明为什么可以这样简算
+    difficulty: 学生易把「160×60」算成 960 或 9600（末尾 0 的个数错）；易在因数中间有 0 时漏乘（如 106×3 只算 16×3）
+    typical_misconceptions:
+    - error_pattern: 末尾 0 的个数添错
+      misconception_type: 位值意义未理解
+    - error_pattern: 因数中间的 0 漏乘
+      misconception_type: 中间 0 的处理错误
+  variation_strategy:
+  - 用简便方法计算 160×60、305×60
+  - 说出 106×63 的竖式计算过程
+- point_id: math-g4-t1-u04-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 用两组对比算式（乘数乘 10、除以 2）让学生自己发现规律，再把规律用于「先算出第 1 题的积，再写出下面两题的得数」的快速计算
+    difficulty: 学生易把「积也乘几」说成「积加几」；易忽略「0 除外」的条件
+    typical_misconceptions:
+    - error_pattern: 把「积乘几」说成「积加几」
+      misconception_type: 规律表述错误
+    - error_pattern: 忽略除数不能为 0 的条件
+      misconception_type: 条件遗漏
+  variation_strategy:
+  - 根据 32×15=480 直接写出 64×15、32×30、16×15 的得数
+  - 用一句话说出你发现的规律
+- point_id: math-g4-t1-u04-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「先算三题、发现规律、直接写第四题、再用计算器检验」为固定流程，让学生体验「观察—猜想—验证」的过程
+    difficulty: 学生易只凭表面数字写结果而在位数上出错（如把 111111×111111 写成 12345654321）；易把「规律」当成「巧合」
+    typical_misconceptions:
+    - error_pattern: 后续结果位数写错
+      misconception_type: 位数规律未掌握
+    - error_pattern: 说不出规律成立的原因
+      misconception_type: 推理意识不足
+  variation_strategy:
+  - 用计算器算前三题并写出第四题的得数
+  - 试着用竖式说明 11×11=121 的道理
+- point_id: math-g4-t1-u04-p06
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「判断够不够」转化为「估一个更容易算的上界或下界」，通过「估大都够就一定够」的逻辑帮助学生理解估算的方向选择
+    difficulty: 学生易不分情况一律「四舍五入」估算，导致「够不够」的判断失效；易把估算结果当作准确结果使用
+    typical_misconceptions:
+    - error_pattern: 估算方向选择错误
+      misconception_type: 估大估小未区分
+    - error_pattern: 用估算结果直接作答而不作判断
+      misconception_type: 估算用途混淆
+  variation_strategy:
+  - 用估算判断 19 辆车能否坐下 1026 名师生
+  - 说一说什么时候该往大估、什么时候该往小估

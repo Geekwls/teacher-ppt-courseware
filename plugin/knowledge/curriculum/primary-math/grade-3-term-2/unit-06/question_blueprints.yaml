@@ -1,0 +1,68 @@
+unit_id: "unit-6"
+blueprints:
+  - blueprint_id: "bp-math-g3-t2-u06-standard"
+    title: "第六单元年月日综合与实践标准练习卷蓝图"
+    target_practice: "时间单位认知、平闰年判断与经过时间计算应用"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础题（共 60 分）
+      - slot_id: "slot-01"
+        section: "一、认真审题填一填（大月小月与计时法互化）"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 8
+        target_points: ["math-g3-t2-u06-p01", "math-g3-t2-u06-p03"]
+        guidelines: "一年有(12)个月，大月有(7)个，小月有(4)个；下午3时是(15:00)；20:30是晚上(8时30分)；平年全年(365)天，闰年(366)天。"
+
+      - slot_id: "slot-02"
+        section: "二、精心挑选精判断（平年闰年与特殊日期辨析）"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t2-u06-p01", "math-g3-t2-u06-p02"]
+        guidelines: "1900年是平年；2024年是闰年；小红2月29日出生四年过一次生日；连续两个大月是7月和8月。"
+
+      - slot_id: "slot-03"
+        section: "三、动手计算（简单时间加减计算）"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 6
+        item_count: 4
+        target_points: ["math-g3-t2-u06-p04"]
+        guidelines: "经过时间计算：从 8:20 到 11:50（3小时30分）；从 14:30 到 16:15（1小时45分）等脱式或分步计算。"
+
+      # 二、变式题（共 30 分）
+      - slot_id: "slot-04"
+        section: "四、生活应用（列车时刻表与商场营业时间）"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 6
+        item_count: 3
+        target_points: ["math-g3-t2-u06-p03", "math-g3-t2-u06-p04"]
+        guidelines: "1. 高铁上午 9:25 开出，下午 2:10 到达，途中运行多长时间；2. 超市 8:30-21:30 营业，一天营业多长时间；3. 电影 19:40 开始，片长105分钟，何时结束。"
+
+      - slot_id: "slot-05"
+        section: "五、季度与天数综合探究（日历探秘）"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 6
+        item_count: 2
+        target_points: ["math-g3-t2-u06-p01", "math-g3-t2-u06-p02"]
+        guidelines: "1. 某年是闰年，求该年第一季度和上半年的总天数（31+29+31=91天，91+30+31+30=182天）；2. 儿童节到国庆节经过的天数。"
+
+      # 三、挑战题（共 10 分）
+      - slot_id: "slot-06"
+        section: "六、思维拓展（跨天经过时间与周期性推理）"
+        question_type: "word_problem"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["math-g3-t2-u06-p04"]
+        guidelines: "夜班火车晚上 21:45 开车，次日清晨 6:20 到达，分段计算经过时间（当天晚上 24:00-21:45=2小时15分，次日 6小时20分，合计 8小时35分）。"

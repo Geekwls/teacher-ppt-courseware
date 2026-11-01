@@ -1,0 +1,18 @@
+unit_id: unit-07
+source_id: pep_math_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g4-t1-u07-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「1 格表示 1 个单位不够画时怎么办」引出「1 格表示多个单位」的必要性
+    difficulty: 学生易在「1 格表示 2 个单位」的图上把直条高度直接当数量读
+    typical_misconceptions:
+    - error_pattern: 把直条高度直接当数量读
+      misconception_type: 单位量未换算
+    - error_pattern: 画图时直条高度与数据不对应
+      misconception_type: 刻度读取错误
+  variation_strategy:
+  - 读条形统计图并回答「最多」「最少」
+  - 根据统计表补全条形统计图

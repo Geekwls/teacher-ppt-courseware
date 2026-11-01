@@ -1,0 +1,102 @@
+unit_id: unit-02
+source_id: pep_math_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g5-t1-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「9.5 元=9 元 5 角」的生活经验把小数乘整数还原为「元、角分别乘」的加法，再用「乘数和积的变化规律」把方法一般化
+    difficulty: 学生易把积的小数点位置点错（如把 9.5×3 算成 2.85）；易在积的末尾多保留 0
+    typical_misconceptions:
+    - error_pattern: 积的小数点位置错误
+      misconception_type: 算理理解不深
+    - error_pattern: 积末尾的 0 未去掉
+      misconception_type: 小数性质运用不熟
+  variation_strategy:
+  - 计算小数乘整数并说明算理
+  - 根据乘数和积的变化规律填空
+- point_id: math-g5-t1-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「长×宽求面积」这一真实模型给出小数乘小数，再用两个乘数分别扩大相同倍数的操作，让学生理解小数点位置由「乘数小数位数之和」决定
+    difficulty: 学生易把两个乘数的小数位数相加记成相减；易在积的小数位数不够时忘记用 0 补足
+    typical_misconceptions:
+    - error_pattern: 小数点位置按「位数差」确定
+      misconception_type: 算理混淆
+    - error_pattern: 积的小数位数不够时未补 0
+      misconception_type: 操作遗漏
+  variation_strategy:
+  - 计算小数乘小数并给积点上小数点
+  - 判断下面各题积的小数位数是否正确
+- point_id: math-g5-t1-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「细胞个数」这一不便精确表述的量，引出「按需要保留小数位数」的必要性
+    difficulty: 学生易在连续四舍五入时出错；易把「保留一位小数」与「精确到十分位」混淆
+    typical_misconceptions:
+    - error_pattern: 四舍五入看错数位
+      misconception_type: 规则运用错误
+    - error_pattern: 把「保留一位小数」当成「保留一位有效数字」
+      misconception_type: 概念混淆
+  variation_strategy:
+  - 求积的近似数（保留一位、两位小数）
+  - 根据实际情境选择合适的近似程度
+- point_id: math-g5-t1-u02-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以线段图直观呈现「0.8 倍」「1.2 倍」，让学生从图中看出积的大小变化，再抽象为「乘数大于 1 / 小于 1」的判据
+    difficulty: 学生易忽略「0 除外」的前提；易把「乘小于 1 的数积变小」与「减一个数」混淆
+    typical_misconceptions:
+    - error_pattern: 忽略「0 除外」的前提
+      misconception_type: 前提条件缺失
+    - error_pattern: 把乘法当成减法判断
+      misconception_type: 运算意义混淆
+  variation_strategy:
+  - 在○里填比较符号
+  - 不计算判断积与原数的大小
+- point_id: math-g5-t1-u02-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 先让学生分别计算每组的两个算式并比较结果，从「结果相等」归纳出「运算律在小数乘法中仍然成立」，再反向用于简便计算
+    difficulty: 学生易在分配律中漏乘其中一项；易在结合律中改变运算顺序出错
+    typical_misconceptions:
+    - error_pattern: 分配律漏乘
+      misconception_type: 运算律运用不完整
+    - error_pattern: 简便计算时改变运算结果
+      misconception_type: 运算律误用
+  variation_strategy:
+  - 用运算律填空
+  - 用简便方法计算（如 101×0.45、4.75×99+4.75）
+- point_id: math-g5-t1-u02-p06
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「够不够」这一只需判断范围的问题，让学生体会「不必精确计算」的估算价值，并学会「估大压上界、估小压下界」的双向估计
+    difficulty: 学生易只做单向估算就下结论；易把估算结果当成精确结果
+    typical_misconceptions:
+    - error_pattern: 只做单向估算
+      misconception_type: 估计方法不完整
+    - error_pattern: 把估算结果当作精确值
+      misconception_type: 估算意义理解偏差
+  variation_strategy:
+  - 用估算判断钱够不够
+  - 说明「估大」「估小」各自的作用
+- point_id: math-g5-t1-u02-p07
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 用线段图把「3 km 以内」与「超过 3 km」两段显性化，让学生把文字规则转化为「分段求和」的算式结构
+    difficulty: 学生易把全程都按 1.5 元/千米计算；易忽略「不足 1 km 按 1 km 计算」的进位规则
+    typical_misconceptions:
+    - error_pattern: 全程按同一单价计算
+      misconception_type: 分段意识缺失
+    - error_pattern: 忽略不足 1 km 按 1 km 计费
+      misconception_type: 规则读取遗漏
+  variation_strategy:
+  - 计算出租车费
+  - 计算分段水费（12 t 以内每吨 2.5 元，超过部分每吨 3.8 元）

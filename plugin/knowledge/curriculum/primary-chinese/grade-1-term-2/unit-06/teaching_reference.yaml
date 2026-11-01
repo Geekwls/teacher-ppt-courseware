@@ -1,0 +1,32 @@
+unit_id: unit-06
+source_id: pep_chinese_g1_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t2-u06-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「夏日池塘」的共通情境把两首诗联系起来，借助画面理解诗句
+    difficulty: 学生易把两首诗的作者与内容张冠李戴
+    typical_misconceptions:
+    - error_pattern: 把《池上》与《小池》的内容记混
+      misconception_type: 两首诗混淆
+    - error_pattern: 说不出「小荷才露尖尖角」的意思
+      misconception_type: 诗句理解不到位
+  variation_strategy:
+  - 配画朗读并背诵两首诗
+  - 说出诗中描写的景物
+- point_id: chi-g1-t2-u06-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以角色朗读的方式读《荷叶圆圆》，以「下雨前有什么变化」为线索读《要下雨了》
+    difficulty: 学生易把「燕子低飞、鱼游水面、蚂蚁搬家」等下雨前的现象遗漏
+    typical_misconceptions:
+    - error_pattern: 说不出下雨前的自然现象
+      misconception_type: 课文信息提取不全
+    - error_pattern: 分角色朗读时角色台词错位
+      misconception_type: 角色朗读不到位
+  variation_strategy:
+  - 分角色朗读《荷叶圆圆》
+  - 说说下雨前有哪些变化

@@ -1,0 +1,46 @@
+unit_id: unit-01
+source_id: pep_english_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教版PEP小学英语六年级上册教师用书》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: eng-g6-t1-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「分享假期旅行」的真实交际任务，把「Where did you go? — I went to …」作为固定框架反复操练，再扩充动词过去式
+    difficulty: 学生易在 did 后用动词过去式（Where did you went）；易把 went 写成 go 的过去式以外形式
+    typical_misconceptions:
+    - error_pattern: did 后误用动词过去式
+      misconception_type: 时态误用
+    - error_pattern: 不规则动词过去式记错
+      misconception_type: 动词形式错误
+  variation_strategy:
+  - 用一般过去时问答旅行经历
+  - 把动词改为正确的过去式
+- point_id: eng-g6-t1-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「介绍一处地标」为任务，让学生把数字与特点用固定句型表达出来
+    difficulty: 学生易把 be famous for 写成 be famous of；易把数字单位读错
+    typical_misconceptions:
+    - error_pattern: be famous for 介词错误
+      misconception_type: 固定搭配错误
+    - error_pattern: 数字单位读错
+      misconception_type: 数字表达不熟
+  variation_strategy:
+  - 用 be famous for 描述一处地标
+  - 读懂并说出地标介绍中的数字信息
+- point_id: eng-g6-t1-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「旅行评论」这一真实文体为载体，让学生标注哪些是事实、哪些是观点，从而建立批判性阅读意识
+    difficulty: 学生易把「多数人认为」当成事实；易把观点句当成事实句
+    typical_misconceptions:
+    - error_pattern: 把观点当成事实
+      misconception_type: 批判意识薄弱
+    - error_pattern: 不能表达自己的观点
+      misconception_type: 表达能力不足
+  variation_strategy:
+  - 判断句子是事实还是观点
+  - 用英语表达自己对一处地标的看法

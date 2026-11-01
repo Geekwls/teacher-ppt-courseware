@@ -1,0 +1,10 @@
+lessons:
+- lesson_id: math-g6-t1-u07-l01
+  unit_id: unit-07
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_name: 第六单元 百分数（单元整体）
+  page_range: P79-P100
+  official_examples:
+  - 数与代数单元：认识百分数，理解百分数的意义，会进行百分数与分数、小数的互化，能解决与百分数有关的实际问题（如求百分率、求一个数的百分之几是多少、已知一个数的百分之几是多少求这个数）。（例题原文待核验）

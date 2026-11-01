@@ -1,0 +1,87 @@
+unit_id: unit-02
+source_id: pep_math_g4_t1_2024
+points:
+- point_id: math-g4-t1-u02-p01
+  unit_id: unit-02
+  lesson_id: math-g4-t1-u02-l01
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 以「小样本推算大数量」的方法（100 张纸 → 1 亿张纸）
+  learning_objectives:
+  - 能说出「先量 100 张纸的厚度，再按倍数关系推算」的方案设计思路
+  - 能用「10000 张纸高 1 m」推算 1 亿张纸高 10000 m
+  applicable_question_types:
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P24
+    - P25
+    anchor_text: P25「算一算」：100 张纸厚 1 cm，10000 张纸高 100 cm，也就是 1 m；「10000 个一万是一亿，一亿张纸摞起来就有 10000 m 高。」
+  teaching_boundary:
+    scope_allowed:
+    - 说出以小样本推算总数的方法
+    - 按倍数关系完成推算
+    - 把推算结果与熟悉的高度（珠穆朗玛峰）作比较
+    scope_excluded:
+    - 指数增长与对数尺度的系统讲解
+    - 造纸工艺与纸张克重的专业计算
+- point_id: math-g4-t1-u02-p02
+  unit_id: unit-02
+  lesson_id: math-g4-t1-u02-l02
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 对「1 亿」的量感（1 亿粒米、1 亿个字、1 纳米、绕赤道）
+  learning_objectives:
+  - 能举出至少两个生活中的例子说明 1 亿有多大
+  - 能用自己的语言描述 1 亿与常见量之间的关系
+  applicable_question_types:
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P26
+    - P27
+    anchor_text: P26：1 亿粒大米大约重 2 t；1 秒写一个字，写 1 亿个字要一刻不停三年多。P27：把 1 dm 平均分成 1 亿份，一份才是 1 纳米；1 亿名同学手拉手可以绕地球赤道 3 圈半。
+  teaching_boundary:
+    scope_allowed:
+    - 举出生活中的例子描述 1 亿的大小
+    - 说出 1 亿与万、千万之间的倍数关系
+    scope_excluded:
+    - 地球赤道周长的精确测量方法
+    - 纳米材料科学的专业内容
+- point_id: math-g4-t1-u02-p03
+  unit_id: unit-02
+  lesson_id: math-g4-t1-u02-l03
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 综合与实践的探究过程（提出问题—分析问题—得出结论—回顾反思）
+  learning_objectives:
+  - 能完整说出探究活动的四个步骤
+  - 能独立提出一个与 1 亿有关的问题并设计研究方案
+  applicable_question_types:
+  - writing
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P24
+    - P26
+    - P27
+    anchor_text: P24「提出问题」—P26「分析问题」—P26「得出结论」—P27「成长小档案：你是如何通过 100 张纸的厚度得出 1 亿张纸的厚度的？」；小组研究记录栏目：小组成员 / 研究问题 / 研究过程 / 结论 / 感想。
+  teaching_boundary:
+    scope_allowed:
+    - 说出探究的四个步骤
+    - 独立提出一个可研究的问题
+    - 填写小组研究记录
+    scope_excluded:
+    - 科学探究方法论的系统论述
+    - 实验误差分析

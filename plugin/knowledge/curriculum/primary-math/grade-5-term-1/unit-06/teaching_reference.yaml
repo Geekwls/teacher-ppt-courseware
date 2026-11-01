@@ -1,0 +1,32 @@
+unit_id: unit-06
+source_id: pep_math_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g5-t1-u06-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「拉动平行四边形框架，边长不变但面积变了」的冲突，引出「面积与高有关」
+    difficulty: 学生易把「邻边相乘」当成平行四边形面积；易把高画错（不是对应底上的高）
+    typical_misconceptions:
+    - error_pattern: 用邻边相乘求面积
+      misconception_type: 公式混淆
+    - error_pattern: 底与高不对应
+      misconception_type: 对应关系错误
+  variation_strategy:
+  - 推导平行四边形面积公式并计算面积
+  - 在方格纸上用平移法比较面积
+- point_id: math-g5-t1-u06-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「测量土地的面积用平方米不方便」引出更大的面积单位
+    difficulty: 学生易把 1 公顷与 1 平方千米的进率记错
+    typical_misconceptions:
+    - error_pattern: 公顷与平方千米的进率记错
+      misconception_type: 进率错误
+    - error_pattern: 单位换算方向搞反
+      misconception_type: 换算错误
+  variation_strategy:
+  - 进行公顷与平方千米的单位换算
+  - 根据实际情境选择合适的面积单位

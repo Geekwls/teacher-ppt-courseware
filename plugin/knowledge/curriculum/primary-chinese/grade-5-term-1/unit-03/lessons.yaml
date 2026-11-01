@@ -1,0 +1,44 @@
+lessons:
+- lesson_id: chi-g5-t1-u03-l01
+  unit_id: unit-03
+  subject: chinese
+  grade: 5
+  term: term-1
+  lesson_number: 1
+  lesson_name: 8 猎人海力布
+  page_range: P34-P36
+  official_examples:
+  - 民间故事，由仁·甘珠尔扎布整理。海力布救了龙王的女儿小白蛇，得到能听懂动物语言的宝石，但「如果对别人说了，您就会变成一块石头」。为救乡亲，他说出秘密，变成了石头。
+  - 课后题：默读课文，说说海力布是一个怎样的人。
+- lesson_id: chi-g5-t1-u03-l02
+  unit_id: unit-03
+  subject: chinese
+  grade: 5
+  term: term-1
+  lesson_number: 2
+  lesson_name: 9 牛郎织女（一）
+  page_range: P37-P41
+  official_examples:
+  - 民间故事，由叶圣陶整理。课后题：默读课文，说说牛郎和老牛是怎么相处的，他和织女是怎么认识的。
+  - 「课文中有些情节写得很简略，发挥想象把下面的情节说得更具体」：牛郎常常把看见的、听见的事告诉老牛；仙女们商量瞒着王母娘娘去人间看看。
+- lesson_id: chi-g5-t1-u03-l03
+  unit_id: unit-03
+  subject: chinese
+  grade: 5
+  term: term-1
+  lesson_number: 3
+  lesson_name: 10* 牛郎织女（二）
+  page_range: P42-P44
+  official_examples:
+  - 「用之前学到的阅读方法，尽可能快地默读课文，了解牛郎织女故事的结局。」
+  - 「联系上一篇课文，说说如果给《牛郎织女》绘制连环画，你打算画哪些内容，每幅图画配什么文字。」
+- lesson_id: chi-g5-t1-u03-l04
+  unit_id: unit-03
+  subject: chinese
+  grade: 5
+  term: term-1
+  lesson_number: 4
+  lesson_name: 口语交际·习作·语文园地·快乐读书吧
+  page_range: P45-P50
+  official_examples:
+  - 口语交际《讲民间故事》；习作《故事新编》；语文园地三；快乐读书吧《从前有座山》（推荐阅读中国民间故事）。

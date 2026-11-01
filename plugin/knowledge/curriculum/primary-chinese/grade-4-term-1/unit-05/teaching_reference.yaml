@@ -1,0 +1,18 @@
+unit_id: unit-05
+source_id: pep_chinese_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g4-t1-u05-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以课文为例梳理「事情是怎样一步步发展的」，再把方法迁移到自己的习作
+    difficulty: 学生易把过程写得很简略，重点不突出
+    typical_misconceptions:
+    - error_pattern: 过程写得简略
+      misconception_type: 重点不突出
+    - error_pattern: 顺序混乱
+      misconception_type: 条理不清
+  variation_strategy:
+  - 按顺序把一件事写清楚
+  - 说出课文是怎样把事情写清楚的

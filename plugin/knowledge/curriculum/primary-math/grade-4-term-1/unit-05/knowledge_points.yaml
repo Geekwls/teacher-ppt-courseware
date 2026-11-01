@@ -1,0 +1,177 @@
+unit_id: unit-05
+source_id: pep_math_g4_t1_2024
+points:
+- point_id: math-g4-t1-u05-p01
+  unit_id: unit-05
+  lesson_id: math-g4-t1-u05-l01
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 加法模型：总量 = 分量 + 分量（及分量 = 总量 − 分量）
+  learning_objectives:
+  - 能识别实际问题中的「总量」与「分量」，并用「总量 = 分量 + 分量」列式
+  - 能说出减法是加法的逆运算，并用「分量 = 总量 − 分量」求未知分量
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P58
+    anchor_text: P58：上午来了多少人？15+32=47（人）；下午来了多少人？24+50=74（人）；一共来了多少人？47+74=121（人）。「我发现：求总人数就是把每部分人数加起来。总量 = 分量 + 分量。」「如果知道总量和其中一个分量，怎么求另一个分量呢？分量 = 总量 − 分量。（根据减法是加法的逆运算）」
+  teaching_boundary:
+    scope_allowed:
+    - 识别总量与分量
+    - 用加法模型列式并求解
+    - 用「总量 − 分量」求未知分量
+    scope_excluded:
+    - 集合论中并集与补集的公理化
+    - 线性方程组的系统求解
+- point_id: math-g4-t1-u05-p02
+  unit_id: unit-05
+  lesson_id: math-g4-t1-u05-l02
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 用加法模型解决「组合选择」问题
+  learning_objectives:
+  - 能列举出所有组合并逐一验证是否符合条件
+  - 能用「总量 − 分量 = 分量」的逆向思路简化解题过程
+  applicable_question_types:
+  - fill_blank
+  - reading
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P59
+    - P60
+    anchor_text: P59–P60：「小丽有 100 元钱，要买 3 本不同的书送给 3 位好朋友。她可以买哪 3 本呢？」34+21+49=104（元）104>100 不可以；34+21+26=81（元）81<100 可以；34+49+26=109（元）109>100 不可以；21+49+26=96（元）96<100 可以。「还可以先求 4 本书的总价：130 元，再减去其中一本的钱…只要减去的那本书的价钱大于 30 元，剩下 3 本书的总价就不会超过 100 元。」
+  teaching_boundary:
+    scope_allowed:
+    - 有序列举所有组合
+    - 用加法模型验证每个组合
+    - 用「总量 − 分量」的逆向思路简化求解
+    scope_excluded:
+    - 组合数学的计数公式
+    - 背包问题的算法设计
+- point_id: math-g4-t1-u05-p03
+  unit_id: unit-05
+  lesson_id: math-g4-t1-u05-l03
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 乘法模型之一：总价 = 单价 × 数量
+  learning_objectives:
+  - 能识别「单价」「数量」「总价」三个量，并用「总价 = 单价 × 数量」列式
+  - 能由总价与数量求单价、由总价与单价求数量
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P62
+    anchor_text: P62：小票情境——「每盒牛奶 18 元，买了 3 盒，花了 54 元」「每千克苹果 9 元，买了 4 kg，花了 36 元」。「总价 = 单价 × 数量。如果知道总价和数量，就可以求出单价；知道总价和单价，就可以求出数量。单价 = 总价 ÷ 数量，数量 = 总价 ÷ 单价。」
+  teaching_boundary:
+    scope_allowed:
+    - 识别单价、数量、总价
+    - 用乘法模型列式并求解
+    - 由总价与数量求单价
+    scope_excluded:
+    - 价格指数与通货膨胀的系统讲解
+    - 商业折扣与定价策略
+- point_id: math-g4-t1-u05-p04
+  unit_id: unit-05
+  lesson_id: math-g4-t1-u05-l04
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 用乘法模型解决促销比较问题
+  learning_objectives:
+  - 能用两种不同的方法求「节省的钱」并说明它们的联系
+  - 能根据数量关系选择更简便的解法
+  applicable_question_types:
+  - fill_blank
+  - reading
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P63
+    anchor_text: P63：原价 12 元/千克、现价 9 元/千克，买 4 kg 节省多少钱？方法一：12×4−9×4=48−36=12（元）（节省的钱 = 原来的总价 − 现在的总价）；方法二：（12−9）×4=3×4=12（元）（节省的钱 = 每千克便宜的钱 × 数量）。
+  teaching_boundary:
+    scope_allowed:
+    - 用两种方法求节省的钱
+    - 说明两种方法的联系（乘法分配律）
+    - 根据数量关系选择简便算法
+    scope_excluded:
+    - 商业促销策略的系统分析
+    - 乘法分配律的形式证明
+- point_id: math-g4-t1-u05-p05
+  unit_id: unit-05
+  lesson_id: math-g4-t1-u05-l05
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 乘法模型之二：路程 = 速度 × 时间
+  learning_objectives:
+  - 能识别「速度」「时间」「路程」三个量，并用「路程 = 速度 × 时间」列式
+  - 能通过比较速度判断谁走得快，并能由路程与时间求速度
+  applicable_question_types:
+  - fill_blank
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P66
+    - P67
+    - P69
+    anchor_text: P66：小红上学用了 9 分钟（675 m），小丽用了 6 分钟（480 m）。「小丽每分钟走：480÷6=80（m）；小红每分钟走：675÷9=75（m）。75<80，小丽走得最快。」P67：「路程 = 速度 × 时间。如果知道路程和时间，就可以求出速度；知道路程和速度，就可以求出时间。速度 = 路程 ÷ 时间，时间 = 路程 ÷ 速度。」（80 米/分 读作 80 米每分；800 千米/时 读作 800 千米每时）
+  teaching_boundary:
+    scope_allowed:
+    - 识别速度、时间、路程
+    - 比较速度判断快慢
+    - 由路程与时间求速度
+    - 正确读写速度单位
+    scope_excluded:
+    - 相对运动与参考系的系统讲解
+    - 平均速度与瞬时速度的区别
+- point_id: math-g4-t1-u05-p06
+  unit_id: unit-05
+  lesson_id: math-g4-t1-u05-l06
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 三组数量关系的辨析与选用
+  learning_objectives:
+  - 能根据问题情境判断应使用加法模型还是乘法模型
+  - 能说出三组数量关系各自的适用情境
+  applicable_question_types:
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P58
+    - P62
+    - P66
+    - P69
+    anchor_text: P69 成长小档案：「总量=分量+分量、总价=单价×数量、路程=速度×时间是常用的数量关系。」P58「总量 = 分量 + 分量」；P62「总价 = 单价 × 数量」；P67「路程 = 速度 × 时间」。
+  teaching_boundary:
+    scope_allowed:
+    - 识别问题属于哪一类数量关系
+    - 说出三组数量关系的适用情境
+    - 在同一情境中区分加法关系与乘法关系
+    scope_excluded:
+    - 数量关系在代数中的一般化（函数关系）
+    - 量纲分析的工程应用

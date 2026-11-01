@@ -1,0 +1,15 @@
+unit_id: unit-06
+unit_name: 第六单元 识字
+subject: chinese
+edition: 统编版
+grade: 1
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: partial
+source_id: pep_chinese_g1_t1_2024
+teaching_reference_source_id: pep_chinese_g1_t1_tr_2024
+page_range: P73-P80
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版统编版小学语文一年级上册电子课本》逐页实证核定：课本 PDF 共 27 页，页脚印刷页码实测偏移 = 5（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P2–P21。本单元真实版面为 P73–P80，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。
+unit_overview: 第二个识字单元：学习《对韵歌》《日月明》《小书包》《升国旗》四篇识字课文，继续借助图画与韵文识字，认识会意字与会意偏旁。
+numeric_upper_bound: null

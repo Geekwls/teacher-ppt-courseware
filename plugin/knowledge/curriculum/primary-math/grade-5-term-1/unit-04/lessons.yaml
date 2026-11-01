@@ -1,0 +1,51 @@
+lessons:
+- lesson_id: math-g5-t1-u04-l01
+  unit_id: unit-04
+  subject: math
+  grade: 5
+  term: term-1
+  lesson_number: 1
+  lesson_name: 轴对称
+  page_range: P39-P40
+  official_examples:
+  - 点 A 与点 A′到对称轴的距离都是 3 小格。
+  - 轴对称图形上的对应点到对称轴的距离都相等。
+  - 根据对称轴补全轴对称图形：先找到几个关键点，画出它们的对应点，再连起来。
+- lesson_id: math-g5-t1-u04-l02
+  unit_id: unit-04
+  subject: math
+  grade: 5
+  term: term-1
+  lesson_number: 2
+  lesson_name: 平移
+  page_range: P41-P43
+  official_examples:
+  - 图形的形状、大小没有变化；点 B 移动的距离和点 C 移动的距离相等。
+  - 画出下图向右平移 8 格后的图形：先在图上选一个点，找到它平移后的位置，再对照原图画出平移后的图形（也可以选几个关键点）。
+  - 平移的应用：把图形左边这部分剪下来再向右平移 6 格，变成一个长方形，6×4=24（cm²）。
+- lesson_id: math-g5-t1-u04-l03
+  unit_id: unit-04
+  subject: math
+  grade: 5
+  term: term-1
+  lesson_number: 3
+  lesson_name: 旋转
+  page_range: P46-P47
+  official_examples:
+  - 指针从「12」走到「1」，指针绕点 O 按顺时针方向旋转了 30°。
+  - 从「3」到「6」，指针绕点 O 按顺时针方向旋转了 90°。
+  - 三角尺的每条直角边都绕点 O 按顺时针方向旋转了 90°，长度没有变，点 O 的位置不变。
+  - 画出三角形 AOB 绕点 O 顺时针旋转 90° 后的图形：把线段 OB 绕点 O 顺时针旋转 90° 画出 OB′，把线段 OA 绕点 O 顺时针旋转 90° 画出 OA′，再将 A′、B′ 连起来。
+- lesson_id: math-g5-t1-u04-l04
+  unit_id: unit-04
+  subject: math
+  grade: 5
+  term: term-1
+  lesson_number: 4
+  lesson_name: 设计图案与整理和复习
+  page_range: P50-P54
+  official_examples:
+  - 利用图形的平移、对称和旋转，可以设计出许多美丽的图案（丝带上下两侧的「回纹」是通过连续平移得到的；铜镜中的「山」字图案通过旋转形成了「四山纹」）。
+  - 轴对称：对应点连线与对称轴垂直，对应点到对称轴的距离相等。
+  - 平移：对应点移动方向相同，移动距离相等。旋转：对应点都绕旋转中心按同一方向旋转相同的角度。
+  - 在平移和旋转中，图形的大小都不变。

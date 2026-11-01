@@ -1,0 +1,69 @@
+lessons:
+  - lesson_id: "math-g3-t2-u04-l01"
+    unit_id: "unit-4"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 1
+    lesson_name: "第1课时 认识面积与比较面积大小"
+    page_range: "P52-P54"
+    official_examples:
+      - "例1：黑板面比国旗面大，课本封面比文具盒面大。物体表面或封闭图形的大小叫作它们的面积。"
+      - "例2：比较两个长方形面积，用重叠法无法区分时，可以用数方格法（统一面积单位）。"
+
+  - lesson_id: "math-g3-t2-u04-l02"
+    unit_id: "unit-4"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 2
+    lesson_name: "第2课时 常用的面积单位（平方厘米、平方分米、平方米）"
+    page_range: "P55-P56"
+    official_examples:
+      - "例3：边长1厘米的正方形面积是1平方厘米（手电筒指甲盖大小）；边长1分米的正方形面积是1平方分米（粉笔盒正面大小）；边长1米的正方形面积是1平方米（四名同学手拉手围成地面大小）。"
+
+  - lesson_id: "math-g3-t2-u04-l03"
+    unit_id: "unit-4"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 3
+    lesson_name: "第3课时 长方形和正方形面积的计算"
+    page_range: "P57-P59"
+    official_examples:
+      - "例4：用1平方厘米的小正方形摆长方形，发现每行摆的长个、摆了宽行，长方形面积 = 长 × 宽。"
+      - "例5：正方形面积 = 边长 × 边长。"
+
+  - lesson_id: "math-g3-t2-u04-l04"
+    unit_id: "unit-4"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 4
+    lesson_name: "第4课时 面积单位间的进率"
+    page_range: "P60-P61"
+    official_examples:
+      - "例6：边长1分米的正方形面积是1平方分米；边长也可以看作10厘米，面积是 10×10=100 平方厘米。所以 1平方分米 = 100平方厘米。"
+      - "例7：同理，1平方米 = 100平方分米。"
+
+  - lesson_id: "math-g3-t2-u04-l05"
+    unit_id: "unit-4"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 5
+    lesson_name: "第5课时 解决问题（铺地砖与面积应用）"
+    page_range: "P62-P63"
+    official_examples:
+      - "例8：客厅长6米、宽4米，铺边长2分米的正方形地砖，需要多少块？（方法一：房间总面积÷单块砖面积；方法二：长铺几块×宽铺几块，注意必须先统一单位）。"
+
+  - lesson_id: "math-g3-t2-u04-l06"
+    unit_id: "unit-4"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 6
+    lesson_name: "第6课时 单元整理与复习"
+    page_range: "P64"
+    official_examples:
+      - "周长与面积对比辨析：长度单位与面积单位不能互相比较大小；周长相等面积不一定相等。"

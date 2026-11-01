@@ -1,0 +1,60 @@
+unit_id: unit-04
+source_id: pep_chinese_g5_t1_2024
+points:
+- point_id: chi-g5-t1-u04-p01
+  unit_id: unit-04
+  lesson_id: chi-g5-t1-u04-l01
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 结合资料体会思想感情
+  learning_objectives:
+  - 能结合资料体会课文表达的爱国情感
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P51
+    - P52
+    - P56
+    anchor_text: 单元起始页 P51 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《示儿》《题临安邸》《己亥杂诗》三首古诗
+    - 《少年中国说（节选）》《圆明园的毁灭》
+    scope_excluded:
+    - 近代史研究
+    - 古诗词赏析
+- point_id: chi-g5-t1-u04-p02
+  unit_id: unit-04
+  lesson_id: chi-g5-t1-u04-l01
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 列提纲，分段叙述（二十年后的家乡）
+  learning_objectives:
+  - 能列出习作提纲并按提纲分段叙述
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P62
+    - P63
+    anchor_text: 单元起始页 P62 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 列提纲的方法
+    - 按提纲分段叙述
+    scope_excluded:
+    - 提纲式写作
+    - 创意写作的构思方法

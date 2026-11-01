@@ -1,0 +1,73 @@
+unit_id: unit-05
+blueprints:
+- blueprint_id: bp-math-g6-t1-u05-standard
+  title: 第五单元 圆标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 7
+    target_points:
+    - math-g6-t1-u05-p01
+    - math-g6-t1-u05-p02
+    - math-g6-t1-u05-p03
+    guidelines: 填写半径、直径、周长、面积，判断圆心角。
+  - slot_id: slot-02
+    section: 二、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g6-t1-u05-p01
+    - math-g6-t1-u05-p03
+    - math-g6-t1-u05-p04
+    guidelines: 判断关于圆的特征与公式的说法是否正确。
+  - slot_id: slot-03
+    section: 三、画一画
+    question_type: writing
+    difficulty: variation
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - math-g6-t1-u05-p01
+    - math-g6-t1-u05-p02
+    guidelines: 用圆规画圆、画扇形、画对称轴。
+  - slot_id: slot-04
+    section: 四、计算（周长与面积）
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 4
+    item_count: 6
+    target_points:
+    - math-g6-t1-u05-p03
+    - math-g6-t1-u05-p04
+    guidelines: 计算圆的周长与面积，由周长求面积。
+  - slot_id: slot-05
+    section: 五、解决问题（圆环与组合图形）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 6
+    item_count: 2
+    target_points:
+    - math-g6-t1-u05-p05
+    guidelines: 计算圆环或组合图形中涂色部分的面积。
+  - slot_id: slot-06
+    section: 六、解决问题（综合）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 8
+    item_count: 2
+    target_points:
+    - math-g6-t1-u05-p04
+    - math-g6-t1-u05-p05
+    guidelines: 综合运用圆的周长与面积解决实际问题。

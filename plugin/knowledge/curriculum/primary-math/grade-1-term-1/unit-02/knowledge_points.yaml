@@ -1,0 +1,112 @@
+unit_id: unit-02
+source_id: pep_math_g1_t1_2024
+points:
+- point_id: math-g1-t1-u02-p01
+  unit_id: unit-02
+  lesson_id: math-g1-t1-u02-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 6～10 各数的认识、顺序与大小比较
+  learning_objectives:
+  - 能数、读、写 6～10 各数，理解其基数与序数含义
+  - 掌握 10 以内数的顺序，会比较 10 以内数的大小
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P34
+    - P66
+    anchor_text: 单元起始页 P34 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 6～10 的认读与书写
+    - 10 以内数的顺序与大小比较
+    scope_excluded:
+    - 20 以内数的认识
+    - 两位数的数位
+- point_id: math-g1-t1-u02-p02
+  unit_id: unit-02
+  lesson_id: math-g1-t1-u02-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 10 以内数的分与合与加减法算理
+  learning_objectives:
+  - 掌握 6～10 各数的分与合，能有序说出所有分法
+  - 能运用数的组成正确计算 10 以内的加、减法
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P34
+    - P66
+    anchor_text: 单元起始页 P34 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 10 以内数的分与合
+    - 10 以内加减法口算
+    scope_excluded:
+    - 20 以内进位加法
+    - 万以内加减法
+- point_id: math-g1-t1-u02-p03
+  unit_id: unit-02
+  lesson_id: math-g1-t1-u02-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 连加、连减与加减混合
+  learning_objectives:
+  - 理解连加、连减、加减混合算式的含义与运算顺序
+  - 能正确计算 10 以内的连加、连减与加减混合式题
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P34
+    - P66
+    anchor_text: 单元起始页 P34 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 10 以内连加、连减、加减混合的计算
+    - 看图列连加或连减算式
+    scope_excluded:
+    - 带括号的算式
+    - 100 以内的连加连减
+- point_id: math-g1-t1-u02-p04
+  unit_id: unit-02
+  lesson_id: math-g1-t1-u02-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 用 10 以内加减法解决简单的实际问题
+  learning_objectives:
+  - 能在具体情境中提取已知条件与问题，选择合适的运算
+  - 能说出列式的理由，并用加减法解决「求一共」「求还剩」类问题
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P34
+    - P66
+    anchor_text: 单元起始页 P34 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 求总数（一共）用加法、求剩余用减法的实际问题
+    - 看图说意并列式
+    scope_excluded:
+    - 求相差数的两步问题
+    - 倍的关系

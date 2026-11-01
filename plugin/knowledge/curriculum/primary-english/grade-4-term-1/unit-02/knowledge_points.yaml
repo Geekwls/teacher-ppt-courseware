@@ -1,0 +1,117 @@
+unit_id: unit-02
+source_id: pep_english_g4_t1_2024
+points:
+- point_id: eng-g4-t1-u02-p01
+  unit_id: unit-02
+  lesson_id: eng-g4-t1-u02-l01
+  subject: english
+  grade: 4
+  term: term-1
+  point_name: 描述朋友的外貌（is 与 has）
+  learning_objectives:
+  - 能用 He/She is + 形容词 与 He/She has + 名词 描述外貌
+  - 能掌握描述外貌的形容词与名词短语
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g4_t1_2024
+    page_ref:
+    - P16
+    - P17
+    - P21
+    anchor_text: P16：「He's tall and strong. He has nice short hair too.」P17：「He's tall and thin.」P21 词汇：kind, long, short, strong, tall。
+  teaching_boundary:
+    scope_allowed:
+    - 用 is 描述特征
+    - 用 has 描述外貌
+    - 形容词 tall/short/strong/thin/kind
+    scope_excluded:
+    - 描写性语言教学
+    - 英语形容词语义场
+- point_id: eng-g4-t1-u02-p02
+  unit_id: unit-02
+  lesson_id: eng-g4-t1-u02-l02
+  subject: english
+  grade: 4
+  term: term-1
+  point_name: 询问与介绍朋友的名字
+  learning_objectives:
+  - 能用 What's his/her name? 询问朋友的名字
+  - 能用 His/Her name is … 作答
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g4_t1_2024
+    page_ref:
+    - P16
+    - P22
+    anchor_text: P16：「His name is Zhang Peng.」「It's Zhang Peng.」P22：「What's his/her name? His/Her name is …」
+  teaching_boundary:
+    scope_allowed:
+    - 询问名字的问句
+    - 介绍名字的答句
+    - 物主代词 his/her 的区分
+    scope_excluded:
+    - 英语名词所有格与物主代词
+    - 交际中的自我介绍
+- point_id: eng-g4-t1-u02-p03
+  unit_id: unit-02
+  lesson_id: eng-g4-t1-u02-l03
+  subject: english
+  grade: 4
+  term: term-1
+  point_name: 描述与朋友一起做的事
+  learning_objectives:
+  - 能用 We … together 描述和朋友一起做的事
+  - 能用 He/She often … 描述朋友经常做的事
+  applicable_question_types:
+  - fill_blank
+  - reading
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g4_t1_2024
+    page_ref:
+    - P20
+    - P21
+    anchor_text: P20：「We play games together. We play football together. I like my friend. My friend likes me.」「My friend play/plays games with me.」P21 词汇：helps me with…, plays football, plays games, reads books。
+  teaching_boundary:
+    scope_allowed:
+    - 用 together 描述共同活动
+    - 用 often 描述经常做的事
+    - 动词第三人称单数形式 plays/helps/reads
+    scope_excluded:
+    - 英语一般现在时第三人称单数
+    - 友谊的社会心理学研究
+- point_id: eng-g4-t1-u02-p04
+  unit_id: unit-02
+  lesson_id: eng-g4-t1-u02-l04
+  subject: english
+  grade: 4
+  term: term-1
+  point_name: 字母组合 sh 的发音
+  learning_objectives:
+  - 能掌握字母组合 sh 的发音 /ʃ/
+  - 能拼读含 sh 的例词并区分 sh 与 ch
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g4_t1_2024
+    page_ref:
+    - P18
+    anchor_text: P18 Let's spell：字母组合 sh 的发音与例词（shell, share, shoo, fish）。
+  teaching_boundary:
+    scope_allowed:
+    - sh 的发音 /ʃ/
+    - 含 sh 的例词拼读
+    - 区分 sh 与 ch
+    scope_excluded:
+    - 自然拼读教学法
+    - 英语摩擦音辨析

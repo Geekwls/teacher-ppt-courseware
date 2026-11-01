@@ -1,0 +1,15 @@
+unit_id: unit-06
+unit_name: 第六单元 复习与关联
+subject: math
+edition: 人教版
+grade: 2
+term: term-1
+version: 2026.10.3
+updated_at: '2026-10-15'
+verification_status: verified
+source_id: pep_math_g2_t1_2024
+teaching_reference_source_id: pep_math_g2_t1_tr_2024
+page_range: P91-P100
+page_evidence_note: 页码于 2026-10-15 依据用户提供的完整版《2026版人教版小学数学二年级上册电子课本》（共106页，ISBN 978-7-107-38912-2）逐页实证核定：页脚印刷页码实测偏移 = 4（PDF#95 = 印刷 P91，PDF#104 = 印刷 P100）。本单元真实版面为 P91–P100，已取得逐页原文凭证：P91 知识结构梳理、P92 乘除法运算与数量关系、P93 位置方向与长度度量、P94 数据分类统计、P95-P99 乘法口诀表结构化综合练习、P100 自我评价，全量实证闭环，状态晋级为 verified。
+unit_overview: 全册整理与复习单元：系统梳理表内乘法与除法（1～9的口诀与求商）、长度单位度量、位置与方向以及分类与整理，建立不同领域知识之间的深度关联。
+numeric_upper_bound: 100

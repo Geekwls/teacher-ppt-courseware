@@ -1,0 +1,60 @@
+unit_id: unit-01
+source_id: pep_english_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教版PEP小学英语四年级上册教师用书》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: eng-g4-t1-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「介绍家人职业」的真实交际任务，把问句与答句配对操练，再通过图片认识五种职业词汇
+    difficulty: 学生易漏掉 a（说成 He's doctor）；易把 What's your mother's job? 说成 What's your mother job?
+    typical_misconceptions:
+    - error_pattern: 职业名词前漏掉冠词 a
+      misconception_type: 冠词遗漏
+    - error_pattern: 所有格 -'s 漏写
+      misconception_type: 所有格错误
+  variation_strategy:
+  - 用 What's your …'s job? 问答职业
+  - 写出五个职业名词
+- point_id: eng-g4-t1-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「我能为家人做什么」为话题，让学生用 can 说出自己能做的家务，并在同伴间互相询问
+    difficulty: 学生易把 can 后加 to；易在否定回答时写成 No, I can not 的连写形式
+    typical_misconceptions:
+    - error_pattern: can 后误加 to
+      misconception_type: 情态动词误用
+    - error_pattern: 否定回答书写不规范
+      misconception_type: 拼写错误
+  variation_strategy:
+  - 用 can 说出会做的家务
+  - 用 Can you …? 问答并作答
+- point_id: eng-g4-t1-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「介绍家人」为任务，把「is 后接形容词、has 后接名词」的规律显性化，再通过描述家人的句子巩固
+    difficulty: 学生易把 has 与 is 混用（如 He has tall）；易把 has 用于复数主语
+    typical_misconceptions:
+    - error_pattern: has 与 is 混用
+      misconception_type: 系动词与实义动词混淆
+    - error_pattern: 复数主语误用 has
+      misconception_type: 主谓一致错误
+  variation_strategy:
+  - 用 is/has 描述一个人
+  - 选择正确的 is 或 has 填空
+- point_id: eng-g4-t1-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「同音归类」的方式把含 ch 的例词集中呈现，让学生在朗读中发现共同的发音
+    difficulty: 学生易把 ch 读成 /k/ 或 /ʃ/；易与 sh 混淆
+    typical_misconceptions:
+    - error_pattern: ch 读成 /k/ 或 /ʃ/
+      misconception_type: 发音错误
+    - error_pattern: ch 与 sh 混淆
+      misconception_type: 音形对应错误
+  variation_strategy:
+  - 朗读含 ch 的例词
+  - 找出每组中 ch 发音相同/不同的一项

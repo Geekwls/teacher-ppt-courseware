@@ -1,0 +1,87 @@
+unit_id: unit-01
+source_id: pep_english_g5_t1_2024
+points:
+- point_id: eng-g5-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: eng-g5-t1-u01-l01
+  subject: english
+  grade: 5
+  term: term-1
+  point_name: 询问与描述人物（What's he/she like?）
+  learning_objectives:
+  - 能用 What's he/she like? 询问人物的外貌与性格
+  - 能用 He's/She's + 形容词 描述人物并掌握相关形容词
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g5_t1_2024
+    page_ref:
+    - P4
+    - P5
+    anchor_text: P4：「What's he like? He's tall and strong.」P5：「Chen Jie is lovely. She is also clever. She is young. She helps a lot at home. She is hard-working.」
+  teaching_boundary:
+    scope_allowed:
+    - 询问人物的问句
+    - 描述人物的形容词
+    - lovely/clever/young/hard-working
+    scope_excluded:
+    - 人物描写的语言教学
+    - 英语形容词语义场
+- point_id: eng-g5-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: eng-g5-t1-u01-l02
+  subject: english
+  grade: 5
+  term: term-1
+  point_name: 用 can 谈论能力
+  learning_objectives:
+  - 能用 He/She can … 谈论他人会做的事
+  - 能用 Can you …? 询问能力并作答
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g5_t1_2024
+    page_ref:
+    - P8
+    anchor_text: P8：「Robin is Binbin's robot. He can play the piano. He can jump rope. He can play Chinese chess.」
+  teaching_boundary:
+    scope_allowed:
+    - 用 can 谈论能力
+    - Can you …? 的问答
+    - 活动短语 play the piano / jump rope / play Chinese chess
+    scope_excluded:
+    - 情态动词的语法体系
+    - 多元智能理论
+- point_id: eng-g5-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: eng-g5-t1-u01-l03
+  subject: english
+  grade: 5
+  term: term-1
+  point_name: 字母组合 ai / ay 的发音
+  learning_objectives:
+  - 能掌握字母组合 ai / ay 的发音 /eɪ/
+  - 能拼读含 ai / ay 的例词并听音辨字
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g5_t1_2024
+    page_ref:
+    - P6
+    anchor_text: P6 Let's spell：ai / ay —— The dog likes to play in the rain. He waits for the boy to come and…
+  teaching_boundary:
+    scope_allowed:
+    - ai / ay 的发音 /eɪ/
+    - 含 ai / ay 的例词拼读
+    - 按发音归类单词
+    scope_excluded:
+    - 自然拼读教学法
+    - 英语元音组合

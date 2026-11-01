@@ -1,0 +1,67 @@
+unit_id: unit-02
+blueprints:
+- blueprint_id: bp-chi-g1-t1-u02-standard
+  title: 第二单元 汉语拼音标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、读一读，写出单韵母
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 7
+    target_points:
+    - chi-g1-t1-u02-p01
+    guidelines: 看图或听音写出 a o e、i u ü，并标上四声。
+  - slot_id: slot-02
+    section: 二、连一连（声母与图）
+    question_type: match
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - chi-g1-t1-u02-p02
+    guidelines: 把 b p m f、d t n l 与相应图画连线。
+  - slot_id: slot-03
+    section: 三、拼一拼，读一读
+    question_type: reading
+    difficulty: basic
+    points_per_item: 5
+    item_count: 5
+    target_points:
+    - chi-g1-t1-u02-p02
+    guidelines: 把声母与单韵母相拼并读出音节。
+  - slot_id: slot-04
+    section: 四、选一选（声调）
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - chi-g1-t1-u02-p01
+    guidelines: 选出音节标调正确的一项。
+  - slot_id: slot-05
+    section: 五、写一写（四线格）
+    question_type: writing
+    difficulty: variation
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - chi-g1-t1-u02-p01
+    - chi-g1-t1-u02-p02
+    guidelines: 在四线格中书写指定的声母或韵母。
+  - slot_id: slot-06
+    section: 六、拼一拼，认一认
+    question_type: reading
+    difficulty: variation
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - chi-g1-t1-u02-p03
+    guidelines: 拼读音节并指出对应的汉字。

@@ -1,0 +1,32 @@
+unit_id: unit-04
+source_id: pep_chinese_g1_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t2-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「望月思乡」的情境帮助学生在朗读中体会古诗的情感
+    difficulty: 学生易把「床前明月光」的「床」误解为睡觉的床
+    typical_misconceptions:
+    - error_pattern: 把「床」理解错
+      misconception_type: 古今词义未区分
+    - error_pattern: 背诵时漏字或颠倒语序
+      misconception_type: 古诗记忆不牢
+  variation_strategy:
+  - 配画朗读并背诵《静夜思》
+  - 说说诗人为什么思念故乡
+- point_id: chi-g1-t2-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「夜色」的情感变化与「端午粽」的民俗体验结合起来，在朗读中积累语言
+    difficulty: 学生易把端午节的习俗与其他传统节日混淆
+    typical_misconceptions:
+    - error_pattern: 把端午习俗说成中秋习俗
+      misconception_type: 节日习俗混淆
+    - error_pattern: 说不出「我」变勇敢的原因
+      misconception_type: 课文内容理解不到位
+  variation_strategy:
+  - 朗读课文并说出端午习俗
+  - 结合自己的生活说说怎样过端午

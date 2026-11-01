@@ -1,0 +1,116 @@
+unit_id: "unit-1"
+source_id: "pep_english_g3_t1_tr_2024"
+teaching_references:
+  - point_id: "eng-g3-t1-u01-p01"
+    ref_book: "人教版《教师教学用书》英语三年级上册第一单元"
+    ref_page: "P20-P23"
+    pedagogical_focus:
+      key_point: "掌握字母 Aa, Bb, Cc, Dd 的笔画笔顺及在四线三格中的占格规范，建立大小写形式的对应联系"
+      difficulty: "小写字母 b 与 d 的镜像混淆（圆圈朝向），以及小写字母 a 的第二笔竖右弯、d 的第二笔竖的占格起点"
+      typical_misconceptions:
+        - error_pattern: "将小写 b 写成 d，或将 d 认作 b（左右半圆方向混淆）"
+          misconception_type: "镜像混淆"
+        - error_pattern: "大写字母占格不规范，写到下格或未顶到第一线"
+          misconception_type: "占格错误"
+    variation_strategy:
+      - "字母手拉手：给出大写（如 A, B, C, D），写出对应小写（a, b, c, d）"
+      - "按字母表顺序填入左邻右舍：如 ( ) B ( )，A ( ) C"
+
+  - point_id: "eng-g3-t1-u01-p02"
+    ref_book: "人教版《教师教学用书》英语三年级上册第一单元"
+    ref_page: "P22-P25"
+    pedagogical_focus:
+      key_point: "建立字母名称音与字母在单词中发音（phonics sound）的关联，感知简单辅元辅（CVC）拼读规则"
+      difficulty: "区分字母本身的名称音（如 /biː/）与在单词中的发音（/b/），以及短元音 a (/æ/) 的准确认读"
+      typical_misconceptions:
+        - error_pattern: "拼读单词时读字母名称音，如把 bag 拼成 /biː-eɪ-dʒiː/ 而非 /b-æ-g/"
+          misconception_type: "名称音与拼读音混淆"
+        - error_pattern: "混淆 cat 与 can 的尾音，或混淆 bed 与 bag 的元音"
+          misconception_type: "尾音/元音辨析不清"
+    variation_strategy:
+      - "发音小侦探：找出每组单词中首字母发音不同的一项"
+      - "拼读连线：根据发音拼读出 CVC 单词并与对应图片连线（bad, dad, cat, bag）"
+
+  - point_id: "eng-g3-t1-u01-p03"
+    ref_book: "人教版《教师教学用书》英语三年级上册第一单元"
+    ref_page: "P16-P19"
+    pedagogical_focus:
+      key_point: "掌握核心身体部位词汇 ear, eye, mouth, hand, arm 的认读与词义理解"
+      difficulty: "ear（耳朵）与 eye（眼睛）的拼写与读音相似易混，arm（手臂）与 hand（手）的部位界限混淆"
+      typical_misconceptions:
+        - error_pattern: "看到 ear 误认为是眼睛，看到 eye 误认为是耳朵"
+          misconception_type: "形近词义混淆"
+        - error_pattern: "将 hand（手掌/手）与 arm（手臂）混为一体"
+          misconception_type: "部位概念混淆"
+    variation_strategy:
+      - "看图识器官：给出五官身体示意图，选择正确的单词标号"
+      - "看词辨类：选出与其他单词不同类的一项（如 ear, eye, mouth 与 cat）"
+
+  - point_id: "eng-g3-t1-u01-p04"
+    ref_book: "人教版《教师教学用书》英语三年级上册第一单元"
+    ref_page: "P12-P15"
+    pedagogical_focus:
+      key_point: "在真实交际情境中自然使用 Hello! / Hi!，用 I'm... 或 My name is... 介绍自己，并用 Nice to meet you. 表达问候"
+      difficulty: "区别日常打招呼与初次结识的区别，回应 Nice to meet you 时忘记加 too"
+      typical_misconceptions:
+        - error_pattern: "对方说 Nice to meet you. 回答成 Hello! 或 I'm Mike."
+          misconception_type: "答非所问/交际应答脱节"
+        - error_pattern: "自我介绍时误说成 You are... 或 My name am..."
+          misconception_type: "主谓语搭配混乱"
+    variation_strategy:
+      - "情境对话选择：开学第一天遇到新同学，你主动自我介绍可以说( )"
+      - "上下句对对碰：给问候语匹配正确的答语（Nice to meet you. -> Nice to meet you too.）"
+
+  - point_id: "eng-g3-t1-u01-p05"
+    ref_book: "人教版《教师教学用书》英语三年级上册第一单元"
+    ref_page: "P18-P20"
+    pedagogical_focus:
+      key_point: "理解并执行交际肢体动作指令，理解肢体语言在友好交友中的积极意义"
+      difficulty: "动词与身体部位名词的搭配匹配（Wave your hand, Look into my eyes, Point to your ear/mouth）"
+      typical_misconceptions:
+        - error_pattern: "把 Wave your hand 误理解成指着耳朵"
+          misconception_type: "动宾短语理解偏差"
+    variation_strategy:
+      - "动作指令图文配对：将英文指令与动作简笔图连线"
+      - "动宾搭配选择：Look into my ( ) [A. eyes B. ears C. hand]"
+
+  - point_id: "eng-g3-t1-u01-p06"
+    ref_book: "人教版《教师教学用书》英语三年级上册第一单元"
+    ref_page: "P26-P28"
+    pedagogical_focus:
+      key_point: "掌握在分享情境中的友好表达 It's OK. We can share. 以及道谢 Thanks. / Thank you."
+      difficulty: "理解 We can share 的语用含义是主动分享、互助友爱，而不是索取物品"
+      typical_misconceptions:
+        - error_pattern: "同伴没有蜡笔很着急时，错误选择说 Goodbye! 或 I am fine."
+          misconception_type: "语用情境理解失准"
+    variation_strategy:
+      - "情境选择题：同桌忘了带彩笔，你可以友好地对同桌说( )"
+      - "礼貌应答：当别人对你说 We can share. 时，你应该礼貌地回答( )"
+
+  - point_id: "eng-g3-t1-u01-p07"
+    ref_book: "人教版《教师教学用书》英语三年级上册第一单元"
+    ref_page: "P29-P32"
+    pedagogical_focus:
+      key_point: "掌握表达好朋友品质的四个核心动词（smile, listen, help, share），并能用于第一人称表达"
+      difficulty: "正确区分各个友好行为的词义（微笑、倾听、帮助、分享）及其对应的图示行为"
+      typical_misconceptions:
+        - error_pattern: "将 listen（倾听）与 speak/say（说）混淆"
+          misconception_type: "动词语义混淆"
+        - error_pattern: "将 help（帮助）与 share（分享）在具体情境中混淆"
+          misconception_type: "行为内涵混淆"
+    variation_strategy:
+      - "词义配对：为 smile, listen, help, share 选择正确的中文释义与行为描述"
+      - "选词补全句子：I (help / listen) my friend when he carries a heavy box."
+
+  - point_id: "eng-g3-t1-u01-p08"
+    ref_book: "人教版《教师教学用书》英语三年级上册第一单元"
+    ref_page: "P33-P36"
+    pedagogical_focus:
+      key_point: "能阅读理解关于交友的简短图文海报，提取核心信息并作出事实判断"
+      difficulty: "在语篇中综合辨析积极行为（如 say Hi, smile, share）与消极不友好行为"
+      typical_misconceptions:
+        - error_pattern: "脱离短文细节主观臆断，或看错主语人名"
+          misconception_type: "细节定位失误"
+    variation_strategy:
+      - "好朋友海报判断：阅读自我介绍小短文，判断题目陈述正误（T / F）"
+      - "信息匹配：根据短文内容选出小作者是如何对待朋友的"

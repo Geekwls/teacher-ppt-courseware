@@ -1,0 +1,112 @@
+unit_id: "unit-8"
+source_id: "pep_math_g3_t2_2024"
+points:
+  - point_id: "math-g3-t2-u08-p01"
+    unit_id: "unit-8"
+    lesson_id: "math-g3-t2-u08-l01"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "除数是一位数的除法与一位小数加减法综合计算"
+    learning_objectives:
+      - "熟练笔算一位数除两、三位数（掌握商中间/末尾有0、商的首位定位及验算），计算准确率达到100%"
+      - "熟练笔算简单的一位小数加减法（小数点对齐、进位与借位规范）"
+    applicable_question_types: ["calculation", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [95, 96]
+      anchor_text: "数与运算复习：除法竖式计算和验算；简单小数加减法竖式计算。"
+    teaching_boundary:
+      scope_allowed:
+        - "除法与小数加减法的口算、估算和笔算"
+      scope_excluded:
+        - "四年级除数是两位数的笔算"
+
+  - point_id: "math-g3-t2-u08-p02"
+    unit_id: "unit-8"
+    lesson_id: "math-g3-t2-u08-l02"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "长方形与正方形周长、面积对比综合与深度辨析"
+    learning_objectives:
+      - "深刻辨析周长（长度单位，长方形周长=(长+宽)×2，正方形周长=边长×4）与面积（面积单位，长方形面积=长×宽，正方形面积=边长×边长）"
+      - "理解‘周长相等面积不一定相等’与‘面积相等周长不一定相等’的几何规律"
+    applicable_question_types: ["choice", "fill_blank", "word_problem"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [97, 98]
+      anchor_text: "图形与几何复习：长方形和正方形的周长与面积的区别与联系；常用面积单位与换算。"
+    teaching_boundary:
+      scope_allowed:
+        - "周长与面积综合计算题、辨析判断题"
+      scope_excluded:
+        - "立体几何表面积与体积"
+
+  - point_id: "math-g3-t2-u08-p03"
+    unit_id: "unit-8"
+    lesson_id: "math-g3-t2-u08-l02"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "轴对称图形、平移与旋转空间观念综合应用"
+    learning_objectives:
+      - "准确判断复杂图形中的轴对称性与对称轴数量"
+      - "在方格图中准确识别平移方向与距离，体会图形运动的守恒性"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [97, 98]
+      anchor_text: "观察生活中的运动现象，判断轴对称图形、平移和旋转。"
+    teaching_boundary:
+      scope_allowed:
+        - "平移旋转分类与对称轴条数综合判断"
+      scope_excluded:
+        - "中心对称图形定义（初中内容）"
+
+  - point_id: "math-g3-t2-u08-p04"
+    unit_id: "unit-8"
+    lesson_id: "math-g3-t2-u08-l04"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "年、月、日历法常识与24时计时法综合应用"
+    learning_objectives:
+      - "熟记大月、小月、平年（365天）、闰年（366天）法则，判断公历年份平闰性"
+      - "结合生活实际日程表，灵活计算跨午或一整天内的经过时间"
+    applicable_question_types: ["fill_blank", "choice", "word_problem"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [102, 103]
+      anchor_text: "综合实践复习：年、月、日各月天数，平年与闰年，24时计时法及经过时间。"
+    teaching_boundary:
+      scope_allowed:
+        - "历法与时间段综合计算"
+      scope_excluded:
+        - "国际日期变更线"
+
+  - point_id: "math-g3-t2-u08-p05"
+    unit_id: "unit-8"
+    lesson_id: "math-g3-t2-u08-l03"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "两步混合运算与复式统计表综合问题解决"
+    learning_objectives:
+      - "能综合运用乘除法两步计算解决生活中的归一、归总及实际购买方案最优化问题"
+      - "能综合识读复式统计表，提取多维数据进行对比并给出合理决策方案"
+    applicable_question_types: ["word_problem"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [99, 100, 104]
+      anchor_text: "解决问题复习：用两步计算解决实际问题；复式统计表的综合分析。"
+    teaching_boundary:
+      scope_allowed:
+        - "三年级下册全册知识融合的综合应用题"
+      scope_excluded:
+        - "分数应用题与百分数应用题"

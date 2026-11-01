@@ -1,0 +1,74 @@
+unit_id: unit-01
+source_id: pep_chinese_g2_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t2-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「由诗想画」的方式理解诗句，把「春风似剪刀」的比喻讲清楚，体会咏物诗的表达特点
+    difficulty: 学生易把「绿丝绦」理解为真的丝带；把两首诗的作者张冠李戴
+    typical_misconceptions:
+    - error_pattern: 把「绿丝绦」当成实物丝带
+      misconception_type: 比喻义未理解
+    - error_pattern: 把《咏柳》说成高鼎所作
+      misconception_type: 作者混淆
+  variation_strategy:
+  - 配画朗读并背诵两首诗
+  - 说出「二月春风似剪刀」把春风比作什么
+- point_id: chi-g2-t2-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「把景物比作春天的眉毛、眼睛、音符、琴声」为核心，引导学生发现观察与想象的结合点
+    difficulty: 学生易把「小草—眉毛」「野花—眼睛」「嫩芽—音符」「小溪—琴声」的对应关系记错
+    typical_misconceptions:
+    - error_pattern: 把景物与比喻对象对应错
+      misconception_type: 比喻对应关系未掌握
+    - error_pattern: 仿说时句式不完整或比喻不贴切
+      misconception_type: 句式迁移不到位
+  variation_strategy:
+  - 连一连：景物与比喻对象
+  - 仿照课文说一句自己找到的春天
+- point_id: chi-g2-t2-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「花籽为什么是美好的礼物」为核心问题，引导学生从「带来美」的角度理解「美好」
+    difficulty: 学生易把「美好的礼物」理解成花籽本身而没有说出它带来的美
+    typical_misconceptions:
+    - error_pattern: 只说「是花籽」而说不出理由
+      misconception_type: 理由意识不足
+    - error_pattern: 分角色朗读时角色台词错位
+      misconception_type: 角色朗读不到位
+  variation_strategy:
+  - 分角色朗读课文
+  - 说说自己收到过或送出过的「美好的礼物」
+- point_id: chi-g2-t2-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「抓住动作描写」为阅读方法，通过「握、挖、挑选、移入、挥、扶正」等动词还原植树情景
+    difficulty: 学生易把默读读成朗读；说不出「碧空如洗、万里无云」描写的是天气
+    typical_misconceptions:
+    - error_pattern: 把默读读出声
+      misconception_type: 默读方法未掌握
+    - error_pattern: 说不出邓爷爷植树的具体动作
+      misconception_type: 细节提取不全
+  variation_strategy:
+  - 默读第3自然段并复述植树情景
+  - 圈出动词并按顺序说一说
+- point_id: chi-g2-t2-u01-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「场所名称」与导览图结合识字，把书写提示落到「处、通、原、眉」等具体字上
+    difficulty: 学生易把「咨询处」写成「咨询所」；写半包围结构的字时撇画、捺画过短
+    typical_misconceptions:
+    - error_pattern: 把「咨询处」写成「咨询所」
+      misconception_type: 词语识记不准
+    - error_pattern: 写「处」「通」时包围部分的撇捺不舒展
+      misconception_type: 结构要点未掌握
+  variation_strategy:
+  - 看导览图认读场所名称
+  - 按书写提示书写半包围结构的字

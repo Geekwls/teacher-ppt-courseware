@@ -1,0 +1,122 @@
+unit_id: "unit-3"
+source_id: "pep_chinese_g3_t1_2024"
+points:
+  - point_id: "chi-g3-t1-u03-p01"
+    unit_id: "unit-3"
+    lesson_id: "chi-g3-t1-u03-l01"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "本单元生字词的认读与规范书写"
+    learning_objectives:
+      - "认读并规范书写本单元要求会认、会写的生字，注意易错笔画与间架结构"
+      - "能看拼音写词语，正确默写课文中的重点词语"
+    applicable_question_types: ["writing", "fill_blank"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P28", "P32", "P36"]
+      anchor_text: "识字表/写字表页码锚点依课本目录登记；因用户提供的电子课本预览未含第三单元正文页，具体生字清单待补课本页面凭证后核定。"
+    teaching_boundary:
+      scope_allowed:
+        - "本单元会认、会写生字的认读与田字格规范书写"
+        - "看拼音写词语、形近字对比组词"
+      scope_excluded:
+        - "未在本单元课文中出现的字词"
+        - "超出三年级上册范围的生僻汉字"
+
+  - point_id: "chi-g3-t1-u03-p02"
+    unit_id: "unit-3"
+    lesson_id: "chi-g3-t1-u03-l01"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "预测的基本方法（单元核心语文要素）"
+    learning_objectives:
+      - "了解预测是阅读时根据已有线索猜想下文的有意识阅读策略"
+      - "知道预测要有依据：可以依据题目、插图、文章内容里的一些线索进行预测"
+      - "能在阅读中主动预测，并把自己的预测与原文内容进行比较、验证"
+    applicable_question_types: ["reading", "choice", "fill_blank"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P28"]
+      anchor_text: "教师教学用书第三单元单元说明（教参 P58）：本单元阅读方面的语文要素是「了解预测的基本方法并尝试运用」；《总也倒不了的老屋》的旁批提示学生可以根据题目、插图、文章内容里的一些线索进行预测。"
+    teaching_boundary:
+      scope_allowed:
+        - "识别预测的依据（题目、插图、内容线索）"
+        - "判断预测是否合理、说明预测理由"
+      scope_excluded:
+        - "脱离文本依据的随意猜想"
+        - "文学理论层面的接受美学分析"
+
+  - point_id: "chi-g3-t1-u03-p03"
+    unit_id: "unit-3"
+    lesson_id: "chi-g3-t1-u03-l02"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "边阅读边预测故事发展并验证"
+    learning_objectives:
+      - "能边阅读边预测故事的发展，运用预测策略理解课文内容"
+      - "能在预测后与原文比对，体会预测正确或不同时的阅读乐趣"
+      - "能结合角色形象，对故事结局作出有依据的预测"
+    applicable_question_types: ["reading", "writing", "choice"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P32", "P36"]
+      anchor_text: "《犟龟》学习提示「边阅读边预测故事的发展，总结角色形象」；《小狗学叫》学习提示运用预测策略猜想故事结局。（据教参 P58–P59 单元说明）"
+    teaching_boundary:
+      scope_allowed:
+        - "根据前文线索预测后文情节或结局，并说明依据"
+        - "比较自己的预测与原文的异同"
+      scope_excluded:
+        - "要求唯一正确答案的预测题（预测允许多种合理可能）"
+
+  - point_id: "chi-g3-t1-u03-p04"
+    unit_id: "unit-3"
+    lesson_id: "chi-g3-t1-u03-l03"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "课文内容概括与角色形象体会"
+    learning_objectives:
+      - "能概括三篇课文的主要内容，说出老屋、犟龟、小狗等角色的特点"
+      - "能借助角色言行体会故事蕴含的道理"
+    applicable_question_types: ["reading", "fill_blank", "writing"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P28", "P32", "P36"]
+      anchor_text: "依课本目录登记的课文页码范围；角色形象与情节梳理待补课本页面原文凭证后细化。"
+    teaching_boundary:
+      scope_allowed:
+        - "概括课文主要内容；说出角色特点"
+        - "结合故事内容谈自己的感受与启示"
+      scope_excluded:
+        - "脱离课文的主观臆断"
+
+  - point_id: "chi-g3-t1-u03-p05"
+    unit_id: "unit-3"
+    lesson_id: "chi-g3-t1-u03-l04"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "习作：续写故事"
+    learning_objectives:
+      - "能根据图意或故事开头，发挥想象把故事续写完整"
+      - "续写时能保持故事情节合理、前后连贯"
+      - "能按顺序把事情的经过写清楚，注意语句通顺"
+    applicable_question_types: ["writing", "choice"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P42"]
+      anchor_text: "习作《续写故事》：根据图意或开头续写故事，把故事写完整。（页码依课本目录登记）"
+    teaching_boundary:
+      scope_allowed:
+        - "根据提示续写故事，做到情节合理、连贯"
+        - "把一件事的经过写清楚"
+      scope_excluded:
+        - "完整记叙文的谋篇布局与高级写作技法"

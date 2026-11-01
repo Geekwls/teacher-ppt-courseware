@@ -1,0 +1,119 @@
+unit_id: unit-02
+source_id: pep_chinese_g2_t2_2024
+points:
+- point_id: chi-g2-t2-u02-p01
+  unit_id: unit-02
+  lesson_id: chi-g2-t2-u02-l01
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《雷锋叔叔，你在哪里》：诗歌的问与答、猜词意
+  learning_objectives:
+  - 能有感情地朗读课文，注意诗歌有问有答的特点
+  - 能猜出「足迹、泥泞、晶莹、寻觅」等词语的意思并说出方法
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P15
+    - P16
+    - P17
+    anchor_text: P15「5 雷锋叔叔，你在哪里」：「沿着长长的小溪，寻找雷锋的足迹。雷锋叔叔，你在哪里，你在哪里？」；P16「顺着弯弯的小路，寻找雷锋的足迹。……瞧，那花瓣上晶莹的露珠，就是他洒下的汗滴。」「乘着温暖的春风，我们四处寻觅。啊，终于找到了——哪里需要献出爱心，雷锋叔叔就出现在哪里。」；P17「猜猜下面词语的意思，并说说你是怎么猜出来的（足迹　泥泞　晶莹　寻觅）」。
+  teaching_boundary:
+    scope_allowed:
+    - 有感情地朗读课文
+    - 说出诗歌「有问有答」的结构特点
+    - 用「找近义词」「联系上下文」等方法猜词意
+    scope_excluded:
+    - 雷锋同志生平的完整传记
+    - 写话
+- point_id: chi-g2-t2-u02-p02
+  unit_id: unit-02
+  lesson_id: chi-g2-t2-u02-l02
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《千人糕》：默读与「千人糕」的含义
+  learning_objectives:
+  - 能默读课文，能说出米糕要经过哪些人的劳动
+  - 能举例说明生活用品也要经过很多人的劳动
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P18
+    - P19
+    - P20
+    anchor_text: P18「6 千人糕」：「一天，爸爸对孩子说：『今天我们来吃千人糕吧。』」；P19「爸爸拿起面前的糕，说：『你看，一块平平常常的糕，要经过很多很多人的劳动，才能摆在我们面前。』」；P20「默读课文。结合课文内容和插图，说说一块平常的米糕为什么被称作『千人糕』。」与「读一读，记一记」。
+  teaching_boundary:
+    scope_allowed:
+    - 默读课文并说出米糕的来历
+    - 说出「千人糕」的含义（很多人的劳动）
+    - 举出生活中需要很多人劳动的例子
+    scope_excluded:
+    - 食品工业的系统讲解
+    - 写话
+- point_id: chi-g2-t2-u02-p03
+  unit_id: unit-02
+  lesson_id: chi-g2-t2-u02-l03
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《我不是最弱小的》：分角色朗读与人物心理
+  learning_objectives:
+  - 能分角色朗读课文，能体会萨沙由「不解」到「勇敢」的心理变化
+  - 能说出「保护比自己弱小的」的含义
+  applicable_question_types:
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P21
+    - P22
+    - P23
+    anchor_text: P21「7 我不是最弱小的」：「夏天的一个周末，四岁的萨沙和哥哥托利亚跟父母一起到森林中去玩。」「妈妈回答说：『我们应该保护比自己弱小的。』」；P22「萨沙掀起雨衣，轻轻地遮在野蔷薇花上，问道：『妈妈，现在我还是最弱小的吗？』」「妈妈笑着说：『不，不，你能保护更弱小的，你是勇敢的孩子啦！』」；P23「分角色朗读课文」与「读下面的句子，结合妈妈的回答，体会萨沙心里的想法」。
+  teaching_boundary:
+    scope_allowed:
+    - 分角色朗读课文
+    - 说出萨沙心理变化的三个层次
+    - 说出「保护比自己弱小的」的含义
+    scope_excluded:
+    - 儿童心理学的系统讲解
+    - 写话
+- point_id: chi-g2-t2-u02-p04
+  unit_id: unit-02
+  lesson_id: chi-g2-t2-u02-l04
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 语文园地二：职业名称、部首查字与助人格言
+  learning_objectives:
+  - 能认读职业名称词语，能说出常见字的部首
+  - 能背诵三句关于助人的格言并说出大意
+  applicable_question_types:
+  - fill_blank
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P24
+    - P25
+    anchor_text: P24「语文园地二」识字加油站：教师、工程师、魔术师、建筑师、理发师、演员、营业员、服务员、裁判员、饲养员；字词句运用：下面这些字查什么部首（鹿／麝、金／鉴、高／敲、音／章、黑／默、衣／裂、辛／辣、鱼／鲁）；P25 日积月累：予人玫瑰，手有余香。／平时肯帮人，急时有人帮。／与其锦上添花，不如雪中送炭。
+  teaching_boundary:
+    scope_allowed:
+    - 认读职业名称词语
+    - 说出常见字的部首
+    - 背诵三句助人格言并说出大意
+    scope_excluded:
+    - 职业分类的系统讲解
+    - 汉字部首的完整体系

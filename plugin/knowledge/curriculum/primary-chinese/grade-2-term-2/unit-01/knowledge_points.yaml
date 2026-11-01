@@ -1,0 +1,145 @@
+unit_id: unit-01
+source_id: pep_chinese_g2_t2_2024
+points:
+- point_id: chi-g2-t2-u01-p01
+  unit_id: unit-01
+  lesson_id: chi-g2-t2-u01-l01
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《古诗二首》（咏柳、村居）：比喻与春日景象
+  learning_objectives:
+  - 能朗读背诵《咏柳》《村居》，能说出诗中的比喻（绿丝绦、剪刀、纸鸢）
+  - 能说出两首诗描写的春日景象
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P1
+    - P2
+    anchor_text: P1《咏柳》[唐] 贺知章：「碧玉妆成一树高，万条垂下绿丝绦。不知细叶谁裁出，二月春风似剪刀。」；P2《村居》[清] 高鼎：「草长莺飞二月天，拂堤杨柳醉春烟。儿童散学归来早，忙趁东风放纸鸢。」
+  teaching_boundary:
+    scope_allowed:
+    - 朗读、背诵两首古诗
+    - 说出「绿丝绦」「剪刀」的比喻对象
+    - 说出诗中描写的春日景象
+    scope_excluded:
+    - 古诗格律的系统讲解
+    - 诗人年谱与创作背景
+- point_id: chi-g2-t2-u01-p02
+  unit_id: unit-01
+  lesson_id: chi-g2-t2-u01-l02
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《找春天》：比喻句与观察方法
+  learning_objectives:
+  - 能朗读课文，能说出「我们」找到的春天是什么样的
+  - 能仿照课文用「……，那是春天的……吧？」的句式说句子
+  applicable_question_types:
+  - reading
+  - fill_blank
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P4
+    - P5
+    anchor_text: P4「2 找春天」：「春天来了！春天来了！我们几个孩子脱掉棉袄，冲出家门，奔向田野，去寻找春天。」「小草从地下探出头来，那是春天的眉毛吧？早开的野花一朵两朵，那是春天的眼睛吧？树木吐出点点嫩芽，那是春天的音符吧？解冻的小溪叮叮咚咚，那是春天的琴声吧？」；P5「朗读课文，感受春天的美景。说说『我们』找到的春天是什么样的。」
+  teaching_boundary:
+    scope_allowed:
+    - 朗读课文并说出找到的春天
+    - 仿照「……，那是春天的……吧？」说句子
+    - 积累「脱掉棉袄、冲出家门、奔向田野」等动词短语
+    scope_excluded:
+    - 拟人修辞的理论讲解
+    - 写话
+- point_id: chi-g2-t2-u01-p03
+  unit_id: unit-01
+  lesson_id: chi-g2-t2-u01-l03
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《开满鲜花的小路》：分角色朗读与「美好的礼物」
+  learning_objectives:
+  - 能分角色朗读课文，能说出「美好的礼物」指的是什么
+  - 能说说生活中还有什么是美好的礼物
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P6
+    - P7
+    - P8
+    anchor_text: P6「3 开满鲜花的小路」：「邮递员黄狗在门口喊：『鼹鼠先生，您的包裹单！』」；P7「通往松鼠太太家的路，成了一条开满鲜花的小路。」「松鼠太太对鼹鼠先生说：『我知道了，去年长颈鹿大叔寄给您的是花籽。这是多么美好的礼物啊！』」；P8「分角色朗读课文」与「为什么说长颈鹿大叔寄来的花籽是『美好的礼物』？生活中还有什么也是美好的礼物？」
+  teaching_boundary:
+    scope_allowed:
+    - 分角色朗读课文
+    - 说出「美好的礼物」指的是花籽并说明理由
+    - 举出生活中「美好的礼物」的例子
+    scope_excluded:
+    - 童话体裁的文学分析
+    - 写话
+- point_id: chi-g2-t2-u01-p04
+  unit_id: unit-01
+  lesson_id: chi-g2-t2-u01-l04
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《邓小平爷爷植树》：默读与动作描写
+  learning_objectives:
+  - 能默读课文并说出邓爷爷植树的情景
+  - 能找出描写邓爷爷动作的词句并体会其认真
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P9
+    - P10
+    anchor_text: P9「4 邓小平爷爷植树」：「1987年4月5日，是个令人难忘的日子。这一天，碧空如洗，万里无云。在北京天坛公园植树的人群里，83岁高龄的邓小平爷爷格外引人注目。只见他手握铁锹，兴致勃勃地挖着树坑，额头已经满是汗珠，仍不肯休息。」；P10「一棵绿油油的小柏树栽好了，就像战士一样笔直地站在那里。」「今天，邓小平爷爷亲手栽种的柏树已经长大了，成了天坛公园一处美丽的风景。」「默读第3自然段。结合课文内容和插图，说说邓爷爷植树的情景。」
+  teaching_boundary:
+    scope_allowed:
+    - 默读课文并说出植树的情景
+    - 找出并积累描写动作的词语（握、挖、挑选、移入、挥锹、扶正）
+    scope_excluded:
+    - 邓小平同志生平的系统介绍
+    - 写话
+- point_id: chi-g2-t2-u01-p05
+  unit_id: unit-01
+  lesson_id: chi-g2-t2-u01-l05
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 语文园地一：场所名称、书写提示与《赋得古原草送别》
+  learning_objectives:
+  - 能认读场所名称词语，能背诵《赋得古原草送别（节选）》
+  - 能说出半包围结构字的书写要点（撇画、捺画要舒展）
+  applicable_question_types:
+  - fill_blank
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P11
+    - P12
+    anchor_text: P11「语文园地一」识字加油站：亭、咨询处、宝塔、餐厅、厕所（游览公园时，我会看导览图）；字词句运用：补充合适的词语，再说一说你在春天里看到了什么，感受到了什么；P12 书写提示（左上包围的字撇画要舒展、左下包围的字捺画要舒展）与日积月累《赋得古原草送别（节选）》[唐] 白居易（离离原上草，一岁一枯荣。野火烧不尽，春风吹又生。）。
+  teaching_boundary:
+    scope_allowed:
+    - 认读场所名称词语
+    - 背诵《赋得古原草送别（节选）》并说出小草的特点
+    - 说出半包围结构字的书写要点
+    scope_excluded:
+    - 公共场所管理的系统知识
+    - 书法技法的系统讲解

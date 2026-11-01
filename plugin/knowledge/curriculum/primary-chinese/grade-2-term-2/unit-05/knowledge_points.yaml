@@ -1,0 +1,60 @@
+unit_id: unit-05
+source_id: pep_chinese_g2_t2_2024
+points:
+- point_id: chi-g2-t2-u05-p01
+  unit_id: unit-05
+  lesson_id: chi-g2-t2-u05-l01
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《寓言二则》（亡羊补牢、揠苗助长）
+  learning_objectives:
+  - 能朗读两则寓言，能说出「亡羊补牢」「揠苗助长」的意思与道理
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P55
+    - P56
+    anchor_text: 单元起始页 P55 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《亡羊补牢》中养羊人两次丢羊的不同态度
+    - 《揠苗助长》中农夫把禾苗拔高的做法
+    scope_excluded:
+    - 成语典故的系统源流
+    - 写话
+- point_id: chi-g2-t2-u05-p02
+  unit_id: unit-05
+  lesson_id: chi-g2-t2-u05-l01
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《画杨桃》《小马过河》
+  learning_objectives:
+  - 能朗读两篇课文，能说出「我」把杨桃画成五角星的原因、小马为什么过不了河
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P58
+    - P61
+    - P65
+    anchor_text: 单元起始页 P58 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《画杨桃》中从不同角度看杨桃形状不同
+    - 《小马过河》中老牛与松鼠对河水深浅的不同说法
+    scope_excluded:
+    - 透视原理的系统讲解
+    - 写话

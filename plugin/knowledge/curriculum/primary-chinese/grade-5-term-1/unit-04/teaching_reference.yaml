@@ -1,0 +1,32 @@
+unit_id: unit-04
+source_id: pep_chinese_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g5-t1-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「结合资料」为方法，让学生理解课文背后的历史背景与情感
+    difficulty: 学生易只背诗句而不能体会情感
+    typical_misconceptions:
+    - error_pattern: 只背诗句不体会情感
+      misconception_type: 体会不深入
+    - error_pattern: 结合资料时资料与课文脱节
+      misconception_type: 资料运用不当
+  variation_strategy:
+  - 结合资料说出课文表达的思想感情
+  - 说出诗句的意思与情感
+- point_id: chi-g5-t1-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「二十年后的家乡」为想象任务，先列提纲再写作
+    difficulty: 学生易不列提纲直接写，条理不清
+    typical_misconceptions:
+    - error_pattern: 不列提纲直接写
+      misconception_type: 结构混乱
+    - error_pattern: 想象脱离家乡实际
+      misconception_type: 想象不合理
+  variation_strategy:
+  - 列出习作提纲
+  - 按提纲写「二十年后的家乡」

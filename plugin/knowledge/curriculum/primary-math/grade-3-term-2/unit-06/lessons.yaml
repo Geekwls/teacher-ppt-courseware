@@ -1,0 +1,48 @@
+lessons:
+  - lesson_id: "math-g3-t2-u06-l01"
+    unit_id: "unit-6"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 1
+    lesson_name: "第1课时 认识年、月、日与大月小月"
+    page_range: "P77-P79"
+    official_examples:
+      - "例1：观察年历卡。一年有12个月，大月有31天（1、3、5、7、8、10、12月共7个），小月有30天（4、6、9、11月共4个）。二月是特殊月。"
+      - "拳头记忆法与歌诀：一三五七八十腊，三十一天永不差；四六九冬三十整，平年二月二十八。"
+
+  - lesson_id: "math-g3-t2-u06-l02"
+    unit_id: "unit-6"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 2
+    lesson_name: "第2课时 平年与闰年的特征及判定"
+    page_range: "P80-P81"
+    official_examples:
+      - "例2：二月有28天的年份是平年，平年全年有365天；二月有29天的年份是闰年，闰年全年有366天。"
+      - "判断方法：公历年份是4的倍数一般是闰年；公历年份是整百数的，必须是400的倍数才是闰年（如1900年是平年，2000年是闰年，2024年是闰年）。"
+
+  - lesson_id: "math-g3-t2-u06-l03"
+    unit_id: "unit-6"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 3
+    lesson_name: "第3课时 24时计时法的认识与转换"
+    page_range: "P82-P83"
+    official_examples:
+      - "例3：钟面上一天时针走2圈，一天有24小时。采用0时到24时的计时法叫24时计时法。"
+      - "转换规则：上午和中午12时及以前两法数字相同（普通计时法需加‘上午’等时间词）；下午和晚上将数字加上12即为24时计时法（如晚上8时即20时）。"
+
+  - lesson_id: "math-g3-t2-u06-l04"
+    unit_id: "unit-6"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 4
+    lesson_name: "第4课时 简单经过时间的计算与综合实践"
+    page_range: "P84-P85"
+    official_examples:
+      - "例4：列车14:15出发，17:40到达，运行多长时间？（结束时刻 - 开始时刻 = 经过时间：17时40分 - 14时15分 = 3小时25分）。"
+      - "做一做：营业时间 8:30 - 21:00，一天营业多长时间？"

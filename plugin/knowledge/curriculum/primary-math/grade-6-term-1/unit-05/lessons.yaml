@@ -1,0 +1,50 @@
+lessons:
+- lesson_id: math-g6-t1-u05-l01
+  unit_id: unit-05
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 1
+  lesson_name: 圆和扇形的认识
+  page_range: P48-P51
+  official_examples:
+  - 圆心：针尖固定的一点，通常用字母 O 表示；半径：连接圆心和圆上任意一点的线段，通常用字母 r 表示；直径：通过圆心并且两端都在圆上的线段，通常用字母 d 表示。
+  - 同一个圆所有的半径都相等，所有的直径都相等，直径长度是半径的 2 倍（d=2r）。
+  - 圆心确定了圆的中心位置，半径决定了圆的大小。
+  - 圆上 A、B 两点之间的部分叫作弧 AB；一条弧和经过这条弧两端的两条半径所围成的图形叫作扇形；顶点在圆心的角叫作圆心角。扇形的大小与它的圆心角的大小有关。
+- lesson_id: math-g6-t1-u05-l02
+  unit_id: unit-05
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 2
+  lesson_name: 圆的周长
+  page_range: P55-P57
+  official_examples:
+  - 围成圆的曲线的长是圆的周长。
+  - 一个圆的周长总是它的直径的 3 倍多一些。任意一个圆的周长除以它的直径，所得的结果是一个固定的数，叫作圆周率，用字母 π 表示。π=3.1415926535…
+  - 如果用 C 表示圆的周长，就有 C=πd 或 C=2πr。
+  - 约 1500 年前，祖冲之计算出圆周率在 3.1415926 和 3.1415927 之间，成为世界上第一个把圆周率的值精确到小数点后 7 位的人。
+- lesson_id: math-g6-t1-u05-l03
+  unit_id: unit-05
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 3
+  lesson_name: 圆的面积
+  page_range: P60-P61
+  official_examples:
+  - 用边长为 1 cm 的小方格数一数，圆的面积大约是半径平方的 3.1 倍。
+  - 把圆等分成 8、16、32 份，剪拼成近似长方形：长方形的长近似于 πr，宽近似于 r。因为长方形的面积=长×宽，所以圆的面积=πr×r=πr²，即 S=πr²。
+  - 刘徽的「割圆术」：「割之弥细，所失弥少，割之又割，以至于不可割，则与圆周合体而无所失矣。」
+- lesson_id: math-g6-t1-u05-l04
+  unit_id: unit-05
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 4
+  lesson_name: 圆环与组合图形面积
+  page_range: P63-P65
+  official_examples:
+  - 圆环的面积=外圆面积−内圆面积（如外圆直径 26.3 cm、内圆直径 5.4 cm 的玉璧）。
+  - 「外方内圆」就是研究正方形内最大的圆，正方形的边长与圆的直径相等；「外圆内方」就是研究圆内最大的正方形，正方形可以看作两个三角形。

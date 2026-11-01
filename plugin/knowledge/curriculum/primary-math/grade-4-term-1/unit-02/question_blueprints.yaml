@@ -1,0 +1,58 @@
+unit_id: unit-02
+blueprints:
+- blueprint_id: bp-math-g4-t1-u02-standard
+  title: 综合与实践 1亿有多大标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填（推算）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 6
+    item_count: 4
+    target_points:
+    - math-g4-t1-u02-p01
+    guidelines: 完成 100 张纸→10000 张纸→1 亿张纸的高度推算。
+  - slot_id: slot-02
+    section: 二、算一算（单位换算）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 6
+    item_count: 3
+    target_points:
+    - math-g4-t1-u02-p01
+    - math-g4-t1-u02-p02
+    guidelines: 把 1 亿厘米换算成米，把 1 亿秒换算成天。
+  - slot_id: slot-03
+    section: 三、选一选（量感）
+    question_type: choice
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g4-t1-u02-p02
+    guidelines: 判断关于「1 亿有多大」的说法是否合理。
+  - slot_id: slot-04
+    section: 四、读一读，说一说
+    question_type: reading
+    difficulty: variation
+    points_per_item: 8
+    item_count: 3
+    target_points:
+    - math-g4-t1-u02-p02
+    guidelines: 用生活中的例子说明 1 亿有多大。
+  - slot_id: slot-05
+    section: 五、写一写（探究记录）
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 18
+    item_count: 1
+    target_points:
+    - math-g4-t1-u02-p03
+    guidelines: 按「提出问题—分析问题—得出结论—回顾反思」写一次探究记录。

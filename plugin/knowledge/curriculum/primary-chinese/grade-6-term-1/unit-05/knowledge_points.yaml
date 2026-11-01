@@ -1,0 +1,32 @@
+unit_id: unit-05
+source_id: pep_chinese_g6_t1_2024
+points:
+- point_id: chi-g6-t1-u05-p01
+  unit_id: unit-05
+  lesson_id: chi-g6-t1-u05-l01
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 围绕中心意思选材
+  learning_objectives:
+  - 能确定文章的中心意思，能从不同方面或选取不同事例表达中心意思
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P69
+    - P70
+    - P73
+    anchor_text: 单元起始页 P69 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《灯光》《盼》
+    - 习作例文《爸爸的计划》《小站》
+    scope_excluded:
+    - 写作教学中的中心思想
+    - 选材与剪裁的写作技巧

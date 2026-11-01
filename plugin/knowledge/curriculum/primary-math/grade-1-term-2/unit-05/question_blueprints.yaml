@@ -1,0 +1,76 @@
+unit_id: unit-05
+blueprints:
+- blueprint_id: bp-math-g1-t2-u05-standard
+  title: 第五单元 100以内的笔算加、减法标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、用竖式计算
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 6
+    target_points:
+    - math-g1-t2-u05-p01
+    - math-g1-t2-u05-p02
+    guidelines: 100 以内加减法竖式计算（含进位、退位）。
+  - slot_id: slot-02
+    section: 二、填一填
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t2-u05-p01
+    guidelines: 填写竖式中缺失的数位或数字。
+  - slot_id: slot-03
+    section: 三、在○里填「＞」「＜」或「＝」
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t2-u05-p02
+    guidelines: 比较算式得数的大小。
+  - slot_id: slot-04
+    section: 四、改错
+    question_type: choice
+    difficulty: variation
+    points_per_item: 4
+    item_count: 3
+    target_points:
+    - math-g1-t2-u05-p02
+    guidelines: 判断竖式对错并改正，说明错因。
+  - slot_id: slot-05
+    section: 五、看图列式
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 5
+    item_count: 2
+    target_points:
+    - math-g1-t2-u05-p03
+    guidelines: 根据图意列式（含两步）并计算。
+  - slot_id: slot-06
+    section: 六、解决问题
+    question_type: reading
+    difficulty: variation
+    points_per_item: 8
+    item_count: 2
+    target_points:
+    - math-g1-t2-u05-p03
+    guidelines: 情境题：列式计算并口答。
+  - slot_id: slot-07
+    section: 七、想一想
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 11
+    item_count: 1
+    target_points:
+    - math-g1-t2-u05-p03
+    guidelines: 两步问题：先说数量关系再解答。

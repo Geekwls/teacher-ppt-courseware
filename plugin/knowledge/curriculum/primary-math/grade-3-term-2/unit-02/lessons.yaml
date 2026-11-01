@@ -1,0 +1,106 @@
+unit_id: "unit-2"
+source_id: "pep_math_g3_t2_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "整十、整百、整千数除以一位数的口算"
+    page_range: "P10"
+    official_examples:
+      - example_id: "ex_1"
+        title: "手工纸平均分问题"
+        page: 10
+        formula_or_context: "60 ÷ 3 = 20"
+        core_concept: "通过摆小棒理解算理：60是6个十，6个十平均分成3份，每份是2个十，即20；进而类推计算 600÷3=200, 6000÷3=2000。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "两位数、几百几十除以一位数的口算"
+    page_range: "P10-P11"
+    official_examples:
+      - example_id: "ex_2"
+        title: "彩色手工纸分发（两位数除以一位数）"
+        page: 10
+        formula_or_context: "69 ÷ 3 = 23"
+        core_concept: "将69拆分为6个十和9个一，分别除以3：6个十÷3=2个十(20)，9个一÷3=3个一(3)，合起来20+3=23。建立分步口算与竖式分层对应的基础。"
+      - example_id: "ex_3"
+        title: "几百几十除以一位数的口算"
+        page: 11
+        formula_or_context: "120 ÷ 3 = 40"
+        core_concept: "1个百除以3不够1个百，将120看作12个十，12个十÷3=4个十，即40；进而口算 180÷3=60。"
+
+  - lesson_id: "lesson-03"
+    lesson_number: 3
+    lesson_name: "两位数除以一位数的笔算及验算"
+    page_range: "P15-P16"
+    official_examples:
+      - example_id: "ex_4"
+        title: "社区垃圾分类志愿者分组问题"
+        page: 15
+        formula_or_context: "36 ÷ 2 = 18"
+        core_concept: "经历笔算除法竖式的分步形成：先除十位，3个十除以2商1个十余1个十；余下的1个十与个位6合为16个一再除以2商8；掌握商乘除数等于被除数的验算方法。"
+
+  - lesson_id: "lesson-04"
+    lesson_number: 4
+    lesson_name: "三位数除以一位数的笔算（首位够除）"
+    page_range: "P16"
+    official_examples:
+      - example_id: "ex_5"
+        title: "读书节活动读后感篇数"
+        page: 16
+        formula_or_context: "256 ÷ 2 = 128"
+        core_concept: "首位够除时，商的最高位写在百位，商是三位数；从百位除起，逐位下移合并余数继续往下除。"
+
+  - lesson_id: "lesson-05"
+    lesson_number: 5
+    lesson_name: "三位数除以一位数的笔算（首位不够除）与有余数验算"
+    page_range: "P17-P18"
+    official_examples:
+      - example_id: "ex_6"
+        title: "分石榴问题"
+        page: 17
+        formula_or_context: "148 ÷ 6 = 24 …… 4"
+        core_concept: "1个百除以6不够商1个百，看前两位，用14个十除以6商2个十，商写在十位上，商是两位数；明确余数必须比除数小；掌握『商×除数+余数=被除数』的验算方法。"
+
+  - lesson_id: "lesson-06"
+    lesson_number: 6
+    lesson_name: "有关 0 的除法规律"
+    page_range: "P20"
+    official_examples:
+      - example_id: "ex_7"
+        title: "0的除法算理"
+        page: 20
+        formula_or_context: "0 ÷ 5 = 0"
+        core_concept: "理解0除以任何不是0的数都得0的本质；明确除数不能为0。"
+
+  - lesson_id: "lesson-07"
+    lesson_number: 7
+    lesson_name: "商中间有 0 的除法笔算"
+    page_range: "P20-P21"
+    official_examples:
+      - example_id: "ex_8"
+        title: "买办公用品与计算"
+        page: 20
+        formula_or_context: "208 ÷ 2 = 104，216 ÷ 2 = 108"
+        core_concept: "除到被除数的十位是0或者十位不够商1时，必须在十位商0占位；掌握简化竖式的规范写法。"
+
+  - lesson_id: "lesson-08"
+    lesson_number: 8
+    lesson_name: "商末尾有 0 的除法笔算"
+    page_range: "P23"
+    official_examples:
+      - example_id: "ex_9"
+        title: "分发纪念品与计算"
+        page: 23
+        formula_or_context: "650 ÷ 5 = 130，245 ÷ 8 = 30 …… 5"
+        core_concept: "除到个位不够商1时，在个位商0占位，被除数个位上的数落下来直接作为余数。"
+
+  - lesson_id: "lesson-09"
+    lesson_number: 9
+    lesson_name: "除法估算与解决实际问题"
+    page_range: "P13, P24-P26"
+    official_examples:
+      - example_id: "ex_10"
+        title: "买衣服价格估算与两步连除解决问题"
+        page: 13
+        formula_or_context: "148 ÷ 3 ≈ 50，两步连除运算"
+        core_concept: "根据实际问题情境把被除数看作接近的整百数或几百几十数进行估算；理清总量、份数与每份数关系，运用连除或乘除混合两步计算解决问题。"

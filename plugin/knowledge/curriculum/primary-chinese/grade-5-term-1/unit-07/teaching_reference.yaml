@@ -1,0 +1,32 @@
+unit_id: unit-07
+source_id: pep_chinese_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g5-t1-u07-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以古诗中的动静结合为切入点，体会静态描写与动态描写的表达效果
+    difficulty: 学生易把静态与动态对立起来
+    typical_misconceptions:
+    - error_pattern: 把静态与动态对立
+      misconception_type: 概念理解偏差
+    - error_pattern: 描写景物时只有一种状态
+      misconception_type: 描写单一
+  variation_strategy:
+  - 区分静态描写与动态描写
+  - 体会动静结合的表达效果
+- point_id: chi-g5-t1-u07-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「我最喜爱的季节」为题，练习写出景物的变化
+    difficulty: 学生易只写景物的静态样貌而不写变化
+    typical_misconceptions:
+    - error_pattern: 只写静态样貌不写变化
+      misconception_type: 变化描写缺失
+    - error_pattern: 景物特点不突出
+      misconception_type: 描写笼统
+  variation_strategy:
+  - 按顺序描写景物的变化
+  - 写「我最喜爱的季节」

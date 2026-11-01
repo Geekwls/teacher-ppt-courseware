@@ -1,0 +1,70 @@
+lessons:
+  - lesson_id: "math-g3-t2-u03-l01"
+    unit_id: "unit-3"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 1
+    lesson_name: "第1课时 四边形的初步认识与分类"
+    page_range: "P39-P40"
+    official_examples:
+      - "例1：观察丰富图形，给四边形涂色。四边形有4条直的边，有4个角。"
+
+  - lesson_id: "math-g3-t2-u03-l02"
+    unit_id: "unit-3"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 2
+    lesson_name: "第2课时 长方形和正方形的特征"
+    page_range: "P41-P42"
+    official_examples:
+      - "例2：折一折、量一量。长方形的对边相等，4个角都是直角；正方形的4条边都相等，4个角都是直角。"
+      - "做一做：在方格纸上画一个长6厘米、宽4厘米的长方形和一个边长5厘米的正方形。"
+
+  - lesson_id: "math-g3-t2-u03-l03"
+    unit_id: "unit-3"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 3
+    lesson_name: "第3课时 认识周长与周长测量"
+    page_range: "P43-P44"
+    official_examples:
+      - "例3：封闭图形一周的长度，是它的周长。"
+      - "做一做：用直尺量出三角形各边长度相加求周长；用线绕树叶一圈再拉直量长度（化曲为直）。"
+
+  - lesson_id: "math-g3-t2-u03-l04"
+    unit_id: "unit-3"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 4
+    lesson_name: "第4课时 长方形和正方形的周长计算"
+    page_range: "P45-P47"
+    official_examples:
+      - "例4：长方形草坪长6米，宽4米，周长是 (6+4)×2=20(米)。"
+      - "例5：正方形花坛边长8分米，周长是 8×4=32(分米)。"
+
+  - lesson_id: "math-g3-t2-u03-l05"
+    unit_id: "unit-3"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 5
+    lesson_name: "第5课时 解决问题（拼组图形与靠墙篱笆周长）"
+    page_range: "P48-P50"
+    official_examples:
+      - "例6：用16张边长1分米的正方形拼长方形，怎样拼周长最短？（拼成4×4正方形周长16分米最短，拼成1×16长方形周长34分米最长）。"
+      - "练习：一面靠墙围菜地，篱笆至少要多长（长边靠墙篱笆最短）。"
+
+  - lesson_id: "math-g3-t2-u03-l06"
+    unit_id: "unit-3"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 6
+    lesson_name: "第6课时 单元整理与复习"
+    page_range: "P50-P51"
+    official_examples:
+      - "整理与复习：用平移法求凹凸图形（楼梯形、缺角图形）的周长。"

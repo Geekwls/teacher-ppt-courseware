@@ -1,0 +1,99 @@
+unit_id: "unit-4"
+source_id: "pep_english_g3_t1_tr_2024"
+teaching_references:
+  - point_id: "eng-g3-t1-u04-p01"
+    ref_book: "人教版《教师教学用书》英语三年级上册第四单元"
+    ref_page: "P86-P89"
+    pedagogical_focus:
+      key_point: "掌握字母 Mm, Nn, Oo, Pp 的笔顺笔画与四线三格占格规范，重点攻克小写 p 的占格"
+      difficulty: "小写字母 p 占中下格（竖画从第二线向下穿过第三线），切勿写成占上中格；小写 m 与 n 的中间拱形圆润占满中格"
+      typical_misconceptions:
+        - error_pattern: "将小写 p 写在上中两格（与大写 P 混淆）"
+          misconception_type: "四线三格占位错误"
+        - error_pattern: "大写 M 和 N 的斜线起笔与横竖笔画连接不规范"
+          misconception_type: "笔顺笔画失误"
+    variation_strategy:
+      - "字母大小写对对碰：M-m, N-n, O-o, P-p"
+      - "四线三格找不同：圈出占格书写正确的字母"
+
+  - point_id: "eng-g3-t1-u04-p02"
+    ref_book: "人教版《教师教学用书》英语三年级上册第四单元"
+    ref_page: "P88-P91"
+    pedagogical_focus:
+      key_point: "掌握辅音字母 m(/m/), n(/n/), p(/p/)及短元音 o(/ɒ/)的发音，建立 CVC 拼读感知"
+      difficulty: "准确体会双唇鼻音 /m/ 与齿龈鼻音 /n/ 的发音部位区别，以及短元音 /ɒ/ 的圆唇开口度"
+      typical_misconceptions:
+        - error_pattern: "将短元音 /ɒ/（如 orange, fox）读成字母本身音 /əʊ/"
+          misconception_type: "字母名称音与自然拼读发音混淆"
+        - error_pattern: "在单词词尾遗漏鼻音 /n/（如 fan）"
+          misconception_type: "尾音丢失"
+    variation_strategy:
+      - "听音辨首音与尾音：听 new 选首音 /n/，听 fan 选尾音 /n/"
+      - "拼读拆装卡片：n-o-d -> nod, h-o-p -> hop"
+
+  - point_id: "eng-g3-t1-u04-p03"
+    ref_book: "人教版《教师教学用书》英语三年级上册第四单元"
+    ref_page: "P80-P83"
+    pedagogical_focus:
+      key_point: "熟练认读核心水果名词复数形式（apples, bananas, oranges, grapes）"
+      difficulty: "理解表示一类水果通常用复数形式（I like bananas，不可单独说 I like banana）"
+      typical_misconceptions:
+        - error_pattern: "在表达喜爱某类水果时遗漏复数词尾 -s"
+          misconception_type: "复数泛指意识缺乏"
+        - error_pattern: "混淆 orange（橙子）与 apple（苹果）的英文拼写"
+          misconception_type: "词汇形义混淆"
+    variation_strategy:
+      - "水果盘看图选词：将真实水果图片与对应复数英文配对"
+      - "水果特征配对：bananas - long, grapes - small"
+
+  - point_id: "eng-g3-t1-u04-p04"
+    ref_book: "人教版《教师教学用书》英语三年级上册第四单元"
+    ref_page: "P78-P81"
+    pedagogical_focus:
+      key_point: "掌握 Do you like...? 及其答语 Yes, I do. / No, I don't.，运用 And you? 维持对话"
+      difficulty: "在否定回答后自然补充自己喜好的物品（No, I don't. I like bananas.）"
+      typical_misconceptions:
+        - error_pattern: "将否定回答误写为 No, I doesn't. 或 No, I amn't."
+          misconception_type: "助动词否定形式错误"
+    variation_strategy:
+      - "水果偏好微调查：Do you like grapes? Yes, I do."
+      - "情境对话补全：对方询问 And you? 时表达自己的观点"
+
+  - point_id: "eng-g3-t1-u04-p05"
+    ref_book: "人教版《教师教学用书》英语三年级上册第四单元"
+    ref_page: "P84-P87"
+    pedagogical_focus:
+      key_point: "认读植物生态核心词汇（plants, trees, flowers, grass, air, water, sun）"
+      difficulty: "建立 air, water, sun 为植物生长三大不可或缺要素的认知链条"
+      typical_misconceptions:
+        - error_pattern: "将 grass（草，不可数或集体）错误添加复数 -es"
+          misconception_type: "名词可数性混淆"
+    variation_strategy:
+      - "自然图谱归类：植物自身（tree, flower, grass）vs 生存要素（air, water, sun）"
+      - "看自然画卷连线词汇"
+
+  - point_id: "eng-g3-t1-u04-p06"
+    ref_book: "人教版《教师教学用书》英语三年级上册第四单元"
+    ref_page: "P82-P85"
+    pedagogical_focus:
+      key_point: "运用 We can + 动词原形 提出保护植物与绿化环境的行动建议"
+      difficulty: "water 在此处作为及物动词（water the flowers 浇花），与名词 a glass of water 的语义转换"
+      typical_misconceptions:
+        - error_pattern: "在 We can 后面错误添加动词不定式符号 to（如 We can to water）"
+          misconception_type: "情态动词用法误用"
+    variation_strategy:
+      - "绿色校园行动选词造句：We can (water / plant) the flowers."
+      - "情境问答：How can we help? -> We can plant new trees."
+
+  - point_id: "eng-g3-t1-u04-p07"
+    ref_book: "人教版《教师教学用书》英语三年级上册第四单元"
+    ref_page: "P90-P93"
+    pedagogical_focus:
+      key_point: "掌握 Plants need... 与 Plants can give us... 表达人与植物互利共生"
+      difficulty: "深刻理解 need（需要）与 give（给予）的逻辑关系，感悟人与自然和谐共处"
+      typical_misconceptions:
+        - error_pattern: "颠倒逻辑，说成 We need plants to give us air but we can't help"
+          misconception_type: "生态互惠逻辑缺失"
+    variation_strategy:
+      - "双向表格匹配：What do plants need? vs What can plants give us?"
+      - "阅读简短生态语篇并完成 True/False 判断"

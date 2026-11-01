@@ -1,0 +1,46 @@
+unit_id: unit-02
+source_id: pep_math_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g4-t1-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「1 亿张纸太多、量不了」为认知冲突，引出「先量 100 张再推算」的策略，把 100→10000→100000000 的倍数关系作为推算的骨架
+    difficulty: 学生易把 1 亿张纸的高度直接说成「1 亿厘米」而没有做单位换算；易把「100 张纸厚 1 cm」与「10000 张纸高 1 m」的换算关系弄错
+    typical_misconceptions:
+    - error_pattern: 把 1 亿张纸的高度算成 100000000 cm
+      misconception_type: 单位换算缺失
+    - error_pattern: 说不出为什么可以先量 100 张
+      misconception_type: 方法意识不足
+  variation_strategy:
+  - 说出你打算怎样研究 1 亿张纸有多高
+  - 完成 100→10000→100000000 的倍数推算表
+- point_id: math-g4-t1-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把抽象的大数落到「可称、可数、可比」的具体量上（重量、时间、长度），让学生在多个维度上反复感受 1 亿，逐步建立量感
+    difficulty: 学生易把「1 亿」只理解成一个很大的数而说不出具体有多大多重；易把「1 亿秒」与「1 亿小时」混为一谈
+    typical_misconceptions:
+    - error_pattern: 说不出 1 亿的具体感受
+      misconception_type: 量感未建立
+    - error_pattern: 把 1 亿秒直接说成 1 亿小时
+      misconception_type: 时间单位换算错误
+  variation_strategy:
+  - 举例说明 1 亿有多大
+  - 算一算 1 亿秒相当于多少小时、多少天
+- point_id: math-g4-t1-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「提出问题—分析问题—得出结论—回顾反思」作为可迁移的方法支架，让学生把它用到自己提出的新问题上
+    difficulty: 学生易把「提出问题」写成「回答问题」，缺少可研究的疑问形式；易跳过「回顾反思」环节
+    typical_misconceptions:
+    - error_pattern: 提出的问题不可研究或已含答案
+      misconception_type: 问题意识不足
+    - error_pattern: 研究记录中缺少结论或感想
+      misconception_type: 探究环节不完整
+  variation_strategy:
+  - 按四个步骤完整写出一次探究活动的记录
+  - 独立提出一个与 1 亿有关的问题

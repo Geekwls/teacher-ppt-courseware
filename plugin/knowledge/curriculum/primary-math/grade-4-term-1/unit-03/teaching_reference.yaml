@@ -1,0 +1,88 @@
+unit_id: unit-03
+source_id: pep_math_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g4-t1-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 用「旋转的幅度」替代「张口大小」的直观描述，把角与旋转量对应起来；借「旋转半周/一周」的连续动作帮助学生理解平角与周角
+    difficulty: 学生易认为平角就是「一条直线」而不是一个角；易把周角误认为「没有角」
+    typical_misconceptions:
+    - error_pattern: 把平角说成一条直线
+      misconception_type: 角的本质未理解
+    - error_pattern: 认为周角不存在或等于 0°
+      misconception_type: 周角概念未建立
+  variation_strategy:
+  - 判断下面的角各是哪一种角
+  - 用旋转的语言描述平角与周角
+- point_id: math-g4-t1-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「旋转幅度」为主线把五种角串成一条连续的量轴，再用「周角 360°」作为换算的枢纽推出平角与直角
+    difficulty: 学生易认为「两个锐角合起来一定大于直角」（反例：30°+40°=70°）；易把「1 周角=2 直角」记错
+    typical_misconceptions:
+    - error_pattern: 认为两个锐角之和一定大于直角
+      misconception_type: 角的合成未理解
+    - error_pattern: 把 1 周角 = 2 平角 = 4 直角 记错
+      misconception_type: 换算关系未掌握
+  variation_strategy:
+  - 按从小到大的顺序排列五种角
+  - 判断「一个锐角和一个直角合起来一定是钝角」是否正确
+- point_id: math-g4-t1-u03-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「度量单位」的一般观念（先规定单位，再数个数）落到角上：单位是 1°，工具是量角器，读数是数出被测量的角包含多少个 1°
+    difficulty: 学生易把量角器上内圈、外圈刻度读混；易把「中心」与「顶点」对应错位置
+    typical_misconceptions:
+    - error_pattern: 量角时把内外圈刻度读混
+      misconception_type: 量角器读数规则未掌握
+    - error_pattern: 说不清为什么量角器是 180 等份
+      misconception_type: 度量单位观念未建立
+  variation_strategy:
+  - 看量角器上的刻度填出每个角的度数
+  - 说出量角器的中心与 0° 刻度线在哪里
+- point_id: math-g4-t1-u03-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把量角操作固化为可检查的三步（对中心、对边、读数），用「0° 刻度线在哪一圈就跟着读哪一圈」化解内外圈混淆
+    difficulty: 学生易把量角器中心对到角的边上而非顶点；易把钝角读成锐角（内外圈读反）
+    typical_misconceptions:
+    - error_pattern: 量角器中心未对准角的顶点
+      misconception_type: 操作步骤错误
+    - error_pattern: 钝角读成锐角（内外圈读反）
+      misconception_type: 读数规则未掌握
+  variation_strategy:
+  - 量出下面各个角的度数
+  - 说出量角时怎样避免把内外圈刻度读混
+- point_id: math-g4-t1-u03-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把画角与量角对照起来：量角是「读刻度」，画角是「找刻度」，两者的第一步都是「中心对顶点、0° 线对一边」
+    difficulty: 学生易在量角器上把 60° 刻度线找错（内圈外圈混）；易画出开口方向与要求不符的角
+    typical_misconceptions:
+    - error_pattern: 在量角器上找错 60° 刻度线
+      misconception_type: 内外圈混淆
+    - error_pattern: 只会在固定方向画角
+      misconception_type: 开口方向未理解
+  variation_strategy:
+  - 分别画出 75°、105° 的角
+  - 用一副三角尺拼出 75°、120°、135° 的角
+- point_id: math-g4-t1-u03-p06
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「都是数单位的个数」这一共同结构统摄长度、面积、角的测量，帮助学生把本单元新知挂到已有的度量经验上
+    difficulty: 学生易把「角的大小」与「边画得长短」联系起来，认为边越长角越大；易说不出三类测量的共同点
+    typical_misconceptions:
+    - error_pattern: 认为角的边越长角越大
+      misconception_type: 角的大小与边长无关未理解
+    - error_pattern: 说不出三类测量的共同点
+      misconception_type: 结构意识缺失
+  variation_strategy:
+  - 填一填并说出三类测量的共同点
+  - 画一个 60° 的角并说明它与长度、面积测量的联系

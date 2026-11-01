@@ -1,0 +1,48 @@
+lessons:
+- lesson_id: math-g6-t1-u01-l01
+  unit_id: unit-01
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 1
+  lesson_name: 用有序数对确定位置
+  page_range: P1-P2
+  official_examples:
+  - 在老师的座位表中，张亮在第 2 列、第 3 行，他的位置可以用一个有序数对（2，3）表示。
+  - 王艳的位置用有序数对表示是（…），赵雪的位置是（…）。看一看它们有什么不同。
+  - 观察这些有序数对：同一列，有序数对的第一个数都相同。
+  - （2，a）表示的是哪些同学的位置？（b，3）呢？
+- lesson_id: math-g6-t1-u01-l02
+  unit_id: unit-01
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 2
+  lesson_name: 用方向和距离确定位置
+  page_range: P5-P6
+  official_examples:
+  - 渔船距搜救船 1500 m。渔船在搜救船的东偏南 25° 方向上，也可以说渔船在搜救船的南偏东 65° 方向上。两种说法都对，但一般习惯用不大于 45° 的角来描述。
+  - 用 1 cm 表示 500 m，渔船距离搜救船 3 cm，也就是实际距离 1500 m。
+  - 确定平面内一个物体的准确位置，要先确定参照点，还需要知道物体相对于参照点的距离和方向。
+- lesson_id: math-g6-t1-u01-l03
+  unit_id: unit-01
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 3
+  lesson_name: 在平面图上标出位置与描述路线
+  page_range: P8-P10
+  official_examples:
+  - 一艘货船位于搜救船北偏西 40° 方向上，距离搜救船 1000 m：先在搜救船北偏西 40° 的方向上画一条射线，再在上面画出刻度表示距离（1 cm 表示 500 m，1000 m 用 2 cm 表示）。
+  - 小明回家的路线可以分成 3 段。第 1 段路线以学校为参照点，向南偏东 30° 方向走 200 m，到达邮局；第 2 段路线以邮局为参照点……描述路线时，每段路线都是以起点为参照点确定方向的。
+- lesson_id: math-g6-t1-u01-l04
+  unit_id: unit-01
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 4
+  lesson_name: 整理和复习
+  page_range: P11
+  official_examples:
+  - 平面内同一个点既可以用一个有序数对，又可以用方向和距离确定位置。
+  - 这两种方法都需要两个条件。在直线上用一个数表示点的位置；在平面内用两个数表示点的位置。

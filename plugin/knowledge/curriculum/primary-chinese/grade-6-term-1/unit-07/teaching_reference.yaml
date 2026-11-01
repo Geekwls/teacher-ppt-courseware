@@ -1,0 +1,32 @@
+unit_id: unit-07
+source_id: pep_chinese_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g6-t1-u07-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《两小儿辩日》为例，让学生梳理两小儿的观点与理由
+    difficulty: 学生易只记住故事而不会分析观点与理由的关系
+    typical_misconceptions:
+    - error_pattern: 只记故事不分析观点
+      misconception_type: 论证意识薄弱
+    - error_pattern: 理由与观点不匹配
+      misconception_type: 逻辑不严
+  variation_strategy:
+  - 说出文章的观点与所用事例
+  - 体会用事例说明观点的方法
+- point_id: chi-g6-t1-u07-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「插上科学的翅膀飞」为创作任务，写一篇科幻故事
+    difficulty: 学生易把科幻写成奇幻
+    typical_misconceptions:
+    - error_pattern: 把科幻写成奇幻
+      misconception_type: 科学依据缺失
+    - error_pattern: 情节不完整
+      misconception_type: 结构松散
+  variation_strategy:
+  - 写一个科幻故事片段
+  - 说明故事中的科学想象依据

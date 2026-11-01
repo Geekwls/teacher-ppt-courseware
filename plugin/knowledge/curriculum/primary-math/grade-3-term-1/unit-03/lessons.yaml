@@ -1,0 +1,77 @@
+unit_id: "unit-3"
+source_id: "pep_math_g3_t1_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "毫米、分米的认识"
+    page_range: "P20-P21"
+    official_examples:
+      - example_id: "ex_1"
+        title: "量一量数学书的长、宽和厚"
+        page: 20
+        formula_or_context: "1厘米 = 10毫米"
+        core_concept: "毫米是比厘米更小的单位，量比较短的物体或要求量得比较精确时，用毫米（mm）作单位；在直尺上，1厘米中的1小格表示1毫米，1厘米 = 10毫米。"
+      - example_id: "ex_2"
+        title: "认识分米"
+        page: 21
+        formula_or_context: "1分米 = 10厘米"
+        core_concept: "分米是比厘米更大的单位，量物体的长度有时用分米（dm）作单位；在直尺上指出10厘米的长度，10厘米就是1分米。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "长度单位间的换算"
+    page_range: "P22-P24"
+    official_examples:
+      - example_id: "ex_3"
+        title: "3厘米是多少毫米、70厘米是多少分米"
+        page: 22
+        formula_or_context: "3厘米 = 30毫米；70厘米 = 7分米；8分米 = 80厘米；5米 = 50分米；60毫米 = 6厘米"
+        core_concept: "高级单位换算成低级单位，用高级单位的数乘进率；低级单位换算成高级单位，用低级单位的数除以进率。相邻常用长度单位（毫米、厘米、分米、米）间的进率都是 10。"
+      - example_id: "ex_4"
+        title: "把2米长的木料锯成4根做凳子腿"
+        page: 22
+        formula_or_context: "2米 = 20分米，20 ÷ 4 = 5（分米）"
+        core_concept: "把一根长木料平均锯成若干段，需先统一单位，再用除法求出每段的长度。"
+      - example_id: "ex_5"
+        title: "练习五·单位换算与画线段"
+        page: 23
+        formula_or_context: "90厘米 = 9分米；100毫米 = 1分米；2米 = 200厘米；6分米 = 60厘米"
+        core_concept: "综合运用长度单位换算；按要求画出指定长度的线段（如5厘米8毫米、比1分米短3厘米5毫米），并在比较长度大小时先统一单位。"
+
+  - lesson_id: "lesson-03"
+    lesson_number: 3
+    lesson_name: "千米的认识"
+    page_range: "P25"
+    official_examples:
+      - example_id: "ex_6"
+        title: "认识千米"
+        page: 25
+        formula_or_context: "1千米 = 1000米；3千米 = 3000米；5000米 = 5千米"
+        core_concept: "计量比较长的路程，通常用千米（km）作单位；1千米 = 1000米，千米在日常生活中也叫「公里」。运动场跑道通常1圈400米，2圈半是1000米，即1千米。"
+
+  - lesson_id: "lesson-04"
+    lesson_number: 4
+    lesson_name: "估计距离"
+    page_range: "P26-P28"
+    official_examples:
+      - example_id: "ex_7"
+        title: "估计从家到学校大约有多远"
+        page: 26
+        formula_or_context: "一步约50厘米、两步约1米，走1000步约是500个两步，即约500米"
+        core_concept: "估计一段距离，需要先选择一个长度作为标准，再数出这段距离里有多少个这样的标准；经历「阅读理解—分析解答—回顾反思」的完整过程。"
+      - example_id: "ex_8"
+        title: "长途汽车能否按时到达"
+        page: 28
+        formula_or_context: "上午8时出发、中午12时共4小时，80 × 4 = 320（千米）> 308千米，能到达"
+        core_concept: "综合运用时间与路程的数量关系解决实际问题，感受大数目的长度单位在生活中的应用。"
+
+  - lesson_id: "lesson-05"
+    lesson_number: 5
+    lesson_name: "整理和复习"
+    page_range: "P29-P30"
+    official_examples:
+      - example_id: "ex_9"
+        title: "整理长度单位及单位间的进率"
+        page: 29
+        formula_or_context: "毫米—厘米—分米—米（相邻进率10），米—千米（进率1000）"
+        core_concept: "梳理已学的长度单位（毫米、厘米、分米、米、千米）及其进率，形成结构化认识；能根据物体长短选择合适的长度单位描述。"

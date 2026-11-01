@@ -1,0 +1,145 @@
+unit_id: unit-02
+source_id: pep_chinese_g2_t1_2024
+points:
+- point_id: chi-g2-t1-u02-p01
+  unit_id: unit-02
+  lesson_id: chi-g2-t1-u02-l01
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《场景歌》：量词的正确使用
+  learning_objectives:
+  - 能朗读背诵《场景歌》，能正确使用「只、条、块、方、座、丛、群、队」等量词
+  - 能仿照课文用量词描述一幅图中的景物
+  applicable_question_types:
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P16
+    - P17
+    anchor_text: P16「1 场景歌」（一只海鸥，一条帆船……）；P17「一（　）鱼塘　一（　）稻田　一（　）石桥　一（　）翠竹　一（　）海鸥　一（　）帆船」与「选一张你喜欢的照片或图画，仿照课文说说上面有些什么。」（生字：帆、港、湾、塘、稻、行、垂、园、溪、丛、翠、群、队、铜、号）。
+  teaching_boundary:
+    scope_allowed:
+    - 朗读、背诵《场景歌》
+    - 正确填写量词
+    - 仿照课文用量词描述一幅图
+    scope_excluded:
+    - 量词的语法系统讲解
+    - 写话
+- point_id: chi-g2-t1-u02-p02
+  unit_id: unit-02
+  lesson_id: chi-g2-t1-u02-l02
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《树之歌》：树木名称与特点、树木谚语
+  learning_objectives:
+  - 能朗读背诵《树之歌》，能说出几种树木的特点
+  - 能理解并积累「十年树木，百年树人」等树木谚语
+  applicable_question_types:
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P18
+    - P19
+    anchor_text: P18「2 树之歌」（杨树高，榕树壮，梧桐树叶像手掌。枫树秋天叶儿红，松柏四季披绿装。木棉喜暖在南方，桦树耐寒守北疆。银杏水杉活化石，金桂开花满院香。）；P19「十年树木，百年树人。」「树高百尺，叶落归根。」「树无根不长，人无志不立。」与「泡桐　白桦　云杉　翠柏」「树根　树干　树枝　树梢」。
+  teaching_boundary:
+    scope_allowed:
+    - 朗读、背诵《树之歌》
+    - 说出树木的特点（如梧桐叶像手掌、松柏四季常绿）
+    - 积累树木谚语并说出大意
+    scope_excluded:
+    - 树木分类学知识的系统讲解
+    - 写话
+- point_id: chi-g2-t1-u02-p03
+  unit_id: unit-02
+  lesson_id: chi-g2-t1-u02-l03
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《拍手歌》：动物名称与保护动物
+  learning_objectives:
+  - 能朗读背诵《拍手歌》，能认读课文中的动物名称
+  - 能说出保护动物、保护环境的道理
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P20
+    - P21
+    - P22
+    anchor_text: P20–P22「3 拍手歌」（你拍一，我拍一……以拍手歌形式认读动物名称，并表达保护动物、保护环境的意思）。
+  teaching_boundary:
+    scope_allowed:
+    - 朗读、背诵《拍手歌》
+    - 认读动物名称
+    - 说出保护动物的道理
+    scope_excluded:
+    - 野生动物的系统分类
+    - 写话
+- point_id: chi-g2-t1-u02-p04
+  unit_id: unit-02
+  lesson_id: chi-g2-t1-u02-l04
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《田家四季歌》：四季农事与农事词语
+  learning_objectives:
+  - 能朗读背诵《田家四季歌》，能说出四季的主要农事活动
+  - 能认读「耕田、犁地、播种、插秧、除草、割麦、打谷」等农事词语
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P23
+    - P24
+    anchor_text: P23「4 田家四季歌」（春季里，春风吹，花开草长蝴蝶飞。麦苗儿多嫩，桑叶儿正肥。夏季里，农事忙，采桑养蚕又插秧。早起勤耕作，归来戴月光。秋季里，稻上场，谷像黄金粒粒香。身体虽辛苦，心里喜洋洋。）；P24（冬季里，雪初晴，新制棉衣暖又轻。一年农事了，大家笑盈盈。）与「耕田　犁地　播种　插秧　除草　割麦　打谷」。
+  teaching_boundary:
+    scope_allowed:
+    - 朗读、背诵《田家四季歌》
+    - 说出四季的主要农事活动
+    - 认读并积累农事词语
+    - 体会农民的辛劳与喜悦
+    scope_excluded:
+    - 农业生产的系统知识
+    - 写话
+- point_id: chi-g2-t1-u02-p05
+  unit_id: unit-02
+  lesson_id: chi-g2-t1-u02-l05
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 语文园地二：部首查字法
+  learning_objectives:
+  - 能说出部首查字法的四个步骤，并能用部首查字法查出指定的字
+  - 能积累对韵语句
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P25
+    anchor_text: P25「语文园地二」：遇到不认识的字，可以用部首查字法查字典，如「诚」字。①要查「诚」的读音，先要确定这个字的部首是「讠」，再数数「讠」的笔画，共 2 画。②在「部首目录」里的「2 画」中找到部首「讠」和它所在的页码。③按照页码，在「检字表」中找「讠」部，再数数「诚」字除去部首还有几画……④按照页码，在正文中就可以查到「诚」字了。对韵：美对丑，爱对恨。真诚对虚假，热忱对冷漠。贫对富，冷对暖。
+  teaching_boundary:
+    scope_allowed:
+    - 说出部首查字法的四个步骤
+    - 用部首查字法查出生字的读音与页码
+    - 积累对韵语句
+    scope_excluded:
+    - 音序查字法的系统讲解
+    - 汉字部首的系统分类

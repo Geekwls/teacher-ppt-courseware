@@ -1,0 +1,59 @@
+unit_id: unit-04
+source_id: pep_chinese_g1_t2_2024
+points:
+- point_id: chi-g1-t2-u04-p01
+  unit_id: unit-04
+  lesson_id: chi-g1-t2-u04-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 《静夜思》与古诗朗读
+  learning_objectives:
+  - 能朗读、背诵《静夜思》，能说出诗中表达的思乡之情
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P39
+    anchor_text: 单元起始页 P39 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《静夜思》的朗读与背诵
+    - 「举头望明月，低头思故乡」的含义
+    scope_excluded:
+    - 李白的生平与诗歌赏析
+    - 古诗格律的系统讲解
+- point_id: chi-g1-t2-u04-p02
+  unit_id: unit-04
+  lesson_id: chi-g1-t2-u04-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 《夜色》《端午粽》与语文园地四
+  learning_objectives:
+  - 能朗读两篇课文，能说出端午节的习俗，能完成语文园地四的积累
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P40
+    - P42
+    - P44
+    anchor_text: 单元起始页 P40 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《夜色》中「我」由怕黑到勇敢的变化
+    - 端午节的习俗（吃粽子、赛龙舟等）
+    scope_excluded:
+    - 端午节的民俗史系统讲解
+    - 写话

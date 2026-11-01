@@ -1,0 +1,46 @@
+unit_id: unit-05
+source_id: pep_chinese_g1_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t2-u05-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「虫字旁的字多与昆虫有关」的字理线索组织识字，借助对韵句式感受语言节奏
+    difficulty: 学生易把动物与动作对应错，或说不出虫字旁的含义
+    typical_misconceptions:
+    - error_pattern: 把动物与动作对应错
+      misconception_type: 内容对应错误
+    - error_pattern: 说不出「虫字旁的字多与虫子有关」
+      misconception_type: 字理意识缺失
+  variation_strategy:
+  - 给动物与动作连线并认读虫字旁的字
+  - 仿照《古对今》说对子
+- point_id: chi-g1-t2-u05-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以提手旁、足字旁归类体育活动用字，把识字与课间活动结合起来
+    difficulty: 学生易把提手旁与足字旁的动作字混淆
+    typical_misconceptions:
+    - error_pattern: 把「跑」「踢」写成提手旁
+      misconception_type: 偏旁与动作类型未对应
+    - error_pattern: 《人之初》朗读时断句不当
+      misconception_type: 文言韵律未把握
+  variation_strategy:
+  - 按偏旁给体育活动名称分类
+  - 朗读《人之初》并说出大意
+- point_id: chi-g1-t2-u05-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以园地为载体整合本单元识字成果，通过归类巩固偏旁表意的规律
+    difficulty: 学生易只完成练习而不整理积累
+    typical_misconceptions:
+    - error_pattern: 学过的字认不全
+      misconception_type: 积累未系统化
+    - error_pattern: 日积月累背不下来
+      misconception_type: 积累不牢
+  variation_strategy:
+  - 朗读并背诵日积月累
+  - 给本单元会认字按偏旁分类

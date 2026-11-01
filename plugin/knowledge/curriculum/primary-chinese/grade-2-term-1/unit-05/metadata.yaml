@@ -1,0 +1,16 @@
+unit_id: unit-05
+unit_name: 第五单元 思维启迪与寓言
+subject: chinese
+edition: 统编版
+grade: 2
+term: term-1
+version: 2026.10.3
+updated_at: '2026-10-14'
+verification_status: verified
+source_id: pep_chinese_g2_t1_2026
+teaching_reference_source_id: pep_chinese_g2_t1_tr_2026
+page_range: P54-P66
+page_evidence_note: 依据用户提供的《2026版人教统编版小学语文二年级上册电子课本.pdf》（126页全本实测）逐页对齐核验：本单元真实印刷页码为
+  P54-P66，全文收录官方课文、写字表与词语表，已取得完整实证证据链，状态晋级为 verified。
+unit_overview: 阅读单元：安排《坐井观天》《寒号鸟》《我要的是葫芦》与语文园地五。在生动有趣的寓言童话中懂得观察事物要全面、做事不可得过且过、注重事物之间联系的深刻哲理。
+numeric_upper_bound: null

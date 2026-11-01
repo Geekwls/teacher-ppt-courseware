@@ -1,0 +1,39 @@
+unit_id: unit-08
+blueprints:
+- blueprint_id: bp-math-g6-t1-u08-standard
+  title: 综合与实践 水是生命之源标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填（数据分析）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 5
+    item_count: 6
+    target_points:
+    - math-g6-t1-u08-p01
+    guidelines: 根据用水数据填写统计量。
+  - slot_id: slot-02
+    section: 二、解决问题
+    question_type: reading
+    difficulty: variation
+    points_per_item: 10
+    item_count: 4
+    target_points:
+    - math-g6-t1-u08-p01
+    guidelines: 分析用水数据并提出建议。
+  - slot_id: slot-03
+    section: 三、实践与报告
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 15
+    item_count: 2
+    target_points:
+    - math-g6-t1-u08-p01
+    guidelines: 完成一份用水调查小报告。

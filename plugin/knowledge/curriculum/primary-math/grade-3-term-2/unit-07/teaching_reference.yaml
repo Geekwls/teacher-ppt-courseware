@@ -1,0 +1,71 @@
+unit_id: "unit-7"
+source_id: "pep_math_g3_t2_tr_2026"
+teaching_references:
+  - point_id: "math-g3-t2-u07-p01"
+    ref_book: "人教版《教师教学用书》数学三年级下册第七单元"
+    ref_page: "P232-P239"
+    pedagogical_focus:
+      key_point: "掌握小数的构成和标准读法，明确小数部分的读法规则"
+      difficulty: "小数部分的读法极易受整数读法负迁移影响（如 2.34 误读作二点三十四）"
+      typical_misconceptions:
+        - error_pattern: "把 3.50 读作三点五十（应读作三点五零）"
+          misconception_type: "小数部分按整数数级读法错误"
+        - error_pattern: "写小数时漏写小数点或将小数点写成顿号"
+          misconception_type: "小数点书写不规范"
+    variation_strategy:
+      - "写出读法：0.8 读作（零点八），15.4 读作（十五点四）"
+      - "名数转化：4元6角 = (4.6)元；2米8分米 = (2.8)米"
+
+  - point_id: "math-g3-t2-u07-p02"
+    ref_book: "人教版《教师教学用书》数学三年级下册第七单元"
+    ref_page: "P240-P244"
+    pedagogical_focus:
+      key_point: "理解十分之几的分数就是一位小数，体会分数的十进小数化本质"
+      difficulty: "在数轴上找小数的位置，数轴一小格表示 0.1 的刻度感建立"
+      typical_misconceptions:
+        - error_pattern: "把 1/10 误写成 0.01（混淆百分之一）"
+          misconception_type: "小数数位级别对应错乱"
+    variation_strategy:
+      - "分数小数互化填空：6/10 = (0.6)；0.9 = (9/10)"
+      - "数轴填数：在数轴括号里填上合适的小数"
+
+  - point_id: "math-g3-t2-u07-p03"
+    ref_book: "人教版《教师教学用书》数学三年级下册第七单元"
+    ref_page: "P245-P248"
+    pedagogical_focus:
+      key_point: "掌握先比整数部分、再比小数部分的顺序法则"
+      difficulty: "跳跑比赛中‘用时越短越快’与‘数值越大越好’的相反物理意义辨析"
+      typical_misconceptions:
+        - error_pattern: "50米跑步比赛，小明用时8.9秒，小刚用时9.2秒，学生误认为小刚跑得快（忽视时间少速度快的生活实际常识）"
+          misconception_type: "数学数值与体育比赛成绩常识脱节"
+    variation_strategy:
+      - "填上‘>’‘<’或‘=’：0.9米 ○ 1.1米；3.5元 ○ 3.2元"
+      - "排序题：将 1.5、0.8、2.1、1.9 按从小到大的顺序排列"
+
+  - point_id: "math-g3-t2-u07-p04"
+    ref_book: "人教版《教师教学用书》数学三年级下册第七单元"
+    ref_page: "P249-P252"
+    pedagogical_focus:
+      key_point: "掌握小数点对齐的法则，理解整数加减法‘末位对齐’与小数加减法‘小数点对齐’本质都是‘相同数位对齐’"
+      difficulty: "整数与一位小数相减（如 10 - 2.8 或 5 - 1.6），学生不知道将整数看作 10.0 进行借位"
+      typical_misconceptions:
+        - error_pattern: "计算 10 - 2.8 时，竖式将 8 直接落下来，算成 8.8（退位借位概念缺失）"
+          misconception_type: "被减数小数部分无数字时借位错误（极高频重灾区）"
+        - error_pattern: "竖式计算时末位对齐，导致 2.4 + 3 算成 2.7（把整数3对齐十分位上的4）"
+          misconception_type: "未对齐小数点对齐错误"
+    variation_strategy:
+      - "针对性竖式专项：10 - 3.6；8.4 + 3；6.5 - 2.8"
+      - "改错题：指出竖式中 5 - 1.4 = 4.4 错在哪里"
+
+  - point_id: "math-g3-t2-u07-p05"
+    ref_book: "人教版《教师教学用书》数学三年级下册第七单元"
+    ref_page: "P252-P254"
+    pedagogical_focus:
+      key_point: "解决与生活密切相关的价格、找零和测量两步应用题"
+      difficulty: "审题时理清‘多多少’、‘一共多少’与‘还剩多少’的连续逻辑"
+      typical_misconceptions:
+        - error_pattern: "计算找零时忘记减去第二件商品价格"
+          misconception_type: "连减或加括号减法算理步骤缺失"
+    variation_strategy:
+      - "应用题：买一支钢笔5.8元，一个笔记本3.5元，付给售货员10元，应找回多少钱？"
+      - "比较题：一根跳绳3.2元，一个毽子比跳绳便宜1.8元，买一个毽子需要多少钱？"

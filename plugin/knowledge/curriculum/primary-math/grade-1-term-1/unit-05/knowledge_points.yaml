@@ -1,0 +1,84 @@
+unit_id: unit-05
+source_id: pep_math_g1_t1_2024
+points:
+- point_id: math-g1-t1-u05-p01
+  unit_id: unit-05
+  lesson_id: math-g1-t1-u05-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 长方体、正方体、圆柱、球的辨认与特征
+  learning_objectives:
+  - 能辨认长方体、正方体、圆柱、球，并说出名称
+  - 通过观察、触摸、滚动等活动感知各图形的特征
+  applicable_question_types:
+  - choice
+  - fill_blank
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P88
+    - P102
+    anchor_text: 单元起始页 P88 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 辨认长方体、正方体、圆柱、球
+    - 说出「能滚动/不能滚动」等直观特征
+    scope_excluded:
+    - 棱、面、顶点的数量化认识
+    - 平面图形的面积与周长
+- point_id: math-g1-t1-u05-p02
+  unit_id: unit-05
+  lesson_id: math-g1-t1-u05-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 立体图形的拼搭与稳定性/可滚动的运用
+  learning_objectives:
+  - 能用立体图形进行拼搭，说出拼搭所用的图形
+  - 能根据「是否容易滚动」「是否容易堆叠」解决简单的搭高问题
+  applicable_question_types:
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P88
+    - P102
+    anchor_text: 单元起始页 P88 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 用立体图形拼搭并计数
+    - 根据滚动/堆叠特性选择合适的图形
+    scope_excluded:
+    - 平面图形的拼组（属一年级下册）
+    - 体积与容积
+- point_id: math-g1-t1-u05-p03
+  unit_id: unit-05
+  lesson_id: math-g1-t1-u05-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 从实物中抽象出立体图形
+  learning_objectives:
+  - 能从生活中的实物中找出对应的立体图形
+  - 初步体会「数学图形」是对实物形状的抽象
+  applicable_question_types:
+  - choice
+  - fill_blank
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P88
+    - P102
+    anchor_text: 单元起始页 P88 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 在生活实物中指认立体图形
+    - 说出图形的名称
+    scope_excluded:
+    - 图形特征的数量化描述
+    - 平面展开图

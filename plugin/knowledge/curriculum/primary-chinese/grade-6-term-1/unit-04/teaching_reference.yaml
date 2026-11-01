@@ -1,0 +1,32 @@
+unit_id: unit-04
+source_id: pep_chinese_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g6-t1-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《桥》中老支书在山洪中的表现，体会环境描写对塑造人物的作用
+    difficulty: 学生易只关注情节而忽略环境描写
+    typical_misconceptions:
+    - error_pattern: 只关注情节忽略环境
+      misconception_type: 要素遗漏
+    - error_pattern: 人物形象概括笼统
+      misconception_type: 分析不具体
+  variation_strategy:
+  - 通过情节与环境说出人物形象
+  - 体会环境描写的作用
+- point_id: chi-g6-t1-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「笔尖流出的故事」为创作任务，让学生完成一篇短篇小说
+    difficulty: 学生易只写片段而无完整情节
+    typical_misconceptions:
+    - error_pattern: 只写片段无完整情节
+      misconception_type: 结构不完整
+    - error_pattern: 人物形象不鲜明
+      misconception_type: 塑造不足
+  variation_strategy:
+  - 创编一个完整的生活故事
+  - 说出故事的起因、经过、结果

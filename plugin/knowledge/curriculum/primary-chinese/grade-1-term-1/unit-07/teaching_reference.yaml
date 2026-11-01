@@ -1,0 +1,32 @@
+unit_id: unit-07
+source_id: pep_chinese_g1_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t1-u07-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助朗读与想象把文字变成画面，在朗读中感受语言的韵律美
+    difficulty: 学生易把「只看见闪闪的星星蓝蓝的天」读破句
+    typical_misconceptions:
+    - error_pattern: 朗读时停顿不当
+      misconception_type: 朗读节奏未建立
+    - error_pattern: 说不出影子「常常跟着我」的特点
+      misconception_type: 课文内容理解不到位
+  variation_strategy:
+  - 配乐朗读并想象画面
+  - 说说影子为什么会跟着我们
+- point_id: chi-g1-t1-u07-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「用手又用脑，才能有创造」为核心句，引导学生体会动手与动脑并重
+    difficulty: 学生易只记住「手」而忽略「脑」
+    typical_misconceptions:
+    - error_pattern: 只说出「手」是宝
+      misconception_type: 要点遗漏
+    - error_pattern: 朗读时语气平淡
+      misconception_type: 情感朗读不到位
+  variation_strategy:
+  - 朗读并背诵《两件宝》
+  - 说说自己用手又用脑做过的事

@@ -1,0 +1,56 @@
+lessons:
+- lesson_id: math-g6-t1-u02-l01
+  unit_id: unit-02
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 1
+  lesson_name: 分数乘整数
+  page_range: P16
+  official_examples:
+  - 做一朵花需要用 3/10 张纸，做 2 朵花需要用多少张纸？3/10×2=(3×2)/10=6/10=3/5（张）。
+  - 分数乘整数，用分子乘整数的积作分子，分母不变。能约分的可先约分，再计算。
+- lesson_id: math-g6-t1-u02-l02
+  unit_id: unit-02
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 2
+  lesson_name: 一个数乘分数
+  page_range: P17-P18
+  official_examples:
+  - 一个面积为 2 公顷的育苗基地，它的 5/8 用来种柳树苗，种柳树苗的面积是多少公顷？2×5/8=10/8=5/4（公顷）。求 2 公顷的 5/8 是多少，就是把 2 公顷平均分成 8 份，求其中的 5 份。
+  - 一个数乘分数，用分子相乘的积作分子，用分母相乘的积作分母。整数可以看成分母为 1 的分数。
+- lesson_id: math-g6-t1-u02-l03
+  unit_id: unit-02
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 3
+  lesson_name: 分数、小数混合运算及运算律
+  page_range: P21-P22
+  official_examples:
+  - 松鼠欢欢身体长 2.1 dm，尾巴约是身体长度的 5/8，2.1×5/8=1.3125（dm）；松鼠乐乐身体长 2.4 dm，2.4×5/8=1.8（dm）。可以把 2.1 化成分数，也可以把 5/8 化成小数。
+  - 分数混合运算的顺序和整数混合运算的顺序相同。整数和小数的乘法运算律在分数运算中依然适用。3/5×12+2/5×12=(3/5+2/5)×12=12。
+- lesson_id: math-g6-t1-u02-l04
+  unit_id: unit-02
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 4
+  lesson_name: 连续求一个数的几分之几是多少
+  page_range: P27-P28
+  official_examples:
+  - 休闲场所的面积是 4800 m²，运动健身区域占 3/5，器械类健身区域占运动健身区域的 1/4。4800×3/5=2880（m²），2880×1/4=720（m²）；综合算式 4800×3/5×1/4=720（m²）。
+  - 也可以先求器械类健身区域面积占整个休闲场所的几分之几：4800×(3/5×1/4)=720（m²）。
+- lesson_id: math-g6-t1-u02-l05
+  unit_id: unit-02
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 5
+  lesson_name: 求比一个数多（少）几分之几的数是多少
+  page_range: P29-P30
+  official_examples:
+  - 原来每天的厨余垃圾大约是 100 kg，减少了 1/4。现在每天大约是 75 kg：100−100×1/4=75（kg），或 100×(1−1/4)=75（kg）。
+  - 青少年每分钟心脏跳动约 75 次，婴儿每分钟比青少年多 4/5，婴儿每分钟约跳动 75×(1+4/5)=135（次）。

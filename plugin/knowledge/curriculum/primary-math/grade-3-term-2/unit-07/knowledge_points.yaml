@@ -1,0 +1,113 @@
+unit_id: "unit-7"
+source_id: "pep_math_g3_t2_2024"
+points:
+  - point_id: "math-g3-t2-u07-p01"
+    unit_id: "unit-7"
+    lesson_id: "math-g3-t2-u07-l01"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "小数的实际含义、各部分名称与标准读写法"
+    learning_objectives:
+      - "认识小数的构成：整数部分、小数点、小数部分；中间的圆点叫作小数点"
+      - "熟练掌握小数的读法：小数点左边整数部分按整数读，小数点读作‘点’，小数部分按数字顺序依次读出，不能按整数读法读（如 12.05 读作十二点零五，不能读作十二点五或十二点零五十）"
+      - "能在元角分与米分米情境中理解小数含义（如 3.5元 = 3元5角，1.4米 = 1米4分米）"
+    applicable_question_types: ["fill_blank", "choice"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [86, 87, 88]
+      anchor_text: "像3.45、0.85这样的数叫作小数。中间的点叫作小数点。小数由整数部分、小数点和小数部分组成。"
+    teaching_boundary:
+      scope_allowed:
+        - "一位小数和两位小数（以元角分和米厘米为生活背景）的读写与含义"
+      scope_excluded:
+        - "三位及以上小数的数位顺序表与计数单位（四年级下册内容）"
+
+  - point_id: "math-g3-t2-u07-p02"
+    unit_id: "unit-7"
+    lesson_id: "math-g3-t2-u07-l01"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "十分之几的分数与一位小数的相互转化（数轴模型）"
+    learning_objectives:
+      - "理解一位小数表示十分之几：1分米 = 1/10米 = 0.1米；7分米 = 7/10米 = 0.7米"
+      - "能在直尺或数轴上精准标出一位小数的位置，建立小数与分数的等价联系"
+    applicable_question_types: ["fill_blank", "choice"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [87, 88]
+      anchor_text: "把1米平均分成10份，每份是1分米，用分数表示是1/10米，用小数表示是0.1米。十分之几可以写成零点几。"
+    teaching_boundary:
+      scope_allowed:
+        - "十分之几的分数改写为零点几，或反之"
+      scope_excluded:
+        - "任意真分数化循环小数"
+
+  - point_id: "math-g3-t2-u07-p03"
+    unit_id: "unit-7"
+    lesson_id: "math-g3-t2-u07-l02"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "一位小数的大小比较方法"
+    learning_objectives:
+      - "掌握一位小数大小比较的法则：先比较整数部分，整数部分大的那个数就大；整数部分相同，再比较小数部分十分位上的数字"
+      - "能结合长度（跳高、跳远）和价格对多个一位小数进行升序或降序排列"
+    applicable_question_types: ["fill_blank", "choice"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [89, 90]
+      anchor_text: "比较小数的大小：先比整数部分，整数部分大的数就大；整数部分相同的，再比小数部分。"
+    teaching_boundary:
+      scope_allowed:
+        - "比较两个或多个一位小数的大小（含带有单位的具体情境）"
+      scope_excluded:
+        - "不同位数小数（如 0.3 与 0.09）的抽象纯小数比较（四年级内容）"
+
+  - point_id: "math-g3-t2-u07-p04"
+    unit_id: "unit-7"
+    lesson_id: "math-g3-t2-u07-l03"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "简单的一位小数加法与减法竖式笔算"
+    learning_objectives:
+      - "掌握一位小数加减法的竖式笔算规范：小数点对齐（即相同数位对齐，个位对个位，十分位对十分位）"
+      - "掌握进位与退位算理：十分位相加满10向个位进1；十分位不够减从个位退1作10再减；在得数里点上与横线上面对齐的小数点"
+    applicable_question_types: ["calculation", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [91, 92]
+      anchor_text: "竖式计算小数加减法：小数点要对齐，也就是相同数位对齐。满十进一，不够减退一作十。"
+    teaching_boundary:
+      scope_allowed:
+        - "一位小数加减法竖式计算（含进位加法、退位减法、整数与一位小数加减如 10 - 2.8）"
+      scope_excluded:
+        - "小数乘除法与混合运算（五年级内容）"
+
+  - point_id: "math-g3-t2-u07-p05"
+    unit_id: "unit-7"
+    lesson_id: "math-g3-t2-u07-l04"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "小数加减法在购物等实际生活中的综合应用"
+    learning_objectives:
+      - "能灵活运用一位小数加减法解决生活中的实际购物、找零、两步比较等问题"
+      - "掌握检验解题方案是否合理的方法（如判断携带钱数是否足够买多件物品）"
+    applicable_question_types: ["word_problem", "choice"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [93, 94]
+      anchor_text: "用小数解决问题：买文具，小丽有10元钱，买了一盒水彩笔和一本笔记本，钱够不够？"
+    teaching_boundary:
+      scope_allowed:
+        - "两步以内的购物与测量比较问题"
+      scope_excluded:
+        - "复杂打折与折扣成数计算"

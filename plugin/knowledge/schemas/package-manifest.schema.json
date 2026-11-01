@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CurriculumPackageManifest",
+  "description": "教材知识库发布包版本清单规范（与 Skill 独立解耦）",
+  "type": "object",
+  "required": [
+    "package_id",
+    "package_version",
+    "schema_version",
+    "min_skill_version",
+    "created_at",
+    "coverage",
+    "files"
+  ],
+  "properties": {
+    "package_id": {
+      "type": "string",
+      "enum": ["primary-school-curriculum"],
+      "description": "包唯一标识符"
+    },
+    "package_version": {
+      "type": "string",
+      "description": "知识库发布版本号，如 2026.10.1"
+    },
+    "schema_version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "知识库底层数据结构 Schema 版本"
+    },
+    "min_skill_version": {
+      "type": "string",
+      "description": "运行此版本所需最低 Skill 版本"
+    },
+    "created_at": {
+      "type": "string",
+      "description": "构建与发布时间戳（仅作发布记录，不参与内容同一性判定）"
+    },
+    "built_with": {
+      "type": "object",
+      "description": "本次构建所用工具链版本，用于解释 files[].sha256 的跨环境差异",
+      "required": ["builder", "python", "sqlite"],
+      "properties": {
+        "builder": { "type": "string" },
+        "python": { "type": "string" },
+        "sqlite": { "type": "string" }
+      }
+    },
+    "coverage": {
+      "type": "array",
+      "description": "真实收录的学科、年级、册次及状态清单",
+      "items": {
+        "type": "object",
+        "required": ["subject", "grade", "term", "status", "unit_count", "verified_points_count"],
+        "properties": {
+          "subject": { "type": "string", "enum": ["math", "chinese", "english"] },
+          "grade": { "type": "integer", "minimum": 1, "maximum": 6 },
+          "term": { "type": "string", "enum": ["term-1", "term-2"] },
+          "status": { "type": "string", "enum": ["verified", "partial", "unverified", "missing"] },
+          "unit_count": { "type": "integer", "minimum": 0 },
+          "verified_points_count": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "files": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256", "size_bytes", "content_fingerprint"],
+        "properties": {
+          "path": { "type": "string", "description": "相对路径，如 curriculum.db" },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$",
+            "description": "字节级 SHA-256，校验磁盘文件完整性与是否被篡改；由 SQLite 库版本决定，不保证跨环境一致"
+          },
+          "size_bytes": { "type": "integer", "minimum": 1, "description": "文件大小（字节）" },
+          "content_fingerprint": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$",
+            "description": "逻辑内容指纹（按主键排序 + 规范化 JSON 序列化后取 SHA-256），与工具链无关，用于判定知识库内容是否为同一份"
+          }
+        }
+      }
+    }
+  }
+}

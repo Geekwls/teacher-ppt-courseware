@@ -1,0 +1,48 @@
+lessons:
+  - lesson_id: "math-g3-t2-u08-l01"
+    unit_id: "unit-8"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 1
+    lesson_name: "第1课时 “数与运算”专题复习"
+    page_range: "P95-P96"
+    official_examples:
+      - "例1：除数是一位数的除法笔算与验算（包含首位不够除、商中间有0、商末尾有0及有余数除法）。"
+      - "例2：一位小数加法、减法竖式计算与小数点对齐算理复习。"
+
+  - lesson_id: "math-g3-t2-u08-l02"
+    unit_id: "unit-8"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 2
+    lesson_name: "第2课时 “图形与几何”专题复习"
+    page_range: "P97-P98"
+    official_examples:
+      - "例3：周长与面积对比大梳理（长方形正方形周长公式 vs 面积公式，长度单位 vs 面积单位）。"
+      - "例4：轴对称图形特征与对称轴条数，平移与旋转辨析。"
+
+  - lesson_id: "math-g3-t2-u08-l03"
+    unit_id: "unit-8"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 3
+    lesson_name: "第3课时 “解决问题与数量关系”专题复习"
+    page_range: "P99-P101"
+    official_examples:
+      - "例5：两步乘除混合应用题、连除实际问题（归一与归总思想）。"
+      - "例6：铺地砖与统一面积单位实际问题；靠墙围篱笆与周长极值应用。"
+
+  - lesson_id: "math-g3-t2-u08-l04"
+    unit_id: "unit-8"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 4
+    lesson_name: "第4课时 “统计与综合实践”专题复习"
+    page_range: "P102-P104"
+    official_examples:
+      - "例7：复式统计表数据分析与合理决策。"
+      - "例8：年月日大月小月天数计算与24时计时法经过时间求解。"

@@ -1,0 +1,21 @@
+unit_id: "unit-3"
+unit_number: 3
+unit_name: "第三单元 长方形和正方形"
+subject: "math"
+edition: "人教版"
+grade: 3
+term: "term-2"
+version: "2026.10.1"
+updated_at: "2026-10-09"
+verification_status: "verified"
+source_id: "pep_math_g3_t2_2024"
+teaching_ref_source_id: "pep_math_g3_t2_tr_2026"
+page_range: "P39-P51"
+numeric_upper_bound: 1000
+curriculum_standard_ref: "义务教育数学课程标准（2022年版）图形与几何领域·图形的认识与测量"
+unit_overview: >
+  本单元系统学习长方形、正方形的本质特征及周长概念与计算。
+  使学生经历从具体实物到抽象图形的提炼过程，通过量一量、折一折、比一比等活动，
+  掌握长方形对边相等、4个直角；正方形4边相等、4个直角的几何特征。
+  建立周长表象，理解长方形周长公式 (长+宽)×2 与正方形周长公式 边长×4 的推导算理，
+  并能灵活运用转化思想解决靠墙围篱笆、拼摆小正方形等周长实际问题。

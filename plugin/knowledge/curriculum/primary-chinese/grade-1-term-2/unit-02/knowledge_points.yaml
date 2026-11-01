@@ -1,0 +1,59 @@
+unit_id: unit-02
+source_id: pep_chinese_g1_t2_2024
+points:
+- point_id: chi-g1-t2-u02-p01
+  unit_id: unit-02
+  lesson_id: chi-g1-t2-u02-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 《热爱中国共产党》与《吃水不忘挖井人》
+  learning_objectives:
+  - 能借助拼音朗读两篇课文，知道「吃水不忘挖井人」的意思
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P16
+    - P18
+    anchor_text: 单元起始页 P16 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 借助拼音朗读课文
+    - 「吃水不忘挖井人，时刻想念毛主席」的含义
+    scope_excluded:
+    - 革命历史事件的系统讲解
+    - 写话
+- point_id: chi-g1-t2-u02-p02
+  unit_id: unit-02
+  lesson_id: chi-g1-t2-u02-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 《我多想去看看》与语文园地二
+  learning_objectives:
+  - 能朗读《我多想去看看》，能完成语文园地二的识字与积累
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P20
+    - P22
+    anchor_text: 单元起始页 P20 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 课文两个小朋友的愿望
+    - 语文园地二的识字加油站与日积月累
+    scope_excluded:
+    - 祖国名胜的系统介绍
+    - 写话

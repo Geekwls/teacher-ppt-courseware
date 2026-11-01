@@ -1,0 +1,60 @@
+unit_id: unit-07
+source_id: pep_chinese_g4_t1_2024
+points:
+- point_id: chi-g4-t1-u07-p01
+  unit_id: unit-07
+  lesson_id: chi-g4-t1-u07-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 用批注的方法阅读，体会人物心情
+  learning_objectives:
+  - 能用批注的方法阅读，能通过动作、语言、神态体会人物的心情
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P85
+    - P86
+    - P91
+    anchor_text: 单元起始页 P85 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《牛和鹅》《一只窝囊的大老虎》《陀螺》
+    - 批注式阅读方法
+    scope_excluded:
+    - 批注式阅读教学
+    - 心理学中的情绪识别
+- point_id: chi-g4-t1-u07-p02
+  unit_id: unit-07
+  lesson_id: chi-g4-t1-u07-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 写一件让自己心儿怦怦跳的事
+  learning_objectives:
+  - 能把让自己心儿怦怦跳的经历写清楚，写出当时的感受
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P102
+    - P103
+    anchor_text: 单元起始页 P102 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 把事情的经过写清楚
+    - 写出当时的心理感受
+    scope_excluded:
+    - 心理描写的写作技巧
+    - 叙事散文的写作

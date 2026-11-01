@@ -1,0 +1,116 @@
+unit_id: "unit-1"
+source_id: "pep_math_g3_t2_2024"
+points:
+  - point_id: "math-g3-t2-u01-p01"
+    unit_id: "unit-1"
+    lesson_id: "math-g3-t2-u01-l01"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "轴对称图形的直观认识与判定（对折完全重合）"
+    learning_objectives:
+      - "通过观察折纸等活动，理解轴对称图形的概念：如果一个图形沿着一条直线对折，两侧的图形能够完全重合，这个图形就是轴对称图形"
+      - "能准确辨析日常生活物品、动植物外形和常见几何图形是否为轴对称图形"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [1, 2, 3]
+      anchor_text: "例1：观察树叶、蝴蝶、风筝。这些图形沿着一条线对折，图形两边能完全重合。对折后能完全重合的图形是轴对称图形。"
+    teaching_boundary:
+      scope_allowed:
+        - "生活中的轴对称事物（衣服、风筝、剪纸、汉字如『日、中、田』、字母如『A、H、M』）"
+        - "基本几何图形轴对称性判断（长方形、正方形、圆、等腰三角形、等边三角形）"
+      scope_excluded:
+        - "初中严格平面直角坐标系中的点坐标对称变换与解析几何"
+
+  - point_id: "math-g3-t2-u01-p02"
+    unit_id: "unit-1"
+    lesson_id: "math-g3-t2-u01-l02"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "对称轴的认识、数量确定与画法"
+    learning_objectives:
+      - "认识折痕所在的直线叫作对称轴，画对称轴时必须使用虚线并穿过整个图形两端"
+      - "掌握常见规则几何图形的对称轴条数：长方形有2条，正方形有4条，等边三角形有3条，等腰梯形有1条，圆有无数条；平行四边形一般不是轴对称图形（0条）"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [2, 3, 4]
+      anchor_text: "例2：对折的这条线是对称轴。通过对折，长方形有2条对称轴，正方形有4条对称轴。"
+    teaching_boundary:
+      scope_allowed:
+        - "画简单轴对称图形的对称轴（虚线）"
+        - "填空或选择常见图形对称轴的条数"
+      scope_excluded:
+        - "高阶代数方程曲线对称轴推导"
+
+  - point_id: "math-g3-t2-u01-p03"
+    unit_id: "unit-1"
+    lesson_id: "math-g3-t2-u01-l03"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "生活中的平移现象与特征辨析"
+    learning_objectives:
+      - "结合生活实例感知平移现象：物体沿直线运动，物体本身的大小、形状和方向均不发生改变，只是位置发生变化"
+      - "能准确辨析生活中的平移运动（如升国旗、滑滑梯、缆车滑动、抽屉推拉、电梯升降）"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [5, 6]
+      anchor_text: "例3：滑梯下滑、推拉玻璃窗、缆车沿索道前进。物体沿直线运动，这种运动现象叫作平移。"
+    teaching_boundary:
+      scope_allowed:
+        - "生活场景中平移现象的正确识别"
+      scope_excluded:
+        - "向量位移与解析坐标矩阵计算"
+
+  - point_id: "math-g3-t2-u01-p04"
+    unit_id: "unit-1"
+    lesson_id: "math-g3-t2-u01-l03"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "方格纸上图形平移方向与平移距离（对应点法）"
+    learning_objectives:
+      - "能在方格纸上判断简单图形平移的方向（上、下、左、右）和平移的格数"
+      - "掌握找对应点的方法确定平移格数：观察平移前后某一个对应顶点移动了几格，平移的格数就是几格，绝不能数图形之间的间隔空白格数"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [6, 8]
+      anchor_text: "在方格纸上，观察小船平移的方向和格数：找出关键对应点，数一数对应点移动了多少格。"
+    teaching_boundary:
+      scope_allowed:
+        - "方格纸上简单多边形沿水平或竖直方向平移格数判断"
+      scope_excluded:
+        - "任意角度倾斜斜向平移距离的欧氏距离计算"
+
+  - point_id: "math-g3-t2-u01-p05"
+    unit_id: "unit-1"
+    lesson_id: "math-g3-t2-u01-l04"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "生活中的旋转现象与旋转中心感知"
+    learning_objectives:
+      - "结合生活实例感知旋转现象：物体围绕一个固定点或固定轴做圆周运动，物体的形状、大小不变，但位置和方向发生改变"
+      - "能准确辨别钟面指针转动、风车旋转、方向盘转动、水龙头开关、直升机螺旋桨转动等旋转运动"
+      - "能对比区分平移（直线运动、方向不变）与旋转（绕点转动、方向改变）"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [7, 8]
+      anchor_text: "例4：风车转动、钟面指针转动。物体绕着一个点或一个轴转动，这种运动现象叫作旋转。"
+    teaching_boundary:
+      scope_allowed:
+        - "辨别生活中的旋转现象并说明理由"
+        - "区分平移与旋转"
+      scope_excluded:
+        - "旋转角度的严格度数度量与三角函数旋转公式"

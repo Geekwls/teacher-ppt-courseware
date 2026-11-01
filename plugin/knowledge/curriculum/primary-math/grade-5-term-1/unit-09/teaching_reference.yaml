@@ -1,0 +1,18 @@
+unit_id: unit-09
+source_id: pep_math_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g5-t1-u09-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「知识结构图」为工具，把本册八个单元按三大领域归位并建立关联
+    difficulty: 学生易把各单元知识孤立记忆，说不出单元之间的联系
+    typical_misconceptions:
+    - error_pattern: 说不出单元之间的联系
+      misconception_type: 结构化意识缺失
+    - error_pattern: 知识归类时把「图形的运动」归入数与代数
+      misconception_type: 领域归属错误
+  variation_strategy:
+  - 画一张本册知识结构图
+  - 说出「小数乘除法」与「用字母表示数」的联系

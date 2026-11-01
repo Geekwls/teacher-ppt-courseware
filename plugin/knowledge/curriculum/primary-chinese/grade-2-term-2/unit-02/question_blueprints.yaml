@@ -1,0 +1,70 @@
+unit_id: unit-02
+blueprints:
+- blueprint_id: bp-chi-g2-t2-u02-standard
+  title: 第二单元 阅读标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、看拼音写词语
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 7
+    target_points:
+    - chi-g2-t2-u02-p01
+    - chi-g2-t2-u02-p02
+    - chi-g2-t2-u02-p03
+    guidelines: 借助拼音写出本单元的重点词语。
+  - slot_id: slot-02
+    section: 二、填一填（课文内容）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - chi-g2-t2-u02-p02
+    - chi-g2-t2-u02-p03
+    guidelines: 填写米糕的来历与萨沙心理变化的要点。
+  - slot_id: slot-03
+    section: 三、猜一猜，写一写（词语意思）
+    question_type: writing
+    difficulty: variation
+    points_per_item: 5
+    item_count: 4
+    target_points:
+    - chi-g2-t2-u02-p01
+    guidelines: 猜出「足迹、泥泞、晶莹、寻觅」等词语的意思并写出方法。
+  - slot_id: slot-04
+    section: 四、选一选（课文内容）
+    question_type: choice
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - chi-g2-t2-u02-p01
+    - chi-g2-t2-u02-p03
+    guidelines: 判断关于课文内容的说法是否正确。
+  - slot_id: slot-05
+    section: 五、读一读，背一背（格言）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 7
+    item_count: 2
+    target_points:
+    - chi-g2-t2-u02-p04
+    guidelines: 默写「予人玫瑰，手有余香。」并说出大意。
+  - slot_id: slot-06
+    section: 六、写一写（我的好朋友）
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 11
+    item_count: 1
+    target_points:
+    - chi-g2-t2-u02-p04
+    guidelines: 写一写自己的好朋友：他是谁？长什么样子？你们经常一起做什么？

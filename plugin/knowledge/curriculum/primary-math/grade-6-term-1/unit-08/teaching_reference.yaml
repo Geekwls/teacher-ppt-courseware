@@ -1,0 +1,18 @@
+unit_id: unit-08
+source_id: pep_math_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g6-t1-u08-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「家庭用水调查」的真实任务驱动数据收集与分析
+    difficulty: 学生易只收集数据而不做分析
+    typical_misconceptions:
+    - error_pattern: 只收集不分析
+      misconception_type: 数据分析意识薄弱
+    - error_pattern: 百分数计算与数据不符
+      misconception_type: 计算错误
+  variation_strategy:
+  - 整理并分析一组用水数据
+  - 根据数据提出节水建议

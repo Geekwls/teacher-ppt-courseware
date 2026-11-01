@@ -1,0 +1,15 @@
+unit_id: unit-06
+unit_name: 第六单元 数量间的加减关系
+subject: math
+edition: 人教版
+grade: 1
+term: term-2
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: partial
+source_id: pep_math_g1_t2_2024
+teaching_reference_source_id: pep_math_g1_t2_tr_2024
+page_range: P69-P76
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版人教版小学数学一年级下册电子课本》逐页实证核定：课本 PDF 共 20 页，页脚印刷页码实测偏移 = 5（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P14。本单元真实版面为 P69–P76，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。
+unit_overview: 认识并运用数量间的加减关系（求总数、求剩余、求相差数、求比一个数多几/少几的数），学习用画图的方法表示数量关系并解决问题。
+numeric_upper_bound: 100

@@ -1,0 +1,32 @@
+unit_id: unit-08
+source_id: pep_math_g5_t1_2024
+points:
+- point_id: math-g5-t1-u08-p01
+  unit_id: unit-08
+  lesson_id: math-g5-t1-u08-l01
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 事件发生的确定性与不确定性
+  learning_objectives:
+  - 能用「一定」「可能」「不可能」描述事件发生的可能性，能判断可能性的大小
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P98
+    - P100
+    - P103
+    anchor_text: 单元起始页 P98 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 事件分为确定事件与不确定事件
+    - 可能性大小与数量的关系
+    scope_excluded:
+    - 概率论的公理化体系
+    - 随机试验与频率稳定于概率

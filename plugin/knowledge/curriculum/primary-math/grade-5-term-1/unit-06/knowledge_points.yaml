@@ -1,0 +1,60 @@
+unit_id: unit-06
+source_id: pep_math_g5_t1_2024
+points:
+- point_id: math-g5-t1-u06-p01
+  unit_id: unit-06
+  lesson_id: math-g5-t1-u06-l01
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 平行四边形的面积
+  learning_objectives:
+  - 能通过割补、平移把平行四边形转化为长方形，推导出 S=ah 并正确计算
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P72
+    - P73
+    - P74
+    anchor_text: 单元起始页 P72 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 平行四边形的面积=底×高（S=ah）
+    - 「转化」思想在面积推导中的应用
+    scope_excluded:
+    - 微积分中面积的定义
+    - 向量叉积与平行四边形面积
+- point_id: math-g5-t1-u06-p02
+  unit_id: unit-06
+  lesson_id: math-g5-t1-u06-l01
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 公顷与平方千米
+  learning_objectives:
+  - 认识公顷与平方千米，掌握 1 公顷=10000 平方米、1 平方千米=1000000 平方米=100 公顷
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P75
+    - P76
+    anchor_text: 单元起始页 P75 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 边长 100 m 的正方形面积是 1 公顷
+    - 边长 1 km 的正方形面积是 1 km²
+    scope_excluded:
+    - 国际单位制中的面积单位
+    - 地理与土地测量中的面积计量

@@ -1,0 +1,32 @@
+unit_id: unit-06
+source_id: pep_english_g6_t1_2024
+points:
+- point_id: eng-g6-t1-u06-p01
+  unit_id: unit-06
+  lesson_id: eng-g6-t1-u06-l01
+  subject: english
+  grade: 6
+  term: term-1
+  point_name: 谈论能源的使用与节约
+  learning_objectives:
+  - 能用英语谈论能源的种类、使用与节约方式
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_english_g6_t1_2024
+    page_ref:
+    - P62
+    - P64
+    - P68
+    anchor_text: 单元起始页 P62 依课本目录登记；正文超出可读区间，具体对话原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 能源词汇
+    - 谈论节约能源的句型
+    scope_excluded:
+    - 能源科学与可持续发展
+    - 英语环保词汇

@@ -1,0 +1,126 @@
+unit_id: "unit-8"
+source_id: "pep_chinese_g3_t1_2024"
+points:
+  - point_id: "chi-g3-t1-u08-p01"
+    unit_id: "unit-8"
+    lesson_id: "chi-g3-t1-u08-l01"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "本单元生字词的认读与规范书写"
+    learning_objectives:
+      - "认读并规范书写本单元要求会认、会写的生字，注意易错笔画与间架结构"
+      - "能看拼音写词语，正确默写课文中的重点词语"
+    applicable_question_types: ["writing", "fill_blank"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P96", "P97", "P100"]
+      anchor_text: "识字表/写字表页码锚点依课本目录登记；因用户提供的电子课本预览未含第八单元正文页，具体生字清单待补课本页面凭证后核定。"
+    teaching_boundary:
+      scope_allowed:
+        - "本单元会认、会写生字的认读与田字格规范书写"
+        - "看拼音写词语、形近字对比组词"
+      scope_excluded:
+        - "未在本单元课文中出现的字词"
+        - "超出三年级上册范围的生僻汉字"
+
+  - point_id: "chi-g3-t1-u08-p02"
+    unit_id: "unit-8"
+    lesson_id: "chi-g3-t1-u08-l01"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "学习带着问题默读，理解课文内容（单元核心语文要素）"
+    learning_objectives:
+      - "能带着问题默读课文，边读边思考，理解课文内容"
+      - "能借助注释读懂《司马光》等文言文，说出课文讲了一件什么事"
+      - "能在默读中找出与问题相关的语句，形成自己的理解"
+    applicable_question_types: ["reading", "choice", "fill_blank"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P95", "P96"]
+      anchor_text: "教师教学用书第八单元单元说明（教参 P202）：本单元阅读方面的语文要素是「学习带着问题默读，理解课文内容」；《司马光》课后题引导学生带着问题默读课文。"
+    teaching_boundary:
+      scope_allowed:
+        - "带着问题默读并找出相关语句"
+        - "借助注释理解文言文内容"
+      scope_excluded:
+        - "要求朗读代替默读的考查方式"
+        - "超出课本范围的文言语法知识考查"
+
+  - point_id: "chi-g3-t1-u08-p03"
+    unit_id: "unit-8"
+    lesson_id: "chi-g3-t1-u08-l02"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "课文人物形象与美好品质"
+    learning_objectives:
+      - "能说出司马光、童第周、白求恩、赵一曼等人物的事迹与品质"
+      - "能结合课文中的具体语句，体会人物冷静机智、勤奋爱国、极端负责、不畏艰苦等美好品质"
+      - "能联系生活谈自己受到的启发"
+    applicable_question_types: ["reading", "fill_blank", "writing"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P96", "P97", "P100", "P103"]
+      anchor_text: "依课本目录登记的课文页码范围；四篇课文分别写司马光（冷静机智、爱护同伴）、童第周（勤奋学习、为国争光）、白求恩（对工作极端负责、为革命献身）、赵一曼（不畏艰苦、关心他人），人物形象与品质待补课本页面原文凭证后细化。"
+    teaching_boundary:
+      scope_allowed:
+        - "说出人物事迹与品质，并结合语句说明依据"
+        - "联系生活谈自己受到的启发"
+      scope_excluded:
+        - "脱离课文的主观臆断"
+        - "对人物生平的超出课本范围的扩展考查"
+
+  - point_id: "chi-g3-t1-u08-p04"
+    unit_id: "unit-8"
+    lesson_id: "chi-g3-t1-u08-l05"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "口语交际：请教"
+    learning_objectives:
+      - "能在遇到困难时向别人请教，把问题说清楚"
+      - "能注意请教的礼貌用语，认真倾听、礼貌回应"
+      - "能根据对方回答补充问题或表达感谢"
+    applicable_question_types: ["writing", "choice", "fill_blank"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P105"]
+      anchor_text: "口语交际《请教》：遇到困难时向别人请教，注意把问题说清楚、有礼貌；提示认真倾听、礼貌回应。（页码依课本目录登记）"
+    teaching_boundary:
+      scope_allowed:
+        - "把请教的问题说清楚、表达有礼貌"
+        - "认真倾听并礼貌回应"
+      scope_excluded:
+        - "脱离具体情境的礼貌用语堆砌"
+        - "超出三年级范围的口语交际技巧考查"
+
+  - point_id: "chi-g3-t1-u08-p05"
+    unit_id: "unit-8"
+    lesson_id: "chi-g3-t1-u08-l06"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "习作：那次经历真难忘"
+    learning_objectives:
+      - "能选择一次难忘的经历，把事情的经过写清楚"
+      - "能按一定顺序把经历写完整，表达真实的感受"
+      - "能写出难忘之处，做到语句通顺、意思明白"
+    applicable_question_types: ["writing", "choice"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P106"]
+      anchor_text: "习作《那次经历真难忘》：写一件难忘的事，把事情的经过写清楚，表达真实感受。（页码依课本目录登记）"
+    teaching_boundary:
+      scope_allowed:
+        - "按顺序写清楚一次难忘经历的经过"
+        - "表达真实的感受，写出难忘之处"
+      scope_excluded:
+        - "完整记叙文的谋篇布局与高级写作技法"
+        - "脱离真实经历的虚构编造"

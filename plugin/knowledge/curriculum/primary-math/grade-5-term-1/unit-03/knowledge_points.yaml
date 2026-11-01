@@ -1,0 +1,118 @@
+unit_id: unit-03
+source_id: pep_math_g5_t1_2024
+points:
+- point_id: math-g5-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: math-g5-t1-u03-l01
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 除数是整数的小数除法
+  learning_objectives:
+  - 能按整数除法的法则计算除数是整数的小数除法
+  - 能理解商的小数点要与被除数的小数点对齐
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P24
+    - P25
+    anchor_text: P24：22÷4=5.5，22.4÷4=5.6。「商的小数点为什么要和被除数的小数点对齐？」P25：「按照整数除法的法则去除，商的小数点要和被除数的小数点对齐；如果除到被除数的末尾仍有余数，就在余数后面添 0 继续除。」5.6÷7=0.8。
+  teaching_boundary:
+    scope_allowed:
+    - 按整数除法法则计算并确定商的小数点
+    - 余数添 0 继续除
+    - 整数部分不够商 1 时先商 0
+    scope_excluded:
+    - 进制表示与除法运算的对应
+    - 浮点除法的舍入
+- point_id: math-g5-t1-u03-p02
+  unit_id: unit-03
+  lesson_id: math-g5-t1-u03-l02
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 循环小数与有限、无限小数
+  learning_objectives:
+  - 能识别循环小数并说出它的循环节
+  - 能区分有限小数与无限小数，能用简便记法表示循环小数
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P26
+    - P27
+    anchor_text: P26：400÷75=5.333…（余数总是 25）。P27：「一个数的小数部分，从某一位起，一个数字或者几个数字依次不断重复出现，这样的小数叫作循环小数。」「5.333…的循环节是 3。7.14545…的循环节是 45。」「小数部分的位数有限的小数是有限小数…位数无限的小数是无限小数。」
+  teaching_boundary:
+    scope_allowed:
+    - 识别循环小数与循环节
+    - 用简便记法表示循环小数
+    - 区分有限小数与无限小数
+    scope_excluded:
+    - 实数系的分类与无理数
+    - 分数与循环小数的对应
+- point_id: math-g5-t1-u03-p03
+  unit_id: unit-03
+  lesson_id: math-g5-t1-u03-l03
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 一个数除以小数
+  learning_objectives:
+  - 能利用商不变的规律把除数是小数的除法转化为除数是整数的除法
+  - 能正确处理被除数小数点移动位数不够时用 0 补足的情形
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P33
+    - P34
+    anchor_text: P33：7.65÷0.85=9（「根据商不变的规律，除数 0.85×100 变成 85，被除数也要…」）。P34：「1. 先移动除数的小数点，使它变成整数；2. 除数的小数点向右移动几位，被除数的小数点也向右移动几位（位数不够的，在被除数的末尾用 0 补足）；3. 然后按除数是整数的小数除法进行计算。」12.6÷0.28=45。
+  teaching_boundary:
+    scope_allowed:
+    - 用商不变规律转化
+    - 确定小数点移动的位数
+    - 被除数位数不够时补 0
+    scope_excluded:
+    - 分数除法的倒数法则
+    - 比例与商不变性质
+- point_id: math-g5-t1-u03-p04
+  unit_id: unit-03
+  lesson_id: math-g5-t1-u03-l04
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 商的近似数与「进一」「去尾」法
+  learning_objectives:
+  - 能按「四舍五入」法求商的近似数
+  - 能根据实际问题的需要选择「进一法」或「去尾法」取商的近似值
+  applicable_question_types:
+  - fill_blank
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P37
+    - P38
+    anchor_text: P37：32÷2.7≈11.85（元）「钱数按「四舍五入」法精确到「分」」；2.7÷0.8=3.375（瓶），能装满 3 瓶，但需要准备 4 个瓶子（进一法）。P38：「在解决实际问题时，要根据问题的需要确定如何取商的近似值。」
+  teaching_boundary:
+    scope_allowed:
+    - 按四舍五入求商的近似数
+    - 根据情境选择进一法或去尾法
+    - 说明不同取近似方法的适用情境
+    scope_excluded:
+    - 工程中的向上/向下取整
+    - 运筹学中的整数规划

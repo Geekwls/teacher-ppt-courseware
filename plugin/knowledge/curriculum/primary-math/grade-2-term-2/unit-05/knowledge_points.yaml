@@ -1,0 +1,85 @@
+unit_id: unit-05
+source_id: pep_math_g2_t2_2024
+points:
+- point_id: math-g2-t2-u05-p01
+  unit_id: unit-05
+  lesson_id: math-g2-t2-u05-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 万以内数与加减法的结构化整理
+  learning_objectives:
+  - 能用知识图梳理万以内数的认识与加减法，比较熟练地计算
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P87
+    - P96
+    anchor_text: 单元起始页 P87 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 万以内加减法综合练习
+    - 用知识图整理所学内容
+    scope_excluded:
+    - 多位数乘除法
+    - 四则混合运算
+- point_id: math-g2-t2-u05-p02
+  unit_id: unit-05
+  lesson_id: math-g2-t2-u05-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 数量关系的综合运用（含有余数除法与倍的关系）
+  learning_objectives:
+  - 能综合运用四则运算解决实际问题，正确辨析数量关系
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P87
+    - P96
+    anchor_text: 单元起始页 P87 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 综合解决加减乘除实际问题
+    - 有余数除法与倍的关系的实际问题
+    scope_excluded:
+    - 三步及以上问题
+    - 百分数与比例
+- point_id: math-g2-t2-u05-p03
+  unit_id: unit-05
+  lesson_id: math-g2-t2-u05-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 提出并解决数学问题（开放题）
+  learning_objectives:
+  - 能根据情境自主提出数学问题并解答，说清思考过程
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P87
+    - P96
+    anchor_text: 单元起始页 P87 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 自主提问并解答
+    scope_excluded:
+    - 脱离情境的纯计算

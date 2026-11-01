@@ -1,0 +1,232 @@
+edition_lock:
+  textbook_name: 义务教育教科书 语文 二年级上册
+  publisher: 人民教育出版社
+  approval_year: 教育部2022课标2024/2026修订新版
+  grade: 2
+  term: term-1
+  unit_id: unit-01
+  unit_name: 第一单元 大自然的奥秘
+  page_range: P1-P15
+  verified: true
+lessons_map:
+- lesson_id: chi-g2-t1-u01-l01
+  title: 1 小蝌蚪找妈妈
+  page: P1-P4
+  core_writing_chars:
+  - 两
+  - 条
+  - 哪
+  - 宽
+  - 那
+  - 短
+  - 孩
+  - 成
+- lesson_id: chi-g2-t1-u01-l02
+  title: 2 我是什么
+  page: P5-P7
+  core_writing_chars:
+  - 升
+  - 连
+  - 起
+  - 海
+  - 洋
+  - 许
+  - 作
+  - 法
+- lesson_id: chi-g2-t1-u01-l03
+  title: 3 植物妈妈有办法
+  page: P8-P10
+  core_writing_chars:
+  - 如
+  - 果
+  - 已
+  - 经
+  - 别
+  - 轻
+  - 发
+  - 胆
+  - 肚
+  - 识
+- lesson_id: chi-g2-t1-u01-l04
+  title: 语文园地一
+  page: P11-P14
+  core_writing_chars:
+  - 转
+  - 夹
+- lesson_id: chi-g2-t1-u01-l05
+  title: 快乐读书吧：读读童话故事
+  page: P15
+  core_writing_chars: []
+official_vocab_table:
+- word: 妈妈
+  lesson: 1 小蝌蚪找妈妈
+- word: 他们
+  lesson: 1 小蝌蚪找妈妈
+- word: 看见
+  lesson: 1 小蝌蚪找妈妈
+- word: 我们
+  lesson: 1 小蝌蚪找妈妈
+- word: 哪里
+  lesson: 1 小蝌蚪找妈妈
+- word: 那边
+  lesson: 1 小蝌蚪找妈妈
+- word: 雪白
+  lesson: 1 小蝌蚪找妈妈
+- word: 过去
+  lesson: 1 小蝌蚪找妈妈
+- word: 孩子
+  lesson: 1 小蝌蚪找妈妈
+- word: 什么
+  lesson: 1 小蝌蚪找妈妈
+- word: 太阳
+  lesson: 2 我是什么
+- word: 天空
+  lesson: 2 我是什么
+- word: 一起
+  lesson: 2 我是什么
+- word: 冬天
+  lesson: 2 我是什么
+- word: 花朵
+  lesson: 2 我是什么
+- word: 池子
+  lesson: 2 我是什么
+- word: 江河
+  lesson: 2 我是什么
+- word: 海洋
+  lesson: 2 我是什么
+- word: 许多
+  lesson: 2 我是什么
+- word: 田地
+  lesson: 2 我是什么
+- word: 工作
+  lesson: 2 我是什么
+- word: 办法
+  lesson: 2 我是什么
+- word: 你们
+  lesson: 2 我是什么
+- word: 如果
+  lesson: 3 植物妈妈有办法
+- word: 已经
+  lesson: 3 植物妈妈有办法
+- word: 告别
+  lesson: 3 植物妈妈有办法
+- word: 四海为家
+  lesson: 3 植物妈妈有办法
+- word: 你们
+  lesson: 3 植物妈妈有办法
+- word: 胆子
+  lesson: 3 植物妈妈有办法
+- word: 肚子
+  lesson: 3 植物妈妈有办法
+- word: 那里
+  lesson: 3 植物妈妈有办法
+- word: 知识
+  lesson: 3 植物妈妈有办法
+- word: 出发
+  lesson: 3 植物妈妈有办法
+- word: 大家
+  lesson: 3 植物妈妈有办法
+- word: 晴朗
+  lesson: 语文园地一
+- word: 雷雨
+  lesson: 语文园地一
+- word: 闪电
+  lesson: 语文园地一
+- word: 冰雹
+  lesson: 语文园地一
+- word: 雪花
+  lesson: 语文园地一
+three_tier_vocab:
+  lessons_desc: 《小蝌蚪找妈妈》《我是什么》《植物妈妈有办法》
+  tier_a_phrases:
+  - pinyin: mā ma
+    word: 妈妈
+  - pinyin: tā men
+    word: 他们
+  - pinyin: kàn jiàn
+    word: 看见
+  - pinyin: wǒ men
+    word: 我们
+  - pinyin: nǎ li
+    word: 哪里
+  - pinyin: nà biān
+    word: 那边
+  - pinyin: xuě bái
+    word: 雪白
+  - pinyin: hái zi
+    word: 孩子
+  - pinyin: tài yáng
+    word: 太阳
+  - pinyin: tiān kōng
+    word: 天空
+  - pinyin: yì qǐ
+    word: 一起
+  - pinyin: dōng tiān
+    word: 冬天
+  - pinyin: huā duǒ
+    word: 花朵
+  - pinyin: chí zi
+    word: 池子
+  - pinyin: jiāng hé
+    word: 江河
+  - pinyin: hǎi yáng
+    word: 海洋
+  - pinyin: xǔ duō
+    word: 许多
+  - pinyin: tián dì
+    word: 田地
+  - pinyin: gōng zuò
+    word: 工作
+  - pinyin: bàn fǎ
+    word: 办法
+  - pinyin: rú guǒ
+    word: 如果
+  - pinyin: yǐ jīng
+    word: 已经
+  - pinyin: gào bié
+    word: 告别
+  - pinyin: dǎn zi
+    word: 胆子
+  - pinyin: dù zi
+    word: 肚子
+  - pinyin: zhī shi
+    word: 知识
+  - pinyin: sì hǎi wéi jiā
+    word: 四海为家
+  tier_b_pairs:
+  - char1: 哪
+    word1: 哪里
+    char2: 那
+    word2: 那边
+  - char1: 肚
+    word1: 肚子
+    char2: 胆
+    word2: 胆子
+  - char1: 孩
+    word1: 孩子
+    char2: 该
+    word2: 应该
+  - char1: 洋
+    word1: 海洋
+    char2: 样
+    word2: 样子
+  tier_c_phrases:
+  - pinyin: wū guī
+    word: 乌龟
+  - pinyin: tóu dǐng
+    word: 头顶
+  - pinyin: bàng wǎn
+    word: 傍晚
+  - pinyin: fāng fǎ
+    word: 方法
+  - pinyin: fēn fēn
+    word: 纷纷
+  - pinyin: biàn huà duō duān
+    word: 变化多端
+  strokes_challenge:
+  - question_stem: “皮”的第一笔是：____________；“顶”的部首是：____________。
+    answer_text: 横钩；页字旁（页）
+  - question_stem: “海”和“洋”都是____________结构，偏旁都是____________。
+    answer_text: 左右；三点水（氵）
+  - question_stem: “孩”字共（    ）画，左边是“子字旁”（子），右边是“亥”字。
+    answer_text: '9'

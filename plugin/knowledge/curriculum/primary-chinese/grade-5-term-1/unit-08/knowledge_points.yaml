@@ -1,0 +1,60 @@
+unit_id: unit-08
+source_id: pep_chinese_g5_t1_2024
+points:
+- point_id: chi-g5-t1-u08-p01
+  unit_id: unit-08
+  lesson_id: chi-g5-t1-u08-l01
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 梳理信息，把握内容要点
+  learning_objectives:
+  - 能根据要求梳理信息，把握内容要点
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P101
+    - P102
+    - P104
+    anchor_text: 单元起始页 P101 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《古人谈读书》《忆读书》
+    - 梳理信息的方法
+    scope_excluded:
+    - 信息组织与摘要
+    - 读书方法论的经典论述
+- point_id: chi-g5-t1-u08-p02
+  unit_id: unit-08
+  lesson_id: chi-g5-t1-u08-l01
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 推荐一本书
+  learning_objectives:
+  - 能分条写出推荐一本书的理由
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P111
+    - P112
+    anchor_text: 单元起始页 P111 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 分条陈述理由
+    - 突出重点
+    scope_excluded:
+    - 书评写作规范
+    - 说明性写作

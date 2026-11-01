@@ -1,0 +1,45 @@
+lessons:
+- lesson_id: eng-g6-t1-u02-l01
+  unit_id: unit-02
+  subject: english
+  grade: 6
+  term: term-1
+  lesson_number: 1
+  lesson_name: 'Part A: 列举节日与重大活动'
+  page_range: P15-P16
+  official_examples:
+  - List any festivals or big events you know. Choose one festival or event and make a mind map.
+  - Mike and Matt are having breakfast.
+- lesson_id: eng-g6-t1-u02-l02
+  unit_id: unit-02
+  subject: english
+  grade: 6
+  term: term-1
+  lesson_number: 2
+  lesson_name: 'Part A Let''s learn: 节日习俗（一般过去时）'
+  page_range: P17
+  official_examples:
+  - My dad and I cleaned the house. My sister and I pasted fu on the door. We dressed in red.
+- lesson_id: eng-g6-t1-u02-l03
+  unit_id: unit-02
+  subject: english
+  grade: 6
+  term: term-1
+  lesson_number: 3
+  lesson_name: 'Part B Let''s talk / Let''s learn: 谈论上周末的活动'
+  page_range: P18-P19
+  official_examples:
+  - Binbin, Chen Jie and Amy are talking about last weekend.
+  - The writer read his book to the children. People from different places ran a marathon.
+- lesson_id: eng-g6-t1-u02-l04
+  unit_id: unit-02
+  subject: english
+  grade: 6
+  term: term-1
+  lesson_number: 4
+  lesson_name: Part C Read and write / Project / Reading time
+  page_range: P20-P25
+  official_examples:
+  - Read and write：Christmas / 感恩节 / 母亲节 / Carnival。
+  - Write F (Fact) or O (Opinion)：1. My father was on a race team. ( ) 2. The judge counted down and the race began! ( )
+  - Reading time：One night, an old man came to a village… Nian was very afraid and ran back to the sea.

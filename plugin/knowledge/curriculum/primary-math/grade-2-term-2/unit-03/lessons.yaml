@@ -1,0 +1,10 @@
+lessons:
+- lesson_id: math-g2-t2-u03-l01
+  unit_id: unit-03
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 第三单元 万以内数的认识（单元整体）
+  page_range: P40-P62
+  official_examples:
+  - 认识万以内的数：1000 以内数的认识、10000 以内数的认识、数的读写与组成、认识算盘与数位顺序表、比较大小与近似数。（例题原文待核验）

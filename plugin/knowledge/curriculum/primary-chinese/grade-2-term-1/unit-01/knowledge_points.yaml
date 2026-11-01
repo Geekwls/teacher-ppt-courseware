@@ -1,0 +1,119 @@
+unit_id: unit-01
+source_id: pep_chinese_g2_t1_2024
+points:
+- point_id: chi-g2-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: chi-g2-t1-u01-l01
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《小蝌蚪找妈妈》：成长过程与「×着×」动词短语
+  learning_objectives:
+  - 能按顺序说出小蝌蚪长成青蛙的过程，并能复述故事
+  - 能积累并运用「披着……」「鼓着……」「露着……」「甩着……」等动词短语
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P1
+    - P3
+    - P4
+    anchor_text: P1「池塘里有一群小蝌蚪，大大的脑袋，黑灰色的身子，甩着长长的尾巴，快活地游来游去。」；P3「不知什么时候，小青蛙的尾巴已经不见了。他们跟着妈妈，天天去捉害虫。」（生字：蝌、蚪、脑、袋、灰、甩、活、腿、教、迎、嘴、龟、披、蹲、肚、鼓）；P4「小蝌蚪是怎样长成青蛙的？按顺序把下面的图片连起来」与「披着碧绿的衣裳／鼓着大大的眼睛／露着雪白的肚皮／甩着长长的尾巴」。
+  teaching_boundary:
+    scope_allowed:
+    - 按顺序复述小蝌蚪的成长过程
+    - 积累「披着……／鼓着……／露着……／甩着……」动词短语
+    - 分角色朗读课文
+    scope_excluded:
+    - 青蛙变态发育的科学系统讲解
+    - 写话
+- point_id: chi-g2-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: chi-g2-t1-u01-l02
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《我是什么》：水的形态变化与「有时候……有时候……」句式
+  learning_objectives:
+  - 能说出「我」是什么，能说出水在自然界中的几种形态
+  - 能用「有时候……有时候……」说句子
+  applicable_question_types:
+  - reading
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P5
+    - P7
+    anchor_text: P5「2 我是什么」（我会变。太阳一晒，我就变成汽……）；P12 字词句运用引《我是什么》原文「平常我在池子里睡觉，在小溪里散步，在江河里奔跑，在海洋里跳舞，唱歌，开大会。」与「有时候我穿着白衣服，有时候我穿着黑衣服，早晨和傍晚我又把红袍披在身上。」
+  teaching_boundary:
+    scope_allowed:
+    - 说出水在自然界中的几种形态（汽、云、雨、雹子、雪）
+    - 用「有时候……有时候……」说句子
+    - 体会拟人写法
+    scope_excluded:
+    - 水循环的科学原理系统讲解
+    - 写话
+- point_id: chi-g2-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: chi-g2-t1-u01-l03
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《植物妈妈有办法》：植物传播种子的方法
+  learning_objectives:
+  - 能说出蒲公英、苍耳、豌豆等植物传播种子的办法
+  - 能仿照课文的句式说一种植物传播种子的方法
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P8
+    - P9
+    - P10
+    anchor_text: P8「3 植物妈妈有办法」（孩子如果已经长大，就得告别妈妈，四海为家。牛马有脚，鸟有翅膀，植物旅行又用什么办法？）；P9–P10 分别写蒲公英、苍耳、豌豆传播种子的办法。
+  teaching_boundary:
+    scope_allowed:
+    - 说出蒲公英（风）、苍耳（动物皮毛）、豌豆（太阳晒）传播种子的办法
+    - 仿照课文句式说一种植物
+    scope_excluded:
+    - 植物学传播机制的系统讲解
+    - 写话
+- point_id: chi-g2-t1-u01-p04
+  unit_id: unit-01
+  lesson_id: chi-g2-t1-u01-l04
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 语文园地一：天气词语、词语辨析与《梅花》
+  learning_objectives:
+  - 能认读天气类词语，能辨析「迎／追」「穿／披」「甩／摇」的差别
+  - 能背诵《梅花》并知道左右宽窄的书写要点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P11
+    - P12
+    anchor_text: P11「语文园地一」识字加油站：晴朗、雾霾、阴转晴、闪电、暴风、雷阵雨、冰雹、霜冻、雨夹雪；字词句运用：迎上去／追上去、穿衣裳／披红袍、甩甩手／摇摇头；P12 书写提示（左窄右宽／左宽右窄）与日积月累《梅花》[宋] 王安石（墙角数枝梅，凌寒独自开。遥知不是雪，为有暗香来。）。
+  teaching_boundary:
+    scope_allowed:
+    - 认读并积累天气类词语
+    - 辨析「迎／追」「穿／披」「甩／摇」的动作差别
+    - 背诵《梅花》
+    - 说出左右宽窄的书写要点
+    scope_excluded:
+    - 天气现象的科学成因
+    - 书法技法的系统讲解

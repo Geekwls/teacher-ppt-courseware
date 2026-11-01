@@ -1,0 +1,77 @@
+unit_id: unit-04
+blueprints:
+- blueprint_id: bp-math-g1-t2-u04-standard
+  title: 第四单元 100以内的口算加、减法标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、口算
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 2
+    item_count: 11
+    target_points:
+    - math-g1-t2-u04-p01
+    - math-g1-t2-u04-p02
+    - math-g1-t2-u04-p03
+    guidelines: 整十数加减、两位数加减一位数或整十数的口算。
+  - slot_id: slot-02
+    section: 二、填一填
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t2-u04-p01
+    guidelines: 填写整十数加减的得数与算理过程。
+  - slot_id: slot-03
+    section: 三、在○里填「＞」「＜」或「＝」
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t2-u04-p03
+    guidelines: 比较算式得数的大小。
+  - slot_id: slot-04
+    section: 四、看图列式
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 6
+    item_count: 2
+    target_points:
+    - math-g1-t2-u04-p02
+    guidelines: 根据图意列式并计算。
+  - slot_id: slot-05
+    section: 五、连一连
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t2-u04-p03
+    guidelines: 算式与得数连线。
+  - slot_id: slot-06
+    section: 六、解决问题
+    question_type: reading
+    difficulty: variation
+    points_per_item: 9
+    item_count: 2
+    target_points:
+    - math-g1-t2-u04-p02
+    guidelines: 情境题：列式计算并口答。
+  - slot_id: slot-07
+    section: 七、想一想
+    question_type: choice
+    difficulty: challenge
+    points_per_item: 9
+    item_count: 1
+    target_points:
+    - math-g1-t2-u04-p03
+    guidelines: 由 3+2=5 写出 30+20、23+2 等算式，说说发现了什么。

@@ -1,0 +1,83 @@
+unit_id: "unit-2"
+source_id: "pep_math_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《2025年秋人教版教师教学用书数学三年级上册》
+  （409 页扫描件，OCR 解析）核定。第二单元《混合运算》位于教参 P22–P58：
+  总体设计 P22–P27、教材分析 P28–P41、教学设计案例 P42–P51
+  （课题1「混合运算」单元教学设计 P42、课题2 解决问题（二）P48）、
+  拓展资源 P52–P53、评价建议及样例 P54–P58。
+teaching_references:
+  - point_id: "math-g3-t1-u02-p01"
+    ref_book: "人教版《教师教学用书》数学三年级上册第二单元"
+    ref_page: "P42-P47"
+    pedagogical_focus:
+      key_point: "借助情境理解运算顺序规定的合理性，把分步算式合并为综合算式"
+      difficulty: "学生易受「看到什么先算什么」的习惯影响，从左往右误算为「先算随机一步」"
+      typical_misconceptions:
+        - error_pattern: "32+47−28 先算 47−28 再与 32 相加，写成 32+19=51"
+          misconception_type: "同级运算顺序混乱，不按从左往右"
+        - error_pattern: "把两个分步算式合并时漏写或重复某个数（如 24−13=11、11+18=29 合并成 24−13+11）"
+          misconception_type: "综合算式书写错误"
+    variation_strategy:
+      - "分步算式合并成综合算式；给综合算式写出每一步的计算结果"
+      - "判断改错：给出不按从左往右计算的错例让学生改正"
+
+  - point_id: "math-g3-t1-u02-p02"
+    ref_book: "人教版《教师教学用书》数学三年级上册第二单元"
+    ref_page: "P42-P47"
+    pedagogical_focus:
+      key_point: "结合具体情境理解「先乘除后加减」的必要性，而不只是记住规则"
+      difficulty: "先算的部分与情境含义对应不上时，学生易机械套用规则"
+      typical_misconceptions:
+        - error_pattern: "4+6×3 先算 4+6=10，再算 10×3=30"
+          misconception_type: "忽视先乘除后加减"
+        - error_pattern: "6×3+4 脱式时把 18 与 4 相加写成 6×7=42"
+          misconception_type: "脱式书写不规范，随意合并数"
+    variation_strategy:
+      - "先画线标出第一步，再脱式计算"
+      - "对比题：4×5+4×3 与 4×(5+3) 的结果比较，体会运算顺序的影响"
+
+  - point_id: "math-g3-t1-u02-p03"
+    ref_book: "人教版《教师教学用书》数学三年级上册第二单元"
+    ref_page: "P42-P47"
+    pedagogical_focus:
+      key_point: "在「算式与情境不符」的冲突中体会括号的作用"
+      difficulty: "学生容易忘记加括号，导致列式与思考过程不一致"
+      typical_misconceptions:
+        - error_pattern: "需要先算加法时直接写成 25+15÷8，未加括号"
+          misconception_type: "括号的必要性认识不足"
+        - error_pattern: "72−18÷9 与 (72−18)÷9 混为一谈，认为结果相同"
+          misconception_type: "括号改变运算顺序的作用不清"
+    variation_strategy:
+      - "对比计算：72−18÷9 与 (72−18)÷9"
+      - "根据情境选择正确的列式（含与不含括号的干扰项）"
+
+  - point_id: "math-g3-t1-u02-p04"
+    ref_book: "人教版《教师教学用书》数学三年级上册第二单元"
+    ref_page: "P48-P51"
+    pedagogical_focus:
+      key_point: "经历「阅读理解—分析解答—回顾反思」的完整解题过程，学会先想后算"
+      difficulty: "两步问题的中间问题（先求什么）不易确定，学生易直接拼凑算式"
+      typical_misconceptions:
+        - error_pattern: "不分析数量关系，直接把题中数字随意组合成算式"
+          misconception_type: "缺少中间问题意识"
+        - error_pattern: "线段图画错，把「少 3 朵」画成比小明多"
+          misconception_type: "数量关系理解偏差"
+    variation_strategy:
+      - "补全线段图并列出综合算式"
+      - "口头表达「先求……再求……」的解题思路"
+
+  - point_id: "math-g3-t1-u02-p05"
+    ref_book: "人教版《教师教学用书》数学三年级上册第二单元"
+    ref_page: "P48-P51"
+    pedagogical_focus:
+      key_point: "鼓励算法多样化，在对比中体会不同思路的内在一致性"
+      difficulty: "学生易认为只有一种「正确」解法，缺乏多角度思考的意识"
+      typical_misconceptions:
+        - error_pattern: "只承认一种列式，认为另一种思路「不对」"
+          misconception_type: "思维定势"
+        - error_pattern: "两种思路混用，列式出现逻辑断裂（如 72÷8−56÷8 写成 72−56÷8）"
+          misconception_type: "列式与思路不对应"
+    variation_strategy:
+      - "一题多解：要求用两种方法解答同一问题并说明各自先求什么"
+      - "对比两种列式的异同，讨论结果的合理性"

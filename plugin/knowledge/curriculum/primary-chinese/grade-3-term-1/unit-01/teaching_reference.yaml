@@ -1,0 +1,114 @@
+unit_id: "unit-1"
+source_id: "pep_chinese_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《人教统编版小学语文三年级上册教师用书（教学参考）》
+  （255 页扫描件，OCR 解析目录页 P11–P13）核定。第一单元位于教参 P2–P26：
+  单元说明 P2、大青树下的小学 P3–P7、花的学校 P8–P12、不懂就要问 P13–P16、
+  口语交际（我的暑假生活）P17–P20、习作（猜猜他是谁）P21–P23、语文园地一 P24–P26。
+teaching_references:
+  - point_id: "chi-g3-t1-u01-p01"
+    ref_book: "人教版《教师教学用书》语文三年级上册第一单元"
+    ref_page: "P3-P16"
+    pedagogical_focus:
+      key_point: "掌握本单元会写字在田字格中的间架结构，工整规范书写词语表中核心词语"
+      difficulty: "易错字书写笔画与间架结构：『扬』右部是『昜』不要写成『易』；『绒』左边绞丝旁窄长；『荒』中间是『亡』不要多写一点；『假』右上是『コ』加两横"
+      typical_misconceptions:
+        - error_pattern: "将『飘扬』的『扬』右部写成『易』（多出横折钩）"
+          misconception_type: "形近部件混淆"
+        - error_pattern: "将『荒野』的『荒』中间写成『云』或漏写一点"
+          misconception_type: "笔画部件错位"
+        - error_pattern: "将『绒球』的『绒』绞丝旁写得过宽，右部『戎』缺笔"
+          misconception_type: "间架结构与笔画增减"
+    variation_strategy:
+      - "看拼音写生字词语，规范在田字格中工整默写（坪坝、绒球、飘扬、洁白、粗壮）"
+      - "形近字对比组词：扬（飘扬）/ 杨（杨树）；笛（笛声）/ 苗（禾苗）"
+
+  - point_id: "chi-g3-t1-u01-p02"
+    ref_book: "人教版《教师教学用书》语文三年级上册第一单元"
+    ref_page: "P8-P16"
+    pedagogical_focus:
+      key_point: "根据具体语境和词性含义准确判断多音字『假、晃、挨、背』的读音"
+      difficulty: "『假』表示休息日、不工作（放假、假期）时读四声 jià，表示不真实（假话、真假）时读三声 jiǎ；『晃』作动词摇动（摇晃、晃动）读四声 huàng，表示光线耀眼（晃眼）读三声 huǎng"
+      typical_misconceptions:
+        - error_pattern: "将『他们便放假了』的『假』误读为 jiǎ"
+          misconception_type: "语境含义与读音混淆"
+        - error_pattern: "将『摇晃』的『晃』误读为 huǎng"
+          misconception_type: "词性与读音对应错误"
+    variation_strategy:
+      - "语境选音打钩：下课了，大家在大青树下跳孔雀舞，墙上凤尾竹的影子不停地摇（晃 huàng √ / huǎng）"
+      - "多音字句子辨音选择题"
+
+  - point_id: "chi-g3-t1-u01-p03"
+    ref_book: "人教版《教师教学用书》语文三年级上册第一单元"
+    ref_page: "P8-P12"
+    pedagogical_focus:
+      key_point: "落实单元语文要素，关注课文中把事物当成人来写的新鲜词句，体会其表达效果"
+      difficulty: "学生易停留在「读懂意思」，难以体会新鲜表达带来的新奇感受"
+      typical_misconceptions:
+        - error_pattern: "把『湿润的东风走过荒野』理解为东风吹过荒野，忽略拟人的新鲜感"
+          misconception_type: "缺少对表达形式的敏感"
+        - error_pattern: "仿写时只是替换词语，未抓住拟人句的特点"
+          misconception_type: "仿写机械，未迁移表达方法"
+    variation_strategy:
+      - "找出课文中有新鲜感的词句并交流体会，说明新鲜在哪里"
+      - "照样子写句子，如『清风一吹，他们……』『蝴蝶一来，他们……』"
+
+  - point_id: "chi-g3-t1-u01-p04"
+    ref_book: "人教版《教师教学用书》语文三年级上册第一单元"
+    ref_page: "P3-P16"
+    pedagogical_focus:
+      key_point: "概括课文主要内容，体会《不懂就要问》中孙中山勤学好问的品质"
+      difficulty: "略读课文要求迁移精读课文习得的方法，学生易逐句复述而非概括"
+      typical_misconceptions:
+        - error_pattern: "复述课文细节而不会用一两句话概括主要内容"
+          misconception_type: "概括能力不足"
+        - error_pattern: "把『不懂就要问』理解为『什么都问』，曲解人物品质"
+          misconception_type: "理解偏差"
+    variation_strategy:
+      - "按「谁—做了什么—结果怎样」概括课文主要内容"
+      - "结合孙中山的话谈自己的看法，说明理由"
+
+  - point_id: "chi-g3-t1-u01-p05"
+    ref_book: "人教版《教师教学用书》语文三年级上册第一单元"
+    ref_page: "P17-P20"
+    pedagogical_focus:
+      key_point: "围绕话题选择他人感兴趣的内容，借助图片或实物把经历讲清楚"
+      difficulty: "学生易平铺直叙、面面俱到，缺乏听众意识"
+      typical_misconceptions:
+        - error_pattern: "讲述时想到哪说到哪，条理不清"
+          misconception_type: "缺乏组织与顺序意识"
+        - error_pattern: "只用语言讲述，不使用图片或实物辅助"
+          misconception_type: "交际策略单一"
+    variation_strategy:
+      - "判断一段讲述是否清楚、是否选择了他人感兴趣的内容"
+      - "模拟讲述并互评，提出改进建议"
+
+  - point_id: "chi-g3-t1-u01-p06"
+    ref_book: "人教版《教师教学用书》语文三年级上册第一单元"
+    ref_page: "P21-P23"
+    pedagogical_focus:
+      key_point: "抓住人物一两点特别之处，写一个片段，体会习作的乐趣"
+      difficulty: "学生易写成「流水账」或直接说出名字，抓不住特点"
+      typical_misconceptions:
+        - error_pattern: "文中出现人物姓名，读者无法猜出"
+          misconception_type: "未理解习作要求"
+        - error_pattern: "只写外貌，忽略性格、爱好等独特之处"
+          misconception_type: "抓特点不全面"
+    variation_strategy:
+      - "判断片段是否抓住特点、是否隐去姓名"
+      - "写一段100字左右的写人片段，同学互猜"
+
+  - point_id: "chi-g3-t1-u01-p07"
+    ref_book: "人教版《教师教学用书》语文三年级上册第一单元"
+    ref_page: "P24-P26"
+    pedagogical_focus:
+      key_point: "积累描写人物动作、神态的成语，背诵默写古诗《所见》"
+      difficulty: "成语多含身体部位词，学生易写错字；古诗中『振林樾』『意欲』等词不易理解"
+      typical_misconceptions:
+        - error_pattern: "『张牙舞爪』误写成『张牙五爪』，『手疾眼快』误写成『手急眼快』"
+          misconception_type: "同音字混淆"
+        - error_pattern: "默写《所见》时把『振林樾』写成『振林月』"
+          misconception_type: "字词理解不到位导致错字"
+    variation_strategy:
+      - "补全成语并分类（描写动作 / 描写神态）"
+      - "默写《所见》并解释重点词句"

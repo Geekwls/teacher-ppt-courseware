@@ -1,0 +1,191 @@
+{
+  "deck_id": "cw-english-g4-t1-u1-l1",
+  "metadata": {
+    "title": "Unit 1 Helping at home · Part A Let's talk",
+    "subtitle": "询问与介绍职业 What's your …'s job?",
+    "subject": "english",
+    "grade": 4,
+    "term": "term-1",
+    "unit_id": "unit-01",
+    "unit_name": "Unit 1 Helping at home",
+    "lesson_id": "eng-g4-t1-u01-l01",
+    "lesson_name": "Part A Let's talk: 询问与介绍职业",
+    "class_period_label": "Part A 第1课时",
+    "teacher_name": "",
+    "school": "",
+    "style": "standard"
+  },
+  "curriculum_evidence": {
+    "referenced_knowledge_points": [
+      "eng-g4-t1-u01-p01"
+    ],
+    "lesson_ref": "eng-g4-t1-u01-l01",
+    "curriculum_status": "verified",
+    "evidence_summary": "依据人教版PEP英语四年级上册 Unit 1 Part A Let's talk(P4-P5)与电子课本实证知识点;对话与核心词汇取自课本原文。",
+    "page_refs": ["P4-P5"]
+  },
+  "slides": [
+    {
+      "slide_id": "s01",
+      "type": "cover",
+      "title": "Part A Let's talk",
+      "subtitle": "What's your …'s job? 询问与介绍职业"
+    },
+    {
+      "slide_id": "s02",
+      "type": "objectives",
+      "title": "Learning Goals 学习目标",
+      "items": [
+        "能用 What's your …'s job? 询问他人的职业",
+        "能用 He's / She's a … 介绍职业,认读 doctor, nurse, farmer, office worker, factory worker",
+        "说职业时,名词前别忘了冠词 a"
+      ],
+      "source": {"point_id": "eng-g4-t1-u01-p01"},
+      "notes": "Read the goals together. Today we can talk about jobs!"
+    },
+    {
+      "slide_id": "s03",
+      "type": "warmup",
+      "title": "Warm-up 热身",
+      "items": [
+        "Greetings: Good morning! How are you today?",
+        "Chant: Father, father, what's his job? Teacher, teacher, a teacher, a teacher!",
+        "Look and say: 你认识图片里的人是做什么的吗?"
+      ],
+      "notes": "带节奏拍手齐chant,营造氛围。第3条引出\"职业\"话题,教师做动作学生猜职业。"
+    },
+    {
+      "slide_id": "s04",
+      "type": "concept",
+      "title": "Key Sentence 核心句型",
+      "steps": [
+        "问: What's your father's job?(你爸爸的职业是什么?)",
+        "答: He's a doctor.(他是一名医生。)",
+        "换人问: mother → She's a nurse.(注意 He's / She's)",
+        "换职业答: a farmer / an office worker"
+      ],
+      "callout": "Job questions: What's your …'s job? — He's / She's a …",
+      "source": {"point_id": "eng-g4-t1-u01-p01"},
+      "notes": "教师先示范问答,再让同桌替换人称呼一呼一答。板书时用红笔圈出 a 和 's。"
+    },
+    {
+      "slide_id": "s05",
+      "type": "example",
+      "title": "Let's talk 听说活动",
+      "problem": "Listen and answer: What's the mother's job?",
+      "figure": {
+        "kind": "dialog_bubble",
+        "lines": [
+          {"speaker": "A", "text": "What's your mother's job?"},
+          {"speaker": "B", "text": "She's a PE teacher."},
+          {"speaker": "A", "text": "Doctors are great! My father is a doctor too."}
+        ]
+      },
+      "solution_steps": [
+        "听录音,圈出答案 PE teacher",
+        "跟读模仿:注意 What's 和 job 的连读",
+        "分角色朗读,再交换角色",
+        "替换关键词,创编新对话"
+      ],
+      "answer": "She's a PE teacher.",
+      "source": {"point_id": "eng-g4-t1-u01-p01", "textbook_page": 4},
+      "notes": "两遍录音:第一遍整体听,第二遍逐句跟读。Pair work 时教师巡视,提醒别漏 a。"
+    },
+    {
+      "slide_id": "s06",
+      "type": "concept",
+      "title": "Word Cards 职业词汇",
+      "steps": [
+        "看词卡,听教师范读,跟读两遍",
+        "看中文说英文,再看英文说中文",
+        "同桌互考:指卡片,快问快答"
+      ],
+      "figure": {
+        "kind": "word_card",
+        "cards": [
+          {"word": "doctor", "meaning": "医生"},
+          {"word": "nurse", "meaning": "护士"},
+          {"word": "farmer", "meaning": "农民"},
+          {"word": "office worker", "meaning": "职员"},
+          {"word": "factory worker", "meaning": "工人"}
+        ]
+      },
+      "source": {"point_id": "eng-g4-t1-u01-p01", "textbook_page": 4},
+      "notes": "High-low voice 开火车读。小游戏:教师说中文,学生抢答英文;再做\"指卡片快读\"。"
+    },
+    {
+      "slide_id": "s07",
+      "type": "misconception",
+      "title": "易错警示 Don't forget \"a\"!",
+      "wrong": "He's doctor.",
+      "reason": "职业名词前漏掉冠词 a:介绍职业时,单数可数名词前要加 a(读职业时字母 a 要发出来)",
+      "correct": "He's a doctor.",
+      "source": {"point_id": "eng-g4-t1-u01-p01"},
+      "notes": "让学生齐读错例和正例,感受差别。追问:\"She's nurse.\" 对不对?怎么改?再提醒所有格别漏 's。"
+    },
+    {
+      "slide_id": "s08",
+      "type": "practice",
+      "title": "Practice 课堂练习",
+      "show_answers": false,
+      "items": [
+        {
+          "stem": "选词补全: What's your father's ___?  (job / old)",
+          "options": ["job", "old"],
+          "answer": "job — What's your father's job?",
+          "source": {"point_id": "eng-g4-t1-u01-p01"}
+        },
+        {
+          "stem": "改错: She's farmer.",
+          "answer": "She's a farmer. (职业名词前加 a)",
+          "source": {"point_id": "eng-g4-t1-u01-p01"}
+        },
+        {
+          "stem": "连一连: nurse · doctor · farmer — 医生 · 护士 · 农民",
+          "answer": "nurse-护士; doctor-医生; farmer-农民",
+          "source": {"point_id": "eng-g4-t1-u01-p01"}
+        },
+        {
+          "stem": "Pair work 写一写:用 What's your …'s job? 和同桌创编两句问答并写下来。",
+          "answer": "略:示例 What's your mother's job? — She's a nurse. 要求句中有 a、所有格 's 不漏。",
+          "source": {"point_id": "eng-g4-t1-u01-p01"}
+        }
+      ],
+      "notes": "限时6分钟。第2题请学生上讲台改错并说理由;第4题请两组展示,师生共同评价 a 与 's。"
+    },
+    {
+      "slide_id": "s09",
+      "type": "summary",
+      "title": "Self-check 小结自评",
+      "items": [
+        "I can ask about people's jobs. 我会问职业",
+        "I can say five jobs. 我会说五种职业",
+        "I can use \"a\" before jobs. 我会正确使用冠词 a"
+      ],
+      "notes": "学生逐条自评:能做到的举绿牌,还不熟练的举黄牌。教师记录黄牌人数,课后跟进。"
+    },
+    {
+      "slide_id": "s10",
+      "type": "board",
+      "title": "Board Design 板书设计",
+      "content": "Unit 1  Part A  Let's talk\nWhat's your …'s job? — He's / She's a doctor.\nJobs: doctor  nurse  farmer  office worker  factory worker\n⚠ Don't forget \"a\"!  ⚠ all格别漏 's",
+      "notes": "左栏句型,右栏词库,下方易错警示;红色粉笔标 a 与 's。"
+    },
+    {
+      "slide_id": "s11",
+      "type": "homework",
+      "title": "Homework 作业",
+      "items": [
+        "听读 Let's talk 录音3遍,模仿语音语调",
+        "用 What's your …'s job? 问一问家人的职业,记下来",
+        "抄写5个职业词各2遍,别忘了冠词 a"
+      ],
+      "notes": "第2项明天课前分享;基础弱的学生只完成前两项。"
+    },
+    {
+      "slide_id": "s12",
+      "type": "end",
+      "message": "Goodbye, class! See you next time!"
+    }
+  ]
+}

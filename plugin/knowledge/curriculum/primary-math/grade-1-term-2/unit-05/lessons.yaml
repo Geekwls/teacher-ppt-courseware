@@ -1,0 +1,10 @@
+lessons:
+- lesson_id: math-g1-t2-u05-l01
+  unit_id: unit-05
+  subject: math
+  grade: 1
+  term: term-2
+  lesson_name: 第五单元 100以内的笔算加、减法（单元整体）
+  page_range: P56-P68
+  official_examples:
+  - 学习 100 以内加、减法的竖式笔算，包括不进位、不退位与进位、退位的情形，掌握竖式的书写格式与计算法则。（例题原文待核验）

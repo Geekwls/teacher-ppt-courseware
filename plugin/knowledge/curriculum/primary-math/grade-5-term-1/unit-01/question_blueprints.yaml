@@ -1,0 +1,59 @@
+unit_id: unit-01
+blueprints:
+- blueprint_id: bp-math-g5-t1-u01-standard
+  title: 第一单元 观察简单组合体标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、连一连
+    question_type: choice
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g5-t1-u01-p01
+    guidelines: 把组合体与从前面/上面/左面看到的图形配对。
+  - slot_id: slot-02
+    section: 二、判一判
+    question_type: choice
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g5-t1-u01-p01
+    - math-g5-t1-u01-p03
+    guidelines: 判断关于视图与观察方向的说法是否正确。
+  - slot_id: slot-03
+    section: 三、画一画（画视图）
+    question_type: writing
+    difficulty: variation
+    points_per_item: 8
+    item_count: 3
+    target_points:
+    - math-g5-t1-u01-p01
+    guidelines: 画出从前面、上面、左面看到的图形。
+  - slot_id: slot-04
+    section: 四、摆一摆（还原组合体）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 10
+    item_count: 2
+    target_points:
+    - math-g5-t1-u01-p02
+    guidelines: 根据从三个方向看到的图形把组合体摆出来。
+  - slot_id: slot-05
+    section: 五、解决问题（综合）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 12
+    item_count: 2
+    target_points:
+    - math-g5-t1-u01-p02
+    - math-g5-t1-u01-p03
+    guidelines: 判断同一视图可能对应几种摆法，并说明视图的作用。

@@ -1,0 +1,10 @@
+lessons:
+- lesson_id: math-g4-t1-u06-l01
+  unit_id: unit-06
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_name: 第五单元 平行四边形和梯形（单元整体）
+  page_range: P70-P87
+  official_examples:
+  - 图形与几何单元：在同一平面内两条直线的位置关系（平行与垂直），认识平行四边形和梯形及其特征，认识平行四边形和梯形的底和高。（例题原文待核验）

@@ -1,0 +1,225 @@
+edition_lock:
+  textbook_name: 义务教育教科书 语文 二年级上册
+  publisher: 人民教育出版社
+  approval_year: 教育部2022课标2024/2026修订新版
+  grade: 2
+  term: term-1
+  unit_id: unit-07
+  unit_name: 第七单元 自然想象与变化
+  page_range: P81-P94
+  verified: true
+lessons_map:
+- lesson_id: chi-g2-t1-u07-l01
+  title: 18 古诗二首
+  page: P81-P83
+  core_writing_chars:
+  - 绝
+  - 灭
+  - 舟
+  - 独
+  - 阴
+  - 似
+  - 野
+  - 低
+- lesson_id: chi-g2-t1-u07-l02
+  title: 19 雾在哪里
+  page: P84-P86
+  core_writing_chars:
+  - 论
+  - 船
+  - 猫
+  - 切
+  - 该
+  - 散
+  - 步
+  - 失
+- lesson_id: chi-g2-t1-u07-l03
+  title: 20 雪孩子
+  page: P87-P90
+  core_writing_chars:
+  - 要
+  - 伙
+  - 伴
+  - 歌
+  - 得
+  - 闭
+  - 忙
+  - 谁
+  - 汽
+- lesson_id: chi-g2-t1-u07-l04
+  title: 语文园地七
+  page: P91-P94
+  core_writing_chars:
+  - 饥
+  - 饿
+  - 宁
+  - 库
+official_vocab_table:
+- word: 千山
+  lesson: 18 古诗二首
+- word: 万径
+  lesson: 18 古诗二首
+- word: 孤舟
+  lesson: 18 古诗二首
+- word: 寒江
+  lesson: 18 古诗二首
+- word: 敕勒川
+  lesson: 18 古诗二首
+- word: 阴山
+  lesson: 18 古诗二首
+- word: 穹庐
+  lesson: 18 古诗二首
+- word: 天苍苍
+  lesson: 18 古诗二首
+- word: 野茫茫
+  lesson: 18 古诗二首
+- word: 于是
+  lesson: 19 雾在哪里
+- word: 无论
+  lesson: 19 雾在哪里
+- word: 船只
+  lesson: 19 雾在哪里
+- word: 同时
+  lesson: 19 雾在哪里
+- word: 看来
+  lesson: 19 雾在哪里
+- word: 不久
+  lesson: 19 雾在哪里
+- word: 行人
+  lesson: 19 雾在哪里
+- word: 一切
+  lesson: 19 雾在哪里
+- word: 出现
+  lesson: 19 雾在哪里
+- word: 散步
+  lesson: 19 雾在哪里
+- word: 消失
+  lesson: 19 雾在哪里
+- word: 一会儿
+  lesson: 19 雾在哪里
+- word: 赶快
+  lesson: 19 雾在哪里
+- word: 路上
+  lesson: 19 雾在哪里
+- word: 空地
+  lesson: 20 雪孩子
+- word: 伙伴
+  lesson: 20 雪孩子
+- word: 唱歌
+  lesson: 20 雪孩子
+- word: 回家
+  lesson: 20 雪孩子
+- word: 连忙
+  lesson: 20 雪孩子
+- word: 树林
+  lesson: 20 雪孩子
+- word: 水汽
+  lesson: 20 雪孩子
+- word: 白云
+  lesson: 20 雪孩子
+- word: 着火
+  lesson: 20 雪孩子
+- word: 火星
+  lesson: 20 雪孩子
+- word: 怎么
+  lesson: 20 雪孩子
+- word: 可以
+  lesson: 20 雪孩子
+- word: 饥饿
+  lesson: 语文园地七
+- word: 仓库
+  lesson: 语文园地七
+- word: 安宁
+  lesson: 语文园地七
+three_tier_vocab:
+  lessons_desc: 《古诗二首》《雾在哪里》《雪孩子》
+  tier_a_phrases:
+  - pinyin: yú shì
+    word: 于是
+  - pinyin: wú lùn
+    word: 无论
+  - pinyin: chuán zhī
+    word: 船只
+  - pinyin: tóng shí
+    word: 同时
+  - pinyin: kàn lai
+    word: 看来
+  - pinyin: bù jiǔ
+    word: 不久
+  - pinyin: xíng rén
+    word: 行人
+  - pinyin: yí qiè
+    word: 一切
+  - pinyin: chū xiàn
+    word: 出现
+  - pinyin: sàn bù
+    word: 散步
+  - pinyin: xiāo shī
+    word: 消失
+  - pinyin: yí huì er
+    word: 一会儿
+  - pinyin: gǎn kuài
+    word: 赶快
+  - pinyin: lù shang
+    word: 路上
+  - pinyin: kòng dì
+    word: 空地
+  - pinyin: huǒ bàn
+    word: 伙伴
+  - pinyin: chàng gē
+    word: 唱歌
+  - pinyin: huí jiā
+    word: 回家
+  - pinyin: lián máng
+    word: 连忙
+  - pinyin: shù lín
+    word: 树林
+  - pinyin: shuǐ qì
+    word: 水汽
+  - pinyin: bái yún
+    word: 白云
+  - pinyin: zháo huǒ
+    word: 着火
+  - pinyin: huǒ xīng
+    word: 火星
+  - pinyin: zěn me
+    word: 怎么
+  - pinyin: kě yǐ
+    word: 可以
+  tier_b_pairs:
+  - char1: 汽
+    word1: 水汽
+    char2: 气
+    word2: 生气
+  - char1: 散
+    word1: 散步
+    char2: 撒
+    word2: 撒水
+  - char1: 浑
+    word1: 浑身
+    char2: 挥
+    word2: 挥手
+  - char1: 伙
+    word1: 伙伴
+    char2: 火
+    word2: 大火
+  tier_c_phrases:
+  - pinyin: gū zhōu
+    word: 孤舟
+  - pinyin: hán jiāng
+    word: 寒江
+  - pinyin: qióng lú
+    word: 穹庐
+  - pinyin: táo qì
+    word: 淘气
+  - pinyin: wán pí
+    word: 顽皮
+  - pinyin: tiān cāng cāng
+    word: 天苍苍
+  strokes_challenge:
+  - question_stem: “步”是上下结构，下半部分不是“少”，没有右上角的一（    ）。
+    answer_text: 点
+  - question_stem: “久”的第二笔是：____________，最后一笔是：____________。
+    answer_text: 横撇；捺
+  - question_stem: “切”是左右结构，左边是“七”，右边是____________旁。
+    answer_text: 刀字旁（刂）

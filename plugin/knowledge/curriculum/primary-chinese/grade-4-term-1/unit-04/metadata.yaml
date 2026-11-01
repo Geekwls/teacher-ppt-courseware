@@ -1,0 +1,15 @@
+unit_id: unit-04
+unit_name: 第四单元 神话故事
+subject: chinese
+edition: 统编版
+grade: 4
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: partial
+source_id: pep_chinese_g4_t1_2024
+teaching_reference_source_id: pep_chinese_g4_t1_tr_2024
+page_range: P45-P58
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文四年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 3（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P12。本单元真实版面为 P45–P58，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。
+unit_overview: 编排《盘古开天地》《精卫填海》《普罗米修斯》《女娲补天》等课文，学习「了解故事的起因、经过、结果，学习把握文章的主要内容」「感受神话中神奇的想象和鲜明的人物形象」。
+numeric_upper_bound: null

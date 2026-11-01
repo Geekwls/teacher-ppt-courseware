@@ -1,0 +1,46 @@
+unit_id: unit-03
+source_id: pep_math_g1_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2025年春人教版教师教学用书数学一年级下册》为**纯扫描件（281 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g1-t2-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「十」为单位数数（十个十个数到一百），建立十进结构
+    difficulty: 接近整十数时数错（如 29 后面数成 40）
+    typical_misconceptions:
+    - error_pattern: 29 的后面误填 40
+      misconception_type: 数序断裂
+    - error_pattern: 漏数整十数（30、40……）
+      misconception_type: 十进单位意识薄弱
+  variation_strategy:
+  - 一百一百地数、一十一十地数、一个一个地数
+  - 用小棒（捆）表示数的组成
+- point_id: math-g1-t2-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助计数器建立「数位」观念，理解位值制
+    difficulty: 中间或末尾有 0 的数读写易错
+    typical_misconceptions:
+    - error_pattern: 把「三十」写成「300」或漏写 0
+      misconception_type: 数位概念不清
+    - error_pattern: 读 105 时读成「一百五」
+      misconception_type: 中间零的读法未掌握
+  variation_strategy:
+  - 在计数器上拨数并读、写
+  - 给出数词写数，或给出数读数
+- point_id: math-g1-t2-u03-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助数轴（百数表）上的位置理解顺序与大小
+    difficulty: 比较十位不同的两位数时仍从个位比起
+    typical_misconceptions:
+    - error_pattern: 比较 28 与 31 时误判为 28 大
+      misconception_type: 比较法则未掌握
+    - error_pattern: 百数表中相邻数填写错误
+      misconception_type: 数序结构不清
+  variation_strategy:
+  - 在百数表中找规律、填数
+  - 比一比：先比十位再比个位

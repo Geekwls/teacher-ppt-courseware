@@ -1,0 +1,15 @@
+unit_id: unit-08
+unit_name: 第八单元 阅读
+subject: chinese
+edition: 统编版
+grade: 2
+term: term-2
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: partial
+source_id: pep_chinese_g2_t2_2024
+teaching_reference_source_id: pep_chinese_g2_t2_tr_2024
+page_range: P100-P109
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版统编版小学语文二年级下册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 5（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P54。本单元真实版面为 P100–P109，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。
+unit_overview: 阅读单元：学习《羿射九日》《黄帝的传说》《大禹治水》三篇课文，在朗读中了解中国古代神话传说，感受先民的智慧与奉献精神。
+numeric_upper_bound: null

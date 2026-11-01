@@ -1,0 +1,167 @@
+unit_id: "unit-6"
+source_id: "pep_english_g3_t1_2024"
+points:
+  - point_id: "eng-g3-t1-u06-p01"
+    lesson_id: "lesson-03"
+    point_name: "字母 Vv, Ww, Xx, Yy, Zz 的认读、大小写配对与四线三格规范书写"
+    learning_objectives:
+      - "正确认读英文字母表中最后5个字母 Vv, Ww, Xx, Yy, Zz 的大写与小写形式"
+      - "熟练进行字母大小写配对，完成全册26个英文字母表顺序闭环"
+      - "在四线三格中规范书写 Vv-Zz，重点掌握小写 y 占中下格（长斜下延至第三格）、小写 v, w, x, z 占满中格的规则"
+    prerequisites:
+      - "eng-g3-t1-u05-p01"
+    subsequent_points:
+      - "eng-g3-t1-u06-p02"
+    applicable_question_types: ["fill_blank", "choice", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "字母 Vv, Ww, Xx, Yy, Zz 的占格位置（大写占上两格；小写v, w, x, z占中格；小写y占中下格）"
+        - "字母表邻居与整表排序（如 U, V, W, X, Y, Z）"
+      scope_excluded:
+        - "草书或花体变形书写"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [66]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u06-p02"
+    lesson_id: "lesson-03"
+    point_name: "字母 Vv-Zz 自然拼读发音与例词拼读"
+    learning_objectives:
+      - "掌握辅音字母 v 发 /v/，w 发 /w/，x 发 /ks/，y 发 /j/，z 发 /z/ 的拼读发音规律"
+      - "准确识别词首辅音与词尾音素（如 box 和 six 中的 /ks/）"
+      - "拼读简单 CVC 单词：wet, vat, won, yes, yum, zig"
+    prerequisites:
+      - "eng-g3-t1-u06-p01"
+    subsequent_points: []
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "教材拼读例词：van, vet, we, win, box, six, yellow, yo-yo, Zip, quiz"
+        - "CVC拼读词：wet, vat, won, yes, yum, zig"
+        - "字母 x 处于词尾时的双音素 /ks/ 辨析"
+      scope_excluded:
+        - "字母 y 作元音发 /aɪ/（如 my, fly 等）或 /i/（如 happy 等）的规则"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [66]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u06-p03"
+    lesson_id: "lesson-02"
+    point_name: "基数词 1 至 10（one to ten）听、说、认读与数词拼写"
+    learning_objectives:
+      - "听、说、认读数字 1 至 10 的英文表达：one, two, three, four, five, six, seven, eight, nine, ten"
+      - "建立阿拉伯数字与英文数词词形、实物计数的精确对应"
+      - "能在身体律动或顺数、倒数口令中迅速反应"
+    prerequisites: []
+    subsequent_points:
+      - "eng-g3-t1-u06-p04"
+      - "eng-g3-t1-u06-p05"
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "基数词 1 至 10：one, two, three, four, five, six, seven, eight, nine, ten"
+        - "倒数与顺数填空"
+      scope_excluded:
+        - "11-20的数词（三下学习）"
+        - "序数词 first, second（高年级学习）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [65, 68]
+      example_ref: ["ex_2", "ex_5"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u06-p04"
+    lesson_id: "lesson-01"
+    point_name: "询问并表达年龄的核心日常交际句型"
+    learning_objectives:
+      - "掌握询问对方年龄的核心疑问句：How old are you?"
+      - "熟练运用 I'm + 基数词 (+ years old) 表达年龄：I'm five years old. / I'm six."
+      - "运用 Me too. 礼貌表达与对方同龄或赞同"
+    prerequisites:
+      - "eng-g3-t1-u06-p03"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "句型：How old are you? -> I'm... years old. / I'm..."
+        - "交际短语：Me too."
+      scope_excluded:
+        - "第三人称单数年龄问句 How old is he/she?"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [64]
+      example_ref: ["ex_1"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u06-p05"
+    lesson_id: "lesson-04"
+    point_name: "询问物品数量的核心疑问句与名词复数搭配"
+    learning_objectives:
+      - "掌握询问可数事物数量的特殊疑问句：How many + 复数名词?（How many apples? How many lions?）"
+      - "准确进行数量回答，并注意 1 时使用单数（One orange.），2及以上使用基数词（Two. / Three.）"
+    prerequisites:
+      - "eng-g3-t1-u06-p03"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "句型：How many + 复数名词? -> 数字 / 数字 + 名词."
+        - "例句：How many apples? Two. / How many bananas? Three. And one orange."
+      scope_excluded:
+        - "不可数名词数量提问 How much water?"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [67]
+      example_ref: ["ex_4"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u06-p06"
+    lesson_id: "lesson-05"
+    point_name: "超市购物结算与付款核心日常交际表达"
+    learning_objectives:
+      - "掌握营业员告知商品价格的礼貌句型：That's + 数字 + yuan, please.（That's ten yuan, please.）"
+      - "掌握付款或递物时的礼貌应答：Here you are."
+      - "掌握陈述自己持有货币数量的表达：I have ten yuan. / I have six yuan."
+    prerequisites:
+      - "eng-g3-t1-u06-p03"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "购物结算句型：That's ten yuan, please. -> Here you are."
+        - "拥有金钱：I have ... yuan. / Let's go to the shop!"
+      scope_excluded:
+        - "复杂找零计算或外币单位（dollar, pound）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [67, 68]
+      example_ref: ["ex_4", "ex_5"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u06-p07"
+    lesson_id: "lesson-06"
+    point_name: "数字跨学科应用：奇数偶数分类与生日筹备语篇"
+    learning_objectives:
+      - "理解数学跨学科数论概念在英语中的表达：odd（奇数：1, 3, 5, 7, 9）与 even（偶数：2, 4, 6, 8, 10）"
+      - "在生日庆祝语篇中理解时刻（It's seven o'clock.）与计数（One orange, two apples, three cuts）的应用"
+      - "阅读简短故事并能按数量信息完成图文推理，回答大问题'Why are numbers important?'"
+    prerequisites:
+      - "eng-g3-t1-u06-p03"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "match", "reading_comprehension"]
+    teaching_boundary:
+      scope_allowed:
+        - "奇偶数分类：odd (1, 3, 5, 7, 9), even (2, 4, 6, 8, 10)"
+        - "时刻应用：It's ... o'clock. Hurry!"
+        - "生日筹备故事阅读理解"
+      scope_excluded:
+        - "分数、小数或大数加减乘除运算"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [69, 70]
+      example_ref: ["ex_6"]
+    verification_status: "verified"

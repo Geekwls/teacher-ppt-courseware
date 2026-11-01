@@ -1,0 +1,69 @@
+unit_id: unit-03
+blueprints:
+- blueprint_id: bp-math-g4-t1-u03-standard
+  title: 第二单元 角的度量标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填（角的分类与换算）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 8
+    target_points:
+    - math-g4-t1-u03-p01
+    - math-g4-t1-u03-p02
+    guidelines: 填写角的名称与 1 周角=2 平角=4 直角的换算。
+  - slot_id: slot-02
+    section: 二、量一量
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 5
+    item_count: 4
+    target_points:
+    - math-g4-t1-u03-p03
+    - math-g4-t1-u03-p04
+    guidelines: 量出下面各个角的度数。
+  - slot_id: slot-03
+    section: 三、画一画
+    question_type: writing
+    difficulty: variation
+    points_per_item: 6
+    item_count: 3
+    target_points:
+    - math-g4-t1-u03-p05
+    guidelines: 画出指定度数的角，并说出它们分别是哪一种角。
+  - slot_id: slot-04
+    section: 四、判一判（说法辨析）
+    question_type: choice
+    difficulty: variation
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g4-t1-u03-p02
+    - math-g4-t1-u03-p06
+    guidelines: 判断关于角的说法是否正确并说明理由。
+  - slot_id: slot-05
+    section: 五、算一算（角度计算）
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 4
+    item_count: 3
+    target_points:
+    - math-g4-t1-u03-p02
+    guidelines: 已知 ∠1=70°，求平角被分成两个角中的另一个角。
+  - slot_id: slot-06
+    section: 六、说一说（度量的结构）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 7
+    item_count: 2
+    target_points:
+    - math-g4-t1-u03-p06
+    guidelines: 说出测量长度、面积、角的共同点与各自的度量单位。

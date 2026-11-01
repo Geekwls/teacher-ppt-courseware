@@ -1,0 +1,77 @@
+unit_id: unit-05
+blueprints:
+- blueprint_id: bp-math-g2-t1-u05-standard
+  title: 第五单元 7～9的表内乘、除法标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、口算：表内乘除法
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 2
+    item_count: 10
+    target_points:
+    - math-g2-t1-u05-p01
+    - math-g2-t1-u05-p02
+    guidelines: 7～9 的表内乘除法口算。
+  - slot_id: slot-02
+    section: 二、填一填：口诀
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g2-t1-u05-p01
+    guidelines: 补全乘法口诀。
+  - slot_id: slot-03
+    section: 三、由口诀写算式
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g2-t1-u05-p01
+    - math-g2-t1-u05-p02
+    guidelines: 根据口诀写出乘、除算式。
+  - slot_id: slot-04
+    section: 四、在○里填「＞」「＜」或「＝」
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g2-t1-u05-p02
+    guidelines: 比较算式得数的大小。
+  - slot_id: slot-05
+    section: 五、看图列式
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 6
+    item_count: 2
+    target_points:
+    - math-g2-t1-u05-p03
+    guidelines: 根据图意列乘法或除法算式。
+  - slot_id: slot-06
+    section: 六、解决问题
+    question_type: reading
+    difficulty: variation
+    points_per_item: 9
+    item_count: 2
+    target_points:
+    - math-g2-t1-u05-p03
+    guidelines: 情境题：辨析运算后列式计算。
+  - slot_id: slot-07
+    section: 七、选择合适的方法解答
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 11
+    item_count: 1
+    target_points:
+    - math-g2-t1-u05-p03
+    guidelines: 比较两道相似题，选择乘法或除法并说明理由。

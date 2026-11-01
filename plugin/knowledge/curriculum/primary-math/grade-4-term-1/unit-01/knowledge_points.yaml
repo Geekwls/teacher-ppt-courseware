@@ -1,0 +1,203 @@
+unit_id: unit-01
+source_id: pep_math_g4_t1_2024
+points:
+- point_id: math-g4-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: math-g4-t1-u01-l01
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 计数单位、数位、数级与十进制计数法
+  learning_objectives:
+  - 能说出个（一）至亿的计数单位及相邻两个计数单位间的十进关系
+  - 能说出「每四个数位是一级」，并能在数位顺序表中定位各级各数位
+  - 能说出自然数的意义与「最小的自然数是 0，没有最大的自然数」
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P1
+    - P2
+    - P3
+    anchor_text: P2「亿以内数的认识」：一万一万地数，10 个一万是十万；10 个十万是一百万；10 个一百万是一千万；10 个一千万是一亿。个（一）、十、百、千、万、十万、百万、千万、亿都是计数单位。「按照我国的计数习惯，从右边起，每四个数位是一级。」P3：表示物体个数的 1，2，3，…都是自然数；一个物体也没有，用 0 表示，0 也是自然数。最小的自然数是 0，没有最大的自然数。
+  teaching_boundary:
+    scope_allowed:
+    - 说出计数单位与相邻单位间的进率（十）
+    - 在数位顺序表中定位数位与数级
+    - 说出自然数的意义
+    scope_excluded:
+    - 数位与计数单位以外的计数法体系（如二进制）
+    - 位值原理的代数化表述
+- point_id: math-g4-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: math-g4-t1-u01-l02
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 亿以内数的读法（含 0 的读法规则）
+  learning_objectives:
+  - 能按「先分级、再按级读」的方法正确读出亿以内的数
+  - 能说出并运用「每级末尾的 0 都不读，其他数位上有一个 0 或连续几个 0 都只读一个 0」的规则
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P5
+    - P6
+    - P7
+    anchor_text: P5「读出下面各数」：2496 万读作二千四百九十六万；五万四千六百二十一；六百四十万七千。P6 三条规则：1. 先读万级，再读个级。2. 万级的数，要按照个级的数的读法来读，再在后面加上一个「万」字。3. 每级末尾不管有几个 0，都不读，其他数位上有一个 0 或连续几个 0，都只读一个 0。P7「先分级，比较容易读。」
+  teaching_boundary:
+    scope_allowed:
+    - 读出含有两级的数
+    - 说明某一数位上 0 读或不读的理由
+    - 给大数分级后再读
+    scope_excluded:
+    - 阿拉伯数字的全球传播史
+    - 三位分节与四位分级的国际比较的系统讲解
+- point_id: math-g4-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: math-g4-t1-u01-l03
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 亿以内数的写法（含 0 的占位）
+  learning_objectives:
+  - 能按「先写万级、再写个级」的方法正确写出亿以内的数
+  - 能在数位上一个也没有时用 0 占位
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P7
+    - P8
+    - P9
+    anchor_text: P7「含有两级的数怎么写？1. 先写万级，再写个级。2. 哪个数位上一个也没有，就在那个数位上写 0。」P8：二十三万零一百八十四写作 230184；三百零二万六千写作 3026000；二千零四十万零七百写作 20400700。
+  teaching_boundary:
+    scope_allowed:
+    - 写出含有两级的数
+    - 说明某一数位上为什么写 0
+    - 把「读法」与「写法」相互转换
+    scope_excluded:
+    - 数位顺序表的来源考证
+    - 记数符号演变史的系统讲解
+- point_id: math-g4-t1-u01-p04
+  unit_id: unit-01
+  lesson_id: math-g4-t1-u01-l04
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 亿以上数的认识与读写
+  learning_objectives:
+  - 能说出十亿、百亿、千亿等计数单位及相邻单位间的十进关系
+  - 能按分级的方法正确读写亿以上的数
+  applicable_question_types:
+  - fill_blank
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P10
+    - P11
+    - P12
+    anchor_text: P10：10 个一亿是十亿，10 个十亿是一百亿，10 个一百亿是一千亿。P11：「全球人口约 8000000000 人」读作八十亿；亿以上的数先分级，再从最高级读起，读完亿级或万级的数，要加「亿」字或「万」字。P12：三亿写作 300000000；三十亿九千万一千五百；七千零三亿零二十万。
+  teaching_boundary:
+    scope_allowed:
+    - 说出十亿、百亿、千亿与「亿」的十进关系
+    - 读出亿以上的数
+    - 写出亿以上的数
+    scope_excluded:
+    - 国际人口统计口径的系统介绍
+    - 大数在实际统计中的误差分析
+- point_id: math-g4-t1-u01-p05
+  unit_id: unit-01
+  lesson_id: math-g4-t1-u01-l05
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 万以上数的大小比较
+  learning_objectives:
+  - 能按「位数不同看位数、位数相同从最高位比起」的方法比较万以上数的大小
+  - 能说明比较方法的道理
+  applicable_question_types:
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P15
+    anchor_text: P15「数的大小比较」：212842400>16395400（位数多的数就大）；「位数相同的两个数，从最高位比起，最高位上的数大的那个数就大，如果最高位上的数相同，就比较下一个数位上的数。」
+  teaching_boundary:
+    scope_allowed:
+    - 比较两个万以上数的大小
+    - 说出比较的步骤与理由
+    - 把万以上数的比较方法与万以内数的比较方法联系起来
+    scope_excluded:
+    - 数的稠密性与序关系的公理化讲解
+    - 跨数级比较的特殊算法
+- point_id: math-g4-t1-u01-p06
+  unit_id: unit-01
+  lesson_id: math-g4-t1-u01-l06
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 整万、整亿数的改写
+  learning_objectives:
+  - 能把整万、整亿的数改写成用「万」或「亿」作单位的数
+  - 能说明改写前后数的大小不变（用「=」连接）
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P16
+    anchor_text: P16「数的改写」：「有时为了读写方便，会把整万或整亿的数改写成用『万』或『亿』作单位的数。」红细胞：25000000 个 = 2500 万个；白细胞：30000 个 = 3 万个；200000000 = 2 亿；530500000000 = 5305 亿。「可以先分级，找到亿位，再改写。」
+  teaching_boundary:
+    scope_allowed:
+    - 把整万数改写成用「万」作单位的数
+    - 把整亿数改写成用「亿」作单位的数
+    - 说明改写与求近似数的区别（一个用「=」，一个用「≈」）
+    scope_excluded:
+    - 科学记数法的系统讲解
+    - 有效数字与量纲分析
+- point_id: math-g4-t1-u01-p07
+  unit_id: unit-01
+  lesson_id: math-g4-t1-u01-l07
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 用「四舍五入」法求近似数
+  learning_objectives:
+  - 能说出「四舍五入」法的含义，并能按要求省略万位或亿位后面的尾数求近似数
+  - 能区分近似数与准确数
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P17
+    anchor_text: P17：「182068≈18 万，218309≈22 万。千位上的数小于 5，把万位后面的尾数舍去，改写成 0；千位上的数大于 5，向前一位进 1，再把万位后面的尾数舍去，改写成 0。这种求近似数的方法叫『四舍五入』法。是『舍』还是『入』，要看省略的尾数部分的最高位上的数是小于 5 还是大于或等于 5。」
+  teaching_boundary:
+    scope_allowed:
+    - 省略万位后面的尾数求近似数
+    - 省略亿位后面的尾数求近似数
+    - 区分近似数与准确数
+    scope_excluded:
+    - 统计推断与抽样误差的系统讲解
+    - 有效数字规则的国际标准

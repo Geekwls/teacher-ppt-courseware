@@ -1,0 +1,74 @@
+unit_id: unit-01
+source_id: pep_chinese_g1_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t2-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 先看图再识字，把四季词语与画面、动词搭配起来，形成「词—景—动作」的联系
+    difficulty: 学生易把「霜」与「雪」、「降」与「落」的搭配用混
+    typical_misconceptions:
+    - error_pattern: 把「秋霜」说成「秋雪」
+      misconception_type: 词语与季节搭配错误
+    - error_pattern: 说不出「飘」与「落」的区别
+      misconception_type: 动词辨析不清
+  variation_strategy:
+  - 看图说四季并认读词语
+  - 给动词找合适的搭配对象
+- point_id: chi-g1-t2-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「问答」与「拆字」两种方法同时识字：在问答中练朗读，在拆字中识字理
+    difficulty: 学生易把「木子李」说成「木字李」，或说不出自己姓氏的拆法
+    typical_misconceptions:
+    - error_pattern: 把「木子李」说成「木字李」
+      misconception_type: 拆字规律未掌握
+    - error_pattern: 只会背不会用来做问答
+      misconception_type: 迁移运用不足
+  variation_strategy:
+  - 同伴间做姓氏问答游戏
+  - 把自己的姓按「×子×」的方式说给同伴听
+- point_id: chi-g1-t2-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「同一个声旁、不同形旁表示不同意思」为核心，用「偏旁表意」解释字义差异
+    difficulty: 学生易把「睛」与「晴」混用（眼睛／晴天）
+    typical_misconceptions:
+    - error_pattern: 把「晴天」写成「睛天」
+      misconception_type: 形旁表意未掌握
+    - error_pattern: 把「清水」写成「请水」
+      misconception_type: 形旁与字义未对应
+  variation_strategy:
+  - 给五个字组词并说明理由
+  - 按偏旁把字填入合适的句子
+- point_id: chi-g1-t2-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「拆字」与「合字」的思路显性化：先找偏旁线索，再合起来猜字
+    difficulty: 学生易只凭感觉猜字，说不出理由
+    typical_misconceptions:
+    - error_pattern: 猜对字但说不出理由
+      misconception_type: 字理意识缺失
+    - error_pattern: 把（二）的四个字猜成同一个字
+      misconception_type: 形旁线索未分辨
+  variation_strategy:
+  - 猜字并说出理由
+  - 给同伴编一个字谜
+- point_id: chi-g1-t2-u01-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以书写提示把笔顺规则落到「田、四、白」三个全包围结构的字上，做到规则与例字对应
+    difficulty: 学生易把「田」「四」的最后一笔（封口横）提前写
+    typical_misconceptions:
+    - error_pattern: 写「田」时先封口
+      misconception_type: 笔顺规则未掌握
+    - error_pattern: 《春晓》背成《咏鹅》
+      misconception_type: 古诗张冠李戴
+  variation_strategy:
+  - 按笔顺规则书空「田、四、白」
+  - 朗读背诵《春晓》并说出景物

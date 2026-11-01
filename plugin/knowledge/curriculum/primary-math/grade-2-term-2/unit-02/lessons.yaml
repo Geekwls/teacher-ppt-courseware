@@ -1,0 +1,74 @@
+lessons:
+- lesson_id: math-g2-t2-u02-l01
+  unit_id: unit-02
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 乘除法解决实际问题的基本模型
+  page_range: P24
+  official_examples:
+  - 一盒酸奶有6杯，买3盒，一共买了多少杯酸奶？（6×3=18（杯））
+  - 一个笔袋8元，32元能买几个笔袋？（32÷8=4（个））
+  - 「都是求几个几的和的问题，都用乘法解决。」「都是知道几个几的和，求相同加数或相同加数的个数，都用除法解决。」
+- lesson_id: math-g2-t2-u02-l02
+  unit_id: unit-02
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 倍的认识
+  page_range: P25
+  official_examples:
+  - 可以怎样比较鹅和鸡的数量关系？鸡比鹅多4只；也可以说鸡的只数是鹅的3倍。
+  - 第二行摆（　）个5根，一共有（　）根。第一行的4倍。
+- lesson_id: math-g2-t2-u02-l03
+  unit_id: unit-02
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 求一个数是另一个数的几倍
+  page_range: P26-P28
+  official_examples:
+  - 妈妈养了4盆月季花，12盆多肉植物。多肉植物的盆数是月季花的几倍？12÷4=3。
+  - 求甲数是乙数的几倍，就是求甲数里面有几个乙数，用除法计算。
+- lesson_id: math-g2-t2-u02-l04
+  unit_id: unit-02
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 求一个数的几倍是多少
+  page_range: P29
+  official_examples:
+  - 李爷爷养了8头牛，养的羊的数量是牛的4倍。李爷爷养了多少只羊？8×4=32（只）。
+  - 求一个数的几倍是多少，就是求几个几是多少，用乘法解决。
+- lesson_id: math-g2-t2-u02-l05
+  unit_id: unit-02
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 已知一个数的几倍是多少，求这个数
+  page_range: P30-P32
+  official_examples:
+  - 一只袋鼠一次跳了12米，正好相当于它体长的6倍。这只袋鼠体长多少米？12÷6=2（米）。
+  - 6份是12米，求1份，用除法计算。
+- lesson_id: math-g2-t2-u02-l06
+  unit_id: unit-02
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 提出数学问题或补充合适的条件
+  page_range: P33-P37
+  official_examples:
+  - 老师买了7个金鱼灯笼，买的兔子灯笼的数量是金鱼灯笼的3倍。买了多少个兔子灯笼？两种灯笼一共买了多少个？
+  - 布置教室的同学中，男生有9人，女生有18人。请你提出数学问题并解答。
+  - 同学们在教室里挂了8个红灯笼，（　）。挂了多少个黄灯笼？请你口头补充合适的条件并解答。
+- lesson_id: math-g2-t2-u02-l07
+  unit_id: unit-02
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 整理和复习
+  page_range: P38-P39
+  official_examples:
+  - 回顾一下，本单元学习了哪些知识？有什么新的收获？
+  - 「我会用线段图表示数量之间的倍数关系。」「我知道了这些数量关系，还会用数量关系正确列式。」
+  - 两个数量之间的关系：加减关系（相差关系）与乘除关系（倍的关系）。

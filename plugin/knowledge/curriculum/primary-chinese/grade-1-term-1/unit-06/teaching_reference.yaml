@@ -1,0 +1,46 @@
+unit_id: unit-06
+source_id: pep_chinese_g1_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t1-u06-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「两个独体字合起来表示一个新意思」的思路引导学生发现会意字的规律
+    difficulty: 学生易把「日月明」的「明」当作形声字理解，或说不出会意字的意思
+    typical_misconceptions:
+    - error_pattern: 把「明」说成「日」与「月」相加以外的方式
+      misconception_type: 会意构字规律未掌握
+    - error_pattern: 把「尖」写成上下结构却解释成左右
+      misconception_type: 结构判断错误
+  variation_strategy:
+  - 把会意字拆开并说出新意思
+  - 按规律猜字并验证
+- point_id: chi-g1-t1-u06-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把识字与学生的真实学习生活、校园升旗仪式结合起来
+    difficulty: 学生易把「橡皮」的「橡」与「象」混淆，或说不出升国旗时的礼仪要求
+    typical_misconceptions:
+    - error_pattern: 把「橡」认成「象」
+      misconception_type: 形近字未区分
+    - error_pattern: 说不出升国旗时要立正、行注目礼
+      misconception_type: 礼仪要求未掌握
+  variation_strategy:
+  - 指着文具说出名称并认读汉字
+  - 说说升国旗时应该怎样做
+- point_id: chi-g1-t1-u06-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在园地中整合本单元识字成果，通过日积月累丰富语言储备
+    difficulty: 学生易只读不记，积累内容很快遗忘
+    typical_misconceptions:
+    - error_pattern: 日积月累背不下来
+      misconception_type: 积累不牢
+    - error_pattern: 识字加油站的字认不出
+      misconception_type: 巩固不足
+  variation_strategy:
+  - 朗读并背诵日积月累
+  - 给本单元会认字分类整理

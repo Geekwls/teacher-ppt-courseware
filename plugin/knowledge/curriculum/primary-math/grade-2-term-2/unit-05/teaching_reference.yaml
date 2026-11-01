@@ -1,0 +1,46 @@
+unit_id: unit-05
+source_id: pep_math_g2_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春人教版教师教学用书数学二年级下册》为**纯扫描件（273 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g2-t2-u05-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 复习重在构建知识网络，沟通数、计算与数量关系的联系
+    difficulty: 能算题但说不出本册知识结构
+    typical_misconceptions:
+    - error_pattern: 不能说出本册学了哪几类内容
+      misconception_type: 结构化整理缺失
+    - error_pattern: 计算熟练但估算意识薄弱
+      misconception_type: 估算能力不足
+  variation_strategy:
+  - 合作绘制「万以内数的认识与加减法」知识图
+  - 给算式分类并说明分类标准
+- point_id: math-g2-t2-u05-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「数量关系判断—运算选择—列式计算—检验」的路径解决综合问题
+    difficulty: 复杂情境中难以提取数量关系
+    typical_misconceptions:
+    - error_pattern: 信息较多时找不准相关条件
+      misconception_type: 信息筛选能力不足
+    - error_pattern: 不能区分「是几倍」与「多几」
+      misconception_type: 数量关系混淆
+  variation_strategy:
+  - 给同一情境提出多个不同的问题并解答
+  - 交流不同解法并比较优劣
+- point_id: math-g2-t2-u05-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 培养问题意识与数学表达能力
+    difficulty: 提问与已知条件无关
+    typical_misconceptions:
+    - error_pattern: 提出的问题无法用已知条件解决
+      misconception_type: 问题意识与逻辑性不足
+    - error_pattern: 只会一种问法
+      misconception_type: 发散不足
+  variation_strategy:
+  - 根据同一幅图提出 3 个不同的问题
+  - 互相评价问题是否合理并解答

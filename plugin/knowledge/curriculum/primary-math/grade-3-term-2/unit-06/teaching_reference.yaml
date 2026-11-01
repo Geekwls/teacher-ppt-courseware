@@ -1,0 +1,62 @@
+unit_id: "unit-6"
+source_id: "pep_math_g3_t2_tr_2026"
+teaching_references:
+  - point_id: "math-g3-t2-u06-p01"
+    ref_book: "人教版《教师教学用书》数学三年级下册第六单元"
+    ref_page: "P205-P212"
+    pedagogical_focus:
+      key_point: "熟记大月（31天）7个、小月（30天）4个，二月是平年28天/闰年29天"
+      difficulty: "容易忘记7月和8月是连续的两个大月；单月不全是大月，双月不全是小月"
+      typical_misconceptions:
+        - error_pattern: "认为单数月份都是大月，双数月份都是小月（误把8月、10月、12月当小月，9月、11月当大月）"
+          misconception_type: "单双数规律错误外推（经典错误）"
+        - error_pattern: "计算连续两个月天数时，认为不可能有连续62天（7月和8月合起来正是62天）"
+          misconception_type: "连续大月认知缺失"
+    variation_strategy:
+      - "判断题：双数月份都是小月（×）"
+      - "计算题：小明连续两个月在奶奶家住了62天，这两个月可能是（7）月和（8）月"
+
+  - point_id: "math-g3-t2-u06-p02"
+    ref_book: "人教版《教师教学用书》数学三年级下册第六单元"
+    ref_page: "P213-P218"
+    pedagogical_focus:
+      key_point: "掌握公历年份平闰年判断，特别是‘整百年份必须除以400’的特殊规则"
+      difficulty: "整百年份（如1900年、2100年）虽然是4的倍数，但不是400的倍数，是平年不是闰年"
+      typical_misconceptions:
+        - error_pattern: "判断1900年是平年还是闰年时，直接用 1900÷4=475 以为是闰年（忽视整百年份必须除以400）"
+          misconception_type: "整百年份判定法则遗漏（极高频失分点）"
+        - error_pattern: "小华2012年满12岁，却只过了3个生日，不知道他出生在闰年的2月29日"
+          misconception_type: "生活常识与闰年结合缺失"
+    variation_strategy:
+      - "选择题：下列公历年份中是闰年的是（A. 1900年  B. 2016年  C. 2021年  D. 2100年）"
+      - "计算题：2024年是（ ）年，全年有（ ）天，第一季度有（ ）天"
+
+  - point_id: "math-g3-t2-u06-p03"
+    ref_book: "人教版《教师教学用书》数学三年级下册第六单元"
+    ref_page: "P219-P224"
+    pedagogical_focus:
+      key_point: "掌握普通计时法与24时计时法的对应互化，明确加减12的临界点（中午12时）"
+      difficulty: "普通计时法改写为24时计时法时漏写时间限制词或在24时计时法中误加时间限制词"
+      typical_misconceptions:
+        - error_pattern: "把‘晚上8时’改写为24时计时法时写成‘晚上20:00’（24时计时法不需要前缀时间词）"
+          misconception_type: "计时法格式规范混淆"
+        - error_pattern: "把‘凌晨1时’误加12算成13时"
+          misconception_type: "上午与下午加12时段混淆"
+    variation_strategy:
+      - "连线题：普通计时法与24时计时法配对"
+      - "填空题：下午4时30分 = ( )；21:15 = ( )"
+
+  - point_id: "math-g3-t2-u06-p04"
+    ref_book: "人教版《教师教学用书》数学三年级下册第六单元"
+    ref_page: "P225-P231"
+    pedagogical_focus:
+      key_point: "掌握经过时间计算方法：结束时刻 - 开始时刻 = 经过时间，借位时借1小时换60分"
+      difficulty: "分不够减时借1小时按100分算错；混淆‘时刻’与‘时间’单位描述"
+      typical_misconceptions:
+        - error_pattern: "14:10 减去 11:40 时，借1小时后按110分减40分，错算为借100分（十进制负迁移）"
+          misconception_type: "60进制进位借位算理失误"
+        - error_pattern: "回答营业时间写成‘营业了8:30’而不是‘8小时30分钟’"
+          misconception_type: "时刻与时间段概念混淆"
+    variation_strategy:
+      - "应用题：一场足球比赛从 15:30 开始，进行了 1 小时 45 分钟，比赛在什么时刻结束？"
+      - "商场营业时间计算题"

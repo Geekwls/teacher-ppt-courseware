@@ -1,0 +1,140 @@
+unit_id: unit-01
+source_id: pep_chinese_g1_t1_2024
+points:
+- point_id: chi-g1-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: chi-g1-t1-u01-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 识字：天地人（天、地、人、你、我、他）
+  learning_objectives:
+  - 能借助图画认识「天、地、人、你、我、他」六个字
+  - 能朗读课文并正确认读这六个字
+  applicable_question_types:
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P8
+    anchor_text: P8「天地人」：天　地　人　你　我　他
+  teaching_boundary:
+    scope_allowed:
+    - 认读「天、地、人、你、我、他」
+    - 朗读课文
+    scope_excluded:
+    - 汉字的书写
+    - 汉语拼音的拼读
+- point_id: chi-g1-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: chi-g1-t1-u01-l02
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 识字：金木水火土（一至五与五行）
+  learning_objectives:
+  - 能朗读、背诵「一二三四五，金木水火土。天地分上下，日月照今古。」
+  - 认识「一、二、三、四、五、上、下」并知道田字格的作用
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P9
+    - P10
+    anchor_text: P9「金木水火土」：一二三四五，金木水火土。天地分上下，日月照今古。（注：民间歌谣）；P10「一二三四五　上　下」与「认识田字格」，标注「横中线」「竖中线」，提示「写字时，要注意笔画在田字格中的位置」。
+  teaching_boundary:
+    scope_allowed:
+    - 朗读、背诵课文
+    - 认读「一、二、三、四、五、上、下」
+    - 认识田字格（横中线、竖中线）
+    scope_excluded:
+    - 「金木水火土」五行学说的系统讲解
+    - 汉字笔画的完整书写训练
+- point_id: chi-g1-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: chi-g1-t1-u01-l03
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 识字：口耳目手足（身体器官与站坐礼仪）
+  learning_objectives:
+  - 能认识「口、耳、目、手、足、站、坐」八个字
+  - 能朗读「站如松，坐如钟。行如风，卧如弓。」并知道正确的站坐姿势
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P11
+    - P12
+    anchor_text: P11「口耳目手足」：目　口　耳　手　足；P12「口　耳　目　手　足　站　坐」「站如松，坐如钟。行如风，卧如弓。」「口、耳、目、手、足能做哪些事？」
+  teaching_boundary:
+    scope_allowed:
+    - 认读「口、耳、目、手、足、站、坐」
+    - 朗读俗语并说出正确的站坐姿势
+    scope_excluded:
+    - 人体器官的科学名称与功能讲解
+    - 汉字书写
+- point_id: chi-g1-t1-u01-p04
+  unit_id: unit-01
+  lesson_id: chi-g1-t1-u01-l04
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 识字：日月山川（象形字与「田、禾」）
+  learning_objectives:
+  - 能认识「日、月、水、火、山、川、田、禾」八个字
+  - 能通过「猜一猜，连一连」把字形与事物对应起来
+  applicable_question_types:
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P13
+    - P14
+    anchor_text: P13「日月山川」：日　月　水　火　山　川　田　禾；P14「猜一猜，连一连。」（羊　竹　网　兔　木　鸟）与「日　月　山　川　水　火　田　禾」。
+  teaching_boundary:
+    scope_allowed:
+    - 认读八个象形字
+    - 把字形与对应事物连线
+    scope_excluded:
+    - 汉字形体演变史的系统讲解
+    - 汉语拼音
+- point_id: chi-g1-t1-u01-p05
+  unit_id: unit-01
+  lesson_id: chi-g1-t1-u01-l05
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 语文园地一：识字加油站、书写提示与《咏鹅》
+  learning_objectives:
+  - 能认读「六、七、八、九、十」并读准《咏鹅》
+  - 知道笔顺规则「先横后竖」「先撇后捺」
+  applicable_question_types:
+  - fill_blank
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P15
+    - P16
+    anchor_text: P15「语文园地一」识字加油站：「六　七　八　九　十」与谜语诗「一片两片三四片，五片六片七八片。九片十片无数片，飞入芦花都不见。」；P16 书写提示：「笔顺规则：先横后竖」「笔顺规则：先撇后捺」，「写字时注意坐端正，握好笔。」；日积月累《咏鹅》[唐] 骆宾王。
+  teaching_boundary:
+    scope_allowed:
+    - 认读「六、七、八、九、十」
+    - 朗读背诵《咏鹅》
+    - 说出「先横后竖」「先撇后捺」两条笔顺规则
+    scope_excluded:
+    - 《咏鹅》的作者生平与文学赏析
+    - 笔顺规则的完整体系

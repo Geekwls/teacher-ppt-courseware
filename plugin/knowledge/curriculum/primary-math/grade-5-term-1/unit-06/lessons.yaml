@@ -1,0 +1,10 @@
+lessons:
+- lesson_id: math-g5-t1-u06-l01
+  unit_id: unit-06
+  subject: math
+  grade: 5
+  term: term-1
+  lesson_name: 第六单元 多边形的面积（单元整体）
+  page_range: P72-P94
+  official_examples:
+  - 图形与几何单元：探索并掌握平行四边形、三角形、梯形的面积计算公式，认识面积单位「公顷」与「平方千米」，能解决与多边形面积有关的实际问题。（例题原文待核验）

@@ -1,0 +1,46 @@
+unit_id: unit-02
+source_id: pep_chinese_g1_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t1-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以观察口形、听辨发音的方式建立单韵母的读音，借助四声符号建立声调意识
+    difficulty: 学生易把 ü 读成 u，或把第二声与第三声读混
+    typical_misconceptions:
+    - error_pattern: 把 ü 读成 u
+      misconception_type: 两音不分
+    - error_pattern: 第二声与第三声读混
+      misconception_type: 声调辨别不清
+  variation_strategy:
+  - 对着镜子观察口形读准单韵母
+  - 给单韵母标上四声并练读
+- point_id: chi-g1-t1-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助「看图记形」与「发音部位提示」区分易混声母
+    difficulty: 学生易把 b 与 d、p 与 q 的形与音混淆；拼读时丢掉声母
+    typical_misconceptions:
+    - error_pattern: 把 b 与 d 写反
+      misconception_type: 形近声母未区分
+    - error_pattern: 两拼时只读韵母
+      misconception_type: 拼读方法未掌握
+  variation_strategy:
+  - 看口形猜声母并认读
+  - 用声母卡片与韵母卡片做两拼练习
+- point_id: chi-g1-t1-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把拼音作为识字支架，在拼读中同步认字
+    difficulty: 学生易只拼不认，拼完仍不认识汉字
+    typical_misconceptions:
+    - error_pattern: 拼读正确但认不出对应汉字
+      misconception_type: 音形未建立联系
+    - error_pattern: 声调标错位置
+      misconception_type: 标调规则未掌握
+  variation_strategy:
+  - 拼读音节后指出对应汉字
+  - 给汉字找拼音并连线

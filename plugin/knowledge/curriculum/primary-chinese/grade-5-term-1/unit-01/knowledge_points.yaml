@@ -1,0 +1,116 @@
+unit_id: unit-01
+source_id: pep_chinese_g5_t1_2024
+points:
+- point_id: chi-g5-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: chi-g5-t1-u01-l01
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 体会文章借助具体事物表达的思想感情
+  learning_objectives:
+  - 能通过「与具体事物相关的事情」体会文章表达的思想感情
+  - 能抓住描述事物特点的关键语句体会文章表达的情感
+  applicable_question_types:
+  - reading
+  - fill_blank
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P4
+    - P6
+    - P11
+    anchor_text: P11 梳理与交流：「可以通过与具体事物相关的事情，体会文章表达的思想感情。如《桂花雨》中的「摇花乐」这件事，让我体会到作者对故乡和亲人的思念之情。」「可以抓住描述事物特点的关键语句，体会文章表达的思想感情。如，通过《落花生》中「它虽然不好看，可是很有用」这句话，我体会到了课文传达的做人的道理。」
+  teaching_boundary:
+    scope_allowed:
+    - 从事例体会思想感情
+    - 从关键语句体会思想感情
+    - 用自己的话说出文章表达的情感
+    scope_excluded:
+    - 抒情散文的鉴赏理论
+    - 借物抒情手法的专业分析
+- point_id: chi-g5-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: chi-g5-t1-u01-l02
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 对比描写事物的方法及其好处
+  learning_objectives:
+  - 能说出对比描写事物的方法，能体会这样写的好处
+  - 能找出课文中运用对比的句子并说明其作用
+  applicable_question_types:
+  - choice
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P6
+    - P11
+    anchor_text: P11 词句段运用：「它的果实埋在地里，不像桃子、石榴、苹果那样，把鲜红嫩绿的果实高高地挂在枝上，使人一见就生爱慕之心。」「别的昆虫大多在临时的隐蔽所藏身……蟋蟀和它们不同，不肯随遇而安。」「说说它们在描写事物的方法上有什么相似之处，这样写有什么好处。」
+  teaching_boundary:
+    scope_allowed:
+    - 识别对比描写
+    - 说明对比的作用
+    - 模仿对比写一段话
+    scope_excluded:
+    - 修辞格的分类研究
+    - 比较文学中的对照手法
+- point_id: chi-g5-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: chi-g5-t1-u01-l03
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 借助具体事物抒发感情（习作）
+  learning_objectives:
+  - 能选择一种心爱之物，写出它的样子与来历
+  - 能写出心爱之物成为心爱之物的原因，表达自己的喜爱之情
+  applicable_question_types:
+  - writing
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P10
+    anchor_text: P10 习作《我的心爱之物》：「想想你的心爱之物是什么，写写它是什么样子的，你是怎么得到它的，为什么它会成为你的心爱之物，写出自己的喜爱之情。」
+  teaching_boundary:
+    scope_allowed:
+    - 写清事物的样子
+    - 写清来历与原因
+    - 表达喜爱之情
+    scope_excluded:
+    - 咏物散文的写作规范
+    - 情感表达的写作技巧
+- point_id: chi-g5-t1-u01-p04
+  unit_id: unit-01
+  lesson_id: chi-g5-t1-u01-l04
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 词语在不同语境中的意思
+  learning_objectives:
+  - 能比较同一个词语在不同句子中的意思
+  - 能根据语境正确理解和运用多义词
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P12
+    anchor_text: P12 词句段运用：「比较每组句子中加点词语的意思，根据要求写句子。桂花树的样子笨笨的，不像梅树那样有姿态。/ 大家以全新的姿态迎接新年的到来。让它荒着怪可惜的，你们那么爱吃花生，就开辟出来种花生吧。/ 人工智能的出现为人类的生活开辟了一片新天地。」（温和：形容气候/形容性格；新鲜：形容食物/表示新奇、稀罕）
+  teaching_boundary:
+    scope_allowed:
+    - 比较同一词语的不同意思
+    - 根据语境选择词义
+    - 用多义词造句
+    scope_excluded:
+    - 词汇语义学中的多义现象
+    - 语用学中的语境理论

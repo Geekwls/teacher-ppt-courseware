@@ -1,0 +1,192 @@
+unit_id: unit-00
+source_id: pep_math_g1_t1_2024
+points:
+- point_id: math-g1-t1-u00-p01
+  unit_id: unit-00
+  lesson_id: math-g1-t1-u00-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 数数与基数的含义（用数表示物体的个数）
+  learning_objectives:
+  - 能数出身边物体的个数（10 以内），并说出总数
+  - 理解数表示物体个数（基数）的含义，能把数与实物一一对应
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P2
+    - P3
+    anchor_text: P3 图文：「国旗上有5颗（kE）五角星。教学楼有4层，我们的教室在第2层。」——以校园实物为对象数数并说出数量。
+  teaching_boundary:
+    scope_allowed:
+    - 数出 10 以内物体的个数并说出总数
+    - 把数与实物一一对应
+    scope_excluded:
+    - 20 以上数的读写
+    - 加减法计算
+- point_id: math-g1-t1-u00-p02
+  unit_id: unit-00
+  lesson_id: math-g1-t1-u00-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 从物体表面辨认长方形等平面图形
+  learning_objectives:
+  - 能从身边物体的面上找到长方形等平面图形
+  - 初步体会「面在体上」，能说出图形的名称
+  applicable_question_types:
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P3
+    anchor_text: P3 图文：「教室的窗户是长方形的。」——借助教室实物指认平面图形。
+  teaching_boundary:
+    scope_allowed:
+    - 在实物表面上指认长方形等平面图形
+    - 说出常见平面图形的名称
+    scope_excluded:
+    - 平面图形的特征（边、角）系统认识
+    - 立体图形的分类与特征
+- point_id: math-g1-t1-u00-p03
+  unit_id: unit-00
+  lesson_id: math-g1-t1-u00-l02
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 比较多少与简单的分类比较意识
+  learning_objectives:
+  - 能用一一对应的方法比较两组物体个数的多少
+  - 能用「多」「少」「一样多」等词语描述比较结果
+  applicable_question_types:
+  - choice
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P5
+    anchor_text: P5 图文：「我最高。」「男生多1个。」——在活动中自然产生比较与表述。
+  teaching_boundary:
+    scope_allowed:
+    - 用一一对应比较两组物体的多少
+    - 用多/少/一样多描述比较结果
+    scope_excluded:
+    - 用减法算式求相差数
+    - 「＞」「＜」「＝」符号的书写
+- point_id: math-g1-t1-u00-p04
+  unit_id: unit-00
+  lesson_id: math-g1-t1-u00-l03
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 上下、前后、左右等方位词的认识与运用
+  learning_objectives:
+  - 能辨认并说出物体的上下、前后、左右位置关系
+  - 能按方位指令正确行动，并用方位词描述自己与同伴的位置
+  applicable_question_types:
+  - choice
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P6
+    - P7
+    anchor_text: P6–P7 图文：「教室的前面有国旗、黑板，后面有……左边是窗户，右边……」「我的前面是……左边是……」——用方位词描述教室与同伴位置。
+  teaching_boundary:
+    scope_allowed:
+    - 辨认并描述上下、前后、左右位置
+    - 按方位指令行动
+    scope_excluded:
+    - 东南西北等地理方向
+    - 数对与坐标表示位置
+- point_id: math-g1-t1-u00-p05
+  unit_id: unit-00
+  lesson_id: math-g1-t1-u00-l04
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 序数与基数的区分（第几与几个）
+  learning_objectives:
+  - 能区分「几个」与「第几个」，理解序数表示位置
+  - 能在排队、排序情境中确定某一物体的位置
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P8
+    anchor_text: P8 图文：「我左边的第3个同学蹲（dOn）下。」「我做错了，我是第4个。」——在游戏中区分「第几」与「几个」。
+  teaching_boundary:
+    scope_allowed:
+    - 用「第几」描述位置，用「几个」描述数量
+    - 在队列中确定指定物体的位置
+    scope_excluded:
+    - 用减法求相差数
+    - 两位数序数（第 20 以上）
+- point_id: math-g1-t1-u00-p06
+  unit_id: unit-00
+  lesson_id: math-g1-t1-u00-l04
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 用简单图形拼组并计数
+  learning_objectives:
+  - 能用三角形、圆等简单图形拼出给定图案
+  - 能数出拼组所用各种图形的个数并说出总数
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P9
+    anchor_text: P9 图文：「我用了3个黄色三角形和1个红色三角形，一共用了4个三角形。」「用2个圆柱当车轮。」——拼组后按类计数并求总数。
+  teaching_boundary:
+    scope_allowed:
+    - 按形状分类计数拼组图形
+    - 说出所用图形的总数
+    scope_excluded:
+    - 图形的周长与面积计算
+    - 七巧板的系统拼摆（属后续单元）
+- point_id: math-g1-t1-u00-p07
+  unit_id: unit-00
+  lesson_id: math-g1-t1-u00-l05
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 数学学习习惯与学习准备
+  learning_objectives:
+  - 知道上课听讲、举手发言、整理学具的基本要求
+  - 能按课表时间安排做好上课准备，会用右手举手发言
+  applicable_question_types:
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P10
+    - P11
+    anchor_text: P10–P11 图文：「每天8：30开始上课。」「认真听讲。」「举手发言用右手。」「书本摆在左上角，笔袋放在……」——入学常规与学具整理。
+  teaching_boundary:
+    scope_allowed:
+    - 说出并遵守课堂学习常规
+    - 按方位整理书本与学具
+    scope_excluded:
+    - 时间的读写（属一年级下册「时间在哪里」）
+    - 班规班纪的条文背诵

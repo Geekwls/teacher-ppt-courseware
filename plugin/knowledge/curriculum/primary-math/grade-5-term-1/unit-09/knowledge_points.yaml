@@ -1,0 +1,32 @@
+unit_id: unit-09
+source_id: pep_math_g5_t1_2024
+points:
+- point_id: math-g5-t1-u09-p01
+  unit_id: unit-09
+  lesson_id: math-g5-t1-u09-l01
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 全册知识的结构化梳理
+  learning_objectives:
+  - 能说出本册各单元的核心内容，并能用「知识结构图」表示它们之间的关联
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P107
+    - P108
+    anchor_text: 单元起始页 P107 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 数与代数（小数乘除法、用字母表示数、数量关系）
+    - 图形与几何（观察组合体、图形的运动、多边形的面积）
+    - 统计与概率（可能性）
+    scope_excluded:
+    - 小学数学知识体系的完整梳理
+    - 课标三大领域的系统论述

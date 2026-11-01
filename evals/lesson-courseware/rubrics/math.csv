@@ -1,0 +1,8 @@
+ID,Bucket,Criterion,What pass requires,Notes,Conditional
+PM1,P,算理先于算法,新知页先呈现"为什么"(计数单位/数的组成)再提炼"怎么算"且callout为方法句,倒置判失败,,
+PM2,P,变式递进不跳步,例题与变式按 不进位→进位→连续进位(或同类梯度)递进,素材未含的梯度不得混入,跳级判失败,,
+RM1,R,算理表述正确,算理与 official_examples.core_concept / teaching_reference.key_point 一致;自行发明错误类比判失败,,
+RM2,R,数域上界遵守,全deck出现的数不超过 unit.numeric_upper_bound,含图元/练习/答案,校验器NUMBER_OVER_BOUND兜底,
+RM3,R,竖式规范,vertical_calc 图元数位右对齐、运算符位置正确、结果与分步解一致,有竖式页时判,无竖式页跳过
+RM4,R,单位与答句完整,例题answer带单位与完整答句(如"20 × 3 = 60(元)"),练习计算题可从简,,
+OM1,O,图元选型恰当,竖式/数位表/数轴/表格的使用场景符合 courseware-json.md 图元表;用图片替代原生图元判失败,,

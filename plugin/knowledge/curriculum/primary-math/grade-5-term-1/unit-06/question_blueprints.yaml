@@ -1,0 +1,59 @@
+unit_id: unit-06
+blueprints:
+- blueprint_id: bp-math-g5-t1-u06-standard
+  title: 第六单元 多边形的面积标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填（面积公式）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 6
+    target_points:
+    - math-g5-t1-u06-p01
+    guidelines: 填写平行四边形面积公式并计算面积。
+  - slot_id: slot-02
+    section: 二、单位换算
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g5-t1-u06-p02
+    guidelines: 进行公顷、平方千米与平方米之间的换算。
+  - slot_id: slot-03
+    section: 三、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g5-t1-u06-p01
+    - math-g5-t1-u06-p02
+    guidelines: 选择正确的面积公式或面积单位。
+  - slot_id: slot-04
+    section: 四、画一画（底和高）
+    question_type: writing
+    difficulty: variation
+    points_per_item: 8
+    item_count: 3
+    target_points:
+    - math-g5-t1-u06-p01
+    guidelines: 画出平行四边形指定底上的高。
+  - slot_id: slot-05
+    section: 五、解决问题
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 10
+    item_count: 2
+    target_points:
+    - math-g5-t1-u06-p01
+    - math-g5-t1-u06-p02
+    guidelines: 综合运用面积公式与面积单位解决实际问题。

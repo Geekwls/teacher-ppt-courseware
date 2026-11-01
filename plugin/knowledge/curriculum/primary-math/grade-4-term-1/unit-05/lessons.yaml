@@ -1,0 +1,70 @@
+lessons:
+- lesson_id: math-g4-t1-u05-l01
+  unit_id: unit-05
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 1
+  lesson_name: 加法模型：总量 = 分量 + 分量
+  page_range: P58
+  official_examples:
+  - 上午来了多少人？15+32=47（人）；下午来了多少人？24+50=74（人）；一共来了多少人？47+74=121（人）。
+  - 我发现：求总人数就是把每部分人数加起来。总量 = 分量 + 分量。
+  - 如果知道总量和其中一个分量，怎么求另一个分量呢？分量 = 总量 − 分量。（根据减法是加法的逆运算）
+- lesson_id: math-g4-t1-u05-l02
+  unit_id: unit-05
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 2
+  lesson_name: 用加法模型解决问题
+  page_range: P59-P60
+  official_examples:
+  - 小丽有 100 元钱，要买 3 本不同的书送给 3 位好朋友。她可以买哪 3 本呢？（《成语故事》34 元、《长城故事》21 元、《有趣的数学》49 元、《中国丹顶鹤》26 元）
+  - 34+21+49=104（元），104>100，不可以；34+21+26=81（元），81<100，可以；34+49+26=109（元），109>100，不可以；21+49+26=96（元），96<100，可以。
+  - 还可以先求 4 本书的总价 130 元，再减去其中一本的钱：130−34=96（元）。
+- lesson_id: math-g4-t1-u05-l03
+  unit_id: unit-05
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 3
+  lesson_name: 乘法模型之一：总价 = 单价 × 数量
+  page_range: P62
+  official_examples:
+  - 每盒牛奶 18 元，买了 3 盒，花了 54 元（18×3=54 元）；每千克苹果 9 元，买了 4 kg，花了 36 元（9×4=36 元）。
+  - 总价 = 单价 × 数量。如果知道总价和数量，就可以求出单价；知道总价和单价，就可以求出数量。单价 = 总价 ÷ 数量，数量 = 总价 ÷ 单价。
+- lesson_id: math-g4-t1-u05-l04
+  unit_id: unit-05
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 4
+  lesson_name: 用乘法模型解决促销比较问题
+  page_range: P63
+  official_examples:
+  - 苹果大促销，原价 12 元/千克，现价 9 元/千克。王阿姨买了 4 kg 苹果，一共节省了多少钱？
+  - 方法一：节省的钱 = 原来的总价 − 现在的总价 → 12×4−9×4=48−36=12（元）。方法二：节省的钱 = 每千克便宜的钱 × 数量 →（12−9）×4=3×4=12（元）。
+- lesson_id: math-g4-t1-u05-l05
+  unit_id: unit-05
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 5
+  lesson_name: 乘法模型之二：路程 = 速度 × 时间
+  page_range: P66-P67
+  official_examples:
+  - 小红上学用了 9 分钟（675 m），小丽用了 6 分钟（480 m），比一比，谁走得最快？
+  - 小丽每分钟走：480÷6=80（m）；小红每分钟走：675÷9=75（m）。75<80，小丽走得最快。
+  - 路程 = 速度 × 时间；速度 = 路程 ÷ 时间；时间 = 路程 ÷ 速度。（80 米/分 读作 80 米每分）
+- lesson_id: math-g4-t1-u05-l06
+  unit_id: unit-05
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 6
+  lesson_name: 练习与整理
+  page_range: P68-P69
+  official_examples:
+  - 李叔叔 8:30 从甲地出发、11:30 到达乙地，里程数由 2522 km 变为 2792 km，求速度：（2792−2522）÷3=270÷3=90（千米/时）。
+  - 成长小档案：总量=分量+分量、总价=单价×数量、路程=速度×时间是常用的数量关系。

@@ -1,0 +1,60 @@
+unit_id: unit-01
+source_id: pep_chinese_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t1-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「先长出后腿—再长出前腿—尾巴变短—尾巴消失」的顺序梳理成长过程，借「×着×」短语把动作与画面绑定，落实语言积累
+    difficulty: 学生易把「先长后腿」与「先长前腿」的顺序颠倒；把「披」与「穿」混用
+    typical_misconceptions:
+    - error_pattern: 把前腿与后腿的生长顺序说反
+      misconception_type: 成长顺序未理清
+    - error_pattern: 把「披着碧绿的衣裳」说成「穿着碧绿的衣裳」
+      misconception_type: 动词与搭配对象不符
+  variation_strategy:
+  - 按顺序排图并复述故事
+  - 用「×着×」短语描述一幅图
+- point_id: chi-g2-t1-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「我会变」为线索梳理水的形态变化，把「白衣服／黑衣服／红袍」与云、乌云、朝霞晚霞对应起来
+    difficulty: 学生易把「白衣服」只理解成白云而漏掉「黑衣服＝乌云」「红袍＝朝霞晚霞」
+    typical_misconceptions:
+    - error_pattern: 把「黑衣服」理解成黑衣服本身
+      misconception_type: 比喻义未理解
+    - error_pattern: 「有时候……有时候……」句式用错
+      misconception_type: 句式迁移不到位
+  variation_strategy:
+  - 用「我是什么」的口吻说一段话
+  - 用「有时候……有时候……」造句
+- point_id: chi-g2-t1-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「植物妈妈」的拟人说法与传播方式一一对应，借助插图理解「降落伞」「带刺的铠甲」「啪的一声」
+    difficulty: 学生易把苍耳与蒲公英的传播方式记混
+    typical_misconceptions:
+    - error_pattern: 把苍耳说成靠风吹
+      misconception_type: 传播方式对应错误
+    - error_pattern: 仿说时句式不完整
+      misconception_type: 句式迁移不到位
+  variation_strategy:
+  - 连一连：植物与它的传播办法
+  - 仿照课文说一种植物传播种子的办法
+- point_id: chi-g2-t1-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 用「演一演」的方式区分近义动词，把识字、积累与动作体验结合起来
+    difficulty: 学生易把「迎上去」与「追上去」混用；写左右结构的字时宽窄失衡
+    typical_misconceptions:
+    - error_pattern: 把「迎上去」写成「追上去」
+      misconception_type: 近义动词未辨析
+    - error_pattern: 写「都」「别」时左右宽窄失衡
+      misconception_type: 结构比例未掌握
+  variation_strategy:
+  - 演一演并选出合适的动词
+  - 背诵《梅花》并说出诗人借梅花赞美什么

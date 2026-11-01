@@ -1,0 +1,15 @@
+unit_id: unit-08
+unit_name: 综合与实践 寻找宝藏
+subject: math
+edition: 人教版
+grade: 4
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: partial
+source_id: pep_math_g4_t1_2024
+teaching_reference_source_id: pep_math_g4_t1_tr_2024
+page_range: P102-P107
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版人教版小学数学四年级上册电子课本》逐页实证核定：课本 PDF 共 73 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P70。本单元真实版面为 P102–P107，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元起始页 P102 由课本目录页核定，正文页全部超出可读区间（P1–P70），未取得逐页原文凭证。
+unit_overview: 综合与实践主题活动：在方格纸上用有序数对（或方向与距离）描述并寻找位置，综合运用方向、距离、数对等知识完成寻宝任务，发展空间观念与推理能力。
+numeric_upper_bound: null

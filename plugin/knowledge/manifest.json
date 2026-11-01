@@ -1,0 +1,1796 @@
+{
+  "system_version": "1.0.0",
+  "updated_at": "2026-10-10",
+  "policy": "任何单元只有具备可靠教材来源证据且通过核验，方可标记为 verified。严禁未核验前宣称完全符合人教版。",
+  "subjects": {
+    "math": {
+      "name": "小学数学（人教版）",
+      "edition": "人民教育出版社（教育部审定2013/2024版）",
+      "grades": {
+        "grade-3": {
+          "term-1": {
+            "status": "verified",
+            "verified_units_count": 7,
+            "partial_units_count": 0,
+            "units": [
+              {
+                "unit_id": "unit-1",
+                "unit_name": "第一单元 观察物体",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级上册》人民教育出版社（ISBN 978-7-107-38914-6，版权页实测）第1页-第5页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 依据用户提供的2024版课本逐页复核补齐五层：从不同方向观察、根据一个面推断立体图形、长方体纸盒展开图与判断能否折成正方体。"
+              },
+              {
+                "unit_id": "unit-2",
+                "unit_name": "第二单元 混合运算",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级上册》人民教育出版社（ISBN 978-7-107-38914-6，版权页实测）第6页-第19页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 依据用户提供的2024版课本逐页复核补齐五层：同级/两级运算顺序、含括号的运算、用综合算式解决两步问题、一题多解。"
+              },
+              {
+                "unit_id": "unit-3",
+                "unit_name": "第三单元 毫米、分米和千米",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级上册》人民教育出版社（ISBN 978-7-107-38914-6，版权页实测）第20页-第30页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 依据用户提供的2024版课本逐页复核补齐五层：毫米/分米的认识、长度单位换算、千米的认识、估计距离与整理复习。"
+              },
+              {
+                "unit_id": "unit-4",
+                "unit_name": "第四单元 多位数乘一位数",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级上册》人民教育出版社（ISBN 978-7-107-38914-6，版权页实测）第39页-第56页",
+                "verified_at": "2026-10-09",
+                "note": "首个全量通过五层生产流水线的真实核验单元：含来源登记、6个课时切片、9个原子知识点、配套教师教学用书易错点、出题蓝图与双平台闭环。2026-10-09 依据用户提供的2024版课本逐页复核，修正此前误用2013旧版页码 P56-P78 的缺陷，真实版面为 P39-P56。"
+              },
+              {
+                "unit_id": "unit-5",
+                "unit_name": "第五单元 线和角",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级上册》人民教育出版社（ISBN 978-7-107-38914-6，版权页实测）第61页-第72页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 依据用户提供的2024版课本逐页复核补齐五层：线段/射线/直线、两点间线段最短、用圆规比较线段长短、角的认识、直角与锐角钝角分类、结构化整理。"
+              },
+              {
+                "unit_id": "unit-6",
+                "unit_name": "第六单元 分数的初步认识",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级上册》人民教育出版社（ISBN 978-7-107-38914-6，版权页实测）第73页-第91页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 依据用户提供的2024版课本逐页复核补齐五层：几分之一与几分之几、分数读写、比较大小、同分母加减、1减几分之几、把一些物体看作整体、求一个数的几分之几。"
+              },
+              {
+                "unit_id": "unit-7",
+                "unit_name": "第七单元 复习与关联",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-1/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-1/unit-07/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级上册》人民教育出版社（ISBN 978-7-107-38914-6，版权页实测）第92页-第103页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 依据用户提供的2024版课本逐页复核补齐五层：数与运算/数量关系/常见的量/图形的认识与测量四板块整理，以及数学广角·搭配问题。"
+              }
+            ]
+          },
+          "term-2": {
+            "status": "verified",
+            "verified_units_count": 8,
+            "partial_units_count": 0,
+            "units": [
+              {
+                "unit_id": "unit-1",
+                "unit_name": "第一单元 生活中的运动现象",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-2/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-2/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级下册》人民教育出版社第1页-第9页及配套教师教学用书（ISBN 978-7-107-40504-4）",
+                "verified_at": "2026-10-09",
+                "note": "全量五层生产流水线真实核验：涵盖轴对称图形特征与对称轴、平移与旋转辨析、方格纸数平移格数及命题蓝图。"
+              },
+              {
+                "unit_id": "unit-2",
+                "unit_name": "第二单元 除数是一位数的除法",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-2/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-2/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级下册》人民教育出版社第10页-第38页及配套教师教学用书（ISBN 978-7-107-40504-4）",
+                "verified_at": "2026-10-08",
+                "note": "全量五层生产流水线真实核验：含来源登记、9个课时切片、9个原子知识点、配套教师教学用书易错点、出题蓝图与双平台闭环。"
+              },
+              {
+                "unit_id": "unit-3",
+                "unit_name": "第三单元 长方形和正方形",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-2/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-2/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级下册》人民教育出版社第39页-第51页及配套教师教学用书（ISBN 978-7-107-40504-4）",
+                "verified_at": "2026-10-09",
+                "note": "全量五层生产流水线真实核验：涵盖四边形边角特征、周长本质、长方形正方形周长公式与逆运算、靠墙围篱笆与平移转化法。"
+              },
+              {
+                "unit_id": "unit-4",
+                "unit_name": "第四单元 图形的面积",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-2/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-2/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级下册》人民教育出版社第52页-第64页及配套教师教学用书（ISBN 978-7-107-40504-4）",
+                "verified_at": "2026-10-09",
+                "note": "全量五层生产流水线真实核验：涵盖面积含义、平方厘米/分米/米表象、长宽面积公式、100进率换算及铺地砖实际应用。"
+              },
+              {
+                "unit_id": "unit-5",
+                "unit_name": "第五单元 数据的收集与整理",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-2/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-2/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级下册》人民教育出版社第65页-第76页及配套教师教学用书（ISBN 978-7-107-40504-4）",
+                "verified_at": "2026-10-09",
+                "note": "全量五层生产流水线真实核验：涵盖复式统计表结构、画正字整理数据、行列合计总计计算及对比分析决策。"
+              },
+              {
+                "unit_id": "unit-6",
+                "unit_name": "第六单元 年、月、日的秘密",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-2/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-2/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级下册》人民教育出版社第77页-第85页及配套教师教学用书（ISBN 978-7-107-40504-4）",
+                "verified_at": "2026-10-09",
+                "note": "全量五层生产流水线真实核验：涵盖大月小月特殊二月、平年闰年判定（整百年除以400）、24时计时法及经过时间求解。"
+              },
+              {
+                "unit_id": "unit-7",
+                "unit_name": "第七单元 小数的初步认识",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-2/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-2/unit-07/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级下册》人民教育出版社第86页-第94页及配套教师教学用书（ISBN 978-7-107-40504-4）",
+                "verified_at": "2026-10-09",
+                "note": "全量五层生产流水线真实核验：涵盖小数实际含义与读写、十分之几分数互化、大小比较、小数点对齐加减笔算及购物应用。"
+              },
+              {
+                "unit_id": "unit-8",
+                "unit_name": "第八单元 复习与关联",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-3-term-2/unit-08",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-3-term-2/unit-08/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《数学 三年级下册》人民教育出版社第95页-第104页及配套教师教学用书（ISBN 978-7-107-40504-4）",
+                "verified_at": "2026-10-09",
+                "note": "全量五层生产流水线真实核验：涵盖数与运算、图形与几何（周长面积深度辨析）、解决问题、统计与综合实践全册结构化总复习。"
+              }
+            ]
+          }
+        },
+        "grade-1": {
+          "term-1": {
+            "status": "partial",
+            "verified_units_count": 1,
+            "partial_units_count": 6,
+            "units": [
+              {
+                "unit_id": "unit-00",
+                "unit_name": "数学游戏",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-1/unit-00",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-1/unit-00/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一上册》人民教育出版社第1页-第11页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学一年级上册电子课本》逐页实证核定：课本 PDF 共 27 页，页脚印刷页码实测偏移 = 5（PDF#6 = 印刷 P1）；本册可读印刷页区间为 P1–P21。「数学游戏」为全册开篇的入学准备板块，目录起始页 P1，含「在校园里找一找」P2–P3、「在操场上玩一玩」P4–P5、「在教室里认一认」P6–P7、「在教室里玩一玩」P8–P9、「学习准备」P10–P11，全部落在可读区间内，故记为 verified。"
+              },
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 5以内数的认识和加、减法",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一上册》人民教育出版社第12页-第33页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 6～10的认识和加、减法",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一上册》人民教育出版社第34页-第66页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 11～20的认识",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一上册》人民教育出版社第67页-第72页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 20以内的进位加法",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一上册》人民教育出版社第73页-第87页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 认识立体图形",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一上册》人民教育出版社第88页-第102页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "第六单元 复习与关联",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一上册》人民教育出版社第103页-第112页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              }
+            ]
+          },
+          "term-2": {
+            "status": "partial",
+            "verified_units_count": 1,
+            "partial_units_count": 6,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 认识平面图形",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-2/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-2/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一下册》人民教育出版社第1页-第7页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学一年级下册电子课本》逐页实证核定：课本 PDF 共 20 页，页脚印刷页码实测偏移 = 5（PDF#6 = 印刷 P1）；本册可读印刷页区间为 P1–P14。本单元真实版面为 P1–P7（第二单元起始页 P8），全部落在可读区间内，故记为 verified。已据原文逐页取证：P1「认识平面图形」（长方形、三角形、正方形、平行四边形、圆；画一画、分一分）、P2「涂一涂」「画出喜欢的图案」「在钉板上围一围」、P3「拼一拼」「试一试」（2 个同样的长方形/三角形拼组、正方形对折剪开）、P4「用七巧板拼三角形」与「你知道吗」（七巧板）、P5「整理和复习」、P6–P7「练一练」与「思考题」「成长小档案」。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 20以内的退位减法",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-2/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-2/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一下册》人民教育出版社第8页-第22页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 100以内数的认识",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-2/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-2/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一下册》人民教育出版社第23页-第42页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 100以内的口算加、减法",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-2/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-2/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一下册》人民教育出版社第43页-第55页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 100以内的笔算加、减法",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-2/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-2/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一下册》人民教育出版社第56页-第68页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "第六单元 数量间的加减关系",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-2/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-2/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一下册》人民教育出版社第69页-第76页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-07",
+                "unit_name": "第七单元 复习与关联",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-1-term-2/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-1-term-2/unit-07/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 一下册》人民教育出版社第83页-第92页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              }
+            ]
+          }
+        },
+        "grade-2": {
+          "term-1": {
+            "status": "verified",
+            "verified_units_count": 6,
+            "partial_units_count": 0,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 分类与整理",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-2-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-2-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 二上册》人民教育出版社第1页-第9页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学二年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 4（PDF#5 = 印刷 P1）；本册可读印刷页区间为 P1–P25。本单元真实版面为 P1–P9（第二单元起始页 P10），全部落在可读区间内，故记为 verified。已据原文逐页取证：P1「把下面的气球分类」（按形状分/按颜色分）、P2「把下面的蔬菜分类」与「按形状分一分，再涂一涂、填一填」、P3「分两组做游戏，可以怎样分组」（按大人孩子分/按性别分；「分类标准不同，结果可能不同，但总数不变」）、P4「将下面的动物分成两类」「把下面的衣服分成两类，将结果整理在表格中」、P5–P6 纽扣逐层分类（「上面分类的结果，还可以继续分吗？」）、P7「调查二（2）班同学最喜欢的动物」与练一练、P8「按形状分类，填写下表」「将这些算式分成两类」「把下面的道路交通标志分类」、P9 分组活动与「成长小档案」。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 1～6的表内乘法",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-2-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-2-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 二上册》人民教育出版社第10页-第29页（ISBN 978-7-107-38912-2，全本实测）",
+                "verified_at": "2026-10-15",
+                "note": "2026-10-15 依据完整版106页课本实证核验：P10 便利店引出同数连加、P11-P13 乘法意义与算式各部分名称、P14-P22 2~6的乘法口诀与乘加乘减（旋转木马、糖葫芦）、P23-P29 解决问题，全量实证闭环。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 1～6的表内除法",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-2-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-2-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 二上册》人民教育出版社第30页-第48页（附综合实践·校园小导游 P49-P54）",
+                "verified_at": "2026-10-15",
+                "note": "2026-10-15 依据完整版106页课本实证核验：P30-P33 平均分与除法算式（被除数/除数/商）、P34-P40 用口诀求商、P41-P48 解决实际问题（等分除与包含除），全量实证闭环。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 厘米和米",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-2-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-2-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 二上册》人民教育出版社第55页-第67页（附综合实践·身体上的尺子 P68-P72）",
+                "verified_at": "2026-10-15",
+                "note": "2026-10-15 依据完整版106页课本实证核验：P55 统一长度单位、P56-P60 认识厘米与尺子测量画线、P61-P64 认识米与 1米=100厘米、P65-P67 估计与单位选择，全量实证闭环。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 7～9的表内乘、除法",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-2-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-2-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 二上册》人民教育出版社第73页-第90页",
+                "verified_at": "2026-10-15",
+                "note": "2026-10-15 依据完整版106页课本实证核验：P73-P80 7、8、9的乘法口诀（七巧板、军乐队、赛龙舟）、P81-P86 用7~9口诀求商、P87-P90 表内乘除法实际问题解答，全量实证闭环。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "第六单元 复习与关联",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-2-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-2-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 二上册》人民教育出版社第91页-第100页",
+                "verified_at": "2026-10-15",
+                "note": "2026-10-15 依据完整版106页课本实证核验：P91 知识结构梳理、P92 乘除法运算与数量关系、P93-P94 方向度量与分类统计、P95-P99 口诀表结构化练习、P100 自我评价，全量实证闭环。"
+              }
+            ]
+          },
+          "term-2": {
+            "status": "partial",
+            "verified_units_count": 3,
+            "partial_units_count": 3,
+            "units": [
+              {
+                "unit_id": "unit-00",
+                "unit_name": "时间在哪里",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-2-term-2/unit-00",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-2-term-2/unit-00/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 二下册》人民教育出版社第1页-第9页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学二年级下册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 5（PDF#6 = 印刷 P1）；本册可读印刷页区间为 P1–P54。「时间在哪里」为全册开篇的主题活动板块（不计入单元序号，目录起始页 P1），真实版面 P1–P9（第一单元起始页 P10），全部落在可读区间内，故记为 verified。已据原文逐页取证：P1「日夜变换，一天过去了」（说一说小云的一天是怎样安排的）、P2「认识时间」（钟面分成（　）个大格、每个大格有（　）个小格；时针、分针、秒针；时、分、秒是时间单位）、P3「拨一拨」（1时=60分，1分=（　）秒）、P4「读一读」（4时5分、4时30分或4时半、4时45分）、P5「我与时间的故事」与「小调查」（1分钟能做些什么）、P6「估一估」（1秒有多长）、P7「我的时间小书」（冰雪乐园一日游）、P8「做一做」与「小讲堂」（古代计时工具）、P9 与时间有关的成语与「成长小档案」。"
+              },
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 有余数的除法",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-2-term-2/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-2-term-2/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 二下册》人民教育出版社第10页-第23页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学二年级下册电子课本》逐页实证核定：本册可读印刷页区间为 P1–P54。本单元真实版面为 P10–P23（第二单元起始页 P24），全部落在可读区间内，故记为 verified。已据原文逐页取证：P10「有余数的除法」（用10根小棒摆：8÷4=2，9÷4=2……1；读作：9除以4等于2余1）、P11「用一些小棒摆，可能剩几根？」（余数与除数的关系）、P12「还可能剩……可能剩1根」与练一练、P13 除法竖式（13÷4=3……1；13根小棒每4根摆一个）、P14「想一想：被除数、除数、商和余数有什么关系？」（13=4×3+1）、P15「（　）里最大能填几」（余数要比除数小；43÷7）、P16 练一练与「怎样能很快想出商」、P17 解决问题（23块蛋糕每盒装4块，装满几盒、需要几个盒子）、P18 周期规律（第16面小旗是什么颜色）、P19 练一练（玫瑰花扎束、蛋炒饭、彩灯）、P20 按规律摆花、鸡笼、水果拼盘、P21 整理和复习（知识图）、P22 练一练与「想一想，填一填」（余数最大是几）、P23「你知道吗」（《孙子算经》物不知数）与「成长小档案」。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 数量间的乘除关系",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-2-term-2/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-2-term-2/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 二下册》人民教育出版社第24页-第39页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学二年级下册电子课本》逐页实证核定：本册可读印刷页区间为 P1–P54。本单元真实版面为 P24–P39（第三单元起始页 P40），全部落在可读区间内，故记为 verified。已据原文逐页取证：P24 单元扉页（一盒酸奶6杯买3盒、笔袋8元买4个；「都是求几个几的和的问题，都用乘法解决」「都是知道几个几的和，求相同加数或相同加数的个数，都用除法解决」）、P25「倍」的认识（鸡的只数是鹅的3倍）、P26「求甲数是乙数的几倍，就是求甲数里面有几个乙数」（12÷4=3）、P27–P28 练一练、P29「求一个数的几倍是多少，就是求几个几是多少，用乘法解决」（8×4=32）、P30「已知一个数的几倍是多少，求这个数」（袋鼠体长：12÷6=2米）、P31–P32 练一练、P33 求两种灯笼的总数（7个金鱼灯笼，兔子灯笼是它的3倍）、P34 已知两个数量提出数学问题、P35「根据已知条件和问题，提出问题或补充合适的条件，再解答」、P36–P37 练一练、P38「整理和复习」（加减关系/相差关系/倍的关系）、P39「成长小档案」与练一练。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 万以内数的认识",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-2-term-2/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-2-term-2/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 二下册》人民教育出版社第40页-第62页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 万以内的加法和减法",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-2-term-2/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-2-term-2/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 二下册》人民教育出版社第63页-第82页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 复习与关联",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-2-term-2/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-2-term-2/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 二下册》人民教育出版社第87页-第96页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              }
+            ]
+          }
+        },
+        "grade-4": {
+          "term-1": {
+            "status": "partial",
+            "verified_units_count": 5,
+            "partial_units_count": 4,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 万以上数的认识",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-4-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-4-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 四上册》人民教育出版社第1页-第23页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学四年级上册电子课本》逐页实证核定：课本 PDF 共 73 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P70。本单元真实版面为 P1–P23，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P1 单元扉页（第七次全国人口普查部分地区数据：北京 21893095 人、广东 126012510 人…）；P2「亿以内数的认识」（一万一万地数，10 个一万是十万…个（一）、十、百、千、万、十万、百万、千万、亿都是计数单位；每相邻两个计数单位之间的进率都是十）；P3 数位顺序表与自然数（最小的自然数是 0，没有最大的自然数）；P4「读出下面各数」与含两级数的读法三条规则（先读万级再读个级；万级的数按个级的读法读再添「万」字；每级末尾不管有几个 0 都不读，其他数位上有一个 0 或连续几个 0 都只读一个 0）；P6 亿以内数的写法（先写万级再写个级；哪个数位上一个也没有就在那个数位上写 0）；P10 练习一（数的不同表示方式，如 440000=400000+40000）；P10「亿以上数的认识」（10 个一亿是十亿，10 个十亿是一百亿，10 个一百亿是一千亿；十进制计数法）；P11–P12 亿以上数的读写；P15「数的大小比较」（位数多的数就大；位数相同从最高位比起）；P16「数的改写」（25000000=2500 万，200000000=2 亿）；P17「求近似数」（四舍五入法：182068≈18 万，218309≈22 万）；P21 整理和复习（知识结构图）。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "综合与实践 1亿有多大",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-4-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-4-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 四上册》人民教育出版社第24页-第27页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学四年级上册电子课本》逐页实证核定：课本 PDF 共 73 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P70。本单元真实版面为 P24–P27，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P24「1亿有多大」（学校组织同学们参观印刷厂，仓库里摆满了纸张。「好高啊，这纸有 1 亿张吧？」→ 1 亿张纸有多高）；P25「算一算」：100 张纸厚 1 cm，10000 张纸高 100 cm（也就是 1 m），10000 个一万是一亿，一亿张纸摞起来就有 10000 m 高，「哇，比珠穆朗玛峰还高」；P26「分析问题—得出结论」：1 亿粒大米大约重 2 t，1 秒写一个字写 1 亿个字要一刻不停三年多；P27「小讲堂」：把 1 dm 平均分成 1 亿份，一份才是 1 纳米；1 亿名同学手拉手可以绕地球赤道 3 圈半。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第二单元 角的度量",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-4-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-4-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 四上册》人民教育出版社第28页-第38页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学四年级上册电子课本》逐页实证核定：课本 PDF 共 73 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P70。本单元真实版面为 P28–P38，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P28「角的再认识」（角也可以从旋转的角度来认识，角可以看作由一条射线绕着它的端点，从一个位置旋转到另一个位置所形成的图形；一条射线绕它的端点旋转半周形成平角，旋转一周形成周角）；P29 锐角、直角、钝角、平角、周角之间的关系与比较；P30「角的度量」（人们将圆平均分成 360 份，将其中 1 份所对的角作为度量角的单位，它的大小就是 1 度，记作 1°；1 周角=360°，1 平角=180°，1 直角=90°；量角器是把半圆分成 180 等份制成的）；P31 量角的步骤；P32 画角的步骤（画一个 60° 的角）；P34「测量长度、测量面积、测量角都是看被测量的图形包含了多少个相应的度量单位」；P36 整理和复习（知识结构图）。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第三单元 多位数乘两位数",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-4-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-4-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 四上册》人民教育出版社第39页-第57页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学四年级上册电子课本》逐页实证核定：课本 PDF 共 73 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P70。本单元真实版面为 P39–P57，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P39「口算乘法」（每筐有 16 盒草莓，3 筐有多少盒？16×3=48；10×3=30，6×3=18，30+18=48；想一想 160×3）；P40（每袋有 6 个橙子，10 袋有多少个？6×10=60；每盒有 12 个苹果，20 盒有多少个？12×20=240）；P43「笔算乘法」（一套书有 12 册，学校买了 13 套，一共多少册？12×13=156；12×10=120，12×3=36，120+36=156）；P44「乘数是两位数的乘法怎样计算？1. 先用一个乘数个位上的数去乘另一个乘数，得数的末位与乘数的个位对齐。2. 再用这个乘数十位上的数去乘另一个乘数，得数的末位与乘数的十位对齐。3. 然后把两次乘得的数加起来。」P48（106×63=，因数末尾有 0 的简便算法）；P49「积的变化规律」（一个乘数不变，另一个乘数乘几或除以几（0 除外），积也乘或除以几）；P50 用计算器探索规律（11×11=121，111×111=12321…）；P53「用估算解决问题」（张老师带 2600 元买 18 套服装，可以买哪几款？）；P55 整理和复习（知识结构图：口算乘法 / 笔算乘法 / 用估算解决问题）。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第四单元 加法模型和乘法模型",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-4-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-4-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 四上册》人民教育出版社第58页-第69页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学四年级上册电子课本》逐页实证核定：课本 PDF 共 73 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P70。本单元真实版面为 P58–P69，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P58「加法模型」（学校图书馆星期一借阅图书的人数表：上午来了多少人？15+32=47（人）；下午来了多少人？24+50=74（人）；一共来了多少人？47+74=121（人）；「总量 = 分量 + 分量」「分量 = 总量 − 分量」）；P59–P60 用加法模型解决问题（小丽有 100 元钱，要买 3 本不同的书：34+21+49=104>100 不可以，34+21+26=81<100 可以…）；P62「总价 = 单价 × 数量」（小票情境：每盒牛奶 18 元买 3 盒花 54 元；每千克苹果 9 元买 4 kg 花 36 元；单价=总价÷数量，数量=总价÷单价）；P63 促销问题（节省的钱 = 原来的总价 − 现在的总价 =（12−9）×4=12 元）；P66「速度、时间与路程」（小红 675 m 用 9 分钟，小丽 480 m 用 6 分钟，小丽每分钟走 80 m、小红每分钟走 75 m）；P67「路程 = 速度 × 时间」「速度 = 路程 ÷ 时间」「时间 = 路程 ÷ 速度」；P69 成长小档案：「总量=分量+分量、总价=单价×数量、路程=速度×时间是常用的数量关系」。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "第五单元 平行四边形和梯形",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-4-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-4-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 四上册》人民教育出版社第70页-第87页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学四年级上册电子课本》逐页实证核定：课本 PDF 共 73 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P70。本单元真实版面为 P70–P87，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元**起始页 P70（单元扉页与「平行和垂直」开头）落在可读区间内**，已据原文取证；P71 及以后超出可读区间，具体例题与图示待补课本页面凭证。"
+              },
+              {
+                "unit_id": "unit-07",
+                "unit_name": "第六单元 条形统计图",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-4-term-1/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-4-term-1/unit-07/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 四上册》人民教育出版社第88页-第101页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学四年级上册电子课本》逐页实证核定：课本 PDF 共 73 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P70。本单元真实版面为 P88–P101，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元起始页 P88 由课本目录页核定，正文页全部超出可读区间（P1–P70），未取得逐页原文凭证。"
+              },
+              {
+                "unit_id": "unit-08",
+                "unit_name": "综合与实践 寻找宝藏",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-4-term-1/unit-08",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-4-term-1/unit-08/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 四上册》人民教育出版社第102页-第107页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学四年级上册电子课本》逐页实证核定：课本 PDF 共 73 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P70。本单元真实版面为 P102–P107，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元起始页 P102 由课本目录页核定，正文页全部超出可读区间（P1–P70），未取得逐页原文凭证。"
+              },
+              {
+                "unit_id": "unit-09",
+                "unit_name": "第七单元 复习与关联",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-4-term-1/unit-09",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-4-term-1/unit-09/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 四上册》人民教育出版社第108页-第110页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学四年级上册电子课本》逐页实证核定：课本 PDF 共 73 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P70。本单元真实版面为 P108–P110，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元起始页 P108 由课本目录页核定（末页为依全册篇幅前推的估计值，**待实物核验**），正文页全部超出可读区间（P1–P70）。"
+              }
+            ]
+          }
+        },
+        "grade-5": {
+          "term-1": {
+            "status": "partial",
+            "verified_units_count": 5,
+            "partial_units_count": 4,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 观察简单组合体",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-5-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-5-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 五上册》人民教育出版社第1页-第6页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学五年级上册电子课本》逐页实证核定：课本 PDF 共 79 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P77。本单元真实版面为 P1–P6，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P1 单元扉页「用 4 个 摆组合体（组合体中的每一个小正方体至少要有一个面与其他小正方体重合）」「下面的图形分别是小红和小亮从什么方向看到的？连一连（从前面看、从上面看、从左面看）」；P2「摆一摆，看一看。从上面看这 3 个组合体，图形相同吗？从左面和前面看呢？」→「从上面看，图形相同；从左面看，图形也相同；从前面看，图形不相同」→结论「从同一方向观察不同组合体，看到的图形可能相同，也可能不同」；P3「按要求摆组合体（1）从前面看到的是…（2）从三个方向看到的图形如下…」；P4 练习一（连一连、画出从前面/上面/左面看到的图形）；P5「从不同方向观察同一个组合体所看到的图形，请把这个组合体摆出来」；P6 生活中的数学「当我们从某一方向观察一个物体时，所看到的平面图形叫作物体的一个视图…主视图、俯视图、仰视图、左视图、右视图和后视图」。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 小数乘法",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-5-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-5-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 五上册》人民教育出版社第7页-第23页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学五年级上册电子课本》逐页实证核定：课本 PDF 共 79 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P77。本单元真实版面为 P7–P23，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P7「小数乘整数」（买 3 个 9.5 元的 需要多少钱？9.5×3=28.5 元；9.5 元=9 元 5 角，9 元×3=27 元，5 角×3=15 角，27 元+15 角=28.5 元）；P8「0.72×60=43.2」（利用乘数和积的变化规律：0.72×100=72，72×60=4320，÷100 得 43.2；小数末尾的 0 可以去掉）；P9「小数乘小数」（长 4.2 m、宽 0.8 m 的长方形面积 4.2×0.8=3.36 m²；4.2×10=42，0.8×10=8，42×8=336，÷100 得 3.36）→「先按照整数乘法算出积，再点小数点；点小数点时，看乘数中一共有几位小数，就从积的右边起数出几位，点上小数点」；P10「0.56×0.04=0.0224」（乘得的积的小数位数不够，要在前面用 0 补足位数再点小数点）；P11「积的近似数」（人的嗅觉细胞约 0.049 亿个，狗的嗅觉细胞个数是人的 45 倍，0.049×45≈2.2 亿个，得数保留一位小数）；P12「倍的关系」：3.9×0.8=3.12，3.9×1.2=4.68；「一个数（0 除外）乘大于 1 的数，积比原来的数大；一个数（0 除外）乘小于 1 的数，积比原来的数小」；P17「整数乘法运算律推广到小数」（0.7×1.2=1.2×0.7；(0.8×0.5)×0.4=0.8×(0.5×0.4)；(2.4+3.6)×0.5=2.4×0.5+3.6×0.5；0.25×4.78×4=0.25×4×4.78；0.65×202=0.65×200+0.65×2）；P20「估算解决问题」（妈妈带 100 元，2 袋大米每袋 30.98 元，0.8 kg 肉每千克 26.48 元，30.98×2+26.48×0.8<89，>80）；P21「分段计费」（出租车 3 km 及以内 8 元，超过 3 km 的部分每千米 1.5 元，不足 1 km 按 1 km 计算；6.3 km 按 7 km 计费，车费=8+1.5×4=14 元）。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 小数除法",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-5-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-5-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 五上册》人民教育出版社第24页-第38页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学五年级上册电子课本》逐页实证核定：课本 PDF 共 79 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P77。本单元真实版面为 P24–P38，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P24「除数是整数的小数除法」（4 名同学兑换 22 元，平均每人 22÷4=5.5 元；4 名同学兑换 22.4 元，22.4÷4=5.6 元）→「商的小数点要和被除数的小数点对齐」；P25「除数是整数的小数除法」法则：1. 按照整数除法的法则去除，商的小数点要和被除数的小数点对齐；2. 如果除到被除数的末尾仍有余数，就在余数后面添 0 继续除（如 5.6÷7=0.8，整数部分 5−7 不够商 1，要先商 0 再点小数点）；P26「循环小数」（王鹏跑 400 m 用时 75 秒，400÷75=5.333…，余数总是 25）；P27「一个数的小数部分，从某一位起，一个数字或者几个数字依次不断重复出现，这样的小数叫作循环小数」，循环节（5.333…的循环节是 3，7.14545…的循环节是 45）；有限小数（0.9375）、无限小数（0.2142857…）；1÷7=0.142857…，2÷7=0.285714…（循环节 142857）；P33「一个数除以小数」（编一个中国结要用 0.85 m 丝绳，7.65 m 可以编几个？7.65÷0.85=9 个）；P34 除数是小数的除法法则：1. 先移动除数的小数点，使它变成整数；2. 除数的小数点向右移动几位，被除数的小数点也向右移动几位（位数不够的，在被除数的末尾用 0 补足）；3. 然后按除数是整数的小数除法进行计算（12.6÷0.28=45）；P37「商的近似数」（32 元买 2.7 kg 红豆，32÷2.7≈11.85 元/千克；2.7÷0.8=3.375 瓶，装满 3 瓶，需准备 4 个瓶子——「进一」法）；P38 整理和复习（除数是整数/小数；「四舍五入」法、进一法、去尾法）。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 图形的运动",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-5-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-5-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 五上册》人民教育出版社第39页-第54页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学五年级上册电子课本》逐页实证核定：课本 PDF 共 79 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P77。本单元真实版面为 P39–P54，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P39「轴对称」（点 A 与点 A′到对称轴的距离都是 3 小格；「轴对称图形上的对应点到对称轴的距离都相等」）；P40「根据对称轴补全轴对称图形」（「先找到几个关键点，画出它们的对应点，再连起来」）；P41「平移」（「图形的形状、大小没有变化」「点 B 移动的距离和点 C 移动的距离相等」）；P42「画出下图向右平移 8 格后的图形」；P43「平移的应用」（把左边这部分剪下来再向右平移 6 格变成一个长方形，6×4=24 cm²）；P46「旋转」（指针从「12」走到「1」，绕点 O 按顺时针方向旋转了 30°；从「3」到「6」绕点 O 按顺时针方向旋转了 90°；三角尺的每条直角边都绕点 O 按顺时针方向旋转了 90°，长度没有变，点 O 的位置不变）；P47「画出三角形 AOB 绕点 O 顺时针旋转 90° 后的图形」（把线段 OB、OA 分别绕点 O 顺时针旋转 90° 画出 OB′、OA′，再将 A′、B′ 连起来）；P50「设计图案」（利用图形的平移、对称和旋转设计图案）；P52 整理和复习（轴对称：对应点连线与对称轴垂直，对应点到对称轴的距离相等；平移：对应点移动方向相同，移动距离相等；旋转：对应点都绕旋转中心按同一方向旋转相同的角度；「在平移和旋转中，图形的大小都不变」）。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 用字母表示数和数量关系",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-5-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-5-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 五上册》人民教育出版社第55页-第71页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学五年级上册电子课本》逐页实证核定：课本 PDF 共 79 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P77。本单元真实版面为 P55–P71，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P55「爸爸比小红大 25 岁」→「爸爸的年龄=小红的年龄+25」，用小红的年龄 a 表示爸爸的年龄：a+25；P56「在数学中，我们经常用像 a、a+25、b=a+25 这样的字母或含有字母的式子简洁地表示数或数量之间的关系」，「当 a=11 时，b=a+25=36；当 b=57 时，a=b−25=32」；P58「在月球上能举起的物体质量=在地球上能举起的物体质量×6」，m×6 写成 6m（「省略乘号时，一般把数字写在字母前面。1 与字母相乘时，1 通常省略不写」），n=6m；P59 运算律与公式用字母表示（加法交换律 p+q=q+p；正方形 C=4a、S=a×a；长方形 C=2(a+b)=2a+2b、S=ab；两个 a 相乘写作 a²，读作 a 的平方）；s=vt（当 v=250 米/分、t=20 分时，s=250×20=5000 m）；P60「等式的性质」：如果 a=b，那么 a+c=b+c，a−c=b−c，ac=bc，a÷c=b÷c（c≠0）；利用等式的性质求未知数（a+20=37 → a=17；6m=9 → m=1.5）；P65「用 n 表示 m 张桌子拼在一起可坐的人数」：n=2+2m（m=4 时 n=10）；P66「复兴号平均每小时行驶 320 km，甲到乙用 a 小时、乙到丙用 b 小时，总路程 s=320(a+b)=320a+320b」；P67 数列用字母表示（第 n 个数）；P70「探秘百数表」（用 a 表示左上角的数，右面是 a+1，下面的数是 a+10，对角两数之和相等）。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "第六单元 多边形的面积",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-5-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-5-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 五上册》人民教育出版社第72页-第94页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学五年级上册电子课本》逐页实证核定：课本 PDF 共 79 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P77。本单元真实版面为 P72–P94，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元**起始页 P72（单元扉页与「平行四边形的面积」开头）落在可读区间内**，已据原文取证至 P76；P77 及以后超出可读区间，三角形的面积、梯形的面积、组合图形的面积等例题与图示待补课本页面凭证。"
+              },
+              {
+                "unit_id": "unit-07",
+                "unit_name": "综合与实践 有趣的密铺",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-5-term-1/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-5-term-1/unit-07/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 五上册》人民教育出版社第95页-第97页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学五年级上册电子课本》逐页实证核定：课本 PDF 共 79 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P77。本单元真实版面为 P95–P97，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元起始页 P95 由课本目录页核定，正文页全部超出可读区间（P1–P77），未取得逐页原文凭证。"
+              },
+              {
+                "unit_id": "unit-08",
+                "unit_name": "第八单元 可能性",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-5-term-1/unit-08",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-5-term-1/unit-08/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 五上册》人民教育出版社第98页-第106页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学五年级上册电子课本》逐页实证核定：课本 PDF 共 79 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P77。本单元真实版面为 P98–P106，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元起始页 P98 由课本目录页核定，正文页全部超出可读区间（P1–P77），未取得逐页原文凭证。"
+              },
+              {
+                "unit_id": "unit-09",
+                "unit_name": "第九单元 复习与关联",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-5-term-1/unit-09",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-5-term-1/unit-09/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 五上册》人民教育出版社第107页-第110页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学五年级上册电子课本》逐页实证核定：课本 PDF 共 79 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P77。本单元真实版面为 P107–P110，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元起始页 P107 由课本目录页核定（末页为依全册篇幅前推的估计值，**待实物核验**），正文页全部超出可读区间（P1–P77）。"
+              }
+            ]
+          }
+        },
+        "grade-6": {
+          "term-1": {
+            "status": "partial",
+            "verified_units_count": 5,
+            "partial_units_count": 4,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 确定位置",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-6-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-6-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 六上册》人民教育出版社第1页-第15页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学六年级上册电子课本》逐页实证核定：课本 PDF 共 77 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P75。本单元真实版面为 P1–P15，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P1「用有序数对确定位置」（在座位表中，张亮在第 2 列、第 3 行，位置可以用有序数对（2，3）表示；王艳的位置用有序数对表示是（…），赵雪的位置是（…），看一看它们有什么不同；（6，3）表示的是王乐的位置）；P2「同一列，有序数对的第一个数都相同」；「（2，a）表示的是哪些同学的位置？」；P5「用方向和距离确定位置」（渔船距搜救船 1500 m，「渔船在搜救船的东偏南 25° 方向上」「渔船在搜救船的南偏东 65° 方向上」→「两种说法都对，但一般习惯用不大于 45° 的角来描述」，「用 1 cm 表示 500 m，渔船距离搜救船 3 cm，也就是实际距离 1500 m」）；P6「确定平面内一个物体的准确位置，要先确定参照点，还需要知道物体相对于参照点的距离和方向」；P8「一艘货船位于搜救船北偏西 40° 方向上，距离搜救船 1000 m」；P10「小明放学回家的路线」（第 1 段以学校为参照点，向南偏东 30° 方向走 200 m 到达邮局；「描述路线时，每段路线都是以起点为参照点确定方向的」）；P11 整理和复习（「平面内同一个点既可以用一个有序数对，又可以用方向和距离确定位置」「这两种方法都需要两个条件」）；P5 生活中的数学（北京的地理位置是东经 116°24′、北纬 39°54′）。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 分数乘法",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-6-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-6-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 六上册》人民教育出版社第16页-第31页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学六年级上册电子课本》逐页实证核定：课本 PDF 共 77 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P75。本单元真实版面为 P16–P31，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P16「分数乘整数」（做一朵花需要用 3/10 张纸，做 2 朵花需要 2 个 3/10 张，3/10×2=(3×2)/10=6/10=3/5 张；做 8 朵花 3/10×8=…）→「分数乘整数，用分子乘整数的积作分子，分母不变。能约分的可先约分，再计算」；P17–P18「一个数乘分数」（面积 2 公顷的育苗基地，5/8 用来种柳树苗，种柳树苗的面积是2×5/8=10/8=5/4 公顷；「求一个数的几倍是多少，用乘法计算」）→「一个数乘分数，用分子相乘的积作分子，用分母相乘的积作分母」；P21「分数、小数混合运算及运算律」（松鼠欢欢身体长 2.1 dm，尾巴约是身体长度的 5/8，2.1×5/8=1.3125 dm；松鼠乐乐身体长 2.4 dm，2.4×5/8=1.8 dm，「可以把 2.1 化成分数，也可以把 5/8 化成小数」）；P22「分数混合运算的顺序和整数混合运算的顺序相同」「整数和小数的乘法运算律在分数运算中依然适用」（如 3/5×12+2/5×12=(3/5+2/5)×12=12）；P27「连续求一个数的几分之几是多少」（休闲场所 4800 m²，运动健身区域占 3/5，器械类健身区域占运动健身区域的 1/4，4800×3/5×1/4=720 m²）；P29「求比一个数多（少）几分之几的数是多少」（厨余垃圾原来约 100 kg，减少了 1/4，100−100×1/4=75 kg，或 100×(1−1/4)=75 kg）。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 分数除法",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-6-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-6-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 六上册》人民教育出版社第32页-第43页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学六年级上册电子课本》逐页实证核定：课本 PDF 共 77 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P75。本单元真实版面为 P32–P43，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P32「倒数的认识」（乘积是 1 的两个数互为倒数；3/5 的倒数是 5/3；6 的倒数是 1/6；1 的倒数是 1，0 没有倒数）；P33「一个数除以整数」（一块 4/5 公顷的蔬菜种植基地平均分给 2 个种植小组，每个小组 4/5÷2=2/5 公顷；平均分给 3 个小组 4/5÷3=4/15 公顷）→「一个数除以整数（0 除外），等于乘这个整数的倒数」；P34–P35「一个数除以分数」（160 g 牛奶是砂糖的 4/5，砂糖质量=160÷4/5=160×5/4=200 g；鸡蛋的质量是 2/5 kg，是面粉质量的 2/3，面粉质量=2/5÷2/3=2/5×3/2=3/5 kg）→「除以一个数（0 除外），等于乘这个数的倒数」；P36「除法是乘法的逆运算」并由此推导「4÷2=4×1/2」；P39「工程问题（假设法）」（甲队每天修全长的 1/12，乙队每天修全长的 1/18，同时从两端开工，1÷(1/12+1/18)=7.2 天修完）；P41 整理和复习（「已知一个数的几分之几是多少，求这个数」用除法计算）。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 生活中的负数",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-6-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-6-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 六上册》人民教育出版社第44页-第47页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学六年级上册电子课本》逐页实证核定：课本 PDF 共 77 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P75。本单元真实版面为 P44–P47，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P44「寻找负数」（北京 −4℃~0℃；吐鲁番盆地最低点的海拔是 −154.31 m；海平面为分界）；P45「认识负数」（电子账单 −85.00、+500.00；珠穆朗玛峰 8848.86 m；「一个数前面有「−」和没有「−」，表示了相反的含义」；「以 0℃ 为分界线，分为零上温度和零下温度，−10℃ 表示零下 10℃」；「我们以前学过的数，如 6、4.7、…是正数；−6、−4.7、…是负数。正数和负数可以用来表示相反意义的量」；「负数应该标在 0 的左边」）；P46「应用负数」（春节期间收支记录：父母工资 +9500、给老人 −2000、压岁钱 −200、买年货 −500；「正数表示收入，负数表示支出」；坐位体前屈成绩用负数记录）；P47 小讲堂（我国数学家刘徽用「正算赤、负算黑」区分正负数；「有了负数，小的数减大的数的结果就可以表示出来，例如 8−10=−2」）；P47 成长小档案（「能正确地读、写正数和负数；知道 0 既不是正数，也不是负数」）。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 圆",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-math/grade-6-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-6-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 六上册》人民教育出版社第48页-第73页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学六年级上册电子课本》逐页实证核定：课本 PDF 共 77 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P75。本单元真实版面为 P48–P73，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P48–P49「圆和扇形的认识」（用圆规画圆；「圆心：针尖固定的一点，通常用字母 O 表示；半径：连接圆心和圆上任意一点的线段，通常用字母 r 表示；直径：通过圆心并且两端都在圆上的线段，通常用字母 d 表示」；墨子云「圆，一中同长也」）；P50「同一个圆所有的半径都相等，所有的直径都相等，直径长度是半径的 2 倍」（d=2r）；「圆心确定了圆的中心位置，半径决定了圆的大小」；P51「弧 AB」「一条弧和经过这条弧两端的两条半径所围成的图形叫作扇形」「顶点在圆心的角叫作圆心角」；「扇形的大小与这个扇形的圆心角的大小有关」；P55「圆的周长」「围成圆的曲线的长是圆的周长」；P56「一个圆的周长总是它的直径的 3 倍多一些」「任意一个圆的周长除以它的直径，所得的结果是一个固定的数，我们把它叫作圆周率，用字母 π 表示」「π=3.1415926535…」「C=πd 或 C=2πr」；祖冲之把圆周率精确到小数点后 7 位；P57（汽车轮子直径 75 cm，3.14×75=235.5 cm=2.355 m；4710 km=4710000 m，4710000÷2.355=2000000 圈）；P60–P61「圆的面积」（用数方格的方法估出圆的面积大约是半径平方的 3.1 倍；把圆等分成 8、16、32 份拼成近似长方形，「长方形的长近似于 πr，宽近似于 r」，「圆的面积=πr×r=πr²」，即 S=πr²）；刘徽「割圆术」；P63「圆环的面积」（外圆直径 26.3 cm、内圆直径 5.4 cm 的青玉御题蚕纹璧；3.14×(26.3/2)²−3.14×(5.4/2)²）；P64–P65「外方内圆」「外圆内方」；P71 整理和复习（圆是轴对称图形，有无数条对称轴；C=2πr 或 C=πd；S=πr²）。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "综合与实践 体育中的数学",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-6-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-6-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 六上册》人民教育出版社第74页-第78页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学六年级上册电子课本》逐页实证核定：课本 PDF 共 77 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P75。本单元真实版面为 P74–P78，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元**起始页 P74（单元扉页与情境导入）落在可读区间内**，已据原文取证至 P75；用户提供的电子课本 PDF 正文止于 P75，本单元 P76–P78 及后续单元（百分数 P79、水是生命之源 P101、复习与关联 P106）在该 PDF 中**缺失**，故只能按目录页登记。"
+              },
+              {
+                "unit_id": "unit-07",
+                "unit_name": "第六单元 百分数",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-6-term-1/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-6-term-1/unit-07/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 六上册》人民教育出版社第79页-第100页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学六年级上册电子课本》逐页实证核定：课本 PDF 共 77 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P75。本单元真实版面为 P79–P100，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元起始页 P79 由课本目录页核定，正文页全部超出可读区间（P1–P75），未取得逐页原文凭证。"
+              },
+              {
+                "unit_id": "unit-08",
+                "unit_name": "综合与实践 水是生命之源",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-6-term-1/unit-08",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-6-term-1/unit-08/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 六上册》人民教育出版社第101页-第105页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学六年级上册电子课本》逐页实证核定：课本 PDF 共 77 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P75。本单元真实版面为 P101–P105，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元起始页 P101 由课本目录页核定，正文页全部超出可读区间（P1–P75），未取得逐页原文凭证。"
+              },
+              {
+                "unit_id": "unit-09",
+                "unit_name": "第七单元 复习与关联",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-math/grade-6-term-1/unit-09",
+                "evidence_artifact": "knowledge/curriculum/primary-math/grade-6-term-1/unit-09/metadata.yaml",
+                "source": "教育部审定2024年版人教版义务教育教科书《数学 六上册》人民教育出版社第106页-第110页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版小学数学六年级上册电子课本》逐页实证核定：课本 PDF 共 77 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P75。本单元真实版面为 P106–P110，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元起始页 P106 由课本目录页核定（末页为依全册篇幅前推的估计值，**待实物核验**），正文页全部超出可读区间（P1–P75）。"
+              }
+            ]
+          }
+        }
+      },
+      "note": "1-2 年级依据用户提供的 2024 版电子课本（均为部分预览）逐页实证登记；仅全部版面落在可读区间内的单元记 verified，其余记 partial。"
+    },
+    "chinese": {
+      "name": "小学语文（统编版/人教版）",
+      "edition": "人民教育出版社（统编版）",
+      "status": "partial",
+      "note": "三年级上册八个单元已全部建立五层目录：第一、二单元 verified（依据可读课本逐页核验）；第三至第八单元 partial（课本正文页未含于用户提供的部分预览，页码与语文要素已由课本目录页与教参OCR核定，课文原文与生字表待补凭证）。",
+      "grades": {
+        "grade-3": {
+          "term-1": {
+            "status": "partial",
+            "verified_units_count": 2,
+            "partial_units_count": 6,
+            "unverified_units_count": 0,
+            "units": [
+              {
+                "unit_id": "unit-1",
+                "unit_name": "第一单元 校园生活",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-01/metadata.yaml",
+                "source": "教育部统编版义务教育教科书《语文 三年级上册》人民教育出版社（ISBN 978-7-107-32832-9）第1页-第12页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 依据用户提供的2024版课本（预览含P1-P25）逐页复核补齐五层：大青树下的小学、花的学校、不懂就要问、口语交际我的暑假生活、习作猜猜他是谁、语文园地一。语文要素「关注有新鲜感的词语和句子」。"
+              },
+              {
+                "unit_id": "unit-2",
+                "unit_name": "第二单元 金秋时节",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-02/metadata.yaml",
+                "source": "教育部统编版义务教育教科书《语文 三年级上册》人民教育出版社（ISBN 978-7-107-32832-9）第13页-第25页",
+                "verified_at": "2026-10-09",
+                "note": "统编版小学语文三年级上册第二单元全量五层流水线真实核验。2026-10-09 依据用户提供的2024版课本修正版次污染：古诗三首篇目由旧版《山行·赠刘景文·夜书所见》更正为2024版《望洞庭·山行·夜书所见》，页码由旧版 P16-P34 更正为 P13-P25，并同步剔除旧版篇目生字。"
+              },
+              {
+                "unit_id": "unit-3",
+                "unit_name": "第三单元 预测与猜想",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-03/metadata.yaml",
+                "source": "教育部统编版义务教育教科书《语文 三年级上册》人民教育出版社（ISBN 978-7-107-32832-9）第27页-第44页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 补齐五层（partial）。课本页码取自用户PDF目录页；语文要素「了解预测的基本方法并尝试运用」经用户教参OCR（教参P58-P59）核定。**证据边界**：用户提供的语文三上电子课本为部分预览（仅P1-P25），本单元正文页不在预览内，课文原文与生字表待补凭证。注意2024版预测单元位于第三单元（旧版在第四单元）。"
+              },
+              {
+                "unit_id": "unit-4",
+                "unit_name": "第四单元 童话世界",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-04/metadata.yaml",
+                "source": "教育部统编版义务教育教科书《语文 三年级上册》人民教育出版社（ISBN 978-7-107-32832-9）第45页-第58页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 补齐五层（partial）。语文要素「感受童话丰富的想象，体会其中的真善美」经教参OCR（教参P89）核定；课本页码取自用户PDF目录页。课文原文与生字表待补凭证。"
+              },
+              {
+                "unit_id": "unit-5",
+                "unit_name": "第五单元 留心观察（习作单元）",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-05/metadata.yaml",
+                "source": "教育部统编版义务教育教科书《语文 三年级上册》人民教育出版社（ISBN 978-7-107-32832-9）第59页-第68页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 补齐五层（partial）。阅读要素「体会作者是怎样留心观察周围事物的」、习作要素「仔细观察，把观察所得写下来」经教参OCR（教参P126）核定；课本页码取自用户PDF目录页。课文原文与生字表待补凭证。"
+              },
+              {
+                "unit_id": "unit-6",
+                "unit_name": "第六单元 祖国山河",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-06/metadata.yaml",
+                "source": "教育部统编版义务教育教科书《语文 三年级上册》人民教育出版社（ISBN 978-7-107-32832-9）第69页-第82页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 补齐五层（partial）。语文要素「借助关键语句理解一段话的意思」经教参OCR（教参P143）核定；课本页码取自用户PDF目录页。课文原文与生字表待补凭证。"
+              },
+              {
+                "unit_id": "unit-7",
+                "unit_name": "第七单元 珍爱自然",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-07/metadata.yaml",
+                "source": "教育部统编版义务教育教科书《语文 三年级上册》人民教育出版社（ISBN 978-7-107-32832-9）第83页-第94页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 补齐五层（partial）。语文要素「感受课文生动的语言，积累喜欢的语句」经教参OCR（教参P172）核定；课本页码取自用户PDF目录页。**版次提醒**：2024版第七单元《古诗三首》为《鹿柴》《望天门山》《饮湖上初晴后雨》，严禁混入《望洞庭》（属第二单元）。课文原文与生字表待补凭证。"
+              },
+              {
+                "unit_id": "unit-8",
+                "unit_name": "第八单元 美好品质",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-08",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-3-term-1/unit-08/metadata.yaml",
+                "source": "教育部统编版义务教育教科书《语文 三年级上册》人民教育出版社（ISBN 978-7-107-32832-9）第95页-第108页",
+                "verified_at": "2026-10-09",
+                "note": "2026-10-09 补齐五层（partial）。语文要素「学习带着问题默读，理解课文内容」经教参OCR（教参P202）核定；课本页码取自用户PDF目录页。课文原文与生字表待补凭证。"
+              }
+            ]
+          }
+        },
+        "grade-1": {
+          "term-1": {
+            "status": "partial",
+            "verified_units_count": 2,
+            "partial_units_count": 7,
+            "units": [
+              {
+                "unit_id": "unit-00",
+                "unit_name": "我上学了",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-00",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-00/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一上册》人民教育出版社第2页-第7页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版统编版小学语文一年级上册电子课本》逐页实证核定：课本 PDF 共 27 页，页脚印刷页码实测偏移 = 5（PDF#7 = 印刷 P2）；本册可读印刷页区间为 P2–P21。「我上学了」为全册开篇的入学教育板块（目录起始页 P2，不计入单元序号），真实版面 P2–P7（第一单元起始页 P8），全部落在可读区间内，故记为 verified。已据原文逐页取证：P2「我上学了　我是中国人」、P3「我是中国人。我们都是中国人。中华民族是一家。」、P4「我爱五星红旗。我爱北京天安门。」（配图标注「北京天安门」「五星红旗」）、P5「我爱长江，我爱黄河。我爱中华人民共和国。」（配图标注「长江」「黄河」）、P6 儿歌《上学歌》（太阳当空照，花儿对我笑……）、P7「我爱学语文」（读书、写字；讲故事、听故事）。"
+              },
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 识字",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一上册》人民教育出版社第8页-第19页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版统编版小学语文一年级上册电子课本》逐页实证核定：本册可读印刷页区间为 P2–P21。本单元真实版面为 P8–P19（第二单元起始页 P20），全部落在可读区间内，故记为 verified。已据原文逐页取证：P8「天地人」（天 地 人 你 我 他）、P9「金木水火土」（一二三四五，金木水火土。天地分上下，日月照今古。）、P10「一二三四五 上 下」与认识田字格（横中线、竖中线）、P11「口耳目手足」（目 口 耳 手 足）、P12「口 耳 目 手 足 站 坐」「站如松，坐如钟。行如风，卧如弓。」、P13「日月山川」（日 月 水 火 山 川 田 禾）、P14 猜一猜连一连（羊 竹 网 兔 木 鸟）与「日 月 山 川 水 火 田 禾」、P15「语文园地一」识字加油站（六 七 八 九 十；一片两片三四片……）、P16 书写提示（笔顺规则：先横后竖、先撇后捺）与日积月累《咏鹅》、P17 口语交际「我说你做」、P18 和大人一起读《剪窗花》、P19 快乐读书吧「读书真快乐」。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 汉语拼音",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一上册》人民教育出版社第20页-第28页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 汉语拼音",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一上册》人民教育出版社第32页-第42页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 汉语拼音",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一上册》人民教育出版社第45页-第56页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一上册》人民教育出版社第60页-第68页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "第六单元 识字",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一上册》人民教育出版社第73页-第80页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-07",
+                "unit_name": "第七单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-07/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一上册》人民教育出版社第84页-第90页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-08",
+                "unit_name": "第八单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-08",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-1/unit-08/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一上册》人民教育出版社第95页-第101页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              }
+            ]
+          },
+          "term-2": {
+            "status": "partial",
+            "verified_units_count": 1,
+            "partial_units_count": 7,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 识字",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一下册》人民教育出版社第2页-第14页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版统编版小学语文一年级下册电子课本》逐页实证核定：课本 PDF 共 20 页，页脚印刷页码实测偏移 = 5（PDF#7 = 印刷 P2）；本册可读印刷页区间为 P2–P14。本单元真实版面为 P2–P14（第二单元起始页 P16），全部落在可读区间内，故记为 verified。已据原文逐页取证：P2「春夏秋冬」（春风、夏雨、秋霜、冬雪；吹、落、降、飘）、P3「青草、红花、游鱼、飞鸟」「池草青，山花红，鱼出水，鸟入林」、P4「姓氏歌」（你姓什么？我姓李。什么李？木子李。他姓什么？他姓张。什么张？弓长张。古月胡，口天吴，双人徐，言午许。中国姓氏有很多，赵、钱、孙、李，周、吴、郑、王，诸葛、东方，上官、欧阳……）、P5「照样子做问答游戏」（你姓什么？我姓张。什么张？弓长张。）、P6「小青蛙」（河水清清天气晴，小小青蛙大眼睛。保护禾苗吃害虫，做了不少好事情。请你爱护小青蛙，好让禾苗不生病。）、P7「睛 情 晴 清 请」（读一读下面的字，说说你发现了什么，再填一填）、P8「猜字谜」（一）左边绿，右边红，左右相遇起凉风。绿的喜欢及时雨，红的最怕水来攻。、P9「猜字谜」（二）「言」来互相尊重，「心」至令人感动，「日」出万里无云，「水」到纯净透明。、P10「语文园地一」（识字加油站、字词句运用、读一读说说发现了什么）、P11「祖国多么广大」（大兴安岭，雪花还在飞舞。长江两岸，柳枝已经发芽。海南岛上，到处盛开着鲜花。）与《汉语拼音字母表》、P12 日积月累《春晓》与书写提示「笔顺规则：先外后内再封口」（田、四、白）、P13 口语交际「请你帮个忙」、P14 和大人一起读《妞妞赶牛》。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一下册》人民教育出版社第16页-第22页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一下册》人民教育出版社第26页-第34页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一下册》人民教育出版社第39页-第44页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 识字",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一下册》人民教育出版社第48页-第56页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "第六单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一下册》人民教育出版社第61页-第73页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-07",
+                "unit_name": "第七单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-07/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一下册》人民教育出版社第78页-第93页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-08",
+                "unit_name": "第八单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-08",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-1-term-2/unit-08/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 一下册》人民教育出版社第98页-第109页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              }
+            ]
+          }
+        },
+        "grade-2": {
+          "term-1": {
+            "status": "verified",
+            "verified_units_count": 8,
+            "partial_units_count": 0,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 大自然的奥秘",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-01/metadata.yaml",
+                "source": "教育部组织编写统编版义务教育教科书《语文 二年级上册》人民教育出版社（2022新课标修订版，全册126页实测） P1-P15",
+                "verified_at": "2026-10-14",
+                "note": "2026-10-14 依据126页全本教材实证核验，覆盖全部课文及写字表生字、词语表必考词。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 识字与自然",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-02/metadata.yaml",
+                "source": "教育部组织编写统编版义务教育教科书《语文 二年级上册》人民教育出版社（2022新课标修订版，全册126页实测） P16-P27",
+                "verified_at": "2026-10-14",
+                "note": "2026-10-14 依据126页全本教材实证核验，覆盖全部课文及写字表生字、词语表必考词。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 儿童生活与美好想象",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-03/metadata.yaml",
+                "source": "教育部组织编写统编版义务教育教科书《语文 二年级上册》人民教育出版社（2022新课标修订版，全册126页实测） P28-P38",
+                "verified_at": "2026-10-14",
+                "note": "2026-10-14 依据126页全本教材实证核验，覆盖全部课文及写字表生字、词语表必考词。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 家乡风景名胜",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-04/metadata.yaml",
+                "source": "教育部组织编写统编版义务教育教科书《语文 二年级上册》人民教育出版社（2022新课标修订版，全册126页实测） P39-P53",
+                "verified_at": "2026-10-14",
+                "note": "2026-10-14 依据126页全本教材实证核验，覆盖全部课文及写字表生字、词语表必考词。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 思维启迪与寓言",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-05/metadata.yaml",
+                "source": "教育部组织编写统编版义务教育教科书《语文 二年级上册》人民教育出版社（2022新课标修订版，全册126页实测） P54-P66",
+                "verified_at": "2026-10-14",
+                "note": "2026-10-14 依据126页全本教材实证核验，覆盖全部课文及写字表生字、词语表必考词。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "第六单元 革命伟人与英雄情怀",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-06/metadata.yaml",
+                "source": "教育部组织编写统编版义务教育教科书《语文 二年级上册》人民教育出版社（2022新课标修订版，全册126页实测） P67-P80",
+                "verified_at": "2026-10-14",
+                "note": "2026-10-14 依据126页全本教材实证核验，覆盖全部课文及写字表生字、词语表必考词。"
+              },
+              {
+                "unit_id": "unit-07",
+                "unit_name": "第七单元 自然想象与变化",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-07/metadata.yaml",
+                "source": "教育部组织编写统编版义务教育教科书《语文 二年级上册》人民教育出版社（2022新课标修订版，全册126页实测） P81-P94",
+                "verified_at": "2026-10-14",
+                "note": "2026-10-14 依据126页全本教材实证核验，覆盖全部课文及写字表生字、词语表必考词。"
+              },
+              {
+                "unit_id": "unit-08",
+                "unit_name": "第八单元 美好相处与伙伴真情",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-08",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-1/unit-08/metadata.yaml",
+                "source": "教育部组织编写统编版义务教育教科书《语文 二年级上册》人民教育出版社（2022新课标修订版，全册126页实测） P95-P107",
+                "verified_at": "2026-10-14",
+                "note": "2026-10-14 依据126页全本教材实证核验，覆盖全部课文及写字表生字、词语表必考词。"
+              }
+            ],
+            "note": "2026-10-14 依据用户提供的《2026版人教统编版小学语文二年级上册电子课本.pdf》（126页全本实测）全册8个单元逐页实证核验完成，覆盖识字表460字、写字表250字、词语表236词。"
+          },
+          "term-2": {
+            "status": "partial",
+            "verified_units_count": 4,
+            "partial_units_count": 4,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 阅读",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 二下册》人民教育出版社第1页-第11页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版统编版小学语文二年级下册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 5（PDF#6 = 印刷 P1）；本册可读印刷页区间为 P1–P54。本单元真实版面为 P1–P11（第二单元起始页 P15），全部落在可读区间内，故记为 verified。已据原文逐页取证：P1「古诗二首」《咏柳》[唐] 贺知章（碧玉妆成一树高，万条垂下绿丝绦。不知细叶谁裁出，二月春风似剪刀。）、P2《村居》[清] 高鼎（草长莺飞二月天，拂堤杨柳醉春烟。儿童散学归来早，忙趁东风放纸鸢。）、P4「2 找春天」（春天来了！春天来了！我们几个孩子脱掉棉袄，冲出家门，奔向田野，去寻找春天。小草从地下探出头来，那是春天的眉毛吧？早开的野花一朵两朵，那是春天的眼睛吧？树木吐出点点嫩芽，那是春天的音符吧？解冻的小溪叮叮咚咚，那是春天的琴声吧？）、P5「朗读课文，感受春天的美景。说说『我们』找到的春天是什么样的。」、P6「3 开满鲜花的小路」（邮递员黄狗在门口喊：『鼹鼠先生，您的包裹单！』……）、P7「松鼠太太对鼹鼠先生说：『我知道了，去年长颈鹿大叔寄给您的是花籽。这是多么美好的礼物啊！』」、P8「分角色朗读课文」与「为什么说长颈鹿大叔寄来的花籽是『美好的礼物』？生活中还有什么也是美好的礼物？」、P9「4 邓小平爷爷植树」（1987年4月5日，是个令人难忘的日子。这一天，碧空如洗，万里无云。在北京天坛公园植树的人群里，83岁高龄的邓小平爷爷格外引人注目。）、P10「一棵绿油油的小柏树栽好了，就像战士一样笔直地站在那里。」与「默读第3自然段。结合课文内容和插图，说说邓爷爷植树的情景。」、P11「语文园地一」识字加油站（亭、咨询处、宝塔、餐厅、厕所）与字词句运用、P12 日积月累《赋得古原草送别（节选）》[唐] 白居易与书写提示（左上包围、左下包围的字）、P13 口语交际「用怎样的语气说话」、P14 我爱阅读《笋芽儿》。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 阅读",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 二下册》人民教育出版社第15页-第28页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版统编版小学语文二年级下册电子课本》逐页实证核定：本册可读印刷页区间为 P1–P54。本单元真实版面为 P15–P28（第三单元起始页 P29），全部落在可读区间内，故记为 verified。已据原文逐页取证：P15「5 雷锋叔叔，你在哪里」（沿着长长的小溪，寻找雷锋的足迹。……）、P16「顺着弯弯的小路，寻找雷锋的足迹。」「乘着温暖的春风，我们四处寻觅。啊，终于找到了——哪里需要献出爱心，雷锋叔叔就出现在哪里。」、P17「猜猜下面词语的意思，并说说你是怎么猜出来的（足迹　泥泞　晶莹　寻觅）」、P18「6 千人糕」（一天，爸爸对孩子说：『今天我们来吃千人糕吧。』……）、P19「爸爸拿起面前的糕，说：『你看，一块平平常常的糕，要经过很多很多人的劳动，才能摆在我们面前。』」、P20「默读课文。结合课文内容和插图，说说一块平常的米糕为什么被称作『千人糕』。」与「读一读，记一记（蛋糕　雪糕　糕点／品尝　尝鲜　尝试／米粉　面粉　粉丝／确定　确实　正确）」、P21「7 我不是最弱小的」（夏天的一个周末，四岁的萨沙和哥哥托利亚跟父母一起到森林中去玩。……妈妈回答说：『我们应该保护比自己弱小的。』）、P22「萨沙朝野蔷薇花丛走去。……妈妈说：『不，不，你能保护更弱小的，你是勇敢的孩子啦！』」、P23「分角色朗读课文」与「读下面的句子，结合妈妈的回答，体会萨沙心里的想法」、P24「语文园地二」识字加油站（教师、工程师、魔术师、建筑师、理发师、演员、营业员、服务员、裁判员、饲养员）与字词句运用（查部首）、P25 日积月累（予人玫瑰，手有余香。／平时肯帮人，急时有人帮。／与其锦上添花，不如雪中送炭。）、P26 写话「我的好朋友」与我爱阅读《雷锋日记二则》、P27《雷锋日记二则》（1960年8月20日、1961年10月15日）、P28 快乐读书吧「读读儿童故事」。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 识字",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 二下册》人民教育出版社第29页-第37页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版统编版小学语文二年级下册电子课本》逐页实证核定：本册可读印刷页区间为 P1–P54。本单元真实版面为 P29–P37（第四单元起始页 P42），全部落在可读区间内，故记为 verified。已据原文逐页取证：P29「1 神州谣」（我神州，称中华，山川美，可入画。黄河奔，长江涌，长城长，珠峰耸。台湾岛，隔海峡，与大陆，是一家。各民族，情谊浓，齐奋发，共繁荣。）、P30「读一读，记一记（华夏儿女　炎黄子孙／神州大地　巍巍中华／民族团结　世界大同／奋发图强　繁荣昌盛）」、P31「2 传统节日」（春节到，人欢笑，贴窗花，放鞭炮。元宵节，看花灯，大街小巷人如潮。清明节，雨纷纷，先人墓前去祭扫。过端午，赛龙舟，粽香艾香满堂飘。七月七，来乞巧，牛郎织女会鹊桥。过中秋，吃月饼，十五圆月当空照。）、P32「重阳节，要敬老，踏秋赏菊去登高。转眼又是新春到，全家团圆真热闹。」与「按照时间顺序排列下面的节日（端午节　清明节　元宵节　春节　重阳节　中秋节）」、P33「3『贝』的故事」（一些生活在水里的动物，用贝壳保护自己的身体。甲骨文中的「贝」字，就像一种海贝的样子。……所以，用「贝」作偏旁的字大多与钱财有关，如「赚、赔、购、贫、货」。）、P34「朗读课文。讲一讲『贝』的故事。」与「读一读，记一记（珍贵　贵重／损坏　破损／硬币　纸币／财富　财产／赔本　赔礼／购买　采购）」、P35「4 中国美食」（小鸡炖蘑菇、葱爆羊肉、烤鸭、水煮鱼、蒸饺、炸酱面、小米粥、蛋炒饭、红烧茄子、凉拌菠菜、香煎豆腐）、P36「读一读，说说制作哪些食物时需要用到这些方法（炒　烤　烧　爆　炖　炸　煎　蒸　煮）」与「用部首查字法查下面的字（灶　焰　烫　煲　熏）」、P37「语文园地三」识字加油站（甜津津　酸溜溜　辣乎乎　香喷喷　油腻腻　软绵绵　脆生生　硬邦邦）、P38 日积月累（子鼠　丑牛　寅虎　卯兔　辰龙　巳蛇　午马　未羊　申猴　酉鸡　戌狗　亥猪）与「选一选，连一连（霄／宵／削、赔／陪／培）」、P39 口语交际「长大以后做什么」、P40–P41 我爱阅读《一株紫丁香》。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 阅读",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 二下册》人民教育出版社第42页-第51页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版统编版小学语文二年级下册电子课本》逐页实证核定：本册可读印刷页区间为 P1–P54。本单元真实版面为 P42–P51（第五单元起始页 P55），全部落在可读区间内，故记为 verified。已据原文逐页取证：P42「8 彩色的梦」（我有一大把彩色的梦，有的长，有的圆，有的硬。他们躺在铅笔盒里聊天，一打开，就在白纸上跳蹦。）、P43「在葱郁的森林里，雪松们拉着手，请小鸟留下歌声。」「我的彩色梦境，有水果香，有季节风，还有紫葡萄的叮咛，在溪水里流动……」、P44「朗读课文，边读边想象，体会『我』对彩色梦境的喜爱。」与「你想用彩色铅笔画些什么？试着仿照第2小节或第3小节，把想画的内容用几句话写下来。」、P45「9 一匹出色的马」（起始页）、P46「手，从路旁一株柳树下，拾起一根又长又细的枝条，把它递给了妹妹，说：『这是一匹出色的马，你走不动了，就骑着它回家吧。』」「妹妹高兴地跨上『马』，蹦蹦跳跳地奔向前去，不时回头看看我们。等我们回到家时，她站在门口，骄傲地说：『看！我比你们先到家。』」、P47「试着有感情地朗读课文，感受美好的亲情。」与「读句子，体会妹妹的变化，再说说她为什么会有这样的变化。」、P48「10 枫树上的喜鹊」（我们村的渡口旁有一棵枫树，我很喜欢它。……）、P49「『鹊！鹊！鹊！』喜鹊阿姨教道。我知道，这便是 a、o、e。」「我懂得，喜鹊弟弟很快给出了答案：『妈妈，那是太阳！太阳升上来了！』」、P50「默读课文。文中反复说『我喜欢』，说说『我』喜欢的是什么。」与「看到下面的情景，你会想到什么？试着写下来。」、P51「语文园地四」识字加油站（拨浪鼓、不倒翁、七巧板、橡皮泥、玩具枪、遥控坦克、航模）与字词句运用（一会儿……一会儿……一会儿……）、P52 日积月累（失信不立。——《左传》／诚信者，天下之结也。——《管子》／小信成则大信立。——《韩非子》）、P53 写话「看图写故事」与我爱阅读《手影戏》。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 二下册》人民教育出版社第55页-第65页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "第六单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 二下册》人民教育出版社第69页-第79页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-07",
+                "unit_name": "第七单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-07/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 二下册》人民教育出版社第84页-第97页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              },
+              {
+                "unit_id": "unit-08",
+                "unit_name": "第八单元 阅读",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-08",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-2-term-2/unit-08/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 二下册》人民教育出版社第100页-第109页",
+                "verified_at": "2026-10-10",
+                "note": "**证据边界**：用户提供的本册电子课本为部分预览，本单元正文页不在预览范围内，故按课本目录页登记页码与知识点骨架，记为 partial；课文/例题原文与生字表待补页面凭证。"
+              }
+            ]
+          }
+        },
+        "grade-4": {
+          "term-1": {
+            "status": "partial",
+            "verified_units_count": 1,
+            "partial_units_count": 7,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 自然之美",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 四上册》人民教育出版社第1页-第12页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文四年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 3（PDF#4 = 印刷 P1），第一单元扉页 P1，第 1 课《观潮》P2–P4，第 2 课《繁星》P5–P6，第 3 课《现代诗二首》（《秋晚的江上》《花牛歌》）P7–P8，口语交际《我们与环境》P9，习作《推荐一个好地方》P10，语文园地一 P11–P12。**本册扫描件存在重复页且偏移不稳定（第三单元起 offset 变为 6）、页脚页码被扫描 App 水印覆盖，故仅第一单元（P1–P12）可逐页取证并记为 verified；第二单元及以后各单元按课本目录页登记为 partial。**"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 提问策略",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 四上册》人民教育出版社第13页-第30页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文四年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 3（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P12。本单元真实版面为 P13–P30，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 连续观察",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 四上册》人民教育出版社第31页-第44页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文四年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 3（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P12。本单元真实版面为 P31–P44，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 神话故事",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 四上册》人民教育出版社第45页-第58页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文四年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 3（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P12。本单元真实版面为 P45–P58，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 习作单元·把事情写清楚",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 四上册》人民教育出版社第59页-第70页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文四年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 3（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P12。本单元真实版面为 P59–P70，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "第六单元 祖国的壮丽山河",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 四上册》人民教育出版社第71页-第84页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文四年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 3（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P12。本单元真实版面为 P71–P84，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-07",
+                "unit_name": "第七单元 成长故事",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-07/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 四上册》人民教育出版社第85页-第104页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文四年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 3（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P12。本单元真实版面为 P85–P104，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-08",
+                "unit_name": "第八单元 历史人物故事",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-08",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-4-term-1/unit-08/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 四上册》人民教育出版社第105页-第120页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文四年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 3（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P12。本单元真实版面为 P105–P120，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              }
+            ]
+          }
+        },
+        "grade-5": {
+          "term-1": {
+            "status": "partial",
+            "verified_units_count": 3,
+            "partial_units_count": 5,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 一花一鸟总关情",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 五上册》人民教育出版社第1页-第12页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文五年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P1–P12，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P1 单元扉页「一花一鸟总关情」「初步体会文章借助具体事物表达的思想感情」「写一种心爱的事物，表达自己的感情」；P2–P3 第 1 课《桂花雨》（琦君）（「摇花对我来说是件大事…我喊着：啊！真像下雨，好香的雨呀！」「这里的桂花再香，也比不上家乡院子里的桂花」）；P5–P6 第 2 课《落花生》（许地山）（「所以你们要像花生，它虽然不好看，可是很有用」「人要做有用的人，不要做只讲体面，而对别人没有好处的人」）；P7–P8 第 3 课《珍珠鸟》（冯骥才）（「信赖，往往创造出美好的境界」）；P9 口语交际《制定班级公约》；P10 习作《我的心爱之物》；P11–P12 语文园地一（梳理与交流「可以通过与具体事物相关的事情，体会文章表达的思想感情」；词句段运用；日积月累：卧虎藏龙、龙马精神、龙飞凤舞、凤毛麟角、如虎添翼、如鱼得水等）。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 阅读策略·提高阅读速度",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 五上册》人民教育出版社第13页-第32页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文五年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P13–P32，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P13 单元扉页「学习提高阅读速度的方法」「结合具体事例写出人物的特点」「广然后深，博然后专」；P14–P16 第 4 课《冀中的地道战》（周而复）课后题「用较快的速度默读课文，记下所用的时间。读的时候集中注意力，遇到不懂的词语不要停下来，不要回读」；P17–P21 第 5 课《将相和》（完璧归赵、渑池会面、负荆请罪）「根据下面的提示，用自己的话说说课文的主要内容」「蔺相如、廉颇给你留下了怎样的印象？结合具体事例说一说」；P22–P24 第 6 课《什么比猎豹的速度更快》（罗伯特·E. 威尔斯）「借助关键语句，用较快的速度默读课文」；P25–P29 第 7 课《「诺曼底号」遇难记》（雨果）；P30 习作《「漫画」老师》；P31 语文园地二（整理「提高阅读速度方法清单」）。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 民间故事",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 五上册》人民教育出版社第33页-第50页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文五年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P33–P50，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P33 单元扉页「民间故事，口耳相传的经典，老百姓智慧的结晶」「阅读民间故事，感受其中蕴含的朴素愿望和真挚情感」「了解故事内容，并创造性复述」「按照自己的想法新编故事」；P34–P36 第 8 课《猎人海力布》（海力布为救乡亲说出宝石的秘密而变成石头）；P37–P41 第 9 课《牛郎织女（一）》（叶圣陶整理）「默读课文，说说牛郎和老牛是怎么相处的，他和织女是怎么认识的」；P42–P44 第 10 课《牛郎织女（二）》「用之前学到的阅读方法，尽可能快地默读课文，了解牛郎织女故事的结局」；P45 口语交际《讲民间故事》；P46 习作《故事新编》；P47–P48 语文园地三；P49–P50 快乐读书吧《从前有座山》。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 爱国情怀",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 五上册》人民教育出版社第51页-第64页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文五年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P51–P64，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 习作单元·介绍一种事物",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 五上册》人民教育出版社第65页-第74页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文五年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P65–P74，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "第六单元 父母之爱",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 五上册》人民教育出版社第75页-第90页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文五年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P75–P90，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-07",
+                "unit_name": "第七单元 四季之美",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-07/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 五上册》人民教育出版社第91页-第100页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文五年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P91–P100，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-08",
+                "unit_name": "第八单元 读书明智",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-08",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-5-term-1/unit-08/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 五上册》人民教育出版社第101页-第114页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文五年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P101–P114，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              }
+            ]
+          }
+        },
+        "grade-6": {
+          "term-1": {
+            "status": "partial",
+            "verified_units_count": 3,
+            "partial_units_count": 5,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 触摸自然",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 六上册》人民教育出版社第1页-第12页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文六年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P1–P12，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P1 单元扉页「触摸山川湖海的心跳，倾听花鸟虫鱼的歌声」「亲近自然，热爱生活」「积极思考，从所读的内容想开去」「习作时发挥想象，注意把重点部分写得详细一些」；P2–P4 第 1 课《草原》（老舍）（「这次，我看到了草原。那里的天比别处的更可爱，空气是那么清鲜，天空是那么明朗，使我总想高歌一曲」「一碧千里，而并不茫茫」）；P5–P7 第 2 课《丁香结》（宗璞）（「丁香结，这三个字给人许多想象」）+ 阅读链接《花之歌》；P8–P9 第 3 课《古诗词三首》（《宿建德江》[唐]孟浩然、《六月二十七日望湖楼醉书》[宋]苏轼、《西江月·夜行黄沙道中》[宋]辛弃疾）；P10 习作《变形记》；P11–P12 语文园地一（朗读自然诗文、阅读时想开去；路牌拼音拼写；日积月累《江畔独步寻花》）。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "第二单元 革命岁月",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 六上册》人民教育出版社第13页-第30页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文六年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P13–P30，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P13 单元扉页「重温革命岁月，把历史的声音留在心里」「体会革命前辈为理想奋斗的精神」「了解文章是怎样点面结合写场面的」「尝试运用点面结合的写法记一次活动」；P14–P15 第 4 课《七律·长征》（毛泽东）（「五岭逶迤腾细浪，乌蒙磅礴走泥丸。金沙水拍云崖暖，大渡桥横铁索寒。」）；P16–P18 第 5 课《狼牙山五壮士》（「班长马宝玉激动地说：同志们，我们的任务胜利完成了！」「第一个纵身跳下深谷」）；P19–P23 第 6 课《开国大典》（「三十万人的目光一齐投向主席台」「毛主席在城楼上主席台前边，向前探着身子，不断地向群众挥手」）；P24–P26 第 7 课《我的战友邱少云》（「烈火在我的战友邱少云身上烧了半个多钟头才渐渐熄灭。这个伟大的战士，像千斤巨石……」）；P27 口语交际《演讲》；P28 习作《多彩的活动》；P29–P30 语文园地二（书写提示、日积月累「志士仁人，无求生以害仁，有杀身以成仁。——《论语》」）。"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "第三单元 阅读策略·有目的地阅读",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 六上册》人民教育出版社第31页-第48页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文六年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P31–P48，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P31 单元扉页「读书好比串门儿——隐身的串门儿。——杨绛」「根据阅读目的，选用恰当的阅读方法」「写生活体验，试着表达自己的看法」；P32–P35 第 8 课《竹节人》（范锡林）（「我们小时候的玩具，都是自己做的……有一段时间，我们全迷上了斗竹节人」）；P36–P39 第 9 课《宇宙生命之谜》（「一是适合生物生存的温度，一般应在 −50～150℃ 之间；二是必要的水分……三是适当成分的大气」）；P40–P45 第 10 课《故宫博物院》（材料一至材料四，含故宫博物院开放区域图）；P46 习作《让生活更美好》；P47–P48 语文园地三（「生活中，常常需要根据目的进行阅读」；说明理由时可以分条陈述）。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "第四单元 小说",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 六上册》人民教育出版社第49页-第68页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文六年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P49–P68，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "第五单元 习作单元·围绕中心意思写",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 六上册》人民教育出版社第69页-第80页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文六年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P69–P80，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "第六单元 保护环境",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 六上册》人民教育出版社第81页-第96页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文六年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P81–P96，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-07",
+                "unit_name": "第七单元 科学与艺术",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-07",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-07/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 六上册》人民教育出版社第97页-第108页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文六年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P97–P108，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-08",
+                "unit_name": "第八单元 走近鲁迅",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-08",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-6-term-1/unit-08/metadata.yaml",
+                "source": "教育部审定2024年版统编版义务教育教科书《语文 六上册》人民教育出版社第109页-第125页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文六年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P109–P125，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "english": {
+      "name": "小学英语（人教PEP版 2024审定版）",
+      "edition": "人民教育出版社（教育部审定2024年版义务教育教科书）",
+      "grades": {
+        "grade-3": {
+          "term-1": {
+            "status": "verified",
+            "verified_units_count": 6,
+            "partial_units_count": 0,
+            "units": [
+              {
+                "unit_id": "unit-1",
+                "unit_name": "Unit 1 Making friends",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-3-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-3-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《英语（三年级起点）三年级上册》人民教育出版社（ISBN 978-7-107-38250-5）第2页-第13页",
+                "verified_at": "2026-10-08",
+                "note": "2024统编新版第1单元全量五层生产流水线真实核验：涵盖交际会话、五官肢体词汇、Aa-Dd字母拼读、分享与感谢表达、好朋友海报阅读及出题蓝图。"
+              },
+              {
+                "unit_id": "unit-2",
+                "unit_name": "Unit 2 Different families",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-3-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-3-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《英语（三年级起点）三年级上册》人民教育出版社（ISBN 978-7-107-38250-5）第14页-第25页",
+                "verified_at": "2026-10-08",
+                "note": "2024统编新版第2单元全量五层生产流水线真实核验：涵盖家庭称谓词汇、Ee-Hh字母自然拼读、确认亲属一般疑问句、拥有家庭成员表达、大家庭与亲情主题语篇及出题蓝图。"
+              },
+              {
+                "unit_id": "unit-3",
+                "unit_name": "Unit 3 Amazing animals",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-3-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-3-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《英语（三年级起点）三年级上册》人民教育出版社（ISBN 978-7-107-38250-5）第26页-第37页",
+                "verified_at": "2026-10-08",
+                "note": "2024统编新版第3单元全量五层生产流水线真实核验：涵盖宠物与野生动物词汇、Ii-Ll字母拼读与规范占格、宠物问答、近指远指指认、不定冠词an elephant用法、特征描述与出题蓝图。"
+              },
+              {
+                "unit_id": "unit-4",
+                "unit_name": "Unit 4 Plants around us",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-3-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-3-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《英语（三年级起点）三年级上册》人民教育出版社（ISBN 978-7-107-38250-5）第38页-第49页",
+                "verified_at": "2026-10-08",
+                "note": "2024统编新版第4单元全量五层生产流水线真实核验：涵盖水果与植物生态词汇、Mm-Pp字母拼读与规范占格、水果喜好问答与追问、绿化行动倡议句型、人与植物互利共生探究及出题蓝图。"
+              },
+              {
+                "unit_id": "unit-5",
+                "unit_name": "Unit 5 The colourful world",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-3-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-3-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《英语（三年级起点）三年级上册》人民教育出版社（ISBN 978-7-107-38250-5）第50页-第61页",
+                "verified_at": "2026-10-08",
+                "note": "2024统编新版第5单元全量五层生产流水线真实核验：涵盖10种核心颜色词汇、Qq-Uu字母拼读与占格规范、颜色询问、色彩调配公式句型、色彩偏好与合作绘画倡议、颜色功能交际语篇及出题蓝图。"
+              },
+              {
+                "unit_id": "unit-6",
+                "unit_name": "Unit 6 Useful numbers",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-3-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-3-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版义务教育教科书《英语（三年级起点）三年级上册》人民教育出版社（ISBN 978-7-107-38250-5）第62页-第73页",
+                "verified_at": "2026-10-08",
+                "note": "2024统编新版第6单元全量五层生产流水线真实核验：涵盖数字1-10与奇偶数、Vv-Zz字母拼读与占格（全册26字母闭环）、年龄询问、数量提问、购物付款表达及出题蓝图。"
+              }
+            ]
+          }
+        },
+        "grade-4": {
+          "term-1": {
+            "status": "partial",
+            "verified_units_count": 2,
+            "partial_units_count": 4,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "Unit 1 Helping at home",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-4-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-4-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 四上册》人民教育出版社第2页-第13页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语四年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P25。本单元真实版面为 P2–P13，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P2 Unit 1 起始页「Helping at home / What do family do together?」；P3「How do these children help at home? / Can you help? Yes, I can. I can clean my room.」；P4「How are families different? / What's your mother's job? He's a PE teacher. Doctors are great! My father is a doctor too.」；P5「office worker / farmer / doctor / factory worker / nurse」「He's a factory worker. What's your father's job?」；P6「My grandpa can teach Chinese. He can make nice chairs. My grandma can make good lunches.」；P7「How can we help our family? Mum and Dad are busy and tired. What can we do for them? We can also make a gift!」；P8「We sweep the floor. I look after my sister. We cook together. We are happy together.」；P9「You are a great nurse. You help many people. I can help you at home!」；P10 活动表（Talk / Sing / Cook / Eat / Sweep the floor / Look after my brother/sister）；P11 自评「I can ask about people's jobs / I can say what I do with my family / I can talk about how to help my family」；P12–P13 Reading time（My mum is a writer…）。"
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "Unit 2 My friends",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-4-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-4-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 四上册》人民教育出版社第14页-第25页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语四年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P25。本单元真实版面为 P14–P25，**全部落在可读区间内**，故记为 verified。已据原文逐页取证：P14 Unit 2 起始页「My friends / What makes your friends different?」；P15「Some friends are short. Some friends are tall. My friends are special. I love them all.」；P16「His name is Zhang Peng. Let me see. He's tall and strong. I know! It's Zhang Peng. He has nice short hair too.」；P17「Tim is my friend. He's a good, good boy. He's tall and thin.」；P18 Let's spell：字母组合 sh（I have no shell. Can we share? / Shoo! Go away, Fish!）；P19「Who's your best friend? Liu Jia. She's tall and … She has long hair. She often …」；P20「We play games together. We play football together. I like my friend. My friend likes me.」「My friend play/plays games with me.」；P21 词汇（kind, long, short, strong, tall；helps me with…, plays football, plays games, reads books）；P22「What's his/her name? His/Her name is …」+ Project: Make a book about your friend；P24–P25「He has small eyes and very big ears. What does he look like? He has short legs, but his body is very long.」「He likes the park. We often play games here.」"
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "Unit 3 Places we live in",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-english/grade-4-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-4-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 四上册》人民教育出版社第26页-第37页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语四年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P25。本单元真实版面为 P26–P37，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "Unit 4 Helping in the community",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-english/grade-4-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-4-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 四上册》人民教育出版社第38页-第49页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语四年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P25。本单元真实版面为 P38–P49，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "Unit 5 The weather and us",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-english/grade-4-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-4-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 四上册》人民教育出版社第50页-第61页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语四年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P25。本单元真实版面为 P50–P61，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "Unit 6 Changing for the seasons",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-english/grade-4-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-4-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 四上册》人民教育出版社第62页-第73页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语四年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P25。本单元真实版面为 P62–P73，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              }
+            ]
+          }
+        },
+        "grade-5": {
+          "term-1": {
+            "status": "partial",
+            "verified_units_count": 2,
+            "partial_units_count": 4,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "Unit 1 Different friends",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-5-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-5-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 五上册》人民教育出版社第2页-第13页",
+                "verified_at": "2026-10-10",
+                "note": [
+                  "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语五年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 3（PDF#5 = 印刷 P2）；本册可读印刷页区间为 P2–P26。本单元真实版面为 P2–P13（Unit 1 起始页 P2「Different friends / What makes us different?」；P4 Let's talk：Miss White: Hi, class. You'll have a new classmate. He's from Australia. His name is Oliver. Mike: What's he like? Miss White: He's tall and strong. Zhang Peng: Is he good at football? Miss White: Yes, I think he is. He can run very fast.；P5 Let's learn：Chen Jie is lovely. She is also clever. She is young. She helps a lot at home. She is hard-working.；P6 Let's spell：ai / ay —— The dog likes to play in the rain. He waits for the boy to come and…；P8 Let's learn：Robin is Binbin's robot. He can play the piano. He can jump rope. He can play Chinese chess.；P9 Read and write：Join us for the school talent show!；P12–P13 Reading time：We have a new student in our class today. Her name's Grace.），**全部落在可读区间内**，故记为 verified。"
+                ]
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "Unit 2 My feelings",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-5-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-5-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 五上册》人民教育出版社第14页-第25页",
+                "verified_at": "2026-10-10",
+                "note": [
+                  "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语五年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 3（PDF#5 = 印刷 P2）；本册可读印刷页区间为 P2–P26。本单元真实版面为 P14–P25（Unit 2 起始页 P14「My feelings / How do people get along?」；P15 Draw, show and act：Draw faces that show different feelings.；P16 Let's talk：John is talking with his mum.；P17 Let's learn：Mike is back home. Fido is not feeling well. Fido is excited. Mike is worried.；P18 Let's spell：ee / ea —— A sheep meets a friendly bee. It is so happy to see the bee.；P19 Let's talk：Binbin sees Mike.；P20 Let's learn：You can talk to your parents. You can ask your teacher for help. You need to listen to…；P21 Read and write：Dear Mike, I am happy at school. I have many friends. I play with them in the playground…；P24–P25 Reading time：It's snowing. I'm so excited!），**全部落在可读区间内**，故记为 verified。"
+                ]
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "Unit 3 Work and play",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-english/grade-5-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-5-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 五上册》人民教育出版社第26页-第37页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语五年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 3（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P2–P26。本单元真实版面为 P26–P37，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "Unit 4 Healthy habits",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-english/grade-5-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-5-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 五上册》人民教育出版社第38页-第49页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语五年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 3（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P2–P26。本单元真实版面为 P38–P49，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "Unit 5 Food we eat",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-english/grade-5-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-5-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 五上册》人民教育出版社第50页-第61页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语五年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 3（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P2–P26。本单元真实版面为 P50–P61，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "Unit 6 Nature and us",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-english/grade-5-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-5-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 五上册》人民教育出版社第62页-第73页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语五年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 3（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P2–P26。本单元真实版面为 P62–P73，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              }
+            ]
+          }
+        },
+        "grade-6": {
+          "term-1": {
+            "status": "partial",
+            "verified_units_count": 3,
+            "partial_units_count": 3,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "Unit 1 Amazing landmarks",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-6-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-6-term-1/unit-01/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 六上册》人民教育出版社第2页-第13页",
+                "verified_at": "2026-10-10",
+                "note": [
+                  "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语六年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 7（前段，PDF#9 = 印刷 P2）；本册可读印刷页区间为 P2–P43 与 P46–P54（P44–P45 缺页）。本单元真实版面为 P2–P13（Unit 1 起始页 P2「Amazing landmarks / Why do we travel to different places?」；P4 Let's talk：Zhang Peng is talking with John.；P5 Let's learn：Photo show —— 55 kilometres / >8,700 rooms / >1,600 stops；P6 Let's talk：Amy went to Hainan. The weather was good in Guiyang.；P7 Let's learn：famous for peaches / >1,800 years old；P8 Read and write：Look at the text. Where could you find this? What does \"Reviews\" mean? Flights / Trains / Hotels；P12–P13 Reading time：Landmarks you shouldn't miss! / On Easter Island, I saw huge statues called Moai.），**全部落在可读区间内**，故记为 verified。"
+                ]
+              },
+              {
+                "unit_id": "unit-02",
+                "unit_name": "Unit 2 Getting together",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-6-term-1/unit-02",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-6-term-1/unit-02/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 六上册》人民教育出版社第14页-第25页",
+                "verified_at": "2026-10-10",
+                "note": [
+                  "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语六年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 7（前段，PDF#9 = 印刷 P2）；本册可读印刷页区间为 P2–P43 与 P46–P54（P44–P45 缺页）。本单元真实版面为 P14–P25（Unit 2 起始页 P14「Getting together / Why do we get together?」；P15 Think and do：List any festivals or big events you know. Choose one festival or event and make a mind map.；P16 Let's talk：Mike and Matt are having breakfast.；P17 Let's learn：My dad and I cleaned the house. My sister and I pasted fu on the door. We dressed in red.；P18 Let's talk：Binbin, Chen Jie and Amy are talking about last weekend.；P19 Let's learn：The writer read his book to the children. People from different places ran a marathon.；P20 Read and write：Christmas / 感恩节 / 母亲节 / Carnival；P21 Write F (Fact) or O (Opinion)：1. My father was on a race team. ( ) 2. The judge counted down and the race began! ( )；P24–P25 Reading time：One night, an old man came to a village… Nian was very afraid and ran back to the sea.），**全部落在可读区间内**，故记为 verified。"
+                ]
+              },
+              {
+                "unit_id": "unit-03",
+                "unit_name": "Unit 3 Healthy life",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-english/grade-6-term-1/unit-03",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-6-term-1/unit-03/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 六上册》人民教育出版社第26页-第37页",
+                "verified_at": "2026-10-10",
+                "note": [
+                  "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语六年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 7（前段，PDF#9 = 印刷 P2）；本册可读印刷页区间为 P2–P43 与 P46–P54（P44–P45 缺页）。本单元真实版面为 P26–P37（Unit 3 起始页 P26「Healthy life / What is a healthy lifestyle?」；P27 Think and complete the table：Healthy lifestyle / Unhealthy lifestyle —— Do exercise. / Eat too much cake.；P28 Let's talk：Mike and Chen Jie are in the playground.；P29 Let's learn：What's the matter? I have a bad cold. My head hurts and I have a runny nose. Mike has a bad cold.；P30 Let's talk：Binbin and Sarah meet in front of the library.；P31 Let's learn：Healthy life —— Have a healthy diet. Don't stay up late. Exercise often. Think about happy things.；P32–P33 Read and write：Liu Jia was crying. So M… / Liu Jia had a runny nose and felt unhappy.；P36–P37 Reading time：My name is Right Hand. This is my twin brother, Left Hand.），**全部落在可读区间内**，故记为 verified。"
+                ]
+              },
+              {
+                "unit_id": "unit-04",
+                "unit_name": "Unit 4 Managing money well",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-english/grade-6-term-1/unit-04",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-6-term-1/unit-04/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 六上册》人民教育出版社第38页-第49页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语六年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 7（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P2–P43、P46–P54。本单元真实版面为 P38–P49，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-05",
+                "unit_name": "Unit 5 Exploring space",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-english/grade-6-term-1/unit-05",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-6-term-1/unit-05/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 六上册》人民教育出版社第50页-第61页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语六年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 7（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P2–P43、P46–P54。本单元真实版面为 P50–P61，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              },
+              {
+                "unit_id": "unit-06",
+                "unit_name": "Unit 6 Energy, nature and us",
+                "status": "partial",
+                "dir": "knowledge/curriculum/primary-english/grade-6-term-1/unit-06",
+                "evidence_artifact": "knowledge/curriculum/primary-english/grade-6-term-1/unit-06/metadata.yaml",
+                "source": "教育部审定2024年版人教版PEP(2024年审定版)义务教育教科书《英语 六上册》人民教育出版社第62页-第73页",
+                "verified_at": "2026-10-10",
+                "note": "页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语六年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 7（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P2–P43、P46–P54。本单元真实版面为 P62–P73，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。"
+              }
+            ]
+          }
+        }
+      },
+      "note": "4-6 年级依据用户提供的 2024 版人教版 PEP 电子课本逐页实证登记；仅全部版面落在可读区间内的单元记 verified，其余记 partial。"
+    },
+    "science": {
+      "name": "小学科学（教科版/人教版）",
+      "edition": "教育科学出版社/人民教育出版社",
+      "status": "missing",
+      "note": "小学科学尚未录入教材，出题拦截（missing），请补充教材目录或明确知识点。"
+    }
+  }
+}

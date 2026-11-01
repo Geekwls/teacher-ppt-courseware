@@ -1,0 +1,113 @@
+unit_id: "unit-2"
+blueprints:
+  - blueprint_id: "bp-eng-g3-t1-u02-standard"
+    title: "Unit 2 Different families 标准练习卷蓝图"
+    target_practice: "单元基础达标与亲情交际素养提升练习（6:3:1 阶梯）"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、字母乐园 (Letters & Phonics)（20分）
+      - slot_id: "slot-01"
+        section: "一、字母乐园：规范书写与大小写配对"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u02-p01"]
+        guidelines: "考查字母 Ee, Ff, Gg, Hh 的大小写对应、四线三格占位与按字母表顺序填空。"
+
+      - slot_id: "slot-02"
+        section: "二、拼读侦探：字母发音与例词感知"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u02-p02"]
+        guidelines: "考查 Ee-Hh 在核心词汇（egg, fish, girl, hat等）中的发音，找出每组中首音或元音匹配项。"
+
+      # 二、词汇天地 (Vocabulary & Expressions)（20分）
+      - slot_id: "slot-03"
+        section: "三、词汇天地：选出不同类的一项"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u02-p03", "eng-g3-t1-u02-p05"]
+        guidelines: "选出每组不同类的词汇（如亲属称谓与身体部位/动词混排，直系与非直系辨析）。"
+
+      - slot_id: "slot-04"
+        section: "四、图文与语境亲属称谓选择"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u02-p03", "eng-g3-t1-u02-p05", "eng-g3-t1-u02-p07"]
+        guidelines: "看图或看中文提示填入家庭成员称谓（dad, mum, uncle, aunt, sister），注意 a 与 an 的用法。"
+
+      # 三、情境单选 (Contextual Choice)（20分）
+      - slot_id: "slot-05"
+        section: "五、用心观察情境选择"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u02-p04", "eng-g3-t1-u02-p06", "eng-g3-t1-u02-p07"]
+        distractor_policy:
+          item_1_introduce_family:
+            context: "带新朋友到家里，向朋友介绍自己的妈妈可以说"
+            correct: "This is my mum."
+            distractor_1: "I am mum.（人称错误）"
+            distractor_2: "Is this your mum?（疑问句）"
+          item_2_ask_relation:
+            context: "看朋友全家福照片，想确认照片上的男孩是不是他哥哥可以说"
+            correct: "Is that your brother?"
+            distractor_1: "This is my brother.（陈述句）"
+            distractor_2: "Are you my brother?（逻辑不通）"
+          item_3_yes_confirm:
+            context: "对方指着照片问 'Is this your sister?'，确认正是妹妹时应回答"
+            correct: "Yes, it is."
+            distractor_1: "Yes, this is.（代词未替换为it）"
+            distractor_2: "No, it's my sister.（前后矛盾）"
+          item_4_article_an:
+            context: "表达'我有一位叔叔'，下列选项正确的是"
+            correct: "I have an uncle."
+            distractor_1: "I have a uncle.（元音前冠词错误）"
+            distractor_2: "I have uncle.（缺冠词）"
+          item_5_same_love:
+            context: "回答单元大问题 'What makes a family?' 时，最恰当的表达是"
+            correct: "Family love makes a family."
+            distractor_1: "A big bag makes a family."
+            distractor_2: "Good morning."
+
+      # 四、交际配对与补全对话 (Dialogue Completion)（20分）
+      - slot_id: "slot-06"
+        section: "六、礼貌应答连连看"
+        question_type: "match"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u02-p04", "eng-g3-t1-u02-p06"]
+        guidelines: "家庭介绍与询问应答配对：1. This is my friend, Sarah. -> Hi, Sarah. 2. This is my grandpa. -> Nice to meet you. 3. Is this your sister? -> No, it's my cousin. 4. Is that your brother? -> Yes, it is. 5. You have a big family. -> Yes, I do."
+
+      - slot_id: "slot-07"
+        section: "七、选择恰当的句子补全对话"
+        question_type: "choice"
+        difficulty: "challenge"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u02-p04", "eng-g3-t1-u02-p06", "eng-g3-t1-u02-p07"]
+        guidelines: "阅读看全家福照片询问亲属情境对话，选出 5 个合适的句子填空。"
+
+      # 五、语篇阅读理解 (Reading Comprehension)（20分）
+      - slot_id: "slot-08"
+        section: "八、趣味阅读：不同家庭与温暖亲情"
+        question_type: "reading"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u02-p08"]
+        guidelines: "以教材 P21 为基础，阅读《Different families, same love》短文，判断 5 个陈述是否符合事实（T / F）。"

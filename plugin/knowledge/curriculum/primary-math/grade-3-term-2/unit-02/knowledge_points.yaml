@@ -1,0 +1,221 @@
+unit_id: "unit-2"
+source_id: "pep_math_g3_t2_2024"
+points:
+  - point_id: "math-g3-t2-u02-p01"
+    lesson_id: "lesson-01"
+    point_name: "整十、整百、整千数除以一位数的口算"
+    learning_objectives:
+      - "理解整十、整百、整千数除以一位数的口算算理（几个十/百/千平均分成几份）"
+      - "熟练运用表内乘除法口诀，先除0前面的数，再在商的末尾添相应个数的0"
+    prerequisites:
+      - "表内除法口诀"
+      - "万以内数的认识与组成"
+    subsequent_points:
+      - "math-g3-t2-u02-p02"
+    applicable_question_types: ["calculation", "fill_blank", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "整十数除以一位数（最高位能整除，如 60÷3=20, 80÷4=20）"
+        - "整百数除以一位数（如 600÷3=200, 800÷4=200）"
+        - "整千数除以一位数（如 6000÷3=2000, 8000÷2=4000）"
+      scope_excluded:
+        - "除数是两位数的口算除法（四年级上册）"
+        - "除不尽带小数的除法（五年级上册）"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [10]
+      example_ref: ["ex_1"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t2-u02-p02"
+    lesson_id: "lesson-02"
+    point_name: "两位数、几百几十除以一位数的口算（各数位能整除）"
+    learning_objectives:
+      - "掌握两位数除以一位数（各数位能整除）的拆分口算方法（几十和几分别除以一位数再相加）"
+      - "掌握几百几十除以一位数的口算方法（看作几十几个十除以一位数）"
+    prerequisites:
+      - "math-g3-t2-u02-p01"
+      - "百以内加法口算"
+    subsequent_points:
+      - "math-g3-t2-u02-p03"
+    applicable_question_types: ["calculation", "fill_blank", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "十位和个位都能被一位数整除的两位数（如 69÷3=23, 46÷2=23, 84÷4=21）"
+        - "几百几十数转化为表内除法（如 120÷3=40, 240÷6=40, 350÷7=50）"
+      scope_excluded:
+        - "十位除以一位数有余数需要转化的口算（归入笔算）"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [10, 11]
+      example_ref: ["ex_2", "ex_3"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t2-u02-p03"
+    lesson_id: "lesson-03"
+    point_name: "两位数除以一位数的笔算及验算"
+    learning_objectives:
+      - "掌握一位数除两位数竖式笔算的分步书写格式和计算顺序（从高位除起）"
+      - "理解十位除后有余数时，余下的十必须与个位上的数合并继续除的算理"
+      - "掌握用『商×除数=被除数』对没有余数的除法进行验算"
+    prerequisites:
+      - "math-g3-t2-u02-p02"
+      - "表内乘法笔算验算"
+    subsequent_points:
+      - "math-g3-t2-u02-p04"
+    applicable_question_types: ["calculation", "fill_blank", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "十位能整除或有余数的两位数除以一位数笔算（如 36÷2=18, 75÷3=25, 84÷6=14, 96÷4=24）"
+        - "列竖式乘法验算"
+      scope_excluded:
+        - "商是小数"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [15, 16]
+      example_ref: ["ex_4"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t2-u02-p04"
+    lesson_id: "lesson-04"
+    point_name: "三位数除以一位数的笔算（首位够除）"
+    learning_objectives:
+      - "掌握三位数除以一位数（百位够除）的笔算法则，明确商的最高位在百位，商是三位数"
+      - "能熟练按照『一商、二乘、三减、四比、五落』的步骤规范列竖式计算"
+    prerequisites:
+      - "math-g3-t2-u02-p03"
+    subsequent_points:
+      - "math-g3-t2-u02-p05"
+    applicable_question_types: ["calculation", "fill_blank", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "被除数百位数字大于或等于除数的三位数除法（如 256÷2=128, 432÷2=216, 855÷5=171）"
+      scope_excluded:
+        - "除数大于被除数百位数字（归入 p05）"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [16]
+      example_ref: ["ex_5"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t2-u02-p05"
+    lesson_id: "lesson-05"
+    point_name: "三位数除以一位数的笔算（首位不够除）与有余数除法验算"
+    learning_objectives:
+      - "理解三位数除以一位数当百位不够商1时，必须看前两位，商的第一位写在十位上，商是两位数"
+      - "严格遵循『余数必须比除数小』的基本规则"
+      - "熟练掌握用『商×除数+余数=被除数』对有余数的除法进行验算"
+    prerequisites:
+      - "math-g3-t2-u02-p04"
+      - "有余数的除法概念"
+    subsequent_points:
+      - "math-g3-t2-u02-p07"
+    applicable_question_types: ["calculation", "fill_blank", "choice", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "被除数百位数字小于除数的三位数除以一位数（如 148÷6=24……4, 327÷4=81……3, 532÷6=88……4）"
+        - "带余数的乘加竖式验算"
+      scope_excluded:
+        - "余数大于或等于除数的不合规算式"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [17, 18]
+      example_ref: ["ex_6"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t2-u02-p06"
+    lesson_id: "lesson-06"
+    point_name: "有关 0 的除法规律"
+    learning_objectives:
+      - "理解并牢记『0除以任何不是0的数都得0』"
+      - "明确在除法算式中，0绝对不能作除数"
+    prerequisites:
+      - "0的认识"
+      - "除法的平均分含义"
+    subsequent_points:
+      - "math-g3-t2-u02-p07"
+      - "math-g3-t2-u02-p08"
+    applicable_question_types: ["calculation", "fill_blank", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "0作为被除数的除法算式（如 0÷5=0, 0÷8=0, 0÷128=0）"
+      scope_excluded:
+        - "除数为0（如 5÷0，无意义）"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [20]
+      example_ref: ["ex_7"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t2-u02-p07"
+    lesson_id: "lesson-07"
+    point_name: "商中间有 0 的除法笔算"
+    learning_objectives:
+      - "掌握三位数除以一位数在笔算过程中，求出百位商后，十位上的数是0或不够商1时，必须在十位商0占位"
+      - "掌握商中间有0的简便竖式书写格式"
+    prerequisites:
+      - "math-g3-t2-u02-p04"
+      - "math-g3-t2-u02-p06"
+    subsequent_points:
+      - "math-g3-t2-u02-p08"
+    applicable_question_types: ["calculation", "fill_blank", "choice", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "被除数十位是0（如 208÷2=104, 408÷4=102）"
+        - "被除数十位不是0但不够商1（如 216÷2=108, 624÷6=104）"
+      scope_excluded:
+        - "四位数除以一位数"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [20, 21]
+      example_ref: ["ex_8"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t2-u02-p08"
+    lesson_id: "lesson-08"
+    point_name: "商末尾有 0 的除法笔算"
+    learning_objectives:
+      - "掌握在笔算除法过程中，除到被除数的个位是0或不够商1时，必须在个位商0占位"
+      - "掌握个位不够商1时直接将个位数作为余数的处理法则"
+    prerequisites:
+      - "math-g3-t2-u02-p05"
+      - "math-g3-t2-u02-p06"
+    subsequent_points:
+      - "math-g3-t2-u02-p09"
+    applicable_question_types: ["calculation", "fill_blank", "choice", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "个位是0且能除尽（如 650÷5=130, 480÷4=120）"
+        - "个位不够商1带余数（如 245÷8=30……5, 752÷5=150……2）"
+      scope_excluded:
+        - "除数是两位数"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [23]
+      example_ref: ["ex_9"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t2-u02-p09"
+    lesson_id: "lesson-09"
+    point_name: "除法估算与解决实际问题"
+    learning_objectives:
+      - "能够根据实际生活情境，选择把被除数看作接近的整百数或几百几十数进行合理估算"
+      - "能理清实际情境中的数量关系，运用两步连除或乘除混合运算解决生活中的实际问题"
+    prerequisites:
+      - "math-g3-t2-u02-p02"
+      - "math-g3-t2-u02-p05"
+    subsequent_points: []
+    applicable_question_types: ["fill_blank", "choice", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "除法估算（如 148÷3≈50, 438÷6≈70）"
+        - "两步连除实际问题（如 总数÷箱数÷每盒个数）"
+        - "乘除混合实际问题（如 归一、归总实际问题两步解决）"
+      scope_excluded:
+        - "三步及以上复合应用题"
+        - "分数、百分数解决问题"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [13, 24, 25, 26]
+      example_ref: ["ex_10"]
+    verification_status: "verified"

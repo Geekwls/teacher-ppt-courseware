@@ -1,0 +1,75 @@
+unit_id: unit-01
+blueprints:
+- blueprint_id: bp-math-g1-t2-u01-standard
+  title: 第一单元 认识平面图形标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、认一认：写出平面图形的名称
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 5
+    target_points:
+    - math-g1-t2-u01-p01
+    guidelines: 给出图形写出长方形、正方形、三角形、平行四边形、圆的名称。
+  - slot_id: slot-02
+    section: 二、圈一圈：找出指定的平面图形
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t2-u01-p01
+    guidelines: 在图形组合中圈出指定形状。
+  - slot_id: slot-03
+    section: 三、数一数：各种图形各有几个
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t2-u01-p01
+    guidelines: 在图案中分类数出各种平面图形的个数。
+  - slot_id: slot-04
+    section: 四、拼一拼：填空
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t2-u01-p02
+    guidelines: 用 2 个同样的（　）可以拼成一个（　）。
+  - slot_id: slot-05
+    section: 五、连一连：立体图形与平面图形
+    question_type: choice
+    difficulty: variation
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - math-g1-t2-u01-p04
+    guidelines: 把立体图形与能从它上面找到的平面图形连起来。
+  - slot_id: slot-06
+    section: 六、画一画：在点子图上画出图形
+    question_type: writing
+    difficulty: variation
+    points_per_item: 7
+    item_count: 2
+    target_points:
+    - math-g1-t2-u01-p05
+    guidelines: 在点子图上画出指定的平面图形与创意图案。
+  - slot_id: slot-07
+    section: 七、想一想（开放题）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 15
+    item_count: 1
+    target_points:
+    - math-g1-t2-u01-p05
+    guidelines: 把一张长方形纸剪成大小相等的两部分，写出两种不同的剪法并画出示意图。

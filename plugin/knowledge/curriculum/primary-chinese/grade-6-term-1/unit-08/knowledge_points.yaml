@@ -1,0 +1,60 @@
+unit_id: unit-08
+source_id: pep_chinese_g6_t1_2024
+points:
+- point_id: chi-g6-t1-u08-p01
+  unit_id: unit-08
+  lesson_id: chi-g6-t1-u08-l01
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 借助相关资料理解课文
+  learning_objectives:
+  - 能借助相关资料理解课文的主要内容
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P109
+    - P110
+    - P114
+    anchor_text: 单元起始页 P109 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《少年闰土》《好的故事》《我的伯父鲁迅先生》《有的人》
+    - 鲁迅及其作品背景资料
+    scope_excluded:
+    - 鲁迅研究
+    - 文学史背景知识
+- point_id: chi-g6-t1-u08-p02
+  unit_id: unit-08
+  lesson_id: chi-g6-t1-u08-l01
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 通过事情写一个人
+  learning_objectives:
+  - 能通过具体事情写一个人，表达自己的情感
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P123
+    - P124
+    anchor_text: 单元起始页 P123 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 选取典型事例写人
+    - 通过事例表达情感
+    scope_excluded:
+    - 写人记叙文的写作规范
+    - 传记文学

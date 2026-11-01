@@ -1,0 +1,148 @@
+unit_id: unit-04
+source_id: pep_math_g5_t1_2024
+points:
+- point_id: math-g5-t1-u04-p01
+  unit_id: unit-04
+  lesson_id: math-g5-t1-u04-l01
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 轴对称图形的特征
+  learning_objectives:
+  - 能说出轴对称图形上对应点到对称轴的距离相等、对应点连线与对称轴垂直
+  - 能根据对称轴补全轴对称图形
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P39
+    - P40
+    - P52
+    anchor_text: P39：点 A 与点 A′到对称轴的距离都是 3 小格。「轴对称图形上的对应点到对称轴的距离都相等。」P40：先找到几个关键点，画出它们的对应点，再连起来。P52：「对应点连线与对称轴垂直，对应点到对称轴的距离相等。」
+  teaching_boundary:
+    scope_allowed:
+    - 说出轴对称图形的特征
+    - 根据对称轴补全图形
+    - 画出一个图形的对称轴
+    scope_excluded:
+    - 镜像变换的数学表示
+    - 晶体学中的对称群
+- point_id: math-g5-t1-u04-p02
+  unit_id: unit-04
+  lesson_id: math-g5-t1-u04-l02
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 平移的特征与作图
+  learning_objectives:
+  - 能说出平移不改变图形的形状和大小、对应点移动方向相同距离相等
+  - 能在方格纸上画出图形平移后的图形
+  applicable_question_types:
+  - fill_blank
+  - writing
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P41
+    - P42
+    - P52
+    anchor_text: P41：「图形的形状、大小没有变化」「点 B 移动的距离和点 C 移动的距离相等」。P42：画出下图向右平移 8 格后的图形。P52：「平移：对应点移动方向相同，移动距离相等。」
+  teaching_boundary:
+    scope_allowed:
+    - 说出平移的特征
+    - 画出平移后的图形
+    - 确定平移的方向和距离
+    scope_excluded:
+    - 向量平移的坐标表示
+    - 刚体变换
+- point_id: math-g5-t1-u04-p03
+  unit_id: unit-04
+  lesson_id: math-g5-t1-u04-l03
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 旋转的三要素（中心、方向、角度）
+  learning_objectives:
+  - 能说出旋转的三要素：旋转中心、旋转方向、旋转角度
+  - 能描述指针等物体绕某点旋转的过程
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P46
+    - P52
+    anchor_text: P46：指针从「12」走到「1」，绕点 O 按顺时针方向旋转了 30°；从「3」到「6」绕点 O 按顺时针方向旋转了 90°。P52：「旋转：对应点都绕旋转中心按同一方向旋转相同的角度。」
+  teaching_boundary:
+    scope_allowed:
+    - 说出旋转的三要素
+    - 描述旋转过程
+    - 根据旋转过程确定角度
+    scope_excluded:
+    - 旋转矩阵与角度制
+    - 刚体运动学
+- point_id: math-g5-t1-u04-p04
+  unit_id: unit-04
+  lesson_id: math-g5-t1-u04-l03
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 在方格纸上画旋转后的图形
+  learning_objectives:
+  - 能画出简单图形绕某点旋转 90° 后的图形
+  - 能说出画旋转图形的步骤（把关键线段绕旋转中心旋转）
+  applicable_question_types:
+  - writing
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P47
+    anchor_text: P47：画出三角形 AOB 绕点 O 顺时针旋转 90° 后的图形——把线段 OB 绕点 O 顺时针旋转 90° 画出 OB′，把线段 OA 绕点 O 顺时针旋转 90° 画出 OA′，再将 A′、B′ 连起来。
+  teaching_boundary:
+    scope_allowed:
+    - 画旋转后的图形
+    - 说出画旋转图形的步骤
+    - 保持旋转中心位置不变
+    scope_excluded:
+    - 旋转变换的坐标计算
+    - 计算机图形学中的变换矩阵
+- point_id: math-g5-t1-u04-p05
+  unit_id: unit-04
+  lesson_id: math-g5-t1-u04-l04
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 用图形的运动设计图案
+  learning_objectives:
+  - 能综合运用平移、轴对称、旋转设计图案
+  - 能说明设计图案时用了哪些图形运动
+  applicable_question_types:
+  - writing
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P50
+    - P53
+    anchor_text: P50：下面右边的图案是左边的 4 张卡片通过平移或旋转拼成的，说一说每张卡片的运动过程。P53：「利用图形的平移、对称和旋转，可以设计出许多美丽的图案」（丝带「回纹」通过连续平移得到；铜镜「四山纹」通过旋转形成）。
+  teaching_boundary:
+    scope_allowed:
+    - 综合运用三种运动设计图案
+    - 说明图案中用到的运动
+    - 判断图案是否由运动得到
+    scope_excluded:
+    - 图案设计中的对称群
+    - 分形与自相似结构

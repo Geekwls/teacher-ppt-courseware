@@ -1,0 +1,32 @@
+unit_id: unit-03
+source_id: pep_chinese_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t1-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「彩虹像什么」的想象为线索，借反问句的朗读体会童趣
+    difficulty: 学生易把三件事（提水壶、照镜子、荡秋千）与相应的人对应错
+    typical_misconceptions:
+    - error_pattern: 把三件事对应的人弄错
+      misconception_type: 内容对应错误
+    - error_pattern: 反问句读成陈述语气
+      misconception_type: 语气未把握
+  variation_strategy:
+  - 朗读课文并说出三件有趣的事
+  - 仿照课文展开想象说一说
+- point_id: chi-g2-t1-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「仔细观察、坚持不懈」为核心价值引导阅读《数星星的孩子》
+    difficulty: 学生易把张衡的成就（发明地动仪）与课文内容（数星星）混为一谈
+    typical_misconceptions:
+    - error_pattern: 把地动仪写进课文内容
+      misconception_type: 超出课文范围
+    - error_pattern: 说不出张衡数星星体现的品质
+      misconception_type: 主旨理解不到位
+  variation_strategy:
+  - 朗读课文并复述张衡数星星的故事
+  - 说说自己观察过什么

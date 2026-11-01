@@ -1,0 +1,97 @@
+unit_id: "unit-3"
+source_id: "pep_math_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《2025年秋人教版教师教学用书数学三年级上册》
+  （409 页扫描件，OCR 解析）核定。第三单元《毫米、分米和千米》位于教参 P59–P86：
+  总体设计 P59–P63、教材分析 P64–P74、教学设计案例 P75–P80、拓展资源 P81–P83、
+  评价建议及样例 P84–P86。
+teaching_references:
+  - point_id: "math-g3-t1-u03-p01"
+    ref_book: "人教版《教师教学用书》数学三年级上册第三单元"
+    ref_page: "P64-P74"
+    pedagogical_focus:
+      key_point: "在「量出的宽不是整厘米」的真实冲突中引出毫米，建立1毫米的长度表象"
+      difficulty: "1毫米很短，学生难以形成清晰的表象，易停留在「记住1厘米=10毫米」的符号记忆"
+      typical_misconceptions:
+        - error_pattern: "认为「1厘米中有10毫米」只是口诀，不能指出直尺上1毫米的实际长度"
+          misconception_type: "量感缺失，缺乏表象支撑"
+        - error_pattern: "量物体长度时不看起始刻度，从1开始数格数"
+          misconception_type: "测量方法错误"
+    variation_strategy:
+      - "先估后量：估一估数学书的长、宽、厚再实际测量，比对估计与实测"
+      - "用手势比划1毫米，并找出长度约1毫米的物体（身份证、硬币厚度）"
+
+  - point_id: "math-g3-t1-u03-p02"
+    ref_book: "人教版《教师教学用书》数学三年级上册第三单元"
+    ref_page: "P64-P74"
+    pedagogical_focus:
+      key_point: "借助「10厘米就是1分米」的操作，把分米与厘米建立联系"
+      difficulty: "分米在生活中的使用频率低于厘米和米，学生易忽视其存在价值"
+      typical_misconceptions:
+        - error_pattern: "把1分米说成1厘米的10倍之外，答不出「课桌高约7（分米）」这类选单位题"
+          misconception_type: "单位表象与物体经验脱节"
+        - error_pattern: "混淆 1分米=10厘米 与 1米=10分米，随意搭配进率"
+          misconception_type: "单位序列与进率记忆混乱"
+    variation_strategy:
+      - "在直尺上找出10厘米并用手势固定1分米的长度，量身边物体用分米表示"
+      - "对比 1米=10分米=100厘米，梳理相邻单位进率均为10"
+
+  - point_id: "math-g3-t1-u03-p03"
+    ref_book: "人教版《教师教学用书》数学三年级上册第三单元"
+    ref_page: "P75-P80"
+    pedagogical_focus:
+      key_point: "在换算中渗透「单位换算的实质是计数单位个数的转换」"
+      difficulty: "学生易机械套用「大化小乘、小化大除」而不知乘除的进率是多少"
+      typical_misconceptions:
+        - error_pattern: "5米=50厘米（误把米与厘米的进率当作10）"
+          misconception_type: "跨单位进率张冠李戴"
+        - error_pattern: "比较 5厘米 与 5分米 时直接看数字5相等"
+          misconception_type: "比较大小前未统一单位"
+    variation_strategy:
+      - "先说进率再换算：3厘米=30毫米、70厘米=7分米，说明「乘或除以几」"
+      - "统一单位后比较大小，并解决「先统一再平均分」的实际问题（锯木料）"
+
+  - point_id: "math-g3-t1-u03-p04"
+    ref_book: "人教版《教师教学用书》数学三年级上册第三单元"
+    ref_page: "P75-P80"
+    pedagogical_focus:
+      key_point: "借助跑道1圈400米等熟悉情境，帮助学生建立1千米的量感"
+      difficulty: "1千米无法在课堂内直接体验，学生缺乏直观参照，易与米混淆"
+      typical_misconceptions:
+        - error_pattern: "认为1千米=100米（误用相邻单位进率10）"
+          misconception_type: "把千米也当作与米十进的单位"
+        - error_pattern: "答「从家到学校约50千米」，把短距离误用千米"
+          misconception_type: "大单位滥用，缺乏合理性判断"
+    variation_strategy:
+      - "到操场量出100米走一走，推算几个100米是1千米"
+      - "结合放学步行1千米、手机导航里程进行验证，辨析生活中的千米用法"
+
+  - point_id: "math-g3-t1-u03-p05"
+    ref_book: "人教版《教师教学用书》数学三年级上册第三单元"
+    ref_page: "P75-P80"
+    pedagogical_focus:
+      key_point: "经历「先定标准、再数个数」的估计过程，体会估计的策略性"
+      difficulty: "学生易直接给出一个数，而说不清估计的依据与标准"
+      typical_misconceptions:
+        - error_pattern: "只写一个结果（如500米），无法说明用什么标准估出来的"
+          misconception_type: "估计过程缺失，结果无依据"
+        - error_pattern: "估计教学楼高度时混用米与分米，导致数量级错误"
+          misconception_type: "单位与数量级不匹配"
+    variation_strategy:
+      - "说清「我的一步约50厘米，走1000步约500米」式的估计过程"
+      - "用手机导航或实地测量验证估计结果，比较误差并反思"
+
+  - point_id: "math-g3-t1-u03-p06"
+    ref_book: "人教版《教师教学用书》数学三年级上册第三单元"
+    ref_page: "P81-P86"
+    pedagogical_focus:
+      key_point: "通过结构化整理，把零散的长度单位串成有序、有进率的整体"
+      difficulty: "整理时易漏掉单位或写错进率，选单位时缺乏生活经验的支撑"
+      typical_misconceptions:
+        - error_pattern: "整理表里把「米—千米」的进率写成10"
+          misconception_type: "对千进关系印象不深"
+        - error_pattern: "判断「一条毛巾长7厘米」为正确"
+          misconception_type: "对常见物体长度缺乏合理估量"
+    variation_strategy:
+      - "填单位表并标注进率，比较「毫米—厘米—分米—米」与「米—千米」的异同"
+      - "判断用错单位的说法并改正，结合生活常识说明理由"

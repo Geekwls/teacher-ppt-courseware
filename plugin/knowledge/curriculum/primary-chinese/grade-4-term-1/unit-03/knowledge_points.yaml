@@ -1,0 +1,60 @@
+unit_id: unit-03
+source_id: pep_chinese_g4_t1_2024
+points:
+- point_id: chi-g4-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: chi-g4-t1-u03-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 连续细致的观察与准确生动的表达
+  learning_objectives:
+  - 能体会作者连续细致的观察，能说出文章准确生动的表达
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P31
+    - P34
+    - P37
+    anchor_text: 单元起始页 P31 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《暮江吟》《题西林壁》《雪梅》三首古诗
+    - 爬山虎的脚、蟋蟀的住宅的观察描写
+    scope_excluded:
+    - 科学观察方法
+    - 古诗词赏析
+- point_id: chi-g4-t1-u03-p02
+  unit_id: unit-03
+  lesson_id: chi-g4-t1-u03-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 写观察日记
+  learning_objectives:
+  - 能连续观察并写观察日记，把观察到的变化写清楚
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P42
+    - P43
+    anchor_text: 单元起始页 P42 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 观察日记的格式
+    - 按时间顺序记录观察到的变化
+    scope_excluded:
+    - 科学实验记录规范
+    - 日记体写作

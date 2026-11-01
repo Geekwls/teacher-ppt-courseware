@@ -1,0 +1,32 @@
+unit_id: unit-06
+source_id: pep_math_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g4-t1-u06-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「把不相交的两条直线再画长一些会怎样」的追问引出平行线的本质
+    difficulty: 学生易认为「看起来不相交就是平行」，忽略「同一平面内」的前提
+    typical_misconceptions:
+    - error_pattern: 忽略「同一平面内」的前提
+      misconception_type: 概念前提缺失
+    - error_pattern: 把「不相交」等同于「平行」
+      misconception_type: 定义理解不完整
+  variation_strategy:
+  - 判断两条直线是否平行或垂直
+  - 过直线外一点画已知直线的垂线
+- point_id: math-g4-t1-u06-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「两组对边分别平行」这一核心特征把平行四边形与梯形区分开
+    difficulty: 学生易把长方形、正方形排除在平行四边形之外
+    typical_misconceptions:
+    - error_pattern: 认为长方形不是平行四边形
+      misconception_type: 从属关系未理解
+    - error_pattern: 把梯形的「只有一组对边平行」说成「有一组对边平行」
+      misconception_type: 定义不严谨
+  variation_strategy:
+  - 给四边形分类并说明理由
+  - 画出平行四边形的高

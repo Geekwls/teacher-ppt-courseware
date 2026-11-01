@@ -1,0 +1,51 @@
+lessons:
+  - lesson_id: "chi-g3-t1-u05-l01"
+    unit_id: "unit-5"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 14
+    lesson_name: "第14课 搭船的鸟"
+    page_range: "P60-P61"
+    official_examples:
+      - "课文写「我」在乘船途中观察一只翠鸟，细致描写翠鸟的外形与捕鱼的动作。"
+      - "课后题引导学生体会作者是怎样留心观察周围事物的。"
+      - "（原文与生字表以课本页面为准；本单元正文页未含于用户提供的电子课本预览，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u05-l02"
+    unit_id: "unit-5"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 15
+    lesson_name: "第15课 金色的草地"
+    page_range: "P62-P64"
+    official_examples:
+      - "课文写「我」观察草地颜色的变化，发现蒲公英的花时开时合，体会到观察的乐趣。"
+      - "课后题引导学生体会作者是怎样细致观察、发现事物变化的。"
+      - "（原文与生字表以课本页面为准，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u05-l03"
+    unit_id: "unit-5"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 16
+    lesson_name: "习作（我们眼中的缤纷世界）"
+    page_range: "P65-P66"
+    official_examples:
+      - "习作《我们眼中的缤纷世界》：仔细观察一种事物或一处景物，把观察所得写下来。"
+      - "提示学生把观察到的内容写清楚，写出事物的特点。"
+
+  - lesson_id: "chi-g3-t1-u05-l04"
+    unit_id: "unit-5"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 17
+    lesson_name: "习作例文《我爱故乡的杨梅》"
+    page_range: "P67-P68"
+    official_examples:
+      - "习作例文《我爱故乡的杨梅》：以杨梅为例，示范如何调动多种感官、按一定顺序写观察所得。"
+      - "引导学生借助例文体会留心观察、细致描写的方法。"
+      - "（原文以课本页面为准，待补凭证。）"

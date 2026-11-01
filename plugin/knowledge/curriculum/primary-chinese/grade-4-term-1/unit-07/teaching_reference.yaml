@@ -1,0 +1,32 @@
+unit_id: unit-07
+source_id: pep_chinese_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g4-t1-u07-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《牛和鹅》的批注示例为示范，让学生学会在文中写批注
+    difficulty: 学生易把批注写成摘抄，没有自己的思考
+    typical_misconceptions:
+    - error_pattern: 批注写成摘抄
+      misconception_type: 批注方法不当
+    - error_pattern: 不能从细节体会人物心情
+      misconception_type: 体会不深入
+  variation_strategy:
+  - 在文中写批注
+  - 通过细节体会人物的心情
+- point_id: chi-g4-t1-u07-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「心儿怦怦跳」的情绪体验为线索，让学生把「当时的感受」写具体
+    difficulty: 学生易只写事件而忽略心理感受
+    typical_misconceptions:
+    - error_pattern: 只写事件不写感受
+      misconception_type: 心理描写缺失
+    - error_pattern: 感受写得笼统
+      misconception_type: 表达不具体
+  variation_strategy:
+  - 写一件让自己心儿怦怦跳的事
+  - 写出当时的心理感受

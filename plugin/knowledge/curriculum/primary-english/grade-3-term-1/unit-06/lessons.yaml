@@ -1,0 +1,68 @@
+unit_id: "unit-6"
+source_id: "pep_english_g3_t1_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "Part A Talk: 询问并表达个人年龄"
+    page_range: "P64"
+    official_examples:
+      - example_id: "ex_1"
+        title: "操场偶遇新伙伴与年龄交流"
+        page: 64
+        formula_or_context: "Binbin, this is my brother, Sam. / Hi, Sam! This is my sister, Xinxin. / How old are you? / I'm five years old. / Me too."
+        core_concept: "学习询问同伴年龄的核心句型'How old are you?'及其回答'I'm... years old.'，掌握'Me too.'表达同感。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "Part A Learn: 数字 1 到 5 与律动数数"
+    page_range: "P65"
+    official_examples:
+      - example_id: "ex_2"
+        title: "跳绳运动中的数字 1 至 5"
+        page: 65
+        formula_or_context: "one, two, three, four, five; Jump! Jump! Jump! One, two, three! Jump up high! Five! Four! Three, two, one!"
+        core_concept: "学习基数词 one 到 five 的听说认读，能结合身体运动（跳跃、数数）进行顺数与倒数。"
+
+  - lesson_id: "lesson-03"
+    lesson_number: 3
+    lesson_name: "Part A Letters and sounds: 字母 Vv-Zz 认读、书写与拼读"
+    page_range: "P66"
+    official_examples:
+      - example_id: "ex_3"
+        title: "字母 Vv, Ww, Xx, Yy, Zz 笔顺占格与拼读"
+        page: 66
+        formula_or_context: "Vv, Ww, Xx, Yy, Zz; van, vet, we, win, box, six, yellow, yo-yo, Zip, quiz; wet, vat, won, yes, yum, zig"
+        core_concept: "规范书写字母表中最后5个字母Vv-Zz（掌握小写y占中下格与x、z的占格），掌握辅音v(/v/), w(/w/), x(/ks/), y(/j/), z(/z/)的发音，拼读CVC单词。"
+
+  - lesson_id: "lesson-04"
+    lesson_number: 4
+    lesson_name: "Part B Talk: 询问数量与购物准备"
+    page_range: "P67"
+    official_examples:
+      - example_id: "ex_4"
+        title: "统计水果数量与购物预算"
+        page: 67
+        formula_or_context: "How many apples? / Two. / How many bananas? / Three. And one orange. / I have ten yuan. / I have six yuan. / Great! Let's go to the shop!"
+        core_concept: "掌握询问可数名词数量的疑问句'How many + 复数名词?'及其答语，表达拥有的金钱数量'I have... yuan.'并提出购物提议'Let's go to the shop!'。"
+
+  - lesson_id: "lesson-05"
+    lesson_number: 5
+    lesson_name: "Part B Learn: 数字 6 到 10 与超市付款"
+    page_range: "P68"
+    official_examples:
+      - example_id: "ex_5"
+        title: "超市结账标价与数字 6 至 10"
+        page: 68
+        formula_or_context: "six, seven, eight, nine, ten; That's ten yuan, please. / Here you are. One head, two legs, ten toes. One head, eight eyes, eight legs."
+        core_concept: "学习基数词 six 到 ten 的听说认读，掌握购物支付日常礼貌用语'That's... yuan, please.'与'Here you are.'，并用数字描述生物肢体数量。"
+
+  - lesson_id: "lesson-06"
+    lesson_number: 6
+    lesson_name: "Start to read & Project: 生日准备与奇偶数探究"
+    page_range: "P69-P71"
+    official_examples:
+      - example_id: "ex_6"
+        title: "阅读语篇《Birthday preparation》与制作生日邀请卡"
+        page: 69
+        formula_or_context: "It's seven o'clock. Hurry! One orange, two apples and three bananas. Happy birthday! Three cuts. Let's eat! odd (1, 3, 5, 7, 9) vs even (2, 4, 6, 8, 10)"
+        core_concept: "阅读理解关于生日聚会筹备的趣味小语篇，掌握时刻与数量的复合运用，掌握奇数（odd）与偶数（even）的数学跨学科分类，回答大问题'Why are numbers important?'。"

@@ -1,0 +1,60 @@
+unit_id: unit-00
+source_id: pep_chinese_g1_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t1-u00-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以儿歌式短句建立国家认同，重在朗读体验与情感共鸣，不做过早的识字量化要求
+    difficulty: 学生易把「中华民族是一家」读破句或漏读
+    typical_misconceptions:
+    - error_pattern: 朗读时停顿不当，把长句读碎
+      misconception_type: 朗读节奏未建立
+    - error_pattern: 不能说出自己是哪国人
+      misconception_type: 国家概念未建立
+  variation_strategy:
+  - 分句朗读并注意停顿
+  - 结合插图说说自己是哪国人
+- point_id: chi-g1-t1-u00-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助图片建立具体表象，先看图再读句，避免空洞说教
+    difficulty: 学生易把「五星红旗」说成「红旗」而丢失「五星」这一特征
+    typical_misconceptions:
+    - error_pattern: 只说出「红旗」而漏掉「五星」
+      misconception_type: 名称识记不完整
+    - error_pattern: 把「我爱……」句式读成平淡的陈述语气
+      misconception_type: 情感朗读不到位
+  variation_strategy:
+  - 看图说名称再朗读句子
+  - 用「我爱……」说一句自己的话
+- point_id: chi-g1-t1-u00-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以儿歌的节奏感带动朗读兴趣，把「不迟到、爱学习、爱劳动」转化为具体行为约定
+    difficulty: 儿歌句子较长，学生易在「早，早，早」处断句混乱
+    typical_misconceptions:
+    - error_pattern: 三个「早」读得含糊或漏读
+      misconception_type: 重复句朗读不整齐
+    - error_pattern: 只会唱不明白意思
+      misconception_type: 理解停留在机械记忆
+  variation_strategy:
+  - 打着节拍跟读儿歌
+  - 说说自己打算怎样做到不迟到
+- point_id: chi-g1-t1-u00-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「四件事」建立语文学习的整体印象，重在习惯养成而非知识讲授
+    difficulty: 学生易把「听故事」与「讲故事」混为一谈
+    typical_misconceptions:
+    - error_pattern: 把「听故事」说成「讲故事」
+      misconception_type: 听与说未区分
+    - error_pattern: 读书姿势趴桌、写字姿势歪斜
+      misconception_type: 坐姿习惯未建立
+  variation_strategy:
+  - 看图说一说是谁在读书、谁在讲故事
+  - 示范并互相纠正读书写字姿势

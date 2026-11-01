@@ -1,0 +1,58 @@
+lessons:
+- lesson_id: math-g6-t1-u03-l01
+  unit_id: unit-03
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 1
+  lesson_name: 倒数的认识
+  page_range: P32
+  official_examples:
+  - 乘积是 1 的两个数互为倒数。3/5 的倒数是 5/3；6 的倒数是 1/6。
+  - 1 的倒数是 1，0 没有倒数。
+- lesson_id: math-g6-t1-u03-l02
+  unit_id: unit-03
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 2
+  lesson_name: 一个数除以整数
+  page_range: P33
+  official_examples:
+  - 一块 4/5 公顷的蔬菜种植基地，平均分给 2 个种植小组，每个种植小组的种植面积是 4/5÷2=2/5（公顷）。
+  - 一个数除以整数（0 除外），等于乘这个整数的倒数。
+- lesson_id: math-g6-t1-u03-l03
+  unit_id: unit-03
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 3
+  lesson_name: 一个数除以分数
+  page_range: P34-P36
+  official_examples:
+  - 小明准备了 160 g 牛奶，是砂糖质量的 4/5，砂糖的质量是多少克？160÷4/5=160×5/4=200（g）。
+  - 鸡蛋的质量是 2/5 kg，是面粉质量的 2/3，面粉的质量是 2/5÷2/3=2/5×3/2=3/5（kg）。
+  - 除以一个数（0 除外），等于乘这个数的倒数。
+  - 因为除法是乘法的逆运算，所以 4÷2=4×1/2。
+- lesson_id: math-g6-t1-u03-l04
+  unit_id: unit-03
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 4
+  lesson_name: 工程问题（假设法）
+  page_range: P39-P40
+  official_examples:
+  - 甲队单独修栈道，每天修全长的 1/12；乙队每天修全长的 1/18。两队同时从两端开工，1÷(1/12+1/18)=7.2（天）可以修完这条栈道。
+  - 「不管这条栈道有多长，他们每天合修的占全长的几分之几不变。」
+- lesson_id: math-g6-t1-u03-l05
+  unit_id: unit-03
+  subject: math
+  grade: 6
+  term: term-1
+  lesson_number: 5
+  lesson_name: 整理和复习
+  page_range: P41
+  official_examples:
+  - 求一个数的几分之几是多少，用乘法计算；已知一个数的几分之几是多少，求这个数，用除法计算。
+  - 分数乘、除法计算能统一成分数乘法，能约分的可以先约分。

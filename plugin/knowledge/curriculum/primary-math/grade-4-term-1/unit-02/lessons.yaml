@@ -1,0 +1,37 @@
+lessons:
+- lesson_id: math-g4-t1-u02-l01
+  unit_id: unit-02
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 1
+  lesson_name: 1亿张纸有多高
+  page_range: P24-P25
+  official_examples:
+  - 小丽估计印刷厂里的一摞纸有 1 亿张，怎样才能知道她的估计是否准确呢？
+  - 1 亿张纸太多了，可以先量出 100 张纸的厚度。（高约 1 cm）
+  - 100 张纸厚 1 cm，10000 张纸高 100 cm，也就是 1 m；10000 个一万是一亿，一亿张纸摞起来就有 10000 m 高。
+- lesson_id: math-g4-t1-u02-l02
+  unit_id: unit-02
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 2
+  lesson_name: 分析问题与得出结论
+  page_range: P26
+  official_examples:
+  - （1）1 亿粒大米有多重？——只要称一称 100 粒大米有多重就知道了。
+  - （2）1 秒写一个字，写 1 亿个字要用多久？——写 1 亿个字需要 1 亿秒。
+  - 1 亿粒大米大约重 2 t，我 10 年都吃不完；一刻不停，三年多才能写完 1 亿个字。
+- lesson_id: math-g4-t1-u02-l03
+  unit_id: unit-02
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 3
+  lesson_name: 小讲堂与成长小档案
+  page_range: P27
+  official_examples:
+  - 纳米是非常小的长度单位，把 1 dm 平均分成 1 亿份，一份才是 1 纳米。
+  - 1 亿名同学手拉手，可以绕地球赤道 3 圈半。
+  - 你是如何通过 100 张纸的厚度得出 1 亿张纸的厚度的？

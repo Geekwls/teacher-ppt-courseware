@@ -1,0 +1,61 @@
+unit_id: unit-07
+source_id: pep_math_g6_t1_2024
+points:
+- point_id: math-g6-t1-u07-p01
+  unit_id: unit-07
+  lesson_id: math-g6-t1-u07-l01
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 百分数的意义与互化
+  learning_objectives:
+  - 能说出百分数的意义，能进行百分数与分数、小数的互化
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P79
+    - P82
+    - P86
+    anchor_text: 单元起始页 P79 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 百分数表示一个数是另一个数的百分之几
+    - 百分数与分数、小数的互化
+    scope_excluded:
+    - 统计学中的比例与比率
+    - 金融中的利率与增长率
+- point_id: math-g6-t1-u07-p02
+  unit_id: unit-07
+  lesson_id: math-g6-t1-u07-l01
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 用百分数解决问题
+  learning_objectives:
+  - 能求常见的百分率，能解决「求一个数的百分之几是多少」等实际问题
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P88
+    - P92
+    - P96
+    anchor_text: 单元起始页 P88 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 求百分率（合格率、出勤率、发芽率）
+    - 求一个数的百分之几是多少
+    scope_excluded:
+    - 增长率与折扣的实际计算
+    - 概率与频率

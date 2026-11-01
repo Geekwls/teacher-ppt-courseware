@@ -1,0 +1,134 @@
+lessons:
+- lesson_id: chi-g2-t1-u02-l01
+  unit_id: unit-02
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 1
+  lesson_name: 识字1 场景歌
+  page_range: P16-P17
+  core_writing_chars:
+  - 处
+  - 块
+  - 座
+  - 园
+  - 群
+  - 队
+  - 领
+  core_vocab_words:
+  - 花园
+  - 飞鸟
+  - 红领巾
+  - 欢笑
+  official_examples:
+  - 一只海鸥，一条帆船。一处港湾，一艘军舰。
+  - 一方鱼塘，一块稻田。一行垂柳，一座花园。
+  - 一面队旗，一把铜号。一群红领巾，一片欢笑。
+- lesson_id: chi-g2-t1-u02-l02
+  unit_id: unit-02
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 2
+  lesson_name: 识字2 树之歌
+  page_range: P18-P19
+  core_writing_chars:
+  - 树
+  - 之
+  - 杨
+  - 松
+  - 柏
+  - 化
+  - 金
+  - 桂
+  core_vocab_words:
+  - 杨树
+  - 树叶
+  - 松柏
+  - 化石
+  - 开花
+  official_examples:
+  - 杨树高，榕树壮，梧桐树叶像手掌。
+  - 枫树秋天叶儿红，松柏四季披绿装。
+  - 木棉喜暖在南方，桦树耐寒守北疆。银杏水杉活化石，金桂开花满院香。
+- lesson_id: chi-g2-t1-u02-l03
+  unit_id: unit-02
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 3
+  lesson_name: 识字3 拍手歌
+  page_range: P20-P22
+  core_writing_chars:
+  - 拍
+  - 世
+  - 界
+  - 彩
+  - 丛
+  - 休
+  - 朋
+  - 友
+  - 保
+  - 护
+  core_vocab_words:
+  - 拍手
+  - 世界
+  - 云彩
+  - 丛林
+  - 竹林
+  - 朋友
+  - 保护
+  - 动物
+  official_examples:
+  - 你拍一，我拍一，动物世界很新奇。
+  - 孔雀锦鸡是伙伴，雄鹰飞翔在蓝天。天空雁群会写字，黄鹂百灵唱不休。
+  - 人和动物是朋友，保护动物是大事。
+- lesson_id: chi-g2-t1-u02-l04
+  unit_id: unit-02
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 4
+  lesson_name: 识字4 田家四季歌
+  page_range: P23-P24
+  core_writing_chars:
+  - 季
+  - 肥
+  - 农
+  - 事
+  - 谷
+  - 体
+  - 辛
+  - 苦
+  - 初
+  - 年
+  core_vocab_words:
+  - 四季
+  - 春风
+  - 农事
+  - 月光
+  - 身体
+  - 辛苦
+  - 心里
+  official_examples:
+  - 春季里，春风吹，花开草长蝴蝶飞。麦苗儿多嫩，桑叶儿正肥。
+  - 夏季里，农事忙，采桑养蚕又插秧。早起勤耕作，归来戴月光。
+  - 秋季里，稻上场，谷像黄金粒粒香。身体虽辛苦，心里喜洋洋。
+- lesson_id: chi-g2-t1-u02-l05
+  unit_id: unit-02
+  subject: chinese
+  grade: 2
+  term: term-1
+  lesson_number: 5
+  lesson_name: 语文园地二
+  page_range: P25-P27
+  core_writing_chars:
+  - 丑
+  - 诚
+  core_vocab_words:
+  - 字典
+  - 部首
+  - 音序
+  official_examples:
+  - 查字典：遇到不认识的字，可以用部首查字法查字典。
+  - 日积月累：有山皆图画，无水不文章。一畦春韭绿，十里稻花香。

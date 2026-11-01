@@ -1,0 +1,83 @@
+unit_id: "unit-4"
+source_id: "pep_math_g3_t1_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "整十、整百、整千数乘一位数的口算"
+    page_range: "P40-P42"
+    official_examples:
+      - example_id: "ex_1"
+        title: "坐过山车问题（整十数乘一位数）"
+        page: 40
+        formula_or_context: "20 × 3 = 60"
+        core_concept: "20 是 2 个十，2 个十乘 3 得 6 个十，就是 60；也可用连加 20+20+20=60 验证。进而推广到 200×3=600、2000×3=6000。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "两位数乘一位数（不进位）口算"
+    page_range: "P40-P42"
+    official_examples:
+      - example_id: "ex_2"
+        title: "坐碰碰车问题（两位数乘一位数口算）"
+        page: 40
+        formula_or_context: "12 × 3 = 36"
+        core_concept: "12 由 1 个十和 2 个一组成，先算 10×3=30，再算 2×3=6，合起来 30+6=36。奠定竖式笔算的算理分步基础。"
+
+  - lesson_id: "lesson-03"
+    lesson_number: 3
+    lesson_name: "两、三位数乘一位数的笔算（不进位）"
+    page_range: "P43"
+    official_examples:
+      - example_id: "ex_3"
+        title: "买彩笔问题（不进位笔算）"
+        page: 43
+        formula_or_context: "24 × 2 = 48（列竖式：先算 4×2=8，再算 20×2=40，40+8=48）"
+        core_concept: "把口算过程用竖式表示，理解竖式从个位乘起的逻辑，用一位数分别乘两位数的个位和十位，积对齐相应的数位；推广至三位数 213×2=426。"
+
+  - lesson_id: "lesson-04"
+    lesson_number: 4
+    lesson_name: "两、三位数乘一位数的笔算（进位与连续进位）"
+    page_range: "P44-P48"
+    official_examples:
+      - example_id: "ex_4"
+        title: "买连环画问题（一次进位）"
+        page: 44
+        formula_or_context: "16 × 3 = 48（个位 6×3=18 满十向十位进 1，十位 1×3=3 再加进位 1 得 4）"
+        core_concept: "个位相乘满几十就向十位进几；算十位时乘完要加上进位的数。"
+      - example_id: "ex_5"
+        title: "矿泉水装箱问题（连续进位）"
+        page: 45
+        formula_or_context: "24 × 9 = 216（个位 4×9=36 进 3，十位 2×9=18 加进位 3 得 21，再向百位进 2）"
+        core_concept: "连续进位计算：哪一位上乘得的积满几十就向前一位进几，前一位相乘后务必加上进位数字；可用 20<24<30 推出 180<24×9<270 检验结果合理性。"
+
+  - lesson_id: "lesson-05"
+    lesson_number: 5
+    lesson_name: "因数中间或末尾有 0 的乘法"
+    page_range: "P49-P50"
+    official_examples:
+      - example_id: "ex_6"
+        title: "0 的乘法规律"
+        page: 49
+        formula_or_context: "0 × 7 = 0, 7 × 0 = 0, 0 × 0 = 0"
+        core_concept: "通过“7 个盘子里每个有 0 个桃子，一共多少个”理解：0 和任何数相乘都得 0。"
+      - example_id: "ex_7"
+        title: "运动场看台座位（因数中间有 0）"
+        page: 50
+        formula_or_context: "604 × 8 = 4832"
+        core_concept: "中间有 0 也要参与相乘，加上进位数；积的中间不一定有 0（604×8=4832 中间无 0）。"
+      - example_id: "ex_8"
+        title: "学校图书室买书（因数末尾有 0）"
+        page: 50
+        formula_or_context: "280 × 3 = 840"
+        core_concept: "因数末尾有 0 的简便算法：先用一位数乘 0 前面的数，再看因数末尾有几个 0，就在积的末尾添上几个 0（看作 28 个十乘 3，得 84 个十）。"
+
+  - lesson_id: "lesson-06"
+    lesson_number: 6
+    lesson_name: "乘法估算与解决实际问题"
+    page_range: "P51"
+    official_examples:
+      - example_id: "ex_9"
+        title: "买门票够不够问题（往大估策略）"
+        page: 51
+        formula_or_context: "987 × 8 ≈ 8000（把 987 看作 1000，987<1000，1000×8=8000，所以 987×8<8000，8000 元够买门票）"
+        core_concept: "根据实际情境选择往大估或往小估：把人数往大估钱数都够，实际一定够。区分精算与估算的使用场景，用不等式推理而非机械四舍五入。"

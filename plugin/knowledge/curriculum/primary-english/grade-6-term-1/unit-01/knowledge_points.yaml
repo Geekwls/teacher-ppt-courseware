@@ -1,0 +1,89 @@
+unit_id: unit-01
+source_id: pep_english_g6_t1_2024
+points:
+- point_id: eng-g6-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: eng-g6-t1-u01-l01
+  subject: english
+  grade: 6
+  term: term-1
+  point_name: 用一般过去时谈论旅行经历
+  learning_objectives:
+  - 能用一般过去时谈论旅行经历（Where did you go? I went to …）
+  - 能正确使用常见动词的过去式（go→went, see→saw, visit→visited, walk→walked）
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g6_t1_2024
+    page_ref:
+    - P4
+    - P6
+    anchor_text: P4：「Zhang Peng is talking with John.」P6：「Amy went to Hainan. The weather was good in Guiyang.」
+  teaching_boundary:
+    scope_allowed:
+    - 一般过去时的问句与答句
+    - 常见动词的过去式
+    - 描述旅行见闻
+    scope_excluded:
+    - 英语时态体系
+    - 旅行文学的表达
+- point_id: eng-g6-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: eng-g6-t1-u01-l02
+  subject: english
+  grade: 6
+  term: term-1
+  point_name: 描述地标的特点
+  learning_objectives:
+  - 能用 be famous for / … years old 等描述地标的特点
+  - 能读懂地标介绍中的数字信息
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g6_t1_2024
+    page_ref:
+    - P5
+    - P7
+    anchor_text: P5：「55 kilometres / >8,700 rooms / >1,600 stops」P7：「famous for peaches / >1,800 years old」
+  teaching_boundary:
+    scope_allowed:
+    - be famous for 的用法
+    - 数字信息的读取
+    - 地标相关词汇
+    scope_excluded:
+    - 文化遗产的旅游价值
+    - 英语数字表达
+- point_id: eng-g6-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: eng-g6-t1-u01-l03
+  subject: english
+  grade: 6
+  term: term-1
+  point_name: 区分事实与观点
+  learning_objectives:
+  - 能区分文本中的事实（Fact）与观点（Opinion）
+  - 能用英语表达自己的观点
+  applicable_question_types:
+  - choice
+  - reading
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g6_t1_2024
+    page_ref:
+    - P8
+    anchor_text: P8 Read and write：Look at the text. Where could you find this? What does "Reviews" mean?（评论中既有事实也有观点）
+  teaching_boundary:
+    scope_allowed:
+    - 区分 Fact 与 Opinion
+    - 表达个人观点
+    - 阅读旅行评论
+    scope_excluded:
+    - 批判性阅读理论
+    - 媒介素养教育

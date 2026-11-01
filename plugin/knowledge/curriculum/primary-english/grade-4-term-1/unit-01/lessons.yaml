@@ -1,0 +1,48 @@
+lessons:
+- lesson_id: eng-g4-t1-u01-l01
+  unit_id: unit-01
+  subject: english
+  grade: 4
+  term: term-1
+  lesson_number: 1
+  lesson_name: 'Part A Let''s talk: 询问与介绍职业'
+  page_range: P4-P5
+  official_examples:
+  - What's your mother's job? He's a PE teacher. Doctors are great! My father is a doctor too.
+  - 核心词汇：office worker, farmer, doctor, factory worker, nurse。He's a factory worker. What's your father's job?
+- lesson_id: eng-g4-t1-u01-l02
+  unit_id: unit-01
+  subject: english
+  grade: 4
+  term: term-1
+  lesson_number: 2
+  lesson_name: 'Part A Let''s learn / Let''s spell: 家务与 ch 的发音'
+  page_range: P3-P6
+  official_examples:
+  - Can you help? Yes, I can. I can clean my room.
+  - My grandpa can teach Chinese. He can make nice chairs. My grandma can make good lunches.
+  - Let's spell：字母组合 ch 的发音与例词（chair, Chinese, lunch, teach, peach）。
+- lesson_id: eng-g4-t1-u01-l03
+  unit_id: unit-01
+  subject: english
+  grade: 4
+  term: term-1
+  lesson_number: 3
+  lesson_name: 'Part B Let''s talk / Let''s learn: 我能为家人做什么'
+  page_range: P7-P9
+  official_examples:
+  - Mum and Dad are busy and tired. What can we do for them? We can also make a gift!
+  - We sweep the floor. I look after my sister. We cook together. We are happy together.
+  - You are a great nurse. You help many people. I can help you at home!
+- lesson_id: eng-g4-t1-u01-l04
+  unit_id: unit-01
+  subject: english
+  grade: 4
+  term: term-1
+  lesson_number: 4
+  lesson_name: Part C Project / Reading time
+  page_range: P10-P13
+  official_examples:
+  - 活动表：Talk / Sing / Cook / Eat / Sweep the floor / Look after my brother/sister。
+  - 自评：I can ask about people's jobs. / I can say what I do with my family. / I can talk about how to help my family.
+  - Reading time：My mum is a writer. She writes a lot of good books. Mum is also a great cook. She can cook great food!

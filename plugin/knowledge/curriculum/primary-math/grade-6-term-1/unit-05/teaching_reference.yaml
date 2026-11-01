@@ -1,0 +1,74 @@
+unit_id: unit-05
+source_id: pep_math_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g6-t1-u05-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「用圆规画圆」的操作引出圆心与半径，再通过「折一折、画一画」让学生发现同圆中半径、直径的关系
+    difficulty: 学生易把「直径是半径的 2 倍」用在不同的圆上；易把半径画成不是从圆心出发
+    typical_misconceptions:
+    - error_pattern: 在不同圆中比较半径与直径
+      misconception_type: 前提条件忽略
+    - error_pattern: 半径未从圆心出发
+      misconception_type: 概念理解错误
+  variation_strategy:
+  - 用圆规画指定半径或直径的圆
+  - 填空并说明半径与直径的关系
+- point_id: math-g6-t1-u05-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「在同一圆中画不同大小的扇形」的操作，让学生把扇形大小与圆心角大小建立联系
+    difficulty: 学生易把「顶点在圆心的角」当成任意角；易把不经过圆心的角当成圆心角
+    typical_misconceptions:
+    - error_pattern: 把任意角当成圆心角
+      misconception_type: 概念错误
+    - error_pattern: 认为扇形大小与半径无关
+      misconception_type: 要素遗漏
+  variation_strategy:
+  - 指出图形中的扇形与圆心角
+  - 画一个指定圆心角的扇形
+- point_id: math-g6-t1-u05-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「量周长与直径并求比值」的实验，让学生发现「周长总是直径的 3 倍多一些」，从而引出圆周率 π
+    difficulty: 学生易把 π 取成 3.14 后计算粗心；易把 C=πd 与 C=2πr 混用（漏乘 2）
+    typical_misconceptions:
+    - error_pattern: C=πd 与 C=2πr 混用
+      misconception_type: 公式记忆错误
+    - error_pattern: 由周长求直径时用乘法
+      misconception_type: 公式变形错误
+  variation_strategy:
+  - 计算圆的周长
+  - 由圆的周长求直径或半径
+- point_id: math-g6-t1-u05-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「等分份数越多，拼出的图形越接近长方形」的直观，让学生体会「化曲为直」的极限思想，并推出 S=πr²
+    difficulty: 学生易把 S=πr² 写成 S=πd² 或漏平方；易把周长公式与面积公式混用
+    typical_misconceptions:
+    - error_pattern: 面积公式漏平方（写成 πr）
+      misconception_type: 公式错误
+    - error_pattern: 周长公式与面积公式混用
+      misconception_type: 公式混淆
+  variation_strategy:
+  - 计算圆的面积
+  - 由圆的周长求面积并说明推导过程
+- point_id: math-g6-t1-u05-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「青玉御题蚕纹璧」等实物载体呈现圆环，再用「大减小」的方法计算，并引导学生分析「外方内圆」「外圆内方」的面积关系
+    difficulty: 学生易在圆环面积中把内圆直径当成半径；易在组合图形中重复计算或漏算重叠部分
+    typical_misconceptions:
+    - error_pattern: 内圆直径当半径
+      misconception_type: 半径与直径混淆
+    - error_pattern: 组合图形重复或漏算
+      misconception_type: 图形分解错误
+  variation_strategy:
+  - 计算圆环的面积
+  - 求组合图形中涂色部分的面积

@@ -1,0 +1,74 @@
+unit_id: unit-04
+source_id: pep_math_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g5-t1-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「数格子」这一具体操作让学生量出对应点到对称轴的距离，再归纳出轴对称图形的一般特征
+    difficulty: 学生易把「对应点连线垂直于对称轴」漏掉；易在补全图形时数错格子
+    typical_misconceptions:
+    - error_pattern: 补全图形时数错格子
+      misconception_type: 距离测量错误
+    - error_pattern: 忽略对应点连线与对称轴垂直
+      misconception_type: 特征表述不完整
+  variation_strategy:
+  - 根据对称轴补全轴对称图形
+  - 画出并说明轴对称图形的特征
+- point_id: math-g5-t1-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「选一个关键点，找到它平移后的位置，再对照原图画出」的操作，把平移作图化为「找对应点」的过程
+    difficulty: 学生易把「平移 8 格」理解为两个图形之间隔 8 格；易只平移部分顶点
+    typical_misconceptions:
+    - error_pattern: 平移格数数错（把间隔当距离）
+      misconception_type: 操作错误
+    - error_pattern: 平移后图形的大小或形状改变
+      misconception_type: 运动性质理解错误
+  variation_strategy:
+  - 画出图形平移后的图形
+  - 说出图形平移的方向和距离
+- point_id: math-g5-t1-u04-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以钟面指针这一熟悉模型，让学生把「从 12 到 1」这一位置变化描述为「绕点 O 顺时针旋转 30°」，从而建立旋转三要素的概念
+    difficulty: 学生易只说「转到了几」而不说旋转中心、方向和角度；易把顺时针与逆时针说反
+    typical_misconceptions:
+    - error_pattern: 旋转描述缺少中心或方向
+      misconception_type: 三要素表述不全
+    - error_pattern: 顺、逆时针混淆
+      misconception_type: 方向判断错误
+  variation_strategy:
+  - 描述指针的旋转过程
+  - 根据描述判断旋转后的位置
+- point_id: math-g5-t1-u04-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「画旋转后的图形」分解为「旋转关键线段」的步骤，让学生体会旋转中心不变、线段长度不变的性质
+    difficulty: 学生易改变旋转中心的位置；易把旋转后的线段画短或画长
+    typical_misconceptions:
+    - error_pattern: 旋转中心位置改变
+      misconception_type: 旋转性质理解错误
+    - error_pattern: 旋转后线段长度改变
+      misconception_type: 作图不准确
+  variation_strategy:
+  - 画出图形绕某点旋转 90° 后的图形
+  - 说出画旋转图形的步骤和注意事项
+- point_id: math-g5-t1-u04-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以文物图案（回纹、四山纹）为载体，让学生识别其中的平移与旋转，再自己动手设计，体会「运动创造图案」
+    difficulty: 学生易把「既平移又旋转」的变换只说成其中一种
+    typical_misconceptions:
+    - error_pattern: 复杂变换只描述一种运动
+      misconception_type: 描述不完整
+    - error_pattern: 设计图案时不能保持基本图形
+      misconception_type: 基本图形丢失
+  variation_strategy:
+  - 说明图案用了哪些图形运动
+  - 用图形的运动设计一个图案

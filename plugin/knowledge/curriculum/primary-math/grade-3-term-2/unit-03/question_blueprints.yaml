@@ -1,0 +1,68 @@
+unit_id: "unit-3"
+blueprints:
+  - blueprint_id: "bp-math-g3-t2-u03-standard"
+    title: "第三单元长方形和正方形标准练习卷蓝图"
+    target_practice: "几何图形特征辨析与周长规范计算应用"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础题（共 60 分）
+      - slot_id: "slot-01"
+        section: "一、用心思考填一填（周长公式与特征）"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 8
+        target_points: ["math-g3-t2-u03-p01", "math-g3-t2-u03-p02", "math-g3-t2-u03-p03", "math-g3-t2-u03-p04"]
+        guidelines: "长方形对边相等4个直角；长方形周长公式(长+宽)×2；正方形边长×4；已知长和宽求周长直接计算。"
+
+      - slot_id: "slot-02"
+        section: "二、反复比较精挑选（特征与逆向公式）"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t2-u03-p01", "math-g3-t2-u03-p03", "math-g3-t2-u03-p04"]
+        guidelines: "正方形是特殊的长方形；已知长方形周长求长或宽；一根铁丝围图形周长不变。"
+
+      - slot_id: "slot-03"
+        section: "三、动手计算（图形周长基础求解）"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 6
+        item_count: 4
+        target_points: ["math-g3-t2-u03-p03", "math-g3-t2-u03-p04"]
+        guidelines: "计算长方形和正方形的周长（代入数据脱式计算：长8宽5、长12宽6、边长9分米、边长15米）。"
+
+      # 二、变式题（共 30 分）
+      - slot_id: "slot-04"
+        section: "四、应用广角（逆向求解与靠墙围篱笆）"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 6
+        item_count: 3
+        target_points: ["math-g3-t2-u03-p03", "math-g3-t2-u03-p05"]
+        guidelines: "1. 靠墙围菜地至少需要多少米篱笆（长边靠墙）；2. 铁丝围长方形改围成正方形求边长；3. 已知周长与长求宽的应用题。"
+
+      - slot_id: "slot-05"
+        section: "五、图形巧拼拆（两个正方形拼长方形周长计算）"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 6
+        item_count: 2
+        target_points: ["math-g3-t2-u03-p04", "math-g3-t2-u03-p05"]
+        guidelines: "用两个边长5厘米的正方形拼成一个长方形，求长方形的长、宽及周长；从长方形中剪一个最大的正方形。"
+
+      # 三、挑战题（共 10 分）
+      - slot_id: "slot-06"
+        section: "六、思维飞跃（平移法转化求凹凸图形周长）"
+        question_type: "word_problem"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["math-g3-t2-u03-p05"]
+        guidelines: "阶梯楼梯形或缺角多边形，运用线段平移法转化为标准长方形周长，体会转化与守恒数学思想。"

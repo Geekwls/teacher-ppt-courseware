@@ -1,0 +1,15 @@
+unit_id: unit-03
+unit_name: 第三单元 1～6的表内除法
+subject: math
+edition: 人教版
+grade: 2
+term: term-1
+version: 2026.10.3
+updated_at: '2026-10-15'
+verification_status: verified
+source_id: pep_math_g2_t1_2024
+teaching_reference_source_id: pep_math_g2_t1_tr_2024
+page_range: P30-P48
+page_evidence_note: 页码于 2026-10-15 依据用户提供的完整版《2026版人教版小学数学二年级上册电子课本》（共106页，ISBN 978-7-107-38912-2）逐页实证核定：页脚印刷页码实测偏移 = 4（PDF#34 = 印刷 P30，PDF#52 = 印刷 P48）。本单元真实版面为 P30–P48（附 P49–P54 综合与实践·校园小导游），已取得逐页原文例题凭证：P30-P32 平均分的两种操作模型（等分与每几个一份）、P33 除法算式读法与各部分名称（被除数、除数、商）、P34-P40 用 2～6 的乘法口诀求商、P41-P48 解决问题（平均分的实际应用），全量实证闭环，状态晋级为 verified。
+unit_overview: 学习除法的初步认识（平均分、除法算式的读写与各部分名称被除数/除数/商）与用 2～6 的乘法口诀求商，理解除法的含义，用表内除法解决简单的实际问题；附综合与实践《校园小导游》。
+numeric_upper_bound: 100

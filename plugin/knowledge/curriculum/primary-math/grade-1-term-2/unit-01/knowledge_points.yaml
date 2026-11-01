@@ -1,0 +1,139 @@
+unit_id: unit-01
+source_id: pep_math_g1_t2_2024
+points:
+- point_id: math-g1-t2-u01-p01
+  unit_id: unit-01
+  lesson_id: math-g1-t2-u01-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 认识五种平面图形并辨认其名称
+  learning_objectives:
+  - 能辨认长方形、正方形、三角形、平行四边形、圆，并说出名称
+  - 能从身边物体的面上找到相应的平面图形
+  applicable_question_types:
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P1
+    - P2
+    anchor_text: P1「认识平面图形」列出长方形、三角形、正方形、平行四边形、圆，并问「说一说你身边哪些物体的面是上面这些形状的」；P2「涂一涂」「在钉板上围一围」。
+  teaching_boundary:
+    scope_allowed:
+    - 五种平面图形的辨认与命名
+    - 从实物表面找出平面图形
+    scope_excluded:
+    - 图形的边、角特征的量化描述
+    - 周长与面积计算
+- point_id: math-g1-t2-u01-p02
+  unit_id: unit-01
+  lesson_id: math-g1-t2-u01-l02
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 平面图形的拼组与分割
+  learning_objectives:
+  - 能用同样的图形拼出新的平面图形，体会图形之间的关系
+  - 能把一个图形分成几个图形，说出分的方法
+  applicable_question_types:
+  - choice
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P3
+    anchor_text: P3「拼一拼」：「用2个同样的长方形可以拼成一个新的长方形……」「用2个同样的三角形可以拼成一个平行四边形……」；「试一试」：将一张正方形的纸对折后沿虚线剪开，你发现了什么？
+  teaching_boundary:
+    scope_allowed:
+    - 用同样图形拼组新图形
+    - 把一个图形分成几个图形
+    scope_excluded:
+    - 图形面积的计算
+    - 轴对称图形的系统认识
+- point_id: math-g1-t2-u01-p03
+  unit_id: unit-01
+  lesson_id: math-g1-t2-u01-l03
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 用七巧板拼图与图形推理
+  learning_objectives:
+  - 认识七巧板由 7 块板组成，知道其中有哪些图形
+  - 能用七巧板拼出三角形、长方形、正方形等指定图形
+  applicable_question_types:
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P4
+    anchor_text: P4：「用一套七巧板拼三角形。」「我用2个同样的三角形拼成了一个新的三角形。」「用2个三角形和1个正方形也可以拼出三角形。」「一套七巧板有7块，其中有1个……1个……」
+  teaching_boundary:
+    scope_allowed:
+    - 七巧板的组成与拼图
+    - 说出拼图所用的图形
+    scope_excluded:
+    - 七巧板各块面积的比例关系
+    - 按给定轮廓精确拼摆（高难）
+- point_id: math-g1-t2-u01-p04
+  unit_id: unit-01
+  lesson_id: math-g1-t2-u01-l04
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 整理复习：平面图形与立体图形的联系
+  learning_objectives:
+  - 能从立体图形上找到平面图形，体会「面在体上」
+  - 能整理本单元学过的平面图形及其关系
+  applicable_question_types:
+  - choice
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P5
+    - P6
+    - P7
+    anchor_text: P5「整理和复习」：「我从立体图形上找到了这些平面图形。」「一个平面图形可以分成几个平面图形……」「用几个平面图形可以拼成一个新的平面图形。」
+  teaching_boundary:
+    scope_allowed:
+    - 从立体图形上找出平面图形
+    - 梳理图形的分与合关系
+    scope_excluded:
+    - 立体图形的体积计算
+    - 平面图形的面积计算
+- point_id: math-g1-t2-u01-p05
+  unit_id: unit-01
+  lesson_id: math-g1-t2-u01-l04
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 综合运用：用图形拼出图案并计数（思考题）
+  learning_objectives:
+  - 能用学过的图形拼出有创意的图案，并数出各图形的个数
+  - 能解决「把一个图形剪成大小相等的两部分」这类开放性问题
+  applicable_question_types:
+  - reading
+  - writing
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P6
+    - P7
+    anchor_text: P6「练一练」：在点子图上画出学过的图形；「缺了（　）块」；P7「练一练」：用七巧板拼出喜欢的图案；「把一张长方形的纸剪成大小相等的两部分，你能想出哪些剪法？」
+  teaching_boundary:
+    scope_allowed:
+    - 用图形拼图案并计数
+    - 开放式剪法探究（说出至少两种）
+    scope_excluded:
+    - 图形面积的计算与等分面积证明

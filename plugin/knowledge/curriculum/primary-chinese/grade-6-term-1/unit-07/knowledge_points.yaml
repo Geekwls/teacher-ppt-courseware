@@ -1,0 +1,60 @@
+unit_id: unit-07
+source_id: pep_chinese_g6_t1_2024
+points:
+- point_id: chi-g6-t1-u07-p01
+  unit_id: unit-07
+  lesson_id: chi-g6-t1-u07-l01
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 用具体事例说明观点
+  learning_objectives:
+  - 能体会文章是怎样用具体事例说明观点的
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P97
+    - P98
+    - P100
+    anchor_text: 单元起始页 P97 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《两小儿辩日》《曹冲称象》
+    - 《表里的生物》《他们那时候多有趣啊》
+    scope_excluded:
+    - 科学史研究
+    - 论证逻辑
+- point_id: chi-g6-t1-u07-p02
+  unit_id: unit-07
+  lesson_id: chi-g6-t1-u07-l01
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 展开想象写科幻故事
+  learning_objectives:
+  - 能展开想象写一个科幻故事
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P106
+    - P107
+    anchor_text: 单元起始页 P106 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 想象要基于科学
+    - 故事要有完整情节
+    scope_excluded:
+    - 科幻文学创作
+    - 科学想象力的培养

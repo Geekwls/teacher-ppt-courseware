@@ -1,0 +1,17 @@
+unit_id: unit-01
+unit_name: Unit 1 Amazing landmarks
+subject: english
+edition: 人教版PEP(2024年审定版)
+grade: 6
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: verified
+source_id: pep_english_g6_t1_2024
+teaching_reference_source_id: pep_english_g6_t1_tr_2024
+page_range: P2-P13
+curriculum_standard_ref: 义务教育英语课程标准（2022年版）二级目标与要求
+page_evidence_note:
+- 页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语六年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 7（前段，PDF#9 = 印刷 P2）；本册可读印刷页区间为 P2–P43 与 P46–P54（P44–P45 缺页）。本单元真实版面为 P2–P13（Unit 1 起始页 P2「Amazing landmarks / Why do we travel to different places?」；P4 Let's talk：Zhang Peng is talking with John.；P5 Let's learn：Photo show —— 55 kilometres / >8,700 rooms / >1,600 stops；P6 Let's talk：Amy went to Hainan. The weather was good in Guiyang.；P7 Let's learn：famous for peaches / >1,800 years old；P8 Read and write：Look at the text. Where could you find this? What does "Reviews" mean? Flights / Trains / Hotels；P12–P13 Reading time：Landmarks you shouldn't miss! / On Easter Island, I saw huge statues called Moai.），**全部落在可读区间内**，故记为 verified。
+unit_overview: 本单元围绕大问题「Why do we travel to different places?」展开。教材通过「分享旅行经历」「介绍著名地标」「阅读旅行评论」等情境，引导学生学会用一般过去时谈论旅行经历（Where did you go? I went to …），用 be famous for / … years old 等描述地标，并区分事实（Fact）与观点（Opinion）。
+numeric_upper_bound: 100000

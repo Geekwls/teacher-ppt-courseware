@@ -1,0 +1,79 @@
+unit_id: unit-03
+blueprints:
+- blueprint_id: bp-chi-g2-t2-u03-standard
+  title: 第三单元 识字标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、看拼音写词语
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 2
+    item_count: 6
+    target_points:
+    - chi-g2-t2-u03-p01
+    - chi-g2-t2-u03-p04
+    guidelines: 借助拼音写出本单元的重点词语。
+  - slot_id: slot-02
+    section: 二、填一填（偏旁与字义）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 2
+    item_count: 5
+    target_points:
+    - chi-g2-t2-u03-p03
+    - chi-g2-t2-u03-p04
+    guidelines: 填写贝字旁、火字旁、四点底的字并说明与什么有关。
+  - slot_id: slot-03
+    section: 三、连一连（节日与习俗、美食与方法）
+    question_type: match
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - chi-g2-t2-u03-p02
+    - chi-g2-t2-u03-p04
+    guidelines: 把传统节日与习俗、美食与烹饪方法连线。
+  - slot_id: slot-04
+    section: 四、选一选（形近字）
+    question_type: choice
+    difficulty: variation
+    points_per_item: 2
+    item_count: 4
+    target_points:
+    - chi-g2-t2-u03-p05
+    guidelines: 选出「霄／宵／削」「赔／陪／培」中用得恰当的字。
+  - slot_id: slot-05
+    section: 五、读一读，背一背
+    question_type: reading
+    difficulty: variation
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - chi-g2-t2-u03-p01
+    - chi-g2-t2-u03-p02
+    guidelines: 背诵《神州谣》《传统节日》与十二生肖。
+  - slot_id: slot-06
+    section: 六、读一读，说一说（节日排序）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 5
+    item_count: 2
+    target_points:
+    - chi-g2-t2-u03-p02
+    guidelines: 按时间顺序排列传统节日并说明理由。
+  - slot_id: slot-07
+    section: 七、写话与表达
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 5
+    item_count: 6
+    target_points:
+    - chi-g2-t2-u03-p01
+    guidelines: 结合单元主题写一两句话（不会写的字可用拼音代替），注意语句通顺、标点正确。

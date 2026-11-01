@@ -1,0 +1,148 @@
+unit_id: unit-01
+source_id: pep_chinese_g4_t1_2024
+points:
+- point_id: chi-g4-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: chi-g4-t1-u01-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 边读边想象画面
+  learning_objectives:
+  - 能根据文章的描写想象画面，感受自然之美
+  - 能调动多种感官（看、听、闻）想象文章描绘的情景
+  applicable_question_types:
+  - reading
+  - fill_blank
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P5
+    - P6
+    - P11
+    anchor_text: P11 交流平台：「我能根据文章中的描写想象画面。如读《繁星》，我仿佛看到了满天繁星的样子。」「我还能想象文章中描写的声音。如读《观潮》，我似乎听到了震耳欲聋的潮水声。」「读文章，我还能「闻」到味道……」
+  teaching_boundary:
+    scope_allowed:
+    - 根据描写想象画面
+    - 调动多种感官想象
+    - 用语言描述想象到的画面
+    scope_excluded:
+    - 文学鉴赏理论的系统讲解
+    - 意象分析的专业术语
+- point_id: chi-g4-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: chi-g4-t1-u01-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 抓住景物的特点与描写顺序
+  learning_objectives:
+  - 能说出《观潮》的描写顺序（潮来前—潮来时—潮头过后）
+  - 能找出描写景物特点的关键词句并体会其表达效果
+  applicable_question_types:
+  - reading
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P2
+    - P3
+    - P4
+    anchor_text: P2–P4：《观潮》按「潮来前（江面很平静）—潮来时（白线→白浪翻滚→犹如千万匹白色战马）—潮头过后（余波还在漫天卷地般涌来）」的顺序描写。P3 课后题：「说说课文是按照什么顺序描写钱塘江大潮的。」
+  teaching_boundary:
+    scope_allowed:
+    - 说出描写顺序
+    - 找出景物特点的关键词句
+    - 体会比喻等表达效果
+    scope_excluded:
+    - 写景散文的章法分析
+    - 叙事学的顺序理论
+- point_id: chi-g4-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: chi-g4-t1-u01-l04
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 积累描写声音与景象的词语
+  learning_objectives:
+  - 能理解并运用「人声鼎沸」等描写声音的词语
+  - 能结合语境选择恰当的词语描绘景象
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P11
+    - P12
+    anchor_text: P11 词句段运用：「读下面的词语，你想到了什么画面？人声鼎沸 震耳欲聋 锣鼓喧天 响彻云霄 鸦雀无声 低声细语 窃窃私语 悄无声息」。P12：「选一个事物（烟花、雷雨、小狗），用上两三个加点的词语描绘它」（霎时、顿时、忽然、过了一会儿、一会儿工夫）。
+  teaching_boundary:
+    scope_allowed:
+    - 理解描写声音的词语
+    - 结合语境选用词语
+    - 用词语描绘景象
+    scope_excluded:
+    - 汉语词汇学的系统讲解
+    - 修辞格的分类研究
+- point_id: chi-g4-t1-u01-p04
+  unit_id: unit-01
+  lesson_id: chi-g4-t1-u01-l04
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 体会句子的不同表达效果
+  learning_objectives:
+  - 能比较意思相同但句式不同的句子的表达效果
+  - 能把「被」字句改写为「把」字句或陈述句并保持意思不变
+  applicable_question_types:
+  - choice
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P11
+    anchor_text: P11：「读一读，体会每组句子的表达效果有什么不同。钱塘江大潮，自古以来被称为天下奇观。/ 自古以来，人们把钱塘江大潮称为天下奇观。椰子掉到水里，顺着水飘了很远，最后被海浪推到了岛上。/ 椰子掉到水里，顺着水飘了很远。最后海浪把它推到了岛上。」
+  teaching_boundary:
+    scope_allowed:
+    - 比较句式的表达效果
+    - 改写句子并保持意思不变
+    - 说明不同句式的表达差异
+    scope_excluded:
+    - 现代汉语语法的句法分析
+    - 语用学的话题结构
+- point_id: chi-g4-t1-u01-p05
+  unit_id: unit-01
+  lesson_id: chi-g4-t1-u01-l04
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 按一定顺序把推荐理由写清楚
+  learning_objectives:
+  - 能围绕「推荐一个好地方」把推荐理由写清楚、写充分
+  - 能按多个理由分段说明，做到条理清楚
+  applicable_question_types:
+  - writing
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P10
+    - P13
+    anchor_text: P10 习作《推荐一个好地方》：「你打算推荐什么地方？这个地方在哪里？它有什么特别之处？写出推荐的理由，吸引大家去看看。」「写的时候，如果有多个理由可以分段说明，还可以插入图片增加吸引力。」
+  teaching_boundary:
+    scope_allowed:
+    - 确定推荐对象并写清位置
+    - 分条写清推荐理由
+    - 按段落组织文章结构
+    scope_excluded:
+    - 广告文案的说服策略
+    - 说明文的写作规范

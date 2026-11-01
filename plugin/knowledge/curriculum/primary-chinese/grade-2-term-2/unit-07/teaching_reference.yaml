@@ -1,0 +1,32 @@
+unit_id: unit-07
+source_id: pep_chinese_g2_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t2-u07-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「大象为什么又把耳朵放下来」为线索理解「人家是人家，我是我」
+    difficulty: 学生易把蜘蛛三次开店的顾客（河马、长颈鹿、蜈蚣）与招牌对应错
+    typical_misconceptions:
+    - error_pattern: 把顾客与招牌对应错
+      misconception_type: 内容对应错误
+    - error_pattern: 说不出大象的耳朵「竖起来」又「放下来」的原因
+      misconception_type: 主旨理解不到位
+  variation_strategy:
+  - 朗读课文并说出蜘蛛开店的过程
+  - 说说「人家是人家，我是我」的意思
+- point_id: chi-g2-t2-u07-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「泥塘为什么越变越好」与「小毛虫为什么最后能飞」两条线索引导体会「努力与改变」
+    difficulty: 学生易把青蛙改造泥塘的先后顺序弄乱
+    typical_misconceptions:
+    - error_pattern: 把改造泥塘的顺序弄乱
+      misconception_type: 情节顺序错误
+    - error_pattern: 说不出小毛虫变成蝴蝶的过程
+      misconception_type: 内容提取不全
+  variation_strategy:
+  - 按顺序说说青蛙改造泥塘的过程
+  - 说说小毛虫的经历给我们的启示

@@ -1,0 +1,117 @@
+unit_id: unit-02
+source_id: pep_english_g5_t1_2024
+points:
+- point_id: eng-g5-t1-u02-p01
+  unit_id: unit-02
+  lesson_id: eng-g5-t1-u02-l01
+  subject: english
+  grade: 5
+  term: term-1
+  point_name: 表达情感的形容词
+  learning_objectives:
+  - 能听懂、说出常见情感词汇（excited, worried, happy, angry, sad）
+  - 能用 He/She is … 描述他人的情绪
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g5_t1_2024
+    page_ref:
+    - P15
+    - P17
+    anchor_text: P15：「Draw faces that show different feelings.」P17：「Fido is excited. Mike is worried.」
+  teaching_boundary:
+    scope_allowed:
+    - 表达情感的形容词
+    - 用 is 描述情绪
+    - 根据表情判断情绪
+    scope_excluded:
+    - 情绪心理学的基本分类
+    - 英语情感词汇语义
+- point_id: eng-g5-t1-u02-p02
+  unit_id: unit-02
+  lesson_id: eng-g5-t1-u02-l02
+  subject: english
+  grade: 5
+  term: term-1
+  point_name: 询问与表达感受
+  learning_objectives:
+  - 能用 How do you feel? / I'm … 询问与表达感受
+  - 能用 What's the matter? 询问对方的情况
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g5_t1_2024
+    page_ref:
+    - P16
+    - P19
+    anchor_text: P16：「John is talking with his mum.」P19：「How can we understand each other better?」
+  teaching_boundary:
+    scope_allowed:
+    - 询问感受的问句
+    - 表达感受的答句
+    - What's the matter? 的用法
+    scope_excluded:
+    - 交际中的情感表达
+    - 英语疑问句句型
+- point_id: eng-g5-t1-u02-p03
+  unit_id: unit-02
+  lesson_id: eng-g5-t1-u02-l03
+  subject: english
+  grade: 5
+  term: term-1
+  point_name: 理解他人与寻求帮助
+  learning_objectives:
+  - 能用英语说出理解他人、寻求帮助的方式
+  - 能用 You can … 给别人提建议
+  applicable_question_types:
+  - reading
+  - choice
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g5_t1_2024
+    page_ref:
+    - P20
+    - P21
+    anchor_text: P20：「You can talk to your parents. You can ask your teacher for help. You need to listen to…」P21：「I am happy at school. I have many friends. I play with them in the playground, and we share…」
+  teaching_boundary:
+    scope_allowed:
+    - 用 You can … 提建议
+    - 理解他人的情绪
+    - 表达学校生活与友谊
+    scope_excluded:
+    - 社会情感学习（SEL）
+    - 人际沟通技巧
+- point_id: eng-g5-t1-u02-p04
+  unit_id: unit-02
+  lesson_id: eng-g5-t1-u02-l04
+  subject: english
+  grade: 5
+  term: term-1
+  point_name: 字母组合 ee / ea 的发音
+  learning_objectives:
+  - 能掌握字母组合 ee / ea 的发音 /iː/
+  - 能拼读含 ee / ea 的例词并区分两种拼写
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g5_t1_2024
+    page_ref:
+    - P18
+    anchor_text: P18 Let's spell：ee / ea —— A sheep meets a friendly bee. It is so happy to see the bee.
+  teaching_boundary:
+    scope_allowed:
+    - ee / ea 的发音 /iː/
+    - 含 ee / ea 的例词拼读
+    - 按发音归类单词
+    scope_excluded:
+    - 自然拼读教学法
+    - 英语元音组合

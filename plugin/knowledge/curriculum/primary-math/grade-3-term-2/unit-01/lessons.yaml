@@ -1,0 +1,60 @@
+lessons:
+  - lesson_id: "math-g3-t2-u01-l01"
+    unit_id: "unit-1"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 1
+    lesson_name: "第1课时 认识轴对称图形"
+    page_range: "P1-P3"
+    official_examples:
+      - "例1：观察树叶、风筝、蜻蜓，对折后能完全重合的图形是轴对称图形。"
+      - "试一试：长方形对折有2条对称轴，正方形对折有4条对称轴。"
+
+  - lesson_id: "math-g3-t2-u01-l02"
+    unit_id: "unit-1"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 2
+    lesson_name: "第2课时 认识对称轴与对称图形剪纸"
+    page_range: "P3-P4"
+    official_examples:
+      - "例2：沿着一条虚线对折能够完全重合，折痕所在的直线叫作对称轴。"
+      - "做一做：用折纸、画半边图剪出美丽的轴对称图案（衣服、松树、雪花）。"
+
+  - lesson_id: "math-g3-t2-u01-l03"
+    unit_id: "unit-1"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 3
+    lesson_name: "第3课时 认识平移现象与方格图平移距离"
+    page_range: "P5-P6"
+    official_examples:
+      - "例3：滑滑梯、缆车沿索道上升、推拉窗移动，物体沿直线运动且方向不变，是平移。"
+      - "做一做：小房子在方格纸上向右平移6格，通过找对应点（顶点）确定平移距离。"
+
+  - lesson_id: "math-g3-t2-u01-l04"
+    unit_id: "unit-1"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 4
+    lesson_name: "第4课时 认识旋转现象"
+    page_range: "P7-P8"
+    official_examples:
+      - "例4：风车转动、钟面指针转动、旋转木马，物体绕一个固定点或轴转动，是旋转。"
+      - "做一做：方向盘转动是旋转，直升机螺旋桨转动是旋转。"
+
+  - lesson_id: "math-g3-t2-u01-l05"
+    unit_id: "unit-1"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 5
+    lesson_name: "第5课时 单元练习一与实践活动"
+    page_range: "P8-P9"
+    official_examples:
+      - "练习一第3题：判断物体的运动是平移还是旋转。"
+      - "练习一第5题：找出常见的轴对称汉字（如『中、日、田、木、王』）和英文字母（如『A、M、H、O』）。"

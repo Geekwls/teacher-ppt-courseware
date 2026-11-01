@@ -1,0 +1,60 @@
+unit_id: unit-05
+source_id: pep_math_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g5-t1-u05-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「年龄差不变」这一学生熟悉的关系为起点，让学生体会字母 a 既能表示一个具体的数，也能表示变化的量，从而完成「数→式」的抽象
+    difficulty: 学生易把「a+25」中的 a 只当成一个具体数；易把「求值」与「解方程」混淆
+    typical_misconceptions:
+    - error_pattern: 字母只被当成具体数
+      misconception_type: 抽象层次不足
+    - error_pattern: 代入求值时算错
+      misconception_type: 计算错误
+  variation_strategy:
+  - 用含字母的式子表示数量关系并代入求值
+  - 根据给定的式子说出它的含义
+- point_id: math-g5-t1-u05-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「以前学过的东西能不能用字母写得更简洁」这一追问，引导学生把已学的运算律与公式统一为字母表达，体会字母表示的简洁与一般
+    difficulty: 学生易把 a×b×c 写成 a·b·c 又混淆点与小数点；易把 a+a 写成 a²
+    typical_misconceptions:
+    - error_pattern: 把 a+a 写成 a²
+      misconception_type: 乘方意义混淆
+    - error_pattern: 省略乘号时数字与字母顺序写反
+      misconception_type: 书写规范不熟
+  variation_strategy:
+  - 用字母表示运算律与公式
+  - 按规范书写含字母的乘法式子
+- point_id: math-g5-t1-u05-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「列表找规律」→「用字母概括」的两步走，让学生从具体数据中抽象出一般规律，再用具体数值验证（如 m=4 时 n=10）
+    difficulty: 学生易只找到相邻两项的差而不能写出通项；易把「2+2m」写成「2+2×m」后不会化简
+    typical_misconceptions:
+    - error_pattern: 只描述变化说不出通项
+      misconception_type: 抽象不足
+    - error_pattern: 通项公式写错系数
+      misconception_type: 规律概括错误
+  variation_strategy:
+  - 用含字母的式子表示图形规律
+  - 写出数列的第 n 个数并求值
+- point_id: math-g5-t1-u05-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「标准体重公式」「列车行驶路程」等真实情境，让学生体会用字母表示关系后可以「一个式子解决一类问题」
+    difficulty: 学生易在代入时漏掉单位；易把「当 a=…时」的求值与列式割裂
+    typical_misconceptions:
+    - error_pattern: 代入时漏掉单位
+      misconception_type: 单位意识薄弱
+    - error_pattern: 列式与求值脱节
+      misconception_type: 过程不完整
+  variation_strategy:
+  - 用含字母的式子表示实际问题的数量关系并求值
+  - 根据结果回答实际问题

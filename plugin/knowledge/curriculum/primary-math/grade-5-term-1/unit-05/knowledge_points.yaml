@@ -1,0 +1,120 @@
+unit_id: unit-05
+source_id: pep_math_g5_t1_2024
+points:
+- point_id: math-g5-t1-u05-p01
+  unit_id: unit-05
+  lesson_id: math-g5-t1-u05-l01
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 用含字母的式子表示数量关系
+  learning_objectives:
+  - 能用含字母的式子表示两个量之间的数量关系
+  - 能根据给定的字母取值求式子的值
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P55
+    - P56
+    anchor_text: P55：爸爸比小红大 25 岁，用小红的年龄 a 表示爸爸的年龄：a+25；b=a+25。P56：当 a=11 时，b=a+25=36；当 b=57 时，a=b−25=32。「a+25 既可以表示爸爸的年龄，也可以表示小红和爸爸年龄的关系。」
+  teaching_boundary:
+    scope_allowed:
+    - 用含字母的式子表示数量关系
+    - 代入求值
+    - 说明式子表示的含义
+    scope_excluded:
+    - 函数关系与自变量、因变量
+    - 代数式的形式化表示
+- point_id: math-g5-t1-u05-p02
+  unit_id: unit-05
+  lesson_id: math-g5-t1-u05-l02
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 用字母表示运算律、公式与等式的性质
+  learning_objectives:
+  - 能用字母表示已学的运算律、周长面积公式与等式的性质
+  - 能按规范书写含字母的乘法式子（省略乘号、数字在前、a²）
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P58
+    - P59
+    - P60
+    anchor_text: P59：加法交换律 p+q=q+p；乘法分配律 a×(b+c)=a×b+a×c；正方形 C=4a、S=a×a；长方形 C=2(a+b)、S=ab。P60：等式的性质「如果 a=b，那么 a+c=b+c，a−c=b−c，ac=bc，a÷c=b÷c（c≠0）」。「用字母表示运算律、公式和等式的性质，简明易记，便于应用。」
+  teaching_boundary:
+    scope_allowed:
+    - 用字母表示运算律与公式
+    - 规范书写含字母的式子
+    - 用字母表示等式的性质
+    scope_excluded:
+    - 代数学中运算律的公理化
+    - 群、环、域的结构
+- point_id: math-g5-t1-u05-p03
+  unit_id: unit-05
+  lesson_id: math-g5-t1-u05-l03
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 用含字母的式子表示规律
+  learning_objectives:
+  - 能用含字母的式子表示图形或数列中的规律
+  - 能说明式子中各部分对应的实际意义
+  applicable_question_types:
+  - reading
+  - writing
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P65
+    - P66
+    - P67
+    anchor_text: P65：m 张桌子拼在一起可坐（2+2m）人，n=2+2m（m=4 时 n=10）。P66：s=320(a+b)=320a+320b。P67：第 n 个数（1，3，5，7，…→2n−1；1，4，9，16，…→n²）。P70 百数表：用 a 表示左上角的数，右面是 a+1，下面是 a+10。
+  teaching_boundary:
+    scope_allowed:
+    - 用含字母的式子表示规律
+    - 说明式子中每部分的实际意义
+    - 由规律求特定项的值
+    scope_excluded:
+    - 数列的通项公式
+    - 数学归纳法
+- point_id: math-g5-t1-u05-p04
+  unit_id: unit-05
+  lesson_id: math-g5-t1-u05-l03
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 用含字母的式子解决实际问题
+  learning_objectives:
+  - 能用含字母的式子表示实际问题中的数量关系并求解
+  - 能根据问题的需要把已知数值代入式子求值
+  applicable_question_types:
+  - reading
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P62
+    - P63
+    - P66
+    anchor_text: P62：标准体重=身高−105，刘叔叔身高 a cm，标准体重是（a−105）kg。P66：列车从甲站到丙站行驶的路程 s=320(a+b)，当 a=2、b=3 时，s=320×(2+3)=1600（km）。
+  teaching_boundary:
+    scope_allowed:
+    - 用含字母的式子表示实际问题的数量关系
+    - 代入求值
+    - 根据结果解释实际意义
+    scope_excluded:
+    - 建模思想在物理化学中的应用
+    - 量纲分析

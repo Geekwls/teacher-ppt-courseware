@@ -1,0 +1,21 @@
+unit_id: "unit-8"
+unit_number: 8
+unit_name: "第八单元 复习与关联"
+subject: "math"
+edition: "人教版"
+grade: 3
+term: "term-2"
+version: "2026.10.1"
+updated_at: "2026-10-09"
+verification_status: "verified"
+source_id: "pep_math_g3_t2_2024"
+teaching_ref_source_id: "pep_math_g3_t2_tr_2026"
+page_range: "P95-P104"
+numeric_upper_bound: 10000
+curriculum_standard_ref: "义务教育数学课程标准（2022年版）第二学段综合复习与知识结构化"
+unit_overview: >
+  本单元是三年级下册的期末总复习与知识结构化关联单元。
+  通过对全册四个领域（数与代数、图形与几何、统计与概率、综合与实践）进行系统梳理与建构，
+  深化学生对核心概念与算法算理的理解：
+  沟通除数是一位数的除法与小数加减法的联系；深刻对比周长与面积的本质差异；
+  融通运动变换与空间观念；提升综合运用数学知识解决复杂实际问题的能力。

@@ -1,0 +1,5 @@
+# 统一换行符:源码与文档一律 LF,避免跨平台 diff 噪音
+* text=auto eol=lf
+*.pptx binary
+*.png binary
+*.jpg binary

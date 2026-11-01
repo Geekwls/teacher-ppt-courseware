@@ -1,0 +1,46 @@
+unit_id: unit-05
+source_id: pep_math_g1_t1_tr_2024
+ref_page_note: ''
+teaching_references:
+- point_id: math-g1-t1-u05-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「分一分、摸一摸、滚一滚」的实物操作建立立体图形的直观表象
+    difficulty: 把正方体与长方体混淆（认为方方正正的都是正方体）
+    typical_misconceptions:
+    - error_pattern: 把长方体说成正方体
+      misconception_type: 特征辨别不清
+    - error_pattern: 只认标准摆放的图形，旋转后认不出球以外的图形
+      misconception_type: 空间表象僵化
+  variation_strategy:
+  - 给一堆实物分类并说出分类标准
+  - 闭眼摸一摸，说出摸到的是什么立体图形
+- point_id: math-g1-t1-u05-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在搭一搭的活动中体会图形的稳定性与可滚动性
+    difficulty: 搭高时选错图形导致倒塌，说不出原因
+    typical_misconceptions:
+    - error_pattern: 把球放在底部搭高
+      misconception_type: 未考虑滚动特性
+    - error_pattern: 拼搭后不能按形状分类计数
+      misconception_type: 分类计数不熟练
+  variation_strategy:
+  - 用同一组图形搭出两种不同的造型并说明理由
+  - 判断哪种搭法更稳，并说出依据
+- point_id: math-g1-t1-u05-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 由实物到图形的抽象过程是空间观念发展的重要一步
+    difficulty: 把「近似」当成「完全相同」，如把易拉罐说成长方体
+    typical_misconceptions:
+    - error_pattern: 把近似圆柱的物体说成球
+      misconception_type: 抽象过度或不足
+    - error_pattern: 只能说出图形名称，不能说出判断依据
+      misconception_type: 依据意识薄弱
+  variation_strategy:
+  - 从教室里找出各种立体图形的实物并说明判断依据
+  - 给实物图连线到对应的立体图形

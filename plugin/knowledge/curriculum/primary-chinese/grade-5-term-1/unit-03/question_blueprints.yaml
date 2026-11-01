@@ -1,0 +1,68 @@
+unit_id: unit-03
+blueprints:
+- blueprint_id: bp-chi-g5-t1-u03-standard
+  title: 第三单元 民间故事标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、字词积累
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 8
+    target_points:
+    - chi-g5-t1-u03-p01
+    guidelines: 看拼音写词语、多音字辨析。
+  - slot_id: slot-02
+    section: 二、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - chi-g5-t1-u03-p01
+    - chi-g5-t1-u03-p02
+    guidelines: 判断故事情节与复述方法。
+  - slot_id: slot-03
+    section: 三、复述练习
+    question_type: writing
+    difficulty: variation
+    points_per_item: 6
+    item_count: 3
+    target_points:
+    - chi-g5-t1-u03-p02
+    guidelines: 把简略的情节说得更具体。
+  - slot_id: slot-04
+    section: 四、积累与运用
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - chi-g5-t1-u03-p01
+    guidelines: 词语搭配、按要求写句子。
+  - slot_id: slot-05
+    section: 五、阅读理解
+    question_type: reading
+    difficulty: variation
+    points_per_item: 8
+    item_count: 2
+    target_points:
+    - chi-g5-t1-u03-p01
+    - chi-g5-t1-u03-p04
+    guidelines: 读片段，梳理情节并为图配文。
+  - slot_id: slot-06
+    section: 六、习作
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 12
+    item_count: 1
+    target_points:
+    - chi-g5-t1-u03-p03
+    guidelines: 按照自己的想法新编故事。

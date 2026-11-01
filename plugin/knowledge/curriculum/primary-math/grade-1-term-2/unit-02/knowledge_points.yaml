@@ -1,0 +1,118 @@
+unit_id: unit-02
+source_id: pep_math_g1_t2_2024
+points:
+- point_id: math-g1-t2-u02-p01
+  unit_id: unit-02
+  lesson_id: math-g1-t2-u02-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 十几减 9：破十法与想加算减
+  learning_objectives:
+  - 理解「十几减9」的算理，会用「破十法」计算（先把十几分成 10 和几，10 减 9 再加几）
+  - 会用「想加算减」的方法（想 9 加几等于十几）计算
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P9
+    - P10
+    - P11
+    anchor_text: P9「十几减9」：「原来有15个气球，送出9个。」「15−9=6：10−9=1，5+1=6。」「想：9加几等于15？」「15−9=6：15−5=10，10−4=6。」
+  teaching_boundary:
+    scope_allowed:
+    - 用破十法或想加算减计算十几减 9
+    - 说出计算过程
+    scope_excluded:
+    - 20 以外的退位减法
+    - 两位数减两位数的竖式
+- point_id: math-g1-t2-u02-p02
+  unit_id: unit-02
+  lesson_id: math-g1-t2-u02-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 十几减 8、7、6 的算法迁移
+  learning_objectives:
+  - 能用破十法或想加算减正确计算十几减 8、7、6
+  - 能发现「减数越大，得数越小」等规律并用于检查
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P12
+    - P13
+    - P14
+    anchor_text: P12「十几减8、7、6」：「一共有12个风车，我们要8个。」「12−8=4：想 8 加几等于 12？」；P13「7+6=13，13−7=6，13−6=7」「13条鱼，黑的有7条，红的有几条？」
+  teaching_boundary:
+    scope_allowed:
+    - 十几减 8、7、6 的计算
+    - 由加法算式推出相应的减法得数
+    scope_excluded:
+    - 十几减 5、4、3、2（本单元后续课时）
+    - 退位减法的竖式
+- point_id: math-g1-t2-u02-p03
+  unit_id: unit-02
+  lesson_id: math-g1-t2-u02-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 十几减 5、4、3、2 与算法比较
+  learning_objectives:
+  - 能正确计算十几减 5、4、3、2
+  - 能在多种算法中比较、选择自己熟练的方法
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P15
+    - P16
+    - P17
+    anchor_text: 本单元 P15–P17 为「十几减5、4、3、2」，**超出用户提供电子课本的可读区间（P1–P14）**，课时页界与例题原文待实物核验；范围依课本目录登记的单元版面 P8–P22 与教材通行编排推定。
+  teaching_boundary:
+    scope_allowed:
+    - 十几减 5、4、3、2 的计算
+    - 比较不同算法并择优
+    scope_excluded:
+    - 20 以外退位减法
+    - 带括号的算式
+- point_id: math-g1-t2-u02-p04
+  unit_id: unit-02
+  lesson_id: math-g1-t2-u02-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 用 20 以内退位减法解决实际问题
+  learning_objectives:
+  - 能在情境中识别「已知总数与一部分，求另一部分」的数量关系
+  - 能列式解答并口答，会检验结果
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P11
+    - P18
+    - P19
+    - P20
+    - P21
+    - P22
+    anchor_text: P11「思考题」：下面有10面小旗，在相邻两面之间各插一面，一共可以插多少面？（单元后段 P18–P22 的整理和复习超出可读区间，凭证待补。）
+  teaching_boundary:
+    scope_allowed:
+    - 求另一部分用减法的实际问题
+    - 读题—列式—计算—口答的完整过程
+    scope_excluded:
+    - 两步问题
+    - 求相差数（后续单元）

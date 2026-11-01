@@ -1,0 +1,178 @@
+unit_id: "unit-1"
+source_id: "pep_chinese_g3_t1_2024"
+points:
+  - point_id: "chi-g3-t1-u01-p01"
+    unit_id: "unit-1"
+    lesson_id: "chi-g3-t1-u01-l01"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "看拼音写生字与词语规范书写（田字格核心）"
+    learning_objectives:
+      - "掌握本单元生字的标准读音、笔画笔顺与间架结构，能在田字格中工整规范书写"
+      - "能根据标准带声调拼音，正确默写出核心词语（如坪坝、绒球、飘扬、凤尾竹、洁白、粗壮、轰响、湿润、荒野、笛声、放假、背诵、糊里糊涂、戒尺、详细、挨打）"
+      - "注意易错笔画：『绒』左边绞丝旁窄长；『扬』右边是『昜』不要写成『易』；『荒』中间是『亡』不要多写点；『假』右上是『コ』加两横"
+    applicable_question_types: ["writing", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P4", "P6", "P8"]
+      anchor_text: >
+        2024 版课本识字表/写字表（据课本页面整理，全表以课本附录为准）：
+        《大青树下的小学》会认字 坝、绒、傣、颇、昂、德、跤、疆、耍、凤、墙、晃；会写字 坡、招、球、呼、扬、读、热、闹、洁、粗、飘、壮；
+        《花的学校》会认字 轰、湿、荒、笛、罚、假、臂、簌；会写字 轰、润、湿、笛、功、狂、罚、碰、互、急、黄；
+        《不懂就要问》会认字 私、塾、诵、例、糊、戒、厉、详、挨。
+    teaching_boundary:
+      scope_allowed:
+        - "田字格考查生字：坡、招、球、呼、扬、读、热、闹、洁、粗、飘、壮、轰、润、湿、笛、功、狂、罚、碰、互、急、黄"
+        - "看拼音写词语：坪坝(píng bà)、绒球(róng qiú)、飘扬(piāo yáng)、洁白(jié bái)、粗壮(cū zhuàng)、湿润(shī rùn)、荒野(huāng yě)、放假(fàng jià)、背诵(bèi sòng)、详细(xiáng xì)"
+      scope_excluded:
+        - "超出三年级上册第一单元范围的生僻汉字"
+        - "未在本单元课文中出现的字词"
+
+  - point_id: "chi-g3-t1-u01-p02"
+    unit_id: "unit-1"
+    lesson_id: "chi-g3-t1-u01-l01"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "多音字辨析与语境选音（假、晃、挨、背、圈、觉）"
+    learning_objectives:
+      - "准确辨析本单元核心多音字在不同语境中的读音与含义"
+      - "能在词语和句子中根据语义给加点字选择正确读音，并用打『√』或选择形式作答"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P3", "P6", "P7", "P8"]
+      anchor_text: "课文语境及识字表：假（jiǎ 假话 / jià 放假）、晃（huàng 摇晃 / huǎng 晃眼）、挨（āi 挨着 / ái 挨打）、背（bēi 背包 / bèi 背诵）、圈（quān 圆圈 / juàn 羊圈）、觉（jué 觉得 / jiào 睡觉）"
+    teaching_boundary:
+      scope_allowed:
+        - "假：jiǎ（假话、真假） / jià（放假、假期）"
+        - "晃：huàng（摇晃、晃动） / huǎng（晃眼、明晃晃）"
+        - "挨：āi（挨着、挨个儿） / ái（挨打、挨饿）"
+        - "背：bēi（背包、背着） / bèi（背诵、后背）"
+        - "圈：quān（圆圈、圈出） / juàn（羊圈、猪圈）"
+        - "觉：jué（觉得、感觉） / jiào（睡觉、午觉）"
+      scope_excluded:
+        - "冷僻古音与超出本册范围的多音字"
+
+  - point_id: "chi-g3-t1-u01-p03"
+    unit_id: "unit-1"
+    lesson_id: "chi-g3-t1-u01-l02"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "关注有新鲜感的词语和句子（单元核心语文要素）"
+    learning_objectives:
+      - "能找出课文中把事物当成人来写、表达生动新鲜的词句，体会其表达效果"
+      - "能联系上下文或生活经验理解新鲜词句的意思，如『湿润的东风走过荒野，在竹林中吹着风笛』『树枝在林中互相碰触着……雷云拍着大手』"
+      - "能照样子仿写一两个有新鲜感的句子"
+    applicable_question_types: ["reading", "fill_blank", "choice"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P1", "P6", "P11"]
+      anchor_text: "单元扉页语文要素「阅读时，关注有新鲜感的词语和句子」；课后题「读一读，注意加点的部分，说说你从中体会到了什么」；语文园地一交流平台「有新鲜感的词句往往能带给我们新奇的体验和感受」。"
+    teaching_boundary:
+      scope_allowed:
+        - "识别并体会比喻、拟人等新鲜表达（如『湿润的东风走过荒野』『雷云拍着大手』）"
+        - "仿写「……一来，他们便……」「清风一吹，他们……」式的句子"
+      scope_excluded:
+        - "借喻、通感等初高中高级修辞格分析"
+
+  - point_id: "chi-g3-t1-u01-p04"
+    unit_id: "unit-1"
+    lesson_id: "chi-g3-t1-u01-l03"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "课文内容理解与人物形象感悟"
+    learning_objectives:
+      - "能概括《大青树下的小学》描写的内容，说出这所学校的特别之处"
+      - "能读懂《不懂就要问》讲了一件什么事，体会孙中山勤学好问、追求真理的品质"
+      - "能结合课文内容，用简明的语言评价人物或表达自己的看法"
+    applicable_question_types: ["reading", "fill_blank", "writing"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P4", "P7", "P8"]
+      anchor_text: "《大青树下的小学》课后题「这所学校有哪些特别的地方？用自己的话说一说」；《不懂就要问》课前提示「想想课文讲了一件什么事，谈谈你对这件事的看法」。"
+    teaching_boundary:
+      scope_allowed:
+        - "概括课文主要内容；说出学校的特别之处"
+        - "理解孙中山「不懂就要问」的故事，体会勤学好问的品质"
+      scope_excluded:
+        - "脱离课文的过度引申与主观臆断"
+
+  - point_id: "chi-g3-t1-u01-p05"
+    unit_id: "unit-1"
+    lesson_id: "chi-g3-t1-u01-l04"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "口语交际：我的暑假生活"
+    learning_objectives:
+      - "能围绕一个话题，选择别人可能感兴趣的内容，把自己的暑假经历讲清楚"
+      - "能借助图片或实物帮助表达，使讲述更清楚、更有条理"
+      - "能认真倾听同学的讲述，并作适当的回应"
+    applicable_question_types: ["writing", "reading", "choice"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P9"]
+      anchor_text: "口语交际《我的暑假生活》提示：选择别人可能感兴趣的内容讲；借助图片或实物讲。和同学交流时要把自己的经历讲清楚。"
+    teaching_boundary:
+      scope_allowed:
+        - "判断讲述内容是否清楚、是否选择了他人的兴趣点"
+        - "借助图片或实物辅助讲述的做法判断"
+      scope_excluded:
+        - "演讲技巧的高级训练与舞台表现评价"
+
+  - point_id: "chi-g3-t1-u01-p06"
+    unit_id: "unit-1"
+    lesson_id: "chi-g3-t1-u01-l04"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "习作：猜猜他是谁（抓住人物特点写）"
+    learning_objectives:
+      - "能选择一两个特别的地方，用几句话或一段话写一个同学，抓住外貌、性格、爱好等突出特点"
+      - "知道习作中不能出现人物姓名，但要让别人读了能猜出写的是谁"
+      - "掌握一段话开头空两格的书写格式"
+    applicable_question_types: ["writing", "choice", "reading"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P10"]
+      anchor_text: "习作《猜猜他是谁》：选择一个同学，用几句话或一段话写一写他。注意文中不能出现他的名字，但是要让别人读了之后能猜出你写的是谁。注意一段话的开头要空两格。"
+    teaching_boundary:
+      scope_allowed:
+        - "判断是否抓住人物特点、是否隐去姓名"
+        - "一段话开头空两格的格式判断；写一两句人物特点的片段"
+      scope_excluded:
+        - "完整记人记叙文的谋篇布局与人物刻画高级技法"
+
+  - point_id: "chi-g3-t1-u01-p07"
+    unit_id: "unit-1"
+    lesson_id: "chi-g3-t1-u01-l05"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "语文园地一：日积月累《所见》与成语积累"
+    learning_objectives:
+      - "背诵并默写古诗《所见》（[清] 袁枚）"
+      - "理解诗中『振林樾』『意欲』『捕鸣蝉』『闭口立』等词句的意思，想象牧童捕蝉的画面"
+      - "积累并理解描写人物动作、神态的成语（摇头晃脑、披头散发、张牙舞爪、提心吊胆、面红耳赤、手忙脚乱、手疾眼快、口干舌燥）"
+    applicable_question_types: ["fill_blank", "choice", "reading"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P11", "P12"]
+      anchor_text: "语文园地一词句段运用成语「摇头晃脑 披头散发 张牙舞爪 提心吊胆 面红耳赤 手忙脚乱 手疾眼快 口干舌燥」；日积月累《所见》[清]袁枚「牧童骑黄牛，歌声振林樾。意欲捕鸣蝉，忽然闭口立」。"
+    teaching_boundary:
+      scope_allowed:
+        - "《所见》全诗默写与字词理解"
+        - "8 个描写人物动作、神态成语的字形与语境运用"
+      scope_excluded:
+        - "未在教材中出现的冷门生僻成语与古诗"

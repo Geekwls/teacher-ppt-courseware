@@ -1,0 +1,15 @@
+unit_id: unit-06
+unit_name: 综合与实践 体育中的数学
+subject: math
+edition: 人教版
+grade: 6
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: partial
+source_id: pep_math_g6_t1_2024
+teaching_reference_source_id: pep_math_g6_t1_tr_2024
+page_range: P74-P78
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版人教版小学数学六年级上册电子课本》逐页实证核定：课本 PDF 共 77 页，页脚印刷页码实测偏移 = 2（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P75。本单元真实版面为 P74–P78，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。本单元**起始页 P74（单元扉页与情境导入）落在可读区间内**，已据原文取证至 P75；用户提供的电子课本 PDF 正文止于 P75，本单元 P76–P78 及后续单元（百分数 P79、水是生命之源 P101、复习与关联 P106）在该 PDF 中**缺失**，故只能按目录页登记。
+unit_overview: 综合与实践主题活动：从体育运动中发现并提出数学问题（起跑线设计、比赛分组、赛制设置、技术统计、跳水计分等），综合运用比、百分数、统计等知识解决问题。
+numeric_upper_bound: null

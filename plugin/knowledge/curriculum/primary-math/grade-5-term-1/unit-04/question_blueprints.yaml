@@ -1,0 +1,71 @@
+unit_id: unit-04
+blueprints:
+- blueprint_id: bp-math-g5-t1-u04-standard
+  title: 第四单元 图形的运动标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - math-g5-t1-u04-p01
+    - math-g5-t1-u04-p02
+    - math-g5-t1-u04-p03
+    guidelines: 填写轴对称、平移、旋转的特征与要素。
+  - slot_id: slot-02
+    section: 二、判一判
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g5-t1-u04-p01
+    - math-g5-t1-u04-p02
+    guidelines: 判断关于图形运动的说法是否正确。
+  - slot_id: slot-03
+    section: 三、画一画（轴对称与平移）
+    question_type: writing
+    difficulty: variation
+    points_per_item: 5
+    item_count: 4
+    target_points:
+    - math-g5-t1-u04-p01
+    - math-g5-t1-u04-p02
+    guidelines: 补全轴对称图形、画出平移后的图形。
+  - slot_id: slot-04
+    section: 四、画一画（旋转）
+    question_type: writing
+    difficulty: variation
+    points_per_item: 7
+    item_count: 2
+    target_points:
+    - math-g5-t1-u04-p04
+    guidelines: 画出图形绕某点旋转 90° 后的图形。
+  - slot_id: slot-05
+    section: 五、描述运动过程
+    question_type: reading
+    difficulty: variation
+    points_per_item: 8
+    item_count: 2
+    target_points:
+    - math-g5-t1-u04-p03
+    - math-g5-t1-u04-p05
+    guidelines: 描述图案或卡片中图形的运动过程。
+  - slot_id: slot-06
+    section: 六、解决问题（综合）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 10
+    item_count: 2
+    target_points:
+    - math-g5-t1-u04-p05
+    guidelines: 用图形的运动求组合图形面积或设计图案。

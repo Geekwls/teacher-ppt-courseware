@@ -1,0 +1,46 @@
+unit_id: unit-04
+source_id: pep_math_g1_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2025年春人教版教师教学用书数学一年级下册》为**纯扫描件（281 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g1-t2-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「十」为单位把整十数加减转化为 10 以内加减法
+    difficulty: 把整十数加减当作个位相加（如 30+20 算成 5）
+    typical_misconceptions:
+    - error_pattern: 30+20 算成 5
+      misconception_type: 计数单位意识缺失
+    - error_pattern: 50−30 算成 20 但说不出理由
+      misconception_type: 算理表述缺失
+  variation_strategy:
+  - 用小棒（捆）演示整十数加减并说理
+  - 由 3+2=5 推出 30+20=50
+- point_id: math-g1-t2-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 按「个位与个位相加、十位与十位相加」的对位思想口算
+    difficulty: 把两位数加一位数误加到十位上
+    typical_misconceptions:
+    - error_pattern: 23+4 算成 63
+      misconception_type: 对位错误
+    - error_pattern: 45−20 算成 25（减错位）
+      misconception_type: 对位意识薄弱
+  variation_strategy:
+  - 说一说先算什么、再算什么
+  - 看小棒图写算式并说理
+- point_id: math-g1-t2-u04-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 用「凑十」「破十」的旧知迁移到 100 以内
+    difficulty: 进位或退位时忘记处理十位
+    typical_misconceptions:
+    - error_pattern: 28+5 算成 23（忘进位）
+      misconception_type: 进位遗漏
+    - error_pattern: 32−7 算成 25（退位后十位未减 1）
+      misconception_type: 退位处理错误
+  variation_strategy:
+  - 圈一圈、画一画表示进位与退位过程
+  - 说出口算的完整步骤

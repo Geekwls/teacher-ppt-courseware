@@ -1,0 +1,96 @@
+unit_id: "unit-7"
+source_id: "pep_math_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《2025年秋人教版教师教学用书数学三年级上册》
+  （409 页扫描件，OCR 解析）核定。第七单元《复习与关联》位于教参 P259–P296：
+  总体设计 P259–P265、教材分析 P266–P277、教学设计案例 P278–P291、评价建议及样例 P292–P296。
+teaching_references:
+  - point_id: "math-g3-t1-u07-p01"
+    ref_book: "人教版《教师教学用书》数学三年级上册第七单元"
+    ref_page: "P266-P277"
+    pedagogical_focus:
+      key_point: "以知识结构图为抓手，把分散的「数与运算」知识串成体系"
+      difficulty: "学生整理时易停留于罗列，难以建立知识间的联系"
+      typical_misconceptions:
+        - error_pattern: "结构图只写名称，不写具体方法或例子"
+          misconception_type: "整理流于形式"
+        - error_pattern: "把混合运算顺序与分数计算规则混在一起记"
+          misconception_type: "知识结构混乱"
+    variation_strategy:
+      - "补全知识结构图并举例说明；用自己的话讲一讲各部分联系"
+      - "口算、笔算、混合运算、分数计算综合训练"
+
+  - point_id: "math-g3-t1-u07-p02"
+    ref_book: "人教版《教师教学用书》数学三年级上册第七单元"
+    ref_page: "P266-P277"
+    pedagogical_focus:
+      key_point: "提炼「找关系—定步骤—列式—检验」的解题一般过程，发挥线段图的直观作用"
+      difficulty: "多步问题中「先求什么」不易确定，学生易拼凑算式"
+      typical_misconceptions:
+        - error_pattern: "不画线段图，直接凭感觉列式"
+          misconception_type: "缺少分析工具"
+        - error_pattern: "综合算式漏加括号导致运算顺序错误"
+          misconception_type: "列式与思路不符"
+    variation_strategy:
+      - "画线段图分析「比……多/少」「是……的几倍」的数量关系"
+      - "同一问题分步列式与综合算式对照"
+
+  - point_id: "math-g3-t1-u07-p03"
+    ref_book: "人教版《教师教学用书》数学三年级上册第七单元"
+    ref_page: "P266-P277"
+    pedagogical_focus:
+      key_point: "在整理中建立长度单位与质量单位的完整序列与进率网络"
+      difficulty: "单位多、进率不统一（10与1000并存），易混淆"
+      typical_misconceptions:
+        - error_pattern: "把米与千米的进率写成10"
+          misconception_type: "进率记忆混乱"
+        - error_pattern: "选单位时不顾物体实际（如手机厚7米）"
+          misconception_type: "缺乏量感与合理性判断"
+    variation_strategy:
+      - "整理单位表并标注进率；填单位并说明理由"
+      - "结合高铁长1318千米、大米重5千克等真实情境选单位"
+
+  - point_id: "math-g3-t1-u07-p04"
+    ref_book: "人教版《教师教学用书》数学三年级上册第七单元"
+    ref_page: "P266-P277"
+    pedagogical_focus:
+      key_point: "沟通「线—角—图形」以及「观察物体—展开图」两条线索，形成空间观念"
+      difficulty: "学生对线、角的特征与观察物体的方位容易混淆"
+      typical_misconceptions:
+        - error_pattern: "把展开图与立体图形各面一一对应时出错"
+          misconception_type: "空间想象不足"
+        - error_pattern: "判断角的大小时把边画得长短当依据"
+          misconception_type: "角的表象不牢"
+    variation_strategy:
+      - "补全「图形的认识与测量」结构图；数图形中的角"
+      - "根据三视图判断观察位置；在展开图上标出各面"
+
+  - point_id: "math-g3-t1-u07-p05"
+    ref_book: "人教版《教师教学用书》数学三年级上册第七单元"
+    ref_page: "P278-P291"
+    pedagogical_focus:
+      key_point: "在真实综合情境中体会「估算还是精算」的选择依据"
+      difficulty: "学生易一律精算，或估算时机把握不当"
+      typical_misconceptions:
+        - error_pattern: "判断「5架飞机能否一次运走1000人」时直接精算却忘记比较"
+          misconception_type: "估算与判断脱节"
+        - error_pattern: "多步问题漏掉中间步骤（如里程往返）"
+          misconception_type: "步骤遗漏"
+    variation_strategy:
+      - "讨论「什么时候估、什么时候算」并说明理由"
+      - "用租船方案等开放题进行方案比较与择优"
+
+  - point_id: "math-g3-t1-u07-p06"
+    ref_book: "人教版《教师教学用书》数学三年级上册第七单元"
+    ref_page: "P278-P291"
+    pedagogical_focus:
+      key_point: "在搭配问题的探究中体会有序思考，理解分步搭配用乘法"
+      difficulty: "学生易重复或遗漏搭配方案，也易把搭配与分类选择混淆"
+      typical_misconceptions:
+        - error_pattern: "列举服装搭配时重复计算同一搭配"
+          misconception_type: "缺乏有序思考策略"
+        - error_pattern: "把「2班飞机+3班高铁」也用乘法算成6种"
+          misconception_type: "分步搭配与分类选择混淆"
+    variation_strategy:
+      - "用符号（上1、下1）有序列举搭配，再用乘法验证"
+      - "对比「服装搭配」与「出行选择」，讨论加法与乘法的不同"

@@ -1,0 +1,76 @@
+unit_id: unit-03
+blueprints:
+- blueprint_id: bp-math-g2-t1-u03-standard
+  title: 第三单元 1～6的表内除法标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、口算：用口诀求商
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 2
+    item_count: 11
+    target_points:
+    - math-g2-t1-u03-p02
+    guidelines: 表内除法口算。
+  - slot_id: slot-02
+    section: 二、填一填：平均分
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 3
+    target_points:
+    - math-g2-t1-u03-p01
+    guidelines: 根据分的结果写除法算式。
+  - slot_id: slot-03
+    section: 三、看图列式
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 3
+    target_points:
+    - math-g2-t1-u03-p01
+    - math-g2-t1-u03-p02
+    guidelines: 根据图示列乘法或除法算式。
+  - slot_id: slot-04
+    section: 四、连一连
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g2-t1-u03-p02
+    guidelines: 算式与得数连线。
+  - slot_id: slot-05
+    section: 五、在○里填「＞」「＜」或「＝」
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g2-t1-u03-p02
+    guidelines: 比较算式得数的大小。
+  - slot_id: slot-06
+    section: 六、解决问题
+    question_type: reading
+    difficulty: variation
+    points_per_item: 9
+    item_count: 2
+    target_points:
+    - math-g2-t1-u03-p03
+    guidelines: 情境题：平均分问题，列式计算并口答。
+  - slot_id: slot-07
+    section: 七、想一想
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 12
+    item_count: 1
+    target_points:
+    - math-g2-t1-u03-p03
+    guidelines: 同一情境用两种平均分方式列式，说说有什么不同。

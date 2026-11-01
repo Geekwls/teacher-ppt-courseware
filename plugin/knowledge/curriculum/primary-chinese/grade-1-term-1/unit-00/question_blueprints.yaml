@@ -1,0 +1,76 @@
+unit_id: unit-00
+blueprints:
+- blueprint_id: bp-chi-g1-t1-u00-standard
+  title: 「我上学了」入学教育板块标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、读一读，连一连（我是中国人）
+    question_type: match
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - chi-g1-t1-u00-p01
+    guidelines: 把「我是中国人」「中华民族是一家」等句子与相应插图连线。
+  - slot_id: slot-02
+    section: 二、填一填（认识祖国）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - chi-g1-t1-u00-p02
+    guidelines: 填写「五星红旗」「北京天安门」「长江」「黄河」。
+  - slot_id: slot-03
+    section: 三、选一选（小学生的行为）
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - chi-g1-t1-u00-p03
+    guidelines: 判断「天天不迟到」「爱学习」「爱劳动」等行为是否正确。
+  - slot_id: slot-04
+    section: 四、说一说（「我爱……」句式）
+    question_type: reading
+    difficulty: basic
+    points_per_item: 4
+    item_count: 3
+    target_points:
+    - chi-g1-t1-u00-p02
+    guidelines: 用「我爱……」说一句完整的话。
+  - slot_id: slot-05
+    section: 五、连一连（语文学习四件事）
+    question_type: match
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - chi-g1-t1-u00-p04
+    guidelines: 把「读书、写字、讲故事、听故事」与相应图片连线。
+  - slot_id: slot-06
+    section: 六、读一读，背一背
+    question_type: reading
+    difficulty: variation
+    points_per_item: 5
+    item_count: 2
+    target_points:
+    - chi-g1-t1-u00-p01
+    - chi-g1-t1-u00-p03
+    guidelines: 朗读并背诵「我是中国人……」与儿歌《上学歌》。
+  - slot_id: slot-07
+    section: 七、写话与表达
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 5
+    item_count: 6
+    target_points:
+    - chi-g1-t1-u00-p01
+    guidelines: 结合单元主题写一两句话（不会写的字可用拼音代替），注意语句通顺、标点正确。

@@ -1,0 +1,232 @@
+edition_lock:
+  textbook_name: 义务教育教科书 语文 二年级上册
+  publisher: 人民教育出版社
+  approval_year: 教育部2022课标2024/2026修订新版
+  grade: 2
+  term: term-1
+  unit_id: unit-03
+  unit_name: 第三单元 儿童生活与美好想象
+  page_range: P28-P38
+  verified: true
+lessons_map:
+- lesson_id: chi-g2-t1-u03-l01
+  title: 4 彩虹
+  page: P28-P29
+  core_writing_chars:
+  - 丽
+  - 提
+  - 吗
+  - 圆
+  - 哥
+  - 秋
+  - 挂
+  - 啊
+- lesson_id: chi-g2-t1-u03-l02
+  title: 5 去外婆家
+  page: P30-P31
+  core_writing_chars:
+  - 宝
+  - 玩
+  - 活
+  - 些
+  - 总
+  - 给
+  - 诉
+  - 曲
+  - 名
+  - 香
+- lesson_id: chi-g2-t1-u03-l03
+  title: 6 数星星的孩子
+  page: P32-P34
+  core_writing_chars:
+  - 数
+  - 晚
+  - 奶
+  - 您
+  - 爷
+  - 很
+  - 变
+  - 勺
+  - 张
+  - 汉
+- lesson_id: chi-g2-t1-u03-l04
+  title: 语文园地三
+  page: P35-P38
+  core_writing_chars:
+  - 图
+  - 泥
+  - 铁
+  - 环
+official_vocab_table:
+- word: 天上
+  lesson: 4 彩虹
+- word: 美丽
+  lesson: 4 彩虹
+- word: 爸爸
+  lesson: 4 彩虹
+- word: 下来
+  lesson: 4 彩虹
+- word: 不用
+  lesson: 4 彩虹
+- word: 高兴
+  lesson: 4 彩虹
+- word: 哥哥
+  lesson: 4 彩虹
+- word: 秋千
+  lesson: 4 彩虹
+- word: 彩云
+  lesson: 4 彩虹
+- word: 自己
+  lesson: 4 彩虹
+- word: 宝贝
+  lesson: 5 去外婆家
+- word: 干活
+  lesson: 5 去外婆家
+- word: 回来
+  lesson: 5 去外婆家
+- word: 一些
+  lesson: 5 去外婆家
+- word: 天气
+  lesson: 5 去外婆家
+- word: 欢快
+  lesson: 5 去外婆家
+- word: 它们
+  lesson: 5 去外婆家
+- word: 告诉
+  lesson: 5 去外婆家
+- word: 名字
+  lesson: 5 去外婆家
+- word: 出门
+  lesson: 5 去外婆家
+- word: 星星
+  lesson: 6 数星星的孩子
+- word: 晚上
+  lesson: 6 数星星的孩子
+- word: 无数
+  lesson: 6 数星星的孩子
+- word: 奶奶
+  lesson: 6 数星星的孩子
+- word: 中间
+  lesson: 6 数星星的孩子
+- word: 总是
+  lesson: 6 数星星的孩子
+- word: 爷爷
+  lesson: 6 数星星的孩子
+- word: 北边
+  lesson: 6 数星星的孩子
+- word: 勺子
+  lesson: 6 数星星的孩子
+- word: 转动
+  lesson: 6 数星星的孩子
+- word: 这个
+  lesson: 6 数星星的孩子
+- word: 后来
+  lesson: 6 数星星的孩子
+- word: 图画
+  lesson: 语文园地三
+- word: 泥土
+  lesson: 语文园地三
+- word: 铁环
+  lesson: 语文园地三
+- word: 玩具
+  lesson: 语文园地三
+three_tier_vocab:
+  lessons_desc: 《彩虹》《去外婆家》《数星星的孩子》
+  tier_a_phrases:
+  - pinyin: tiān shang
+    word: 天上
+  - pinyin: měi lì
+    word: 美丽
+  - pinyin: bà ba
+    word: 爸爸
+  - pinyin: xià lai
+    word: 下来
+  - pinyin: bú yòng
+    word: 不用
+  - pinyin: gāo xìng
+    word: 高兴
+  - pinyin: gē ge
+    word: 哥哥
+  - pinyin: qiū qiān
+    word: 秋千
+  - pinyin: cǎi yún
+    word: 彩云
+  - pinyin: zì jǐ
+    word: 自己
+  - pinyin: bǎo bèi
+    word: 宝贝
+  - pinyin: gàn huó
+    word: 干活
+  - pinyin: huí lai
+    word: 回来
+  - pinyin: yì xiē
+    word: 一些
+  - pinyin: tiān qì
+    word: 天气
+  - pinyin: huān kuài
+    word: 欢快
+  - pinyin: tā men
+    word: 它们
+  - pinyin: gào su
+    word: 告诉
+  - pinyin: míng zi
+    word: 名字
+  - pinyin: chū mén
+    word: 出门
+  - pinyin: xīng xing
+    word: 星星
+  - pinyin: wǎn shang
+    word: 晚上
+  - pinyin: wú shù
+    word: 无数
+  - pinyin: nǎi nai
+    word: 奶奶
+  - pinyin: zhōng jiān
+    word: 中间
+  - pinyin: zǒng shì
+    word: 总是
+  - pinyin: yé ye
+    word: 爷爷
+  - pinyin: běi bian
+    word: 北边
+  - pinyin: sháo zi
+    word: 勺子
+  - pinyin: zhuàn dòng
+    word: 转动
+  tier_b_pairs:
+  - char1: 丽
+    word1: 美丽
+    char2: 历
+    word2: 日历
+  - char1: 提
+    word1: 提水
+    char2: 题
+    word2: 题目
+  - char1: 玩
+    word1: 玩耍
+    char2: 完
+    word2: 完成
+  - char1: 晚
+    word1: 晚上
+    char2: 免
+    word2: 免费
+  tier_c_phrases:
+  - pinyin: jiāo huā
+    word: 浇花
+  - pinyin: sǎ shuǐ
+    word: 洒水
+  - pinyin: shān xī
+    word: 山溪
+  - pinyin: zhēn zhū
+    word: 珍珠
+  - pinyin: bì yù
+    word: 碧玉
+  - pinyin: yǎng tóu
+    word: 仰头
+  strokes_challenge:
+  - question_stem: “美”的部首是____________头，字形上小下大。
+    answer_text: 羊字头（⺷）
+  - question_stem: “晚”的右半部分不是“兔”，没有最后一（    ）。
+    answer_text: 点
+  - question_stem: “数”是左右结构，左边是“米+女”，右边是____________旁。
+    answer_text: 反文旁（攵）

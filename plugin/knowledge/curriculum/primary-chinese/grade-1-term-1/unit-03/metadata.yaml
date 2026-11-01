@@ -1,0 +1,15 @@
+unit_id: unit-03
+unit_name: 第三单元 汉语拼音
+subject: chinese
+edition: 统编版
+grade: 1
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: partial
+source_id: pep_chinese_g1_t1_2024
+teaching_reference_source_id: pep_chinese_g1_t1_tr_2024
+page_range: P32-P42
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版统编版小学语文一年级上册电子课本》逐页实证核定：课本 PDF 共 27 页，页脚印刷页码实测偏移 = 5（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P2–P21。本单元真实版面为 P32–P42，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。
+unit_overview: 汉语拼音单元（二）：学习声母 g k h、j q x、z c s、zh ch sh r、y w，区分平舌音与翘舌音，认识整体认读音节 yi wu yu。
+numeric_upper_bound: null

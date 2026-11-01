@@ -1,0 +1,17 @@
+unit_id: unit-01
+unit_name: Unit 1 Different friends
+subject: english
+edition: 人教版PEP(2024年审定版)
+grade: 5
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: verified
+source_id: pep_english_g5_t1_2024
+teaching_reference_source_id: pep_english_g5_t1_tr_2024
+page_range: P2-P13
+curriculum_standard_ref: 义务教育英语课程标准（2022年版）二级目标与要求
+page_evidence_note:
+- '页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语五年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 3（PDF#5 = 印刷 P2）；本册可读印刷页区间为 P2–P26。本单元真实版面为 P2–P13（Unit 1 起始页 P2「Different friends / What makes us different?」；P4 Let''s talk：Miss White: Hi, class. You''ll have a new classmate. He''s from Australia. His name is Oliver. Mike: What''s he like? Miss White: He''s tall and strong. Zhang Peng: Is he good at football? Miss White: Yes, I think he is. He can run very fast.；P5 Let''s learn：Chen Jie is lovely. She is also clever. She is young. She helps a lot at home. She is hard-working.；P6 Let''s spell：ai / ay —— The dog likes to play in the rain. He waits for the boy to come and…；P8 Let''s learn：Robin is Binbin''s robot. He can play the piano. He can jump rope. He can play Chinese chess.；P9 Read and write：Join us for the school talent show!；P12–P13 Reading time：We have a new student in our class today. Her name''s Grace.），**全部落在可读区间内**，故记为 verified。'
+unit_overview: 本单元围绕大问题「What makes us different?」展开。教材通过「认识新同学」「描述朋友的外貌与性格」「展示各自的特长」等情境，引导学生学会用 What's he/she like? 询问并描述人物，用 He/She can … 谈论能力，并掌握字母组合 ai / ay 的发音与例词。
+numeric_upper_bound: 100

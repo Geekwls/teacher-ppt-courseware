@@ -1,0 +1,149 @@
+unit_id: unit-05
+source_id: pep_math_g6_t1_2024
+points:
+- point_id: math-g6-t1-u05-p01
+  unit_id: unit-05
+  lesson_id: math-g6-t1-u05-l01
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 圆的认识（圆心、半径、直径）
+  learning_objectives:
+  - 能说出圆心、半径、直径的意义，能用字母表示
+  - 能说明同圆中半径与直径的关系（d=2r）及圆心、半径的作用
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P48
+    - P49
+    - P50
+    anchor_text: P49：「圆心：针尖固定的一点，通常用字母 O 表示；半径：连接圆心和圆上任意一点的线段，通常用字母 r 表示；直径：通过圆心并且两端都在圆上的线段，通常用字母 d 表示。」P50：「同一个圆所有的半径都相等，所有的直径都相等，直径长度是半径的 2 倍。」「圆心确定了圆的中心位置，半径决定了圆的大小。」
+  teaching_boundary:
+    scope_allowed:
+    - 说出圆心、半径、直径的意义
+    - 说明 d=2r
+    - 用圆规按要求画圆
+    scope_excluded:
+    - 圆的解析几何方程
+    - 圆周在工程中的应用
+- point_id: math-g6-t1-u05-p02
+  unit_id: unit-05
+  lesson_id: math-g6-t1-u05-l01
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 扇形的认识（弧与圆心角）
+  learning_objectives:
+  - 能说出弧、扇形、圆心角的意义
+  - 能说明扇形的大小与圆心角大小的关系
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P51
+    anchor_text: P51：「圆上 A、B 两点之间的部分叫作弧 AB」「一条弧和经过这条弧两端的两条半径所围成的图形叫作扇形」「顶点在圆心的角叫作圆心角」「扇形的大小与这个扇形的圆心角的大小有关」。
+  teaching_boundary:
+    scope_allowed:
+    - 说出弧、扇形、圆心角的意义
+    - 判断图形是否为扇形
+    - 比较扇形的大小
+    scope_excluded:
+    - 扇形面积公式的推导
+    - 弧度制
+- point_id: math-g6-t1-u05-p03
+  unit_id: unit-05
+  lesson_id: math-g6-t1-u05-l02
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 圆的周长与圆周率
+  learning_objectives:
+  - 能理解圆周率的意义，能用 C=πd 或 C=2πr 计算圆的周长
+  - 能根据周长求直径或半径
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P55
+    - P56
+    - P57
+    anchor_text: P56：「一个圆的周长总是它的直径的 3 倍多一些」「任意一个圆的周长除以它的直径，所得的结果是一个固定的数…叫作圆周率，用字母 π 表示」「C=πd 或 C=2πr」。P57：轮子直径 75 cm，3.14×75=235.5（cm）。
+  teaching_boundary:
+    scope_allowed:
+    - 用公式计算圆的周长
+    - 由周长求直径或半径
+    - 说明圆周率的意义
+    scope_excluded:
+    - 圆周率的计算史
+    - 无理数的认识
+- point_id: math-g6-t1-u05-p04
+  unit_id: unit-05
+  lesson_id: math-g6-t1-u05-l03
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 圆的面积（化曲为直）
+  learning_objectives:
+  - 能理解把圆转化为近似长方形推导面积公式的过程
+  - 能用 S=πr² 计算圆的面积，能由周长求面积
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P60
+    - P61
+    anchor_text: P60–P61：「圆的面积大约是半径平方的 3.1 倍」；把圆等分成 8、16、32 份拼成近似长方形，「长方形的长近似于 πr，宽近似于 r」「圆的面积=πr×r=πr²」，即 S=πr²。
+  teaching_boundary:
+    scope_allowed:
+    - 用 S=πr² 计算圆的面积
+    - 由周长求面积
+    - 说明面积公式的推导过程
+    scope_excluded:
+    - 极限与积分思想
+    - 圆面积公式的多种推导
+- point_id: math-g6-t1-u05-p05
+  unit_id: unit-05
+  lesson_id: math-g6-t1-u05-l04
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 圆环与组合图形面积
+  learning_objectives:
+  - 能计算圆环的面积（外圆面积−内圆面积）
+  - 能计算「外方内圆」「外圆内方」等组合图形中涂色部分的面积
+  applicable_question_types:
+  - reading
+  - writing
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P63
+    - P64
+    - P65
+    anchor_text: P63：圆环的面积=外圆面积−内圆面积。P64–P65：「外方内圆」中正方形的边长与圆的直径长度相等；「外圆内方」中的正方形可以看作两个三角形；「大正方形的面积是小正方形的 2 倍」。
+  teaching_boundary:
+    scope_allowed:
+    - 计算圆环的面积
+    - 计算组合图形中涂色部分的面积
+    - 分析图形间的关系
+    scope_excluded:
+    - 环形面积的一般计算
+    - 几何图形的组合与分解

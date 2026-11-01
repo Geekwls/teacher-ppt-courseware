@@ -1,0 +1,91 @@
+unit_id: "unit-7"
+blueprints:
+  - blueprint_id: "bp-math-g3-t1-u07-standard"
+    title: "第七单元 复习与关联 标准练习卷蓝图"
+    target_practice: "全册整理复习与综合应用练习"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础填空（单位与数）
+      - slot_id: "slot-01"
+        section: "一、填一填"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t1-u07-p01", "math-g3-t1-u07-p03"]
+        guidelines: >
+          5 空综合基础：单位换算（4千米=4000米、70厘米=7分米、5厘米=50毫米、8000千克=8吨）、
+          选择合适的单位（北京到上海高铁长1318千米、一袋大米重5千克、手机厚约7毫米）、
+          以及一个分数意义的填空。每题须在元数据中给出 check_expression。
+
+      # 二、计算（基础）
+      - slot_id: "slot-02"
+        section: "二、计算下面各题"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t1-u07-p01"]
+        guidelines: >
+          5 小题混合计算，能口算的用口算：多位数乘一位数（22×3、156×9）、
+          混合运算（173−26+35、54−(62−34)）、分数计算（1−2/3）。
+          每题须在元数据中给出 check_expression 供独立重算。
+
+      # 三、选择（基础）
+      - slot_id: "slot-03"
+        section: "三、选一选"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t1-u07-p03", "math-g3-t1-u07-p04"]
+        guidelines: >
+          5 道单选题：线、角的特征判断（直线无端点、锐角<直角<钝角）、
+          观察物体方位判断、长方体展开图的对应面、单位的合理选择。
+          干扰项须为典型错例。
+
+      # 四、解决问题（变式）
+      - slot_id: "slot-04"
+        section: "四、解决问题"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 5
+        item_count: 3
+        target_points: ["math-g3-t1-u07-p02", "math-g3-t1-u07-p05"]
+        guidelines: >
+          3 道实际问题：①跳绳比赛中，小芳跳160个比小红多8个、小强跳180个，小强比小红多跳多少个；
+          ②张阿姨每小时编4个、刘阿姨每小时编3个中国结，一起编织8小时能编完50个吗；
+          ③小亮收集20个昆虫标本，比小军收集的2倍还多4个，小军收集了多少个。
+          答案须含分步列式、单位与文字作答。
+
+      # 五、搭配问题（变式）
+      - slot_id: "slot-05"
+        section: "五、搭配与列举"
+        question_type: "reading"
+        difficulty: "variation"
+        points_per_item: 5
+        item_count: 3
+        target_points: ["math-g3-t1-u07-p06"]
+        guidelines: >
+          3 小题：①2件上装与3件下装每次各选1件，共有多少种搭配（用符号列举并计算）；
+          ②用2、5、7能组成多少个没有重复数字的两位数（有序列举）；
+          ③从家到A市有2班飞机、3班高铁，共有多少种出行选择（辨析用加法）。
+
+      # 六、综合挑战（10%）
+      - slot_id: "slot-06"
+        section: "六、思考题"
+        question_type: "word_problem"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["math-g3-t1-u07-p05"]
+        guidelines: >
+          1 道开放性综合题（10分）：28人去划船，大船限坐6人、小船限坐4人。
+          （1）如果每条船都坐满，可以怎样租船？请列出所有方案；
+          （2）如果租一条大船40元、租一条小船30元，哪种租船方案最省钱？
+          要求写出有序的思考过程与比较说明。

@@ -1,0 +1,113 @@
+unit_id: "unit-4"
+blueprints:
+  - blueprint_id: "bp-chi-g3-t1-u04-standard"
+    title: "第四单元童话世界标准练习卷命题蓝图"
+    target_practice: "单元综合巩固与能力提升练习"
+    total_score: 100
+    suggested_time_minutes: 60
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础题（共 60 分）
+      - slot_id: "slot-01"
+        section: "一、字词芳草地：读拼音，写词语（规范书写在田字格中）"
+        question_type: "writing"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["chi-g3-t1-u04-p01"]
+        guidelines: "选自本单元课文重点词语，提供标准拼音，在规范田字格中工整书写（具体词语待课本页面凭证核定）。"
+
+      - slot_id: "slot-02"
+        section: "二、语音辨识营：给带点的字选择正确的读音打『√』"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 4
+        target_points: ["chi-g3-t1-u04-p01"]
+        guidelines: "考查本单元课文中的多音字与易读错字，结合具体语境选音。"
+
+      - slot_id: "slot-03"
+        section: "三、词语积累屋：把下列词语补充完整"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 1
+        item_count: 8
+        target_points: ["chi-g3-t1-u04-p01"]
+        guidelines: "考查本单元重点词语与语文园地积累内容（以课本页面为准）。"
+
+      - slot_id: "slot-04"
+        section: "四、字词比拼台：形近字组词"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 4
+        target_points: ["chi-g3-t1-u04-p01"]
+        guidelines: "本单元形近字对比组词。"
+
+      - slot_id: "slot-05"
+        section: "五、课文回音壁：根据课文内容填空"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["chi-g3-t1-u04-p03"]
+        guidelines: "考查《宝葫芦的秘密（节选）》《在牛肚子里旅行》《一块奶酪》的主要内容与人物表现。"
+
+      - slot_id: "slot-06"
+        section: "六、童话想象屋：感受童话中奇妙的想象"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["chi-g3-t1-u04-p02"]
+        guidelines: "考查对童话中丰富想象的感受，判断哪些内容体现了童话想象奇妙的特点。"
+
+      - slot_id: "slot-07"
+        section: "七、园地拾贝：语文园地积累运用"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 3
+        item_count: 2
+        target_points: ["chi-g3-t1-u04-p02"]
+        guidelines: "考查语文园地梳理与交流、词句段运用与日积月累内容（以课本页面为准）。"
+
+      # 二、变式题（共 30 分）
+      - slot_id: "slot-08"
+        section: "八、情节梳理台：梳理童话情节与人物"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 2
+        target_points: ["chi-g3-t1-u04-p03"]
+        guidelines: "给出童话片段，要求梳理情节顺序或人物表现，并说明依据。"
+
+      - slot_id: "slot-09"
+        section: "九、真善美品读坊：体会童话蕴含的真善美"
+        question_type: "writing"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 2
+        target_points: ["chi-g3-t1-u04-p02"]
+        guidelines: "结合童话故事，写一两句话说出自己感受到的真善美，并说明理由。"
+
+      - slot_id: "slot-10"
+        section: "十、课外阅读吧：童话语段阅读"
+        question_type: "reading"
+        difficulty: "variation"
+        points_per_item: 7
+        item_count: 2
+        target_points: ["chi-g3-t1-u04-p02", "chi-g3-t1-u04-p03"]
+        guidelines: "短文阅读，考查提取信息、感受童话想象以及概括人物特点。"
+
+      # 三、挑战题（共 10 分）
+      - slot_id: "slot-11"
+        section: "十一、妙笔生花台：我来编童话"
+        question_type: "writing"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["chi-g3-t1-u04-p04"]
+        guidelines: "根据给定的角色、时间、地点编写童话故事（150 字左右），要求想象奇妙、情节清楚、故事完整。"

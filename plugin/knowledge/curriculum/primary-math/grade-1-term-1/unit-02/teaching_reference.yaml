@@ -1,0 +1,60 @@
+unit_id: unit-02
+source_id: pep_math_g1_t1_tr_2024
+ref_page_note: ''
+teaching_references:
+- point_id: math-g1-t1-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 沿用 5 以内数的学习路径：数—认—写—比大小—分与合
+    difficulty: 写 6、8、9、10 时笔顺与结构易错（如 8 两圈相接）
+    typical_misconceptions:
+    - error_pattern: 书写 8、9、10 时笔画粘连或方向错误
+      misconception_type: 书写规范
+    - error_pattern: 数序上把 10 误认为「1 和 0」两个数
+      misconception_type: 数位概念未建立
+  variation_strategy:
+  - 按顺序数数、倒着数数，填出缺失的数
+  - 比一比：在○里填「＞」「＜」
+- point_id: math-g1-t1-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「分与合」作为 10 以内加减法的算理基础，强调由组成直接说得数
+    difficulty: 依赖手指点数，不能由数的组成直接说出得数
+    typical_misconceptions:
+    - error_pattern: 计算 8+2、9+1 等仍需数手指
+      misconception_type: 算理未内化
+    - error_pattern: 分与合时遗漏组合，未按顺序穷举
+      misconception_type: 有序思考不足
+  variation_strategy:
+  - 对口令说数的组成，再由组成直接说得数
+  - 看算式说组成：如 10−4=6 想「4 和几组成 10」
+- point_id: math-g1-t1-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助情境图理解「先算前两个数，再与第三个数计算」的顺序
+    difficulty: 把连加算式从左到右乱序计算，或漏算一步
+    typical_misconceptions:
+    - error_pattern: 连加时跳过中间步骤直接猜答案
+      misconception_type: 运算顺序意识薄弱
+    - error_pattern: 把「加减混合」一律当成先加后减
+      misconception_type: 读式不细致
+  variation_strategy:
+  - 按步骤说出先算什么、再算什么
+  - 看图编一道连加或连减的数学问题
+- point_id: math-g1-t1-u02-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 重视「读图—说意—列式—说理」四步，培养初步的数学表达
+    difficulty: 只凭关键词机械选择运算，不分析数量关系
+    typical_misconceptions:
+    - error_pattern: 看到「还剩」就用减法，不区分是求剩余还是求原来
+      misconception_type: 关键词依赖
+    - error_pattern: 列式正确但不能说出理由
+      misconception_type: 数学表达不足
+  variation_strategy:
+  - 给算式配情境：为 7−3=4 编一个故事
+  - 比较「一共」与「还剩」两类问题的异同

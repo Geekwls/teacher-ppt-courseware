@@ -1,0 +1,90 @@
+unit_id: unit-03
+source_id: pep_english_g6_t1_2024
+points:
+- point_id: eng-g6-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: eng-g6-t1-u03-l01
+  subject: english
+  grade: 6
+  term: term-1
+  point_name: 谈论身体不适
+  learning_objectives:
+  - 能用 What's the matter? 询问病情
+  - 能用 I have a … / My … hurts. 描述身体不适
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g6_t1_2024
+    page_ref:
+    - P28
+    - P29
+    anchor_text: P29：「What's the matter? I have a bad cold. My head hurts and I have a runny nose. Mike has a bad cold.」
+  teaching_boundary:
+    scope_allowed:
+    - 询问病情的问句
+    - 描述不适的句型
+    - 疾病词汇 a bad cold / a runny nose
+    scope_excluded:
+    - 医学英语基础
+    - 健康教育的语言表达
+- point_id: eng-g6-t1-u03-p02
+  unit_id: unit-03
+  lesson_id: eng-g6-t1-u03-l02
+  subject: english
+  grade: 6
+  term: term-1
+  point_name: 用祈使句给健康建议
+  learning_objectives:
+  - 能用祈使句给出健康建议（Have a healthy diet. Don't stay up late.）
+  - 能区分健康与不健康的生活方式
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g6_t1_2024
+    page_ref:
+    - P27
+    - P31
+    anchor_text: P27：「Healthy lifestyle / Unhealthy lifestyle —— Do exercise. / Eat too much cake.」P31：「Have a healthy diet. Don't stay up late. Exercise often. Think about happy things.」
+  teaching_boundary:
+    scope_allowed:
+    - 祈使句的肯定与否定形式
+    - 健康建议的表达
+    - 健康与不健康生活方式的对比
+    scope_excluded:
+    - 健康教育的课程设计
+    - 英语祈使句语法
+- point_id: eng-g6-t1-u03-p03
+  unit_id: unit-03
+  lesson_id: eng-g6-t1-u03-l03
+  subject: english
+  grade: 6
+  term: term-1
+  point_name: 关注身心健康与情绪管理
+  learning_objectives:
+  - 能理解身心健康的关系，能说出管理情绪的方法
+  - 能用英语表达自己的感受并寻求帮助
+  applicable_question_types:
+  - reading
+  - choice
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g6_t1_2024
+    page_ref:
+    - P32
+    - P36
+    anchor_text: P32–P33：「Liu Jia was crying.」「Liu Jia had a runny nose and felt unhappy. Liu Jia shared her feelings…」P36：「My name is Right Hand. This is my twin brother, Left Hand.」
+  teaching_boundary:
+    scope_allowed:
+    - 身心健康的关系
+    - 情绪管理的方法
+    - 表达感受并寻求帮助
+    scope_excluded:
+    - 心理健康教育
+    - 社会情感学习（SEL）

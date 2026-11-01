@@ -1,0 +1,32 @@
+unit_id: unit-03
+source_id: pep_english_g4_t1_2024
+points:
+- point_id: eng-g4-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: eng-g4-t1-u03-l01
+  subject: english
+  grade: 4
+  term: term-1
+  point_name: 描述居住场所与社区环境
+  learning_objectives:
+  - 能用英语说出常见的场所名称并简单介绍自己居住的地方
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_english_g4_t1_2024
+    page_ref:
+    - P26
+    - P28
+    - P32
+    anchor_text: 单元起始页 P26 依课本目录登记；正文超出可读区间，具体对话原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 常见场所名称
+    - There is/are … 句型
+    scope_excluded:
+    - 社区规划与地理
+    - 英语方位表达

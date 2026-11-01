@@ -1,0 +1,15 @@
+unit_id: unit-07
+unit_name: 第七单元 四季之美
+subject: chinese
+edition: 统编版
+grade: 5
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: partial
+source_id: pep_chinese_g5_t1_2024
+teaching_reference_source_id: pep_chinese_g5_t1_tr_2024
+page_range: P91-P100
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文五年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P91–P100，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。
+unit_overview: 编排《古诗三首》（《山居秋暝》《枫桥夜泊》《早春呈水部张十八员外》）《第一场雪》《白鹭》等课文，学习「初步体会课文中的静态描写和动态描写」「学习描写景物的变化」。
+numeric_upper_bound: null

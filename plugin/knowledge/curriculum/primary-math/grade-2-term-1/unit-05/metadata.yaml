@@ -1,0 +1,15 @@
+unit_id: unit-05
+unit_name: 第五单元 7～9的表内乘、除法
+subject: math
+edition: 人教版
+grade: 2
+term: term-1
+version: 2026.10.3
+updated_at: '2026-10-15'
+verification_status: verified
+source_id: pep_math_g2_t1_2024
+teaching_reference_source_id: pep_math_g2_t1_tr_2024
+page_range: P73-P90
+page_evidence_note: 页码于 2026-10-15 依据用户提供的完整版《2026版人教版小学数学二年级上册电子课本》（共106页，ISBN 978-7-107-38912-2）逐页实证核定：页脚印刷页码实测偏移 = 4（PDF#77 = 印刷 P73，PDF#94 = 印刷 P90）。本单元真实版面为 P73–P90，已取得逐页原文凭证：P73-P75 7的乘法口诀（七巧板拼图情境）、P76-P79 8的乘法口诀（军乐队列队情境）、P80-P83 9的乘法口诀（赛龙舟与九九规律）、P81-P86 用7、8、9口诀求商、P87-P90 表内乘除法解决问题，全量实证闭环，状态晋级为 verified。
+unit_overview: 学习 7、8、9 的乘法口诀与用口诀求商，理解乘除法互逆关系，掌握表内乘除法解决实际问题（求商与倍的初步认识）。
+numeric_upper_bound: 100

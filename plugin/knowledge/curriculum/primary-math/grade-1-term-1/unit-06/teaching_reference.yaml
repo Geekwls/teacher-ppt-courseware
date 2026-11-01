@@ -1,0 +1,46 @@
+unit_id: unit-06
+source_id: pep_math_g1_t1_tr_2024
+ref_page_note: ''
+teaching_references:
+- point_id: math-g1-t1-u06-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 复习课重在「结构」而非重复练习，引导学生自己构建知识网络
+    difficulty: 复习停留在刷题，不能建立知识间的联系
+    typical_misconceptions:
+    - error_pattern: 能算题但说不出本册学了哪几类内容
+      misconception_type: 结构化整理缺失
+    - error_pattern: 把进位加法与不进位加法混为一谈
+      misconception_type: 分类不清
+  variation_strategy:
+  - 合作绘制「20 以内加减法」知识图
+  - 按「不进位/进位」给算式分类并说理
+- point_id: math-g1-t1-u06-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「分类—说特征—解决拼搭问题」的路径复习图形
+    difficulty: 复习时只记名称，遗忘特征与判断依据
+    typical_misconceptions:
+    - error_pattern: 能说出名称但不能说明为什么是圆柱
+      misconception_type: 特征表述缺失
+    - error_pattern: 数拼搭图形时漏数被遮挡的图形
+      misconception_type: 空间观察不细致
+  variation_strategy:
+  - 给立体图形分类并说出标准
+  - 看图数出各种图形的个数并说说是怎么数的
+- point_id: math-g1-t1-u06-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 重视「提出问题」的能力，鼓励学生说出不同的解题思路
+    difficulty: 只会做给定题目，不能自主提出问题
+    typical_misconceptions:
+    - error_pattern: 提问与已知条件无关或不合逻辑
+      misconception_type: 问题意识与逻辑性不足
+    - error_pattern: 只会一种解法，不能说出其他思路
+      misconception_type: 思维单一
+  variation_strategy:
+  - 根据同一幅情境图提出 3 个不同的数学问题
+  - 交流不同解法并比较优劣

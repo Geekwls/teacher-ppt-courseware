@@ -1,0 +1,46 @@
+unit_id: unit-08
+source_id: pep_chinese_g1_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t1-u08-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以问答式儿歌的形式开展朗读，在「问—答」中建立动物与尾巴特点的对应
+    difficulty: 学生易把动物与尾巴特点对应错
+    typical_misconceptions:
+    - error_pattern: 把「松鼠的尾巴好像一把伞」对应错动物
+      misconception_type: 内容对应错误
+    - error_pattern: 问答朗读时答句语气不当
+      misconception_type: 朗读语气未把握
+  variation_strategy:
+  - 问答朗读课文
+  - 连一连：动物与它的尾巴
+- point_id: chi-g1-t1-u08-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「乌鸦是怎样喝到水的」为线索，引导学生体会遇到问题要动脑筋想办法
+    difficulty: 学生易把「把小石子一颗一颗地放进瓶子里」的顺序说颠倒
+    typical_misconceptions:
+    - error_pattern: 把放石子的过程说反
+      misconception_type: 过程顺序未理清
+    - error_pattern: 说不出雨点儿的作用
+      misconception_type: 课文内容理解不到位
+  variation_strategy:
+  - 按顺序说说乌鸦喝到水的办法
+  - 朗读《雨点儿》并说说雨点儿的作用
+- point_id: chi-g1-t1-u08-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以园地为载体梳理本册识字成果，形成阶段性积累
+    difficulty: 学生易只完成练习而不整理积累
+    typical_misconceptions:
+    - error_pattern: 学过的字认不全
+      misconception_type: 积累未系统化
+    - error_pattern: 日积月累背不下来
+      misconception_type: 积累不牢
+  variation_strategy:
+  - 朗读并背诵日积月累
+  - 整理本册会认字并分类

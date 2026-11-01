@@ -1,0 +1,47 @@
+lessons:
+- lesson_id: eng-g5-t1-u02-l01
+  unit_id: unit-02
+  subject: english
+  grade: 5
+  term: term-1
+  lesson_number: 1
+  lesson_name: 'Part A: 表达情感的词汇'
+  page_range: P15-P17
+  official_examples:
+  - Draw faces that show different feelings.
+  - Mike is back home. Fido is not feeling well. Fido is excited. Mike is worried.
+- lesson_id: eng-g5-t1-u02-l02
+  unit_id: unit-02
+  subject: english
+  grade: 5
+  term: term-1
+  lesson_number: 2
+  lesson_name: 'Part A Let''s spell: 字母组合 ee / ea 的发音'
+  page_range: P18
+  official_examples:
+  - A sheep meets a friendly bee. It is so happy to see the bee.
+  - Let's spell：字母组合 ee / ea 的发音 /iː/ 与例词（sheep, bee, see, meet, happy）。
+- lesson_id: eng-g5-t1-u02-l03
+  unit_id: unit-02
+  subject: english
+  grade: 5
+  term: term-1
+  lesson_number: 3
+  lesson_name: 'Part B: 理解他人与寻求帮助'
+  page_range: P19-P21
+  official_examples:
+  - How can we understand each other better?
+  - You can talk to your parents. You can ask your teacher for help. You need to listen to…
+  - Read and write：Dear Mike, I am happy at school. I have many friends. I play with them in the playground, and we share…
+- lesson_id: eng-g5-t1-u02-l04
+  unit_id: unit-02
+  subject: english
+  grade: 5
+  term: term-1
+  lesson_number: 4
+  lesson_name: Part C Project / Reading time
+  page_range: P22-P25
+  official_examples:
+  - 'Project: Make a feelings book（What makes me angry? How do I look?）。'
+  - Reading time：It's snowing. I'm so excited! Me too. Let's go out and play.
+  - He needs to exercise. Let's play with him. Good idea! He's happy now.

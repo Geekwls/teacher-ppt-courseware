@@ -1,0 +1,47 @@
+lessons:
+- lesson_id: eng-g4-t1-u02-l01
+  unit_id: unit-02
+  subject: english
+  grade: 4
+  term: term-1
+  lesson_number: 1
+  lesson_name: 'Part A Let''s talk / Let''s learn: 描述朋友的外貌'
+  page_range: P16-P17
+  official_examples:
+  - His name is Zhang Peng. Let me see. He's tall and strong. He has nice short hair too.
+  - Tim is my friend. He's a good, good boy. He's tall and thin.
+- lesson_id: eng-g4-t1-u02-l02
+  unit_id: unit-02
+  subject: english
+  grade: 4
+  term: term-1
+  lesson_number: 2
+  lesson_name: 'Part A Let''s spell: 字母组合 sh 的发音'
+  page_range: P18
+  official_examples:
+  - I have no shell. Can we share? Share? No, we can't. Shoo! Go away, Fish!
+  - Let's spell：字母组合 sh 的发音 /ʃ/ 与例词（shell, share, shoo, fish）。
+- lesson_id: eng-g4-t1-u02-l03
+  unit_id: unit-02
+  subject: english
+  grade: 4
+  term: term-1
+  lesson_number: 3
+  lesson_name: 'Part B Let''s talk / Let''s learn: 介绍朋友并描述共同活动'
+  page_range: P19-P21
+  official_examples:
+  - Who's your best friend? Liu Jia. She's tall and … She has long hair. She often …
+  - We play games together. We play football together. I like my friend. My friend likes me.
+  - 核心词汇：kind, long, short, strong, tall；helps me with…, plays football, plays games, reads books。
+- lesson_id: eng-g4-t1-u02-l04
+  unit_id: unit-02
+  subject: english
+  grade: 4
+  term: term-1
+  lesson_number: 4
+  lesson_name: Part C Project / Reading time
+  page_range: P22-P25
+  official_examples:
+  - What's his/her name? His/Her name is …
+  - 'Project: Make a book about your friend（I have a friend. His/Her name is ___. He/She is ___. He/She has ___. He/She likes ___. He/She often ___.）'
+  - Reading time：He has small eyes and very big ears. What does he look like? He has short legs, but his body is very long.

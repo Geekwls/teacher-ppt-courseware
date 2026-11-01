@@ -1,0 +1,75 @@
+unit_id: unit-00
+blueprints:
+- blueprint_id: bp-math-g2-t2-u00-standard
+  title: 「时间在哪里」主题活动标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填：钟面与时间单位
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g2-t2-u00-p01
+    guidelines: 填写钟面大格/小格数、指针名称与时间单位。
+  - slot_id: slot-02
+    section: 二、填一填：单位换算
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g2-t2-u00-p02
+    guidelines: 1 时 =（　）分、1 分 =（　）秒等换算。
+  - slot_id: slot-03
+    section: 三、读一读：认读钟面时间
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - math-g2-t2-u00-p03
+    guidelines: 认读钟面（或钟面图）表示的时间并写出来。
+  - slot_id: slot-04
+    section: 四、选一选：时间的估计
+    question_type: choice
+    difficulty: variation
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g2-t2-u00-p04
+    guidelines: 选择完成某件事大约需要的时间（秒、分、时）。
+  - slot_id: slot-05
+    section: 五、排一排：按时间顺序排列
+    question_type: choice
+    difficulty: variation
+    points_per_item: 4
+    item_count: 3
+    target_points:
+    - math-g2-t2-u00-p05
+    guidelines: 把一天中的活动按时间先后排序。
+  - slot_id: slot-06
+    section: 六、说一说：与时间有关的成语
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g2-t2-u00-p06
+    guidelines: 填写或写出与时间有关的成语。
+  - slot_id: slot-07
+    section: 七、解决问题
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 12
+    item_count: 1
+    target_points:
+    - math-g2-t2-u00-p05
+    guidelines: 根据时间小书的信息提出并解答一个数学问题。

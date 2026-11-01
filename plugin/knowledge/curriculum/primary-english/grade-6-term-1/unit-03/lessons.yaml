@@ -1,0 +1,46 @@
+lessons:
+- lesson_id: eng-g6-t1-u03-l01
+  unit_id: unit-03
+  subject: english
+  grade: 6
+  term: term-1
+  lesson_number: 1
+  lesson_name: 'Part A: 区分健康与不健康的生活方式'
+  page_range: P27
+  official_examples:
+  - Think and complete the table：Healthy lifestyle / Unhealthy lifestyle。
+  - Do exercise. / Eat too much cake.
+- lesson_id: eng-g6-t1-u03-l02
+  unit_id: unit-03
+  subject: english
+  grade: 6
+  term: term-1
+  lesson_number: 2
+  lesson_name: 'Part A Let''s talk / Let''s learn: 谈论身体不适'
+  page_range: P28-P29
+  official_examples:
+  - Mike and Chen Jie are in the playground.
+  - What's the matter? I have a bad cold. My head hurts and I have a runny nose. Mike has a bad cold.
+- lesson_id: eng-g6-t1-u03-l03
+  unit_id: unit-03
+  subject: english
+  grade: 6
+  term: term-1
+  lesson_number: 3
+  lesson_name: 'Part B Let''s talk / Let''s learn: 给出健康建议'
+  page_range: P30-P31
+  official_examples:
+  - Binbin and Sarah meet in front of the library.
+  - Healthy life：Have a healthy diet. Don't stay up late. Exercise often. Think about happy things.
+- lesson_id: eng-g6-t1-u03-l04
+  unit_id: unit-03
+  subject: english
+  grade: 6
+  term: term-1
+  lesson_number: 4
+  lesson_name: Part C Read and write / Project / Reading time
+  page_range: P32-P37
+  official_examples:
+  - Read and write：Liu Jia was crying. / Liu Jia had a runny nose and felt unhappy. Liu Jia shared her feelings…
+  - 'Project: Make a healthy lifestyle pamphlet（Take care of your body / Make yourself feel good / Be friendly with people around）。'
+  - Reading time：My name is Right Hand. This is my twin brother, Left Hand.

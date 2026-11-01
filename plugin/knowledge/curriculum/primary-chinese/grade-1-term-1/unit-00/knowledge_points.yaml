@@ -1,0 +1,108 @@
+unit_id: unit-00
+source_id: pep_chinese_g1_t1_2024
+points:
+- point_id: chi-g1-t1-u00-p01
+  unit_id: unit-00
+  lesson_id: chi-g1-t1-u00-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 我是中国人（国家认同）
+  learning_objectives:
+  - 能朗读并背诵「我是中国人。我们都是中国人。中华民族是一家。」
+  - 知道自己是中国人，初步产生自豪感
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P2
+    - P3
+    anchor_text: P2「我上学了／我是中国人」；P3 原文「我是中国人。我们都是中国人。中华民族是一家。」
+  teaching_boundary:
+    scope_allowed:
+    - 朗读、背诵三句儿歌式短句
+    - 认识「中国」「中国人」两个词语
+    scope_excluded:
+    - 汉语拼音的拼读与书写
+    - 汉字的笔画书写要求
+- point_id: chi-g1-t1-u00-p02
+  unit_id: unit-00
+  lesson_id: chi-g1-t1-u00-l02
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 我爱我们的祖国（国旗、首都、长江黄河）
+  learning_objectives:
+  - 能说出五星红旗是我国的国旗、北京是首都
+  - 能朗读「我爱……」句式并说出自己爱祖国的什么
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P4
+    - P5
+    anchor_text: P4「我爱五星红旗。我爱北京天安门。」（配图标注：北京天安门、五星红旗）；P5「我爱长江，我爱黄河。我爱中华人民共和国。」（配图标注：长江、黄河）
+  teaching_boundary:
+    scope_allowed:
+    - 认识「五星红旗」「北京天安门」「长江」「黄河」
+    - 用「我爱……」句式说话
+    scope_excluded:
+    - 中国地理的系统知识
+    - 国旗国徽的法制知识
+- point_id: chi-g1-t1-u00-p03
+  unit_id: unit-00
+  lesson_id: chi-g1-t1-u00-l03
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 我是小学生（上学歌）
+  learning_objectives:
+  - 能跟着读儿歌《上学歌》，感受上学的快乐
+  - 知道小学生要天天不迟到、爱学习、爱劳动
+  applicable_question_types:
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P6
+    anchor_text: P6 儿歌《上学歌》：「太阳当空照，花儿对我笑。小鸟说：早，早，早，你为什么背上小书包？」「我去上学校，天天不迟到。爱学习，爱劳动，长大要为人民立功劳。」
+  teaching_boundary:
+    scope_allowed:
+    - 跟读、背诵《上学歌》
+    - 说出小学生应该怎么做
+    scope_excluded:
+    - 歌曲曲谱的演唱
+    - 「立功劳」的深层含义
+- point_id: chi-g1-t1-u00-p04
+  unit_id: unit-00
+  lesson_id: chi-g1-t1-u00-l04
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 我爱学语文（读书、写字、讲故事、听故事）
+  learning_objectives:
+  - 知道学习语文要做的事：读书、写字、讲故事、听故事
+  - 初步了解正确的读书姿势与写字姿势
+  applicable_question_types:
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P7
+    anchor_text: P7「我爱学语文」：读书、写字；讲故事、听故事。
+  teaching_boundary:
+    scope_allowed:
+    - 说出语文学习的四件事
+    - 观察并模仿正确的读书、写字姿势
+    scope_excluded:
+    - 握笔与笔画的系统训练
+    - 汉语拼音

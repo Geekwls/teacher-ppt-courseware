@@ -1,0 +1,83 @@
+unit_id: unit-03
+source_id: pep_math_g1_t1_2024
+points:
+- point_id: math-g1-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: math-g1-t1-u03-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 11～20 各数的认识与「十」的计数单位
+  learning_objectives:
+  - 能数、读、写 11～20 各数
+  - 理解「10 个一是 1 个十」，初步建立计数单位「一」与「十」的观念
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P67
+    - P72
+    anchor_text: 单元起始页 P67 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 11～20 的认读与书写
+    - 把 10 根小棒捆成 1 捆表示 1 个十
+    scope_excluded:
+    - 100 以内数的认识
+    - 数位的系统认识（个位、十位）
+- point_id: math-g1-t1-u03-p02
+  unit_id: unit-03
+  lesson_id: math-g1-t1-u03-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 20 以内数的顺序与大小比较
+  learning_objectives:
+  - 掌握 11～20 各数的顺序，会按顺序数数、倒着数
+  - 会比较 20 以内数的大小
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P67
+    - P72
+    anchor_text: 单元起始页 P67 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 11～20 的顺序、相邻数、大小比较
+    scope_excluded:
+    - 20 以上数的顺序
+    - 用减法求相差数
+- point_id: math-g1-t1-u03-p03
+  unit_id: unit-03
+  lesson_id: math-g1-t1-u03-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 20 以内数的组成与简单加减法
+  learning_objectives:
+  - 能说出 11～20 各数由几个十和几个一组成
+  - 会计算 10 加几、十几减几（不退位）等简单式题
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P67
+    - P72
+    anchor_text: 单元起始页 P67 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 11～20 的组成（几个十和几个一）
+    - 10 加几、十几减几（不退位）
+    scope_excluded:
+    - 进位加法与退位减法
+    - 20 以上加减法

@@ -1,0 +1,102 @@
+unit_id: unit-02
+source_id: pep_math_g2_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春人教版教师教学用书数学二年级下册》为**纯扫描件（273 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g2-t2-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 由多个同类情境归纳出乘法模型，建立「每份数 × 份数 = 总数」
+    difficulty: 学生易把「几和几的和」误当作「几个几的和」
+    typical_misconceptions:
+    - error_pattern: 把「4和5相加」用乘法 4×5 计算
+      misconception_type: 乘法模型与加法情境混淆
+    - error_pattern: 能列式但不能说出用乘法的理由
+      misconception_type: 模型意识不足
+  variation_strategy:
+  - 比较「每份数×份数」与「两个数相加」两类情境
+  - 给算式 6×3 编一个数学故事
+- point_id: math-g2-t2-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 由乘法模型逆推除法模型，沟通乘除关系
+    difficulty: 学生易把两类除法问题的除数与被除数位置颠倒
+    typical_misconceptions:
+    - error_pattern: 把「每份数」问题列成「份数 ÷ 总数」
+      misconception_type: 两类除法辨析不清
+    - error_pattern: 列式后不写单位名称
+      misconception_type: 解题规范缺失
+  variation_strategy:
+  - 同一情境用两种除法列式并比较
+  - 说出 32÷8 与 32÷4 分别表示什么
+- point_id: math-g2-t2-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助圈一圈、画一画建立「几倍就是有几个几」的表象
+    difficulty: 学生易把「A 是 B 的 3 倍」误作「A 比 B 多 3」
+    typical_misconceptions:
+    - error_pattern: 把「3倍」理解为「多3」
+      misconception_type: 倍与相差混淆
+    - error_pattern: 列式时用乘法求倍数
+      misconception_type: 求倍数应用除法未掌握
+  variation_strategy:
+  - 画一画：第二行画△，△的个数是○的4倍
+  - 比较「多几个」与「是几倍」的不同
+- point_id: math-g2-t2-u02-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「几倍」转化为「几个几」，与乘法意义建立联系
+    difficulty: 学生易用除法求「一个数的几倍」
+    typical_misconceptions:
+    - error_pattern: 把「8的4倍」用 8÷4 计算
+      misconception_type: 乘法与除法模型选择错误
+    - error_pattern: 画图时份数画错
+      misconception_type: 倍数关系表征错误
+  variation_strategy:
+  - 画图表示「8的4倍」并列式计算
+  - 用「1根小棒表示1份」的方法简化画图
+- point_id: math-g2-t2-u02-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把问题转化为「几份是几，求1份是多少」，用线段图辅助
+    difficulty: 学生易与「求一个数的几倍」混淆，误用乘法
+    typical_misconceptions:
+    - error_pattern: 把「12是6倍，求原数」用 12×6 计算
+      misconception_type: 模型选择错误
+    - error_pattern: 线段图的份数画错
+      misconception_type: 数量关系表征错误
+  variation_strategy:
+  - 画线段图表示「跳的距离是体长的6倍」
+  - 比较两道题：8的4倍是多少 / 12的6倍是几（求原数）
+- point_id: math-g2-t2-u02-p06
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 训练「条件—问题」的双向思维，体会条件与问题的对应关系
+    difficulty: 学生补充的条件与问题不匹配，或补充的条件不合逻辑
+    typical_misconceptions:
+    - error_pattern: 补充的条件无法求出所求问题
+      misconception_type: 条件与问题不匹配
+    - error_pattern: 补充的条件与已知信息矛盾（如总数小于部分）
+      misconception_type: 合理性检验缺失
+  variation_strategy:
+  - 给同一组条件提出 3 个不同的问题
+  - 为「挂了多少个黄灯笼？」补充合适的条件
+- point_id: math-g2-t2-u02-p07
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「两个数量之间的关系」为主线整合本单元知识
+    difficulty: 学生易把「是几倍」与「多几」的表达混淆
+    typical_misconceptions:
+    - error_pattern: 把「是3倍」写成「多3」
+      misconception_type: 两种关系表述混淆
+    - error_pattern: 能列式但说不出依据的数量关系
+      misconception_type: 模型意识不足
+  variation_strategy:
+  - 画一张「数量关系」知识图
+  - 给同一组数据分别提出相差关系与倍数关系的问题

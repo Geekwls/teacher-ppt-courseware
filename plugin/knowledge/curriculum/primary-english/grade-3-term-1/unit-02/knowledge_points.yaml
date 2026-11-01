@@ -1,0 +1,189 @@
+unit_id: "unit-2"
+source_id: "pep_english_g3_t1_2024"
+points:
+  - point_id: "eng-g3-t1-u02-p01"
+    lesson_id: "lesson-03"
+    point_name: "字母 Ee, Ff, Gg, Hh 的认读、大小写配对与四线三格规范书写"
+    learning_objectives:
+      - "正确认读英文字母 Ee, Ff, Gg, Hh 的大写与小写形式"
+      - "熟练进行字母大小写配对与字母表顺序（Ee-Hh）推导"
+      - "在四线三格中按照正确笔顺和占格位置规范书写 Ee, Ff, Gg, Hh"
+    prerequisites:
+      - "eng-g3-t1-u01-p01"
+    subsequent_points:
+      - "eng-g3-t1-u02-p02"
+    applicable_question_types: ["fill_blank", "choice", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "字母 Ee, Ff, Gg, Hh 的书写占格（大写占上两格，小写e占中格，f占上中或三格，g占中下格，h占上两格）"
+        - "按顺序排列与左邻右舍填空（如 E, F, G, H）"
+      scope_excluded:
+        - "Ii 之后的字母书写（第三单元学习）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [18]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u02-p02"
+    lesson_id: "lesson-03"
+    point_name: "字母 Ee-Hh 自然拼读发音与例词拼读"
+    learning_objectives:
+      - "掌握短元音 e 发 /e/，辅音字母 f 发 /f/，g 发 /ɡ/，h 发 /h/ 的发音规律"
+      - "能听音辨字，准确识别并拼读核心拼读词汇"
+      - "能拼读辅元辅简单词：bed, fed, gab, had"
+    prerequisites:
+      - "eng-g3-t1-u02-p01"
+    subsequent_points: []
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "教材拼读例词：egg, nest, fish, beef, girl, pig, hot, hat"
+        - "CVC拼读词：bed, fed, gab, had"
+        - "首音辨析与元音/e/识别"
+      scope_excluded:
+        - "复杂辅音丛或长元音拼读"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [18]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u02-p03"
+    lesson_id: "lesson-02"
+    point_name: "直系家庭成员核心词汇认读"
+    learning_objectives:
+      - "听、说、认读直系家庭成员词汇：father (dad), mother (mum), grandfather (grandpa), grandmother (grandma), sister, me"
+      - "建立书面全称与口语化爱称的对应关系"
+    prerequisites: []
+    subsequent_points:
+      - "eng-g3-t1-u02-p04"
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "father/dad（爸爸）, mother/mum（妈妈）"
+        - "grandfather/grandpa（祖父/外祖父）, grandmother/grandma（祖母/外祖母）"
+        - "sister（姐妹）, me（我）"
+      scope_excluded:
+        - "第二学段复杂的亲属派生词"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [17]
+      example_ref: ["ex_2"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u02-p04"
+    lesson_id: "lesson-01"
+    point_name: "介绍家庭成员与长辈核心句型"
+    learning_objectives:
+      - "熟练运用句型 This is my... 介绍自己的朋友与家庭成员"
+      - "能在真实或模拟情境中向长辈礼貌问好（Nice to meet you. / Hi, ...）"
+    prerequisites:
+      - "eng-g3-t1-u02-p03"
+    subsequent_points:
+      - "eng-g3-t1-u02-p06"
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "This is my + 亲属称谓（This is my mum. / This is my grandpa.）"
+        - "This is my friend, ...（介绍朋友）"
+      scope_excluded:
+        - "复数介绍句型 These are my...（未在本课时重点要求）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [16, 17]
+      example_ref: ["ex_1"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u02-p05"
+    lesson_id: "lesson-05"
+    point_name: "旁系亲属与大家庭拓展词汇认读"
+    learning_objectives:
+      - "听、说、认读亲属称谓：uncle, aunt, cousin, brother, baby sister"
+      - "理解 big family（大家庭）的内涵"
+    prerequisites: []
+    subsequent_points:
+      - "eng-g3-t1-u02-p07"
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "uncle（叔/舅/伯）, aunt（婶/姑/姨）, cousin（堂/表兄弟姐妹）"
+        - "brother（兄/弟）, baby sister（小妹妹）"
+      scope_excluded:
+        - "nephew, niece 等超纲高级亲属称谓"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [20]
+      example_ref: ["ex_5"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u02-p06"
+    lesson_id: "lesson-04"
+    point_name: "询问并确认家庭成员的一般疑问句与应答"
+    learning_objectives:
+      - "熟练运用 Is this/that your...? 询问确认照片或眼前的亲属身份"
+      - "掌握肯定回答 Yes, it is. 与否定回答 No, it's my... 的准确对应"
+    prerequisites:
+      - "eng-g3-t1-u02-p04"
+      - "eng-g3-t1-u02-p05"
+    subsequent_points:
+      - "eng-g3-t1-u02-p08"
+    applicable_question_types: ["choice", "match", "dialogue"]
+    teaching_boundary:
+      scope_allowed:
+        - "问句：Is this your sister? / Is that your brother?"
+        - "答句：Yes, it is. / No, it's my cousin."
+        - "指示代词 this（近指）与 that（远指）的语境体会"
+      scope_excluded:
+        - "一般过去时或特殊疑问句 Who is he/she?（后续学习）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [19]
+      example_ref: ["ex_4"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u02-p07"
+    lesson_id: "lesson-05"
+    point_name: "表达拥有家庭成员的陈述句型"
+    learning_objectives:
+      - "掌握用 I have a/an... 介绍自己拥有的家庭成员"
+      - "区分冠词 a 与 an 的用法（an uncle, an aunt, a brother, a cousin）"
+    prerequisites:
+      - "eng-g3-t1-u02-p05"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "I have an uncle. / I have an aunt."
+        - "I have a brother. / I have a cousin."
+        - "不定冠词 a 与 an 的准确选择"
+      scope_excluded:
+        - "第三人称单数 has 变位（现阶段以 I have 为主）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [20]
+      example_ref: ["ex_5"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u02-p08"
+    lesson_id: "lesson-06"
+    point_name: "家庭多样性与亲情主题简短语篇理解"
+    learning_objectives:
+      - "能读懂关于不同家庭的简短介绍与配图短文"
+      - "提取核心信息，领会'Families are different, but family love is the same'的核心主题"
+    prerequisites:
+      - "eng-g3-t1-u02-p04"
+      - "eng-g3-t1-u02-p06"
+    subsequent_points: []
+    applicable_question_types: ["reading", "choice", "judge"]
+    teaching_boundary:
+      scope_allowed:
+        - "家庭结构比较：big family 与 small family"
+        - "正误判断题（T/F）、图文匹配题"
+      scope_excluded:
+        - "长难叙事散文"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [21]
+      example_ref: ["ex_6"]
+    verification_status: "verified"

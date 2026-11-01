@@ -1,0 +1,15 @@
+unit_id: unit-07
+unit_name: 第七单元 复习与关联
+subject: math
+edition: 人教版
+grade: 1
+term: term-2
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: partial
+source_id: pep_math_g1_t2_2024
+teaching_reference_source_id: pep_math_g1_t2_tr_2024
+page_range: P83-P92
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版人教版小学数学一年级下册电子课本》逐页实证核定：课本 PDF 共 20 页，页脚印刷页码实测偏移 = 5（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P14。本单元真实版面为 P83–P92，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。
+unit_overview: 全册整理与复习单元：梳理 100 以内数的认识、加减法（口算与笔算）与数量关系，建立知识间的关联。（注：P77–P82 为「欢乐购物街」综合实践活动，不单独登记为单元。）
+numeric_upper_bound: 100

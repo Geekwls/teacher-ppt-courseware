@@ -1,0 +1,60 @@
+unit_id: unit-06
+source_id: pep_chinese_g6_t1_2024
+points:
+- point_id: chi-g6-t1-u06-p01
+  unit_id: unit-06
+  lesson_id: chi-g6-t1-u06-l01
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 抓住关键句把握主要观点
+  learning_objectives:
+  - 能抓住关键句把握文章的主要观点
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P81
+    - P82
+    - P84
+    anchor_text: 单元起始页 P81 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《只有一个地球》《青山不老》《三黑和土地》
+    - 《浪淘沙（其一）》《江南春》《书湖阴先生壁》
+    scope_excluded:
+    - 环境保护科学
+    - 议论文的论点提取
+- point_id: chi-g6-t1-u06-p02
+  unit_id: unit-06
+  lesson_id: chi-g6-t1-u06-l01
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 学写倡议书
+  learning_objectives:
+  - 能按倡议书的格式写一份倡议书
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P94
+    - P95
+    anchor_text: 单元起始页 P94 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 倡议书的格式
+    - 倡议的理由与建议要具体
+    scope_excluded:
+    - 应用文写作规范
+    - 公共写作

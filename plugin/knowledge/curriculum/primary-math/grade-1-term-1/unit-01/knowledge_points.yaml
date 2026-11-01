@@ -1,0 +1,154 @@
+unit_id: unit-01
+source_id: pep_math_g1_t1_2024
+points:
+- point_id: math-g1-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: math-g1-t1-u01-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 1～5 的认识与规范书写（基数含义）
+  learning_objectives:
+  - 能数出 5 以内物体的个数，并用 1～5 表示
+  - 能在田字格中按笔顺规范书写 1～5
+  - 理解 1～5 各数的基数含义与数的顺序
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - writing
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P14
+    - P15
+    - P16
+    anchor_text: P15「1还能表示生活中哪些事物的数量？2、3、4、5呢？」「拨一拨，数一数。」「描一描，写一写。」；P16「数一数，写一写。」「用自己喜欢的方式表示1、2、3、4、5。」
+  teaching_boundary:
+    scope_allowed:
+    - 5 以内数的认读、书写与顺序
+    - 用数表示物体个数并说出数量
+    scope_excluded:
+    - 6 以上数的认识
+    - 加减法计算
+    - 数的组成（分与合）
+- point_id: math-g1-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: math-g1-t1-u01-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 比较 5 以内数的大小与「＞」「＜」「＝」的认识
+  learning_objectives:
+  - 能用一一对应的方法比较 5 以内数的大小
+  - 认识大于号、小于号、等号，会读写「3＞2」这样的式子
+  - 能用「大于」「小于」「等于」描述比较结果
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P17
+    - P18
+    anchor_text: P17「比大小」：「3 大于2」「3 小于4」「3 = 3」，标注等号、大于号、小于号，读作「3 等于3」。P18 在○里填「＞」「＜」。
+  teaching_boundary:
+    scope_allowed:
+    - 比较 5 以内两个数的大小
+    - 认读与书写 ＞、＜、＝
+    scope_excluded:
+    - 用减法求相差数
+    - 20 以内数的大小比较
+- point_id: math-g1-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: math-g1-t1-u01-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 「第几」：序数含义与位置确定
+  learning_objectives:
+  - 理解「第几」表示物体排列的位置，区分「几个」与「第几个」
+  - 能从指定方向数出某一物体的位置
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P19
+    anchor_text: P19「第几」：「（1）从左边数，圈出4只小鸟，给第4只涂色。（2）从右边数的第2只小鸟飞走了，还剩几只小鸟。」
+  teaching_boundary:
+    scope_allowed:
+    - 按指定方向确定「第几」
+    - 区分「几个」与「第几个」
+    scope_excluded:
+    - 两位数序数
+    - 用减法求相差数
+- point_id: math-g1-t1-u01-p04
+  unit_id: unit-01
+  lesson_id: math-g1-t1-u01-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 5 以内数的分与合（数的组成）
+  learning_objectives:
+  - 知道 2～5 各数可以分成哪两个数，并能说出几和几组成某个数
+  - 在分与合的活动中体会「有序」地找出所有分法
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P20
+    - P21
+    anchor_text: P20「分与合」：「5个分成两堆，可以怎样分？」「5可以分成几和几？几和几组成5？」「4可以分成几和几？」；P21「3和几组成5？」「1和几组成2？」
+  teaching_boundary:
+    scope_allowed:
+    - 说出 2～5 各数的全部分与合
+    - 用分与合解释数的组成
+    scope_excluded:
+    - 6 以上数的分与合
+    - 加减法算式
+- point_id: math-g1-t1-u01-p05
+  unit_id: unit-01
+  lesson_id: math-g1-t1-u01-l01
+  subject: math
+  grade: 1
+  term: term-1
+  point_name: 5 以内的加法、减法与 0 的认识
+  learning_objectives:
+  - 结合具体情境理解加法、减法的含义，会计算 5 以内的加减法
+  - 认识 0，知道 0 表示「一个也没有」，会计算与 0 有关的加减法
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t1_2024
+    page_ref:
+    - P22
+    - P23
+    - P24
+    - P25
+    - P26
+    - P27
+    - P28
+    - P29
+    - P30
+    - P31
+    - P32
+    anchor_text: 本单元 P22–P33 为 5 以内加减法与 0 的认识、整理和复习，**超出用户提供电子课本的可读区间（P1–P21）**，课时页界与例题原文待实物核验；范围依课本目录登记的单元版面 P12–P33 与教材通行编排推定。
+  teaching_boundary:
+    scope_allowed:
+    - 5 以内加法与减法的计算
+    - 看图列式与用加减法解决简单问题
+    - 0 的读写与 0 的加减法
+    scope_excluded:
+    - 10 以上的加减法
+    - 连加连减
+    - 带括号的算式

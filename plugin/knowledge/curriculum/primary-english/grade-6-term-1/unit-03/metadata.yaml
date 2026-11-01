@@ -1,0 +1,17 @@
+unit_id: unit-03
+unit_name: Unit 3 Healthy life
+subject: english
+edition: 人教版PEP(2024年审定版)
+grade: 6
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: verified
+source_id: pep_english_g6_t1_2024
+teaching_reference_source_id: pep_english_g6_t1_tr_2024
+page_range: P26-P37
+curriculum_standard_ref: 义务教育英语课程标准（2022年版）二级目标与要求
+page_evidence_note:
+- 页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语六年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 7（前段，PDF#9 = 印刷 P2）；本册可读印刷页区间为 P2–P43 与 P46–P54（P44–P45 缺页）。本单元真实版面为 P26–P37（Unit 3 起始页 P26「Healthy life / What is a healthy lifestyle?」；P27 Think and complete the table：Healthy lifestyle / Unhealthy lifestyle —— Do exercise. / Eat too much cake.；P28 Let's talk：Mike and Chen Jie are in the playground.；P29 Let's learn：What's the matter? I have a bad cold. My head hurts and I have a runny nose. Mike has a bad cold.；P30 Let's talk：Binbin and Sarah meet in front of the library.；P31 Let's learn：Healthy life —— Have a healthy diet. Don't stay up late. Exercise often. Think about happy things.；P32–P33 Read and write：Liu Jia was crying. So M… / Liu Jia had a runny nose and felt unhappy.；P36–P37 Reading time：My name is Right Hand. This is my twin brother, Left Hand.），**全部落在可读区间内**，故记为 verified。
+unit_overview: 本单元围绕大问题「What is a healthy lifestyle?」展开。教材通过「区分健康与不健康的生活方式」「谈论身体不适」「给出保持健康的建议」等情境，引导学生掌握疾病与身体不适的表达（What's the matter? I have a bad cold. My head hurts.），学会用祈使句给健康建议（Have a healthy diet. Don't stay up late.），并关注身心健康与情绪管理。
+numeric_upper_bound: 100000

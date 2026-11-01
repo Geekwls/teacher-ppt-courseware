@@ -1,0 +1,93 @@
+unit_id: "unit-6"
+source_id: "pep_math_g3_t2_2024"
+points:
+  - point_id: "math-g3-t2-u06-p01"
+    unit_id: "unit-6"
+    lesson_id: "math-g3-t2-u06-l01"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "年、月、日基本概念及大月、小月与特殊二月"
+    learning_objectives:
+      - "掌握时间单位年、月、日：一年有12个月；大月（31天）有7个（1、3、5、7、8、10、12月）；小月（30天）有4个（4、6、9、11月）；平年2月28天，闰年2月29天"
+      - "熟练运用拳头凸凹法和歌诀（一三五七八十腊）判断任意月份的天数"
+    applicable_question_types: ["fill_blank", "choice"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [77, 78, 79]
+      anchor_text: "一年有12个月。大月有31天，小月有30天。7个大月，4个小月。二月平年28天，闰年29天。"
+    teaching_boundary:
+      scope_allowed:
+        - "判断每个月的天数及连续大月（7月和8月，12月和1月）"
+        - "计算某一季度的天数"
+      scope_excluded:
+        - "农历干支纪年与二十四节气严密天文推算"
+
+  - point_id: "math-g3-t2-u06-p02"
+    unit_id: "unit-6"
+    lesson_id: "math-g3-t2-u06-l02"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "平年与闰年的特征、全年天数及公历年份判断方法"
+    learning_objectives:
+      - "理解平年全年有365天（52个星期零1天），闰年全年有366天（52个星期零2天）"
+      - "掌握公历年份平闰年的判断法则：公历年份除以4没有余数的一般是闰年；遇到整百年份（末尾有两个0），必须除以400没有余数才是闰年（如2000年是闰年，1900年是平年，2024年是闰年）"
+    applicable_question_types: ["choice", "fill_blank", "calculation"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [80, 81]
+      anchor_text: "公历年份是4的倍数一般是闰年；是整百数的必须是400的倍数才是闰年。"
+    teaching_boundary:
+      scope_allowed:
+        - "判断近现代公历年份是平年还是闰年"
+        - "计算全年总天数或上半年天数"
+      scope_excluded:
+        - "3200年等超级闰年天文摄动高阶历法"
+
+  - point_id: "math-g3-t2-u06-p03"
+    unit_id: "unit-6"
+    lesson_id: "math-g3-t2-u06-l03"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "普通计时法与24时计时法的互化"
+    learning_objectives:
+      - "理解24时计时法的意义：时针一天走两圈，第一圈0时至12时，第二圈12时至24时"
+      - "掌握两种计时法的互化方法：普通计时法改24时计时法，去掉时间词，下午和晚上时刻加12；反之，超过12时的减去12，加上‘下午’或‘晚上’等时间词"
+    applicable_question_types: ["fill_blank", "choice"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [82, 83]
+      anchor_text: "采用0时到24时的计时法叫作24时计时法。下午5时用24时计时法表示是17:00。"
+    teaching_boundary:
+      scope_allowed:
+        - "普通计时法与24时计时法互相转换"
+      scope_excluded:
+        - "跨国际时区夏令时换算"
+
+  - point_id: "math-g3-t2-u06-p04"
+    unit_id: "unit-6"
+    lesson_id: "math-g3-t2-u06-l04"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "简单经过时间的计算与实际应用"
+    learning_objectives:
+      - "掌握经过时间的计算公式：经过时间 = 结束时刻 - 开始时刻"
+      - "统一先转化为24时计时法后再进行减法计算；分不够减时借1小时化为60分"
+      - "严格区分‘时刻’（表示一个时间点，如8时30分）与‘时间段/经过时间’（表示长度，如3小时30分钟）"
+    applicable_question_types: ["calculation", "word_problem", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [84, 85]
+      anchor_text: "经过时间 = 结束时刻 - 开始时刻。上午8:30到下午4:30，先化成24时计时法：16:30 - 8:30 = 8小时。"
+    teaching_boundary:
+      scope_allowed:
+        - "一天以内或跨一天的简单经过时间计算"
+      scope_excluded:
+        - "跨月跨年复杂时差计算"

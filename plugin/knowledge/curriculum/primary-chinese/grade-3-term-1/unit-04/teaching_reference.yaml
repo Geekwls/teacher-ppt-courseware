@@ -1,0 +1,81 @@
+unit_id: "unit-4"
+source_id: "pep_chinese_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《人教统编版小学语文三年级上册教师用书（教学参考）》
+  （255 页扫描件，OCR 解析）核定。第四单元位于教参 P89 起：单元说明 P89、
+  宝葫芦的秘密（节选）P91、在牛肚子里旅行 P96、一块奶酪 P110、语文园地 P117、快乐读书吧 P121。
+teaching_references:
+  - point_id: "chi-g3-t1-u04-p01"
+    ref_book: "人教版《教师教学用书》语文三年级上册第四单元"
+    ref_page: "P91-P121"
+    pedagogical_focus:
+      key_point: "在阅读童话中落实识字写字，注意形近字与易错笔画的辨析"
+      difficulty: "本单元生字随文出现，需结合童话语境识记，避免孤立机械抄写"
+      typical_misconceptions:
+        - error_pattern: "混淆形近字（如『历/厉』『密/蜜』类部件）"
+          misconception_type: "形近部件混淆"
+        - error_pattern: "笔画增减导致错字"
+          misconception_type: "书写不规范"
+    variation_strategy:
+      - "看拼音写词语；形近字对比组词"
+      - "结合语境选字填空"
+
+  - point_id: "chi-g3-t1-u04-p02"
+    ref_book: "人教版《教师教学用书》语文三年级上册第四单元"
+    ref_page: "P89"
+    pedagogical_focus:
+      key_point: "在阅读中感受童话丰富的想象，体会童话中的真善美"
+      difficulty: "学生易只关注情节热闹，忽略想象背后的情感与道理"
+      typical_misconceptions:
+        - error_pattern: "把童话当普通故事复述，说不出想象奇妙之处"
+          misconception_type: "要素把握不准"
+        - error_pattern: "只讲情节，体会不到故事蕴含的真善美"
+          misconception_type: "情感体会缺失"
+    variation_strategy:
+      - "找出童话中想象奇特的地方，并说明奇妙在哪里"
+      - "结合故事人物谈自己感受到的真善美"
+
+  - point_id: "chi-g3-t1-u04-p03"
+    ref_book: "人教版《教师教学用书》语文三年级上册第四单元"
+    ref_page: "P96"
+    pedagogical_focus:
+      key_point: "梳理童话情节，把握人物形象，体会故事蕴含的情谊"
+      difficulty: "学生易停留在情节复述，缺乏对情节顺序与人物品质的提炼"
+      typical_misconceptions:
+        - error_pattern: "能讲故事但说不清红头在牛肚子里的旅行路线"
+          misconception_type: "顺序梳理不足"
+        - error_pattern: "把人物品质与情节细节割裂"
+          misconception_type: "缺乏依据意识"
+    variation_strategy:
+      - "按顺序梳理红头的旅行路线，并用关键词概括人物特点"
+      - "从文中找依据，讨论故事给自己的启示"
+
+  - point_id: "chi-g3-t1-u04-p04"
+    ref_book: "人教版《教师教学用书》语文三年级上册第四单元"
+    ref_page: "P117"
+    pedagogical_focus:
+      key_point: "发挥想象编写童话，把故事的角色、时间、地点和情节写清楚"
+      difficulty: "学生编童话易情节零散、缺少完整结构或结尾草率"
+      typical_misconceptions:
+        - error_pattern: "想象内容与童话体裁不符，写成说明或议论"
+          misconception_type: "体裁意识缺失"
+        - error_pattern: "故事没有开头或结尾，情节跳跃"
+          misconception_type: "结构不完整"
+    variation_strategy:
+      - "根据给定的角色、时间、地点编写童话，注意故事完整"
+      - "互评：想象是否奇妙、故事是否写清楚"
+
+  - point_id: "chi-g3-t1-u04-p05"
+    ref_book: "人教版《教师教学用书》语文三年级上册第四单元"
+    ref_page: "P121"
+    pedagogical_focus:
+      key_point: "在快乐读书吧中习得读童话的方法，激发课外阅读童话的兴趣"
+      difficulty: "学生易把课外阅读当成任务，缺少方法意识与阅读计划"
+      typical_misconceptions:
+        - error_pattern: "读童话只图情节，不做词句积累与感受交流"
+          misconception_type: "方法意识薄弱"
+        - error_pattern: "课外阅读无计划，随意翻读"
+          misconception_type: "缺乏规划"
+    variation_strategy:
+      - "制定一份简单的童话阅读计划"
+      - "交流读童话的收获与感受，积累好词好句"

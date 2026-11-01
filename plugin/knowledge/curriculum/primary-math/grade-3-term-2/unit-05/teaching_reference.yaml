@@ -1,0 +1,54 @@
+unit_id: "unit-5"
+source_id: "pep_math_g3_t2_tr_2026"
+teaching_references:
+  - point_id: "math-g3-t2-u05-p01"
+    ref_book: "人教版《教师教学用书》数学三年级下册第五单元"
+    ref_page: "P174-P183"
+    pedagogical_focus:
+      key_point: "体会复式统计表的便捷性，学会看懂复合表头的结构与指引方向"
+      difficulty: "表头三斜栏与具体数据的对应关系（容易看错横行与纵列对应的项目）"
+      typical_misconceptions:
+        - error_pattern: "看表头时将横栏和纵栏所代表的项目混淆看反"
+          misconception_type: "二维表格交叉坐标定位错乱"
+    variation_strategy:
+      - "选择题：复式统计表左上角的表头一般包含（3）项内容"
+      - "比较单式与复式统计表的优缺点"
+
+  - point_id: "math-g3-t2-u05-p02"
+    ref_book: "人教版《教师教学用书》数学三年级下册第五单元"
+    ref_page: "P184-P190"
+    pedagogical_focus:
+      key_point: "运用画“正”字法记录整理，确保数据收集统计的一一对应与准确性"
+      difficulty: "未写完一个“正”字的残缺笔画数错（如‘正’写了3画误数成4画）"
+      typical_misconceptions:
+        - error_pattern: "把一个正字按4画计算（漏算‘正’字有5笔）"
+          misconception_type: "画正字笔画基数遗忘"
+    variation_strategy:
+      - "数‘正’字填空：‘正正正一’表示（16）人"
+      - "纠错题：找出漏数的数据"
+
+  - point_id: "math-g3-t2-u05-p03"
+    ref_book: "人教版《教师教学用书》数学三年级下册第五单元"
+    ref_page: "P191-P198"
+    pedagogical_focus:
+      key_point: "准确填入数据，计算横向合计与纵向合计，并进行交叉总计验算"
+      difficulty: "横向合计之和必须严格等于纵向总计之和，学生常因粗心导致两边不一致"
+      typical_misconceptions:
+        - error_pattern: "全表右下角总计填空时，把全部横向合计与纵向总计又加了一遍，导致总数翻倍"
+          misconception_type: "重复累加错误（典型错因）"
+    variation_strategy:
+      - "表格计算填空：补全复式统计表中缺失的合计与总计数据"
+      - "核对判断：检查统计表中的总计数据是否正确"
+
+  - point_id: "math-g3-t2-u05-p04"
+    ref_book: "人教版《教师教学用书》数学三年级下册第五单元"
+    ref_page: "P199-P204"
+    pedagogical_focus:
+      key_point: "从数据中提取信息、发现规律，并提出合理的数学建议，体会数据分析观念"
+      difficulty: "多步问题审题不清（如问‘男生喜欢足球的比女生喜欢跳绳的多几人’，涉及跨行跨列两处取数）"
+      typical_misconceptions:
+        - error_pattern: "从表格取错数据（如取成喜欢足球的女生人数）"
+          misconception_type: "行列交点定位错误"
+    variation_strategy:
+      - "综合问答：根据统计表提出两个数学问题并解答"
+      - "决策应用：如果你是商场经理，根据这份童鞋销售统计表，下个月你应该多进哪种鞋子？说明理由。"

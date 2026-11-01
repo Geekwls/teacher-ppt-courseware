@@ -1,0 +1,77 @@
+unit_id: "unit-3"
+source_id: "pep_math_g3_t2_tr_2026"
+teaching_references:
+  - point_id: "math-g3-t2-u03-p01"
+    ref_book: "人教版《教师教学用书》数学三年级下册第三单元"
+    ref_page: "P84-P95"
+    pedagogical_focus:
+      key_point: "掌握长方形对边相等、4个角都是直角；正方形4条边都相等、4个角都是直角的本质特征"
+      difficulty: "辨析正方形与长方形的关系（正方形是特殊的长方形，具备长方形的一切特征）"
+      typical_misconceptions:
+        - error_pattern: "认为正方形不是长方形（误把正方形与长方形当作非此即彼的对立概念）"
+          misconception_type: "几何概念从属关系混淆"
+        - error_pattern: "认为有4条边、4个角的图形就一定是四边形（忽视边必须是直的线段这一前提）"
+          misconception_type: "边线为曲线图形误判"
+    variation_strategy:
+      - "判断题：正方形是特殊的长方形（√）"
+      - "画图题：在方格纸上画出指定长宽的长方形与正方形"
+
+  - point_id: "math-g3-t2-u03-p02"
+    ref_book: "人教版《教师教学用书》数学三年级下册第三单元"
+    ref_page: "P96-P105"
+    pedagogical_focus:
+      key_point: "理解周长的本质是‘一周所有边线的长度总和’，只有封闭图形才有周长"
+      difficulty: "建立线段长度总和的度量观念，避免与内部面的大小（面积）混淆"
+      typical_misconceptions:
+        - error_pattern: "给开口的不封闭图形计算周长"
+          misconception_type: "周长封闭性前提遗漏"
+        - error_pattern: "描周长时把图形内部的分隔线也算进周长"
+          misconception_type: "内部线条与外部周线混淆"
+    variation_strategy:
+      - "红笔描出下列图形的周长（排除内部线条与不封闭图形）"
+      - "化曲为直测量不规则树叶周长"
+
+  - point_id: "math-g3-t2-u03-p03"
+    ref_book: "人教版《教师教学用书》数学三年级下册第三单元"
+    ref_page: "P106-P115"
+    pedagogical_focus:
+      key_point: "深刻理解长方形周长公式 (长+宽)×2 的算理来源（两条长加两条宽）"
+      difficulty: "已知周长求长或宽的逆向变式计算，学生极易忘记‘先除以2’"
+      typical_misconceptions:
+        - error_pattern: "长方形周长计算漏乘2，直接写长+宽（如长6宽4，周长算成10）"
+          misconception_type: "半周长误当整周长"
+        - error_pattern: "已知长方形周长30厘米、长9厘米求宽，直接用 30-9=21 厘米，忘记除以2"
+          misconception_type: "逆向公式算理缺失"
+    variation_strategy:
+      - "逆向填空：一个长方形周长是24米，长是7米，宽是（5）米"
+      - "错题辨析：指出 30 - 9 错在没有先算出长与宽的和"
+
+  - point_id: "math-g3-t2-u03-p04"
+    ref_book: "人教版《教师教学用书》数学三年级下册第三单元"
+    ref_page: "P116-P123"
+    pedagogical_focus:
+      key_point: "掌握正方形周长公式 边长×4 及逆向公式 边长=周长÷4"
+      difficulty: "用同一根铁丝从围长方形改为围正方形，把握‘铁丝总长度即周长保持不变’的不变量思想"
+      typical_misconceptions:
+        - error_pattern: "把求正方形周长算成 边长×边长（提前混淆下学期的面积公式）"
+          misconception_type: "周长与面积公式混淆"
+        - error_pattern: "已知正方形周长36厘米，求边长算成 36÷2=18"
+          misconception_type: "正方形边数按长方形两组对边误除"
+    variation_strategy:
+      - "铁丝转化应用题：一根铁丝正好可以围成一个长8厘米、宽4厘米的长方形，如果改围成正方形，正方形边长是多少厘米？"
+      - "直接口算：边长6分米的正方形，周长是（24）分米"
+
+  - point_id: "math-g3-t2-u03-p05"
+    ref_book: "人教版《教师教学用书》数学三年级下册第三单元"
+    ref_page: "P124-P135"
+    pedagogical_focus:
+      key_point: "靠墙围篱笆与拼摆图形的周长最值策略，以及平移法转化求凹凸图形周长"
+      difficulty: "靠墙问题中长边靠墙与宽边靠墙篱笆长度的分类讨论；两个正方形拼长方形周长变短的重合边本质"
+      typical_misconceptions:
+        - error_pattern: "一面靠墙围菜地，篱笆还是按 (长+宽)×2 计算，没有减去靠墙的那条边"
+          misconception_type: "生活实际情境忽略"
+        - error_pattern: "两个边长4厘米的正方形拼成一个长方形，周长算成 16+16=32 厘米，忘记减去2条重合的缝隙边"
+          misconception_type: "重合边周长抵消认知缺失"
+    variation_strategy:
+      - "最值探究：王大爷靠墙围一块长12米、宽8米的菜地，篱笆至少需要多少米？（12+8×2=28米）"
+      - "拼图计算：用两个边长3厘米的正方形拼成一个长方形，周长是多少厘米？"

@@ -1,0 +1,46 @@
+unit_id: unit-03
+source_id: pep_math_g2_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春人教版教师教学用书数学二年级下册》为**纯扫描件（273 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g2-t2-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助小方块、计数器建立「百」的计数单位与十进关系
+    difficulty: 中间或末尾有 0 的 1000 以内数读写易错
+    typical_misconceptions:
+    - error_pattern: 把「四百零六」写成「四零六」
+      misconception_type: 中间零的写法未掌握
+    - error_pattern: 不能说出 384 由 3 个百、8 个十和 4 个一组成
+      misconception_type: 数的组成表述不完整
+  variation_strategy:
+  - 在计数器上拨数并读写
+  - 用小方块摆出指定的数并说出组成
+- point_id: math-g2-t2-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 由「10 个一是十、10 个十是百、10 个百是千、10 个千是万」归纳十进关系
+    difficulty: 把「二千四百五十八」写成 2458 时数位错乱，或算盘上珠下珠的表示混淆
+    typical_misconceptions:
+    - error_pattern: 把 2458 写成 20458（数位错乱）
+      misconception_type: 数位顺序未掌握
+    - error_pattern: 算盘上把上珠当作 1
+      misconception_type: 上珠表示 5 未掌握
+  variation_strategy:
+  - 在算盘上拨出指定的数并读数
+  - 完成数位顺序表并说出相邻单位的十进关系
+- point_id: math-g2-t2-u03-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 归纳「从高位读起、中间有一个或两个 0 只读一个零、末尾的 0 都不读」的读数法则
+    difficulty: 读数时漏读或多读零；比较大小未先比位数
+    typical_misconceptions:
+    - error_pattern: 把 3005 读作「三千零五」以外的形式（如三千零零五）
+      misconception_type: 中间零的读法未掌握
+    - error_pattern: 比较 999 与 1000 时误判为 999 大
+      misconception_type: 未先比较位数
+  variation_strategy:
+  - 读出生活中的万以内数并说出组成
+  - 找近似数：某数接近哪个整百数

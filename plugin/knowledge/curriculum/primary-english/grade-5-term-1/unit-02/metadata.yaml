@@ -1,0 +1,17 @@
+unit_id: unit-02
+unit_name: Unit 2 My feelings
+subject: english
+edition: 人教版PEP(2024年审定版)
+grade: 5
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: verified
+source_id: pep_english_g5_t1_2024
+teaching_reference_source_id: pep_english_g5_t1_tr_2024
+page_range: P14-P25
+curriculum_standard_ref: 义务教育英语课程标准（2022年版）二级目标与要求
+page_evidence_note:
+- 页码于 2026-10-10 依据用户提供的《2024版人教版PEP小学英语五年级上册电子课本》逐页实证核定：课本 PDF 共 30 页，页脚印刷页码实测偏移 = 3（PDF#5 = 印刷 P2）；本册可读印刷页区间为 P2–P26。本单元真实版面为 P14–P25（Unit 2 起始页 P14「My feelings / How do people get along?」；P15 Draw, show and act：Draw faces that show different feelings.；P16 Let's talk：John is talking with his mum.；P17 Let's learn：Mike is back home. Fido is not feeling well. Fido is excited. Mike is worried.；P18 Let's spell：ee / ea —— A sheep meets a friendly bee. It is so happy to see the bee.；P19 Let's talk：Binbin sees Mike.；P20 Let's learn：You can talk to your parents. You can ask your teacher for help. You need to listen to…；P21 Read and write：Dear Mike, I am happy at school. I have many friends. I play with them in the playground…；P24–P25 Reading time：It's snowing. I'm so excited!），**全部落在可读区间内**，故记为 verified。
+unit_overview: 本单元围绕大问题「How do people get along?」展开。教材通过「画出不同的表情」「谈论自己的感受」「理解他人并寻求帮助」等情境，引导学生掌握表达情感的形容词（excited, worried, happy, angry, sad 等），学会询问与表达感受，理解他人情绪并知道如何寻求帮助，并掌握字母组合 ee / ea 的发音与例词。
+numeric_upper_bound: 100

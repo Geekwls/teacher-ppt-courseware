@@ -1,0 +1,102 @@
+unit_id: unit-01
+source_id: pep_math_g2_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春人教版教师教学用书数学二年级下册》为**纯扫描件（273 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g2-t2-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 由「正好分完」与「分后有余」的对比建立余数概念
+    difficulty: 学生易把余数与商混为一谈，或漏写余数
+    typical_misconceptions:
+    - error_pattern: 把 9÷4=2……1 写成 9÷4=3
+      misconception_type: 余数与商混淆
+    - error_pattern: 算式漏写余数部分
+      misconception_type: 有余数除法格式不完整
+  variation_strategy:
+  - 用小棒分一分并写出有余数的除法算式
+  - 说一说算式中每个数表示什么
+- point_id: math-g2-t2-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 通过列表观察归纳「余数要比除数小」，并用于判断与推理
+    difficulty: 学生易把「余数要比除数小」记反，或求最大余数时用除数减 1 出错
+    typical_misconceptions:
+    - error_pattern: 认为余数可以等于除数
+      misconception_type: 规律记反
+    - error_pattern: 求「除数是 6 时最大余数」误答 6
+      misconception_type: 未掌握「余数 < 除数」
+  variation_strategy:
+  - 列出除以 3 的所有可能余数
+  - 判断哪些算式一定算错了并说明理由
+- point_id: math-g2-t2-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把竖式中每一步与「分小棒」的动作对应起来理解
+    difficulty: 学生易漏写余数、把商写错位，或验算时用「商 × 余数」
+    typical_misconceptions:
+    - error_pattern: 竖式漏写余数或余数写错位
+      misconception_type: 竖式格式不完整
+    - error_pattern: 验算时列成「商 × 余数 + 除数」
+      misconception_type: 各部分关系记错
+  variation_strategy:
+  - 用小棒摆一摆并写出竖式，说出每一步的含义
+  - 用「除数 × 商 + 余数 = 被除数」验算
+- point_id: math-g2-t2-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「括号里最大能填几」作为试商的铺垫，形成「乘—比—定商」的方法
+    difficulty: 学生试商时商偏大导致余数大于除数，或偏小导致余数过大
+    typical_misconceptions:
+    - error_pattern: 试商偏大，余数大于除数却未调整
+      misconception_type: 未用「余数 < 除数」检验
+    - error_pattern: 试商时反复试乘，效率低
+      misconception_type: 口诀不熟练
+  variation_strategy:
+  - 先做「括号里最大能填几」再计算对应除法
+  - 计算后互查：余数是否比除数小？
+- point_id: math-g2-t2-u01-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 通过「剩余部分要不要再装一份」的讨论理解进一法
+    difficulty: 学生易直接用商作答，忽略剩余部分仍需一份
+    typical_misconceptions:
+    - error_pattern: 问「需要几个盒子」时答 5 个
+      misconception_type: 未考虑剩余部分
+    - error_pattern: 不区分「装满几盒」与「需要几个盒子」
+      misconception_type: 问题理解不清
+  variation_strategy:
+  - 比较同一情境的两个问题的答案有何不同
+  - 改编情境：把「需要几个」改成「装满几个」再解答
+- point_id: math-g2-t2-u01-p06
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 先找「一组」再算余数，强调余数与组内位置的对应
+    difficulty: 学生易把「没有余数」当作「第 0 个」，或找错「一组」的长度
+    typical_misconceptions:
+    - error_pattern: 余数为 0 时答「第 0 个」
+      misconception_type: 余数与位置的对应关系不清
+    - error_pattern: 「一组」的个数数错
+      misconception_type: 规律识别错误
+  variation_strategy:
+  - 先圈出「一组」再计算并说出第 n 个是什么
+  - 对比「余数是 1」与「余数是 0」两种情况
+- point_id: math-g2-t2-u01-p07
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 复习课重在构建知识网络与沟通知识间的联系
+    difficulty: 学生能算题但说不出本单元的知识结构
+    typical_misconceptions:
+    - error_pattern: 不能说出本单元的知识框架
+      misconception_type: 结构化整理缺失
+    - error_pattern: 遇到逆向问题（已知余数求除数）束手无策
+      misconception_type: 逆向思维不足
+  variation_strategy:
+  - 绘制「有余数除法」知识图并交流
+  - 思考题：这些橘子最少有多少个？还可能是多少个？

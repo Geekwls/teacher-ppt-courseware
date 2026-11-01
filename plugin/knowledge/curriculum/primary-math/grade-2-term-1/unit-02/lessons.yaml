@@ -1,0 +1,10 @@
+lessons:
+- lesson_id: math-g2-t1-u02-l01
+  unit_id: unit-02
+  subject: math
+  grade: 2
+  term: term-1
+  lesson_name: 第二单元 1～6的表内乘法（单元整体）
+  page_range: P10-P29
+  official_examples:
+  - 学习乘法的初步认识（乘法算式的读写、各部分名称）与 2～6 的乘法口诀，用表内乘法解决简单的实际问题。（例题原文待核验）

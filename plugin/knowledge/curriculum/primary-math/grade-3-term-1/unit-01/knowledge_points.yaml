@@ -1,0 +1,97 @@
+unit_id: "unit-1"
+source_id: "pep_math_g3_t1_2024"
+points:
+  - point_id: "math-g3-t1-u01-p01"
+    lesson_id: "lesson-01"
+    point_name: "从不同方向观察同一物体，看到的形状可能不同"
+    learning_objectives:
+      - "能辨认从前面、上面、左面（右面）观察同一物体或几何组合体时所看到的形状"
+      - "通过观察、想象、推理，体会从不同方向观察同一物体看到的形状常常是不同的"
+    prerequisites:
+      - "二年级下册对长方体、正方体、圆柱、球等立体图形的直观认识"
+      - "前后、上下、左右等方位概念的初步建立"
+    subsequent_points:
+      - "math-g3-t1-u01-p02"
+    applicable_question_types: ["choice", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "由 2～4 个相同小正方体或常见实物（长方体、圆柱）组成的简单组合体"
+        - "从前面、上面、左面、右面四个方向观察并连线或选择"
+      scope_excluded:
+        - "涉及遮挡判断的复杂堆叠（如三层以上错位堆放）"
+        - "三视图的画法（初中内容）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [1]
+      example_ref: ["ex_1"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u01-p02"
+    lesson_id: "lesson-01"
+    point_name: "根据一个方向看到的形状推断立体图形"
+    learning_objectives:
+      - "能根据看到的一个面的形状，推测原立体图形可能是什么，体会结论的不唯一性"
+      - "能综合多个方向看到的信息排除不可能的情况，逐步确定立体图形"
+    prerequisites:
+      - "math-g3-t1-u01-p01"
+      - "正方体、长方体的面、棱、顶点特征"
+    subsequent_points:
+      - "math-g3-t1-u01-p03"
+    applicable_question_types: ["choice", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "看到的一个面是正方形（可能是正方体、也可能是长方体或圆柱等）"
+        - "结合正方体相对面上数的和为 7 进行简单推理"
+      scope_excluded:
+        - "需要三视图联立才能确定的复杂几何体"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [2]
+      example_ref: ["ex_2"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u01-p03"
+    lesson_id: "lesson-02"
+    point_name: "长方体纸盒的展开图与面的相对关系"
+    learning_objectives:
+      - "能把长方体纸盒沿棱剪开并平铺，认识立体图形的展开图"
+      - "知道长方体有 6 个面、三组相对的面完全相同，能在展开图上指出相对的面"
+    prerequisites:
+      - "math-g3-t1-u01-p01"
+      - "长方体的面、棱特征"
+    subsequent_points:
+      - "math-g3-t1-u01-p04"
+    applicable_question_types: ["fill_blank", "choice", "reading"]
+    teaching_boundary:
+      scope_allowed:
+        - "沿棱剪开长方体纸盒得到平面展开图，判断最少剪开几条边"
+        - "在展开图上标出原来的前、后、左、右、上、下各面"
+      scope_excluded:
+        - "曲面立体图形（圆柱、圆锥）的侧面展开（高年级）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [3]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u01-p04"
+    lesson_id: "lesson-02"
+    point_name: "判断平面图形能否折成正方体"
+    learning_objectives:
+      - "能通过想象或动手折叠，判断给出的平面图形能否折成正方体"
+      - "体会同一立体图形可以展开成多种不同的平面图形"
+    prerequisites:
+      - "math-g3-t1-u01-p03"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "由 6 个正方形组成的简单平面图形能否折成正方体的判断"
+        - "沿不同的边剪开得到不同展开图的对比"
+      scope_excluded:
+        - "正方体展开图的 11 种标准分类记忆（不作识记要求）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [5]
+      example_ref: ["ex_4"]
+    verification_status: "verified"

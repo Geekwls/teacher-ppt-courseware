@@ -1,0 +1,86 @@
+unit_id: unit-05
+source_id: pep_chinese_g1_t1_2024
+points:
+- point_id: chi-g1-t1-u05-p01
+  unit_id: unit-05
+  lesson_id: chi-g1-t1-u05-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 《秋天》与自然段的认识
+  learning_objectives:
+  - 能借助拼音朗读《秋天》，认识自然段，读好「一」的变调
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P60
+    anchor_text: 单元起始页 P60 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 借助拼音朗读课文
+    - 认识自然段（开头空两格）
+    scope_excluded:
+    - 课文的思想感情分析
+    - 写话
+- point_id: chi-g1-t1-u05-p02
+  unit_id: unit-05
+  lesson_id: chi-g1-t1-u05-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 《江南》《雪地里的小画家》
+  learning_objectives:
+  - 能朗读并背诵《江南》，能借助拼音朗读《雪地里的小画家》并说出动物脚印的特点
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P62
+    - P64
+    anchor_text: 单元起始页 P62 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 朗读与背诵《江南》
+    - 《雪地里的小画家》中动物脚印与画作的对应
+    scope_excluded:
+    - 汉乐府的相关文学知识
+    - 动物脚印的科学知识
+- point_id: chi-g1-t1-u05-p03
+  unit_id: unit-05
+  lesson_id: chi-g1-t1-u05-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 《四季》与语文园地五
+  learning_objectives:
+  - 能朗读《四季》，说出四季的特点；能完成语文园地五的积累与运用
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P66
+    - P68
+    anchor_text: 单元起始页 P66 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《四季》中四季特点的对应
+    - 语文园地五的词语积累
+    scope_excluded:
+    - 四季成因的科学解释
+    - 写话

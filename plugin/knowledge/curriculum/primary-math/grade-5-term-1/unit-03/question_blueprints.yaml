@@ -1,0 +1,71 @@
+unit_id: unit-03
+blueprints:
+- blueprint_id: bp-math-g5-t1-u03-standard
+  title: 第三单元 小数除法标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、直接写出得数
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 2
+    item_count: 8
+    target_points:
+    - math-g5-t1-u03-p01
+    - math-g5-t1-u03-p03
+    guidelines: 除数是整数与除数是小数的口算与笔算。
+  - slot_id: slot-02
+    section: 二、填一填
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - math-g5-t1-u03-p02
+    - math-g5-t1-u03-p04
+    guidelines: 循环小数的循环节、商的近似数。
+  - slot_id: slot-03
+    section: 三、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g5-t1-u03-p02
+    - math-g5-t1-u03-p03
+    guidelines: 判断有限/无限小数、判断转化是否正确。
+  - slot_id: slot-04
+    section: 四、计算并验算
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 5
+    item_count: 4
+    target_points:
+    - math-g5-t1-u03-p01
+    - math-g5-t1-u03-p03
+    guidelines: 用乘法验算除法。
+  - slot_id: slot-05
+    section: 五、解决问题（近似数）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 8
+    item_count: 2
+    target_points:
+    - math-g5-t1-u03-p04
+    guidelines: 根据情境选择四舍五入、进一法或去尾法。
+  - slot_id: slot-06
+    section: 六、解决问题（综合）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 9
+    item_count: 2
+    target_points:
+    - math-g5-t1-u03-p03
+    - math-g5-t1-u03-p04
+    guidelines: 综合运用小数除法解决实际问题。

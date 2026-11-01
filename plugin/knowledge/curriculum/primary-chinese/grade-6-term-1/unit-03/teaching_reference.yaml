@@ -1,0 +1,60 @@
+unit_id: unit-03
+source_id: pep_chinese_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g6-t1-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《故宫博物院》的「为家人计划一日游」等真实任务，让学生体验「同一篇文章、不同目的、不同读法」
+    difficulty: 学生易全文通读而不会根据目的取舍；易把「有目的地阅读」理解为「只读一部分」
+    typical_misconceptions:
+    - error_pattern: 全文通读不会取舍
+      misconception_type: 目的意识不足
+    - error_pattern: 把有目的地阅读等同于跳读
+      misconception_type: 方法理解偏差
+  variation_strategy:
+  - 根据阅读目的选择合适的材料
+  - 说出自己选用的阅读方法及理由
+- point_id: chi-g6-t1-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《宇宙生命之谜》为例，让学生圈画「与问题相关的内容」，再整合成对问题的回答
+    difficulty: 学生易把「相关内容」与「感兴趣的内容」混淆；易直接采信文本信息而不加核查
+    typical_misconceptions:
+    - error_pattern: 相关内容与感兴趣内容混淆
+      misconception_type: 筛选标准不清
+    - error_pattern: 不加核查直接采信信息
+      misconception_type: 批判意识薄弱
+  variation_strategy:
+  - 筛选出与问题相关的信息
+  - 整合信息回答一个问题
+- point_id: chi-g6-t1-u03-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「什么让你的生活更美好」为话题，让学生先确定「是什么」，再分条写清「为什么」
+    difficulty: 学生易只写「让生活更美好」而说不出原因；易原因笼统
+    typical_misconceptions:
+    - error_pattern: 只说更美好不说原因
+      misconception_type: 内容空泛
+    - error_pattern: 原因笼统不具体
+      misconception_type: 论证不足
+  variation_strategy:
+  - 写一件事对生活的影响并分条说明原因
+  - 表达自己的看法
+- point_id: chi-g6-t1-u03-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「先浏览找方向、再跳读找段落、最后细读找答案」的流程显性化，让学生按步骤完成任务
+    difficulty: 学生易对所有内容都用同一种读法；易在细读时又变成逐字读
+    typical_misconceptions:
+    - error_pattern: 对所有内容用同一读法
+      misconception_type: 方法单一
+    - error_pattern: 细读时又逐字阅读
+      misconception_type: 方法运用不稳定
+  variation_strategy:
+  - 说出浏览、跳读、细读的适用场景
+  - 按任务要求灵活运用不同阅读方法

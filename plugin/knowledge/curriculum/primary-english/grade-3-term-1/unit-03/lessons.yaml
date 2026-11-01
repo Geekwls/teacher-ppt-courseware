@@ -1,0 +1,68 @@
+unit_id: "unit-3"
+source_id: "pep_english_g3_t1_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "Part A Talk: 询问与交流宠物"
+    page_range: "P28"
+    official_examples:
+      - example_id: "ex_1"
+        title: "向同伴交流家庭宠物"
+        page: 28
+        formula_or_context: "Good morning, Mike! Come in. / I like your dog. / Thanks. Do you have a pet? / Yes, I do. I have a cat. / No, I don't."
+        core_concept: "学习核心交际句型：询问是否养有宠物'Do you have a pet?'及其肯定答语'Yes, I do. I have a...'与否定答语'No, I don't.'，以及表达对他人宠物的喜爱'I like your...'。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "Part A Learn: 核心宠物词汇与动物动作"
+    page_range: "P29"
+    official_examples:
+      - example_id: "ex_2"
+        title: "在宠物店认识宠物与模仿动作"
+        page: 29
+        formula_or_context: "fish, cats, birds, rabbits, dog; I like fish / cats / birds / rabbits / my dog. Run like a dog. Sleep like a cat. Sing like a bird. Hop like a rabbit. Swim like a fish."
+        core_concept: "学习常见宠物名词及其单复数表达（fish单复同形，cats, birds, rabbits），掌握'I like...'表达喜爱，通过TPR活动感知动物习性动词短语。"
+
+  - lesson_id: "lesson-03"
+    lesson_number: 3
+    lesson_name: "Part A Letters and sounds: 字母 Ii-Ll 认读、书写与拼读"
+    page_range: "P30"
+    official_examples:
+      - example_id: "ex_3"
+        title: "字母 Ii, Jj, Kk, Ll 笔顺占格与拼读"
+        page: 30
+        formula_or_context: "Ii, Jj, Kk, Ll; ill, kid, job, jet, Kim, kite, leg, lion; big, dig, Jim, lab, led"
+        core_concept: "规范书写字母Ii-Ll大小写形式（重点攻克小写j的三格占位），掌握短元音i(/ɪ/)以及辅音字母j(/dʒ/), k(/k/), l(/l/)的发音，拼读CVC单词。"
+
+  - lesson_id: "lesson-04"
+    lesson_number: 4
+    lesson_name: "Part B Talk: 动物园见闻与近远指事物指认"
+    page_range: "P31"
+    official_examples:
+      - example_id: "ex_4"
+        title: "动物园指认动物与手影游戏"
+        page: 31
+        formula_or_context: "Let's go to the zoo! Great! / Look! What's this? It's a fox. / Miss White, what's that? It's a red panda. It's cute!"
+        core_concept: "掌握近指与远指特殊疑问句：'What's this?'与'What's that?'及其答语'It's a/an...'，学习邀请句型'Let's go to...'与赞美表达'It's cute!'。"
+
+  - lesson_id: "lesson-05"
+    lesson_number: 5
+    lesson_name: "Part B Learn: 动物园野生动物核心词汇"
+    page_range: "P32"
+    official_examples:
+      - example_id: "ex_5"
+        title: "动物园野生动物识别与不定冠词用法"
+        page: 32
+        formula_or_context: "panda, monkey, tiger, elephant, lion, zoo; What's this? It's an elephant / a monkey / a panda / a lion / a tiger. Run!"
+        core_concept: "学习动物园野生动物词汇，重点掌握元音音素开头的elephant前使用不定冠词an（an elephant）而辅音音素开头的使用a的语言规则。"
+
+  - lesson_id: "lesson-06"
+    lesson_number: 6
+    lesson_name: "Start to read & Project: 动物特征对比与动物图画书"
+    page_range: "P33-P35"
+    official_examples:
+      - example_id: "ex_6"
+        title: "《Great animals》阅读与动物特征分类"
+        page: 33
+        formula_or_context: "The giraffe is tall! The lion is fast! The elephant is big! The fish is small! big, small, tall, fast; Pets vs Wild animals"
+        core_concept: "阅读理解动物特征描述语句，掌握核心特征形容词（big, small, tall, fast），能按体征或生活环境对动物进行多维分类与图画书制作。"

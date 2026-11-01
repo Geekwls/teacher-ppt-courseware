@@ -1,0 +1,60 @@
+unit_id: unit-06
+source_id: pep_chinese_g1_t2_2024
+points:
+- point_id: chi-g1-t2-u06-p01
+  unit_id: unit-06
+  lesson_id: chi-g1-t2-u06-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 《古诗二首》（池上、小池）
+  learning_objectives:
+  - 能朗读背诵《池上》《小池》，能说出诗中描写的夏日景物
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P61
+    - P62
+    anchor_text: 单元起始页 P61 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《池上》中小娃偷采白莲的情节
+    - 《小池》中泉眼、树阴、小荷、蜻蜓等景物
+    scope_excluded:
+    - 古诗格律的系统讲解
+    - 写话
+- point_id: chi-g1-t2-u06-p02
+  unit_id: unit-06
+  lesson_id: chi-g1-t2-u06-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 《浪花》《荷叶圆圆》《要下雨了》
+  learning_objectives:
+  - 能朗读三篇课文，能说出荷叶的样子与下雨前的自然现象
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P64
+    - P66
+    - P69
+    anchor_text: 单元起始页 P64 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《荷叶圆圆》中荷叶与小水珠、小蜻蜓、小青蛙、小鱼儿的对话
+    - 《要下雨了》中下雨前的自然现象
+    scope_excluded:
+    - 天气现象的科学原理
+    - 写话

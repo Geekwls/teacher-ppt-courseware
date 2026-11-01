@@ -1,0 +1,60 @@
+unit_id: unit-03
+source_id: pep_chinese_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g5-t1-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「情节链」为工具，让学生把民间故事按「起因—发展—高潮—结局」梳理清楚
+    difficulty: 学生易把情节复述成流水账；易遗漏关键转折
+    typical_misconceptions:
+    - error_pattern: 情节复述成流水账
+      misconception_type: 重点不突出
+    - error_pattern: 遗漏关键转折
+      misconception_type: 情节不完整
+  variation_strategy:
+  - 梳理并说出故事的主要情节
+  - 说出故事中蕴含的情感
+- point_id: chi-g5-t1-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「把简略的情节说得更具体」为具体任务，让学生练习「加细节、加对话、加心理」
+    difficulty: 学生易把复述变成背诵原文；易加细节时偏离原故事
+    typical_misconceptions:
+    - error_pattern: 复述变成背诵
+      misconception_type: 创造性不足
+    - error_pattern: 加细节时偏离原故事
+      misconception_type: 想象不合理
+  variation_strategy:
+  - 把简略情节说得更具体
+  - 创造性复述一个片段
+- point_id: chi-g5-t1-u03-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「换一个结局」「换一个主角」等思路为支架，让学生在原故事基础上展开新编
+    difficulty: 学生易完全脱离原故事；易只改结局而没有情节支撑
+    typical_misconceptions:
+    - error_pattern: 完全脱离原故事
+      misconception_type: 新编无依据
+    - error_pattern: 只改结局无情节支撑
+      misconception_type: 结构不完整
+  variation_strategy:
+  - 新编一个故事片段
+  - 说出新编的思路与原故事的联系
+- point_id: chi-g5-t1-u03-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「连环画」这一图文结合的形式，让学生练习「抓关键情节 + 精简文字」
+    difficulty: 学生易选的情节过多或过少；易配的文字过于冗长
+    typical_misconceptions:
+    - error_pattern: 情节选择过多或过少
+      misconception_type: 关键情节把握不准
+    - error_pattern: 配文过于冗长
+      misconception_type: 语言不简洁
+  variation_strategy:
+  - 为故事选择关键情节
+  - 为每幅图配上简洁的文字

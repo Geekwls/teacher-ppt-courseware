@@ -1,0 +1,15 @@
+unit_id: unit-05
+unit_name: 第五单元 习作单元·介绍一种事物
+subject: chinese
+edition: 统编版
+grade: 5
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: partial
+source_id: pep_chinese_g5_t1_2024
+teaching_reference_source_id: pep_chinese_g5_t1_tr_2024
+page_range: P65-P74
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文五年级上册电子课》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 4（PDF 序号 − 印刷页码）；本册可读印刷页区间为 P1–P55。本单元真实版面为 P65–P74，**超出用户提供电子课本的可读区间**，未取得逐页原文与生字/例题凭证，故记为 partial。
+unit_overview: 习作单元：编排《太阳》《金字塔》两篇课文与《鲸》《风向袋的制作》两篇习作例文，学习「阅读简单的说明性文章，了解基本的说明方法」「搜集资料，用恰当的说明方法，把某一种事物介绍清楚」。
+numeric_upper_bound: null

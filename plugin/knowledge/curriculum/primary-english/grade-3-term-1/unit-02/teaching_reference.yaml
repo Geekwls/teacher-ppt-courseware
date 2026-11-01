@@ -1,0 +1,112 @@
+unit_id: "unit-2"
+source_id: "pep_english_g3_t1_tr_2024"
+teaching_references:
+  - point_id: "eng-g3-t1-u02-p01"
+    ref_book: "人教版《教师教学用书》英语三年级上册第二单元"
+    ref_page: "P46-P49"
+    pedagogical_focus:
+      key_point: "掌握字母 Ee, Ff, Gg, Hh 的笔画笔顺和在四线三格中的占格规范"
+      difficulty: "小写字母 f 的两笔规范书写与在四线三格中的占位，小写 g 的弯钩落在下格且不触底"
+      typical_misconceptions:
+        - error_pattern: "小写 g 的圆圈写到上格，或者把 g 当成 9"
+          misconception_type: "占格位置错误"
+        - error_pattern: "大写 E 和 F 横画长短不均或漏写第三横"
+          misconception_type: "笔画笔顺不规范"
+    variation_strategy:
+      - "字母大小写配对连线：E-e, F-f, G-g, H-h"
+      - "左邻右舍填空：E, ( ), G, ( )"
+
+  - point_id: "eng-g3-t1-u02-p02"
+    ref_book: "人教版《教师教学用书》英语三年级上册第二单元"
+    ref_page: "P48-P51"
+    pedagogical_focus:
+      key_point: "掌握字母 Ee-Hh 在单词中的自然拼读音（/e/, /f/, /ɡ/, /h/），感知 CVC 拼读结构"
+      difficulty: "区分短元音 e (/e/) 与第一单元元音 a (/æ/) 的开口度差异，准确发好清辅音 /h/ 和浊辅音 /ɡ/"
+      typical_misconceptions:
+        - error_pattern: "将 bed 读成 bad，或将 beef 读成 bif"
+          misconception_type: "元音音素混淆"
+        - error_pattern: "将 girl 的首音读成 /dʒ/"
+          misconception_type: "辅音发音混淆"
+    variation_strategy:
+      - "首音辨析选择：听音选出与 fish 首字母发音相同的单词"
+      - "自然拼读 CVC 组合：/b/-/e/-/d/ -> bed"
+
+  - point_id: "eng-g3-t1-u02-p03"
+    ref_book: "人教版《教师教学用书》英语三年级上册第二单元"
+    ref_page: "P40-P43"
+    pedagogical_focus:
+      key_point: "掌握核心直系家庭称谓 father/dad, mother/mum, grandfather/grandpa, grandmother/grandma, sister"
+      difficulty: "准确建立全称与日常口语爱称的语义对应（如 father 对应 dad，mother 对应 mum）"
+      typical_misconceptions:
+        - error_pattern: "将 grandma 误认为是爷爷，将 grandpa 误认为是奶奶"
+          misconception_type: "性别与长辈称谓混淆"
+    variation_strategy:
+      - "全称与简称手拉手：father -> dad, mother -> mum"
+      - "照片看图识人：根据人物外貌年龄选择正确的称谓"
+
+  - point_id: "eng-g3-t1-u02-p04"
+    ref_book: "人教版《教师教学用书》英语三年级上册第二单元"
+    ref_page: "P38-P41"
+    pedagogical_focus:
+      key_point: "运用 This is my... 句型自然、得体地介绍家庭成员与朋友"
+      difficulty: "在多位家庭成员情境下，流畅运用 This is my... 逐一介绍，注意名词前代词 my 的规范搭配"
+      typical_misconceptions:
+        - error_pattern: "介绍他人时误用 I am..."
+          misconception_type: "人称代词混淆"
+    variation_strategy:
+      - "情境选择：向新朋友介绍自己的妈妈，可以说( )"
+      - "全家福看图造句匹配"
+
+  - point_id: "eng-g3-t1-u02-p05"
+    ref_book: "人教版《教师教学用书》英语三年级上册第二单元"
+    ref_page: "P52-P55"
+    pedagogical_focus:
+      key_point: "掌握 uncle, aunt, cousin, brother, baby sister 等旁系及大家庭亲属称谓"
+      difficulty: "理解英语中 uncle 和 aunt 涵盖汉语中叔伯舅姑姨的广泛性，以及 cousin 涵盖堂表兄弟姐妹"
+      typical_misconceptions:
+        - error_pattern: "将 cousin（表堂兄弟姐妹）误理解为亲兄弟或亲姐妹"
+          misconception_type: "亲属内涵界限不清"
+    variation_strategy:
+      - "选出不同类的一项：A. uncle B. aunt C. eye"
+      - "图文匹配：为大家庭照片中的亲属标注正确的英文"
+
+  - point_id: "eng-g3-t1-u02-p06"
+    ref_book: "人教版《教师教学用书》英语三年级上册第二单元"
+    ref_page: "P50-P53"
+    pedagogical_focus:
+      key_point: "掌握确认家庭成员的一般疑问句句式 Is this/that your...? 及应答 Yes, it is. / No, it's my..."
+      difficulty: "答句中代词的规范使用：必须用 it is 替代 this/that，否定回答注意语调与补充说明"
+      typical_misconceptions:
+        - error_pattern: "回答 Is this your sister? 时回答成 Yes, this is."
+          misconception_type: "代词替换规则遗忘"
+        - error_pattern: "否定回答 No, it is."
+          misconception_type: "否定结构前后矛盾"
+    variation_strategy:
+      - "问答搭配连线：Is this your brother? -> Yes, it is."
+      - "单项选择：确认照片中的女孩是不是表妹"
+
+  - point_id: "eng-g3-t1-u02-p07"
+    ref_book: "人教版《教师教学用书》英语三年级上册第二单元"
+    ref_page: "P54-P57"
+    pedagogical_focus:
+      key_point: "掌握用 I have a/an... 句型介绍自己拥有的家庭成员"
+      difficulty: "在元音音素开头的单词（uncle, aunt）前必须使用 an，在辅音音素前使用 a"
+      typical_misconceptions:
+        - error_pattern: "说写成 a uncle 或 a aunt"
+          misconception_type: "不定冠词 a 与 an 混淆"
+    variation_strategy:
+      - "填空选词：I have (a / an) uncle."
+      - "句型转换与口语描述：介绍自己的大家庭成员"
+
+  - point_id: "eng-g3-t1-u02-p08"
+    ref_book: "人教版《教师教学用书》英语三年级上册第二单元"
+    ref_page: "P58-P61"
+    pedagogical_focus:
+      key_point: "阅读理解关于不同家庭的简短语篇，理解家庭的多样性与亲情的共性"
+      difficulty: "在阅读中区分 big family 与 small family 的不同成员构成与事实信息"
+      typical_misconceptions:
+        - error_pattern: "误以为所有家庭的成员数量都必须一样多"
+          misconception_type: "概念理解狭隘"
+    variation_strategy:
+      - "阅读理解正误判断（T/F）"
+      - "家庭主题名言理解：Different families, same love."

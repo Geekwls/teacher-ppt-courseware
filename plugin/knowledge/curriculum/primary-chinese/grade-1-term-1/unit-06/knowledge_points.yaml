@@ -1,0 +1,86 @@
+unit_id: unit-06
+source_id: pep_chinese_g1_t1_2024
+points:
+- point_id: chi-g1-t1-u06-p01
+  unit_id: unit-06
+  lesson_id: chi-g1-t1-u06-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 《对韵歌》与《日月明》
+  learning_objectives:
+  - 能朗读背诵《对韵歌》，认识《日月明》中的会意字（明、男、尖、尘、从、众、林、森）
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P73
+    - P74
+    anchor_text: 单元起始页 P73 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《对韵歌》的对仗句式
+    - 会意字的构字规律（日月明、田力男等）
+    scope_excluded:
+    - 形声字的系统讲解
+    - 汉语拼音
+- point_id: chi-g1-t1-u06-p02
+  unit_id: unit-06
+  lesson_id: chi-g1-t1-u06-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 《小书包》与《升国旗》
+  learning_objectives:
+  - 能朗读《小书包》《升国旗》，认识学习用品名称与国旗礼仪相关词语
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P76
+    - P78
+    anchor_text: 单元起始页 P76 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 学习用品名称（课本、作业本、铅笔、橡皮、尺子等）
+    - 升国旗的礼仪与相关词语
+    scope_excluded:
+    - 爱国主义的系统论述
+    - 汉字书写
+- point_id: chi-g1-t1-u06-p03
+  unit_id: unit-06
+  lesson_id: chi-g1-t1-u06-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 语文园地六：识字加油站与日积月累
+  learning_objectives:
+  - 能完成语文园地六的识字与积累任务，朗读背诵日积月累
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P80
+    anchor_text: 单元起始页 P80 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 语文园地六的识字加油站内容
+    - 日积月累的朗读与背诵
+    scope_excluded:
+    - 写话
+    - 课外阅读的整本书指导

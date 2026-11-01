@@ -1,0 +1,60 @@
+unit_id: unit-02
+source_id: pep_math_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2025年秋人教版教师教学用书数学二年级上册》为**纯扫描件（270 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g2-t1-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 由「几个几相加」的连加算式抽象出乘法算式，建立乘法意义
+    difficulty: 把「3+3+3+3+3」改写成「5×3」时因数与个数颠倒且说不清含义
+    typical_misconceptions:
+    - error_pattern: 把「5个3」写成「3×5」但说不清各部分表示什么
+      misconception_type: 乘法意义理解不透
+    - error_pattern: 把不同加数的连加算式也改写成乘法
+      misconception_type: 「相同加数」前提遗漏
+  variation_strategy:
+  - 看图写加法算式与乘法算式并说出各部分含义
+  - 摆一摆、填一填：几个几相加
+- point_id: math-g2-t1-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在连加的基础上编制口诀，理解口诀与算式的对应关系
+    difficulty: 口诀记忆混淆（如「三四十二」与「四四十六」），或由口诀写算式时漏写一个
+    typical_misconceptions:
+    - error_pattern: 由「三四十二」只写出 3×4=12，漏写 4×3=12
+      misconception_type: 口诀与算式对应不全
+    - error_pattern: 口诀背错导致得数错误
+      misconception_type: 口诀记忆不牢
+  variation_strategy:
+  - 对口令、开火车背口诀
+  - 由口诀写出两个乘法算式
+- point_id: math-g2-t1-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在具体情境中理解「先算乘法」的必要性
+    difficulty: 乘加、乘减时按从左往右计算（先算加法）
+    typical_misconceptions:
+    - error_pattern: 把 3×4+2 算成 3×6=18
+      misconception_type: 运算顺序错误
+    - error_pattern: 由「二六十二」推「三六」时加错数
+      misconception_type: 口诀间的推理错误
+  variation_strategy:
+  - 看图列乘加、乘减算式并说理
+  - 比较乘加与乘减两种解法
+- point_id: math-g2-t1-u02-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 重视「画图分析—列式—说理」，辨析乘法问题与加法问题
+    difficulty: 看到「一共」就用加法，不区分是求几个几的和还是求几和几的和
+    typical_misconceptions:
+    - error_pattern: 把「4排桌子每排5张」用加法 4+5 计算
+      misconception_type: 数量关系辨析不清
+    - error_pattern: 列式后无法说清为什么用乘法
+      misconception_type: 数学表达不足
+  variation_strategy:
+  - 比较两道相似题，选择合适的方法解答并说明理由
+  - 根据图意编一道乘法问题

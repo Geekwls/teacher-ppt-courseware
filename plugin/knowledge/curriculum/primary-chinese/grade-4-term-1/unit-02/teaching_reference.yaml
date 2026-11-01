@@ -1,0 +1,32 @@
+unit_id: unit-02
+source_id: pep_chinese_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g4-t1-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「读课文，认真思考，看看你能提出什么问题」的任务驱动，引导学生学会提问
+    difficulty: 学生易只提「字词意思」一类问题，角度单一
+    typical_misconceptions:
+    - error_pattern: 提问角度单一
+      misconception_type: 策略运用不充分
+    - error_pattern: 提的问题与课文无关
+      misconception_type: 问题针对性不足
+  variation_strategy:
+  - 从不同角度提出关于课文的问题
+  - 对提出的问题进行分类
+- point_id: chi-g4-t1-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「小小动物园」的趣味情境，让学生把家人比作动物并写出理由
+    difficulty: 学生易只写「像什么」而不写「为什么像」
+    typical_misconceptions:
+    - error_pattern: 只写比喻不写理由
+      misconception_type: 内容不充分
+    - error_pattern: 人物特点不突出
+      misconception_type: 重点不明确
+  variation_strategy:
+  - 写一个人并写出印象最深的地方
+  - 说明把家人比作某种动物的理由

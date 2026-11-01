@@ -1,0 +1,16 @@
+unit_id: unit-02
+unit_name: 第二单元 识字与自然
+subject: chinese
+edition: 统编版
+grade: 2
+term: term-1
+version: 2026.10.3
+updated_at: '2026-10-14'
+verification_status: verified
+source_id: pep_chinese_g2_t1_2026
+teaching_reference_source_id: pep_chinese_g2_t1_tr_2026
+page_range: P16-P27
+page_evidence_note: 依据用户提供的《2026版人教统编版小学语文二年级上册电子课本.pdf》（126页全本实测）逐页对齐核验：本单元真实印刷页码为
+  P16-P27，全文收录官方课文、写字表与词语表，已取得完整实证证据链，状态晋级为 verified。
+unit_overview: 识字单元：安排《场景歌》《树之歌》《拍手歌》《田家四季歌》与语文园地二。引导学生结合生活场景、自然树木、动物常识和四季农事规律识字，掌握会写字与数量词归类搭配。
+numeric_upper_bound: null

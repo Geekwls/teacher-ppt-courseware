@@ -1,0 +1,46 @@
+unit_id: unit-04
+source_id: pep_math_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2025年秋人教版教师教学用书数学二年级上册》为**纯扫描件（270 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g2-t1-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 先建立 1 厘米的长度观念，再学习「0 刻度对齐」的测量方法
+    difficulty: 测量时物体一端未对齐 0 刻度，导致读数错误
+    typical_misconceptions:
+    - error_pattern: 从尺子的 1 刻度开始量却按 0 刻度读数
+      misconception_type: 未对齐 0 刻度
+    - error_pattern: 读数时把刻度线数错（把 1 厘米数成 2 厘米）
+      misconception_type: 长度观念未建立
+  variation_strategy:
+  - 量一量：用手指比出 1 厘米
+  - 量出指定线段的长度并说出测量方法
+- point_id: math-g2-t1-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在「张开双臂约 1 米」等体验中建立 1 米的长度观念
+    difficulty: 单位换算方向错误（把 1 米算成 10 厘米）
+    typical_misconceptions:
+    - error_pattern: 把 1 米 = 100 厘米记成 1 米 = 10 厘米
+      misconception_type: 换算关系记错
+    - error_pattern: 比较 90 厘米与 1 米时误判
+      misconception_type: 单位不统一即比较
+  variation_strategy:
+  - 用米尺量黑板、教室的长度
+  - 比一比：1 米与 90 厘米哪个长？
+- point_id: math-g2-t1-u04-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在对比中体会「量较短的物体用厘米、较长的物体用米」
+    difficulty: 单位选择不当（如把课桌高说成 70 米）
+    typical_misconceptions:
+    - error_pattern: 把课桌的高度写成 70 米
+      misconception_type: 单位选择不当
+    - error_pattern: 估计值与实际相差过大且不会修正
+      misconception_type: 估测经验不足
+  variation_strategy:
+  - 给物体选择合适单位并说明理由
+  - 先估计再测量，比较估计与实测的差距

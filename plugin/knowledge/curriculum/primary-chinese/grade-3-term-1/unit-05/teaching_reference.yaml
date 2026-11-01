@@ -1,0 +1,66 @@
+unit_id: "unit-5"
+source_id: "pep_chinese_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《人教统编版小学语文三年级上册教师用书（教学参考）》
+  （255 页扫描件，OCR 解析）核定。第五单元位于教参 P126 起：单元说明 P126、搭船的鸟 P128、
+  金色的草地 P131、「梳理与交流」和「初试身手」P135、习作和例文 P139。
+teaching_references:
+  - point_id: "chi-g3-t1-u05-p01"
+    ref_book: "人教版《教师教学用书》语文三年级上册第五单元"
+    ref_page: "P128-P139"
+    pedagogical_focus:
+      key_point: "在阅读与习作中落实识字写字，注意形近字与易错笔画的辨析"
+      difficulty: "本单元生字随文出现，需结合观察类语境识记，避免孤立机械抄写"
+      typical_misconceptions:
+        - error_pattern: "混淆形近字（如『钓/钩』『察/查』类部件）"
+          misconception_type: "形近部件混淆"
+        - error_pattern: "笔画增减导致错字"
+          misconception_type: "书写不规范"
+    variation_strategy:
+      - "看拼音写词语；形近字对比组词"
+      - "结合语境选字填空"
+
+  - point_id: "chi-g3-t1-u05-p02"
+    ref_book: "人教版《教师教学用书》语文三年级上册第五单元"
+    ref_page: "P126"
+    pedagogical_focus:
+      key_point: "在阅读中体会作者是怎样留心观察周围事物的"
+      difficulty: "学生易只关注内容，忽略作者观察的角度与细致之处"
+      typical_misconceptions:
+        - error_pattern: "能说出写了什么，却说不出作者观察了什么、怎样观察的"
+          misconception_type: "要素把握不准"
+        - error_pattern: "把作者细致观察的语句当作普通叙述一带而过"
+          misconception_type: "体会不深"
+    variation_strategy:
+      - "找出体现留心观察的语句，说明观察对象与观察点"
+      - "对比粗读与细读，体会细致观察的好处"
+
+  - point_id: "chi-g3-t1-u05-p03"
+    ref_book: "人教版《教师教学用书》语文三年级上册第五单元"
+    ref_page: "P139"
+    pedagogical_focus:
+      key_point: "仔细观察，把观察所得按一定顺序写下来，写出事物特点"
+      difficulty: "学生习作易内容笼统、缺少观察细节或顺序混乱"
+      typical_misconceptions:
+        - error_pattern: "只写概括印象，没有具体观察到的细节"
+          misconception_type: "观察不落实"
+        - error_pattern: "观察所得东一句西一句，缺乏一定顺序"
+          misconception_type: "顺序不清"
+    variation_strategy:
+      - "借助例文仿写一段观察所得，注意写出特点"
+      - "互评：观察是否细致、内容是否写清楚"
+
+  - point_id: "chi-g3-t1-u05-p04"
+    ref_book: "人教版《教师教学用书》语文三年级上册第五单元"
+    ref_page: "P131-P135"
+    pedagogical_focus:
+      key_point: "调动多种感官观察，注意事物的变化"
+      difficulty: "学生观察易只用眼睛看，忽略听、摸、闻、尝，也易忽略变化"
+      typical_misconceptions:
+        - error_pattern: "观察时只写看到的样子，感官单一"
+          misconception_type: "感官运用单一"
+        - error_pattern: "观察一次就下结论，未注意事物随时间的变化"
+          misconception_type: "忽视变化"
+    variation_strategy:
+      - "用多种感官观察同一事物并记录不同的发现"
+      - "连续观察并记录事物的变化"

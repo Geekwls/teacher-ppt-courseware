@@ -1,0 +1,84 @@
+unit_id: unit-00
+blueprints:
+- blueprint_id: bp-math-g1-t1-u00-standard
+  title: 「数学游戏」入学准备板块标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、数一数：看图数出物体的个数并填空
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t1-u00-p01
+    guidelines: 给出校园/教室实物图，数出 10 以内物体的个数，填入括号。
+  - slot_id: slot-02
+    section: 二、认一认：从物体表面找出学过的平面图形
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t1-u00-p02
+    guidelines: 在实物图中圈出长方形等平面图形，并写出图形名称。
+  - slot_id: slot-03
+    section: 三、比一比：谁多谁少
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t1-u00-p03
+    guidelines: 两组物体用一一对应比较，选择「多」「少」「一样多」。
+  - slot_id: slot-04
+    section: 四、填方位：用上下、前后、左右填空
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t1-u00-p04
+    guidelines: 结合教室情境图，用方位词填空描述物体位置。
+  - slot_id: slot-05
+    section: 五、辨一辨：第几与几个
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g1-t1-u00-p05
+    guidelines: 排队图中指出「从左边数第几个」与「一共有几个」。
+  - slot_id: slot-06
+    section: 六、拼一拼：数出拼组图形的个数
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - math-g1-t1-u00-p06
+    guidelines: 看图数出各种形状的个数并求总数，考查按类计数。
+  - slot_id: slot-07
+    section: 七、说一说：学习准备与课堂常规
+    question_type: choice
+    difficulty: variation
+    points_per_item: 6
+    item_count: 2
+    target_points:
+    - math-g1-t1-u00-p07
+    guidelines: 判断课堂行为的对错并说明理由，考查入学常规。
+  - slot_id: slot-08
+    section: 八、找一找：校园里的数学（开放题）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 10
+    item_count: 1
+    target_points:
+    - math-g1-t1-u00-p01
+    guidelines: 在校园情境图中找出 3 处与数或图形有关的现象，并写（说）出来。

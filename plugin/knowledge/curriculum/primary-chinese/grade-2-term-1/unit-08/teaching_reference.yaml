@@ -1,0 +1,32 @@
+unit_id: unit-08
+source_id: pep_chinese_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t1-u08-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「称赞—自信—进步」与「争吵—想念—和好」的情感线索引导阅读
+    difficulty: 学生易把《纸船和风筝》中松鼠与小熊的住处（山顶、山脚）弄反
+    typical_misconceptions:
+    - error_pattern: 把松鼠与小熊的住处弄反
+      misconception_type: 内容对应错误
+    - error_pattern: 说不出和好的办法
+      misconception_type: 情节遗漏
+  variation_strategy:
+  - 朗读课文并说说称赞的作用
+  - 说说和朋友闹别扭时该怎么办
+- point_id: chi-g2-t1-u08-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「帮助别人，自己也快乐」为主旨引导阅读，在朗读中体会情感
+    difficulty: 学生易只说出「小河很快乐」而说不出快乐的原因
+    typical_misconceptions:
+    - error_pattern: 说不出小河快乐的原因
+      misconception_type: 主旨理解不到位
+    - error_pattern: 朗读时情感表达不足
+      misconception_type: 情感朗读不到位
+  variation_strategy:
+  - 朗读课文并说说小河为什么快乐
+  - 说说自己帮助别人后的感受

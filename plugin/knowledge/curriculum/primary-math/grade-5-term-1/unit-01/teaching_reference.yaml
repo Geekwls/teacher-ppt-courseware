@@ -1,0 +1,46 @@
+unit_id: unit-01
+source_id: pep_math_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g5-t1-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 用「连一连」把直观观察与平面图形建立对应，再用「3 个组合体比较」引导学生从「看到一个形状」上升到「同一方向可能看到相同形状」
+    difficulty: 学生易把「从左面看」与「从右面看」混淆；易把立体图形直接当成平面图形描述
+    typical_misconceptions:
+    - error_pattern: 左右视图混淆
+      misconception_type: 观察方向判定错误
+    - error_pattern: 把组合体直接当成平面图形描述
+      misconception_type: 视图意识未建立
+  variation_strategy:
+  - 连一连：把组合体与对应方向的视图配对
+  - 判断从哪个方向看到的图形相同
+- point_id: math-g5-t1-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「先按一个方向的视图摆出一个雏形，再用另外两个方向的视图修正」的操作流程，把抽象的空间想象转化为可执行的步骤
+    difficulty: 学生易只满足一个方向的视图就认为摆好了；易忽略「小正方体必须有面重合」的约束
+    typical_misconceptions:
+    - error_pattern: 只满足一个方向的视图
+      misconception_type: 约束考虑不全
+    - error_pattern: 摆出的小正方体悬空或仅棱相接
+      misconception_type: 组合体约束未遵守
+  variation_strategy:
+  - 根据三视图摆出组合体
+  - 判断同一视图可能对应几种摆法
+- point_id: math-g5-t1-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「生活中的数学」栏目把课堂上的观察活动与工程制图中的视图概念打通
+    difficulty: 学生易把「视图」与「照片」混为一谈
+    typical_misconceptions:
+    - error_pattern: 把视图等同于照片
+      misconception_type: 概念泛化
+    - error_pattern: 说不出视图的实际用途
+      misconception_type: 应用意识薄弱
+  variation_strategy:
+  - 说出视图的常见种类
+  - 举例说明生活中哪里用到了视图

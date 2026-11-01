@@ -1,0 +1,166 @@
+unit_id: "unit-4"
+source_id: "pep_english_g3_t1_2024"
+points:
+  - point_id: "eng-g3-t1-u04-p01"
+    lesson_id: "lesson-03"
+    point_name: "字母 Mm, Nn, Oo, Pp 的认读、大小写配对与四线三格规范书写"
+    learning_objectives:
+      - "正确认读英文字母 Mm, Nn, Oo, Pp 的大写与小写形式"
+      - "熟练进行字母大小写配对及按字母表顺序（Mm-Pp）推导"
+      - "在四线三格中规范书写 Mm, Nn, Oo, Pp，重点掌握小写 p 占中下格、大写 M 与 N 的笔顺以及小写 m, n 占中格的规则"
+    prerequisites:
+      - "eng-g3-t1-u03-p01"
+    subsequent_points:
+      - "eng-g3-t1-u04-p02"
+    applicable_question_types: ["fill_blank", "choice", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "字母 Mm, Nn, Oo, Pp 的占格位置（大写占上两格；小写m, n, o占中格；小写p占中下格）"
+        - "字母表邻居顺序填空（如 L, M, N, O, P）"
+      scope_excluded:
+        - "Qq 之后的字母书写（第五单元学习）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [42]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u04-p02"
+    lesson_id: "lesson-03"
+    point_name: "字母 Mm-Pp 自然拼读发音与例词拼读"
+    learning_objectives:
+      - "掌握辅音字母 m 发 /m/，n 发 /n/，p 发 /p/ 及短元音 o 发 /ɒ/ 的发音规律"
+      - "准确识别词首与词尾音素（如 fan 中的 /n/，cup 中的 /p/）"
+      - "拼读简单 CVC 单词：nod, hop, men, nap, pig"
+    prerequisites:
+      - "eng-g3-t1-u04-p01"
+    subsequent_points: []
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "教材拼读例词：map, mum, new, fan, orange, fox, pen, cup"
+        - "CVC拼读词：nod, hop, men, nap, pig"
+        - "首音辨析与短元音 /ɒ/ 识别"
+      scope_excluded:
+        - "长元音 /əʊ/（如 no, nose 等后续单元发音）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [42]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u04-p03"
+    lesson_id: "lesson-02"
+    point_name: "常见水果核心词汇及其复数形式认读"
+    learning_objectives:
+      - "听、说、认读核心水果名词：apples（苹果）, bananas（香蕉）, oranges（橙子）, grapes（葡萄）"
+      - "理解谈论日常水果偏好时通常使用名词复数形式的表达习惯"
+      - "感知水果的外形与特征描述（grapes are small, bananas are long）"
+    prerequisites: []
+    subsequent_points:
+      - "eng-g3-t1-u04-p04"
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "核心水果词汇单复数：apple/apples, banana/bananas, orange/oranges, grape/grapes"
+        - "特征形容词搭配：small, long"
+      scope_excluded:
+        - "高年级未学水果词汇（如 watermelon, strawberry 等）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [40, 41]
+      example_ref: ["ex_1", "ex_2"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u04-p04"
+    lesson_id: "lesson-01"
+    point_name: "询问与交流对水果及环境喜好的核心句型"
+    learning_objectives:
+      - "掌握询问对方是否喜欢某物的一般疑问句：Do you like apples / bananas / the farm?"
+      - "熟练运用肯定回答：Yes, I do. 与否定回答：No, I don't."
+      - "运用 And you? 进行礼貌追问，并用 I like... 表达自己的偏好"
+    prerequisites:
+      - "eng-g3-t1-u04-p03"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "句型：Do you like...? 及其答语 Yes, I do. / No, I don't."
+        - "交际短语：And you? / I like fresh air."
+      scope_excluded:
+        - "第三人称单数疑问句 Does Mike like..."
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [40]
+      example_ref: ["ex_1"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u04-p05"
+    lesson_id: "lesson-05"
+    point_name: "植物与自然生态环境要素核心词汇"
+    learning_objectives:
+      - "听、说、认读植物生态核心词汇：plant / plants（植物）, tree / trees（树木）, flower / flowers（花朵）, grass（草）"
+      - "认读植物生存的三大自然要素词汇：air（空气）, water（水）, sun（阳光）"
+    prerequisites: []
+    subsequent_points:
+      - "eng-g3-t1-u04-p06"
+      - "eng-g3-t1-u04-p07"
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "核心生态名词：plant(s), tree(s), flower(s), grass, air, water, sun, farm, garden"
+      scope_excluded:
+        - "复杂植物器官学术词汇（如 root, stem, petal 等高年级科学词汇）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [43, 44, 45]
+      example_ref: ["ex_4", "ex_5"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u04-p06"
+    lesson_id: "lesson-04"
+    point_name: "提出绿化与帮助植物行动倡议的核心句型"
+    learning_objectives:
+      - "掌握询问如何帮助植物与校园的疑问句：How can we help? / How can we help plants?"
+      - "运用 We can + 动词原形 提出具体的养护行动倡议：We can water the flowers / grass. We can plant new trees."
+      - "掌握 water 从名词（水）到动词（浇水）的词性转换用法"
+    prerequisites:
+      - "eng-g3-t1-u04-p05"
+    subsequent_points:
+      - "eng-g3-t1-u04-p07"
+    applicable_question_types: ["choice", "fill_blank", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "倡议与行动句型：We can water the flowers. / We can water the grass. / We can plant new trees."
+        - "情境问题：The school gardens need help. / How can we help?"
+      scope_excluded:
+        - "情态动词过去式或虚拟语气 could / should have done"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [43]
+      example_ref: ["ex_4"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u04-p07"
+    lesson_id: "lesson-06"
+    point_name: "植物生长需求与人与自然互利共生陈述句"
+    learning_objectives:
+      - "掌握陈述植物生长必需条件的句型：Plants need air, water and sun."
+      - "理解人与植物相互给予、互利共生的双向关系（Plants can give us many things. We need plants. Can we help them?）"
+      - "阅读简短生态语篇并能根据文本信息归类水果与植物要素"
+    prerequisites:
+      - "eng-g3-t1-u04-p05"
+      - "eng-g3-t1-u04-p06"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "match", "reading_comprehension"]
+    teaching_boundary:
+      scope_allowed:
+        - "句型：Plants need air, water and sun. / Plants can give us many things. / We need plants."
+        - "生态概念理解：Give vs Help（互惠互利）"
+      scope_excluded:
+        - "被动语态或光合作用科学术语"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [44, 45]
+      example_ref: ["ex_5", "ex_6"]
+    verification_status: "verified"

@@ -1,0 +1,68 @@
+unit_id: unit-04
+blueprints:
+- blueprint_id: bp-math-g4-t1-u04-standard
+  title: 第三单元 多位数乘两位数标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、口算
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 8
+    target_points:
+    - math-g4-t1-u04-p01
+    guidelines: 口算两位数乘整十数、整百数。
+  - slot_id: slot-02
+    section: 二、列竖式计算
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 5
+    item_count: 4
+    target_points:
+    - math-g4-t1-u04-p02
+    - math-g4-t1-u04-p03
+    guidelines: 列竖式计算两位数乘两位数，因数末尾有 0 的用简便方法。
+  - slot_id: slot-03
+    section: 三、填一填（积的变化规律）
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g4-t1-u04-p04
+    guidelines: 根据已知算式直接写出相关算式的得数。
+  - slot_id: slot-04
+    section: 四、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g4-t1-u04-p02
+    - math-g4-t1-u04-p04
+    guidelines: 选出正确的结果或说法。
+  - slot_id: slot-05
+    section: 五、找规律，填一填
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 4
+    item_count: 3
+    target_points:
+    - math-g4-t1-u04-p05
+    guidelines: 用计算器算前三题，找出规律后直接写出后两题。
+  - slot_id: slot-06
+    section: 六、解决问题（估算）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 8
+    item_count: 2
+    target_points:
+    - math-g4-t1-u04-p06
+    guidelines: 用估算判断「够不够」，并说明估大或估小的理由。

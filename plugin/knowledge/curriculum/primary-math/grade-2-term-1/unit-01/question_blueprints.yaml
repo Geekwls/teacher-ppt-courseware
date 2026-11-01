@@ -1,0 +1,75 @@
+unit_id: unit-01
+blueprints:
+- blueprint_id: bp-math-g2-t1-u01-standard
+  title: 第一单元 分类与整理标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、分一分：按给定标准分类并填表
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - math-g2-t1-u01-p01
+    guidelines: 给出物体图，按指定标准分类并把每类个数填在表格中。
+  - slot_id: slot-02
+    section: 二、数一数：看图回答
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g2-t1-u01-p01
+    guidelines: 根据分类结果回答「哪种最多/最少」等。
+  - slot_id: slot-03
+    section: 三、判一判：分类标准与结果
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g2-t1-u01-p02
+    guidelines: 判断同一组物体按不同标准分类的结果是否可能不同，总数是否不变。
+  - slot_id: slot-04
+    section: 四、填一填：逐层分类
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - math-g2-t1-u01-p03
+    guidelines: 按两个标准逐层分类并填写结果。
+  - slot_id: slot-05
+    section: 五、整理数据：填写统计表
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - math-g2-t1-u01-p04
+    guidelines: 根据给定的调查记录填写统计表并回答问题。
+  - slot_id: slot-06
+    section: 六、提问题：根据数据提问并解答
+    question_type: reading
+    difficulty: variation
+    points_per_item: 9
+    item_count: 2
+    target_points:
+    - math-g2-t1-u01-p04
+    guidelines: 根据统计表提出两个不同的数学问题并解答。
+  - slot_id: slot-07
+    section: 七、想一想（开放题）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 13
+    item_count: 1
+    target_points:
+    - math-g2-t1-u01-p05
+    guidelines: 给出一组物品，自定标准分类，写出分类标准并说明理由。

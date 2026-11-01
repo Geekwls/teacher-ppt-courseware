@@ -1,0 +1,46 @@
+unit_id: unit-04
+source_id: pep_chinese_g1_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t1-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「口形从前一个音滑向后一个音」的方式指导复韵母发音
+    difficulty: 学生易把复韵母读成两个独立的音，或标调位置写错
+    typical_misconceptions:
+    - error_pattern: 把 ai 读成 a-i
+      misconception_type: 复韵母未整体发音
+    - error_pattern: 把「iu」的调号标在 i 上
+      misconception_type: 标调规则未掌握
+  variation_strategy:
+  - 对着镜子观察口形滑动读复韵母
+  - 给复韵母标调并练读
+- point_id: chi-g1-t1-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「舌尖抵上齿龈」与「舌根抵软腭」的对比区分前后鼻音
+    difficulty: 学生易把 ang 读成 an、eng 读成 en（前后鼻音不分）
+    typical_misconceptions:
+    - error_pattern: 把「灯」读成「den」
+      misconception_type: 前后鼻音不分
+    - error_pattern: 把 un 与 ün 读混
+      misconception_type: 两音未区分
+  variation_strategy:
+  - 对比练读前后鼻音音节
+  - 给音节分类：前鼻音/后鼻音
+- point_id: chi-g1-t1-u04-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把拼音学习与识字、朗读结合起来，形成「拼—读—认」的完整链条
+    difficulty: 学生易在标调时把调号标错位置
+    typical_misconceptions:
+    - error_pattern: 标调位置错误
+      misconception_type: 标调规则未掌握
+    - error_pattern: 拼读正确但认不出汉字
+      misconception_type: 音形未建立联系
+  variation_strategy:
+  - 给音节标调并读出
+  - 拼读音节后指出对应汉字

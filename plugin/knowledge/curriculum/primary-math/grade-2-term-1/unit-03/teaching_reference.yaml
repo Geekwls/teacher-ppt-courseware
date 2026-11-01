@@ -1,0 +1,46 @@
+unit_id: unit-03
+source_id: pep_math_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2025年秋人教版教师教学用书数学二年级上册》为**纯扫描件（270 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g2-t1-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 通过分一分的操作理解「平均分」，再由「分」抽象出除法算式
+    difficulty: 学生易把「不平均」的分法也当作平均分，或颠倒被除数与除数的位置
+    typical_misconceptions:
+    - error_pattern: 把「不平均」的分法也当作平均分
+      misconception_type: 平均分含义未建立
+    - error_pattern: 除法算式中被除数与除数位置颠倒
+      misconception_type: 算式各部分意义不清
+  variation_strategy:
+  - 用小棒分一分并用除法算式表示
+  - 说一说除法算式中每个数表示什么
+- point_id: math-g2-t1-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「想除数乘几得被除数」作为求商的基本方法，沟通乘除关系
+    difficulty: 求商时口诀选择错误或需逐一试乘
+    typical_misconceptions:
+    - error_pattern: 计算 18÷6 时口诀选错得 4
+      misconception_type: 口诀对应不准
+    - error_pattern: 说不出求商的思考过程
+      misconception_type: 算理表述缺失
+  variation_strategy:
+  - 由一句口诀写出乘、除两类算式
+  - 限时口算表内除法
+- point_id: math-g2-t1-u03-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助画图区分「平均分成几份」与「每几个一份」两类问题
+    difficulty: 两类平均分问题混淆，导致除数与被除数位置颠倒
+    typical_misconceptions:
+    - error_pattern: 把「每4个一份」的问题列成「÷4」以外的算式
+      misconception_type: 两类分法辨析不清
+    - error_pattern: 列式后不写单位名称、不口答
+      misconception_type: 解题规范缺失
+  variation_strategy:
+  - 同一情境用两种平均分方式列式并比较
+  - 看图说意再列式

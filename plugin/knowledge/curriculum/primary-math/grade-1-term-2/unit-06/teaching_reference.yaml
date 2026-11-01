@@ -1,0 +1,46 @@
+unit_id: unit-06
+source_id: pep_math_g1_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2025年春人教版教师教学用书数学一年级下册》为**纯扫描件（281 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g1-t2-u06-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助一一对应与画图理解「相差数」的含义
+    difficulty: 把「多几」理解为「加几」
+    typical_misconceptions:
+    - error_pattern: 求「甲比乙多几个」时误用加法
+      misconception_type: 数量关系误判
+    - error_pattern: 把「多几个」与「多几倍」混淆
+      misconception_type: 概念混淆
+  variation_strategy:
+  - 画一一对应图表示相差关系
+  - 改编题目：把「多几」改成「少几」
+- point_id: math-g1-t2-u06-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 用画图（线段图雏形）表示「基准量」与「相差量」
+    difficulty: 分不清谁是「基准量」，加减号选错
+    typical_misconceptions:
+    - error_pattern: 求「比 8 多 5 的数」误算为 8−5
+      misconception_type: 基准量判断错误
+    - error_pattern: 列式后无法说清理由
+      misconception_type: 数学表达不足
+  variation_strategy:
+  - 画图表示「比…多几」的关系
+  - 根据算式 8+5=13 编一道题
+- point_id: math-g1-t2-u06-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 强调「先求什么、再求什么」的解题路径与画图辅助
+    difficulty: 漏算一步或顺序颠倒
+    typical_misconceptions:
+    - error_pattern: 两步问题只列一步算式
+      misconception_type: 条件遗漏
+    - error_pattern: 先算的中间量选错
+      misconception_type: 数量关系分析不足
+  variation_strategy:
+  - 画图梳理两步问题的数量关系
+  - 用分步与综合两种方式解答并比较

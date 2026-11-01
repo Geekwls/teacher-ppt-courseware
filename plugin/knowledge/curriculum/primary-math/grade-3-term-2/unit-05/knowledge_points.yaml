@@ -1,0 +1,91 @@
+unit_id: "unit-5"
+source_id: "pep_math_g3_t2_2024"
+points:
+  - point_id: "math-g3-t2-u05-p01"
+    unit_id: "unit-5"
+    lesson_id: "math-g3-t2-u05-l01"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "复式统计表的结构认知与合并优势"
+    learning_objectives:
+      - "理解复式统计表的特点：能同时呈现两组或多组相关联的数据，结构紧凑，便于对比和整体分析"
+      - "认识复式统计表的复合表头：明确左上角分割线所指示的三个维度（横标题、纵标题及表格数据名称）"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [65, 66, 67]
+      anchor_text: "把两个单式统计表合并成一个统计表，这个统计表叫作复式统计表。复式统计表便于对比分析两组数据。"
+    teaching_boundary:
+      scope_allowed:
+        - "识别单式与复式统计表"
+        - "指出表头各部分代表的含义"
+      scope_excluded:
+        - "初高中高维列联表与卡方独立性检验"
+
+  - point_id: "math-g3-t2-u05-p02"
+    unit_id: "unit-5"
+    lesson_id: "math-g3-t2-u05-l02"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "画“正”字法记录整理原始数据"
+    learning_objectives:
+      - "能熟练运用画“正”字的方法按分类标准统计原始记录，一个“正”字代表5个数据"
+      - "保证原始数据统计不重不漏，数清笔画并准确转化为阿拉伯数字"
+    applicable_question_types: ["fill_blank", "choice"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [68, 69]
+      anchor_text: "收集数据：画“正”字记录。一个“正”字有5笔，表示5个人或5件物品。"
+    teaching_boundary:
+      scope_allowed:
+        - "通过画正字记录统计100以内的数据"
+      scope_excluded:
+        - "概率抽样分布理论"
+
+  - point_id: "math-g3-t2-u05-p03"
+    unit_id: "unit-5"
+    lesson_id: "math-g3-t2-u05-l02"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "复式统计表的填表、合计与总计计算（数据守恒）"
+    learning_objectives:
+      - "掌握正确将原始数据填入复式统计表对应单元格的方法"
+      - "准确计算行“合计”（各分类项目累计）与列“总计”（男女生或各组总人数），并验证交叉核对总数是否相等（行合计之和 = 列总计之和）"
+    applicable_question_types: ["fill_blank", "calculation"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [70, 71, 72]
+      anchor_text: "填写统计表，并算出行和列的合计与总计。检查合计和总计是否相等。"
+    teaching_boundary:
+      scope_allowed:
+        - "计算行合计、列合计与全表总数"
+      scope_excluded:
+        - "均值方差标准差统计量计算"
+
+  - point_id: "math-g3-t2-u05-p04"
+    unit_id: "unit-5"
+    lesson_id: "math-g3-t2-u05-l03"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "基于复式统计表的数据提取、对比分析与决策建议"
+    learning_objectives:
+      - "能从复式统计表中获取丰富的数据信息，回答两步或多步比较的问题（如‘哪类活动男生比女生多多少人’）"
+      - "根据统计数据反映出的规律，提出合理的改进意见或生活决策（如进货建议、视力保护措施等）"
+    applicable_question_types: ["word_problem", "choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [73, 74, 75, 76]
+      anchor_text: "根据统计表回答问题：哪一项活动喜欢的人最多？针对全班视力情况，你有什么建议？"
+    teaching_boundary:
+      scope_allowed:
+        - "提取数据进行加减比较与合理生活建议"
+      scope_excluded:
+        - "线性回归预测与假设检验"

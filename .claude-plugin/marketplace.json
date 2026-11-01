@@ -1,0 +1,17 @@
+{
+  "name": "teacher-ppt-courseware",
+  "owner": { "name": "weila" },
+  "metadata": {
+    "description": "小学人教版课时PPT课件生成插件市场:语数英三科,教材证据链驱动的课件生成与评测框架。"
+  },
+  "plugins": [
+    {
+      "name": "teacher-ppt-courseware",
+      "displayName": "教师PPT课件生成",
+      "description": "小学人教版课时 PPT 课件生成:语数英三科,基于五层教材知识库(157单元/556知识点),Agent-Native 工作流 + 确定性校验门禁 + python-pptx 渲染,产出可编辑 .pptx 课件。",
+      "version": "0.1.0",
+      "category": "education",
+      "source": "./plugin"
+    }
+  ]
+}

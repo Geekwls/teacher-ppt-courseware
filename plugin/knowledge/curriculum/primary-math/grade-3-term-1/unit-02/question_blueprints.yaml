@@ -1,0 +1,82 @@
+unit_id: "unit-2"
+blueprints:
+  - blueprint_id: "bp-math-g3-t1-u02-standard"
+    title: "第二单元 混合运算 标准练习卷蓝图"
+    target_practice: "单元综合巩固与能力提升练习"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      - slot_id: "slot-01"
+        section: "一、直接写出得数"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t1-u02-p01", "math-g3-t1-u02-p02"]
+        guidelines: >
+          5 道一步到两步的口算，覆盖同级运算与两级运算。同级运算如 35−23+18、24÷8×2；
+          两级运算如 6×3+4、32−18÷2、4×9−5×3。数字控制在百以内、表内乘除范围内，
+          每题须在题目的元数据中给出 check_expression（如 35-23+18==30）供独立重算。
+
+      - slot_id: "slot-02"
+        section: "二、想一想，先算什么，再计算"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 5
+        item_count: 4
+        target_points: ["math-g3-t1-u02-p01", "math-g3-t1-u02-p02", "math-g3-t1-u02-p03"]
+        guidelines: >
+          4 道脱式计算，要求学生先用横线标出第一步再脱式。含同级运算（如 95−48−15）、
+          两级运算（如 4×9−5×3）、含括号运算（如 (24−16)×9、56÷(2×4)）各若干。
+          重点考查运算顺序的确定与脱式书写规范（等号对齐、不随意合并数）。
+
+      - slot_id: "slot-03"
+        section: "三、选一选"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t1-u02-p01", "math-g3-t1-u02-p02", "math-g3-t1-u02-p03"]
+        guidelines: >
+          5 道单选题。干扰项须为典型错例：不按从左往右计算、忽视先乘除后加减、
+          含括号却先算括号外、脱式书写时随意合并数。每题给出四个选项（A/B/C/D）。
+
+      - slot_id: "slot-04"
+        section: "四、添上括号，使等式成立"
+        question_type: "fill_blank"
+        difficulty: "variation"
+        points_per_item: 5
+        item_count: 3
+        target_points: ["math-g3-t1-u02-p03"]
+        guidelines: >
+          3 小题，给出不含括号的算式与目标结果，要求添上小括号使等式成立，并说明括号改变了什么。
+          如 24 − 16 × 9 = 72、32 + 8 ÷ 8 = 5、4 × 5 + 4 × 3 = 32。
+          每题须在元数据中给出 check_expression。
+
+      - slot_id: "slot-05"
+        section: "五、解决问题"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 5
+        item_count: 3
+        target_points: ["math-g3-t1-u02-p04"]
+        guidelines: >
+          3 道需要两步计算的实际问题，要求学生按「先求什么、再求什么」列综合算式，
+          并可借助线段图分析。情境数据须符合生活常理（人数 30～50、单价 2～5 元等），
+          答案附分步列式、单位名称与文字作答。
+
+      - slot_id: "slot-06"
+        section: "六、一题多解"
+        question_type: "word_problem"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["math-g3-t1-u02-p05"]
+        guidelines: >
+          1 道开放性问题，要求用两种不同思路解答同一问题（如 72÷8−56÷8 与 (72−56)÷8），
+          分别列出综合算式，并说明每种思路「先求的是什么」。评分关注思路多样性与列式合理性，
+          不作唯一答案限制。

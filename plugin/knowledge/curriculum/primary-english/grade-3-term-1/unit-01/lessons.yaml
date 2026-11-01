@@ -1,0 +1,68 @@
+unit_id: "unit-1"
+source_id: "pep_english_g3_t1_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "Part A Talk: 结交新朋友与日常问候自我介绍"
+    page_range: "P4"
+    official_examples:
+      - example_id: "ex_1"
+        title: "新同学见面互相问候并自我介绍"
+        page: 4
+        formula_or_context: "Hello! I'm Mike Black. / Hi! My name is Wu Binbin. / Nice to meet you. / Nice to meet you too."
+        core_concept: "通过情境对话学习结识新朋友的基本社交礼仪，使用'Hello!'或'Hi!'问好，用'I'm...'或'My name is...'介绍自己的名字，用'Nice to meet you (too).'表达初次见面的喜悦。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "Part A Learn: 身体部位与肢体交际动作"
+    page_range: "P5"
+    official_examples:
+      - example_id: "ex_2"
+        title: "身体部位词汇与动作交际指令"
+        page: 5
+        formula_or_context: "ear, eye, mouth, hand, arm; Wave your hand. Look into my eyes. Point to your ear. Listen! Point to your mouth. Smile! Wave your arm. Bye!"
+        core_concept: "学习表示身体部位的核心词汇（ear, eye, mouth, hand, arm），并在TPR肢体反应活动中通过眼神注视、倾听、微笑和挥手表达友善交际。"
+
+  - lesson_id: "lesson-03"
+    lesson_number: 3
+    lesson_name: "Part A Letters and sounds: 字母 Aa-Dd 书写与拼读"
+    page_range: "P6"
+    official_examples:
+      - example_id: "ex_3"
+        title: "字母 Aa, Bb, Cc, Dd 认读书写及自然拼读"
+        page: 6
+        formula_or_context: "Aa, Bb, Cc, Dd; apple, bag, bed, Bob, cat, can, dog, sad; bad, cab, dad"
+        core_concept: "在四线三格中规范书写字母Aa-Dd的大小写笔顺，掌握四个辅元音的发音/æ/, /b/, /k/, /d/，并能尝试拼读简单的CVC单音节词。"
+
+  - lesson_id: "lesson-04"
+    lesson_number: 4
+    lesson_name: "Part B Talk: 友好分享与礼貌致谢"
+    page_range: "P7"
+    official_examples:
+      - example_id: "ex_4"
+        title: "同伴合作与文具分享情境"
+        page: 7
+        formula_or_context: "Oh no! / It's OK. We can share. / Thanks. / Thank you. / Hey, Sarah! We can share."
+        core_concept: "在同伴遇到困难时主动提出分享，用'It's OK. We can share.'表达安慰与友爱，在接受帮助时用'Thanks.'或'Thank you.'表达由衷感谢。"
+
+  - lesson_id: "lesson-05"
+    lesson_number: 5
+    lesson_name: "Part B Learn: 好朋友的优秀品格与友好行为"
+    page_range: "P8"
+    official_examples:
+      - example_id: "ex_5"
+        title: "好朋友的核心行为动词与日常实践"
+        page: 8
+        formula_or_context: "smile, listen, help, share; I smile. / I listen. / I help. / I share. / I am nice to my friends."
+        core_concept: "掌握结交好朋友的核心动词（smile, listen, help, share），能用第一人称简短句子陈述自己如何对待朋友：'I am nice to my friends.'。"
+
+  - lesson_id: "lesson-06"
+    lesson_number: 6
+    lesson_name: "Start to read & Project: 好朋友海报与交友大问题总结"
+    page_range: "P9-P11"
+    official_examples:
+      - example_id: "ex_6"
+        title: "阅读海报《I am a good friend!》"
+        page: 9
+        formula_or_context: "My name is... I say 'Hi!' I smile. I listen. I help. I share. We are good friends."
+        core_concept: "综合阅读包含图文的好朋友介绍海报，完成判断与信息匹配，深化回答单元大问题'How do we make friends?'并制作交友卡片。"

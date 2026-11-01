@@ -1,0 +1,68 @@
+unit_id: unit-06
+blueprints:
+- blueprint_id: bp-math-g1-t2-u06-standard
+  title: 第六单元 数量间的加减关系标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填：数量关系
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 5
+    target_points:
+    - math-g1-t2-u06-p01
+    guidelines: 填写「谁比谁多几」「谁比谁少几」。
+  - slot_id: slot-02
+    section: 二、看图列式
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - math-g1-t2-u06-p01
+    - math-g1-t2-u06-p02
+    guidelines: 根据图示数量关系列式。
+  - slot_id: slot-03
+    section: 三、算一算
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - math-g1-t2-u06-p02
+    guidelines: 求比一个数多几/少几的数。
+  - slot_id: slot-04
+    section: 四、选择合适的方法解答
+    question_type: choice
+    difficulty: variation
+    points_per_item: 5
+    item_count: 3
+    target_points:
+    - math-g1-t2-u06-p01
+    - math-g1-t2-u06-p02
+    guidelines: 比较两道相似题，选择加法或减法并说明理由。
+  - slot_id: slot-05
+    section: 五、解决问题（两步）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 12
+    item_count: 2
+    target_points:
+    - math-g1-t2-u06-p03
+    guidelines: 两步加减法问题，画图分析后列式。
+  - slot_id: slot-06
+    section: 六、提出问题并解答
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 13
+    item_count: 1
+    target_points:
+    - math-g1-t2-u06-p03
+    guidelines: 根据情境图提出两个不同的数学问题并解答。

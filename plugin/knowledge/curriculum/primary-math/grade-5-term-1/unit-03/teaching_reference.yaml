@@ -1,0 +1,60 @@
+unit_id: unit-03
+source_id: pep_math_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g5-t1-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「余下的 2 元转化为 20 角继续分」的经验，让学生理解「余数添 0 继续除」的合理性，并体会商的小数点位置与被除数一致
+    difficulty: 学生易在余数添 0 后忘记在商上继续写小数部分；易漏掉商的小数点
+    typical_misconceptions:
+    - error_pattern: 余数添 0 后商未继续写
+      misconception_type: 操作中断
+    - error_pattern: 商的小数点漏写或错位
+      misconception_type: 小数点位置错误
+  variation_strategy:
+  - 计算除数是整数的小数除法
+  - 判断并改正错误的竖式
+- point_id: math-g5-t1-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「余数总是 25、商总是 3」的重复现象引出循环小数，再从「除不尽」与「除得尽」区分无限小数与有限小数
+    difficulty: 学生易把循环小数误认为无限不循环小数；易把循环节写错位置
+    typical_misconceptions:
+    - error_pattern: 把循环小数当成无限不循环小数
+      misconception_type: 概念混淆
+    - error_pattern: 循环节书写错误
+      misconception_type: 记法不熟
+  variation_strategy:
+  - 用简便形式写出循环小数
+  - 判断哪些是有限小数、哪些是无限小数
+- point_id: math-g5-t1-u03-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「单位换算（7.65 m=765 cm，0.85 m=85 cm）」这一直观做法，引出「同时扩大相同倍数商不变」的一般方法
+    difficulty: 学生易只移动除数的小数点而忘记同步移动被除数；易在被除数位数不够时忘记补 0
+    typical_misconceptions:
+    - error_pattern: 只移动除数的小数点
+      misconception_type: 商不变规律未同步
+    - error_pattern: 被除数位数不够时未补 0
+      misconception_type: 操作遗漏
+  variation_strategy:
+  - 把算式转化成除数是整数的除法
+  - 计算一个数除以小数
+- point_id: math-g5-t1-u03-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「装红豆的瓶子」「包装礼盒的丝带」等情境，让学生体会「取近似值的方法由问题决定」，而不是一律四舍五入
+    difficulty: 学生易在「需要几个瓶子」时用四舍五入（把 3.375 取成 3）；易在「能装几瓶」时用进一法
+    typical_misconceptions:
+    - error_pattern: 该进一时用了去尾
+      misconception_type: 情境判断错误
+    - error_pattern: 该去尾时用了进一
+      misconception_type: 情境判断错误
+  variation_strategy:
+  - 按要求求商的近似数
+  - 根据情境选择进一法或去尾法并说明理由

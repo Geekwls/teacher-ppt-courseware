@@ -1,0 +1,68 @@
+unit_id: "unit-8"
+source_id: "pep_math_g3_t2_tr_2026"
+teaching_references:
+  - point_id: "math-g3-t2-u08-p01"
+    ref_book: "人教版《教师教学用书》数学三年级下册第八单元"
+    ref_page: "P255-P265"
+    pedagogical_focus:
+      key_point: "全面查漏补缺除法笔算与小数加减法，强化商中间有0与退位减法两大易错点"
+      difficulty: "首位不够除商的最高位定位，以及小数减法中被减数小数位为0的借位"
+      typical_misconceptions:
+        - error_pattern: "计算 624÷6 时中间漏写0得 14"
+          misconception_type: "商中间有0漏写（全册典型易错）"
+        - error_pattern: "计算 12 - 3.4 算成 9.4（漏退位）"
+          misconception_type: "小数减法借位算理失误"
+    variation_strategy:
+      - "对比组除法计算：624÷6, 612÷3, 504÷4"
+      - "竖式验算强化练习"
+
+  - point_id: "math-g3-t2-u08-p02"
+    ref_book: "人教版《教师教学用书》数学三年级下册第八单元"
+    ref_page: "P266-P275"
+    pedagogical_focus:
+      key_point: "周长与面积核心概念深度对比，构建清晰的几何知识网络图"
+      difficulty: "建立线与面的本质区别，彻底扭转单位混淆与公式用错的顽疾"
+      typical_misconceptions:
+        - error_pattern: "周长相等的两个长方形，面积一定相等（×，周长相等时，长与宽越接近面积越大）"
+          misconception_type: "周长面积相关性误判（极高频失分）"
+        - error_pattern: "面积相等的长方形和正方形，周长也相等（×，面积相等时，正方形周长最短）"
+          misconception_type: "逆向规律误判"
+    variation_strategy:
+      - "列表对比周长与面积的意义、公式与计量单位"
+      - "正误判断题专训"
+
+  - point_id: "math-g3-t2-u08-p03"
+    ref_book: "人教版《教师教学用书》数学三年级下册第八单元"
+    ref_page: "P276-P280"
+    pedagogical_focus:
+      key_point: "综合判断图形变换，强化空间表象与直观推理"
+      difficulty: "在旋转与平移复合运动中准确识别各自特征"
+      typical_misconceptions:
+        - error_pattern: "将时针移动误当平移"
+          misconception_type: "旋转运动识别错误"
+    variation_strategy:
+      - "画对称轴与平移方格图综合操作题"
+
+  - point_id: "math-g3-t2-u08-p04"
+    ref_book: "人教版《教师教学用书》数学三年级下册第八单元"
+    ref_page: "P281-P285"
+    pedagogical_focus:
+      key_point: "综合运用时间单位与历法常识解决实际问题"
+      difficulty: "跨月或跨天经过时间计算的综合应用"
+      typical_misconceptions:
+        - error_pattern: "计算平年上半年天数时直接按 365÷2=182.5 算错（应分月相加：31+28+31+30+31+30=181天）"
+          misconception_type: "除法机械套用忽略分月事实"
+    variation_strategy:
+      - "时间计算综合题：火车运行时间与到达时刻推算"
+
+  - point_id: "math-g3-t2-u08-p05"
+    ref_book: "人教版《教师教学用书》数学三年级下册第八单元"
+    ref_page: "P286-P290"
+    pedagogical_focus:
+      key_point: "提升学生阅读理解题意、分析数量关系和建立数学模型的能力"
+      difficulty: "多步问题中中间隐藏量的分析与提取"
+      typical_misconceptions:
+        - error_pattern: "两步计算题做完第一步就以为完成，漏做第二步"
+          misconception_type: "问题目标锁定不全"
+    variation_strategy:
+      - "综合应用题：某超市举行牛奶促销活动（两步连除与优惠方案决策）"

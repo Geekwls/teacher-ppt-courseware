@@ -1,0 +1,75 @@
+unit_id: "unit-1"
+source_id: "pep_math_g3_t2_tr_2026"
+teaching_references:
+  - point_id: "math-g3-t2-u01-p01"
+    ref_book: "人教版《教师教学用书》数学三年级下册第一单元"
+    ref_page: "P7-P11"
+    pedagogical_focus:
+      key_point: "掌握轴对称图形的本质特征是‘对折后能完全重合’，能通过对折操作或空间表象验证轴对称性"
+      difficulty: "排除视觉直观干扰（如平行四边形看似对称，但沿任何直线对折均无法完全重合）"
+      typical_misconceptions:
+        - error_pattern: "认为一般平行四边形是轴对称图形，误以为其对角线是对称轴"
+          misconception_type: "对角线与对称轴混淆"
+        - error_pattern: "将只是中心对称或面积相等的图形误判为轴对称"
+          misconception_type: "轴对称本质特征把握不牢"
+    variation_strategy:
+      - "汉字与字母轴对称性辨析：下列汉字中是轴对称图形的是（日、中、田、工、甲）"
+      - "正误判断：平行四边形是轴对称图形（×）"
+
+  - point_id: "math-g3-t2-u01-p02"
+    ref_book: "人教版《教师教学用书》数学三年级下册第一单元"
+    ref_page: "P11-P15"
+    pedagogical_focus:
+      key_point: "理解对称轴是一条折痕所在的直线，规范用虚线绘制，熟记常见平面图形的对称轴条数"
+      difficulty: "长方形对角线不是对称轴；正方形有4条对称轴（2条对边中点连线，2条对角线）"
+      typical_misconceptions:
+        - error_pattern: "认为长方形有4条对称轴（误把两条对角线当作对称轴）"
+          misconception_type: "对角线折叠不重合误判"
+        - error_pattern: "画对称轴只画线段，未穿出图形外部，或画成实线"
+          misconception_type: "对称轴绘制规范缺失"
+    variation_strategy:
+      - "选择题：长方形有（2）条对称轴，正方形有（4）条对称轴"
+      - "连线题：常见图形与对称轴条数配对"
+
+  - point_id: "math-g3-t2-u01-p03"
+    ref_book: "人教版《教师教学用书》数学三年级下册第一单元"
+    ref_page: "P16-P19"
+    pedagogical_focus:
+      key_point: "理解平移是物体沿直线方向的移动，运动过程中物体自身的大小、形状和方向均保持不变"
+      difficulty: "准确识别复合运动中的平移成分，如行驶中的汽车车身是平移，车轮是旋转"
+      typical_misconceptions:
+        - error_pattern: "认为人走楼梯是旋转（其实台阶升降与水平移动均属平移，方向始终朝前）"
+          misconception_type: "运动路径曲折与旋转混淆"
+        - error_pattern: "将汽车整体行驶判断为旋转（因车轮在转）"
+          misconception_type: "局部运动与整体运动混淆"
+    variation_strategy:
+      - "生活现象分类：在横线上写出是『平移』还是『旋转』"
+      - "选择题干扰项：下列运动中属于平移的是（电梯上升、拉开抽屉）"
+
+  - point_id: "math-g3-t2-u01-p04"
+    ref_book: "人教版《教师教学用书》数学三年级下册第一单元"
+    ref_page: "P19-P22"
+    pedagogical_focus:
+      key_point: "掌握方格图上确定图形平移距离的关键策略：‘抓对应点，数格数’"
+      difficulty: "学生极易错误数成平移前后两个图形之间的‘间隔空格数’"
+      typical_misconceptions:
+        - error_pattern: "数平移格数时，数了两个图形之间空了几格，导致平移距离少算图形本身的宽度"
+          misconception_type: "间隔距离与移动位移混淆（极高频典型错误）"
+    variation_strategy:
+      - "图形填空：小三角形先向右平移（ ）格，再向上平移（ ）格"
+      - "错因纠错题：指出小明把小旗平移格数数成空白格数的错误原因"
+
+  - point_id: "math-g3-t2-u01-p05"
+    ref_book: "人教版《教师教学用书》数学三年级下册第一单元"
+    ref_page: "P20-P24"
+    pedagogical_focus:
+      key_point: "理解旋转是物体围绕一个中心点或轴做圆周运动，运动过程中方向发生改变，大小形状不变"
+      difficulty: "体会平移与旋转的本质区别：方向是否发生改变"
+      typical_misconceptions:
+        - error_pattern: "把开关水龙头的转动误当成平移"
+          misconception_type: "旋转运动识别遗漏"
+        - error_pattern: "认为物体只要动了都是平移"
+          misconception_type: "概念概括泛化"
+    variation_strategy:
+      - "判断题：钟表指针的走动是旋转现象（√）"
+      - "多选题：下列生活情境中，属于旋转运动的有（风车转动、方向盘转动、推拉窗×）"

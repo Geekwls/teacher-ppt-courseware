@@ -1,0 +1,39 @@
+lessons:
+- lesson_id: chi-g1-t1-u00-l01
+  unit_id: unit-00
+  subject: chinese
+  grade: 1
+  term: term-1
+  lesson_name: 我是中国人
+  page_range: P2-P3
+  official_examples:
+  - 我是中国人。我们都是中国人。中华民族是一家。
+- lesson_id: chi-g1-t1-u00-l02
+  unit_id: unit-00
+  subject: chinese
+  grade: 1
+  term: term-1
+  lesson_name: 我爱我们的祖国
+  page_range: P4-P5
+  official_examples:
+  - 我爱五星红旗。我爱北京天安门。
+  - 我爱长江，我爱黄河。我爱中华人民共和国。
+- lesson_id: chi-g1-t1-u00-l03
+  unit_id: unit-00
+  subject: chinese
+  grade: 1
+  term: term-1
+  lesson_name: 我是小学生
+  page_range: P6
+  official_examples:
+  - 儿歌《上学歌》：太阳当空照，花儿对我笑。小鸟说：早，早，早，你为什么背上小书包？
+  - 我去上学校，天天不迟到。爱学习，爱劳动，长大要为人民立功劳。
+- lesson_id: chi-g1-t1-u00-l04
+  unit_id: unit-00
+  subject: chinese
+  grade: 1
+  term: term-1
+  lesson_name: 我爱学语文
+  page_range: P7
+  official_examples:
+  - 读书、写字；讲故事、听故事。

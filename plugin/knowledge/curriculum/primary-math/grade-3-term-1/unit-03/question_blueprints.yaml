@@ -1,0 +1,87 @@
+unit_id: "unit-3"
+blueprints:
+  - blueprint_id: "bp-math-g3-t1-u03-standard"
+    title: "第三单元 毫米、分米和千米 标准练习卷蓝图"
+    target_practice: "单元综合巩固与能力提升练习"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础填空（单位换算，基础60%主力）
+      - slot_id: "slot-01"
+        section: "一、填一填"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t1-u03-p01", "math-g3-t1-u03-p02", "math-g3-t1-u03-p03", "math-g3-t1-u03-p04"]
+        guidelines: >
+          5 空单位换算，覆盖四种关系：1厘米=10毫米（3厘米=30毫米）、1分米=10厘米（8分米=80厘米）、
+          1米=10分米（5米=50分米）、1千米=1000米（3千米=3000米），以及一道低级化高级（60毫米=6厘米）。
+          每题须在元数据中给出 check_expression 供独立重算。
+
+      # 二、选择合适的长度单位（基础）
+      - slot_id: "slot-02"
+        section: "二、在括号里填上合适的长度单位"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 3
+        item_count: 5
+        target_points: ["math-g3-t1-u03-p01", "math-g3-t1-u03-p04", "math-g3-t1-u03-p06"]
+        guidelines: >
+          5 小题选填长度单位（毫米/厘米/分米/米/千米）。情境须符合生活常理：
+          马拉松全程约42（千米）、语文书厚约6（毫米）、过街天桥长约30（米）、
+          一步长约5（分米）、教室门高约2（米）。
+
+      # 三、比较大小（变式）
+      - slot_id: "slot-03"
+        section: "三、在○里填上「>」「<」或「=」"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 4
+        target_points: ["math-g3-t1-u03-p03"]
+        guidelines: >
+          4 小题比较长度大小，须先统一单位再判断：90毫米○9厘米、4米○30分米、
+          2千米○3000米、6分米○500毫米。干扰点在于不统一单位直接比数字。
+
+      # 四、判断与说理（变式）
+      - slot_id: "slot-04"
+        section: "四、判断对错"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 4
+        target_points: ["math-g3-t1-u03-p06", "math-g3-t1-u03-p04"]
+        guidelines: >
+          4 小题判断正误并说明理由：字典厚40毫米（对）、毛巾长7厘米（错，应为分米或更长）、
+          小红家与奶奶家相距50千米最好步行去（错）、1千米比1000米长（错）。
+
+      # 五、解决问题（变式）
+      - slot_id: "slot-05"
+        section: "五、解决问题"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 7
+        item_count: 3
+        target_points: ["math-g3-t1-u03-p03", "math-g3-t1-u03-p04", "math-g3-t1-u03-p05"]
+        guidelines: >
+          3 道实际问题：①把一根2米长的木料锯成同样长的4根做凳子腿，每根约多长（先统一单位再平均分）；
+          ②游泳池长50米，游1千米要游多少个来回；③王老师家距学校3千米，每分钟走100米，
+          7:00 出发 7:45 能否到校（时间与路程综合）。答案须含分步列式、单位与文字作答。
+
+      # 六、动手操作与思维挑战（10%）
+      - slot_id: "slot-06"
+        section: "六、想一想，做一做"
+        question_type: "reading"
+        difficulty: "challenge"
+        points_per_item: 12
+        item_count: 1
+        target_points: ["math-g3-t1-u03-p03"]
+        guidelines: >
+          1 道综合操作题（12分）：有一些大小相同的铁环连在一起，已知每个铁环长4厘米、
+          环粗5毫米，求3个铁环连在一起拉紧后的总长度。要求写出「先求什么、再求什么」的
+          分析过程，说明单位如何统一（毫米与厘米），并画出示意图。

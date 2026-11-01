@@ -1,0 +1,32 @@
+unit_id: unit-05
+source_id: pep_chinese_g5_t1_2024
+points:
+- point_id: chi-g5-t1-u05-p01
+  unit_id: unit-05
+  lesson_id: chi-g5-t1-u05-l01
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 说明方法及其运用
+  learning_objectives:
+  - 能识别并运用常见的说明方法（举例子、列数字、打比方、作比较等）
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P65
+    - P66
+    - P68
+    anchor_text: 单元起始页 P65 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《太阳》《金字塔》
+    - 常见的说明方法
+    scope_excluded:
+    - 说明文写作教学
+    - 科技说明文的写作规范

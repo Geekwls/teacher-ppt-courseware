@@ -1,0 +1,60 @@
+unit_id: unit-04
+source_id: pep_chinese_g4_t1_2024
+points:
+- point_id: chi-g4-t1-u04-p01
+  unit_id: unit-04
+  lesson_id: chi-g4-t1-u04-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 把握故事的主要内容与神奇想象
+  learning_objectives:
+  - 能按起因、经过、结果把握文章的主要内容，能感受神话中神奇的想象
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P45
+    - P46
+    - P49
+    anchor_text: 单元起始页 P45 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《盘古开天地》《精卫填海》《普罗米修斯》《女娲补天》
+    - 神话故事的神奇想象
+    scope_excluded:
+    - 神话学与民间文学研究
+    - 叙事结构分析
+- point_id: chi-g4-t1-u04-p02
+  unit_id: unit-04
+  lesson_id: chi-g4-t1-u04-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 展开想象写故事（我和__过一天）
+  learning_objectives:
+  - 能展开想象，写一个与神话人物过一天的故事
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P54
+    - P55
+    anchor_text: 单元起始页 P54 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 想象要合理
+    - 故事要有起因、经过、结果
+    scope_excluded:
+    - 创意写作的构思方法
+    - 叙事性作品的写作

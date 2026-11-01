@@ -1,0 +1,87 @@
+unit_id: unit-04
+source_id: pep_math_g2_t1_2024
+points:
+- point_id: math-g2-t1-u04-p01
+  unit_id: unit-04
+  lesson_id: math-g2-t1-u04-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 认识厘米与用尺子测量长度
+  learning_objectives:
+  - 认识长度单位厘米，知道 1 厘米的实际长度；会用尺子量物体长度（限整厘米）
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P55
+    - P60
+    anchor_text: 课本 P55-P60 实证：P55 古代测量引出统一长度单位；P56-P57 尺子上的刻度与厘米（cm）、食指宽约1厘米、田字格宽约1厘米；P58 测量纸条与铅笔（左端对准0刻度）；P60 认识线段并用尺子画出指定厘米长度的线段。
+  teaching_boundary:
+    scope_allowed:
+    - 厘米的认识
+    - 用尺子测量长度的方法
+    scope_excluded:
+    - 毫米、分米（三年级上册）
+    - 用小数表示长度
+- point_id: math-g2-t1-u04-p02
+  unit_id: unit-04
+  lesson_id: math-g2-t1-u04-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 认识米与米、厘米的换算
+  learning_objectives:
+  - 认识长度单位米，知道 1 米 = 100 厘米；会用米尺测量较长的物体
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P61
+    - P64
+    anchor_text: 课本 P61-P64 实证：米尺与软尺测量黑板/教室长度；两臂伸开的长度大约是1米；建立1米观念并掌握换算进率 1米 = 100厘米。
+  teaching_boundary:
+    scope_allowed:
+    - 米的认识
+    - 1 米 = 100 厘米的换算
+    scope_excluded:
+    - 千米（三年级上册）
+    - 单位换算的复合形式
+- point_id: math-g2-t1-u04-p03
+  unit_id: unit-04
+  lesson_id: math-g2-t1-u04-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 估计长度与选择合适的单位
+  learning_objectives:
+  - 能根据物体实际长度选择合适的单位（厘米或米）；能对常见物体的长度作出合理估计
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P65
+    - P67
+    anchor_text: 课本 P65-P67 实证：选择合适的单位（旗杆高13米、小明身高120厘米、铅笔长18厘米）；借助身体尺（一拃约14厘米、一步约50厘米）估计物体长度。
+  teaching_boundary:
+    scope_allowed:
+    - 选择长度单位
+    - 估计物体长度
+    scope_excluded:
+    - 毫米、分米、千米
+    - 估测误差的量化分析

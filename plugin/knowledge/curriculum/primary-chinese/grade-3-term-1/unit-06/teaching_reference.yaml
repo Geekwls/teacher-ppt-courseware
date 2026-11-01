@@ -1,0 +1,81 @@
+unit_id: "unit-6"
+source_id: "pep_chinese_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《人教统编版小学语文三年级上册教师用书（教学参考）》
+  （255 页扫描件，OCR 解析）核定。第六单元位于教参 P143 起：单元说明 P143、富饶的西沙群岛 P145、
+  海滨小城 P150、美丽的小兴安岭 P155、香港，璀璨的明珠 P160、习作这儿真美 P166、语文园地 P169。
+teaching_references:
+  - point_id: "chi-g3-t1-u06-p01"
+    ref_book: "人教版《教师教学用书》语文三年级上册第六单元"
+    ref_page: "P145-P166"
+    pedagogical_focus:
+      key_point: "在阅读与习作中落实识字写字，注意形近字与易错笔画的辨析"
+      difficulty: "本单元生字随文出现，需结合写景语境识记，避免孤立机械抄写"
+      typical_misconceptions:
+        - error_pattern: "混淆形近字（如『饶/绕』『篮/蓝』类部件）"
+          misconception_type: "形近部件混淆"
+        - error_pattern: "笔画增减导致错字"
+          misconception_type: "书写不规范"
+    variation_strategy:
+      - "看拼音写词语；形近字对比组词"
+      - "结合语境选字填空"
+
+  - point_id: "chi-g3-t1-u06-p02"
+    ref_book: "人教版《教师教学用书》语文三年级上册第六单元"
+    ref_page: "P143"
+    pedagogical_focus:
+      key_point: "学会找出关键语句，借助关键语句理解一段话的意思"
+      difficulty: "学生易把关键语句与一般句子混同，或找到后不会借助它概括段落"
+      typical_misconceptions:
+        - error_pattern: "随意指认一句话为关键语句，说不出判断依据"
+          misconception_type: "概念把握不准"
+        - error_pattern: "找到关键语句却仍逐句复述，不会借助它概括段意"
+          misconception_type: "方法运用不足"
+    variation_strategy:
+      - "给出一段话，找出关键语句并概括段意"
+      - "比较不同段落的关键语句位置与作用"
+
+  - point_id: "chi-g3-t1-u06-p03"
+    ref_book: "人教版《教师教学用书》语文三年级上册第六单元"
+    ref_page: "P150-P160"
+    pedagogical_focus:
+      key_point: "把握四篇课文的地域景观与景物特点，体会祖国山河之美"
+      difficulty: "学生易记混四篇课文的描写对象与顺序，感受流于表面"
+      typical_misconceptions:
+        - error_pattern: "混淆各篇课文的描写对象与写作顺序"
+          misconception_type: "内容把握不准"
+        - error_pattern: "能读景物却体会不到热爱之情"
+          misconception_type: "情感体会缺失"
+    variation_strategy:
+      - "用表格或关键词梳理各篇课文的景观与特点"
+      - "朗读优美语句，交流自己的感受"
+
+  - point_id: "chi-g3-t1-u06-p04"
+    ref_book: "人教版《教师教学用书》语文三年级上册第六单元"
+    ref_page: "P166"
+    pedagogical_focus:
+      key_point: "围绕一个意思写一处景物，尝试用上关键语句"
+      difficulty: "学生习作易内容散乱、没有中心，或景物描写空泛"
+      typical_misconceptions:
+        - error_pattern: "写了多处景物却没有围绕一个意思"
+          misconception_type: "中心不明"
+        - error_pattern: "景物描写笼统，缺少具体特点"
+          misconception_type: "描写不具体"
+    variation_strategy:
+      - "围绕给定关键语句写一段景物"
+      - "互评：是否围绕一个意思、是否写具体"
+
+  - point_id: "chi-g3-t1-u06-p05"
+    ref_book: "人教版《教师教学用书》语文三年级上册第六单元"
+    ref_page: "P169"
+    pedagogical_focus:
+      key_point: "背诵默写《早发白帝城》，回顾并运用借助关键语句理解段落的方法"
+      difficulty: "学生默写古诗易写错别字，方法回顾易流于形式"
+      typical_misconceptions:
+        - error_pattern: "默写《早发白帝城》出现错别字或漏字"
+          misconception_type: "默写不准确"
+        - error_pattern: "会背方法却不会在新的段落中运用"
+          misconception_type: "迁移不足"
+    variation_strategy:
+      - "古诗默写与诗意填空"
+      - "在新的语段中找出关键语句并概括段意"

@@ -1,0 +1,31 @@
+unit_id: unit-07
+source_id: pep_math_g5_t1_2024
+points:
+- point_id: math-g5-t1-u07-p01
+  unit_id: unit-07
+  lesson_id: math-g5-t1-u07-l01
+  subject: math
+  grade: 5
+  term: term-1
+  point_name: 密铺的条件与图形运动
+  learning_objectives:
+  - 能判断哪些平面图形可以单独密铺，能说明密铺与图形的边角特征、图形运动的关系
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g5_t1_2024
+    page_ref:
+    - P95
+    - P96
+    anchor_text: 单元起始页 P95 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 能单独密铺的图形（三角形、四边形、正六边形）
+    - 密铺与拼接处角度和的关系
+    scope_excluded:
+    - 平面密铺的数学分类
+    - 准晶体与彭罗斯镶嵌

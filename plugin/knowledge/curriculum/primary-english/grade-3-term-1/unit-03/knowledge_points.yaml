@@ -1,0 +1,169 @@
+unit_id: "unit-3"
+source_id: "pep_english_g3_t1_2024"
+points:
+  - point_id: "eng-g3-t1-u03-p01"
+    lesson_id: "lesson-03"
+    point_name: "字母 Ii, Jj, Kk, Ll 的认读、大小写配对与规范书写"
+    learning_objectives:
+      - "正确认读英文字母 Ii, Jj, Kk, Ll 的大写与小写形式"
+      - "熟练进行字母大小写配对及按字母表顺序排列"
+      - "在四线三格中按照正确笔顺规范书写 Ii, Jj, Kk, Ll，特别掌握小写 j 占上中下三格的书写规则"
+    prerequisites:
+      - "eng-g3-t1-u02-p01"
+    subsequent_points:
+      - "eng-g3-t1-u03-p02"
+    applicable_question_types: ["fill_blank", "choice", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "字母 Ii, Jj, Kk, Ll 的四线三格占格（大写均占上两格；小写i占上中格，点在第一格；小写j占上中下三格，点在第一格，尾巴在第三格弯钩；小写k和l占上两格）"
+        - "字母前后邻居推断（如 H, I, J, K, L）"
+      scope_excluded:
+        - "Mm 之后的字母书写（第四单元学习）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [30]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u03-p02"
+    lesson_id: "lesson-03"
+    point_name: "字母 Ii-Ll 自然拼读发音与例词拼读"
+    learning_objectives:
+      - "掌握短元音 i 发 /ɪ/，辅音字母 j 发 /dʒ/，k 发 /k/，l 发 /l/ 的拼读发音规律"
+      - "能听音辨字，准确识别首音音素及元音 /ɪ/"
+      - "拼读简单 CVC 单词：big, dig, Jim, lab, led"
+    prerequisites:
+      - "eng-g3-t1-u03-p01"
+    subsequent_points: []
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "教材拼读例词：ill, kid, job, jet, Kim, kite, leg, lion"
+        - "CVC扩展拼读词：big, dig, Jim, lab, led"
+        - "首字母发音匹配与元音短音识别"
+      scope_excluded:
+        - "长元音 /aɪ/（如 like 中的元音在当前阶段暂不作自然拼读规律考核）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [30]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u03-p03"
+    lesson_id: "lesson-02"
+    point_name: "常见家庭宠物核心词汇与复数单复数概念"
+    learning_objectives:
+      - "听、说、认读核心宠物词汇：pet, dog, cat, fish, bird, rabbit"
+      - "理解宠物名词的复数形式（cats, dogs, birds, rabbits），特别注意 fish 单复同形的特殊用法"
+      - "运用 TPR 动物习性动词短语（run like a dog, sleep like a cat, sing like a bird, hop like a rabbit, swim like a fish）"
+    prerequisites: []
+    subsequent_points:
+      - "eng-g3-t1-u03-p04"
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "核心宠物名词：pet, dog, cat, fish, bird, rabbit"
+        - "规则复数形式加 -s 及 fish 的单复同形"
+        - "简单动作短语：run, sleep, sing, hop, swim 与动物匹配"
+      scope_excluded:
+        - "不规则复数名词变化（如 mice, geese 等未学词汇）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [28, 29]
+      example_ref: ["ex_1", "ex_2"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u03-p04"
+    lesson_id: "lesson-01"
+    point_name: "询问是否拥有宠物的核心疑问句与喜爱表达"
+    learning_objectives:
+      - "掌握询问他人是否拥有宠物的一般疑问句：Do you have a pet?"
+      - "熟练运用肯定答语：Yes, I do. (I have a...) 与否定答语：No, I don't."
+      - "运用 I like your... / I like... 表达对宠物的赞赏与喜爱"
+    prerequisites:
+      - "eng-g3-t1-u03-p03"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "句型：Do you have a pet? 及其答语 Yes, I do. / No, I don't."
+        - "句型：I like your dog. / I like cats. / I have a cat."
+        - "礼貌做客交流：Good morning, Mike! Come in. / Thanks."
+      scope_excluded:
+        - "第三人称单数疑问句 Does he/she have...（三下语法）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [28]
+      example_ref: ["ex_1"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u03-p05"
+    lesson_id: "lesson-05"
+    point_name: "动物园野生动物词汇与不定冠词 a/an 的精确用法"
+    learning_objectives:
+      - "听、说、认读常见野生动物词汇：zoo, panda, red panda, monkey, tiger, elephant, lion, fox, giraffe"
+      - "掌握不定冠词 a 与 an 的用法区别：在元音音素开头的 elephant 前用 an（an elephant），在辅音音素开头前用 a（a panda, a monkey, a tiger, a lion, a fox）"
+    prerequisites: []
+    subsequent_points:
+      - "eng-g3-t1-u03-p06"
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "野生动物词汇：zoo, panda, red panda, monkey, tiger, elephant, lion, fox, giraffe"
+        - "冠词用法：a panda, a lion, a monkey, a tiger, a fox vs an elephant"
+      scope_excluded:
+        - "复杂抽象冠词零冠词规则"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [31, 32]
+      example_ref: ["ex_4", "ex_5"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u03-p06"
+    lesson_id: "lesson-04"
+    point_name: "事物近指与远指特殊疑问句与特征赞美句型"
+    learning_objectives:
+      - "掌握询问近处事物的特殊疑问句：What's this? 及答语 It's a/an..."
+      - "掌握询问远处事物的特殊疑问句：What's that? 及答语 It's a/an..."
+      - "运用 It's cute! 表达对动物形态的赞美与评价，掌握提议句型 Let's go to the zoo!"
+    prerequisites:
+      - "eng-g3-t1-u03-p05"
+    subsequent_points:
+      - "eng-g3-t1-u03-p07"
+    applicable_question_types: ["choice", "fill_blank", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "问句与答语：What's this? / What's that? -> It's a/an..."
+        - "赞美与提议：It's cute! / Great! / Let's go to the zoo!"
+      scope_excluded:
+        - "复数指认 What are these / those?（四上语法）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [31, 32]
+      example_ref: ["ex_4", "ex_5"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u03-p07"
+    lesson_id: "lesson-06"
+    point_name: "动物特征描述形容词与状态陈述句"
+    learning_objectives:
+      - "认读描述动物体征的核心形容词：big（大的）, small（小的）, tall（高的）, fast（跑得快的）"
+      - "运用 The + 动物名称 + is + 形容词 描述动物独特性（The giraffe is tall! The elephant is big! The fish is small! The lion is fast!）"
+      - "理解阅读小语篇中动物的多样性与奇妙本领，完成动物特征归类"
+    prerequisites:
+      - "eng-g3-t1-u03-p05"
+      - "eng-g3-t1-u03-p06"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "match", "reading_comprehension"]
+    teaching_boundary:
+      scope_allowed:
+        - "形容词：big, small, tall, fast"
+        - "句型：The giraffe is tall. / The lion is fast. / The elephant is big. / The fish is small."
+        - "动物分类：Pets（宠物）与 Wild animals（野生动物）"
+      scope_excluded:
+        - "形容词比较级与最高级（如 bigger, tallest 等高年级语法）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [33, 34, 36, 37]
+      example_ref: ["ex_6"]
+    verification_status: "verified"

@@ -1,0 +1,68 @@
+unit_id: unit-01
+blueprints:
+- blueprint_id: bp-chi-g5-t1-u01-standard
+  title: 第一单元 一花一鸟总关情标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、字词积累
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 8
+    target_points:
+    - chi-g5-t1-u01-p04
+    guidelines: 看拼音写词语、多义词辨析、成语填空。
+  - slot_id: slot-02
+    section: 二、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - chi-g5-t1-u01-p02
+    - chi-g5-t1-u01-p04
+    guidelines: 判断对比描写的用法、词义理解。
+  - slot_id: slot-03
+    section: 三、句子练习
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - chi-g5-t1-u01-p02
+    guidelines: 找出对比句并说明作用、按要求改写句子。
+  - slot_id: slot-04
+    section: 四、积累与运用
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - chi-g5-t1-u01-p04
+    guidelines: 日积月累默写、词语搭配。
+  - slot_id: slot-05
+    section: 五、阅读理解
+    question_type: reading
+    difficulty: variation
+    points_per_item: 9
+    item_count: 2
+    target_points:
+    - chi-g5-t1-u01-p01
+    - chi-g5-t1-u01-p02
+    guidelines: 读片段，说出文章借助什么事物表达感情。
+  - slot_id: slot-06
+    section: 六、习作
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 12
+    item_count: 1
+    target_points:
+    - chi-g5-t1-u01-p03
+    guidelines: 写一种心爱的事物，表达自己的感情。

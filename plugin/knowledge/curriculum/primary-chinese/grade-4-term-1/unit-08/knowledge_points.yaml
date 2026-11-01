@@ -1,0 +1,60 @@
+unit_id: unit-08
+source_id: pep_chinese_g4_t1_2024
+points:
+- point_id: chi-g4-t1-u08-p01
+  unit_id: unit-08
+  lesson_id: chi-g4-t1-u08-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 感受历史人物形象，把握主要内容
+  learning_objectives:
+  - 能了解故事情节，感受人物形象，能把握文章的主要内容
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P105
+    - P106
+    - P108
+    anchor_text: 单元起始页 P105 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《凉州词》《出塞》《夏日绝句》三首古诗
+    - 《为中华之崛起而读书》《梅兰芳蓄须明志》
+    scope_excluded:
+    - 历史人物评传的写作
+    - 古诗词赏析
+- point_id: chi-g4-t1-u08-p02
+  unit_id: unit-08
+  lesson_id: chi-g4-t1-u08-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 写一封信
+  learning_objectives:
+  - 能按书信格式写一封信，把想说的话写清楚
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P118
+    - P119
+    anchor_text: 单元起始页 P118 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 书信的格式（称呼、正文、祝语、署名、日期）
+    - 把想说的话写清楚
+    scope_excluded:
+    - 书信体的写作规范
+    - 应用文写作

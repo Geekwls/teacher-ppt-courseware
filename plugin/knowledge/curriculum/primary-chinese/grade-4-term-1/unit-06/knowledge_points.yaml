@@ -1,0 +1,60 @@
+unit_id: unit-06
+source_id: pep_chinese_g4_t1_2024
+points:
+- point_id: chi-g4-t1-u06-p01
+  unit_id: unit-06
+  lesson_id: chi-g4-t1-u06-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 按游览顺序写景物
+  learning_objectives:
+  - 能按游览顺序（移步换景）写景物，能抓住景物的特点
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P71
+    - P72
+    - P75
+    anchor_text: 单元起始页 P71 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《长城》《颐和园》《秦兵马俑》
+    - 游览顺序与景物特点
+    scope_excluded:
+    - 旅游文学写作
+    - 空间顺序的表达
+- point_id: chi-g4-t1-u06-p02
+  unit_id: unit-06
+  lesson_id: chi-g4-t1-u06-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 中国的世界文化遗产（习作）
+  learning_objectives:
+  - 能围绕一处中国的世界文化遗产写清楚介绍
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P81
+    - P82
+    anchor_text: 单元起始页 P81 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 介绍要抓住特点
+    - 按一定顺序组织材料
+    scope_excluded:
+    - 说明文的写作规范
+    - 文化遗产保护

@@ -1,0 +1,86 @@
+unit_id: unit-05
+source_id: pep_math_g2_t1_2024
+points:
+- point_id: math-g2-t1-u05-p01
+  unit_id: unit-05
+  lesson_id: math-g2-t1-u05-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 7、8、9 的乘法口诀
+  learning_objectives:
+  - 熟记 7、8、9 的乘法口诀，能用口诀求积
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P73
+    - P80
+    anchor_text: 课本 P73-P80 实证：P73 七巧板拼图探究7的乘法口诀（一七得七至七七四十九）；P76 军乐队排队与螃蟹腿探究8的乘法口诀（一八得八至八八六十四）；P80 赛龙舟情境探究9的乘法口诀（一九得九至九九八十一，数字九九规律与手指记忆法）。
+  teaching_boundary:
+    scope_allowed:
+    - 7、8、9 的乘法口诀
+    - 由口诀写乘法算式
+    scope_excluded:
+    - 两位数乘一位数
+    - 乘法竖式
+- point_id: math-g2-t1-u05-p02
+  unit_id: unit-05
+  lesson_id: math-g2-t1-u05-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 用 7、8、9 的乘法口诀求商
+  learning_objectives:
+  - 会用 7、8、9 的乘法口诀求商，熟练进行表内除法口算
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P81
+    - P86
+    anchor_text: 课本 P81-P86 实证：旗帜彩旗/剪纸活动，用口诀求商（56÷8=7，想：(七)八五十六，商是7；56÷7=8，想：七(八)五十六，商是8）。
+  teaching_boundary:
+    scope_allowed:
+    - 用 7～9 的口诀求商
+    - 乘除法之间的关系
+    scope_excluded:
+    - 有余数除法的求商
+    - 两位数除以一位数
+- point_id: math-g2-t1-u05-p03
+  unit_id: unit-05
+  lesson_id: math-g2-t1-u05-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 用表内乘、除法解决实际问题
+  learning_objectives:
+  - 能在情境中辨析用乘法还是除法，正确列式并说清理由
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P87
+    - P90
+    anchor_text: 课本 P87-P90 实证：乘除法实际问题辨析（购物总价、平均分组、连乘连除分步情境）。
+  teaching_boundary:
+    scope_allowed:
+    - 乘除法实际问题的辨析与解答
+    scope_excluded:
+    - 两步问题
+    - 倍的关系（二年级下册）

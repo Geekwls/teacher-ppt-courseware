@@ -1,0 +1,102 @@
+unit_id: unit-01
+source_id: pep_math_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g4-t1-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「数位顺序表」为工具，把「计数单位—数位—数级」三者的对应关系讲透，再借「10 个一万是十万」的连续数数活动建立十进关系
+    difficulty: 学生易把「数位」与「计数单位」混为一谈（如把「万位」说成「万」）；易把「亿级」与「万级」的四个数位记错顺序
+    typical_misconceptions:
+    - error_pattern: 把「数位」说成「计数单位」
+      misconception_type: 概念混淆
+    - error_pattern: 数位顺序表中各级四个数位的顺序写错
+      misconception_type: 数位顺序未掌握
+  variation_strategy:
+  - 填写数位顺序表并说出各数位上的数字表示多少
+  - 说一说每相邻两个计数单位之间的关系
+- point_id: math-g4-t1-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「分级」作为读数的方法性工具，先让学生用分级线把大数切开，再逐级读，最后专门用「0 在不同位置」的对比练习巩固读法规则
+    difficulty: 学生易在「每级中间连续几个 0」处多读 0（如把 30600900 读成三千零六十万零九百）；易把「万级末尾的 0」读出来
+    typical_misconceptions:
+    - error_pattern: 连续几个 0 读成多个「零」
+      misconception_type: 0 的读法规则未掌握
+    - error_pattern: 把万级末尾的 0 读出来
+      misconception_type: 分级读数方法未掌握
+  variation_strategy:
+  - 给下列各数分级并读出来
+  - 只读一个「零」的数与一个「零」都不读的数分类比较
+- point_id: math-g4-t1-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「读到哪一级就写哪一级」为线索，把写法与读法对称起来；重点放在「一个数位上一个也没有就写 0」的占位训练上
+    difficulty: 学生易漏写中间的 0（如把「三百零二万六千」写成 326000）；易把「二千零四十万零七百」写成 2040700（少一个 0）
+    typical_misconceptions:
+    - error_pattern: 写数时漏写中间的 0
+      misconception_type: 0 的占位作用未掌握
+    - error_pattern: 把「三千七百万零四十」写成 37000040 而漏 0
+      misconception_type: 数位对应错误
+  variation_strategy:
+  - 读出横线上的数再写出来
+  - 写出横线上的数并检查数位是否对齐
+- point_id: math-g4-t1-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 沿用「先分级」的方法，把亿级、万级、个级三级连起来读写；用「三亿」与「三十亿」的对比突出计数单位扩展后的位置变化
+    difficulty: 学生易在亿级与万级之间漏 0；易把「七千零三亿零二十万」写成 700300200000 而位数不对
+    typical_misconceptions:
+    - error_pattern: 亿级与万级之间的 0 漏写
+      misconception_type: 0 的占位作用未掌握
+    - error_pattern: 把「三十亿九千万一千五百」读错
+      misconception_type: 分级读数方法未掌握
+  variation_strategy:
+  - 给亿以上的数分级并读写
+  - 比较「三亿」「三十亿」「三百亿」的写法
+- point_id: math-g4-t1-u01-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「位数不同」与「位数相同」两类情形分开处理，并与万以内数的比较方法作结构对照，让学生发现「比较方法是一致的」
+    difficulty: 学生易在位数相同时只比最高位而不逐位比下去；易把「位数多的一定大」推广到小数
+    typical_misconceptions:
+    - error_pattern: 位数相同时只比较最高位
+      misconception_type: 逐位比较的方法未掌握
+    - error_pattern: 比较 30500000 与 3050000 时认为一样大
+      misconception_type: 位数作用未理解
+  variation_strategy:
+  - 比较每组中两个数的大小并说明理由
+  - 找出比 28906 大、比 28890 小的数
+- point_id: math-g4-t1-u01-p06
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「先分级、找到万位或亿位」为操作线索，把「去掉 4 个 0 换成『万』、去掉 8 个 0 换成『亿』」的操作与「数位」对应起来
+    difficulty: 学生易把「改写」与「求近似数」混淆，改写时用「≈」；易在非整万数上强行改写
+    typical_misconceptions:
+    - error_pattern: 改写时误用「≈」连接
+      misconception_type: 改写与近似数混淆
+    - error_pattern: 把 3580000 改写成 358 万时丢位
+      misconception_type: 分级方法未掌握
+  variation_strategy:
+  - 把下列各数改写成用「万」或「亿」作单位的数
+  - 比较改写前后两个数的关系
+- point_id: math-g4-t1-u01-p07
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「看尾数部分的最高位」作为唯一判断依据讲清楚，用「千位」决定「万位」、「千万位」决定「亿位」的位置对应关系帮助学生定位
+    difficulty: 学生易把「尾数部分的最高位」找错（如省略万位后的尾数时去看百位）；易把「≈」写成「=」
+    typical_misconceptions:
+    - error_pattern: 省略万位后面的尾数时看百位而非千位
+      misconception_type: 关键数位定位错误
+    - error_pattern: 把 25520≈25500 而不按要求省略到万位
+      misconception_type: 要求未落实
+  variation_strategy:
+  - 求出下面各数的近似数（省略万位或亿位后面的尾数）
+  - 判断哪些是近似数、哪些是准确数

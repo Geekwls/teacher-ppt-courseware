@@ -1,0 +1,20 @@
+unit_id: "unit-6"
+unit_number: 6
+unit_name: "第六单元 年、月、日的秘密"
+subject: "math"
+edition: "人教版"
+grade: 3
+term: "term-2"
+version: "2026.10.1"
+updated_at: "2026-10-09"
+verification_status: "verified"
+source_id: "pep_math_g3_t2_2024"
+teaching_ref_source_id: "pep_math_g3_t2_tr_2026"
+page_range: "P77-P85"
+numeric_upper_bound: 3000
+curriculum_standard_ref: "义务教育数学课程标准（2022年版）综合与实践领域·年、月、日的秘密"
+unit_overview: >
+  本单元系统学习较大的时间单位年、月、日，以及24时计时法。
+  通过观察年历卡，发现大月（31天，共7个）、小月（30天，共4个）和二月的规律；
+  掌握拳头记忆法与歌诀法；掌握平年（365天，2月28天）与闰年（366天，2月29天）的本质区别与公历判定法则（四年一闰，百年不闰，四百年又闰）；
+  理解24时计时法在生活中的普遍应用（火车时刻表、电视节目等），能熟练进行两种计时法互换并计算经过时间。

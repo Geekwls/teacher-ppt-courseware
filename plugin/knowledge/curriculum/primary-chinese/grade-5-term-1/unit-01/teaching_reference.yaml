@@ -1,0 +1,60 @@
+unit_id: unit-01
+source_id: pep_chinese_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g5-t1-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《桂花雨》的「摇花乐」与《落花生》的「很有用」为两个抓手，让学生分别从「事」和「语」两条路径体会文章的思想感情
+    difficulty: 学生易把「思想感情」答成课文内容的复述；易忽略「借物」与「抒情」之间的联系
+    typical_misconceptions:
+    - error_pattern: 把思想感情答成内容复述
+      misconception_type: 理解表层化
+    - error_pattern: 忽略借物与抒情的联系
+      misconception_type: 写法体会不足
+  variation_strategy:
+  - 读句子并说出体会到的思想感情
+  - 说说课文是借助什么事物表达感情的
+- point_id: chi-g5-t1-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把两个运用对比的句子并列，让学生发现「都是通过与别的事物比较来突出所写事物的特点」，从而归纳出对比的作用
+    difficulty: 学生易把对比当成「举例子」；易只说「用了对比」而说不出好处
+    typical_misconceptions:
+    - error_pattern: 把对比当成举例子
+      misconception_type: 修辞辨识错误
+    - error_pattern: 说不出对比的好处
+      misconception_type: 作用分析不足
+  variation_strategy:
+  - 找出运用对比的句子并说明作用
+  - 用对比的方法写一种事物
+- point_id: chi-g5-t1-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「办一期我的心爱之物习作专栏」为真实任务，让学生把「物」与「情」通过「来历 + 原因」联结起来
+    difficulty: 学生易只描写物品外观而写不出情感；易把「心爱」的理由写得笼统
+    typical_misconceptions:
+    - error_pattern: 只写外观不写情感
+      misconception_type: 借物抒情缺失
+    - error_pattern: 喜爱理由笼统
+      misconception_type: 内容不具体
+  variation_strategy:
+  - 写一段介绍心爱之物的文字并表达喜爱之情
+  - 说出心爱之物成为心爱之物的原因
+- point_id: chi-g5-t1-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把同一词语在不同句子中的用法并列，让学生发现词义随语境变化，再用「根据要求写句子」加以巩固
+    difficulty: 学生易把一个词的词义固定化；易在造句时误用词义
+    typical_misconceptions:
+    - error_pattern: 把词义固定化
+      misconception_type: 语境意识薄弱
+    - error_pattern: 造句时误用词义
+      misconception_type: 词义理解不准
+  variation_strategy:
+  - 比较同一词语在不同句子中的意思
+  - 根据语境用多义词造句

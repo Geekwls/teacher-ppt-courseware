@@ -1,0 +1,74 @@
+unit_id: unit-01
+source_id: pep_chinese_g1_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t1-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 先看图再认字，把字与画面建立联系，符合本单元「看图识字」的编排意图
+    difficulty: 学生易把「你」与「我」互换，或把「他」读成「她」
+    typical_misconceptions:
+    - error_pattern: 把「你」「我」认错
+      misconception_type: 人称指代混淆
+    - error_pattern: 把「他」读成「tā」之外的音
+      misconception_type: 字音未读准
+  variation_strategy:
+  - 看图指认并认读六个字
+  - 用「你、我、他」各说一句话
+- point_id: chi-g1-t1-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助田字格建立汉字书写的空间感，先认读再观察笔画位置
+    difficulty: 学生易把「上」「下」的方向记反，或在田字格中把笔画写偏
+    typical_misconceptions:
+    - error_pattern: 把「上」「下」认错
+      misconception_type: 方位字未区分
+    - error_pattern: 在田字格中把笔画写歪、写出格
+      misconception_type: 田字格使用不熟练
+  variation_strategy:
+  - 背诵课文并指出「上」「下」
+  - 在田字格中描红并说笔画位置
+- point_id: chi-g1-t1-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把识字与行为习惯养成结合起来，借俗语提示正确的站姿与坐姿
+    difficulty: 学生易把「目」与「日」、「耳」与「月」混淆
+    typical_misconceptions:
+    - error_pattern: 把「目」认成「日」
+      misconception_type: 形近字未区分
+    - error_pattern: 把「站如松」读成「站如钟」
+      misconception_type: 俗语识记错位
+  variation_strategy:
+  - 看图指认五官并认读汉字
+  - 对照俗语检查自己的站姿与坐姿
+- point_id: chi-g1-t1-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以象形字「字形像什么」的特点帮助学生建立字义与字形的联系
+    difficulty: 学生易把「川」与「山」、「水」与「木」混淆
+    typical_misconceptions:
+    - error_pattern: 把「川」认成「山」
+      misconception_type: 字形相近未区分
+    - error_pattern: 连线时把「网」与「羊」连错
+      misconception_type: 字义与图画未对应
+  variation_strategy:
+  - 看图猜字并说出理由
+  - 把八个字与对应图画连线
+- point_id: chi-g1-t1-u01-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以谜语诗激发识字兴趣，以书写提示把笔顺规则落到具体笔画
+    difficulty: 学生易把「六」与「八」、「九」与「几」混淆；书写时笔顺颠倒
+    typical_misconceptions:
+    - error_pattern: 把「六」认成「八」
+      misconception_type: 形近字未区分
+    - error_pattern: 写「十」时先竖后横
+      misconception_type: 笔顺规则未掌握
+  variation_strategy:
+  - 读谜语诗猜字并认读六至十
+  - 按笔顺规则书空「八」「禾」「十」「田」

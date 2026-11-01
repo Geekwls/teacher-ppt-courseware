@@ -1,0 +1,116 @@
+unit_id: unit-01
+source_id: pep_chinese_g6_t1_2024
+points:
+- point_id: chi-g6-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: chi-g6-t1-u01-l01
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 阅读时能从所读的内容想开去
+  learning_objectives:
+  - 能在阅读写景诗文时展开联想与想象
+  - 能说出由课文内容联想到的相关诗文或生活体验
+  applicable_question_types:
+  - reading
+  - writing
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P11
+    anchor_text: P11 语文园地一：「阅读的时候想开去，可以深化对文章内容的理解。」
+  teaching_boundary:
+    scope_allowed:
+    - 由课文内容展开联想
+    - 联系相关诗文或生活体验
+    - 说出联想的依据
+    scope_excluded:
+    - 接受美学中的读者反应理论
+    - 联想心理学的机制
+- point_id: chi-g6-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: chi-g6-t1-u01-l02
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 在景物中融入感受的写法
+  learning_objectives:
+  - 能找出在景物描写中融入感受的句子
+  - 能体会这样写的好处并尝试模仿
+  applicable_question_types:
+  - reading
+  - choice
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P3
+    - P4
+    anchor_text: P4 课后题：「读下面的句子，体会在景物中融入感受的写法。再从课文中找出类似的句子，读一读，抄写下来。那些小丘的线条是那么柔美，就像只用绿色渲染，不用墨线勾勒的中国画那样……」
+  teaching_boundary:
+    scope_allowed:
+    - 找出融入感受的句子
+    - 体会表达效果
+    - 模仿写法写一段话
+    scope_excluded:
+    - 情景交融的美学理论
+    - 写景散文的写作技巧
+- point_id: chi-g6-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: chi-g6-t1-u01-l03
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 理解古诗词中景与情的关系
+  learning_objectives:
+  - 能说出古诗描写的景物与表达的情感
+  - 能比较不同诗词写同样景物却表达不同情感的差异
+  applicable_question_types:
+  - reading
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P8
+    - P9
+    anchor_text: P9 课后题：「《宿建德江》《西江月·夜行黄沙道中》都写了月夜的景色，表达的情感却不一样，结合诗句说一说。」
+  teaching_boundary:
+    scope_allowed:
+    - 说出诗中的景物
+    - 说出诗中表达的情感
+    - 比较同样景物的不同情感
+    scope_excluded:
+    - 古典诗词的意境理论
+    - 文学比较研究
+- point_id: chi-g6-t1-u01-p04
+  unit_id: unit-01
+  lesson_id: chi-g6-t1-u01-l04
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 发挥想象，把重点部分写详细（变形记）
+  learning_objectives:
+  - 能想象自己变成另一种事物后的经历
+  - 能把想象的重点部分写得详细
+  applicable_question_types:
+  - writing
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P10
+    anchor_text: P10 习作《变形记》：「如果让你来想象自己变成另一种事物，会发生什么呢？你可以变得很小……也可以变得很大……」「习作时发挥想象，注意把重点部分写得详细一些。」
+  teaching_boundary:
+    scope_allowed:
+    - 展开想象确定变形对象
+    - 把重点部分写详细
+    - 写出变形后的独特视角
+    scope_excluded:
+    - 变形文学的创作方法
+    - 创意写作的构思技巧

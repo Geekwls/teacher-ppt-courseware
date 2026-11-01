@@ -1,0 +1,32 @@
+unit_id: unit-05
+source_id: pep_chinese_g4_t1_2024
+points:
+- point_id: chi-g4-t1-u05-p01
+  unit_id: unit-05
+  lesson_id: chi-g4-t1-u05-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 把事情写清楚（起因、经过、结果）
+  learning_objectives:
+  - 能按事情发展的顺序把一件事写清楚
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P59
+    - P61
+    - P66
+    anchor_text: 单元起始页 P59 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《麻雀》《爬天都峰》
+    - 习作例文《我家的杏熟了》《小木船》
+    scope_excluded:
+    - 叙事写作教学法
+    - 记叙文的六要素

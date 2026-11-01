@@ -1,0 +1,52 @@
+lessons:
+- lesson_id: math-g1-t1-u00-l01
+  unit_id: unit-00
+  subject: math
+  grade: 1
+  term: term-1
+  lesson_name: 在校园里找一找
+  page_range: P2-P3
+  official_examples:
+  - 国旗上有5颗五角星；教学楼有4层，我们的教室在第2层。
+  - 教室的窗户是长方形的。（从物体表面抽象出平面图形）
+- lesson_id: math-g1-t1-u00-l02
+  unit_id: unit-00
+  subject: math
+  grade: 1
+  term: term-1
+  lesson_name: 在操场上玩一玩
+  page_range: P4-P5
+  official_examples:
+  - 双脚跳进○，单脚跳进△；桃花朵朵开，开3朵。
+  - 哈哈，网住了4条鱼；我最高；男生多1个。
+- lesson_id: math-g1-t1-u00-l03
+  unit_id: unit-00
+  subject: math
+  grade: 1
+  term: term-1
+  lesson_name: 在教室里认一认
+  page_range: P6-P7
+  official_examples:
+  - 一年级有6个班，我们是一（3）班；我们的教室在这里。
+  - 教室的前面有国旗、黑板，后面有……左边是窗户，右边……
+  - 我的前面是……左边是……
+- lesson_id: math-g1-t1-u00-l04
+  unit_id: unit-00
+  subject: math
+  grade: 1
+  term: term-1
+  lesson_name: 在教室里玩一玩
+  page_range: P8-P9
+  official_examples:
+  - 我说你做：摸摸你的左耳；正话反做：跺跺你的左脚；我左边的第3个同学蹲下。
+  - 我用了3个黄色三角形和1个红色三角形，一共用了4个三角形；用2个圆柱当车轮。
+- lesson_id: math-g1-t1-u00-l05
+  unit_id: unit-00
+  subject: math
+  grade: 1
+  term: term-1
+  lesson_name: 学习准备
+  page_range: P10-P11
+  official_examples:
+  - 每天8：30开始上课；认真听讲；举手发言用右手。
+  - 书本摆在左上角，笔袋放在……

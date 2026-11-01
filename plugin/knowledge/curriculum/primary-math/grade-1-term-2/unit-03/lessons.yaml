@@ -1,0 +1,10 @@
+lessons:
+- lesson_id: math-g1-t2-u03-l01
+  unit_id: unit-03
+  subject: math
+  grade: 1
+  term: term-2
+  lesson_name: 第三单元 100以内数的认识（单元整体）
+  page_range: P23-P42
+  official_examples:
+  - 认识 100 以内的数（数数、读写、组成、顺序与大小比较），认识个位、十位、百位，初步认识 100 以内的数在生活中的应用。（例题原文待核验）

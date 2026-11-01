@@ -1,0 +1,60 @@
+unit_id: unit-04
+source_id: pep_math_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g6-t1-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以温度、海拔、楼层、账单等真实数据，让学生体会「−」号表示相反方向或相反意义，而不是「比 0 小」的抽象定义
+    difficulty: 学生易把 −4℃ 读成「负 4 摄氏度」以外的说法；易把「−」号当成减号
+    typical_misconceptions:
+    - error_pattern: 把负数前的「−」当成减号
+      misconception_type: 符号意义混淆
+    - error_pattern: 负数读法不规范
+      misconception_type: 读法不熟
+  variation_strategy:
+  - 读出并写出正负数
+  - 说出给定负数表示的实际意义
+- point_id: math-g6-t1-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「收入与支出」「零上与零下」等成对的量，让学生体会正负号是给「相反方向」贴的标签，约定谁为正、谁为负是人为的但必须一致
+    difficulty: 学生易在同一情境中混用正负号的含义；易把「相反意义」当成「大小相反」
+    typical_misconceptions:
+    - error_pattern: 正负号约定不一致
+      misconception_type: 约定混乱
+    - error_pattern: 把「相反意义」当成「大小相反」
+      misconception_type: 概念理解偏差
+  variation_strategy:
+  - 用正负数记录一组相反意义的量
+  - 根据约定判断某量的正负
+- point_id: math-g6-t1-u04-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「温度计的 0℃ 不是「没有温度」」这一实例，让学生理解 0 是分界而不是「无」，从而明确 0 既非正数也非负数
+    difficulty: 学生易认为 0 是正数（因为「不小于 0」）；易把 0 当成「没有」
+    typical_misconceptions:
+    - error_pattern: 认为 0 是正数
+      misconception_type: 分类错误
+    - error_pattern: 把 0 当成「没有」
+      misconception_type: 意义理解偏差
+  variation_strategy:
+  - 判断 0 属于正数还是负数
+  - 在数轴上表示正负数与 0
+- point_id: math-g6-t1-u04-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以小讲堂的形式介绍刘徽与《九章算术》中负数的记载，让学生体会负数「使小数减大数的结果可以表示」这一实用价值
+    difficulty: 学生易认为负数只是「考试里的题」而与历史、生活无关
+    typical_misconceptions:
+    - error_pattern: 把负数当成纯抽象概念
+      misconception_type: 应用意识薄弱
+    - error_pattern: 说不出负数的作用
+      misconception_type: 理解不深
+  variation_strategy:
+  - 说出负数的一个作用
+  - 用负数表示小数减大数的结果

@@ -1,0 +1,70 @@
+unit_id: unit-02
+blueprints:
+- blueprint_id: bp-math-g6-t1-u02-standard
+  title: 第二单元 分数乘法标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、直接写出得数
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 2
+    item_count: 8
+    target_points:
+    - math-g6-t1-u02-p01
+    - math-g6-t1-u02-p02
+    guidelines: 分数乘整数、一个数乘分数的口算。
+  - slot_id: slot-02
+    section: 二、填一填
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - math-g6-t1-u02-p02
+    - math-g6-t1-u02-p04
+    guidelines: 看图列式、填写分率。
+  - slot_id: slot-03
+    section: 三、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g6-t1-u02-p03
+    - math-g6-t1-u02-p05
+    guidelines: 判断运算律运用与数量关系。
+  - slot_id: slot-04
+    section: 四、计算（能简算的简算）
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 4
+    item_count: 6
+    target_points:
+    - math-g6-t1-u02-p01
+    - math-g6-t1-u02-p03
+    guidelines: 分数混合运算与简便计算。
+  - slot_id: slot-05
+    section: 五、解决问题（连续求几分之几）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 7
+    item_count: 2
+    target_points:
+    - math-g6-t1-u02-p04
+    guidelines: 连续求一个数的几分之几是多少。
+  - slot_id: slot-06
+    section: 六、解决问题（比一个数多/少几分之几）
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 8
+    item_count: 2
+    target_points:
+    - math-g6-t1-u02-p05
+    guidelines: 求比一个数多（少）几分之几的数是多少。

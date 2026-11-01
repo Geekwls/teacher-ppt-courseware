@@ -1,0 +1,59 @@
+unit_id: unit-03
+source_id: pep_chinese_g2_t1_2024
+points:
+- point_id: chi-g2-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: chi-g2-t1-u03-l01
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《彩虹》与想象
+  learning_objectives:
+  - 能朗读《彩虹》，能说出「我」在彩虹上想到的三件事
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P28
+    anchor_text: 单元起始页 P28 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 「我」把水壶、镜子、秋千与彩虹联系起来的想象
+    - 反问句的朗读
+    scope_excluded:
+    - 光学原理的系统讲解
+    - 写话
+- point_id: chi-g2-t1-u03-p02
+  unit_id: unit-03
+  lesson_id: chi-g2-t1-u03-l01
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《去外婆家》《数星星的孩子》
+  learning_objectives:
+  - 能朗读两篇课文，能说出张衡数星星的故事与他的观察精神
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P30
+    - P32
+    - P35
+    anchor_text: 单元起始页 P30 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《去外婆家》中的亲情描写
+    - 《数星星的孩子》中张衡仔细观察、坚持数星星的情节
+    scope_excluded:
+    - 天文学知识的系统讲解
+    - 写话

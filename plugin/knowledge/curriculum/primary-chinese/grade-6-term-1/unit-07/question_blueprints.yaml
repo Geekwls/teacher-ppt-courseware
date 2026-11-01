@@ -1,0 +1,48 @@
+unit_id: unit-07
+blueprints:
+- blueprint_id: bp-chi-g6-t1-u07-standard
+  title: 第七单元 科学与艺术标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、字词积累
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 8
+    target_points:
+    - chi-g6-t1-u07-p01
+    guidelines: 看拼音写词语、文言词句解释。
+  - slot_id: slot-02
+    section: 二、阅读理解
+    question_type: reading
+    difficulty: variation
+    points_per_item: 13
+    item_count: 2
+    target_points:
+    - chi-g6-t1-u07-p01
+    guidelines: 读片段，分析观点与所用事例。
+  - slot_id: slot-03
+    section: 三、习作（科幻）
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 18
+    item_count: 1
+    target_points:
+    - chi-g6-t1-u07-p02
+    guidelines: 展开想象写科幻故事。
+  - slot_id: slot-04
+    section: 四、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 6
+    item_count: 4
+    target_points:
+    - chi-g6-t1-u07-p01
+    guidelines: 选出说法正确或用词恰当的一项。

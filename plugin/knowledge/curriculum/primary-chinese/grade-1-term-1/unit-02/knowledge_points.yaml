@@ -1,0 +1,86 @@
+unit_id: unit-02
+source_id: pep_chinese_g1_t1_2024
+points:
+- point_id: chi-g1-t1-u02-p01
+  unit_id: unit-02
+  lesson_id: chi-g1-t1-u02-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 单韵母 a o e 与 i u ü 的读音与四声
+  learning_objectives:
+  - 能读准 a o e、i u ü 六个单韵母及它们的四声，能正确书写
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P20
+    - P22
+    anchor_text: 单元起始页 P20 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 单韵母 a o e、i u ü 的读音
+    - 四声的认读与标调
+    scope_excluded:
+    - 复韵母
+    - 整体认读音节
+- point_id: chi-g1-t1-u02-p02
+  unit_id: unit-02
+  lesson_id: chi-g1-t1-u02-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 声母 b p m f、d t n l 与两拼法
+  learning_objectives:
+  - 能读准 b p m f、d t n l 八个声母，能与单韵母相拼并正确书写
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P24
+    - P26
+    anchor_text: 单元起始页 P24 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 声母 b p m f、d t n l 的读音与书写
+    - 声母与韵母的两拼
+    scope_excluded:
+    - 三拼音节
+    - 整体认读音节
+- point_id: chi-g1-t1-u02-p03
+  unit_id: unit-02
+  lesson_id: chi-g1-t1-u02-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 语文园地二：拼读练习与识字
+  learning_objectives:
+  - 能借助拼音认读本单元要求会认的字，能完成拼读与连线的练习
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P28
+    anchor_text: 单元起始页 P28 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 拼音与汉字对应
+    - 拼读练习
+    scope_excluded:
+    - 汉字书写的笔画要求
+    - 看图写话

@@ -1,0 +1,60 @@
+unit_id: unit-02
+source_id: pep_chinese_g5_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文五年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g5-t1-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「记下所用的时间」这一可量化的方式，让学生亲身体验「不回读」对阅读速度的影响
+    difficulty: 学生易在遇到生词时停下来查字典；易在没读懂时反复回读
+    typical_misconceptions:
+    - error_pattern: 遇生词停下
+      misconception_type: 阅读习惯未养成
+    - error_pattern: 反复回读
+      misconception_type: 速度意识不足
+  variation_strategy:
+  - 用较快速度默读并记录时间
+  - 说出自己提高阅读速度的方法
+- point_id: chi-g5-t1-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《什么比猎豹的速度更快》为例，让学生发现「每段首句即该段主题」，从而学会跳读、预测
+    difficulty: 学生易逐字阅读而不会抓关键句；易把「关键句」与「中心句」混为一谈
+    typical_misconceptions:
+    - error_pattern: 逐字阅读不抓关键句
+      misconception_type: 方法缺失
+    - error_pattern: 关键句与中心句混淆
+      misconception_type: 概念不清
+  variation_strategy:
+  - 借助关键语句概括段落内容
+  - 说出课文的篇章结构特点
+- point_id: chi-g5-t1-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《将相和》中蔺相如、廉颇的具体事例为范例，让学生体会「特点要靠事例支撑」，再迁移到习作
+    difficulty: 学生易只给人物贴标签（如「他很勇敢」）而不举事例；易选与特点无关的事例
+    typical_misconceptions:
+    - error_pattern: 只贴标签不举事例
+      misconception_type: 事例支撑不足
+    - error_pattern: 事例与特点不匹配
+      misconception_type: 选材不当
+  variation_strategy:
+  - 结合具体事例说出人物的印象
+  - 选择事例表现人物特点
+- point_id: chi-g5-t1-u02-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以课文提供的三个小标题为支架，让学生练习「逐段概括 + 连缀成篇」的概括方法
+    difficulty: 学生易把小标题写成句子；易在连缀时漏掉情节之间的因果联系
+    typical_misconceptions:
+    - error_pattern: 小标题写成完整句子
+      misconception_type: 概括不规范
+    - error_pattern: 连缀时遗漏因果联系
+      misconception_type: 概括不完整
+  variation_strategy:
+  - 给故事拟小标题
+  - 用小标题连起来说课文的主要内容

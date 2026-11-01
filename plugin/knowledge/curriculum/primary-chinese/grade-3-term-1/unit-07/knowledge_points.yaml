@@ -1,0 +1,126 @@
+unit_id: "unit-7"
+source_id: "pep_chinese_g3_t1_2024"
+points:
+  - point_id: "chi-g3-t1-u07-p01"
+    unit_id: "unit-7"
+    lesson_id: "chi-g3-t1-u07-l01"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "本单元生字词的认读与规范书写"
+    learning_objectives:
+      - "认读并规范书写本单元要求会认、会写的生字，注意易错笔画与间架结构"
+      - "能看拼音写词语，正确默写课文中的重点词语"
+    applicable_question_types: ["writing", "fill_blank"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P84", "P86", "P89"]
+      anchor_text: "识字表/写字表页码锚点依课本目录登记；因用户提供的电子课本预览未含第七单元正文页，具体生字清单待补课本页面凭证后核定。"
+    teaching_boundary:
+      scope_allowed:
+        - "本单元会认、会写生字的认读与田字格规范书写"
+        - "看拼音写词语、形近字对比组词"
+      scope_excluded:
+        - "未在本单元课文中出现的字词"
+        - "超出三年级上册范围的生僻汉字"
+
+  - point_id: "chi-g3-t1-u07-p02"
+    unit_id: "unit-7"
+    lesson_id: "chi-g3-t1-u07-l02"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "感受课文生动的语言，积累喜欢的语句（单元核心语文要素）"
+    learning_objectives:
+      - "能感受课文中生动形象的语句，说出语句生动在哪里"
+      - "能主动积累自己喜欢的语句，丰富语言积累"
+      - "能借助生动的语言体会课文所描绘的画面与情感"
+    applicable_question_types: ["reading", "choice", "fill_blank"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P83", "P86"]
+      anchor_text: "教师教学用书第七单元单元说明（教参 P172）：本单元阅读方面的语文要素是「感受课文生动的语言，积累喜欢的语句」；《大自然的声音》课后题引导学生感受并积累生动语句。"
+    teaching_boundary:
+      scope_allowed:
+        - "找出并赏析课文中生动的语句"
+        - "积累自己喜欢的语句并说明理由"
+      scope_excluded:
+        - "脱离文本的抽象语言理论分析"
+        - "对修辞手法的系统化术语考查"
+
+  - point_id: "chi-g3-t1-u07-p03"
+    unit_id: "unit-7"
+    lesson_id: "chi-g3-t1-u07-l01"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "古诗三首的诵读默写与诗意理解"
+    learning_objectives:
+      - "能正确、流利地朗读并背诵《鹿柴》《望天门山》《饮湖上初晴后雨》"
+      - "能借助注释和插图理解诗句的意思，想象诗中描绘的画面"
+      - "能体会诗人的情感，正确默写古诗，注意不写错别字"
+    applicable_question_types: ["fill_blank", "reading", "choice"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P84", "P85"]
+      anchor_text: "2024 版第七单元《古诗三首》为《鹿柴》（唐·王维）、《望天门山》（唐·李白）、《饮湖上初晴后雨》（宋·苏轼）；严禁混入《望洞庭》。诗句默写与诗意理解待补课本页面凭证后核定。"
+    teaching_boundary:
+      scope_allowed:
+        - "《鹿柴》《望天门山》《饮湖上初晴后雨》的诵读、背诵与默写"
+        - "借助注释理解诗意、想象画面"
+      scope_excluded:
+        - "《望洞庭》等非本单元古诗的考查"
+        - "超出课本范围的古诗扩展默写"
+
+  - point_id: "chi-g3-t1-u07-p04"
+    unit_id: "unit-7"
+    lesson_id: "chi-g3-t1-u07-l06"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "摘抄的方法（语文园地「梳理与交流」）"
+    learning_objectives:
+      - "了解摘抄的基本方法，知道摘抄要选择自己喜欢的、生动的语句"
+      - "能按一定类别摘抄语句，并注明出处"
+      - "能养成摘抄、积累语言的习惯"
+    applicable_question_types: ["fill_blank", "reading", "choice"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P93", "P94"]
+      anchor_text: "语文园地「梳理与交流」交流摘抄的方法，学习积累喜欢的语句。（页码依课本目录登记，具体内容待补凭证）"
+    teaching_boundary:
+      scope_allowed:
+        - "说出摘抄的方法与要求"
+        - "按要求摘抄语句并注明出处"
+      scope_excluded:
+        - "超出课本范围的摘抄分类体系"
+        - "对摘抄本排版的格式化硬性要求"
+
+  - point_id: "chi-g3-t1-u07-p05"
+    unit_id: "unit-7"
+    lesson_id: "chi-g3-t1-u07-l05"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    point_name: "习作：我有一个想法"
+    learning_objectives:
+      - "能把生活中发现的问题和自己的想法写清楚"
+      - "能围绕一个想法把内容写具体，尝试提出合理建议"
+      - "能做到语句通顺、意思明白"
+    applicable_question_types: ["writing", "choice"]
+    verification_status: "partial"
+    provenance:
+      source_id: "pep_chinese_g3_t1_2024"
+      page_ref: ["P92"]
+      anchor_text: "习作《我有一个想法》：把生活中发现的问题和自己的想法写下来，写清楚、写明白。（页码依课本目录登记）"
+    teaching_boundary:
+      scope_allowed:
+        - "写清楚发现的问题与自己的想法"
+        - "尝试提出合理的建议"
+      scope_excluded:
+        - "完整记叙文的谋篇布局与高级写作技法"
+        - "脱离生活实际的空泛议论"

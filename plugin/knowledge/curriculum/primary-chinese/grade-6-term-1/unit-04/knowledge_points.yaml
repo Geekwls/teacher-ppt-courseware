@@ -1,0 +1,60 @@
+unit_id: unit-04
+source_id: pep_chinese_g6_t1_2024
+points:
+- point_id: chi-g6-t1-u04-p01
+  unit_id: unit-04
+  lesson_id: chi-g6-t1-u04-l01
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 关注情节、环境，感受人物形象
+  learning_objectives:
+  - 能通过小说的情节与环境描写感受人物形象
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P49
+    - P50
+    - P53
+    anchor_text: 单元起始页 P49 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《桥》《穷人》《金色的鱼钩》
+    - 小说三要素（人物、情节、环境）
+    scope_excluded:
+    - 小说叙事学
+    - 人物形象分析理论
+- point_id: chi-g6-t1-u04-p02
+  unit_id: unit-04
+  lesson_id: chi-g6-t1-u04-l01
+  subject: chinese
+  grade: 6
+  term: term-1
+  point_name: 发挥想象创编生活故事
+  learning_objectives:
+  - 能发挥想象创编一个完整的生活故事
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g6_t1_2024
+    page_ref:
+    - P64
+    - P65
+    anchor_text: 单元起始页 P64 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 故事要有完整的结构
+    - 人物形象要鲜明
+    scope_excluded:
+    - 小说创作方法
+    - 叙事性作品的写作

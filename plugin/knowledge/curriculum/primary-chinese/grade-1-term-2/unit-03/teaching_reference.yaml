@@ -1,0 +1,32 @@
+unit_id: unit-03
+source_id: pep_chinese_g1_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t2-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「伙伴之间怎样互相帮助」为线索，把朗读与情感体验结合起来
+    difficulty: 学生易把「小公鸡捉虫给小鸭子吃」与「小鸭子捉鱼给小公鸡吃」的情节记混
+    typical_misconceptions:
+    - error_pattern: 把两个互相帮助的情节记混
+      misconception_type: 课文内容混淆
+    - error_pattern: 说不出「孤单」的意思
+      misconception_type: 关键词未理解
+  variation_strategy:
+  - 分角色朗读并复述情节
+  - 用「因为……所以……」说说喜鹊快乐的原因
+- point_id: chi-g1-t2-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「一个人玩、两个人玩、许多人玩都快乐」的结构帮助学生体会积极乐观的生活态度
+    difficulty: 学生易把三种玩法与相应的游戏对应错
+    typical_misconceptions:
+    - error_pattern: 把「一个人玩」的游戏说成「许多人玩」的
+      misconception_type: 内容对应错误
+    - error_pattern: 朗读时读不出快乐的情绪
+      misconception_type: 情感朗读不到位
+  variation_strategy:
+  - 朗读课文并说出三种玩法
+  - 说说自己最喜欢和谁一起玩什么

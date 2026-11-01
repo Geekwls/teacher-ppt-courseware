@@ -1,0 +1,87 @@
+unit_id: unit-04
+source_id: pep_chinese_g1_t1_2024
+points:
+- point_id: chi-g1-t1-u04-p01
+  unit_id: unit-04
+  lesson_id: chi-g1-t1-u04-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 复韵母 ai ei ui、ao ou iu、ie üe er
+  learning_objectives:
+  - 能读准九个复韵母，掌握复韵母「口形滑动」的发音特点并正确书写
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P45
+    - P47
+    - P49
+    anchor_text: 单元起始页 P45 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 复韵母 ai ei ui、ao ou iu、ie üe er 的读音
+    - 复韵母的标调位置
+    scope_excluded:
+    - 鼻韵母
+    - 三拼音节
+- point_id: chi-g1-t1-u04-p02
+  unit_id: unit-04
+  lesson_id: chi-g1-t1-u04-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 鼻韵母 an en in un ün 与 ang eng ing ong
+  learning_objectives:
+  - 能读准九个鼻韵母，能区分前鼻韵母与后鼻韵母
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P51
+    - P54
+    anchor_text: 单元起始页 P51 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 鼻韵母 an en in un ün、ang eng ing ong 的读音
+    - 前鼻音与后鼻音的区分
+    scope_excluded:
+    - 复韵母
+    - 儿化音
+- point_id: chi-g1-t1-u04-p03
+  unit_id: unit-04
+  lesson_id: chi-g1-t1-u04-l01
+  subject: chinese
+  grade: 1
+  term: term-1
+  point_name: 语文园地四：拼读、标调与识字
+  learning_objectives:
+  - 能借助拼音认读本单元要求会认的字，能完成标调与拼读练习
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t1_2024
+    page_ref:
+    - P56
+    anchor_text: 单元起始页 P56 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 拼音与汉字对应
+    - 标调规则
+    scope_excluded:
+    - 汉字书写的笔画要求
+    - 看图写话

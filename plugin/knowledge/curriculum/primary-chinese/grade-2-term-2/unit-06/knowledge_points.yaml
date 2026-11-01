@@ -1,0 +1,62 @@
+unit_id: unit-06
+source_id: pep_chinese_g2_t2_2024
+points:
+- point_id: chi-g2-t2-u06-p01
+  unit_id: unit-06
+  lesson_id: chi-g2-t2-u06-l01
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《古诗二首》（绝句、晓出净慈寺送林子方）
+  learning_objectives:
+  - 能朗读背诵两首古诗，能说出诗中所写的夏日景象
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P69
+    - P70
+    anchor_text: 单元起始页 P69 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《绝句》「两个黄鹂鸣翠柳」的色彩描写
+    - 《晓出净慈寺送林子方》「接天莲叶无穷碧，映日荷花别样红」的夏日荷塘
+    scope_excluded:
+    - 古诗格律的系统讲解
+    - 写话
+- point_id: chi-g2-t2-u06-p02
+  unit_id: unit-06
+  lesson_id: chi-g2-t2-u06-l01
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《雷雨》《要是你在野外迷了路》《太空生活趣事多》
+  learning_objectives:
+  - 能朗读三篇课文，能说出雷雨前后的变化、野外辨别方向的方法、太空生活的趣事
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P72
+    - P74
+    - P77
+    - P79
+    anchor_text: 单元起始页 P72 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《雷雨》中雷雨前、雷雨中、雷雨后的景物变化
+    - 野外辨别方向的天然指南针（太阳、北极星、大树、积雪）
+    - 太空生活中的趣事（睡觉、喝水、走路、洗澡）
+    scope_excluded:
+    - 气象学与天文学的系统讲解
+    - 写话

@@ -1,0 +1,60 @@
+unit_id: unit-01
+source_id: pep_chinese_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g6-t1-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《草原》《丁香结》为触发点，让学生练习「由景想到什么、由物想到什么」，再把联想写下来
+    difficulty: 学生易把「想开去」理解为随意发挥；易联想内容与课文无关
+    typical_misconceptions:
+    - error_pattern: 联想与课文无关
+      misconception_type: 联想无依据
+    - error_pattern: 只复述课文不展开联想
+      misconception_type: 联想不充分
+  variation_strategy:
+  - 写出由课文内容联想到的内容
+  - 说说阅读时想到了什么
+- point_id: chi-g6-t1-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「纯写景」与「景中融情」的句子对比，让学生体会「融入感受」使景物更生动、更有感染力
+    difficulty: 学生易把「感受」与「景物」割裂；易在模仿时只写景不写感受
+    typical_misconceptions:
+    - error_pattern: 感受与景物割裂
+      misconception_type: 写法未掌握
+    - error_pattern: 模仿时只写景不写感受
+      misconception_type: 表达不完整
+  variation_strategy:
+  - 找出融入感受的句子并说明好处
+  - 模仿写法写一段景物描写
+- point_id: chi-g6-t1-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把两首同写月夜但情感不同的词并列，让学生比较「景同而情不同」，从而理解「情因境生、景因情异」
+    difficulty: 学生易把「月夜」一律理解为「思乡」；易忽略诗人处境对情感的影响
+    typical_misconceptions:
+    - error_pattern: 景物情感单一化理解
+      misconception_type: 意境体会不足
+    - error_pattern: 忽略诗人处境
+      misconception_type: 背景意识薄弱
+  variation_strategy:
+  - 说出诗句描写的景物与情感
+  - 比较两首诗词情感的不同
+- point_id: chi-g6-t1-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「变形」这一趣味想象任务，让学生从「小」或「大」两个方向选择变形对象，再把最有意思的一段写详细
+    difficulty: 学生易只写「我变成了什么」而写不出具体经历；易重点部分一笔带过
+    typical_misconceptions:
+    - error_pattern: 只写变形不写经历
+      misconception_type: 内容单薄
+    - error_pattern: 重点部分一笔带过
+      misconception_type: 详略不当
+  variation_strategy:
+  - 写一段「变形」后的经历
+  - 把想象中最有趣的部分写详细

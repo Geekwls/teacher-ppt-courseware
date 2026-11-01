@@ -1,0 +1,86 @@
+unit_id: unit-05
+source_id: pep_chinese_g1_t2_2024
+points:
+- point_id: chi-g1-t2-u05-p01
+  unit_id: unit-05
+  lesson_id: chi-g1-t2-u05-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 《动物儿歌》与《古对今》
+  learning_objectives:
+  - 能朗读背诵《动物儿歌》，能认读带虫字旁的字；能朗读《古对今》并体会对韵
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P48
+    - P50
+    anchor_text: 单元起始页 P48 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《动物儿歌》中动物与动作的对应（蜻蜓半空展翅飞）
+    - 《古对今》的对韵句式
+    scope_excluded:
+    - 昆虫学知识的系统讲解
+    - 写话
+- point_id: chi-g1-t2-u05-p02
+  unit_id: unit-05
+  lesson_id: chi-g1-t2-u05-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 《操场上》与《人之初》
+  learning_objectives:
+  - 能朗读《操场上》，认识体育活动名称；能朗读《人之初》，初步感受国学经典的韵律
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P52
+    - P54
+    anchor_text: 单元起始页 P52 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 体育活动名称（打球、拔河、拍皮球、跳高、跑步、踢足球等）
+    - 《人之初》的朗读
+    scope_excluded:
+    - 《三字经》的系统讲解
+    - 写话
+- point_id: chi-g1-t2-u05-p03
+  unit_id: unit-05
+  lesson_id: chi-g1-t2-u05-l01
+  subject: chinese
+  grade: 1
+  term: term-2
+  point_name: 语文园地五
+  learning_objectives:
+  - 能完成语文园地五的识字加油站、字词句运用与日积月累
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g1_t2_2024
+    page_ref:
+    - P56
+    anchor_text: 单元起始页 P56 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 语文园地五的识字内容与积累
+    - 形声字归类
+    scope_excluded:
+    - 写话
+    - 整本书阅读指导

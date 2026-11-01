@@ -1,0 +1,93 @@
+unit_id: "unit-6"
+source_id: "pep_math_g3_t1_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "几分之一"
+    page_range: "P74-P75"
+    official_examples:
+      - example_id: "ex_1"
+        title: "半个月饼怎么表示（认识二分之一）"
+        page: 74
+        formula_or_context: "把一个月饼平均分成2份，每份是它的二分之一，写作 1/2"
+        core_concept: "把一个物体平均分成若干份，其中的1份就是它的几分之一；只有「平均分」才能用分数表示。"
+      - example_id: "ex_2"
+        title: "认识四分之一"
+        page: 74
+        formula_or_context: "把一个月饼平均分成4份，每份是它的 1/4，也就是 1/4 个月饼"
+        core_concept: "同一个物体平均分的份数越多，每一份就越小；涂色形状不同但都表示同一个分数，说明分数与图形的形状无关。"
+      - example_id: "ex_3"
+        title: "分数的读写与各部分名称"
+        page: 75
+        formula_or_context: "1/2 读作二分之一；分子、分数线、分母"
+        core_concept: "分数由分子、分数线、分母组成；像 1/2、1/3、1/4、1/5…… 这样的数都是分数。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "几分之几与比较大小"
+    page_range: "P76-P77"
+    official_examples:
+      - example_id: "ex_4"
+        title: "认识几分之几"
+        page: 76
+        formula_or_context: "把一张正方形纸折成同样大的4份，1份是 1/4，2份是 2/4，3份是 3/4"
+        core_concept: "把一个物体平均分成若干份，其中的几份就是它的几分之几；像 2/5、3/5、7/10 这样的数也都是分数。"
+      - example_id: "ex_5"
+        title: "比较分数的大小"
+        page: 77
+        formula_or_context: "2/5 > 1/5；1/2 > 1/3"
+        core_concept: "同分母分数，分子大的分数大；分子是1的两个分数，分母大的分数反而小（等分的份数越多，每份越小）。"
+
+  - lesson_id: "lesson-03"
+    lesson_number: 3
+    lesson_name: "分数的简单计算"
+    page_range: "P81-P82"
+    official_examples:
+      - example_id: "ex_6"
+        title: "同分母分数的加减法"
+        page: 81
+        formula_or_context: "1/8 + 2/8 = 3/8；2/8 − 1/8 = 1/8"
+        core_concept: "同分母分数相加、减，分母不变，只把分子相加、减。1个 1/8 加2个 1/8 是3个 1/8，就是 3/8。"
+      - example_id: "ex_7"
+        title: "1减去几分之几"
+        page: 82
+        formula_or_context: "1 − 3/4 = 1/4；1 可以看作 4个 1/4，就是 4/4"
+        core_concept: "计算 1 减几分之几时，先把 1 改写成与减数同分母的分数（分子、分母相同的分数），再相减。"
+
+  - lesson_id: "lesson-04"
+    lesson_number: 4
+    lesson_name: "把一些物体看作一个整体"
+    page_range: "P85-P86"
+    official_examples:
+      - example_id: "ex_8"
+        title: "一箱矿泉水平均分成3份"
+        page: 85
+        formula_or_context: "一箱矿泉水24瓶，平均分成3份，1份是这箱水的 1/3，2份是 2/3"
+        core_concept: "可以把一些物体看作一个整体，把它平均分成若干份，其中的1份或几份就可以用分数表示；整体不同，同一个分数所对应的具体数量也不同。"
+      - example_id: "ex_9"
+        title: "圈出每盒苹果的 1/2"
+        page: 85
+        formula_or_context: "一盒苹果平均分成2份，每份是这盒苹果的 1/2，也就是 1/2 盒苹果"
+        core_concept: "同样表示 1/2，因整体（每盒苹果的个数）不同，圈出的个数也不同，进一步体会分数表示的是部分与整体的关系。"
+
+  - lesson_id: "lesson-05"
+    lesson_number: 5
+    lesson_name: "求一个数的几分之几是多少"
+    page_range: "P87"
+    official_examples:
+      - example_id: "ex_10"
+        title: "航模小组男、女生各有多少人"
+        page: 87
+        formula_or_context: "12名学生，其中 1/3 是女生，2/3 是男生；12 ÷ 3 = 4（人），4 × 2 = 8（人）"
+        core_concept: "求一个数的几分之几是多少，先把总数平均分成分母那么多个份，求出1份是多少（用除法），再乘分子求出几份是多少。经历「阅读理解—分析解答—回顾反思」的过程。"
+
+  - lesson_id: "lesson-06"
+    lesson_number: 6
+    lesson_name: "整理和复习"
+    page_range: "P90-P91"
+    official_examples:
+      - example_id: "ex_11"
+        title: "整理对分数的认识"
+        page: 90
+        formula_or_context: "1/4 < 3/4 < 1；1/4 + 3/4 = 1；1 − 3/4 = 1/4"
+        core_concept: "从分数的意义、比较大小、简单计算三个方面整理本单元；体会分数与整数的联系与区别，分数可以表示部分与整体的关系，也可以表示数量的多少。"

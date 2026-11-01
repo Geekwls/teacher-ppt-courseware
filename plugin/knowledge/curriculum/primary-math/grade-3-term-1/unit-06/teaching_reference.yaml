@@ -1,0 +1,142 @@
+unit_id: "unit-6"
+source_id: "pep_math_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《2025年秋人教版教师教学用书数学三年级上册》
+  （409 页扫描件，OCR 解析）核定。第六单元《分数的初步认识》位于教参 P216–P257：
+  总体设计 P216–P222、教材分析 P223–P241、教学设计案例 P242–P249、
+  拓展资源 P250–P252、评价建议及样例 P253–P257。
+teaching_references:
+  - point_id: "math-g3-t1-u06-p01"
+    ref_book: "人教版《教师教学用书》数学三年级上册第六单元"
+    ref_page: "P223-P241"
+    pedagogical_focus:
+      key_point: "在「半个月饼怎么表示」的问题冲突中体会引入分数的必要性，紧扣「平均分」这一前提"
+      difficulty: "学生易忽略「平均分」，把不平均分的图形也用分数表示"
+      typical_misconceptions:
+        - error_pattern: "把随意分成两块的图形说成 1/2"
+          misconception_type: "忽视「平均分」前提"
+        - error_pattern: "认为涂色部分形状不同就不能用同一个分数表示"
+          misconception_type: "把分数与图形形状绑定"
+    variation_strategy:
+      - "判断哪些图形的涂色部分能用给定分数表示，说明理由"
+      - "用不同形状的纸折一折、涂一涂表示同一个分数"
+
+  - point_id: "math-g3-t1-u06-p02"
+    ref_book: "人教版《教师教学用书》数学三年级上册第六单元"
+    ref_page: "P223-P241"
+    pedagogical_focus:
+      key_point: "规范分数的读写格式，明确分子、分数线、分母的名称与含义"
+      difficulty: "学生易把分子、分母的名称与位置颠倒"
+      typical_misconceptions:
+        - error_pattern: "把分数线上面的数说成分母"
+          misconception_type: "分子分母名称混淆"
+        - error_pattern: "读 1/2 时读成「一分之二」"
+          misconception_type: "分数读法不规范"
+    variation_strategy:
+      - "给分数指认分子、分母并读一读"
+      - "根据描述（如分母是5、分子是2）写出分数"
+
+  - point_id: "math-g3-t1-u06-p03"
+    ref_book: "人教版《教师教学用书》数学三年级上册第六单元"
+    ref_page: "P223-P241"
+    pedagogical_focus:
+      key_point: "从「1份」拓展到「几份」，理解几分之几，明确分母与分子分别表示什么"
+      difficulty: "学生易把分母理解为「取的份数」、分子理解为「分成的份数」"
+      typical_misconceptions:
+        - error_pattern: "把平均分成5份取3份写成 3/5 之外的分母分子互换形式（如 5/3）"
+          misconception_type: "分母分子含义颠倒"
+        - error_pattern: "在1分米平均分成10份的直尺上误读 1/10 分米的位置"
+          misconception_type: "数轴（直尺）上的分数定位错误"
+    variation_strategy:
+      - "根据分数给图形涂色、在直尺上标出十分之几分米"
+      - "由图形写分数、由分数画图形，双向练习"
+
+  - point_id: "math-g3-t1-u06-p04"
+    ref_book: "人教版《教师教学用书》数学三年级上册第六单元"
+    ref_page: "P223-P241"
+    pedagogical_focus:
+      key_point: "借助图形直观比较分数大小，理解「同分母比分子」「同分子比分母」的规律"
+      difficulty: "分子是1的两个分数比较时，学生易认为分母大的分数大（受整数思维干扰）"
+      typical_misconceptions:
+        - error_pattern: "认为 1/3 > 1/2（因为3>2）"
+          misconception_type: "整数比较经验负迁移"
+        - error_pattern: "比较同分母分数时误比分母"
+          misconception_type: "未抓住比较标准"
+    variation_strategy:
+      - "涂色后比较 1/2 与 1/3、2/5 与 1/5"
+      - "用「等分的份数越多，每份越小」解释分子是1的分数比较结果"
+
+  - point_id: "math-g3-t1-u06-p05"
+    ref_book: "人教版《教师教学用书》数学三年级上册第六单元"
+    ref_page: "P242-P249"
+    pedagogical_focus:
+      key_point: "在「1个 1/8 加2个 1/8 是3个 1/8」的计数过程中理解同分母分数加减的算理"
+      difficulty: "学生易把分子分母分别相加（如 1/8+2/8=3/16）"
+      typical_misconceptions:
+        - error_pattern: "1/8 + 2/8 = 3/16（分母也相加）"
+          misconception_type: "分数加法当整数加法"
+        - error_pattern: "计算结果分母改变"
+          misconception_type: "算理不清"
+    variation_strategy:
+      - "说清算理后再计算；用图形验证结果"
+      - "结合情境提出并解决分数加减问题"
+
+  - point_id: "math-g3-t1-u06-p06"
+    ref_book: "人教版《教师教学用书》数学三年级上册第六单元"
+    ref_page: "P242-P249"
+    pedagogical_focus:
+      key_point: "理解 1 可以改写成分子、分母相同的分数（如 4/4），为「1减几分之几」作准备"
+      difficulty: "学生难以接受「1=4/4」，易直接写成 1−3/4=2/4（把1当作4算）"
+      typical_misconceptions:
+        - error_pattern: "1 − 3/4 = 2/4（把1与分子相减）"
+          misconception_type: "未把1改写成同分母分数"
+        - error_pattern: "对「剩下几分之几」直接写成整数差"
+          misconception_type: "意义与算法脱节"
+    variation_strategy:
+      - "先把1改写成 4/4，再相减，并用图形验证"
+      - "解决一张纸用去3/4剩下几分之几等实际问题"
+
+  - point_id: "math-g3-t1-u06-p07"
+    ref_book: "人教版《教师教学用书》数学三年级上册第六单元"
+    ref_page: "P242-P249"
+    pedagogical_focus:
+      key_point: "把「一些物体」看作一个整体，体会分数表示的是部分与整体的关系，与具体数量无关"
+      difficulty: "学生易把分数与具体数量对应，认为同一个分数对应的个数一定相同"
+      typical_misconceptions:
+        - error_pattern: "认为一盒苹果的 1/2 与一箱苹果的 1/2 个数相同"
+          misconception_type: "忽视整体不同"
+        - error_pattern: "圈出的个数不同就否认都是 1/2"
+          misconception_type: "把分数与绝对数量绑定"
+    variation_strategy:
+      - "在不同盒数/包数的图中圈出同一个分数，讨论「为什么个数不同却都是同一个分数」"
+      - "把同一个整体平均分成不同份数，用不同分数表示同一部分"
+
+  - point_id: "math-g3-t1-u06-p08"
+    ref_book: "人教版《教师教学用书》数学三年级上册第六单元"
+    ref_page: "P242-P249"
+    pedagogical_focus:
+      key_point: "建立「先除后乘」的解题模型：总数÷分母=1份数，再×分子=所求数量"
+      difficulty: "学生易直接「总数×分子」或「总数÷分子」，未先求1份"
+      typical_misconceptions:
+        - error_pattern: "求12人的 1/3 时写成 12×3"
+          misconception_type: "未理解分数的含义，套用错误运算"
+        - error_pattern: "只求出1份就作答，漏乘分子"
+          misconception_type: "步骤不完整"
+    variation_strategy:
+      - "借助线段图或平均分图理解「先求1份再求几份」"
+      - "用「男女生人数之和等于总人数」检验结果是否合理"
+
+  - point_id: "math-g3-t1-u06-p09"
+    ref_book: "人教版《教师教学用书》数学三年级上册第六单元"
+    ref_page: "P250-P257"
+    pedagogical_focus:
+      key_point: "从意义、比较、计算三个维度结构化整理，沟通分数与整数的联系与区别"
+      difficulty: "整理时易只罗列知识点，缺乏对「联系与区别」的提炼"
+      typical_misconceptions:
+        - error_pattern: "认为分数只是「一种新的数」，与整数毫无关系"
+          misconception_type: "结构化认识不足"
+        - error_pattern: "把「分数表示数量多少」与「分数表示部分与整体的关系」混为一谈"
+          misconception_type: "意义理解不深"
+    variation_strategy:
+      - "用思维导图整理分数的意义、比较与计算"
+      - "讨论分数与整数的相同点和不同点，举出生活中的例子"

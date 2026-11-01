@@ -1,0 +1,68 @@
+unit_id: "unit-5"
+blueprints:
+  - blueprint_id: "bp-math-g3-t2-u05-standard"
+    title: "第五单元数据的收集与整理标准练习卷蓝图"
+    target_practice: "复式统计表识读、数据整理计算与分析决策"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础题（共 62 分）
+      - slot_id: "slot-01"
+        section: "一、认真审题填一填（表头认知与画正字计数）"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 3
+        item_count: 6
+        target_points: ["math-g3-t2-u05-p01", "math-g3-t2-u05-p02"]
+        guidelines: "数‘正’字得出具体数值；明确复式统计表表头代表的三项内容；比较单式与复式统计表。"
+
+      - slot_id: "slot-02"
+        section: "二、精心挑选精判断（概念与合并方法）"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["math-g3-t2-u05-p01", "math-g3-t2-u05-p03"]
+        guidelines: "单式统计表合并为复式统计表的作用；总计与合计的计算规则。"
+
+      - slot_id: "slot-03"
+        section: "三、动手填表（补全复式统计表数据）"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 4
+        item_count: 6
+        target_points: ["math-g3-t2-u05-p03"]
+        guidelines: "根据已知部分数据，计算填出各行横向合计、各列纵向合计以及全班总计（利用加减法倒推或累加）。"
+
+      # 二、变式题（共 28 分）
+      - slot_id: "slot-04"
+        section: "四、数据大比拼（根据复式统计表提取信息比较）"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 6
+        item_count: 3
+        target_points: ["math-g3-t2-u05-p03", "math-g3-t2-u05-p04"]
+        guidelines: "1. 比较男生最喜欢哪类活动、女生最喜欢哪类活动；2. 男生喜欢科技类的人数比女生少几人；3. 参与调查的总人数一共有多少人。"
+
+      - slot_id: "slot-05"
+        section: "五、信息分析与生活应用（图书室借阅统计）"
+        question_type: "word_problem"
+        difficulty: "variation"
+        points_per_item: 5
+        item_count: 2
+        target_points: ["math-g3-t2-u05-p04"]
+        guidelines: "三年级一班和二班借阅童话、科普、历史书情况对比分析；计算两个班一共借阅童话书多少本。"
+
+      # 三、挑战题（共 10 分）
+      - slot_id: "slot-06"
+        section: "六、我是小小决策家（根据统计数据提出科学建议）"
+        question_type: "word_problem"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["math-g3-t2-u05-p04"]
+        guidelines: "针对全班同学视力调查统计结果，分析视力不良的严重性，并提出3条合理的护眼爱眼建议；或者超市进货销量分析与进货决策。"

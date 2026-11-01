@@ -1,0 +1,103 @@
+unit_id: "unit-3"
+source_id: "pep_english_g3_t1_tr_2024"
+teaching_references:
+  - point_id: "eng-g3-t1-u03-p01"
+    ref_book: "人教版《教师教学用书》英语三年级上册第三单元"
+    ref_page: "P66-P69"
+    pedagogical_focus:
+      key_point: "掌握字母 Ii, Jj, Kk, Ll 的笔顺笔画与四线三格占格规范，重点攻克小写 j 的三格书写"
+      difficulty: "小写字母 j 占上中下三格（竖弯下至第三格，圆点在上格）；小写 i 的圆点在第一格且不可画圈；字母 k 大小写的开口位置区别"
+      typical_misconceptions:
+        - error_pattern: "将小写 j 写成只占两格，或圆点直接落在第二线上"
+          misconception_type: "四线三格占位错误"
+        - error_pattern: "将大写 I 写成单一竖线无上下两横，或将小写 l 认作大写 I"
+          misconception_type: "字母形近混淆"
+    variation_strategy:
+      - "字母手拉手大小写连线：I-i, J-j, K-k, L-l"
+      - "按字母表顺序填入左邻右舍：( ), J, ( ), L"
+
+  - point_id: "eng-g3-t1-u03-p02"
+    ref_book: "人教版《教师教学用书》英语三年级上册第三单元"
+    ref_page: "P68-P71"
+    pedagogical_focus:
+      key_point: "掌握短元音 i(/ɪ/)及辅音字母 j(/dʒ/), k(/k/), l(/l/)的发音，建立音形对应与 CVC 拼读感知"
+      difficulty: "短元音 /ɪ/ 与长元音 /iː/ 的辨析，清辅音 /k/ 与浊辅音的送气控制"
+      typical_misconceptions:
+        - error_pattern: "将 ill 中的 /ɪ/ 读成汉语拼音的 yī"
+          misconception_type: "母语负迁移"
+        - error_pattern: "将 kite 首字母发音与 cat 混淆，不能识别两者发音相同"
+          misconception_type: "音素感知不熟练"
+    variation_strategy:
+      - "听音辨首音：圈出首字母发音为 /dʒ/ 的单词（jet / cat / dog）"
+      - "拼读搭积木：b-i-g -> big, d-i-g -> dig"
+
+  - point_id: "eng-g3-t1-u03-p03"
+    ref_book: "人教版《教师教学用书》英语三年级上册第三单元"
+    ref_page: "P60-P63"
+    pedagogical_focus:
+      key_point: "熟练认读家庭宠物核心词汇（cat, dog, fish, bird, rabbit），建立复数概念"
+      difficulty: "fish 表示鱼的数量时单复数同形（I like fish，不加 -es），其他宠物名词后加 -s 表类别"
+      typical_misconceptions:
+        - error_pattern: "将 fish 错误写成 fishes 来表示多条鱼"
+          misconception_type: "复数规则过度泛化"
+        - error_pattern: "将 rabbit 与 bird 的动物特征动作混淆"
+          misconception_type: "语义关联不牢固"
+    variation_strategy:
+      - "看图识词连线：将宠物图片与单词 cat, dog, rabbit, bird, fish 配对"
+      - "动词短语手拉手：Run like a dog, Hop like a rabbit"
+
+  - point_id: "eng-g3-t1-u03-p04"
+    ref_book: "人教版《教师教学用书》英语三年级上册第三单元"
+    ref_page: "P58-P61"
+    pedagogical_focus:
+      key_point: "掌握询问与回答拥有宠物的一般疑问句：Do you have a pet? Yes, I do. / No, I don't."
+      difficulty: "助动词 do 引导的疑问句及其肯定与否定简略回答，避免与 be 动词结构混淆"
+      typical_misconceptions:
+        - error_pattern: "面对问句 Do you have a pet? 错误回答 Yes, I am. 或 No, I not."
+          misconception_type: "助动词与系动词混淆"
+    variation_strategy:
+      - "情境交际问答匹配：问句与答语连线"
+      - "小调查补全对话：Do you have a pet? ( ) (肯定回答)"
+
+  - point_id: "eng-g3-t1-u03-p05"
+    ref_book: "人教版《教师教学用书》英语三年级上册第三单元"
+    ref_page: "P64-P67"
+    pedagogical_focus:
+      key_point: "掌握动物园野生动物词汇，掌握不定冠词 a 与 an 的准确用法（an elephant）"
+      difficulty: "elephant 首字母 e 发元音 /e/，前面必须使用 an，与辅音开头的 a panda, a monkey 区别"
+      typical_misconceptions:
+        - error_pattern: "习惯性说成 a elephant 漏掉 n"
+          misconception_type: "冠词用法失误"
+        - error_pattern: "混淆 panda 与 red panda（小熊猫）"
+          misconception_type: "动物名称辨识不清"
+    variation_strategy:
+      - "冠词填空对对碰：(a / an) panda, (a / an) elephant"
+      - "动物分类整理：从动物列表中圈出野生动物"
+
+  - point_id: "eng-g3-t1-u03-p06"
+    ref_book: "人教版《教师教学用书》英语三年级上册第三单元"
+    ref_page: "P62-P65"
+    pedagogical_focus:
+      key_point: "运用 What's this? 与 What's that? 指认近处与远处事物，并能给予赞赏评价"
+      difficulty: "区分 this（近指，眼前指着）与 that（远指，在远处指着）的情境差异"
+      typical_misconceptions:
+        - error_pattern: "将询问动物的 What's this? 答成 This is..."
+          misconception_type: "代词指代规范缺失（应用 It's a...）"
+    variation_strategy:
+      - "看手影指物问答：—What's this? —It's a fox."
+      - "情境选句：想提议大家一起去动物园，可以说：(Let's go to the zoo!)"
+
+  - point_id: "eng-g3-t1-u03-p07"
+    ref_book: "人教版《教师教学用书》英语三年级上册第三单元"
+    ref_page: "P70-P73"
+    pedagogical_focus:
+      key_point: "掌握核心体征形容词（big, small, tall, fast），运用 The... is... 描述动物特征"
+      difficulty: "理解形容词在句中的表语用法（The giraffe is tall!），以及根据事实特征正确匹配动物与形容词"
+      typical_misconceptions:
+        - error_pattern: "将 giraffe 错配为 small，或将 elephant 错配为 fast"
+          misconception_type: "常识与英文语义对应错误"
+        - error_pattern: "将形容词反义词 big 和 small 混淆"
+          misconception_type: "反义词语义混淆"
+    variation_strategy:
+      - "反义词与特征对对碰：big <-> small, tall <-> short, fast"
+      - "图文匹配：给长颈鹿、大象、猎豹配上正确的描述句子"

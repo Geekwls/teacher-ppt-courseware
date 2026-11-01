@@ -1,0 +1,47 @@
+lessons:
+- lesson_id: eng-g5-t1-u01-l01
+  unit_id: unit-01
+  subject: english
+  grade: 5
+  term: term-1
+  lesson_number: 1
+  lesson_name: 'Part A Let''s talk: 询问与描述人物'
+  page_range: P4
+  official_examples:
+  - 'Miss White: Hi, class. You''ll have a new classmate. He''s from Australia. His name is Oliver.'
+  - 'Mike: What''s he like? Miss White: He''s tall and strong.'
+  - 'Zhang Peng: Is he good at football? Miss White: Yes, I think he is. He can run very fast.'
+- lesson_id: eng-g5-t1-u01-l02
+  unit_id: unit-01
+  subject: english
+  grade: 5
+  term: term-1
+  lesson_number: 2
+  lesson_name: 'Part A Let''s learn / Let''s spell: 描述性格与 ai/ay 的发音'
+  page_range: P5-P6
+  official_examples:
+  - Chen Jie is lovely. She is also clever. She is young. She helps a lot at home. She is hard-working.
+  - Let's spell：字母组合 ai / ay 的发音 /eɪ/ 与例词（rain, play, wait, boy, day…）。
+- lesson_id: eng-g5-t1-u01-l03
+  unit_id: unit-01
+  subject: english
+  grade: 5
+  term: term-1
+  lesson_number: 3
+  lesson_name: 'Part B Let''s talk / Let''s learn: 谈论能力'
+  page_range: P7-P8
+  official_examples:
+  - Miss White and Mrs Green are talking about a school festival.
+  - Robin is Binbin's robot. He can play the piano. He can jump rope. He can play Chinese chess.
+- lesson_id: eng-g5-t1-u01-l04
+  unit_id: unit-01
+  subject: english
+  grade: 5
+  term: term-1
+  lesson_number: 4
+  lesson_name: Part C Project / Reading time
+  page_range: P9-P13
+  official_examples:
+  - Read and write：Join us for the school talent show! Everyone can draw pictures. But can you make your pictures…?
+  - 'Project: Make an album of your friends（Step 1 Fill in the table：Name / What''s he/she like? / What can he/she do?）'
+  - Reading time：We have a new student in our class today. Her name's Grace. Is she strong? Can she play football?

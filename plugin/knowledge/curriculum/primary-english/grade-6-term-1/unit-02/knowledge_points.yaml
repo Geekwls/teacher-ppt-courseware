@@ -1,0 +1,88 @@
+unit_id: unit-02
+source_id: pep_english_g6_t1_2024
+points:
+- point_id: eng-g6-t1-u02-p01
+  unit_id: unit-02
+  lesson_id: eng-g6-t1-u02-l01
+  subject: english
+  grade: 6
+  term: term-1
+  point_name: 用一般过去时谈论节日与活动
+  learning_objectives:
+  - 能用一般过去时谈论节日与活动
+  - 能正确使用常见动词的过去式（clean→cleaned, paste→pasted, dress→dressed, read→read, run→ran）
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g6_t1_2024
+    page_ref:
+    - P17
+    - P19
+    anchor_text: P17：「My dad and I cleaned the house. My sister and I pasted fu on the door. We dressed in red.」P19：「The writer read his book to the children. People from different places ran a marathon.」
+  teaching_boundary:
+    scope_allowed:
+    - 一般过去时的陈述句
+    - 规则与不规则动词的过去式
+    - 节日活动短语
+    scope_excluded:
+    - 英语时态体系
+    - 节日文化研究
+- point_id: eng-g6-t1-u02-p02
+  unit_id: unit-02
+  lesson_id: eng-g6-t1-u02-l02
+  subject: english
+  grade: 6
+  term: term-1
+  point_name: 了解中外节日的文化内涵
+  learning_objectives:
+  - 能说出中外主要节日及时间
+  - 能用英语简单介绍一个节日的习俗
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g6_t1_2024
+    page_ref:
+    - P20
+    anchor_text: P20 Read and write：Christmas / 感恩节 / 母亲节 / Carnival / Sunday, 22 June。
+  teaching_boundary:
+    scope_allowed:
+    - 中外节日名称
+    - 节日习俗的英语表达
+    - 节日时间的英语表达
+    scope_excluded:
+    - 跨文化交际研究
+    - 民俗学
+- point_id: eng-g6-t1-u02-p03
+  unit_id: unit-02
+  lesson_id: eng-g6-t1-u02-l03
+  subject: english
+  grade: 6
+  term: term-1
+  point_name: 区分事实与观点（Fact / Opinion）
+  learning_objectives:
+  - 能判断句子表达的是事实还是观点
+  - 能用英语表达自己对节日或活动的看法
+  applicable_question_types:
+  - choice
+  - reading
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_english_g6_t1_2024
+    page_ref:
+    - P21
+    anchor_text: P21：「Write F (Fact) or O (Opinion)：1. My father was on a race team. ( ) 2. The judge counted down and the race began! ( )」
+  teaching_boundary:
+    scope_allowed:
+    - 区分 Fact 与 Opinion
+    - 表达个人看法
+    - 阅读活动通知
+    scope_excluded:
+    - 批判性阅读理论
+    - 媒介素养教育

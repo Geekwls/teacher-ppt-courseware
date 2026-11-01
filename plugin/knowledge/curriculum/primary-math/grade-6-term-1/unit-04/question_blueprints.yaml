@@ -1,0 +1,70 @@
+unit_id: unit-04
+blueprints:
+- blueprint_id: bp-math-g6-t1-u04-standard
+  title: 第四单元 生活中的负数标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、读一读、写一写
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 2
+    item_count: 8
+    target_points:
+    - math-g6-t1-u04-p01
+    guidelines: 读出并写出正数和负数。
+  - slot_id: slot-02
+    section: 二、填一填
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - math-g6-t1-u04-p02
+    - math-g6-t1-u04-p03
+    guidelines: 用正负数表示相反意义的量、填写 0 的正负判断。
+  - slot_id: slot-03
+    section: 三、选一选
+    question_type: choice
+    difficulty: basic
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g6-t1-u04-p01
+    - math-g6-t1-u04-p03
+    guidelines: 判断关于正负数与 0 的说法是否正确。
+  - slot_id: slot-04
+    section: 四、在数轴上表示
+    question_type: writing
+    difficulty: variation
+    points_per_item: 6
+    item_count: 3
+    target_points:
+    - math-g6-t1-u04-p03
+    guidelines: 在数轴上标出给定的正负数与 0。
+  - slot_id: slot-05
+    section: 五、解决问题（实际情境）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 8
+    item_count: 2
+    target_points:
+    - math-g6-t1-u04-p02
+    - math-g6-t1-u04-p04
+    guidelines: 用正负数记录并解释实际情境中的数据。
+  - slot_id: slot-06
+    section: 六、综合与拓展
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 10
+    item_count: 2
+    target_points:
+    - math-g6-t1-u04-p02
+    - math-g6-t1-u04-p04
+    guidelines: 综合运用正负数解决较复杂的情境问题。

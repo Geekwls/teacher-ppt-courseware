@@ -1,0 +1,11 @@
+lessons:
+- lesson_id: math-g1-t2-u02-l01
+  unit_id: unit-02
+  subject: math
+  grade: 1
+  term: term-2
+  lesson_name: 第二单元 20以内的退位减法（单元整体）
+  page_range: P8-P22
+  official_examples:
+  - 十几减 9（P8–P11）；十几减 8、7、6（P12–P14）。
+  - 十几减 5、4、3、2 与整理和复习（P15–P22，课时页界待核验）。

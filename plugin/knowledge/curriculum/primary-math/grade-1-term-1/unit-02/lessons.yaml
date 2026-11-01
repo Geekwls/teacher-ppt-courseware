@@ -1,0 +1,11 @@
+lessons:
+- lesson_id: math-g1-t1-u02-l01
+  unit_id: unit-02
+  subject: math
+  grade: 1
+  term: term-1
+  lesson_name: 第二单元 6～10的认识和加、减法（单元整体）
+  page_range: P34-P66
+  official_examples:
+  - 6、7 的认识和加、减法；8、9 的认识和加、减法；10 的认识和加、减法。
+  - 连加、连减与加减混合运算；整理和复习。（例题原文待核验）

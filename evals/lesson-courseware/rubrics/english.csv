@@ -1,0 +1,8 @@
+ID,Bucket,Criterion,What pass requires,Notes,Conditional
+PE1,P,操练指令具体,notes 含跟读/分角色/替换练习/pair work 等具体活动指令;只写"操练对话"判失败,含对话页时判
+PE2,P,词不离句,词汇页每张词卡有短语搭配或例句支撑;孤立单词罗列判失败,含词汇页时判
+RE1,R,对话语法正确,对话文本语法正确且符合素材(冠词/所有格/主谓一致);发现语法错误即失败,,
+RE2,R,词汇源自素材,核心词汇与 lessons.official_examples 核心词汇一致;混入未学超纲词汇判失败,,
+RE3,R,中英混排规范,英文句半角标点且首字母大写;中文注释字号层级合理,,
+RE4,R,不虚构教参页码,source 未编造素材包中"待补"状态的教参页码;只用知识点point_id或课本页码,,
+OE1,O,对话图元参数正确,dialog_bubble每句含speaker+text且≤8句;word_card每张含word且≤8张,,

@@ -1,0 +1,65 @@
+lessons:
+- lesson_id: math-g2-t2-u00-l01
+  unit_id: unit-00
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 认识时间：钟面与时、分、秒
+  page_range: P1-P2
+  official_examples:
+  - 说一说小云的一天是怎样安排的。
+  - 钟面分成了（　）个大格，每个大格中有（　）个小格。钟面上一共有（　）个小格。
+  - 时针指向7，分针指向12，是7时。时针转1大格是1时，分针转1小格是1分，秒针转1小格是1秒。
+- lesson_id: math-g2-t2-u00-l02
+  unit_id: unit-00
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 时、分、秒之间的关系
+  page_range: P3
+  official_examples:
+  - 拨动指针，看看时、分、秒之间有什么关系。
+  - 1时=60分；1分=（　）秒。
+  - 生活中经常把30分说成半小时、30秒说成半分钟。
+- lesson_id: math-g2-t2-u00-l03
+  unit_id: unit-00
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 认读钟表上的时间
+  page_range: P4
+  official_examples:
+  - 你能读出下面的时间吗？4时5分；4时30分或4时半；4时45分。
+  - 从4时开始，分针从12转了多少个小格，就是4时多少分。
+- lesson_id: math-g2-t2-u00-l04
+  unit_id: unit-00
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 体验与估计时间的长短
+  page_range: P5-P6
+  official_examples:
+  - 1分钟能做些什么？想一想，做一做，或调查一下。（我1分钟能跳绳99次；我的脉搏1分钟跳了88次。）
+  - 1秒有多长？1秒能做些什么？（钟表「嘀嗒」一声是1秒；我眨一次眼睛用时大约1秒。）
+  - 小组活动：闭眼数秒，数到30秒举手，看谁估计得准。
+- lesson_id: math-g2-t2-u00-l05
+  unit_id: unit-00
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 制作时间小书与小讲堂
+  page_range: P7-P8
+  official_examples:
+  - 下面是小明用照片制作的时间小书《冰雪乐园一日游》。说说他在不同的时间做了什么。
+  - 按照时间先后顺序，制作自己的时间小书。
+  - 小讲堂：古代的计时工具和现在的钟表一样吗？（圭表和日晷被称为「太阳钟」。）
+- lesson_id: math-g2-t2-u00-l06
+  unit_id: unit-00
+  subject: math
+  grade: 2
+  term: term-2
+  lesson_name: 整理与评价：珍惜时间
+  page_range: P9
+  official_examples:
+  - 与时间有关的成语：似水流年、分秒必争、光阴似箭、一刻千金、只争朝夕、白驹过隙。
+  - 成长小档案：知道珍惜时间；知道时、分、秒是记录时间的单位；能正确地读、写时间。

@@ -1,0 +1,60 @@
+unit_id: unit-06
+source_id: pep_math_g4_t1_2024
+points:
+- point_id: math-g4-t1-u06-p01
+  unit_id: unit-06
+  lesson_id: math-g4-t1-u06-l01
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 平行与垂直
+  learning_objectives:
+  - 能说出同一平面内两条直线的位置关系，能判断两条直线是否互相平行或互相垂直
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P70
+    - P71
+    anchor_text: 单元起始页 P70 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 同一平面内两条直线的位置关系（相交与不相交）
+    - 平行线、垂线的定义与画法
+    scope_excluded:
+    - 欧氏几何公理体系的系统讲解
+    - 非欧几何
+- point_id: math-g4-t1-u06-p02
+  unit_id: unit-06
+  lesson_id: math-g4-t1-u06-l01
+  subject: math
+  grade: 4
+  term: term-1
+  point_name: 平行四边形和梯形的特征与底和高
+  learning_objectives:
+  - 能说出平行四边形、梯形的特征，能找出它们的底和高
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g4_t1_2024
+    page_ref:
+    - P74
+    - P78
+    - P82
+    anchor_text: 单元起始页 P74 依课本目录登记；正文超出可读区间，具体例题原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 平行四边形两组对边分别平行且相等
+    - 梯形只有一组对边平行；等腰梯形与直角梯形
+    scope_excluded:
+    - 四边形分类的公理化体系
+    - 四边形内角和的证明

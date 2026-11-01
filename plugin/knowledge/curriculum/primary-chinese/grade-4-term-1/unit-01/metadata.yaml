@@ -1,0 +1,15 @@
+unit_id: unit-01
+unit_name: 第一单元 自然之美
+subject: chinese
+edition: 统编版
+grade: 4
+term: term-1
+version: 2026.10.2
+updated_at: '2026-10-10'
+verification_status: verified
+source_id: pep_chinese_g4_t1_2024
+teaching_reference_source_id: pep_chinese_g4_t1_tr_2024
+page_range: P1-P12
+page_evidence_note: 页码于 2026-10-10 依据用户提供的《2024版人教统编版小学语文四年级上册电子课本》逐页实证核定：课本 PDF 共 60 页，页脚印刷页码实测偏移 = 3（PDF#4 = 印刷 P1），第一单元扉页 P1，第 1 课《观潮》P2–P4，第 2 课《繁星》P5–P6，第 3 课《现代诗二首》（《秋晚的江上》《花牛歌》）P7–P8，口语交际《我们与环境》P9，习作《推荐一个好地方》P10，语文园地一 P11–P12。**本册扫描件存在重复页且偏移不稳定（第三单元起 offset 变为 6）、页脚页码被扫描 App 水印覆盖，故仅第一单元（P1–P12）可逐页取证并记为 verified；第二单元及以后各单元按课本目录页登记为 partial。**
+unit_overview: 本单元以「自然之美」为人文主题，编排了《观潮》《繁星》两篇精读课文和《现代诗二首》（《秋晚的江上》《花牛歌》）一篇略读课文，口语交际《我们与环境》、习作《推荐一个好地方》与语文园地一。本单元语文要素是「边读边想象画面，感受自然之美」；习作要素是「推荐一个好地方，写清楚推荐理由」。核心是引导学生在阅读中调动多种感官（看、听、闻）想象画面，在习作中把推荐理由写清楚、写充分。
+numeric_upper_bound: 1000

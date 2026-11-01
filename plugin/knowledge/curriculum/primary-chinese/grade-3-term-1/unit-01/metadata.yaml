@@ -1,0 +1,25 @@
+unit_id: "unit-1"
+unit_name: "第一单元 校园生活"
+subject: "chinese"
+edition: "统编版"
+grade: 3
+term: "term-1"
+version: "2026.10.2"
+updated_at: "2026-10-09"
+verification_status: "verified"
+source_id: "pep_chinese_g3_t1_2024"
+teaching_reference_source_id: "pep_chinese_g3_t1_tr_2024"
+page_range: "P1-P12"
+page_evidence_note: >
+  页码于 2026-10-09 依据用户提供的《2024版人教统编版小学语文三年级上册电子课本》逐页复核。
+  该电子课本为用户提供的部分预览（含印刷页 P1–P25），第一单元完整可读。
+  单元扉页 P1，第1课《大青树下的小学》P2-P4，第2课《花的学校》P5-P6，
+  第3课《不懂就要问》P7-P8，口语交际《我的暑假生活》P9，习作《猜猜他是谁》P10，
+  语文园地一 P11-P12。
+unit_overview: >
+  本单元以「校园生活」为人文主题，编排了《大青树下的小学》《花的学校》两篇精读课文和
+  《不懂就要问》一篇略读课文，以及口语交际《我的暑假生活》、习作《猜猜他是谁》和语文园地一。
+  本单元语文要素是「阅读时，关注有新鲜感的词语和句子」；习作要素是「体会习作的乐趣」。
+  识字写字要求掌握本单元会认、会写生字，辨析多音字「假、晃、挨、背、圈、觉」，
+  并结合语境积累描写人物动作、神态的成语。
+numeric_upper_bound: 1000

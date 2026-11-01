@@ -1,0 +1,60 @@
+unit_id: unit-03
+source_id: pep_math_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g6-t1-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「乘积是 1」这一本质特征定义倒数，再通过「分子分母交换位置」给出求倒数的方法，并特别讨论 1 与 0
+    difficulty: 学生易把「倒数」与「相反数」混淆；易认为 0 的倒数是 0
+    typical_misconceptions:
+    - error_pattern: 把倒数与相反数混淆
+      misconception_type: 概念混淆
+    - error_pattern: 认为 0 有倒数
+      misconception_type: 特殊情况判断错误
+  variation_strategy:
+  - 写出一个数的倒数
+  - 判断两个数是否互为倒数
+- point_id: math-g6-t1-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「把 4/5 公顷平均分成 2 份」的图形直观，让学生看到每份是 4/5 的 1/2，从而理解「除以 2 等于乘 1/2」
+    difficulty: 学生易把「除以整数」算成「乘整数」；易在转化为乘法时忘记取倒数
+    typical_misconceptions:
+    - error_pattern: 除以整数算成乘整数
+      misconception_type: 法则用反
+    - error_pattern: 转化为乘法时未取倒数
+      misconception_type: 操作遗漏
+  variation_strategy:
+  - 计算一个数除以整数
+  - 看图列式并说明算理
+- point_id: math-g6-t1-u03-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「牛奶质量=砂糖质量×4/5」这一数量关系式，把「求砂糖质量」转化为「已知积和一个因数求另一个因数」，从而引出除法并推导出「乘倒数」的法则
+    difficulty: 学生易在「除以分数」时只把被除数取倒数；易把「已知几分之几求整体」用乘法
+    typical_misconceptions:
+    - error_pattern: 只对被除数取倒数
+      misconception_type: 法则运用错误
+    - error_pattern: 「已知部分求整体」误用乘法
+      misconception_type: 数量关系判断错误
+  variation_strategy:
+  - 计算一个数除以分数
+  - 解决「已知一个数的几分之几是多少，求这个数」的问题
+- point_id: math-g6-t1-u03-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「假设具体长度算出的天数相同」的发现，引导学生把工作总量抽象为「1」，用分率表示工作效率
+    difficulty: 学生易把工作总量当成具体数而无法求解；易把「效率和」算成「效率差」
+    typical_misconceptions:
+    - error_pattern: 工作总量未抽象为「1」
+      misconception_type: 建模困难
+    - error_pattern: 效率差与效率和混淆
+      misconception_type: 关系式错误
+  variation_strategy:
+  - 解决工程问题并说明算理
+  - 解释「为什么假设不同长度结果相同」

@@ -1,0 +1,32 @@
+unit_id: unit-06
+source_id: pep_english_g5_t1_2024
+points:
+- point_id: eng-g5-t1-u06-p01
+  unit_id: unit-06
+  lesson_id: eng-g5-t1-u06-l01
+  subject: english
+  grade: 5
+  term: term-1
+  point_name: 谈论自然与人类的关系
+  learning_objectives:
+  - 能说出自然景观词汇，能用英语谈论自然与人类生活的关系
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_english_g5_t1_2024
+    page_ref:
+    - P62
+    - P64
+    - P68
+    anchor_text: 单元起始页 P62 依课本目录登记；正文超出可读区间，具体对话原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 自然景观词汇
+    - 描述自然的句型
+    scope_excluded:
+    - 生态环境保护
+    - 英语自然景观词汇

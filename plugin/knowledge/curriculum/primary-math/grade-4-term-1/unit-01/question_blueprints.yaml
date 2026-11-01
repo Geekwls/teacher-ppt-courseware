@@ -1,0 +1,68 @@
+unit_id: unit-01
+blueprints:
+- blueprint_id: bp-math-g4-t1-u01-standard
+  title: 第一单元 万以上数的认识标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填（数位与计数单位）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 8
+    target_points:
+    - math-g4-t1-u01-p01
+    guidelines: 填写数位顺序表，说出各数位上的数字表示多少。
+  - slot_id: slot-02
+    section: 二、读出下面各数
+    question_type: reading
+    difficulty: basic
+    points_per_item: 5
+    item_count: 4
+    target_points:
+    - math-g4-t1-u01-p02
+    - math-g4-t1-u01-p04
+    guidelines: 按分级的方法读出亿以内、亿以上的数。
+  - slot_id: slot-03
+    section: 三、写出下面各数
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g4-t1-u01-p03
+    - math-g4-t1-u01-p04
+    guidelines: 写出横线上的数，注意 0 的占位。
+  - slot_id: slot-04
+    section: 四、比一比（大小比较）
+    question_type: choice
+    difficulty: variation
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g4-t1-u01-p05
+    guidelines: 比较每组中两个数的大小并说明理由。
+  - slot_id: slot-05
+    section: 五、改一改（数的改写）
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 3
+    item_count: 4
+    target_points:
+    - math-g4-t1-u01-p06
+    guidelines: 把整万、整亿的数改写成用「万」或「亿」作单位的数。
+  - slot_id: slot-06
+    section: 六、求近似数
+    question_type: fill_blank
+    difficulty: challenge
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g4-t1-u01-p07
+    guidelines: 用「四舍五入」法省略万位或亿位后面的尾数求近似数。

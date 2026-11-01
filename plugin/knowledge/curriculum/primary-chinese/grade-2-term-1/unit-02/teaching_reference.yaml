@@ -1,0 +1,74 @@
+unit_id: unit-02
+source_id: pep_chinese_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t1-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把量词与具体事物一一对应，借助画面理解「一（　）鱼塘」应填「方」而「一（　）稻田」应填「块」
+    difficulty: 学生易把「一（　）鱼塘」填成「个」、把「一（　）翠竹」填成「棵」
+    typical_misconceptions:
+    - error_pattern: 把「一（　）鱼塘」填成「个」
+      misconception_type: 量词与事物不搭配
+    - error_pattern: 把「一（　）翠竹」填成「棵」
+      misconception_type: 量词辨析不清
+  variation_strategy:
+  - 看图填量词并说明理由
+  - 仿照课文说一幅图中的景物
+- point_id: chi-g2-t1-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「树名 + 特点」的对应关系组织识字，把谚语作为文化积累而非语法分析对象
+    difficulty: 学生易把「木棉喜暖在南方」与「桦树耐寒守北疆」对应错；把「十年树木，百年树人」理解错
+    typical_misconceptions:
+    - error_pattern: 把木棉与桦树的习性对应错
+      misconception_type: 内容对应错误
+    - error_pattern: 把「十年树木，百年树人」理解成种树十年
+      misconception_type: 谚语含义未理解
+  variation_strategy:
+  - 连一连：树木与它的特点
+  - 说一说树木谚语的意思
+- point_id: chi-g2-t1-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以拍手歌的节奏带动朗读与识字，在游戏中落实动物名称的认读与环保意识
+    difficulty: 学生易只记住节奏而认不出动物名称
+    typical_misconceptions:
+    - error_pattern: 会背拍手歌但认不出动物名称
+      misconception_type: 识字未落实
+    - error_pattern: 说不出保护动物的理由
+      misconception_type: 环保意识未建立
+  variation_strategy:
+  - 边拍手边背诵并指出动物名称
+  - 说说我们应该怎样保护动物
+- point_id: chi-g2-t1-u02-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把四季与农事活动一一对应，借「早起勤耕作，归来戴月光」体会劳动的辛苦与喜悦
+    difficulty: 学生易把「采桑养蚕又插秧」归到秋季；说不出「打谷」是什么
+    typical_misconceptions:
+    - error_pattern: 把「采桑养蚕」归到秋季
+      misconception_type: 四季农事对应错误
+    - error_pattern: 说不出「打谷」「割麦」的意思
+      misconception_type: 农事词语未理解
+  variation_strategy:
+  - 连一连：季节与农事活动
+  - 说说自己参加过的劳动
+- point_id: chi-g2-t1-u02-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「诚」字为例把四个步骤显性化，强调「先定部首—再数部首笔画—再数余下笔画」的顺序
+    difficulty: 学生易把「部首笔画」与「除去部首后的笔画」混用；查「氵」「讠」等部首时数错笔画
+    typical_misconceptions:
+    - error_pattern: 把部首笔画与剩余笔画混用
+      misconception_type: 查字步骤未理清
+    - error_pattern: 「氵」的笔画数错（应为 3 画）
+      misconception_type: 部首笔画未掌握
+  variation_strategy:
+  - 按四步查出生字的读音与页码
+  - 给生字确定部首并数出剩余笔画

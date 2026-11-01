@@ -1,0 +1,32 @@
+unit_id: unit-06
+source_id: pep_chinese_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t1-u06-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「细节见品质」为阅读线索，从「拨了拨灯芯」「写上自己的名字」等细节体会人物品质
+    difficulty: 学生易把两篇课文的主人公（毛主席、朱德）与事件对应错
+    typical_misconceptions:
+    - error_pattern: 把两篇课文的主人公与事件对应错
+      misconception_type: 内容混淆
+    - error_pattern: 说不出细节体现的品质
+      misconception_type: 细节阅读不到位
+  variation_strategy:
+  - 朗读课文并说出人物品质
+  - 讲一讲自己知道的革命先辈的故事
+- point_id: chi-g2-t1-u06-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「难忘」与「英勇不屈」为情感支点，在朗读中体会人物形象
+    difficulty: 学生易把泼水节的民族（傣族）说错，或说不出刘胡兰的年龄
+    typical_misconceptions:
+    - error_pattern: 把傣族说成其他民族
+      misconception_type: 民族常识错误
+    - error_pattern: 说不出刘胡兰的品质
+      misconception_type: 主旨理解不到位
+  variation_strategy:
+  - 朗读课文并说说为什么「难忘」
+  - 说说刘胡兰身上值得我们学习的地方

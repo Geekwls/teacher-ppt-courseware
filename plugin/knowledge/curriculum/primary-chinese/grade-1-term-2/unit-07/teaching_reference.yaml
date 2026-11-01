@@ -1,0 +1,32 @@
+unit_id: unit-07
+source_id: pep_chinese_g1_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t2-u07-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「一件事引起一连串后果」的因果链帮助《一分钟》的阅读，以「文具的家」的比喻帮助《文具的家》
+    difficulty: 学生易只记住结果，说不清「一分钟」怎样变成「二十分钟」
+    typical_misconceptions:
+    - error_pattern: 说不清迟到二十分钟的因果链
+      misconception_type: 因果链条未理清
+    - error_pattern: 把「文具的家」理解成真的房子
+      misconception_type: 比喻义未理解
+  variation_strategy:
+  - 按顺序说说元元迟到的经过
+  - 整理自己的文具并说说怎样爱护它们
+- point_id: chi-g1-t2-u07-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「通知漏了什么」的比较阅读帮助理解通知的要素；以反复结构帮助复述《小猴子下山》
+    difficulty: 学生易把《小猴子下山》中的先后顺序弄乱
+    typical_misconceptions:
+    - error_pattern: 把「掰玉米、摘桃子、摘西瓜、追兔子」的顺序弄乱
+      misconception_type: 情节顺序错误
+    - error_pattern: 通知要素遗漏
+      misconception_type: 通知要素未掌握
+  variation_strategy:
+  - 按顺序复述《小猴子下山》
+  - 替狗熊写一则完整的通知

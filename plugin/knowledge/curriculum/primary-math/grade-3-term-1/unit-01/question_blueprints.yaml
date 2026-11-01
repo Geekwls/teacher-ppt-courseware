@@ -1,0 +1,67 @@
+unit_id: "unit-1"
+blueprints:
+  - blueprint_id: "bp-math-g3-t1-u01-standard"
+    title: "第一单元 观察物体 标准练习卷蓝图"
+    target_practice: "单元综合巩固与能力提升练习"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      - slot_id: "slot-01"
+        section: "一、连线小能手"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 5
+        item_count: 3
+        target_points: ["math-g3-t1-u01-p01"]
+        guidelines: "给出由小正方体组成的组合体与 3～4 名观察者，把观察者与所见图形连线配对。"
+
+      - slot_id: "slot-02"
+        section: "二、火眼金睛"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 5
+        item_count: 3
+        target_points: ["math-g3-t1-u01-p01"]
+        guidelines: "给出从前面、上面、左面看到的形状，选择对应的组合体。"
+
+      - slot_id: "slot-03"
+        section: "三、想一想，填一填"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 6
+        item_count: 3
+        target_points: ["math-g3-t1-u01-p02", "math-g3-t1-u01-p03"]
+        guidelines: "看到的一个面是正方形的立体图形可能有哪些；长方体纸盒展开后有几个面、几组相对的面。"
+
+      - slot_id: "slot-04"
+        section: "四、折一折，判一判"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 7
+        item_count: 3
+        target_points: ["math-g3-t1-u01-p04"]
+        guidelines: "给出由 6 个正方形组成的平面图形，判断能否折成正方体；干扰项包含「田字型」等不能折成的图形。"
+
+      - slot_id: "slot-05"
+        section: "五、推理小达人"
+        question_type: "fill_blank"
+        difficulty: "variation"
+        points_per_item: 8
+        item_count: 2
+        target_points: ["math-g3-t1-u01-p02", "math-g3-t1-u01-p03"]
+        guidelines: "正方体骰子相对面上数字之和为 7 的推理；在长方体展开图上标出相对的面。"
+
+      - slot_id: "slot-06"
+        section: "六、动手操作与表达"
+        question_type: "reading"
+        difficulty: "challenge"
+        points_per_item: 15
+        item_count: 1
+        target_points: ["math-g3-t1-u01-p03"]
+        guidelines: >
+          开放性任务：给出一个长方体纸盒，说明至少需要剪开几条棱才能把它平铺成平面图形，
+          并画出你得到的一种展开图，标出原来的上、下、前、后、左、右各面。要求写出推理过程。

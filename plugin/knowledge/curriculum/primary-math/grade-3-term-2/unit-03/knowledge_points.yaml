@@ -1,0 +1,117 @@
+unit_id: "unit-3"
+source_id: "pep_math_g3_t2_2024"
+points:
+  - point_id: "math-g3-t2-u03-p01"
+    unit_id: "unit-3"
+    lesson_id: "math-g3-t2-u03-l01"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "四边形的概念与长方形、正方形边角特征"
+    learning_objectives:
+      - "理解四边形的定义：有4条直的边和4个角（必须封闭且边为直的线段）"
+      - "掌握长方形的特征：对边相等，4个角都是直角；正方形的特征：4条边都相等，4个角都是直角"
+      - "理解长方形与正方形的包含关系：正方形是特殊的长方形"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [39, 40, 41, 42]
+      anchor_text: "四边形有4条直的边，4个角。长方形对边相等，4个角都是直角；正方形4条边都相等，4个角都是直角。"
+    teaching_boundary:
+      scope_allowed:
+        - "识别四边形、长方形、正方形"
+        - "根据长和宽特征画图与填空"
+      scope_excluded:
+        - "平行四边形、菱形严格初中公理化证明"
+
+  - point_id: "math-g3-t2-u03-p02"
+    unit_id: "unit-3"
+    lesson_id: "math-g3-t2-u03-l03"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "周长的本质概念与化曲为直测量方法"
+    learning_objectives:
+      - "建立周长的直观表象：封闭图形一周的长度就是它的周长；不封闭图形没有周长"
+      - "掌握化曲为直的测量思想：用线绕树叶或曲线图形一周，拉直后用直尺测量长度"
+    applicable_question_types: ["choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [43, 44]
+      anchor_text: "封闭图形一周的长度，是它的周长。用细线沿着树叶边缘围一圈，再拉直测量。"
+    teaching_boundary:
+      scope_allowed:
+        - "描出周长线条"
+        - "判断图形是否有周长（封闭图形）"
+      scope_excluded:
+        - "圆周率 π 与曲线积分计算"
+
+  - point_id: "math-g3-t2-u03-p03"
+    unit_id: "unit-3"
+    lesson_id: "math-g3-t2-u03-l04"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "长方形周长计算公式推导与逆向求解"
+    learning_objectives:
+      - "掌握长方形周长公式：周长 = (长 + 宽) × 2，能熟练代入数值规范计算周长"
+      - "掌握周长公式的逆运算变式：长 = 周长 ÷ 2 - 宽；宽 = 周长 ÷ 2 - 长"
+    applicable_question_types: ["calculation", "fill_blank", "word_problem"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [45, 46, 47]
+      anchor_text: "长方形周长 = (长 + 宽) × 2。已知长方形周长和长，先求长加宽的和（周长÷2），再减去长求出宽。"
+    teaching_boundary:
+      scope_allowed:
+        - "1000以内自然数长方形周长正向与逆向计算"
+      scope_excluded:
+        - "含有复杂未知数的二次方程求解"
+
+  - point_id: "math-g3-t2-u03-p04"
+    unit_id: "unit-3"
+    lesson_id: "math-g3-t2-u03-l04"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "正方形周长计算公式推导与已知周长求边长"
+    learning_objectives:
+      - "掌握正方形周长公式：周长 = 边长 × 4"
+      - "掌握已知正方形周长求边长公式：边长 = 周长 ÷ 4"
+    applicable_question_types: ["calculation", "fill_blank", "word_problem"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [46, 47]
+      anchor_text: "正方形周长 = 边长 × 4。用一根铁丝围成正方形，边长 = 铁丝总长 ÷ 4。"
+    teaching_boundary:
+      scope_allowed:
+        - "正方形边长与周长正逆运算应用"
+      scope_excluded:
+        - "分数或无理数开方运算"
+
+  - point_id: "math-g3-t2-u03-p05"
+    unit_id: "unit-3"
+    lesson_id: "math-g3-t2-u03-l05"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    point_name: "周长综合应用：靠墙围栅栏、拼组图形与平移转化法"
+    learning_objectives:
+      - "解决实际生活中的靠墙围篱笆问题：长边靠墙篱笆最短（长 + 2×宽），宽边靠墙篱笆最长（2×长 + 宽）"
+      - "掌握小正方形拼大图形规律：用相同个数的小正方形拼长方形，越接近正方形周长越短，排成一排周长最长"
+      - "运用平移法求凹凸、阶梯缺角图形的周长：将凹陷线段平移还原为标准长方形周长"
+    applicable_question_types: ["word_problem", "choice", "fill_blank"]
+    verification_status: "verified"
+    provenance:
+      source_id: "pep_math_g3_t2_2024"
+      page_ref: [48, 49, 50, 51]
+      anchor_text: "一面靠墙围菜地，篱笆至少要多长？用16张边长1分米的正方形拼长方形，怎样拼周长最短？"
+    teaching_boundary:
+      scope_allowed:
+        - "一面靠墙篱笆周长最值求解"
+        - "利用平移线段求不规则多边形周长"
+      scope_excluded:
+        - "两面靠墙角或三面靠墙多重约束规划"

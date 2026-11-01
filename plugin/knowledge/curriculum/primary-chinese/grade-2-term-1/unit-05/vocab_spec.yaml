@@ -1,0 +1,207 @@
+edition_lock:
+  textbook_name: 义务教育教科书 语文 二年级上册
+  publisher: 人民教育出版社
+  approval_year: 教育部2022课标2024/2026修订新版
+  grade: 2
+  term: term-1
+  unit_id: unit-05
+  unit_name: 第五单元 思维启迪与寓言
+  page_range: P54-P66
+  verified: true
+lessons_map:
+- lesson_id: chi-g2-t1-u05-l01
+  title: 11 坐井观天
+  page: P54-P55
+  core_writing_chars:
+  - 观
+  - 呀
+  - 答
+  - 话
+  - 抬
+  - 能
+  - 信
+- lesson_id: chi-g2-t1-u05-l02
+  title: 12 寒号鸟
+  page: P56-P59
+  core_writing_chars:
+  - 阵
+  - 做
+  - 冻
+  - 第
+  - 像
+  - 冷
+  - 冰
+  - 亮
+- lesson_id: chi-g2-t1-u05-l03
+  title: 13 我要的是葫芦
+  page: P60-P62
+  core_writing_chars:
+  - 种
+  - 棵
+  - 以
+  - 次
+  - 想
+  - 邻
+  - 居
+  - 吧
+  - 奇
+  - 怪
+- lesson_id: chi-g2-t1-u05-l04
+  title: 语文园地五
+  page: P63-P66
+  core_writing_chars:
+  - 号
+  - 丰
+official_vocab_table:
+- word: 坐井观天
+  lesson: 11 坐井观天
+- word: 哪儿
+  lesson: 11 坐井观天
+- word: 回答
+  lesson: 11 坐井观天
+- word: 大话
+  lesson: 11 坐井观天
+- word: 出去
+  lesson: 11 坐井观天
+- word: 不过
+  lesson: 11 坐井观天
+- word: 过冬
+  lesson: 11 坐井观天
+- word: 那么
+  lesson: 11 坐井观天
+- word: 当作
+  lesson: 12 寒号鸟
+- word: 前面
+  lesson: 12 寒号鸟
+- word: 面对面
+  lesson: 12 寒号鸟
+- word: 正好
+  lesson: 12 寒号鸟
+- word: 明天
+  lesson: 12 寒号鸟
+- word: 清早
+  lesson: 12 寒号鸟
+- word: 好像
+  lesson: 12 寒号鸟
+- word: 一样
+  lesson: 12 寒号鸟
+- word: 天亮
+  lesson: 12 寒号鸟
+- word: 出来
+  lesson: 12 寒号鸟
+- word: 从前
+  lesson: 13 我要的是葫芦
+- word: 以后
+  lesson: 13 我要的是葫芦
+- word: 多么
+  lesson: 13 我要的是葫芦
+- word: 那个
+  lesson: 13 我要的是葫芦
+- word: 叶子
+  lesson: 13 我要的是葫芦
+- word: 虫子
+  lesson: 13 我要的是葫芦
+- word: 自言自语
+  lesson: 13 我要的是葫芦
+- word: 邻居
+  lesson: 13 我要的是葫芦
+- word: 奇怪
+  lesson: 13 我要的是葫芦
+- word: 千言万语
+  lesson: 语文园地五
+- word: 不言不语
+  lesson: 语文园地五
+- word: 自言自语
+  lesson: 语文园地五
+three_tier_vocab:
+  lessons_desc: 《坐井观天》《寒号鸟》《我要的是葫芦》
+  tier_a_phrases:
+  - pinyin: zuò jǐng guān tiān
+    word: 坐井观天
+  - pinyin: huí dá
+    word: 回答
+  - pinyin: dà huà
+    word: 大话
+  - pinyin: chū qù
+    word: 出去
+  - pinyin: bú guò
+    word: 不过
+  - pinyin: guò dōng
+    word: 过冬
+  - pinyin: nà me
+    word: 那么
+  - pinyin: dàng zuò
+    word: 当作
+  - pinyin: qián mian
+    word: 前面
+  - pinyin: miàn duì miàn
+    word: 面对面
+  - pinyin: zhèng hǎo
+    word: 正好
+  - pinyin: míng tiān
+    word: 明天
+  - pinyin: qīng zǎo
+    word: 清早
+  - pinyin: hǎo xiàng
+    word: 好像
+  - pinyin: yí yàng
+    word: 一样
+  - pinyin: tiān liàng
+    word: 天亮
+  - pinyin: chū lai
+    word: 出来
+  - pinyin: cóng qián
+    word: 从前
+  - pinyin: yǐ hòu
+    word: 以后
+  - pinyin: duō me
+    word: 多么
+  - pinyin: nà ge
+    word: 那个
+  - pinyin: yè zi
+    word: 叶子
+  - pinyin: chóng zi
+    word: 虫子
+  - pinyin: zì yán zì yǔ
+    word: 自言自语
+  - pinyin: lín jū
+    word: 邻居
+  - pinyin: qí guài
+    word: 奇怪
+  tier_b_pairs:
+  - char1: 答
+    word1: 回答
+    char2: 合
+    word2: 合作
+  - char1: 渴
+    word1: 口渴
+    char2: 喝
+    word2: 喝水
+  - char1: 棵
+    word1: 一棵
+    char2: 颗
+    word2: 一颗
+  - char1: 阵
+    word1: 一阵
+    char2: 陈
+    word2: 陈旧
+  tier_c_phrases:
+  - pinyin: jǐng yán
+    word: 井沿
+  - pinyin: wú biān wú jì
+    word: 无边无际
+  - pinyin: yá fèng
+    word: 崖缝
+  - pinyin: duō suo
+    word: 哆嗦
+  - pinyin: téng màn
+    word: 藤蔓
+  - pinyin: yá chóng
+    word: 蚜虫
+  strokes_challenge:
+  - question_stem: “渴”与“喝”的区别是：口渴要找水，偏旁是（    ）；喝水要用口，偏旁是（    ）。
+    answer_text: 氵（三点水）；口（口字旁）
+  - question_stem: “答”的部首是____________头，书写时竹字头要盖住下半部分的“合”字。
+    answer_text: 竹字
+  - question_stem: “怪”是左右结构，偏旁是____________旁，右半部分是“圣”字。
+    answer_text: 竖心（忄）

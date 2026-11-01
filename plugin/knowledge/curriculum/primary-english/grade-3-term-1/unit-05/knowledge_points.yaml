@@ -1,0 +1,164 @@
+unit_id: "unit-5"
+source_id: "pep_english_g3_t1_2024"
+points:
+  - point_id: "eng-g3-t1-u05-p01"
+    lesson_id: "lesson-03"
+    point_name: "字母 Qq, Rr, Ss, Tt, Uu 的认读、大小写配对与四线三格规范书写"
+    learning_objectives:
+      - "正确认读英文字母 Qq, Rr, Ss, Tt, Uu 的大写与小写形式"
+      - "熟练进行字母大小写配对及按字母表顺序（Qq-Uu）推导"
+      - "在四线三格中规范书写 Qq-Uu，重点掌握小写 q 占中下格且竖画末端向上提钩、小写 t 占上中格及小写 u 占中格的规则"
+    prerequisites:
+      - "eng-g3-t1-u04-p01"
+    subsequent_points:
+      - "eng-g3-t1-u05-p02"
+    applicable_question_types: ["fill_blank", "choice", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "字母 Qq, Rr, Ss, Tt, Uu 的四线三格占格（大写占上两格；小写q占中下格；小写r, s, u占中格；小写t占上两格）"
+        - "字母前后左邻右舍顺序填空（如 P, Q, R, S, T, U）"
+      scope_excluded:
+        - "Vv 之后的字母书写（第六单元学习）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [54]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u05-p02"
+    lesson_id: "lesson-03"
+    point_name: "字母 Qq-Uu 自然拼读发音与例词拼读"
+    learning_objectives:
+      - "掌握辅音字母 q 发 /kw/，r 发 /r/，s 发 /s/，t 发 /t/ 及短元音 u 发 /ʌ/ 的发音规律"
+      - "准确识别单词词首辅音与短元音 /ʌ/"
+      - "拼读简单 CVC 单词：cut, quit, rot, set, tap, tub"
+    prerequisites:
+      - "eng-g3-t1-u05-p01"
+    subsequent_points: []
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "教材拼读例词：quiet, queen, red, ruler, see, bus, Ted, sit, up, run"
+        - "CVC拼读词：cut, quit, rot, set, tap, tub"
+        - "辅音连缀 qu 发 /kw/ 的启蒙感知"
+      scope_excluded:
+        - "长元音 /juː/（如 cute, tube 等相对开音节发音在三上阶段不作要求）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [54]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u05-p03"
+    lesson_id: "lesson-02"
+    point_name: "十种基础颜色核心词汇听说认读"
+    learning_objectives:
+      - "听、说、认读10种核心颜色名词/形容词：red（红色）, yellow（黄色）, blue（蓝色）, green（绿色）, orange（橙色）, purple（紫色）, brown（棕色）, pink（粉色）, white（白色）, black（黑色）"
+      - "掌握 a + 颜色 + 事物 的名词短语表达（a brown bear, a yellow duck, a purple flower）"
+    prerequisites: []
+    subsequent_points:
+      - "eng-g3-t1-u05-p04"
+      - "eng-g3-t1-u05-p05"
+    applicable_question_types: ["choice", "match", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "10种核心颜色词汇：red, yellow, blue, green, orange, purple, brown, pink, white, black"
+        - "颜色搭配短语：green grass, blue sea, a brown bear"
+      scope_excluded:
+        - "深浅修饰词（如 light blue, dark green 等拓展词汇）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [53, 56, 57]
+      example_ref: ["ex_2", "ex_5"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u05-p04"
+    lesson_id: "lesson-01"
+    point_name: "询问与指认物体颜色的核心特殊疑问句"
+    learning_objectives:
+      - "掌握询问物体颜色的特殊疑问句：What colour is it?"
+      - "熟练运用 It's + 颜色 进行准确回答：It's green. / It's orange."
+      - "感知日常交流中的感叹表达：Look! / Wow!"
+    prerequisites:
+      - "eng-g3-t1-u05-p03"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "问句与答语：What colour is it? -> It's + 颜色."
+      scope_excluded:
+        - "复数问句 What colour are they?（四上语法）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [52]
+      example_ref: ["ex_1"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u05-p05"
+    lesson_id: "lesson-01"
+    point_name: "颜色混合规律与创造性表达句型"
+    learning_objectives:
+      - "掌握运用 ... and ... make ... 表达三原色调色混合的规律句型"
+      - "掌握三大基础调色公式：Red and blue make purple. Blue and yellow make green. Yellow and red make orange."
+    prerequisites:
+      - "eng-g3-t1-u05-p03"
+      - "eng-g3-t1-u05-p04"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "调色句型：Red and blue make purple. / Blue and yellow make green. / Yellow and red make orange."
+        - "动词 make 在此处表示产生/变成"
+      scope_excluded:
+        - "复杂光学复色与印刷色系"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [52, 57]
+      example_ref: ["ex_1", "ex_6"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u05-p06"
+    lesson_id: "lesson-04"
+    point_name: "询问他人色彩喜好与合作绘画倡议句型"
+    learning_objectives:
+      - "掌握询问对方喜欢何种颜色的特殊疑问句：What colours do you like?"
+      - "熟练运用 I like... 表达个人喜欢的多种颜色（I like red and pink.）"
+      - "运用 Let's draw some... 提出美术创作合作建议（Let's draw some red and pink flowers.）"
+    prerequisites:
+      - "eng-g3-t1-u05-p03"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "match"]
+    teaching_boundary:
+      scope_allowed:
+        - "句型：What colours do you like? -> I like + 颜色 (and 颜色)."
+        - "倡议：Let's draw some + 颜色 + 复数名词 (flowers, birds)."
+      scope_excluded:
+        - "比较级 favorite colour（四上语法）"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [55]
+      example_ref: ["ex_4"]
+    verification_status: "verified"
+
+  - point_id: "eng-g3-t1-u05-p07"
+    lesson_id: "lesson-06"
+    point_name: "色彩在生活中的警示与指示交际功能语篇"
+    learning_objectives:
+      - "理解核心语篇主题 Colours can talk!（颜色会说话）"
+      - "掌握不同颜色在社会公共生活中的具体功能指令：Red can say 'No!'（红色表禁止）；Green can say 'Go!'（绿色表通行）；Blue can say 'Use again!'（蓝色表环保回收）；Yellow can say 'Be careful!'（黄色表警示小心）"
+      - "阅读简短功能语篇并能按生活安全与规则进行图文匹配，回答大问题'Why are colours important?'"
+    prerequisites:
+      - "eng-g3-t1-u05-p03"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "match", "reading_comprehension"]
+    teaching_boundary:
+      scope_allowed:
+        - "标志语陈述：Red can say 'No!' / Green can say 'Go!' / Blue can say 'Use again!' / Yellow can say 'Be careful!'"
+        - "生活场景应用：交通信号灯、消防车、护士服、垃圾桶、安全帽"
+      scope_excluded:
+        - "直接引语变间接引语等高阶语法"
+    provenance:
+      source_id: "pep_english_g3_t1_2024"
+      page_ref: [56, 57]
+      example_ref: ["ex_5", "ex_6"]
+    verification_status: "verified"

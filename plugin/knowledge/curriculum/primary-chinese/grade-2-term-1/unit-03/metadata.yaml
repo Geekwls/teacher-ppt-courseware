@@ -1,0 +1,16 @@
+unit_id: unit-03
+unit_name: 第三单元 儿童生活与美好想象
+subject: chinese
+edition: 统编版
+grade: 2
+term: term-1
+version: 2026.10.3
+updated_at: '2026-10-14'
+verification_status: verified
+source_id: pep_chinese_g2_t1_2026
+teaching_reference_source_id: pep_chinese_g2_t1_tr_2026
+page_range: P28-P38
+page_evidence_note: 依据用户提供的《2026版人教统编版小学语文二年级上册电子课本.pdf》（126页全本实测）逐页对齐核验：本单元真实印刷页码为
+  P28-P38，全文收录官方课文、写字表与词语表，已取得完整实证证据链，状态晋级为 verified。
+unit_overview: 阅读单元：安排《彩虹》《去外婆家》《数星星的孩子》与语文园地三。感受童年天真无邪的美好想象与对浩瀚星空的探索求知精神。
+numeric_upper_bound: null

@@ -1,0 +1,60 @@
+unit_id: unit-02
+source_id: pep_chinese_g4_t1_2024
+points:
+- point_id: chi-g4-t1-u02-p01
+  unit_id: unit-02
+  lesson_id: chi-g4-t1-u02-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 从不同角度提问
+  learning_objectives:
+  - 能阅读时从不同角度提出问题，能对提出的问题进行分类
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P13
+    - P16
+    - P20
+    anchor_text: 单元起始页 P13 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 针对课文内容提问
+    - 针对写法提问、联系生活经验提问
+    scope_excluded:
+    - 阅读理解策略的教学研究
+    - 批判性思维的培养
+- point_id: chi-g4-t1-u02-p02
+  unit_id: unit-02
+  lesson_id: chi-g4-t1-u02-l01
+  subject: chinese
+  grade: 4
+  term: term-1
+  point_name: 写一个人，写出印象最深的地方
+  learning_objectives:
+  - 能抓住人物印象最深的地方写清楚
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref:
+    - P28
+    - P29
+    anchor_text: 单元起始页 P28 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 抓住人物特点
+    - 用具体事例表现人物
+    scope_excluded:
+    - 人物描写的写作技巧
+    - 叙事散文的写作规范

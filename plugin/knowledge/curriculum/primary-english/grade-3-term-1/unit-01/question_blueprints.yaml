@@ -1,0 +1,128 @@
+unit_id: "unit-1"
+blueprints:
+  - blueprint_id: "bp-eng-g3-t1-u01-standard"
+    title: "Unit 1 Making friends 标准练习卷蓝图"
+    target_practice: "单元基础达标与交际素养提升练习（6:3:1 阶梯）"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、字母乐园 (Letters & Phonics)（20分）
+      - slot_id: "slot-01"
+        section: "一、字母乐园：规范书写与大小写配对"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u01-p01"]
+        guidelines: "考查字母 Aa, Bb, Cc, Dd 的大小写对应与按字母表顺序填空，重点考察书写与相邻字母。"
+
+      - slot_id: "slot-02"
+        section: "二、拼读侦探：字母发音与例词感知"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u01-p02"]
+        guidelines: "考查 Aa-Dd 在教材核心单词（apple, bag, bed, cat, dog等）中的首音与拼读发音，找出每组中发音不同或对应首字母的一项。"
+
+      # 二、词汇天地 (Vocabulary & Expressions)（20分）
+      - slot_id: "slot-03"
+        section: "三、词汇天地：选出不同类的一项"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u01-p03", "eng-g3-t1-u01-p07"]
+        distractor_policy:
+          item_1_body_vs_animal:
+            context: "A. ear  B. eye  C. cat"
+            correct: "C（cat是动物，其余为身体五官）"
+          item_2_body_vs_action:
+            context: "A. hand  B. arm  C. smile"
+            correct: "C（smile是动词，其余为肢体部位）"
+          item_3_action_vs_name:
+            context: "A. help  B. share  C. Sarah"
+            correct: "C（Sarah是人名，其余是友好行为动词）"
+          item_4_letter_vs_word:
+            context: "A. mouth  B. Aa  C. ear"
+            correct: "B（Aa是字母，其余是身体部位单词）"
+          item_5_action_vs_greeting:
+            context: "A. listen  B. smile  C. Hello"
+            correct: "C（Hello是问候语，其余是好朋友品格动词）"
+
+      - slot_id: "slot-04"
+        section: "四、图文与语境词汇选择"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u01-p03", "eng-g3-t1-u01-p05", "eng-g3-t1-u01-p07"]
+        guidelines: "给出身体部位与动作提示（ear, eye, hand, share, smile），在句中选词填空。"
+
+      # 三、情境单选 (Contextual Choice)（20分）
+      - slot_id: "slot-05"
+        section: "五、用心观察情境选择"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u01-p04", "eng-g3-t1-u01-p05", "eng-g3-t1-u01-p06", "eng-g3-t1-u01-p07"]
+        distractor_policy:
+          item_1_meet_friend:
+            context: "开学第一天结识新同学，想自我介绍可以说"
+            correct: "Hello! My name is Wu Binbin."
+            distractor_1: "Goodbye, Wu Binbin.（告别语）"
+            distractor_2: "Are you Wu Binbin?（疑问句，超纲）"
+          item_2_nice_to_meet_you:
+            context: "当新朋友对你说 'Nice to meet you.' 时，你应该礼貌回答"
+            correct: "Nice to meet you too."
+            distractor_1: "I'm Mike.（答非所问）"
+            distractor_2: "Oh no!（表示遗憾/抱怨）"
+          item_3_share_things:
+            context: "同桌美术课忘记带彩笔，你可以友好地对同桌说"
+            correct: "It's OK. We can share."
+            distractor_1: "Bye! Wave your hand.（告别）"
+            distractor_2: "I have a bag.（自说自话）"
+          item_4_thank_you:
+            context: "当同桌主动和你分享蜡笔时，你应该由衷地说"
+            correct: "Thank you!"
+            distractor_1: "Oh no!（负面情绪表达）"
+            distractor_2: "Nice to meet you.（初次见面问候）"
+          item_5_tpr_action:
+            context: "老师说 'Wave your hand.'，你应该做出的动作是"
+            correct: "挥挥手"
+            distractor_1: "指指耳朵（Point to your ear）"
+            distractor_2: "指指嘴巴（Point to your mouth）"
+
+      # 四、交际配对与补全对话 (Dialogue Completion)（20分）
+      - slot_id: "slot-06"
+        section: "六、礼貌应答连连看"
+        question_type: "match"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u01-p04", "eng-g3-t1-u01-p05", "eng-g3-t1-u01-p06"]
+        guidelines: "给上句选出最恰当的下句：1. Hello! I'm John. -> Hi! I'm Sarah. 2. Nice to meet you. -> Nice to meet you too. 3. We can share. -> Thanks! 4. Point to your ear. -> Listen! 5. Wave your hand. -> Bye!"
+
+      - slot_id: "slot-07"
+        section: "七、选择恰当的句子补全对话"
+        question_type: "choice"
+        difficulty: "challenge"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u01-p04", "eng-g3-t1-u01-p06", "eng-g3-t1-u01-p07"]
+        guidelines: "阅读 Mike 和 Wu Binbin 在教室里互相认识并分享学习用品的情境对话，选出 5 个合适的句子填空。"
+
+      # 五、语篇阅读理解 (Reading Comprehension)（20分）
+      - slot_id: "slot-08"
+        section: "八、趣味阅读：好朋友小海报"
+        question_type: "reading"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u01-p08"]
+        guidelines: "以教材 P9 海报为基础，阅读《I am a good friend!》小短文，判断 5 个陈述是否符合短文事实（正确写 T，错误写 F）。"

@@ -1,0 +1,20 @@
+unit_id: "unit-1"
+unit_number: 1
+unit_name: "第一单元 生活中的运动现象"
+subject: "math"
+edition: "人教版"
+grade: 3
+term: "term-2"
+version: "2026.10.1"
+updated_at: "2026-10-09"
+verification_status: "verified"
+source_id: "pep_math_g3_t2_2024"
+teaching_ref_source_id: "pep_math_g3_t2_tr_2026"
+page_range: "P1-P9"
+numeric_upper_bound: 1000
+curriculum_standard_ref: "义务教育数学课程标准（2022年版）图形与几何领域·图形的位置与运动"
+unit_overview: >
+  本单元是小学阶段学习图形运动的起始单元，通过观察生活中的典型自然现象和物体运动，
+  直观感知轴对称图形、平移和旋转的特征。
+  重点认识轴对称图形并能找出对称轴；在方格纸上识别图形平移的方向和距离；
+  辨析平移与旋转现象在现实生活中的本质区别（平移沿直线运动、大小方向不变；旋转绕固定点转动）。

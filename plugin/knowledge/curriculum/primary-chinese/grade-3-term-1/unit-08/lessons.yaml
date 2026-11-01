@@ -1,0 +1,88 @@
+lessons:
+  - lesson_id: "chi-g3-t1-u08-l01"
+    unit_id: "unit-8"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 23
+    lesson_name: "第23课 司马光（文言文）"
+    page_range: "P96"
+    official_examples:
+      - "课文为文言文，讲述司马光砸瓮救人的故事，表现其冷静机智、爱护同伴的品质。"
+      - "课后题引导学生带着问题默读课文，借助注释理解文言文内容。"
+      - "（原文与生字表以课本页面为准；本单元正文页未含于用户提供的电子课本预览，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u08-l02"
+    unit_id: "unit-8"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 24
+    lesson_name: "第24课 一定要争气"
+    page_range: "P97-P99"
+    official_examples:
+      - "课文讲述童第周勤奋学习、为国争光的故事，表现其刻苦与爱国的品质。"
+      - "课后题引导学生带着问题默读，理解课文内容。"
+      - "（原文与生字表以课本页面为准，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u08-l03"
+    unit_id: "unit-8"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 25
+    lesson_name: "第25课 手术台就是阵地"
+    page_range: "P100-P102"
+    official_examples:
+      - "课文讲述白求恩在战场上坚守手术台的事迹，表现其对工作极端负责、为革命献身的品质。"
+      - "课后题引导学生带着问题默读，体会人物的崇高品质。"
+      - "（原文与生字表以课本页面为准，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u08-l04"
+    unit_id: "unit-8"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 26
+    lesson_name: "第26课 一个粗瓷大碗（略读）"
+    page_range: "P103-P104"
+    official_examples:
+      - "学习提示：默读课文，了解赵一曼的感人事迹。"
+      - "引导学生体会赵一曼不畏艰苦、关心他人的品质。"
+      - "（原文与生字表以课本页面为准，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u08-l05"
+    unit_id: "unit-8"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 27
+    lesson_name: "口语交际（请教）"
+    page_range: "P105"
+    official_examples:
+      - "口语交际《请教》：遇到困难时向别人请教，注意把问题说清楚、有礼貌。"
+      - "提示学生认真倾听、礼貌回应，学会向他人请教。"
+
+  - lesson_id: "chi-g3-t1-u08-l06"
+    unit_id: "unit-8"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 28
+    lesson_name: "习作（那次经历真难忘）"
+    page_range: "P106"
+    official_examples:
+      - "习作《那次经历真难忘》：写一件难忘的事，把事情的经过写清楚，表达真实感受。"
+      - "提示学生按一定顺序把经历写完整，写出难忘之处。"
+
+  - lesson_id: "chi-g3-t1-u08-l07"
+    unit_id: "unit-8"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 29
+    lesson_name: "语文园地"
+    page_range: "P107-P108"
+    official_examples:
+      - "梳理与交流：回顾带着问题默读、理解课文内容的方法。"
+      - "词句段运用与日积月累（具体内容以课本页面为准，待补凭证）。"

@@ -1,0 +1,46 @@
+unit_id: unit-05
+source_id: pep_chinese_g1_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文一年级上册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g1-t1-u05-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助拼音自主朗读，在朗读中认识自然段并感受秋天的景物特点
+    difficulty: 学生易把「一」在不同词语中的变调读错，或数错自然段
+    typical_misconceptions:
+    - error_pattern: 把「一片片」的「一」读成第一声
+      misconception_type: 「一」的变调未掌握
+    - error_pattern: 自然段数错
+      misconception_type: 自然段概念未建立
+  variation_strategy:
+  - 借助拼音朗读课文并数出自然段
+  - 圈出课文中描写秋天景物的词语
+- point_id: chi-g1-t1-u05-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「谁画什么」的对应关系帮助学生读懂课文，在朗读中积累语言
+    difficulty: 学生易把「鱼戏莲叶东/西/南/北」的顺序记混
+    typical_misconceptions:
+    - error_pattern: 莲叶东西南北的顺序记错
+      misconception_type: 诗句顺序未掌握
+    - error_pattern: 说不出小鸡画竹叶、小狗画梅花
+      misconception_type: 脚印与画作未对应
+  variation_strategy:
+  - 按顺序背诵《江南》
+  - 连一连：动物与它的「画」
+- point_id: chi-g1-t1-u05-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「草芽、荷叶、谷穗、雪人」等具体形象对应四季，在朗读中体会语言之趣
+    difficulty: 学生易把四季代表物与季节对应错
+    typical_misconceptions:
+    - error_pattern: 把「谷穗」对应到春天
+      misconception_type: 季节与代表物未对应
+    - error_pattern: 朗读时语气平淡
+      misconception_type: 情感朗读不到位
+  variation_strategy:
+  - 说一说四季各有什么特点
+  - 仿照课文说一句「××说：我是××天」

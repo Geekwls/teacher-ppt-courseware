@@ -1,0 +1,115 @@
+unit_id: unit-04
+source_id: pep_math_g6_t1_2024
+points:
+- point_id: math-g6-t1-u04-p01
+  unit_id: unit-04
+  lesson_id: math-g6-t1-u04-l01
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 负数的意义与读写法
+  learning_objectives:
+  - 能正确读、写正数和负数，能说出负数表示的实际意义
+  - 能识别生活中的正数与负数
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P44
+    - P45
+    anchor_text: P44：北京 −4℃~0℃；吐鲁番盆地最低点的海拔是 −154.31 m。P45：「一个数前面有「−」和没有「−」，表示了相反的含义。」「我们以前学过的数，如 6、4.7、…是正数；−6、−4.7、…是负数。」
+  teaching_boundary:
+    scope_allowed:
+    - 读写正负数
+    - 说出负数的实际含义
+    - 在情境中识别正负数
+    scope_excluded:
+    - 实数系的完备化
+    - 数学史上的数系扩充
+- point_id: math-g6-t1-u04-p02
+  unit_id: unit-04
+  lesson_id: math-g6-t1-u04-l02
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 用正负数表示相反意义的量
+  learning_objectives:
+  - 能用正数和负数表示一对相反意义的量
+  - 能根据情境约定正负号的含义
+  applicable_question_types:
+  - fill_blank
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P45
+    - P46
+    anchor_text: P45：「正数和负数可以用来表示相反意义的量。」P46：收支记录「正数表示收入，负数表示支出」（父母工资 +9500、给老人 −2000、压岁钱 −200、买年货 −500）。
+  teaching_boundary:
+    scope_allowed:
+    - 用正负数表示相反意义的量
+    - 根据情境约定正负号
+    - 把相反意义的量配对
+    scope_excluded:
+    - 向量与有向量的表示
+    - 会计中的借贷记账
+- point_id: math-g6-t1-u04-p03
+  unit_id: unit-04
+  lesson_id: math-g6-t1-u04-l03
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 0 的意义（既不是正数也不是负数）
+  learning_objectives:
+  - 能说出 0 既不是正数也不是负数
+  - 能说明 0 在正负数中的分界作用
+  applicable_question_types:
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P45
+    anchor_text: P45：「0 是正数还是负数呢？」（0 既不是正数，也不是负数；0 是正数与负数的分界。）「负数应该标在 0 的左边。」
+  teaching_boundary:
+    scope_allowed:
+    - 判断 0 的正负
+    - 说明 0 的分界作用
+    - 在数轴上标出负数
+    scope_excluded:
+    - 数系中 0 的特殊地位
+    - 数学史中「零」的引入
+- point_id: math-g6-t1-u04-p04
+  unit_id: unit-04
+  lesson_id: math-g6-t1-u04-l04
+  subject: math
+  grade: 6
+  term: term-1
+  point_name: 负数的历史与简单应用
+  learning_objectives:
+  - 能了解负数在我国数学史上的记载
+  - 能用负数表示「小数减大数」的结果
+  applicable_question_types:
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g6_t1_2024
+    page_ref:
+    - P47
+    anchor_text: P47：刘徽「正算赤、负算黑」；「有了负数，小的数减大的数的结果就可以表示出来，例如 8−10=−2，20−30=−10」。
+  teaching_boundary:
+    scope_allowed:
+    - 了解负数的历史
+    - 用负数表示减法结果
+    - 说出负数的作用
+    scope_excluded:
+    - 负数在数学史上的发展
+    - 有符号数的运算

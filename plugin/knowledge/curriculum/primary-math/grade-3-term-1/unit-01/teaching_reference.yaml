@@ -1,0 +1,67 @@
+unit_id: "unit-1"
+source_id: "pep_math_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《2025年秋人教版教师教学用书数学三年级上册》
+  （409 页扫描件，OCR 解析）核定。第一单元《观察物体》位于教参 P1–P21：
+  总体设计、教材分析、教学设计案例（课题1 观察物体 P10、课题2 长方体纸盒的展开图 P14）、
+  拓展资源 P17、评价建议及样例 P19。
+teaching_references:
+  - point_id: "math-g3-t1-u01-p01"
+    ref_book: "人教版《教师教学用书》数学三年级上册第一单元"
+    ref_page: "P4-P9"
+    pedagogical_focus:
+      key_point: "在「观察—想象—验证」的活动中建立从不同方向观察物体的空间观念"
+      difficulty: "学生易凭生活经验想当然，不习惯从指定方向逐一观察并比对，导致把「自己看到的样子」当成「所有人看到的样子」"
+      typical_misconceptions:
+        - error_pattern: "认为不同方向看到的形状都一样，或把左右方向看到的图形当作完全对称而混选"
+          misconception_type: "空间表象缺失，以自我为中心观察"
+        - error_pattern: "观察组合体时忽略被遮挡的小正方体，漏看某些方向可见的面"
+          misconception_type: "遮挡关系判断错误"
+    variation_strategy:
+      - "先摆后看：用小正方体摆出组合体，再从四个方向拍照或画出看到的样子"
+      - "连线配对题：把观察者与所见图形对应起来"
+
+  - point_id: "math-g3-t1-u01-p02"
+    ref_book: "人教版《教师教学用书》数学三年级上册第一单元"
+    ref_page: "P4-P9"
+    pedagogical_focus:
+      key_point: "由「看到一个面」逆推「整体是什么」，体会结论的不唯一性与推理的严谨"
+      difficulty: "学生容易由「看到一个正方形面」直接断定是正方体，缺乏多方向验证的意识"
+      typical_misconceptions:
+        - error_pattern: "看到的一个面是正方形，就直接判定为正方体（忽略长方体和圆柱的可能）"
+          misconception_type: "以偏概全，单凭一个方向下结论"
+        - error_pattern: "正方体相对面数字和为 7 的推理中，把相邻面误当相对面"
+          misconception_type: "相对位置判断错误"
+    variation_strategy:
+      - "排除法：给出多个方向的观察结果，逐步排除不可能的立体图形"
+      - "正方体骰子相对面问题：已知三面数字，推相对面"
+
+  - point_id: "math-g3-t1-u01-p03"
+    ref_book: "人教版《教师教学用书》数学三年级上册第一单元"
+    ref_page: "P10-P16"
+    pedagogical_focus:
+      key_point: "通过剪、围、折的动手操作，建立立体图形与其展开图的对应关系"
+      difficulty: "「最少剪开几条边」的推理对三年级学生偏难，需借助「每个面至少有一条边与其他面相连」这一条件"
+      typical_misconceptions:
+        - error_pattern: "认为剪开的边越多越容易平铺，或数不清需要剪开的棱数"
+          misconception_type: "对展开图与棱的关系缺乏理解"
+        - error_pattern: "在展开图上标相对面时，把相邻的面标成相对面"
+          misconception_type: "空间折叠想象不到位"
+    variation_strategy:
+      - "动手操作题：用附页图形剪一剪、围一围、标一标"
+      - "展开图找相对面：在展开图上用相同符号标出相对的面"
+
+  - point_id: "math-g3-t1-u01-p04"
+    ref_book: "人教版《教师教学用书》数学三年级上册第一单元"
+    ref_page: "P10-P16"
+    pedagogical_focus:
+      key_point: "由平面展开图想象折叠后的立体图形，发展空间想象与几何直观"
+      difficulty: "「田字型」「凹字型」等非标准展开图能否折成正方体的判断容易出错"
+      typical_misconceptions:
+        - error_pattern: "认为只要由 6 个正方形组成就能折成正方体"
+          misconception_type: "忽视面的重叠与缺失"
+        - error_pattern: "折叠后出现两个面重叠、另有位置空缺，仍判定为可以折成"
+          misconception_type: "折叠过程想象错误"
+    variation_strategy:
+      - "判断题：给出 4 个由 6 个正方形组成的图形，判断哪些能折成正方体"
+      - "动手验证：把附页 2 的图形剪下来实际折一折再判断"

@@ -1,0 +1,86 @@
+unit_id: unit-03
+source_id: pep_math_g1_t2_2024
+points:
+- point_id: math-g1-t2-u03-p01
+  unit_id: unit-03
+  lesson_id: math-g1-t2-u03-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 100 以内数的数数与组成（几个十和几个一）
+  learning_objectives:
+  - 数出 100 以内物体的个数；说出一个数由几个十和几个一组成
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P23
+    - P42
+    anchor_text: 单元起始页 P23 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 用数表示 100 以内物体的个数
+    - 说出数的组成
+    scope_excluded:
+    - 数位表的使用
+    - 100 以上数的认识
+- point_id: math-g1-t2-u03-p02
+  unit_id: unit-03
+  lesson_id: math-g1-t2-u03-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 100 以内数的读写与数位（个位、十位、百位）
+  learning_objectives:
+  - 会读、写 100 以内的数；知道个位、十位、百位及其计数单位
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P23
+    - P42
+    anchor_text: 单元起始页 P23 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 100 以内数的读写
+    - 数位的名称与计数单位
+    scope_excluded:
+    - 万以内数的读写
+    - 数位的值（位值制）的系统认识
+- point_id: math-g1-t2-u03-p03
+  unit_id: unit-03
+  lesson_id: math-g1-t2-u03-l01
+  subject: math
+  grade: 1
+  term: term-2
+  point_name: 100 以内数的大小比较与顺序
+  learning_objectives:
+  - 会比较 100 以内数的大小，掌握数的顺序
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_math_g1_t2_2024
+    page_ref:
+    - P23
+    - P42
+    anchor_text: 单元起始页 P23 依课本目录登记；正文超出可读区间，具体例题原文待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 100 以内数的顺序与大小比较
+    scope_excluded:
+    - 用不等式表示比较结果
+    - 100 以上数的大小比较

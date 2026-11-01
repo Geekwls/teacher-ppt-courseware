@@ -1,0 +1,211 @@
+unit_id: "unit-4"
+source_id: "pep_math_g3_t1_2024"
+points:
+  - point_id: "math-g3-t1-u04-p01"
+    lesson_id: "lesson-01"
+    point_name: "整十、整百、整千数乘一位数的口算"
+    learning_objectives:
+      - "理解整十、整百数乘一位数的口算算理（几个十/百乘几得几十/几百）"
+      - "熟练掌握先用乘法口诀计算表内乘法，再在积的末尾添相应个数0的算法"
+    prerequisites:
+      - "表内乘法口诀（1-9）"
+      - "万以内数的认识与数的组成"
+    subsequent_points:
+      - "math-g3-t1-u04-p02"
+    applicable_question_types: ["calculation", "fill_blank", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "整十数乘一位数（如 20×3, 40×6, 70×8）"
+        - "整百数乘一位数（如 300×4, 500×6）"
+        - "整千数乘一位数（如 2000×3, 4000×2）"
+      scope_excluded:
+        - "整十数乘整十数（三年级下册）"
+        - "除法口算"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [40]
+      example_ref: ["ex_1"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u04-p02"
+    lesson_id: "lesson-02"
+    point_name: "两位数乘一位数口算（不进位）"
+    learning_objectives:
+      - "掌握两位数乘一位数（不进位）的分步口算方法"
+      - "理解先算几十乘几，再算几个一乘几，最后将两部分相加的算理"
+    prerequisites:
+      - "math-g3-t1-u04-p01"
+      - "百以内两位数加法"
+    subsequent_points:
+      - "math-g3-t1-u04-p03"
+    applicable_question_types: ["calculation", "fill_blank", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "十位和个位与乘数相乘均不进位的算式（如 12×3, 23×2, 41×2, 32×3）"
+      scope_excluded:
+        - "任何数位满十进位的口算（如 14×3, 25×4，此类归入笔算进位）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [40]
+      example_ref: ["ex_2"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u04-p03"
+    lesson_id: "lesson-03"
+    point_name: "两、三位数乘一位数的笔算（不进位）"
+    learning_objectives:
+      - "掌握乘法竖式的规范书写格式"
+      - "理解从个位乘起的算理，一位数分别乘各数位上的数，积与相应数位对齐"
+    prerequisites:
+      - "math-g3-t1-u04-p02"
+    subsequent_points:
+      - "math-g3-t1-u04-p04"
+    applicable_question_types: ["calculation", "fill_blank", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "两位数乘一位数不进位竖式（如 14×2, 23×3）"
+        - "三位数乘一位数不进位竖式（如 123×2, 213×3, 312×2）"
+      scope_excluded:
+        - "任何涉及进位的笔算乘法"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [43]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u04-p04"
+    lesson_id: "lesson-04"
+    point_name: "两、三位数乘一位数的笔算（一次进位）"
+    learning_objectives:
+      - "掌握个位乘积满十向十位进位、或十位乘积满十向百位进位的笔算方法"
+      - "明确相乘后必须加上进位数的计算法则"
+    prerequisites:
+      - "math-g3-t1-u04-p03"
+    subsequent_points:
+      - "math-g3-t1-u04-p05"
+    applicable_question_types: ["calculation", "fill_blank", "choice", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "仅有一个数位发生进位的笔算（如 16×3=48, 28×2=56, 128×2=256）"
+      scope_excluded:
+        - "连续两个或两个以上数位进位（放入 p05 考查）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [44]
+      example_ref: ["ex_4"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u04-p05"
+    lesson_id: "lesson-04"
+    point_name: "两、三位数乘一位数的笔算（连续进位）"
+    learning_objectives:
+      - "掌握乘法连续进位的笔算方法：哪一位满几十就向前一位进几"
+      - "能正确处理十位相乘加进位数后再次向百位进位的情况"
+    prerequisites:
+      - "math-g3-t1-u04-p04"
+    subsequent_points:
+      - "math-g3-t1-u04-p06"
+    applicable_question_types: ["calculation", "fill_blank", "choice", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "两位数乘一位数连续进位（如 24×9, 48×7, 86×5）"
+        - "三位数乘一位数连续进位（如 137×6, 258×4, 389×3）"
+      scope_excluded:
+        - "积超过四位数的超大数乘法（超过10000）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [45]
+      example_ref: ["ex_5"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u04-p06"
+    lesson_id: "lesson-05"
+    point_name: "有关 0 的乘法规律"
+    learning_objectives:
+      - "理解 0 和任何数相乘都得 0 的算理"
+      - "能准确区分 0 和一个数相乘得 0 与 0 和一个数相加得原数"
+    prerequisites:
+      - "乘法的现实意义（相同加数的和）"
+    subsequent_points:
+      - "math-g3-t1-u04-p07"
+    applicable_question_types: ["calculation", "fill_blank", "choice"]
+    teaching_boundary:
+      scope_allowed:
+        - "0×a 或 a×0（如 0×7=0, 8×0=0, 0×0=0）"
+        - "含 0 乘加或乘减混合判断（如 0×5+5=5）"
+      scope_excluded:
+        - "除数为0（未定义运算）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [49]
+      example_ref: ["ex_6"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u04-p07"
+    lesson_id: "lesson-05"
+    point_name: "因数中间有 0 的乘法笔算"
+    learning_objectives:
+      - "掌握一个因数中间有 0 的笔算乘法法则"
+      - "理解中间 0 也要参与相乘，加上进位数；打破“中间有0积中间一定有0”的思维定势"
+    prerequisites:
+      - "math-g3-t1-u04-p05"
+      - "math-g3-t1-u04-p06"
+    subsequent_points:
+      - "math-g3-t1-u04-p08"
+    applicable_question_types: ["calculation", "fill_blank", "choice", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "三位数因数中间有0乘一位数（如 504×3, 608×4, 702×6, 805×2）"
+      scope_excluded:
+        - "两个因数中间都有0（如 504×302，高年级）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [50]
+      example_ref: ["ex_7"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u04-p08"
+    lesson_id: "lesson-05"
+    point_name: "因数末尾有 0 的乘法笔算"
+    learning_objectives:
+      - "掌握因数末尾有 0 的乘法简便算法（竖式简写）"
+      - "能正确确定乘得的积末尾 0 的个数（注意相乘自身产生的 0 与末尾原有 0 的累加）"
+    prerequisites:
+      - "math-g3-t1-u04-p01"
+      - "math-g3-t1-u04-p05"
+    subsequent_points:
+      - "math-g3-t1-u04-p09"
+    applicable_question_types: ["calculation", "fill_blank", "choice", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "两、三位数末尾有0乘一位数（如 280×3, 450×4, 600×7）"
+      scope_excluded:
+        - "两位数乘两位数末尾有0"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [50]
+      example_ref: ["ex_8"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u04-p09"
+    lesson_id: "lesson-06"
+    point_name: "多位数乘一位数的估算与实际应用"
+    learning_objectives:
+      - "掌握两、三位数乘一位数的估算方法（把因数看作整十、整百数）"
+      - "能根据实际情境选择“往大估”或“往小估”来解决实际问题（如带钱够不够、装车能不能装下）"
+    prerequisites:
+      - "math-g3-t1-u04-p01"
+      - "求近似数与大小比较"
+    subsequent_points: []
+    applicable_question_types: ["choice", "fill_blank", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "结合实际情境的乘法估算（如 29×8≈240, 48×5≈250）"
+        - "通过估算判断钱数是否足够、座位是否够坐"
+      scope_excluded:
+        - "四舍五入精确求商或复杂除法估算"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [51]
+      example_ref: ["ex_9"]
+    verification_status: "verified"

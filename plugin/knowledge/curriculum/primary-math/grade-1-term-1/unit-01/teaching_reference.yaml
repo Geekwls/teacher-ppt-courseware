@@ -1,0 +1,74 @@
+unit_id: unit-01
+source_id: pep_math_g1_t1_tr_2024
+ref_page_note: ''
+teaching_references:
+- point_id: math-g1-t1-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「数—物对应」为核心，先数后认再写，重视田字格中的书写规范
+    difficulty: 学生易在书写时笔画方向颠倒（如 2、5），或数数时手口不一
+    typical_misconceptions:
+    - error_pattern: 书写 2、5 时笔画方向颠倒、起笔位置错误
+      misconception_type: 书写习惯与空间知觉
+    - error_pattern: 认数停留在背诵顺序，不能与实物数量对应
+      misconception_type: 数感未建立
+  variation_strategy:
+  - 拨一拨、数一数：用小棒摆出指定的数
+  - 照样子圈一圈、连一连，把数与物体的个数对应起来
+- point_id: math-g1-t1-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 借助实物一一对应理解「同样多」「多」「少」，再抽象为符号
+    difficulty: 「＞」「＜」开口方向易混淆，误以为开口朝大数「张开」即写成「＜」
+    typical_misconceptions:
+    - error_pattern: 把「3＜4」写成「3＞4」，符号开口方向错误
+      misconception_type: 符号形义混淆
+    - error_pattern: 只比较图形大小而非数量多少
+      misconception_type: 比较标准偏移
+  variation_strategy:
+  - 用一一对应连线比较两组数量并填符号
+  - 读一读：3＞2 读作「3 大于 2」，并说说谁大谁小
+- point_id: math-g1-t1-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在排队情境中体会序数是「位置」，基数是「数量」
+    difficulty: 数序数时起点不清，或把「第4只」理解成「4只」
+    typical_misconceptions:
+    - error_pattern: 把「第4只」涂色涂成前 4 只
+      misconception_type: 序数与基数混淆
+    - error_pattern: 从右往左数时仍按从左往右数
+      misconception_type: 方向与起点意识薄弱
+  variation_strategy:
+  - 从左边数、从右边数，说出同一物体的不同序号
+  - 根据「第几」的描述摆出物体
+- point_id: math-g1-t1-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 通过摆一摆、分一分建立数的组成表象，为加减法做准备
+    difficulty: 分法遗漏或重复，未按顺序穷举
+    typical_misconceptions:
+    - error_pattern: 只能说出部分分法，遗漏「1 和 4」这类组合
+      misconception_type: 有序思考不足
+    - error_pattern: 把「5 可以分成 2 和 3」与「2 和 3 组成 5」割裂理解
+      misconception_type: 双向关系未建立
+  variation_strategy:
+  - 摆一摆并有序记录 5 的所有分法
+  - 玩「对口令」：师说「5 可以分成 2 和几」，生答
+- point_id: math-g1-t1-u01-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在分与合的基础上建立加减法意义，重视「看图说意—列式—说理」的完整过程
+    difficulty: 看图列式时算式与图意不符（把减法图写成加法式）
+    typical_misconceptions:
+    - error_pattern: 看图列式时加号、减号选错
+      misconception_type: 运算意义理解偏差
+    - error_pattern: 计算 5 以内加减法仍依赖数手指，不能由数的组成直接得出
+      misconception_type: 算理未内化
+  variation_strategy:
+  - 看图说三句话（已知—已知—问题）再列式
+  - 根据算式 5−2=3 编一个数学故事

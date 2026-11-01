@@ -1,0 +1,21 @@
+unit_id: "unit-7"
+unit_number: 7
+unit_name: "第七单元 小数的初步认识"
+subject: "math"
+edition: "人教版"
+grade: 3
+term: "term-2"
+version: "2026.10.1"
+updated_at: "2026-10-09"
+verification_status: "verified"
+source_id: "pep_math_g3_t2_2024"
+teaching_ref_source_id: "pep_math_g3_t2_tr_2026"
+page_range: "P86-P94"
+numeric_upper_bound: 1000
+curriculum_standard_ref: "义务教育数学课程标准（2022年版）数与代数领域·数的认识与运算"
+unit_overview: >
+  本单元是在学生熟练掌握万以内整数、初步认识分数（分母是10的十进分数）以及元角分、米分米等常见计量单位的基础上进行教学的。
+  让学生经历小数产生的过程，体会引入小数的必要性。
+  掌握一位小数的含义：十分之几可以用零点几表示；熟练读写一位小数；
+  结合具体实物量及数轴比较一位小数的大小；
+  掌握简单的一位小数加法、减法竖式计算方法，深刻理解‘小数点对齐就是相同数位对齐’的算理，发展数感与运算能力。

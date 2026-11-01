@@ -1,0 +1,58 @@
+unit_id: unit-06
+blueprints:
+- blueprint_id: bp-math-g4-t1-u06-standard
+  title: 第五单元 平行四边形和梯形标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填（平行与垂直）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 6
+    target_points:
+    - math-g4-t1-u06-p01
+    guidelines: 填写两条直线的位置关系与平行、垂直的概念。
+  - slot_id: slot-02
+    section: 二、判一判（图形特征）
+    question_type: choice
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - math-g4-t1-u06-p02
+    guidelines: 判断关于平行四边形和梯形特征的说法是否正确。
+  - slot_id: slot-03
+    section: 三、画一画
+    question_type: writing
+    difficulty: variation
+    points_per_item: 8
+    item_count: 3
+    target_points:
+    - math-g4-t1-u06-p01
+    - math-g4-t1-u06-p02
+    guidelines: 画出平行四边形的高、过一点画已知直线的垂线。
+  - slot_id: slot-04
+    section: 四、分一分（四边形分类）
+    question_type: fill_blank
+    difficulty: variation
+    points_per_item: 6
+    item_count: 3
+    target_points:
+    - math-g4-t1-u06-p02
+    guidelines: 把给出的四边形按特征分类。
+  - slot_id: slot-05
+    section: 五、解决问题
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 9
+    item_count: 2
+    target_points:
+    - math-g4-t1-u06-p02
+    guidelines: 用平行四边形和梯形的特征解决简单问题。

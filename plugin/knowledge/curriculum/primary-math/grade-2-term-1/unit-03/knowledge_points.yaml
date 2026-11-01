@@ -1,0 +1,87 @@
+unit_id: unit-03
+source_id: pep_math_g2_t1_2024
+points:
+- point_id: math-g2-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: math-g2-t1-u03-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 平均分与除法的初步认识
+  learning_objectives:
+  - 理解平均分的含义，会把一些物体平均分成几份或按每几个一份来分；认识除法算式及各部分名称
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P30
+    - P33
+    anchor_text: 课本 P30-P33 实证：秋游分面包/糖果情境认识平均分（每份分得同样多）；P33 熊猫分竹笋认识除法算式（12÷4=3，被除数、除号、除数、商，读作12除以4等于3）。
+  teaching_boundary:
+    scope_allowed:
+    - 平均分的两种分法
+    - 除法算式的读写与各部分名称
+    scope_excluded:
+    - 有余数的除法（二年级下册）
+    - 除法的竖式
+- point_id: math-g2-t1-u03-p02
+  unit_id: unit-03
+  lesson_id: math-g2-t1-u03-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 用 2～6 的乘法口诀求商
+  learning_objectives:
+  - 会用 2～6 的乘法口诀求商，理解「想乘法算除法」的方法
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P34
+    - P40
+    anchor_text: 课本 P34-P40 例1/例2 实证：分桃子（12÷3=4，想：(四)三十二，商是4）与分羽毛球，掌握“想乘算除”求商方法。
+  teaching_boundary:
+    scope_allowed:
+    - 用乘法口诀求商
+    - 乘除法之间的关系
+    scope_excluded:
+    - 有余数除法的求商
+    - 两位数除以一位数
+- point_id: math-g2-t1-u03-p03
+  unit_id: unit-03
+  lesson_id: math-g2-t1-u03-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 用表内除法解决实际问题
+  learning_objectives:
+  - 能在情境中识别「平均分」的数量关系，用除法解决并说清理由
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P41
+    - P48
+    anchor_text: 课本 P41-P48 解决问题实证：15条金鱼平均放在3个鱼缸里每个缸放几条（等分除，15÷3=5条）；15条金鱼每个鱼缸放5条需要几个鱼缸（包含除，15÷5=3个）。
+  teaching_boundary:
+    scope_allowed:
+    - 用除法解决平均分类实际问题
+    - 辨析「等分除」与「包含除」
+    scope_excluded:
+    - 两步问题
+    - 有余数除法问题

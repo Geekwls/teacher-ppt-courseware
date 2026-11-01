@@ -1,0 +1,67 @@
+lessons:
+- lesson_id: math-g4-t1-u03-l01
+  unit_id: unit-03
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 1
+  lesson_name: 角的再认识
+  page_range: P28
+  official_examples:
+  - 角可以看作由一条射线绕着它的端点，从一个位置旋转到另一个位置所形成的图形。
+  - 一条射线绕它的端点旋转半周，形成平角；旋转一周，形成周角。
+  - 一条射线绕它的端点旋转不到 1/4 周，形成锐角；旋转超过 1/4 周但不到半周，形成钝角。
+- lesson_id: math-g4-t1-u03-l02
+  unit_id: unit-03
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 2
+  lesson_name: 锐角、直角、钝角、平角和周角的关系
+  page_range: P29
+  official_examples:
+  - 比一比它们的大小：锐角 < 直角 < 钝角 < 平角 < 周角。
+  - 1 周角 =（2）平角 =（4）直角。
+- lesson_id: math-g4-t1-u03-l03
+  unit_id: unit-03
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 3
+  lesson_name: 角的度量单位与量角器
+  page_range: P30
+  official_examples:
+  - 人们将圆平均分成 360 份，将其中 1 份所对的角作为度量角的单位，它的大小就是 1 度，记作 1°。
+  - 1 周角 = 360°，1 平角 = 180°，1 直角 = 90°。
+  - 量角器是把半圆分成 180 等份制成的，有中心、0° 刻度线。
+- lesson_id: math-g4-t1-u03-l04
+  unit_id: unit-03
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 4
+  lesson_name: 量角
+  page_range: P31
+  official_examples:
+  - 量角的步骤是：（1）把量角器的中心与角的顶点重合，0° 刻度线与角的一条边重合。（2）角的另一条边所对的量角器上的刻度，就是这个角的度数。
+- lesson_id: math-g4-t1-u03-l05
+  unit_id: unit-03
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 5
+  lesson_name: 画角
+  page_range: P32
+  official_examples:
+  - 画一个 60° 的角。画角的步骤是：（1）画一条射线，使量角器的中心和射线的端点重合，0° 刻度线和射线重合。（2）在量角器 60° 刻度线的地方点一个点。（3）以画出的射线的端点为端点，通过刚画的点，再画一条射线。
+- lesson_id: math-g4-t1-u03-l06
+  unit_id: unit-03
+  subject: math
+  grade: 4
+  term: term-1
+  lesson_number: 6
+  lesson_name: 练习五、练习六与整理和复习
+  page_range: P33-P38
+  official_examples:
+  - 量一量，算一算：一副三角尺可以拼出哪些度数的角？
+  - （1）线段的长度包含了（  ）个 1 cm；（2）长方形的面积包含了（  ）个 1 cm²；（3）角的大小包含了（  ）个 1°。我发现：测量长度、测量面积、测量角都是看被测量的图形包含了多少个相应的（度量单位）。

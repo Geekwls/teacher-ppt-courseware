@@ -1,0 +1,141 @@
+unit_id: unit-01
+source_id: pep_math_g2_t1_2024
+points:
+- point_id: math-g2-t1-u01-p01
+  unit_id: unit-01
+  lesson_id: math-g2-t1-u01-l01
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 按给定的标准分类并用图文或表格记录结果
+  learning_objectives:
+  - 能按给定的标准对物体进行分类，并数出每类的数量
+  - 能用涂一涂、画一画或表格的方式记录分类结果
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P1
+    - P2
+    anchor_text: P1「把下面的气球分类」：「按形状分类，每种气球各有几个？将结果表示出来。哪种气球最多？哪种最少？」「我边数边画。」「我先分再数。」；P2「按形状分一分，再涂一涂、填一填。」
+  teaching_boundary:
+    scope_allowed:
+    - 按给定标准分类并计数
+    - 用图或表格记录分类结果
+    scope_excluded:
+    - 分类标准的选择与比较（后续课时）
+    - 复式统计表与条形统计图
+- point_id: math-g2-t1-u01-p02
+  unit_id: unit-01
+  lesson_id: math-g2-t1-u01-l02
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 分类标准不同，结果可能不同但总数不变
+  learning_objectives:
+  - 知道同一组物体可以按不同的标准分类
+  - 理解「分类标准不同，结果可能不同，但总数不变」
+  applicable_question_types:
+  - choice
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P3
+    - P4
+    anchor_text: P3：「我按大人和孩子分。」「我按性别分。」「分类标准不同，结果可能不同，但总数不变。」；P4「将下面的动物分成两类，可以怎样分？」「把下面的衣服分成两类，将结果整理在表格中。」
+  teaching_boundary:
+    scope_allowed:
+    - 按不同标准给同一组物体分类
+    - 说明「总数不变」的道理
+    scope_excluded:
+    - 用分类数据做预测
+    - 平均数的意义
+- point_id: math-g2-t1-u01-p03
+  unit_id: unit-01
+  lesson_id: math-g2-t1-u01-l03
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 逐层分类：按一定标准分类后还可以继续分
+  learning_objectives:
+  - 理解「按一定标准分类后，还可以再分」
+  - 能对一组物体进行两次以上的逐层分类并记录结果
+  applicable_question_types:
+  - choice
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P5
+    - P6
+    anchor_text: P5「这些纽扣怎样分类？」「可以再按颜色继续分……」；P6「第二次分类的结果，还可以继续分吗？」「我发现按一定标准分类后，还可以再分。」「我发现不管按什么顺序分类，最后都分成了8类。」
+  teaching_boundary:
+    scope_allowed:
+    - 对同一组物体进行逐层分类
+    - 说出逐层分类后的结果
+    scope_excluded:
+    - 树形图与集合的正式表示
+    - 组合计数（乘法原理）
+- point_id: math-g2-t1-u01-p04
+  unit_id: unit-01
+  lesson_id: math-g2-t1-u01-l04
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 用表格整理数据并回答简单问题
+  learning_objectives:
+  - 能把调查得到的数据整理到表格中
+  - 能根据整理后的数据回答「最多/最少」等简单问题，并自己提出数学问题
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P7
+    - P8
+    anchor_text: P7「根据上图填写下表并回答问题。（1）最喜欢哪种动物的人数最多？（2）你还能提出什么数学问题？」；P8「按形状分类，填写下表。」「将这些算式分成两类，可以怎样分？把分类的结果记录在下表中。」
+  teaching_boundary:
+    scope_allowed:
+    - 填写简单统计表
+    - 根据数据回答并提问
+    scope_excluded:
+    - 条形统计图的绘制与解读
+    - 平均数的计算
+- point_id: math-g2-t1-u01-p05
+  unit_id: unit-01
+  lesson_id: math-g2-t1-u01-l05
+  subject: math
+  grade: 2
+  term: term-1
+  point_name: 自定标准分类并交流分类结果
+  learning_objectives:
+  - 能自主确定分类标准并说明理由
+  - 能用自己喜欢的方式（图、表、符号）表示分类结果并与同伴交流
+  applicable_question_types:
+  - reading
+  - writing
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t1_2024
+    page_ref:
+    - P9
+    anchor_text: P9「把全班同学分为两组，你想怎样分？用自己喜欢的方式表示分类的结果，并与同伴交流。」「成长小档案：用图表表示分类的结果真清楚啊！」
+  teaching_boundary:
+    scope_allowed:
+    - 自定标准分类并说明理由
+    - 用多种方式表示分类结果
+    scope_excluded:
+    - 统计图表的正式绘制规范

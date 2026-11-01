@@ -1,0 +1,39 @@
+unit_id: unit-06
+blueprints:
+- blueprint_id: bp-math-g6-t1-u06-standard
+  title: 综合与实践 体育中的数学标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 5
+    item_count: 6
+    target_points:
+    - math-g6-t1-u06-p01
+    guidelines: 根据体育情境填写数量关系。
+  - slot_id: slot-02
+    section: 二、解决问题
+    question_type: reading
+    difficulty: variation
+    points_per_item: 10
+    item_count: 4
+    target_points:
+    - math-g6-t1-u06-p01
+    guidelines: 解决体育情境中的数学问题。
+  - slot_id: slot-03
+    section: 三、实践与设计
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 15
+    item_count: 2
+    target_points:
+    - math-g6-t1-u06-p01
+    guidelines: 自主提出并解决一个体育中的数学问题。

@@ -1,0 +1,74 @@
+unit_id: unit-01
+source_id: pep_math_g2_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2025年秋人教版教师教学用书数学二年级上册》为**纯扫描件（270 页，无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g2-t1-u01-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 让学生经历「分—数—记」的完整过程，体会分类整理后更容易数出每类物品
+    difficulty: 学生易在分类时漏掉或重复某个物体，导致每类数量之和不等于总数
+    typical_misconceptions:
+    - error_pattern: 分类后各类数量之和与总数不符
+      misconception_type: 分类遗漏或重复
+    - error_pattern: 只分类不记录，无法比较多少
+      misconception_type: 数据记录意识缺失
+  variation_strategy:
+  - 按形状给气球分类并填写统计表
+  - 比较「按形状分」与「按颜色分」的结果有什么不同
+- point_id: math-g2-t1-u01-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 通过同一组物体的两次分类，突出「标准决定结果、总数恒定」
+    difficulty: 学生易认为「分类结果不同」就是「数错了」
+    typical_misconceptions:
+    - error_pattern: 两次分类总数不同却认为都对
+      misconception_type: 未把握「总数不变」
+    - error_pattern: 不会主动提出第二种分类标准
+      misconception_type: 分类标准意识单一
+  variation_strategy:
+  - 同一组同学按性别分、按身高分，比较两次结果
+  - 说出为什么两次分类的总数相同
+- point_id: math-g2-t1-u01-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 在纽扣情境中体会逐层分类，感受「分到最后结果相同」
+    difficulty: 学生易只做一次分类，或逐层分类时漏掉某一分支
+    typical_misconceptions:
+    - error_pattern: 只按形状分一次即认为分类完成
+      misconception_type: 逐层分类意识缺失
+    - error_pattern: 逐层分类时遗漏某个子类
+      misconception_type: 层级结构不清
+  variation_strategy:
+  - 给纽扣先按形状分、再按颜色分，画出分类结果
+  - 思考：如果做一件新衣服需要2粒相同的扣子，有几种选择？
+- point_id: math-g2-t1-u01-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 由「用符号记录」过渡到「用表格记录」，为后续统计学习奠基
+    difficulty: 学生易在数符号时数错，或填表时类别与数据不对应
+    typical_misconceptions:
+    - error_pattern: 统计表中类别与数据错位
+      misconception_type: 记录不严谨
+    - error_pattern: 能读出数据但不能提出新问题
+      misconception_type: 提问意识不足
+  variation_strategy:
+  - 调查本班同学的生日月份并填表
+  - 根据表格提出并回答一个问题
+- point_id: math-g2-t1-u01-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 开放任务重在表达分类标准与理由，体会分类的价值
+    difficulty: 学生易随意分类、说不出标准
+    typical_misconceptions:
+    - error_pattern: 分类后说不出分类标准
+      misconception_type: 标准意识缺失
+    - error_pattern: 表示方式单一，只会用文字罗列
+      misconception_type: 表征方式不足
+  variation_strategy:
+  - 把全班同学分为两组并说明分类标准
+  - 互评：谁的分类结果表示得更清楚？为什么？

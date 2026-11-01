@@ -1,0 +1,16 @@
+unit_id: unit-01
+unit_name: 第一单元 大自然的奥秘
+subject: chinese
+edition: 统编版
+grade: 2
+term: term-1
+version: 2026.10.3
+updated_at: '2026-10-14'
+verification_status: verified
+source_id: pep_chinese_g2_t1_2026
+teaching_reference_source_id: pep_chinese_g2_t1_tr_2026
+page_range: P1-P15
+page_evidence_note: 依据用户提供的《2026版人教统编版小学语文二年级上册电子课本.pdf》（126页全本实测）逐页对齐核验：本单元真实印刷页码为
+  P1-P15，全文收录官方课文、写字表与词语表，已取得完整实证证据链，状态晋级为 verified。
+unit_overview: 阅读单元：安排《小蝌蚪找妈妈》《我是什么》《植物妈妈有办法》三篇课文与语文园地一、快乐读书吧。以「大自然的奥秘」为主题，引导学生借助图画和上下文按顺序讲故事，积累动词短语与句式。
+numeric_upper_bound: null

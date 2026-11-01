@@ -1,0 +1,18 @@
+unit_id: unit-04
+source_id: pep_english_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教版PEP小学英语六年级上册教师用书》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: eng-g6-t1-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「我的零花钱计划」为主题，让学生学习金钱词汇与谈论计划的句型
+    difficulty: 学生易把 be going to 与 will 混用
+    typical_misconceptions:
+    - error_pattern: be going to 与 will 混用
+      misconception_type: 时态混淆
+    - error_pattern: 金钱词汇拼写错误
+      misconception_type: 拼写不牢
+  variation_strategy:
+  - 说出与金钱有关的词汇
+  - 用英语谈论自己的零花钱计划

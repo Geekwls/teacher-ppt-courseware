@@ -1,0 +1,79 @@
+unit_id: "unit-6"
+blueprints:
+  - blueprint_id: "bp-eng-g3-t1-u06-standard"
+    title: "Unit 6 Useful numbers 标准练习卷蓝图"
+    target_practice: "单元基础达标与数字应用生活素养提升练习（6:3:1 阶梯）"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、字母乐园 (Letters & Phonics)（20分）
+      - slot_id: "slot-01"
+        section: "一、字母乐园：规范书写与大小写配对"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u06-p01"]
+        guidelines: "考查字母表中最后5个字母 Vv, Ww, Xx, Yy, Zz 的大小写对应、四线三格占位与按字母表顺序填空（特别关注小写 y 占中下格）。"
+
+      - slot_id: "slot-02"
+        section: "二、拼读侦探：字母发音与例词拼读"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u06-p02"]
+        guidelines: "考查 Vv-Zz 在核心词汇（van, win, box, six, yellow, quiz）中的发音，词尾复合音 /ks/ 识别及 CVC 拼读（wet, vat）。"
+
+      # 二、词汇天地 (Vocabulary & Math Crossing)（20分）
+      - slot_id: "slot-03"
+        section: "三、词汇天地：选出不同类的一项"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u06-p03", "eng-g3-t1-u06-p07"]
+        guidelines: "选出每组不同类的词汇（如数字单词与颜色/水果混排、奇偶数概念 odd/even 辨析）。"
+
+      - slot_id: "slot-04"
+        section: "四、看图数数与奇偶数填空"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["eng-g3-t1-u06-p03", "eng-g3-t1-u06-p07"]
+        guidelines: "根据图片物品数量写出对应英文数字（one to ten），或将数字按 odd 和 even 归类填空。"
+
+      # 三、情境交际 (Contextual Communication)（20分）
+      - slot_id: "slot-05"
+        section: "五、情境交际单项选择"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u06-p04", "eng-g3-t1-u06-p05", "eng-g3-t1-u06-p06"]
+        guidelines: "考查 How old are you? 及其答语、How many + 复数名词? 提问、That's ten yuan, please. 及付款回应 Here you are 的真实语境运用。"
+
+      # 四、图文算术与生活数量连线 (Matching & Application)（20分）
+      - slot_id: "slot-06"
+        section: "六、生活数量手拉手与问答配对"
+        question_type: "match"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u06-p04", "eng-g3-t1-u06-p05", "eng-g3-t1-u06-p06"]
+        guidelines: "将问句与对应生活答语连线（如 How old are you? - I'm five years old; How many apples? - Two; That's ten yuan - Here you are）。"
+
+      # 五、阅读理解与探究大问题 (Reading & Challenge)（20分）
+      - slot_id: "slot-07"
+        section: "七、阅读短文并完成任务（生日派对与有用数字）"
+        question_type: "reading_comprehension"
+        difficulty: "challenge"
+        points_per_item: 4
+        item_count: 5
+        target_points: ["eng-g3-t1-u06-p03", "eng-g3-t1-u06-p04", "eng-g3-t1-u06-p07"]
+        guidelines: "阅读关于生日邀请函或筹备派对的短篇语篇（约35-45词），根据文章提取时间、年龄与数量信息完成判断正误或选择，回答单元大问题'Why are numbers important?'。"

@@ -1,0 +1,18 @@
+unit_id: unit-05
+source_id: pep_english_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教版PEP小学英语四年级上册教师用书》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: eng-g4-t1-u05-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「今天的天气」为话题，让学生在看图、听音中学习天气词汇
+    difficulty: 学生易把天气词与名词混用
+    typical_misconceptions:
+    - error_pattern: 天气词词性混用
+      misconception_type: 词性错误
+    - error_pattern: 句型 What's the weather like? 结构错误
+      misconception_type: 句型掌握不牢
+  variation_strategy:
+  - 说出常见天气词汇
+  - 用英语谈论天气并给出建议

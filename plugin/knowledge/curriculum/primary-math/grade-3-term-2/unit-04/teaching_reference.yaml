@@ -1,0 +1,74 @@
+unit_id: "unit-4"
+source_id: "pep_math_g3_t2_tr_2026"
+teaching_references:
+  - point_id: "math-g3-t2-u04-p01"
+    ref_book: "人教版《教师教学用书》数学三年级下册第四单元"
+    ref_page: "P142-P150"
+    pedagogical_focus:
+      key_point: "建立面积表象，理解‘面’与‘线’的区别，体会统一面积度量单位的必要性"
+      difficulty: "数方格时遇到不规则半格的处理（2个半格拼成1个满格）"
+      typical_misconceptions:
+        - error_pattern: "把周长大的图形误认为面积也一定大"
+          misconception_type: "周长与面积混同错误（核心典型易错）"
+        - error_pattern: "数方格时遗漏半格或重复数格"
+          misconception_type: "数格策略不规范"
+    variation_strategy:
+      - "比较图A和图B面积大小（方格纸上数方格）"
+      - "画两个面积都是12平方厘米但形状不同的长方形"
+
+  - point_id: "math-g3-t2-u04-p02"
+    ref_book: "人教版《教师教学用书》数学三年级下册第四单元"
+    ref_page: "P151-P158"
+    pedagogical_focus:
+      key_point: "牢固建立1平方厘米、1平方分米、1平方米的空间实物表象"
+      difficulty: "根据物体实际尺寸合理选择面积单位，避免与长度单位混淆"
+      typical_misconceptions:
+        - error_pattern: "操场的面积是400‘米’，一张邮票的面积是6‘厘米’（漏写‘平方’字样）"
+          misconception_type: "长度单位误当面积单位"
+        - error_pattern: "教室地面的面积是50‘平方分米’（数量级感知严重失衡）"
+          misconception_type: "面积单位表象失真"
+    variation_strategy:
+      - "在括号里填上合适的单位（橡皮表面的面积约是6（ ），教室黑板长4（ ），面积约4（ ））"
+      - "改错小日记：改正小明作文中用错的单位"
+
+  - point_id: "math-g3-t2-u04-p03"
+    ref_book: "人教版《教师教学用书》数学三年级下册第四单元"
+    ref_page: "P159-P165"
+    pedagogical_focus:
+      key_point: "掌握长方形面积公式长×宽、正方形面积公式边长×边长的推导与应用"
+      difficulty: "深刻区分长方形周长公式(长+宽)×2与面积公式长×宽，避免混淆"
+      typical_misconceptions:
+        - error_pattern: "计算长方形面积时用 (长+宽)×2（把面积错算成周长）"
+          misconception_type: "公式混淆"
+        - error_pattern: "正方形边长是4厘米，学生说‘它的周长和面积相等’（数值虽都是16，但单位不同，物理意义完全不同，不可比较）"
+          misconception_type: "不同属性量混淆可比性（极高频经典错题）"
+    variation_strategy:
+      - "判断题：边长4米的正方形，周长和面积相等（×）"
+      - "计算一块长15米、宽8米的长方形菜地的面积"
+
+  - point_id: "math-g3-t2-u04-p04"
+    ref_book: "人教版《教师教学用书》数学三年级下册第四单元"
+    ref_page: "P166-P170"
+    pedagogical_focus:
+      key_point: "理解面积单位间进率是100而不是10的本质算理（1分米=10厘米，10×10=100平方厘米）"
+      difficulty: "学生习惯了长度单位的进率是10，容易惯性认为面积单位进率也是10"
+      typical_misconceptions:
+        - error_pattern: "把 3 平方分米写成 30 平方厘米（按长度单位10进率错算）"
+          misconception_type: "进率负迁移错误"
+        - error_pattern: "500平方分米 = 50平方米（少去一个0）"
+          misconception_type: "进率计算失误"
+    variation_strategy:
+      - "单位换算填空：5平方米 = ( )平方分米；800平方厘米 = ( )平方分米"
+      - "比大小：300平方分米 ○ 3平方米（填=）"
+
+  - point_id: "math-g3-t2-u04-p05"
+    ref_book: "人教版《教师教学用书》数学三年级下册第四单元"
+    ref_page: "P170-P173"
+    pedagogical_focus:
+      key_point: "解决铺地砖综合应用题，熟练掌握‘统一单位’的核心解题门禁"
+      difficulty: "客厅长宽单位是米，地砖边长是分米，学生直接用长乘宽除以地砖边长乘边长而未先统一单位"
+      typical_misconceptions:
+        - error_pattern: "房间长6米、宽4米，地砖边长2分米，直接用 (6×4)÷(2×2)=6 块（未将24平方米换算为2400平方分米）"
+          misconception_type: "单位未统一直接运算（典型陷阱）"
+    variation_strategy:
+      - "应用题：一个长8米、宽6米的会议室，用边长2分米的正方形地砖铺地，一共需要多少块地砖？如果每块地砖5元，一共需要多少钱？"

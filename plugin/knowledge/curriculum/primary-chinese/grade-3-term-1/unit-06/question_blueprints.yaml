@@ -1,0 +1,113 @@
+unit_id: "unit-6"
+blueprints:
+  - blueprint_id: "bp-chi-g3-t1-u06-standard"
+    title: "第六单元祖国山河标准练习卷命题蓝图"
+    target_practice: "单元综合巩固与能力提升练习"
+    total_score: 100
+    suggested_time_minutes: 60
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础题（共 60 分）
+      - slot_id: "slot-01"
+        section: "一、字词芳草地：读拼音，写词语（规范书写在田字格中）"
+        question_type: "writing"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["chi-g3-t1-u06-p01"]
+        guidelines: "选自本单元课文重点词语，提供标准拼音，在规范田字格中工整书写（具体词语待课本页面凭证核定）。"
+
+      - slot_id: "slot-02"
+        section: "二、语音辨识营：给带点的字选择正确的读音打『√』"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 4
+        target_points: ["chi-g3-t1-u06-p01"]
+        guidelines: "考查本单元课文中的多音字与易读错字，结合具体语境选音。"
+
+      - slot_id: "slot-03"
+        section: "三、词语积累屋：把下列词语补充完整"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 1
+        item_count: 8
+        target_points: ["chi-g3-t1-u06-p01"]
+        guidelines: "考查本单元重点词语与语文园地积累内容（以课本页面为准）。"
+
+      - slot_id: "slot-04"
+        section: "四、字词比拼台：形近字组词"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 4
+        target_points: ["chi-g3-t1-u06-p01"]
+        guidelines: "本单元形近字对比组词。"
+
+      - slot_id: "slot-05"
+        section: "五、课文回音壁：根据课文内容填空"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["chi-g3-t1-u06-p03"]
+        guidelines: "考查《富饶的西沙群岛》《海滨小城》《美丽的小兴安岭》《香港，璀璨的明珠》的主要内容与景物特点。"
+
+      - slot_id: "slot-06"
+        section: "六、关键语句坊：借助关键语句理解一段话"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["chi-g3-t1-u06-p02"]
+        guidelines: "考查找出段落中的关键语句，判断其作用并借助它理解段意。"
+
+      - slot_id: "slot-07"
+        section: "七、园地拾贝：语文园地积累运用"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 3
+        item_count: 2
+        target_points: ["chi-g3-t1-u06-p05"]
+        guidelines: "考查语文园地梳理与交流、词句段运用与日积月累《早发白帝城》内容（以课本页面为准）。"
+
+      # 二、变式题（共 30 分）
+      - slot_id: "slot-08"
+        section: "八、段意概括台：借助关键语句概括段意"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 2
+        target_points: ["chi-g3-t1-u06-p02"]
+        guidelines: "给出一段话，要求找出关键语句并借助它概括段意，说明判断依据。"
+
+      - slot_id: "slot-09"
+        section: "九、美景品读坊：体会祖国山河之美"
+        question_type: "writing"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 2
+        target_points: ["chi-g3-t1-u06-p03"]
+        guidelines: "结合课文语句，写一两句话说出自己感受到的景物之美及理由。"
+
+      - slot_id: "slot-10"
+        section: "十、课外阅读吧：写景类语段阅读"
+        question_type: "reading"
+        difficulty: "variation"
+        points_per_item: 7
+        item_count: 2
+        target_points: ["chi-g3-t1-u06-p02", "chi-g3-t1-u06-p03"]
+        guidelines: "短文阅读，考查提取信息、找出关键语句以及概括景物特点。"
+
+      # 三、挑战题（共 10 分）
+      - slot_id: "slot-11"
+        section: "十一、妙笔生花台：这儿真美"
+        question_type: "writing"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["chi-g3-t1-u06-p04"]
+        guidelines: "围绕一个意思写一处景物（150 字左右），要求用上关键语句、把景物写具体、表达喜爱之情。"

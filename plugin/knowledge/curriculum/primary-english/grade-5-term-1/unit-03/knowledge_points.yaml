@@ -1,0 +1,32 @@
+unit_id: unit-03
+source_id: pep_english_g5_t1_2024
+points:
+- point_id: eng-g5-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: eng-g5-t1-u03-l01
+  subject: english
+  grade: 5
+  term: term-1
+  point_name: 谈论工作与娱乐的平衡
+  learning_objectives:
+  - 能用英语描述日常活动与时间安排，谈论工作与娱乐的平衡
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_english_g5_t1_2024
+    page_ref:
+    - P26
+    - P28
+    - P32
+    anchor_text: 单元起始页 P26 依课本目录登记；正文超出可读区间，具体对话原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 日常活动短语
+    - 时间表达与频度副词
+    scope_excluded:
+    - 时间管理与劳逸结合
+    - 英语日常活动表达

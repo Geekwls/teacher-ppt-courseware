@@ -1,0 +1,21 @@
+unit_id: "unit-4"
+unit_number: 4
+unit_name: "第四单元 图形的面积"
+subject: "math"
+edition: "人教版"
+grade: 3
+term: "term-2"
+version: "2026.10.1"
+updated_at: "2026-10-09"
+verification_status: "verified"
+source_id: "pep_math_g3_t2_2024"
+teaching_ref_source_id: "pep_math_g3_t2_tr_2026"
+page_range: "P52-P64"
+numeric_upper_bound: 10000
+curriculum_standard_ref: "义务教育数学课程标准（2022年版）图形与几何领域·图形的认识与测量"
+unit_overview: >
+  本单元是小学数学图形度量教学的核心内容，由一维长度（周长）向二维平面度量（面积）的重大飞跃。
+  主要内容包括：面积的本质含义；常用的面积单位（平方厘米、平方分米、平方米）及其实际参照物；
+  长方形面积公式 长×宽 与正方形面积公式 边长×边长 的探索与推导；
+  面积单位间 100 进率的推导与换算；以及解决铺地砖、求草坪面积等实际问题。
+  重点在于深刻区分‘周长’与‘面积’的本质差异，杜绝单位与公式混淆。

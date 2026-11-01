@@ -1,0 +1,163 @@
+unit_id: unit-00
+source_id: pep_math_g2_t2_2024
+points:
+- point_id: math-g2-t2-u00-p01
+  unit_id: unit-00
+  lesson_id: math-g2-t2-u00-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 认识钟面与时间单位时、分、秒
+  learning_objectives:
+  - 知道钟面上有 12 个大格、60 个小格，认识时针、分针、秒针
+  - 知道时、分、秒是记录时间的单位
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P2
+    anchor_text: P2「认识时间」：「钟面分成了（　）个大格，每个大格中有（　）个小格。钟面上一共有（　）个小格。」「时针转1大格是1时，分针转1小格是1分，秒针转1小格是1秒。」「时、分、秒是时间单位。」
+  teaching_boundary:
+    scope_allowed:
+    - 钟面结构（大格、小格、三根指针）
+    - 时、分、秒作为时间单位
+    scope_excluded:
+    - 时间的计算（经过时间）
+    - 24 时计时法
+- point_id: math-g2-t2-u00-p02
+  unit_id: unit-00
+  lesson_id: math-g2-t2-u00-l02
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 时、分、秒之间的关系（1 时 = 60 分，1 分 = 60 秒）
+  learning_objectives:
+  - 通过拨钟活动知道 1 时 = 60 分、1 分 = 60 秒
+  - 知道 30 分是半小时、30 秒是半分钟
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P3
+    anchor_text: P3「拨一拨」：「时针转1圈，表示时间过了（　）小时。」「分针转1圈，表示时间过了（　）分。」「秒针转1圈，表示时间过了（　）秒。」「1时=60分」「1分=（　）秒」「生活中经常把30分说成半小时、30秒说成半分钟。」
+  teaching_boundary:
+    scope_allowed:
+    - 1 时 = 60 分、1 分 = 60 秒的换算
+    - 半小时与半分钟的说法
+    scope_excluded:
+    - 时间的加减计算
+    - 24 时计时法
+- point_id: math-g2-t2-u00-p03
+  unit_id: unit-00
+  lesson_id: math-g2-t2-u00-l03
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 认读钟表上的时间（几时几分）
+  learning_objectives:
+  - 能认读钟面上表示的时间（几时几分、几时半）
+  - 能说出认读时间的方法：先看时针在哪两个数之间，再看分针走过多少小格
+  applicable_question_types:
+  - fill_blank
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P4
+    anchor_text: P4「读一读」：「你能读出下面的时间吗？」「从4时开始，分针从12转了多少个小格，就是4时多少分。」「4时5分」「4时30分或4时半」「4时45分」
+  teaching_boundary:
+    scope_allowed:
+    - 认读钟面时间（几时几分）
+    - 说出认读方法
+    scope_excluded:
+    - 写出电子表形式的时刻（如 4:05）的规范要求之外的内容
+    - 经过时间的计算
+- point_id: math-g2-t2-u00-p04
+  unit_id: unit-00
+  lesson_id: math-g2-t2-u00-l04
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 体验与估计时间的长短（1 分、1 秒）
+  learning_objectives:
+  - 通过活动感受 1 分、1 秒的长短，能对时间的长短作出合理估计
+  - 能用「数秒」等方法估计时间
+  applicable_question_types:
+  - choice
+  - reading
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P5
+    - P6
+    anchor_text: P5「小调查」：1分钟能做些什么？（我1分钟能跳绳99次；我的脉搏1分钟跳了88次；新闻联播播音员1分钟能念大约三百个字。）P6「1秒有多长？1秒能做些什么？」「钟表「嘀嗒」一声是1秒。」「小组活动：闭眼数秒，数到30秒举手，看谁估计得准。」
+  teaching_boundary:
+    scope_allowed:
+    - 感受 1 分、1 秒的长短
+    - 用数秒法估计时间
+    scope_excluded:
+    - 精确到秒的时间计算
+    - 速度与时间的关系
+- point_id: math-g2-t2-u00-p05
+  unit_id: unit-00
+  lesson_id: math-g2-t2-u00-l05
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 按时间顺序描述事件并制作时间小书
+  learning_objectives:
+  - 能按时间先后顺序描述一天中发生的事情
+  - 能制作自己的时间小书，并用时间信息提出与回答问题
+  applicable_question_types:
+  - reading
+  - writing
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P7
+    - P8
+    anchor_text: P7「我的时间小书」：说说他在不同的时间做了什么。「他们从家到冰雪乐园用了多久？」「他们从离开家到返回家中一共用了多长时间？」P8「按照时间先后顺序，制作自己的时间小书。」
+  teaching_boundary:
+    scope_allowed:
+    - 按时间顺序描述事件
+    - 用时间信息提出并回答问题
+    scope_excluded:
+    - 精确的经过时间计算（本册不要求）
+    - 统计图表的绘制
+- point_id: math-g2-t2-u00-p06
+  unit_id: unit-00
+  lesson_id: math-g2-t2-u00-l06
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 整理与评价：珍惜时间
+  learning_objectives:
+  - 能说出与时间有关的成语，体会珍惜时间的意义
+  - 能对自己在本活动中的表现作出评价
+  applicable_question_types:
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P9
+    anchor_text: P9：与时间有关的成语「似水流年、分秒必争、光阴似箭、一刻千金、只争朝夕、白驹过隙」；「成长小档案：知道珍惜时间……能正确地读、写时间。」
+  teaching_boundary:
+    scope_allowed:
+    - 积累与时间有关的成语
+    - 对活动过程作自我评价
+    scope_excluded:
+    - 成语的文学赏析
+    - 时间管理的系统方法

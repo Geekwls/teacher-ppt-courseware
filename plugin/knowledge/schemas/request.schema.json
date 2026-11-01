@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ParentPracticeRequest",
+  "description": "家长练习需求输入解析与校验契约",
+  "type": "object",
+  "required": ["raw_input", "status"],
+  "properties": {
+    "raw_input": {
+      "type": "string",
+      "description": "家长的原始自然语言输入"
+    },
+    "subject": {
+      "type": ["string", "null"],
+      "enum": ["math", "chinese", "english", null],
+      "description": "学科：math, chinese, english"
+    },
+    "edition": {
+      "type": "string",
+      "default": "人教版",
+      "description": "教材版本，默认人教版（统编版）"
+    },
+    "grade": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 6,
+      "description": "年级（1-6）"
+    },
+    "term": {
+      "type": ["string", "null"],
+      "enum": ["term-1", "term-2", null],
+      "description": "上下册"
+    },
+    "unit": {
+      "type": ["string", "null"],
+      "description": "单元识别（如 unit-6 或 第六单元）"
+    },
+    "question_count": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 50,
+      "default": 10,
+      "description": "期望题量，默认10题"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["standard", "basic", "advanced", "mixed"],
+      "default": "standard",
+      "description": "难度梯度：basic=基础巩固, advanced=提高拔高, standard/mixed=6:3:1梯级混合"
+    },
+    "specific_types": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "指定题型列表（如 ['calculation', 'word_problem']）"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["ready", "needs_clarification", "out_of_scope", "unverified_curriculum"],
+      "description": "解析决策状态：ready=可以出题; needs_clarification=必须追问; out_of_scope=超纲需纠偏; unverified_curriculum=教材范围未核验"
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "缺少的必要字段清单（如 ['grade', 'unit']）"
+    },
+    "clarification_prompt": {
+      "type": ["string", "null"],
+      "description": "追问家长的具体提示语"
+    },
+    "boundary_warnings": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "超纲或教材范围警告"
+    }
+  }
+}

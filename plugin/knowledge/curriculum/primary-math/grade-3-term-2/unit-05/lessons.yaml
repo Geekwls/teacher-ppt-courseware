@@ -1,0 +1,36 @@
+lessons:
+  - lesson_id: "math-g3-t2-u05-l01"
+    unit_id: "unit-5"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 1
+    lesson_name: "第1课时 复式统计表的认识与结构"
+    page_range: "P65-P68"
+    official_examples:
+      - "例1：男生最喜欢的课外活动统计表与女生最喜欢的课外活动统计表。合并为一个统计表，便于对男女生兴趣爱好进行整体对比分析。"
+      - "认识表头：左上角斜线将表头分为三部分，分别表示横栏类别（活动项目）、竖栏类别（性别）和表格中数据的含义（人数）。"
+
+  - lesson_id: "math-g3-t2-u05-l02"
+    unit_id: "unit-5"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 2
+    lesson_name: "第2课时 数据收集、画正字整理与填写复式统计表"
+    page_range: "P69-P72"
+    official_examples:
+      - "例2：调查本班同学视力情况（5.0及以上、4.9-4.7、4.6-4.3、4.2及以下），用画“正”字法记录，汇总后填入复式统计表。"
+      - "做一做：计算各行、各列的人数合计，并检查总计是否与全班总人数相等（守恒核对）。"
+
+  - lesson_id: "math-g3-t2-u05-l03"
+    unit_id: "unit-5"
+    subject: "math"
+    grade: 3
+    term: "term-2"
+    lesson_number: 3
+    lesson_name: "第3课时 统计分析与决策应用"
+    page_range: "P73-P76"
+    official_examples:
+      - "练习：某校三年级各班图书角藏书情况统计表；根据数据回答哪类书最多、提出合理购书建议。"
+      - "气温统计表分析：某地一周最高气温与最低气温变化分析。"

@@ -1,0 +1,156 @@
+unit_id: "unit-7"
+source_id: "pep_math_g3_t1_2024"
+points:
+  - point_id: "math-g3-t1-u07-p01"
+    lesson_id: "lesson-01"
+    point_name: "数与运算的结构化整理"
+    learning_objectives:
+      - "能梳理本学期「数与运算」的内容：多位数乘一位数的口算与笔算、混合运算、分数的认识与简单计算"
+      - "能读懂并补充「数与运算」知识结构图，沟通各知识点之间的联系"
+      - "在整理中体会数的运算的一致性与结构化"
+    prerequisites:
+      - "math-g3-t1-u02-p03"
+      - "math-g3-t1-u04-p01"
+      - "math-g3-t1-u06-p05"
+    subsequent_points:
+      - "math-g3-t1-u07-p02"
+    applicable_question_types: ["fill_blank", "calculation", "reading"]
+    teaching_boundary:
+      scope_allowed:
+        - "口算与笔算多位数乘一位数；混合运算的顺序与括号；同分母分数加减"
+        - "整理知识结构图并举例说明"
+      scope_excluded:
+        - "两位数乘两位数、除法笔算（后续年级）"
+        - "异分母分数计算（五年级）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [92]
+      example_ref: ["ex_1"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u07-p02"
+    lesson_id: "lesson-02"
+    point_name: "数量关系的整理与线段图"
+    learning_objectives:
+      - "能梳理用四则运算解决实际问题的基本过程：找关系—想先求什么—再求什么"
+      - "会用线段图分析数量关系，会用分步列式或综合算式解答"
+      - "体会「等量的等量相等」在解决问题中的作用"
+    prerequisites:
+      - "math-g3-t1-u02-p04"
+    subsequent_points:
+      - "math-g3-t1-u07-p03"
+    applicable_question_types: ["word_problem", "reading"]
+    teaching_boundary:
+      scope_allowed:
+        - "两、三步计算的实际问题；用线段图表示数量关系"
+        - "含「比……多/少」「是……的几倍」的数量关系"
+      scope_excluded:
+        - "归一归总、行程问题的公式化模型（四年级起）"
+        - "方程解法（五年级）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [93]
+      example_ref: ["ex_2"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u07-p03"
+    lesson_id: "lesson-03"
+    point_name: "常见的量（长度与质量单位）的整理"
+    learning_objectives:
+      - "能整理长度单位（毫米、厘米、分米、米、千米）及其进率，并进行简单换算"
+      - "知道质量单位克、千克、吨及相邻单位间的进率是1000"
+      - "能根据物体特点选择合适的长度或质量单位"
+    prerequisites:
+      - "math-g3-t1-u03-p03"
+      - "math-g3-t1-u03-p04"
+    subsequent_points:
+      - "math-g3-t1-u07-p04"
+    applicable_question_types: ["fill_blank", "choice", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "长度单位与质量单位的整理、换算与合理选用"
+        - "结合物体特点判断单位是否合适"
+      scope_excluded:
+        - "时间单位、面积单位的系统整理（分属其他单元）"
+        - "复名数换算的复杂变式"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [94]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u07-p04"
+    lesson_id: "lesson-03"
+    point_name: "图形的认识与测量的整理"
+    learning_objectives:
+      - "能整理线段、射线、直线的特征以及锐角、直角、钝角的关系"
+      - "知道从不同角度观察物体看到的形状常常不同，长方体的表面可以展开成一个平面"
+      - "在整理中沟通「线—角—图形」之间的联系，发展空间观念"
+    prerequisites:
+      - "math-g3-t1-u01-p01"
+      - "math-g3-t1-u05-p06"
+    subsequent_points:
+      - "math-g3-t1-u07-p05"
+    applicable_question_types: ["choice", "fill_blank", "reading"]
+    teaching_boundary:
+      scope_allowed:
+        - "线、角特征的整理与判断；观察物体的方位判断；长方体展开图"
+        - "在图形中数角、找角"
+      scope_excluded:
+        - "周长、面积的计算（三年级下册）"
+        - "立体图形的表面积与体积（高年级）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [94]
+      example_ref: ["ex_3"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u07-p05"
+    lesson_id: "lesson-04"
+    point_name: "综合应用与估算策略"
+    learning_objectives:
+      - "能综合运用本册所学知识解决较复杂的实际问题（里程、票价、载客量等）"
+      - "能根据需要选择估算或精确计算，并说明理由"
+      - "经历多步分析与检验的过程，提高解决问题的能力"
+    prerequisites:
+      - "math-g3-t1-u07-p01"
+      - "math-g3-t1-u07-p03"
+    subsequent_points:
+      - "math-g3-t1-u07-p06"
+    applicable_question_types: ["word_problem", "reading"]
+    teaching_boundary:
+      scope_allowed:
+        - "含里程、票价倍数、载客估算等实际问题的综合应用"
+        - "开放性问题的方案比较（如租船方案）"
+      scope_excluded:
+        - "需要建立方程的问题（五年级）"
+        - "超出本册运算范围的复杂多步计算"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [95, 100]
+      example_ref: ["ex_4", "ex_5"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u07-p06"
+    lesson_id: "lesson-05"
+    point_name: "数学广角·搭配问题"
+    learning_objectives:
+      - "经历搭配问题的探究过程，体会有序思考、不重复不遗漏的策略"
+      - "能借助符号、图示等方法列举搭配方案，并用乘法计算搭配的种数"
+      - "能区分「分步搭配用乘法」与「分类选择用加法」的不同"
+    prerequisites:
+      - "math-g3-t1-u04-p01"
+    subsequent_points: []
+    applicable_question_types: ["reading", "word_problem", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "两件（两类）事物的搭配计数（如上装与下装、主食与粥类）"
+        - "用2、5、7组没有重复数字的两位数等有序列举"
+      scope_excluded:
+        - "排列组合的一般公式（高中内容）"
+        - "三类及以上事物的复杂搭配与容斥原理"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [101, 102]
+      example_ref: ["ex_6", "ex_7"]
+    verification_status: "verified"

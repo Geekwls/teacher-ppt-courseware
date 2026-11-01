@@ -1,0 +1,18 @@
+unit_id: unit-08
+source_id: pep_math_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g4-t1-u08-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「寻宝」任务驱动，让学生在方格纸上把「位置」用数对或方向距离精确表达出来
+    difficulty: 学生易把数对中「列」与「行」的顺序写反
+    typical_misconceptions:
+    - error_pattern: 把数对写成（行，列）
+      misconception_type: 顺序颠倒
+    - error_pattern: 方向描述缺少参照点或角度
+      misconception_type: 描述不完整
+  variation_strategy:
+  - 用数对表示方格纸上点的位置
+  - 根据指令在方格纸上标出宝藏位置

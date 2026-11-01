@@ -1,0 +1,32 @@
+unit_id: unit-07
+source_id: pep_math_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g6-t1-u07-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「合格率」「出勤率」等真实数据引出百分数
+    difficulty: 学生易把百分数当成「带百分号的数」而忽略「两个量的比」的含义
+    typical_misconceptions:
+    - error_pattern: 把百分数当成普通数
+      misconception_type: 意义理解偏差
+    - error_pattern: 互化时小数点位置移动错误
+      misconception_type: 换算错误
+  variation_strategy:
+  - 说出百分数的意义
+  - 进行百分数与分数、小数的互化
+- point_id: math-g6-t1-u07-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「求百分率」「打折」等情境，把百分数问题转化为分数乘法问题
+    difficulty: 学生易在「求百分率」时把除数和被除数颠倒
+    typical_misconceptions:
+    - error_pattern: 求百分率时除数与被除数颠倒
+      misconception_type: 关系式错误
+    - error_pattern: 把「增加百分之几」算成乘法
+      misconception_type: 单位量遗漏
+  variation_strategy:
+  - 求常见的百分率
+  - 解决与百分数有关的实际问题

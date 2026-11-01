@@ -1,0 +1,244 @@
+edition_lock:
+  textbook_name: 义务教育教科书 语文 二年级上册
+  publisher: 人民教育出版社
+  approval_year: 教育部2022课标2024/2026修订新版
+  grade: 2
+  term: term-1
+  unit_id: unit-06
+  unit_name: 第六单元 革命伟人与英雄情怀
+  page_range: P67-P80
+  verified: true
+lessons_map:
+- lesson_id: chi-g2-t1-u06-l01
+  title: 14 八角楼上
+  page: P67-P68
+  core_writing_chars:
+  - 楼
+  - 代
+  - 穿
+  - 视
+  - 利
+  - 路
+- lesson_id: chi-g2-t1-u06-l02
+  title: 15 朱德的扁担
+  page: P69-P71
+  core_writing_chars:
+  - 同
+  - 志
+  - 军
+  - 敌
+  - 常
+  - 非
+  - 每
+  - 战
+  - 士
+  - 戴
+- lesson_id: chi-g2-t1-u06-l03
+  title: 16 难忘的泼水节
+  page: P72-P74
+  core_writing_chars:
+  - 难
+  - 忘
+  - 民
+  - 因
+  - 理
+  - 串
+  - 裤
+  - 令
+- lesson_id: chi-g2-t1-u06-l04
+  title: 17 刘胡兰
+  page: P75-P77
+  core_writing_chars:
+  - 反
+  - 村
+  - 由
+  - 于
+  - 员
+  - 被
+  - 声
+  - 岁
+  - 消
+  - 息
+- lesson_id: chi-g2-t1-u06-l05
+  title: 语文园地六
+  page: P78-P80
+  core_writing_chars:
+  - 抄
+  - 炒
+official_vocab_table:
+- word: 年代
+  lesson: 14 八角楼上
+- word: 明亮
+  lesson: 14 八角楼上
+- word: 星星之火
+  lesson: 14 八角楼上
+- word: 胜利
+  lesson: 14 八角楼上
+- word: 白天
+  lesson: 14 八角楼上
+- word: 同志
+  lesson: 15 朱德的扁担
+- word: 红军
+  lesson: 15 朱德的扁担
+- word: 敌人
+  lesson: 15 朱德的扁担
+- word: 生产
+  lesson: 15 朱德的扁担
+- word: 战士
+  lesson: 15 朱德的扁担
+- word: 一块儿
+  lesson: 15 朱德的扁担
+- word: 常常
+  lesson: 15 朱德的扁担
+- word: 来回
+  lesson: 15 朱德的扁担
+- word: 非常
+  lesson: 15 朱德的扁担
+- word: 难忘
+  lesson: 16 难忘的泼水节
+- word: 火红
+  lesson: 16 难忘的泼水节
+- word: 人民
+  lesson: 16 难忘的泼水节
+- word: 因为
+  lesson: 16 难忘的泼水节
+- word: 为了
+  lesson: 16 难忘的泼水节
+- word: 人群
+  lesson: 16 难忘的泼水节
+- word: 四面八方
+  lesson: 16 难忘的泼水节
+- word: 总理
+  lesson: 16 难忘的泼水节
+- word: 人们
+  lesson: 16 难忘的泼水节
+- word: 开心
+  lesson: 16 难忘的泼水节
+- word: 由于
+  lesson: 17 刘胡兰
+- word: 年轻
+  lesson: 17 刘胡兰
+- word: 共产党员
+  lesson: 17 刘胡兰
+- word: 共产党
+  lesson: 17 刘胡兰
+- word: 反动派
+  lesson: 17 刘胡兰
+- word: 现在
+  lesson: 17 刘胡兰
+- word: 知道
+  lesson: 17 刘胡兰
+- word: 抬头
+  lesson: 17 刘胡兰
+- word: 消息
+  lesson: 17 刘胡兰
+- word: 抄写
+  lesson: 语文园地六
+- word: 炒菜
+  lesson: 语文园地六
+- word: 火字旁
+  lesson: 语文园地六
+- word: 提手旁
+  lesson: 语文园地六
+three_tier_vocab:
+  lessons_desc: 《八角楼上》《朱德的扁担》《难忘的泼水节》《刘胡兰》
+  tier_a_phrases:
+  - pinyin: nián dài
+    word: 年代
+  - pinyin: míng liàng
+    word: 明亮
+  - pinyin: xīng xīng zhī huǒ
+    word: 星星之火
+  - pinyin: shèng lì
+    word: 胜利
+  - pinyin: bái tiān
+    word: 白天
+  - pinyin: tóng zhì
+    word: 同志
+  - pinyin: hóng jūn
+    word: 红军
+  - pinyin: dí rén
+    word: 敌人
+  - pinyin: shēng chǎn
+    word: 生产
+  - pinyin: zhàn shì
+    word: 战士
+  - pinyin: yí kuài er
+    word: 一块儿
+  - pinyin: cháng cháng
+    word: 常常
+  - pinyin: lái huí
+    word: 来回
+  - pinyin: fēi cháng
+    word: 非常
+  - pinyin: nán wàng
+    word: 难忘
+  - pinyin: huǒ hóng
+    word: 火红
+  - pinyin: rén mín
+    word: 人民
+  - pinyin: yīn wèi
+    word: 因为
+  - pinyin: wèi le
+    word: 为了
+  - pinyin: rén qún
+    word: 人群
+  - pinyin: sì miàn bā fāng
+    word: 四面八方
+  - pinyin: zǒng lǐ
+    word: 总理
+  - pinyin: rén men
+    word: 人们
+  - pinyin: kāi xīn
+    word: 开心
+  - pinyin: yóu yú
+    word: 由于
+  - pinyin: nián qīng
+    word: 年轻
+  - pinyin: gòng chǎn dǎng
+    word: 共产党
+  - pinyin: xiàn zài
+    word: 现在
+  - pinyin: zhī dào
+    word: 知道
+  - pinyin: tái tóu
+    word: 抬头
+  - pinyin: xiāo xi
+    word: 消息
+  tier_b_pairs:
+  - char1: 楼
+    word1: 楼房
+    char2: 数
+    word2: 数字
+  - char1: 战
+    word1: 战斗
+    char2: 站
+    word2: 站立
+  - char1: 忘
+    word1: 难忘
+    char2: 望
+    word2: 看望
+  - char1: 由
+    word1: 由于
+    char2: 甲
+    word2: 指甲
+  tier_c_phrases:
+  - pinyin: yè mù
+    word: 夜幕
+  - pinyin: bó tǎn
+    word: 薄毯
+  - pinyin: dǒu lì
+    word: 斗笠
+  - pinyin: fèng huáng
+    word: 凤凰
+  - pinyin: pō shuǐ
+    word: 泼水
+  - pinyin: jiān zhēn
+    word: 坚贞
+  strokes_challenge:
+  - question_stem: “忘”是上下结构，部首是“心”，上半部分是“（    ）”字。
+    answer_text: 亡
+  - question_stem: “士”与“土”的区别：上横长下横短是（    ）字，上横短下横长是（    ）字。
+    answer_text: 士；土
+  - question_stem: “穿”是上下结构，部首是____________头（穴），不是宝盖头（宀）。
+    answer_text: 穴宝盖

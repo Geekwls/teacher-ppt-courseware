@@ -1,0 +1,81 @@
+unit_id: "unit-8"
+source_id: "pep_chinese_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《人教统编版小学语文三年级上册教师用书（教学参考）》
+  （255 页扫描件，OCR 解析）核定。第八单元位于教参 P202 起：单元说明 P202、司马光 P204、
+  一定要争气 P208、手术台就是阵地 P217、一个粗瓷大碗 P222、口语交际请教 P226、习作 P229、语文园地 P232。
+teaching_references:
+  - point_id: "chi-g3-t1-u08-p01"
+    ref_book: "人教版《教师教学用书》语文三年级上册第八单元"
+    ref_page: "P204-P232"
+    pedagogical_focus:
+      key_point: "在阅读与习作中落实识字写字，注意形近字与易错笔画的辨析"
+      difficulty: "本单元含文言文与写人记事课文，生字需结合语境识记，避免孤立机械抄写"
+      typical_misconceptions:
+        - error_pattern: "混淆形近字（如『庭/廷』『弃/充』类部件）"
+          misconception_type: "形近部件混淆"
+        - error_pattern: "笔画增减导致错字"
+          misconception_type: "书写不规范"
+    variation_strategy:
+      - "看拼音写词语；形近字对比组词"
+      - "结合语境选字填空"
+
+  - point_id: "chi-g3-t1-u08-p02"
+    ref_book: "人教版《教师教学用书》语文三年级上册第八单元"
+    ref_page: "P202"
+    pedagogical_focus:
+      key_point: "学习带着问题默读，借助注释理解课文内容"
+      difficulty: "学生默读易流于形式，不会带着问题读，或读后说不清内容"
+      typical_misconceptions:
+        - error_pattern: "默读时没有带着问题，读后抓不住主要内容"
+          misconception_type: "策略意识缺失"
+        - error_pattern: "读文言文只靠猜，不借助注释理解词句"
+          misconception_type: "方法运用不足"
+    variation_strategy:
+      - "带着问题默读课文并圈画相关语句"
+      - "借助注释翻译文言语句，说出课文内容"
+
+  - point_id: "chi-g3-t1-u08-p03"
+    ref_book: "人教版《教师教学用书》语文三年级上册第八单元"
+    ref_page: "P208-P222"
+    pedagogical_focus:
+      key_point: "把握人物形象，体会美好品质，结合语句说明依据"
+      difficulty: "学生易只记住情节，不能从语句中提炼人物品质"
+      typical_misconceptions:
+        - error_pattern: "能讲故事但说不出人物的品质"
+          misconception_type: "概括提炼不足"
+        - error_pattern: "把人物品质与课文语句割裂，缺少依据"
+          misconception_type: "缺乏依据意识"
+    variation_strategy:
+      - "用关键词概括人物品质，并从文中找依据"
+      - "联系生活谈自己受到的启发"
+
+  - point_id: "chi-g3-t1-u08-p04"
+    ref_book: "人教版《教师教学用书》语文三年级上册第八单元"
+    ref_page: "P226"
+    pedagogical_focus:
+      key_point: "遇到困难时把请教的问题说清楚、有礼貌，并认真倾听、礼貌回应"
+      difficulty: "学生请教时易表述不清、用语不礼貌，或不会倾听与回应"
+      typical_misconceptions:
+        - error_pattern: "请教时问题表述含糊，别人听不明白"
+          misconception_type: "表达不清晰"
+        - error_pattern: "请教时缺少礼貌用语，或听完不做回应"
+          misconception_type: "交际礼仪不足"
+    variation_strategy:
+      - "创设情境，演一演请教的对话"
+      - "评一评：问题是否说清楚、表达是否有礼貌"
+
+  - point_id: "chi-g3-t1-u08-p05"
+    ref_book: "人教版《教师教学用书》语文三年级上册第八单元"
+    ref_page: "P229"
+    pedagogical_focus:
+      key_point: "按一定顺序把一次难忘经历的经过写清楚，表达真实感受"
+      difficulty: "学生习作易记流水账、经过不清楚或感受空洞"
+      typical_misconceptions:
+        - error_pattern: "事情经过写不清楚，重点不突出"
+          misconception_type: "叙述不清楚"
+        - error_pattern: "只写事情不写感受，或感受空泛"
+          misconception_type: "情感表达不足"
+    variation_strategy:
+      - "按起因、经过、结果的顺序写一次难忘经历"
+      - "互评：经过是否清楚、感受是否真实"

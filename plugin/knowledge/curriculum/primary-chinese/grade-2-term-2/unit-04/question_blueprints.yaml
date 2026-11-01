@@ -1,0 +1,71 @@
+unit_id: unit-04
+blueprints:
+- blueprint_id: bp-chi-g2-t2-u04-standard
+  title: 第四单元 阅读标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、看拼音写词语
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 3
+    item_count: 6
+    target_points:
+    - chi-g2-t2-u04-p01
+    - chi-g2-t2-u04-p03
+    guidelines: 借助拼音写出本单元的重点词语。
+  - slot_id: slot-02
+    section: 二、填一填（课文内容）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 4
+    item_count: 5
+    target_points:
+    - chi-g2-t2-u04-p01
+    - chi-g2-t2-u04-p02
+    - chi-g2-t2-u04-p03
+    guidelines: 填写课文中的关键内容。
+  - slot_id: slot-03
+    section: 三、选一选（课文内容）
+    question_type: choice
+    difficulty: basic
+    points_per_item: 4
+    item_count: 4
+    target_points:
+    - chi-g2-t2-u04-p02
+    - chi-g2-t2-u04-p03
+    guidelines: 判断关于课文内容的说法是否正确。
+  - slot_id: slot-04
+    section: 四、读一读，背一背（诚信名言）
+    question_type: reading
+    difficulty: variation
+    points_per_item: 7
+    item_count: 2
+    target_points:
+    - chi-g2-t2-u04-p04
+    guidelines: 默写「失信不立。」并说出大意。
+  - slot_id: slot-05
+    section: 五、写一写（仿写）
+    question_type: writing
+    difficulty: variation
+    points_per_item: 9
+    item_count: 2
+    target_points:
+    - chi-g2-t2-u04-p01
+    - chi-g2-t2-u04-p03
+    guidelines: 仿照课文写几句话，或用「一会儿……一会儿……」写一段话。
+  - slot_id: slot-06
+    section: 六、写一写（看图写故事）
+    question_type: writing
+    difficulty: challenge
+    points_per_item: 14
+    item_count: 1
+    target_points:
+    - chi-g2-t2-u04-p04
+    guidelines: 看图写故事，用上「早上／过了一会儿／到了下午／天黑了」。

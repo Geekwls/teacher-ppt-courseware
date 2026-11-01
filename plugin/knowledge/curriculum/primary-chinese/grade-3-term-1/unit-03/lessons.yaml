@@ -1,0 +1,62 @@
+lessons:
+  - lesson_id: "chi-g3-t1-u03-l01"
+    unit_id: "unit-3"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 8
+    lesson_name: "第8课 总也倒不了的老屋"
+    page_range: "P28-P31"
+    official_examples:
+      - "课文旁批提示：可以根据题目、插图、文章内容里的一些线索进行预测。"
+      - "课后题以学习伙伴讨论的形式呈现预测范例，提示预测的依据，并引导学生辨析自己的预测与原文内容的异同。"
+      - "（原文与生字表以课本页面为准；本单元正文页未含于用户提供的电子课本预览，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u03-l02"
+    unit_id: "unit-3"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 9
+    lesson_name: "第9课 犟龟（略读）"
+    page_range: "P32-P35"
+    official_examples:
+      - "学习提示：边阅读边预测故事的发展，总结角色形象。"
+      - "课后题提示预测的角度与方法。"
+      - "（2024 版新增课文；原文与生字表以课本页面为准，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u03-l03"
+    unit_id: "unit-3"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 10
+    lesson_name: "第10课 小狗学叫（略读）"
+    page_range: "P36-P40"
+    official_examples:
+      - "学习提示：运用预测策略边读边猜想故事的结局。"
+      - "（原文与生字表以课本页面为准，待补凭证。）"
+
+  - lesson_id: "chi-g3-t1-u03-l04"
+    unit_id: "unit-3"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 11
+    lesson_name: "口语交际（名字里的故事）与习作（续写故事）"
+    page_range: "P41-P42"
+    official_examples:
+      - "口语交际《名字里的故事》：讲讲自己名字的来历或含义，注意把话说清楚、有礼貌地回应。"
+      - "习作《续写故事》：根据图意或开头，发挥想象续写故事，把故事写完整。"
+
+  - lesson_id: "chi-g3-t1-u03-l05"
+    unit_id: "unit-3"
+    subject: "chinese"
+    grade: 3
+    term: "term-1"
+    lesson_number: 12
+    lesson_name: "语文园地三"
+    page_range: "P43-P44"
+    official_examples:
+      - "梳理与交流：回顾预测的方法与好处。"
+      - "词句段运用与日积月累（具体内容以课本页面为准，待补凭证）。"

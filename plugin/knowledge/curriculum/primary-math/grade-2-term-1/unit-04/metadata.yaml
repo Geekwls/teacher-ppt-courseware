@@ -1,0 +1,15 @@
+unit_id: unit-04
+unit_name: 第四单元 厘米和米
+subject: math
+edition: 人教版
+grade: 2
+term: term-1
+version: 2026.10.3
+updated_at: '2026-10-15'
+verification_status: verified
+source_id: pep_math_g2_t1_2024
+teaching_reference_source_id: pep_math_g2_t1_tr_2024
+page_range: P55-P67
+page_evidence_note: 页码于 2026-10-15 依据用户提供的完整版《2026版人教版小学数学二年级上册电子课本》（共106页，ISBN 978-7-107-38912-2）逐页实证核定：页脚印刷页码实测偏移 = 4（PDF#59 = 印刷 P55，PDF#71 = 印刷 P67）。本单元真实版面为 P55–P67（附 P68–P72 综合实践·身体上的尺子），已取得逐页原文凭证：P55 统一长度单位、P56-P60 认识厘米与测量画线、P61-P64 认识米与 1米=100厘米、P65-P67 估计与单位选择，全量实证闭环，状态晋级为 verified。
+unit_overview: 认识长度单位厘米和米，会用尺子量物体的长度（限整厘米），知道 1 米 = 100 厘米，能估计并测量常见物体的长度。（注：P49–P54 为「校园小导游」综合实践活动，P68–P72 为「身体上的尺子」综合实践活动。）
+numeric_upper_bound: 100

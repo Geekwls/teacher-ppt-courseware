@@ -1,0 +1,68 @@
+unit_id: "unit-5"
+source_id: "pep_english_g3_t1_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "Part A Talk: 探究颜色与色彩混合"
+    page_range: "P52"
+    official_examples:
+      - example_id: "ex_1"
+        title: "美术课色彩调制与混合发现"
+        page: 52
+        formula_or_context: "What colour is it? / It's orange / green. / Look! Red and blue make purple. Wow! / Wow! Blue and yellow make green."
+        core_concept: "掌握询问物体颜色的特殊疑问句'What colour is it?'及其答语'It's...'，理解并运用色彩混合公式'Red and blue make purple. / Blue and yellow make green.'。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "Part A Learn: 自然界缤纷色彩核心词汇"
+    page_range: "P53"
+    official_examples:
+      - example_id: "ex_2"
+        title: "多彩的大自然与动物植物"
+        page: 53
+        formula_or_context: "a brown bear, a yellow duck, a purple flower, green grass, blue sea; The world is colourful! I see colours here and there."
+        core_concept: "学习自然界常见事物与色彩的搭配（brown, yellow, purple, green, blue），运用'a + 颜色形容词 + 名词'结构进行准确表述。"
+
+  - lesson_id: "lesson-03"
+    lesson_number: 3
+    lesson_name: "Part A Letters and sounds: 字母 Qq-Uu 认读、书写与拼读"
+    page_range: "P54"
+    official_examples:
+      - example_id: "ex_3"
+        title: "字母 Qq, Rr, Ss, Tt, Uu 笔顺占格与拼读"
+        page: 54
+        formula_or_context: "Qq, Rr, Ss, Tt, Uu; quiet, queen, red, ruler, see, bus, Ted, sit, up, run; cut, quit, rot, set, tap, tub"
+        core_concept: "规范书写字母Qq-Uu（掌握小写q的提钩与占格、小写t的占格），掌握辅音q(/kw/), r(/r/), s(/s/), t(/t/)与短元音u(/ʌ/)的发音规律，拼读CVC单词。"
+
+  - lesson_id: "lesson-04"
+    lesson_number: 4
+    lesson_name: "Part B Talk: 交流喜爱的颜色与合作绘画"
+    page_range: "P55"
+    official_examples:
+      - example_id: "ex_4"
+        title: "讨论喜欢的颜色并绘制多彩画卷"
+        page: 55
+        formula_or_context: "What colours do you like? / I like red and pink. / OK. Let's draw some red and pink flowers. / And the birds? / Let's draw some purple and brown birds."
+        core_concept: "掌握询问他人色彩偏好的疑问句'What colours do you like?'及其答语'I like...'，运用'Let's draw some...'提出合作创作倡议。"
+
+  - lesson_id: "lesson-05"
+    lesson_number: 5
+    lesson_name: "Part B Learn: 生活实用色彩与指示功能"
+    page_range: "P56"
+    official_examples:
+      - example_id: "ex_5"
+        title: "生活中的有用色彩与体感TPR"
+        page: 56
+        formula_or_context: "pink, orange, red, white, black; Colours are useful! Black, black, sit down. White, white, turn around. Pink and red, touch the ground."
+        core_concept: "学习生活应用色彩词汇（pink, orange, red, white, black），理解色彩在行业制服、救生设施与乐器键位中的功能象征。"
+
+  - lesson_id: "lesson-06"
+    lesson_number: 6
+    lesson_name: "Start to read & Project: 颜色会说话与色彩手翻书"
+    page_range: "P57-P59"
+    official_examples:
+      - example_id: "ex_6"
+        title: "阅读语篇《Colours can talk!》"
+        page: 57
+        formula_or_context: "It's red. Red can say 'No!' / It's green. Green can say 'Go!' / It's blue. Blue can say 'Use again!' / It's yellow. Yellow can say 'Be careful!'"
+        core_concept: "阅读理解色彩在交通信号、环保分类与安全警示中的交际语言功能（Red-No, Green-Go, Blue-Recycle, Yellow-Warning），回答单元大问题'Why are colours important?'。"

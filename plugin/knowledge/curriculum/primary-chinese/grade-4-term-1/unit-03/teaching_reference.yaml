@@ -1,0 +1,32 @@
+unit_id: unit-03
+source_id: pep_chinese_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g4-t1-u03-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「爬山虎的脚是怎样一脚一脚往上爬的」为切入点，体会连续观察的价值
+    difficulty: 学生易把「观察」等同于「看」，忽略连续性与细致性
+    typical_misconceptions:
+    - error_pattern: 观察只停留在「看」
+      misconception_type: 观察方法不完整
+    - error_pattern: 不能体会用词的准确生动
+      misconception_type: 语言品味不足
+  variation_strategy:
+  - 说出作者连续观察的体现
+  - 体会并说明词语的表达效果
+- point_id: chi-g4-t1-u03-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「连续观察一种植物或动物」的任务驱动，学习写观察日记
+    difficulty: 学生易把观察日记写成流水账
+    typical_misconceptions:
+    - error_pattern: 观察日记写成流水账
+      misconception_type: 重点不突出
+    - error_pattern: 缺少时间标注
+      misconception_type: 格式不规范
+  variation_strategy:
+  - 写一则观察日记
+  - 按时间顺序写出观察到的变化

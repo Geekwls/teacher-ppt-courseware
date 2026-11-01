@@ -1,0 +1,88 @@
+lessons:
+- lesson_id: chi-g1-t2-u01-l01
+  unit_id: unit-01
+  subject: chinese
+  grade: 1
+  term: term-2
+  lesson_number: 1
+  lesson_name: 1 春夏秋冬
+  page_range: P2-P3
+  official_examples:
+  - 春、风、吹、夏、雨、落、秋、霜、降、冬、雪、飘。
+  - 青草、红花、游鱼、飞鸟。
+  - 池草青，山花红，鱼出水，鸟入林。
+- lesson_id: chi-g1-t2-u01-l02
+  unit_id: unit-01
+  subject: chinese
+  grade: 1
+  term: term-2
+  lesson_number: 2
+  lesson_name: 2 姓氏歌
+  page_range: P4-P5
+  official_examples:
+  - 你姓什么？我姓李。什么李？木子李。
+  - 他姓什么？他姓张。什么张？弓长张。
+  - 古月胡，口天吴，双人徐，言午许。
+  - 中国姓氏有很多，赵、钱、孙、李，周、吴、郑、王，诸葛、东方，上官、欧阳……
+  - 照样子做问答游戏。
+- lesson_id: chi-g1-t2-u01-l03
+  unit_id: unit-01
+  subject: chinese
+  grade: 1
+  term: term-2
+  lesson_number: 3
+  lesson_name: 3 小青蛙
+  page_range: P6-P7
+  official_examples:
+  - 河水清清天气晴，小小青蛙大眼睛。
+  - 保护禾苗吃害虫，做了不少好事情。
+  - 请你爱护小青蛙，好让禾苗不生病。
+  - 睛、情、晴、清、请——读一读下面的字，说说你发现了什么，再填一填。
+- lesson_id: chi-g1-t2-u01-l04
+  unit_id: unit-01
+  subject: chinese
+  grade: 1
+  term: term-2
+  lesson_number: 4
+  lesson_name: 4 猜字谜
+  page_range: P8-P9
+  official_examples:
+  - （一）左边绿，右边红，左右相遇起凉风。绿的喜欢及时雨，红的最怕水来攻。
+  - （二）「言」来互相尊重，「心」至令人感动，「日」出万里无云，「水」到纯净透明。
+  - 猜一猜：「一加一」，猜一个字。
+- lesson_id: chi-g1-t2-u01-l05
+  unit_id: unit-01
+  subject: chinese
+  grade: 1
+  term: term-2
+  lesson_number: 5
+  lesson_name: 语文园地一
+  page_range: P10-P12
+  official_examples:
+  - 识字加油站、字词句运用：读一读，说说你发现了什么，再写一写。
+  - 读一读《祖国多么广大》：大兴安岭，雪花还在飞舞。长江两岸，柳枝已经发芽。海南岛上，到处盛开着鲜花。我们的祖国多么广大。
+  - 读一读，记一记《汉语拼音字母表》。
+  - 日积月累：《春晓》[唐] 孟浩然——春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。
+  - 书写提示：笔顺规则——先外后内再封口（田、四、白）。
+- lesson_id: chi-g1-t2-u01-l06
+  unit_id: unit-01
+  subject: chinese
+  grade: 1
+  term: term-2
+  lesson_number: 6
+  lesson_name: 口语交际：请你帮个忙
+  page_range: P13
+  official_examples:
+  - 有时候我们需要别人的帮助，该怎样请求帮助呢？
+  - 爸爸，请您帮我拿一下那本书好吗？
+  - ◎ 注意使用礼貌用语：请，请问，您，您好，谢谢，不客气。
+- lesson_id: chi-g1-t2-u01-l07
+  unit_id: unit-01
+  subject: chinese
+  grade: 1
+  term: term-2
+  lesson_number: 7
+  lesson_name: 和大人一起读：妞妞赶牛
+  page_range: P14
+  official_examples:
+  - 妞妞赶牛河边走，牛牛要吃河边柳，妞妞护柳扭牛走……（传统绕口令）

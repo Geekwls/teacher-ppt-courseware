@@ -1,0 +1,113 @@
+unit_id: "unit-1"
+blueprints:
+  - blueprint_id: "bp-chi-g3-t1-u01-standard"
+    title: "第一单元校园生活标准练习卷命题蓝图"
+    target_practice: "单元综合巩固与能力提升练习"
+    total_score: 100
+    suggested_time_minutes: 60
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础题（共 60 分，占比 60%）
+      - slot_id: "slot-01"
+        section: "一、字词芳草地：读拼音，写词语（规范书写在田字格中）"
+        question_type: "writing"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["chi-g3-t1-u01-p01"]
+        guidelines: "精选本单元重点词语：坪坝、绒球、飘扬、洁白、粗壮。提供标准拼音，在规范田字格中工整书写。"
+
+      - slot_id: "slot-02"
+        section: "二、语音辨识营：给带点的字选择正确的读音打『√』"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 4
+        target_points: ["chi-g3-t1-u01-p02"]
+        guidelines: "考查多音字『假、晃、挨、背』在不同具体语境中的读音辨析。"
+
+      - slot_id: "slot-03"
+        section: "三、词语积累屋：把下列成语补充完整"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 1
+        item_count: 8
+        target_points: ["chi-g3-t1-u01-p07"]
+        guidelines: "考查语文园地一词句段运用成语：摇头(晃)脑、披头(散)发、张牙(舞)爪、提心(吊)胆、面红(耳)赤、手忙(脚)乱、手(疾)眼快、口干(舌)燥。"
+
+      - slot_id: "slot-04"
+        section: "四、字词比拼台：形近字组词"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 4
+        target_points: ["chi-g3-t1-u01-p01"]
+        guidelines: "形近字对比组词：扬/杨、绒/线、笛/苗、诵/通。"
+
+      - slot_id: "slot-05"
+        section: "五、古诗背诵厅：古诗默写与字词释义"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["chi-g3-t1-u01-p07"]
+        guidelines: "默写《所见》全诗，重点考查『歌声振林樾』『意欲捕鸣蝉』等句；解释『振林樾』『意欲』的意思。"
+
+      - slot_id: "slot-06"
+        section: "六、课文回音壁：根据课文内容填空"
+        question_type: "fill_blank"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["chi-g3-t1-u01-p04"]
+        guidelines: "考查《大青树下的小学》《花的学校》《不懂就要问》的关键内容与人物表现。"
+
+      - slot_id: "slot-07"
+        section: "七、口语交际厅：我的暑假生活"
+        question_type: "choice"
+        difficulty: "basic"
+        points_per_item: 3
+        item_count: 2
+        target_points: ["chi-g3-t1-u01-p05"]
+        guidelines: "考查口语交际的要求：选择别人可能感兴趣的内容讲、借助图片或实物讲、把经历讲清楚。"
+
+      # 二、变式题（共 30 分，占比 30%）
+      - slot_id: "slot-08"
+        section: "八、词句理解苑：体会新鲜感的词句"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 2
+        target_points: ["chi-g3-t1-u01-p03"]
+        guidelines: "结合具体句子，考查『湿润的东风走过荒野，在竹林中吹着风笛』『树枝在林中互相碰触着……雷云拍着大手』等新鲜表达的理解。"
+
+      - slot_id: "slot-09"
+        section: "九、修辞芳草地：仿照例句写句子"
+        question_type: "writing"
+        difficulty: "variation"
+        points_per_item: 4
+        item_count: 2
+        target_points: ["chi-g3-t1-u01-p03"]
+        guidelines: "体会『雨一来，他们便放假了』的新鲜表达，照样子写一写，如『清风一吹，他们……』『蝴蝶一来，他们……』。"
+
+      - slot_id: "slot-10"
+        section: "十、课外阅读吧：校园生活语段阅读"
+        question_type: "reading"
+        difficulty: "variation"
+        points_per_item: 7
+        item_count: 2
+        target_points: ["chi-g3-t1-u01-p03", "chi-g3-t1-u01-p04"]
+        guidelines: "短文阅读，考查提取信息、联系上下文理解关键词以及体会文中新鲜词句的表达效果。"
+
+      # 三、挑战题（共 10 分，占比 10%）
+      - slot_id: "slot-11"
+        section: "十一、妙笔生花台：写一个同学的小片段（猜猜他是谁）"
+        question_type: "writing"
+        difficulty: "challenge"
+        points_per_item: 10
+        item_count: 1
+        target_points: ["chi-g3-t1-u01-p06"]
+        guidelines: "选择一个同学，抓住一两点特别的地方写一段话（100 字左右），文中不能出现他的名字，要让别人读了能猜出写的是谁；注意一段话开头空两格。"

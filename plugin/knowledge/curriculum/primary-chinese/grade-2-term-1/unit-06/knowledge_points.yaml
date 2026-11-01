@@ -1,0 +1,60 @@
+unit_id: unit-06
+source_id: pep_chinese_g2_t1_2024
+points:
+- point_id: chi-g2-t1-u06-p01
+  unit_id: unit-06
+  lesson_id: chi-g2-t1-u06-l01
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《八角楼上》与《朱德的扁担》
+  learning_objectives:
+  - 能朗读两篇课文，能说出毛主席在八角楼上工作、朱德与战士们一起挑粮的事迹
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P67
+    - P69
+    anchor_text: 单元起始页 P67 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 八角楼上毛主席的工作情景
+    - 「朱德的扁担」上写字的细节与战士们的敬意
+    scope_excluded:
+    - 革命历史事件的系统讲解
+    - 写话
+- point_id: chi-g2-t1-u06-p02
+  unit_id: unit-06
+  lesson_id: chi-g2-t1-u06-l01
+  subject: chinese
+  grade: 2
+  term: term-1
+  point_name: 《难忘的泼水节》《刘胡兰》与语文园地六
+  learning_objectives:
+  - 能朗读两篇课文，能说出周总理与傣族人民共度泼水节、刘胡兰英勇不屈的事迹
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t1_2024
+    page_ref:
+    - P72
+    - P75
+    - P78
+    anchor_text: 单元起始页 P72 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 周总理与傣族人民共度泼水节的场景
+    - 刘胡兰面对敌人英勇不屈的表现
+    scope_excluded:
+    - 革命历史事件的系统讲解
+    - 写话

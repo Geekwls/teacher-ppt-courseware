@@ -1,0 +1,211 @@
+edition_lock:
+  textbook_name: 义务教育教科书 语文 二年级上册
+  publisher: 人民教育出版社
+  approval_year: 教育部2022课标2024/2026修订新版
+  grade: 2
+  term: term-1
+  unit_id: unit-02
+  unit_name: 第二单元 识字与自然
+  page_range: P16-P27
+  verified: true
+lessons_map:
+- lesson_id: chi-g2-t1-u02-l01
+  title: 识字1 场景歌
+  page: P16-P17
+  core_writing_chars:
+  - 处
+  - 块
+  - 座
+  - 园
+  - 群
+  - 队
+  - 领
+- lesson_id: chi-g2-t1-u02-l02
+  title: 识字2 树之歌
+  page: P18-P19
+  core_writing_chars:
+  - 树
+  - 之
+  - 杨
+  - 松
+  - 柏
+  - 化
+  - 金
+  - 桂
+- lesson_id: chi-g2-t1-u02-l03
+  title: 识字3 拍手歌
+  page: P20-P22
+  core_writing_chars:
+  - 拍
+  - 世
+  - 界
+  - 彩
+  - 丛
+  - 休
+  - 朋
+  - 友
+  - 保
+  - 护
+- lesson_id: chi-g2-t1-u02-l04
+  title: 识字4 田家四季歌
+  page: P23-P24
+  core_writing_chars:
+  - 季
+  - 肥
+  - 农
+  - 事
+  - 谷
+  - 体
+  - 辛
+  - 苦
+  - 初
+  - 年
+- lesson_id: chi-g2-t1-u02-l05
+  title: 语文园地二
+  page: P25-P27
+  core_writing_chars:
+  - 丑
+  - 诚
+official_vocab_table:
+- word: 花园
+  lesson: 识字1 场景歌
+- word: 飞鸟
+  lesson: 识字1 场景歌
+- word: 红领巾
+  lesson: 识字1 场景歌
+- word: 欢笑
+  lesson: 识字1 场景歌
+- word: 杨树
+  lesson: 识字2 树之歌
+- word: 树叶
+  lesson: 识字2 树之歌
+- word: 松柏
+  lesson: 识字2 树之歌
+- word: 化石
+  lesson: 识字2 树之歌
+- word: 开花
+  lesson: 识字2 树之歌
+- word: 拍手
+  lesson: 识字3 拍手歌
+- word: 世界
+  lesson: 识字3 拍手歌
+- word: 云彩
+  lesson: 识字3 拍手歌
+- word: 丛林
+  lesson: 识字3 拍手歌
+- word: 竹林
+  lesson: 识字3 拍手歌
+- word: 朋友
+  lesson: 识字3 拍手歌
+- word: 保护
+  lesson: 识字3 拍手歌
+- word: 动物
+  lesson: 识字3 拍手歌
+- word: 四季
+  lesson: 识字4 田家四季歌
+- word: 春风
+  lesson: 识字4 田家四季歌
+- word: 农事
+  lesson: 识字4 田家四季歌
+- word: 月光
+  lesson: 识字4 田家四季歌
+- word: 身体
+  lesson: 识字4 田家四季歌
+- word: 辛苦
+  lesson: 识字4 田家四季歌
+- word: 心里
+  lesson: 识字4 田家四季歌
+- word: 字典
+  lesson: 语文园地二
+- word: 部首
+  lesson: 语文园地二
+- word: 音序
+  lesson: 语文园地二
+three_tier_vocab:
+  lessons_desc: 《场景歌》《树之歌》《拍手歌》《田家四季歌》
+  tier_a_phrases:
+  - pinyin: huā yuán
+    word: 花园
+  - pinyin: fēi niǎo
+    word: 飞鸟
+  - pinyin: hóng lǐng jīn
+    word: 红领巾
+  - pinyin: huān xiào
+    word: 欢笑
+  - pinyin: yáng shù
+    word: 杨树
+  - pinyin: shù yè
+    word: 树叶
+  - pinyin: sōng bǎi
+    word: 松柏
+  - pinyin: huà shí
+    word: 化石
+  - pinyin: kāi huā
+    word: 开花
+  - pinyin: pāi shǒu
+    word: 拍手
+  - pinyin: shì jiè
+    word: 世界
+  - pinyin: yún cai
+    word: 云彩
+  - pinyin: cóng lín
+    word: 丛林
+  - pinyin: zhú lín
+    word: 竹林
+  - pinyin: péng you
+    word: 朋友
+  - pinyin: bǎo hù
+    word: 保护
+  - pinyin: dòng wù
+    word: 动物
+  - pinyin: sì jì
+    word: 四季
+  - pinyin: chūn fēng
+    word: 春风
+  - pinyin: nóng shì
+    word: 农事
+  - pinyin: yuè guāng
+    word: 月光
+  - pinyin: shēn tǐ
+    word: 身体
+  - pinyin: xīn kǔ
+    word: 辛苦
+  - pinyin: xīn lǐ
+    word: 心里
+  tier_b_pairs:
+  - char1: 园
+    word1: 花园
+    char2: 圆
+    word2: 圆形
+  - char1: 杨
+    word1: 杨树
+    char2: 扬
+    word2: 表扬
+  - char1: 朋
+    word1: 朋友
+    char2: 明
+    word2: 明天
+  - char1: 苦
+    word1: 辛苦
+    char2: 若
+    word2: 假若
+  tier_c_phrases:
+  - pinyin: hǎi ōu
+    word: 海鸥
+  - pinyin: jūn jiàn
+    word: 军舰
+  - pinyin: chuí liǔ
+    word: 垂柳
+  - pinyin: tóng hào
+    word: 铜号
+  - pinyin: xīn qí
+    word: 新奇
+  - pinyin: bǎi líng
+    word: 百灵
+  strokes_challenge:
+  - question_stem: “处”是____________结构，部首是：____________。
+    answer_text: 半包围；折文（夂）
+  - question_stem: “歌”的部首是____________旁；“朋”由两个（    ）字组成。
+    answer_text: 欠字旁（欠）；月
+  - question_stem: “季”是上下结构，上半部分是“禾”，下半部分是“（    ）”。
+    answer_text: 子

@@ -1,0 +1,48 @@
+unit_id: unit-08
+blueprints:
+- blueprint_id: bp-math-g5-t1-u08-standard
+  title: 第八单元 可能性标准练习卷命题蓝图
+  target_practice: 单元综合巩固与能力提升练习
+  total_score: 100
+  suggested_time_minutes: 60
+  difficulty_ratio:
+    basic: 0.6
+    variation: 0.3
+    challenge: 0.1
+  question_slots:
+  - slot_id: slot-01
+    section: 一、填一填（用词描述）
+    question_type: fill_blank
+    difficulty: basic
+    points_per_item: 5
+    item_count: 6
+    target_points:
+    - math-g5-t1-u08-p01
+    guidelines: 用「一定」「可能」「不可能」描述事件发生的可能性。
+  - slot_id: slot-02
+    section: 二、判一判
+    question_type: choice
+    difficulty: basic
+    points_per_item: 5
+    item_count: 4
+    target_points:
+    - math-g5-t1-u08-p01
+    guidelines: 判断关于事件确定性与可能性的说法是否正确。
+  - slot_id: slot-03
+    section: 三、连一连（可能性大小）
+    question_type: choice
+    difficulty: variation
+    points_per_item: 5
+    item_count: 4
+    target_points:
+    - math-g5-t1-u08-p01
+    guidelines: 把事件与可能性大小配对。
+  - slot_id: slot-04
+    section: 四、解决问题
+    question_type: reading
+    difficulty: challenge
+    points_per_item: 15
+    item_count: 2
+    target_points:
+    - math-g5-t1-u08-p01
+    guidelines: 根据摸球或转盘情境比较可能性大小并说明理由。

@@ -1,0 +1,117 @@
+unit_id: unit-03
+source_id: pep_chinese_g5_t1_2024
+points:
+- point_id: chi-g5-t1-u03-p01
+  unit_id: unit-03
+  lesson_id: chi-g5-t1-u03-l01
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 把握民间故事的主要情节
+  learning_objectives:
+  - 能梳理并说出民间故事的主要情节
+  - 能说出民间故事中蕴含的朴素愿望和真挚情感
+  applicable_question_types:
+  - reading
+  - fill_blank
+  - writing
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P34
+    - P37
+    - P42
+    anchor_text: P34–P36：《猎人海力布》中「海力布救了小白蛇 → 得到宝石 → 为救乡亲说出秘密 → 变成石头」的情节链。P37–P41：《牛郎织女（一）》。P42–P44：《牛郎织女（二）》的结局。
+  teaching_boundary:
+    scope_allowed:
+    - 梳理故事情节
+    - 说出故事蕴含的情感
+    - 复述故事的主要内容
+    scope_excluded:
+    - 民间文学研究
+    - 故事形态学（普罗普）
+- point_id: chi-g5-t1-u03-p02
+  unit_id: unit-03
+  lesson_id: chi-g5-t1-u03-l02
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 创造性复述故事
+  learning_objectives:
+  - 能把课文中简略的情节说得更具体
+  - 能通过丰富细节、变换口吻等方式创造性复述
+  applicable_question_types:
+  - writing
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P41
+    - P45
+    anchor_text: P41：「课文中有些情节写得很简略，发挥想象把下面的情节说得更具体。牛郎常常把看见的、听见的事告诉老牛。仙女们商量瞒着王母娘娘去人间看看。」P45 口语交际《讲民间故事》。
+  teaching_boundary:
+    scope_allowed:
+    - 丰富情节细节
+    - 变换叙述口吻
+    - 创造性复述故事
+    scope_excluded:
+    - 口述文学与书面文学的区别
+    - 叙事视角理论
+- point_id: chi-g5-t1-u03-p03
+  unit_id: unit-03
+  lesson_id: chi-g5-t1-u03-l03
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 故事新编
+  learning_objectives:
+  - 能按照自己的想法新编一个故事
+  - 新编的故事要有合理的想象与完整的结构
+  applicable_question_types:
+  - writing
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P46
+    anchor_text: P46 习作《故事新编》：按照自己的想法新编故事。
+  teaching_boundary:
+    scope_allowed:
+    - 确定新编的思路
+    - 保持故事的完整性
+    - 展开合理的想象
+    scope_excluded:
+    - 创意写作的构思方法
+    - 改编与再创作理论
+- point_id: chi-g5-t1-u03-p04
+  unit_id: unit-03
+  lesson_id: chi-g5-t1-u03-l04
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 绘制连环画并配文字
+  learning_objectives:
+  - 能为故事选择关键情节并绘制连环画
+  - 能为每幅图配上简洁准确的文字
+  applicable_question_types:
+  - writing
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P44
+    anchor_text: P44：「如果给《牛郎织女》绘制连环画，你打算画哪些内容，每幅图画配什么文字。」
+  teaching_boundary:
+    scope_allowed:
+    - 选择关键情节
+    - 为图配简洁文字
+    - 图文对应
+    scope_excluded:
+    - 绘本创作的图文关系
+    - 视觉叙事理论

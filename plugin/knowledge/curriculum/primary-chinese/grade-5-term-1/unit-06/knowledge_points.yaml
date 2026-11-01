@@ -1,0 +1,60 @@
+unit_id: unit-06
+source_id: pep_chinese_g5_t1_2024
+points:
+- point_id: chi-g5-t1-u06-p01
+  unit_id: unit-06
+  lesson_id: chi-g5-t1-u06-l01
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 体会场景与细节中蕴含的感情
+  learning_objectives:
+  - 能通过场景与细节描写体会父母之爱
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P75
+    - P76
+    - P80
+    anchor_text: 单元起始页 P75 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《慈母情深》《父爱之舟》
+    - 场景与细节描写
+    scope_excluded:
+    - 亲情散文的鉴赏
+    - 细节描写的写作技巧
+- point_id: chi-g5-t1-u06-p02
+  unit_id: unit-06
+  lesson_id: chi-g5-t1-u06-l01
+  subject: chinese
+  grade: 5
+  term: term-1
+  point_name: 用恰当的语言表达看法和感受（我想对您说）
+  learning_objectives:
+  - 能用恰当的语言向父母表达自己的看法和感受
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g5_t1_2024
+    page_ref:
+    - P88
+    - P89
+    anchor_text: 单元起始页 P88 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 用恰当的语言表达
+    - 书信体的表达方式
+    scope_excluded:
+    - 亲子沟通的表达技巧
+    - 书信体写作规范

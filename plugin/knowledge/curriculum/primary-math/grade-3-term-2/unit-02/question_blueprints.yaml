@@ -1,0 +1,100 @@
+unit_id: "unit-2"
+blueprints:
+  - blueprint_id: "bp-math-g3-t2-u02-standard"
+    title: "第二单元除数是一位数的除法标准练习卷蓝图"
+    target_practice: "单元综合达标与能力提升练习（6:3:1 阶梯）"
+    total_score: 100
+    suggested_time_minutes: 40
+    difficulty_ratio:
+      basic: 0.60
+      variation: 0.30
+      challenge: 0.10
+    question_slots:
+      # 一、基础计算（32分，口算8题+笔算4题）
+      - slot_id: "slot-01"
+        section: "一、神机妙算口算堂"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 1
+        item_count: 8
+        target_points: ["math-g3-t2-u02-p01", "math-g3-t2-u02-p02", "math-g3-t2-u02-p06"]
+        guidelines: "整十整百数除以一位数3题、两位数除以一位数拆分口算2题、几百几十除以一位数2题、0的除法1题。"
+
+      - slot_id: "slot-02"
+        section: "二、规范列竖式计算"
+        question_type: "calculation"
+        difficulty: "basic"
+        points_per_item: 6
+        item_count: 4
+        target_points: ["math-g3-t2-u02-p03", "math-g3-t2-u02-p04", "math-g3-t2-u02-p07", "math-g3-t2-u02-p08"]
+        guidelines: "1题两位数除以一位数带验算、1题三位数首位够除、1题商中间有0、1题商末尾有0。要求书写整洁对齐。"
+
+      # 二、精挑细选（15分，针对典型错因生成干扰项）
+      - slot_id: "slot-03"
+        section: "三、用心思考精挑选"
+        question_type: "choice"
+        difficulty: "variation"
+        points_per_item: 3
+        item_count: 5
+        target_points: ["math-g3-t2-u02-p05", "math-g3-t2-u02-p06", "math-g3-t2-u02-p07", "math-g3-t2-u02-p08", "math-g3-t2-u02-p09"]
+        distractor_policy:
+          item_1_middle_zero:
+            context: "计算 216 ÷ 2 的商是"
+            correct: "108"
+            distractor_1: "18（典型错因：十位不够商1漏写0）"
+            distractor_2: "180（末尾乱添0）"
+            distractor_3: "103"
+          item_2_remainder_rule:
+            context: "一个数除以 7，如果有余数，余数最大是"
+            correct: "6（余数必须比除数小）"
+            distractor_1: "7（混淆等于除数）"
+            distractor_2: "8（典型错因：比除数还大）"
+            distractor_3: "5"
+          item_3_quotient_digits:
+            context: "要使 □48 ÷ 5 的商是三位数，□里最小填"
+            correct: "5（首位大于或等于5商是三位数）"
+            distractor_1: "4（首位填4商是两位数）"
+            distractor_2: "1"
+            distractor_3: "6"
+          item_4_zero_division:
+            context: "下列说法正确的是"
+            correct: "0除以任何不是0的数都得0"
+            distractor_1: "0除以任何数都得0（漏除数不能为0）"
+            distractor_2: "0除以一个数等于这个数"
+            distractor_3: "任何数除以0都得0"
+          item_5_end_zero:
+            context: "650 ÷ 5 的商末尾有几个0"
+            correct: "1个（商是130）"
+            distractor_1: "0个（漏写末尾0得13）"
+            distractor_2: "2个"
+            distractor_3: "无法确定"
+
+      # 三、知识填空窗（18分，变式30%的核心）
+      - slot_id: "slot-04"
+        section: "四、知识积累填空窗"
+        question_type: "fill_blank"
+        difficulty: "variation"
+        points_per_item: 3
+        item_count: 6
+        target_points: ["math-g3-t2-u02-p01", "math-g3-t2-u02-p03", "math-g3-t2-u02-p05", "math-g3-t2-u02-p07", "math-g3-t2-u02-p08"]
+        guidelines: "填空包含：商的位数判断、商中间和末尾0的条件、有余数除法验算乘加关系、估算范围、余数极值推理。"
+
+      # 四、判断正误（10分）
+      - slot_id: "slot-05"
+        section: "五、仔细推敲判正误"
+        question_type: "judge"
+        difficulty: "basic"
+        points_per_item: 2
+        item_count: 5
+        target_points: ["math-g3-t2-u02-p05", "math-g3-t2-u02-p06", "math-g3-t2-u02-p07", "math-g3-t2-u02-p08"]
+        guidelines: "考查：余数与除数关系、被除数中间有0商中间是否一定有0（反例辨析）、0不能作除数、商的位数辨析。"
+
+      # 五、生活解决问题（25分，思维应用10%与综合应用）
+      - slot_id: "slot-06"
+        section: "六、走进生活解决问题"
+        question_type: "word_problem"
+        difficulty: "advanced"
+        points_per_item: 5
+        item_count: 5
+        target_points: ["math-g3-t2-u02-p03", "math-g3-t2-u02-p05", "math-g3-t2-u02-p09"]
+        guidelines: "包含单价数量、连除解决实际问题、进一法实际情境租船租车、估算钱数够不够。"

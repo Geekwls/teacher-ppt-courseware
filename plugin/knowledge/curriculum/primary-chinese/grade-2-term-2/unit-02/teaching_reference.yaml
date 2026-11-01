@@ -1,0 +1,60 @@
+unit_id: unit-02
+source_id: pep_chinese_g2_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t2-u02-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「问答」结构带动朗读，把「猜词意」的方法（看偏旁、联系上下文）显性化
+    difficulty: 学生易把「泥泞」「晶莹」的猜词方法说成「查字典」；朗读问句时语气不到位
+    typical_misconceptions:
+    - error_pattern: 猜词意时只会说「查字典」
+      misconception_type: 猜词方法未掌握
+    - error_pattern: 问句读成陈述语气
+      misconception_type: 朗读语气未把握
+  variation_strategy:
+  - 分角色问答朗读课文
+  - 用两种方法猜出指定词语的意思
+- point_id: chi-g2-t2-u02-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「一块糕要经过哪些人的劳动」为梳理线索，把「千人糕」的含义落到具体环节上
+    difficulty: 学生易只记住「千人糕」的名称而说不出具体的劳动环节
+    typical_misconceptions:
+    - error_pattern: 说不出种稻、磨粉、熬糖、包装、送货、销售等环节
+      misconception_type: 内容提取不全
+    - error_pattern: 默读时读出声
+      misconception_type: 默读方法未掌握
+  variation_strategy:
+  - 按顺序说说米糕的来历
+  - 举例说说文具、衣服要经过哪些人的劳动
+- point_id: chi-g2-t2-u02-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以三句问话（「为什么要给我呢？」「我是最弱小的了？」「现在我还是最弱小的吗？」）为线索，串起萨沙的心理变化
+    difficulty: 学生易只读出萨沙的「疑问」而说不出他最后「变勇敢」的原因
+    typical_misconceptions:
+    - error_pattern: 说不出萨沙变勇敢的原因
+      misconception_type: 心理变化未理清
+    - error_pattern: 分角色朗读时妈妈与萨沙的台词错位
+      misconception_type: 角色朗读不到位
+  variation_strategy:
+  - 分角色朗读并画出三句问话
+  - 说说自己保护过什么
+- point_id: chi-g2-t2-u02-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「师」「员」为构词线索归类职业名称；把格言作为文化积累，联系本单元课文理解其意
+    difficulty: 学生易把「营业员」「饲养员」写错；说不出「予人玫瑰，手有余香」的意思
+    typical_misconceptions:
+    - error_pattern: 把「饲养员」写成「伺养员」
+      misconception_type: 形近字未区分
+    - error_pattern: 说不出格言大意
+      misconception_type: 积累停留在机械记忆
+  variation_strategy:
+  - 给职业名称归类并认读
+  - 说说自己长大想做什么职业

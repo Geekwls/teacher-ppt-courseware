@@ -1,0 +1,60 @@
+unit_id: unit-04
+source_id: pep_chinese_g2_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t2-u04-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把「彩色铅笔」当作「彩色的梦」，以「脚尖滑过的地方」为句式支架开展仿写
+    difficulty: 学生易把仿写写成简单的景物罗列，缺少「大块的……绿了」这样的句式结构
+    typical_misconceptions:
+    - error_pattern: 仿写时只罗列景物而无句式
+      misconception_type: 句式迁移不到位
+    - error_pattern: 说不出「紫葡萄的叮咛」把什么当作人
+      misconception_type: 拟人写法未识别
+  variation_strategy:
+  - 朗读课文并想象画面
+  - 仿照第2小节写几句话
+- point_id: chi-g2-t2-u04-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「妹妹为什么会有这样的变化」为核心问题，引导学生发现「鼓励与想象」带来的力量
+    difficulty: 学生易把「一匹出色的马」理解成真的马；说不出妹妹变化的原因
+    typical_misconceptions:
+    - error_pattern: 把「一匹出色的马」理解成真的马
+      misconception_type: 比喻义未理解
+    - error_pattern: 说不出妹妹变高兴的原因
+      misconception_type: 因果关系未理清
+  variation_strategy:
+  - 找出描写妹妹变化的句子并朗读
+  - 说说自己家里类似的经历
+- point_id: chi-g2-t2-u04-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「文中反复出现的『我喜欢』」为线索梳理情感，以「一会儿……一会儿……」为句式支架开展表达
+    difficulty: 学生易把「一会儿……一会儿……」写成同一件事的重复，缺少并列的不同动作
+    typical_misconceptions:
+    - error_pattern: 三个「一会儿」内容重复
+      misconception_type: 句式运用不到位
+    - error_pattern: 说不出「我」喜欢的具体对象
+      misconception_type: 信息提取不全
+  variation_strategy:
+  - 默读并画出所有「我喜欢」的句子
+  - 用「一会儿……一会儿……」写一段话
+- point_id: chi-g2-t2-u04-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把玩具名称与实物、图片对应识字；把诚信名言与生活情境联系起来理解
+    difficulty: 学生易把「不倒翁」写成「不到翁」；说不出「失信不立」的意思
+    typical_misconceptions:
+    - error_pattern: 把「不倒翁」写成「不到翁」
+      misconception_type: 形近字未区分
+    - error_pattern: 说不出「失信不立」的大意
+      misconception_type: 积累停留在机械记忆
+  variation_strategy:
+  - 看图认读玩具名称
+  - 背诵诚信名言并说说自己的理解

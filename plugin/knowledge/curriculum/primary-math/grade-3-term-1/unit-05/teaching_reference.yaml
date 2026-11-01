@@ -1,0 +1,112 @@
+unit_id: "unit-5"
+source_id: "pep_math_g3_t1_tr_2024"
+ref_page_note: >
+  教参页码于 2026-10-09 依据用户提供的《2025年秋人教版教师教学用书数学三年级上册》
+  （409 页扫描件，OCR 解析）核定。第五单元《线和角》位于教参 P182–P215：
+  总体设计 P182–P186、教材分析 P187–P198、教学设计案例 P199–P208、
+  拓展资源 P209–P211、评价建议及样例 P212–P215。
+teaching_references:
+  - point_id: "math-g3-t1-u05-p01"
+    ref_book: "人教版《教师教学用书》数学三年级上册第五单元"
+    ref_page: "P187-P198"
+    pedagogical_focus:
+      key_point: "借助拉紧的线、绷紧的弦等实物抽象出线段，再通过「无限延伸」的想象认识射线和直线"
+      difficulty: "「无限延伸」「没有端点」较为抽象，学生易把画在纸上的有限图形等同于直线本身"
+      typical_misconceptions:
+        - error_pattern: "认为「画得长的那条直线更长」，用图形长短判断直线"
+          misconception_type: "把无限延伸的直线与所画图形混淆"
+        - error_pattern: "认为射线有两个端点（把端点写成两端）"
+          misconception_type: "端点个数记忆错误"
+    variation_strategy:
+      - "列表比较三种线的端点个数、能否度量、能否延伸"
+      - "在图形中辨认线段、射线、直线，并说明判断依据"
+
+  - point_id: "math-g3-t1-u05-p02"
+    ref_book: "人教版《教师教学用书》数学三年级上册第五单元"
+    ref_page: "P187-P198"
+    pedagogical_focus:
+      key_point: "在「哪条路最近」的比较中概括出「两点间线段最短」，进而定义两点间的距离"
+      difficulty: "学生易把「距离」理解为所走路线的长度，而非两点间线段的长度"
+      typical_misconceptions:
+        - error_pattern: "认为沿街道绕行的路线长度就是两点间的距离"
+          misconception_type: "混淆「距离」与「路程」"
+        - error_pattern: "用直尺量折线长度时把各段相加后仍称其为「两点间的距离」"
+          misconception_type: "概念指向错误"
+    variation_strategy:
+      - "给出多条路线图，判断哪条最近并说明依据"
+      - "用「两点间的距离」描述图中连接两点的线段长度"
+
+  - point_id: "math-g3-t1-u05-p03"
+    ref_book: "人教版《教师教学用书》数学三年级上册第五单元"
+    ref_page: "P199-P208"
+    pedagogical_focus:
+      key_point: "在「不用尺子也能比较长短吗」的问题驱动下认识圆规的移长功能"
+      difficulty: "学生操作圆规时易滑动、开口变大变小，导致比较结果失真"
+      typical_misconceptions:
+        - error_pattern: "用圆规量取后没有保持开口大小，比较时两脚距离改变"
+          misconception_type: "工具操作不规范"
+        - error_pattern: "认为只能用尺子量长度，想不到用圆规重叠比较"
+          misconception_type: "方法单一，缺乏工具意识"
+    variation_strategy:
+      - "用圆规比较每组两条线段的长短并验证"
+      - "在直线上用圆规截取与已知线段等长的线段"
+
+  - point_id: "math-g3-t1-u05-p04"
+    ref_book: "人教版《教师教学用书》数学三年级上册第五单元"
+    ref_page: "P199-P208"
+    pedagogical_focus:
+      key_point: "从「一个点引出两条射线」抽象出角的定义，建立角的表象"
+      difficulty: "学生易把角的大小与边画得长短联系起来，误以为边越长角越大"
+      typical_misconceptions:
+        - error_pattern: "认为「边画得长的角更大」"
+          misconception_type: "混淆角的张口大小与边的长短"
+        - error_pattern: "把角的顶点标在边的中间或两条边上"
+          misconception_type: "角的结构认识不清"
+    variation_strategy:
+      - "画大小不同但边的长短不同的角，比较张口大小"
+      - "打开折扇观察角的变化，说明「张口越大角越大」"
+
+  - point_id: "math-g3-t1-u05-p05"
+    ref_book: "人教版《教师教学用书》数学三年级上册第五单元"
+    ref_page: "P199-P208"
+    pedagogical_focus:
+      key_point: "以三角尺上的直角为标准，建立直角表象并掌握判断与画法"
+      difficulty: "判断直角时易凭目测，不借助工具，误差较大"
+      typical_misconceptions:
+        - error_pattern: "目测认为是直角就下结论，不用三角尺比一比"
+          misconception_type: "缺乏工具检验意识"
+        - error_pattern: "画直角时两条边没有从同一点出发"
+          misconception_type: "画法错误"
+    variation_strategy:
+      - "用三角尺比一比判断角是否为直角，并说明理由"
+      - "用纸折一个直角，再用它去检验身边的角"
+
+  - point_id: "math-g3-t1-u05-p06"
+    ref_book: "人教版《教师教学用书》数学三年级上册第五单元"
+    ref_page: "P199-P208"
+    pedagogical_focus:
+      key_point: "以直角为标准对锐角、钝角进行分类，体会分类标准的确定性"
+      difficulty: "接近直角的锐角或钝角不易判断，学生易凭感觉分类"
+      typical_misconceptions:
+        - error_pattern: "把接近直角的锐角误判为直角（或反之）"
+          misconception_type: "目测代替工具，临界角误判"
+        - error_pattern: "把钝角说成「比直角大一点点」而忽略可能很大的角"
+          misconception_type: "只关注相邻情形，分类不完整"
+    variation_strategy:
+      - "用三角尺比一比后给角分类（锐角/直角/钝角）"
+      - "在红领巾、中队旗、七巧板中找出各类角，并数一数"
+
+  - point_id: "math-g3-t1-u05-p07"
+    ref_book: "人教版《教师教学用书》数学三年级上册第五单元"
+    ref_page: "P209-P215"
+    pedagogical_focus:
+      key_point: "用知识结构图把「线」与「角」两块内容结构化，沟通图形之间的联系"
+      difficulty: "数图形中的线段数和角数时易重复或遗漏"
+      typical_misconceptions:
+        - error_pattern: "数直线上的线段时只数相邻两点间的线段，漏掉跨点的线段"
+          misconception_type: "数法无序，遗漏组合线段"
+        - error_pattern: "数角时把同一个角重复计数"
+          misconception_type: "缺乏有序计数的策略"
+    variation_strategy:
+      - "补全知识结构图；用「固定一个端点」的有序方法数线段"
+      - "探究直线上n个点最多连出多少条线段，发现规律"

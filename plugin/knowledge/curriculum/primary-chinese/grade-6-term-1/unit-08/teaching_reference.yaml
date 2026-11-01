@@ -1,0 +1,32 @@
+unit_id: unit-08
+source_id: pep_chinese_g6_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文六年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g6-t1-u08-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「借助相关资料」为方法，让学生理解鲁迅作品的时代背景
+    difficulty: 学生易脱离资料孤立地理解课文
+    typical_misconceptions:
+    - error_pattern: 脱离资料孤立理解
+      misconception_type: 背景意识薄弱
+    - error_pattern: 资料堆砌无助于理解
+      misconception_type: 资料运用不当
+  variation_strategy:
+  - 借助资料说出课文的主要内容
+  - 结合资料理解含义深刻的句子
+- point_id: chi-g6-t1-u08-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以《我的伯父鲁迅先生》为例，学习通过事情写人
+    difficulty: 学生易罗列事例而无情感线索
+    typical_misconceptions:
+    - error_pattern: 罗列事例无情感线索
+      misconception_type: 结构松散
+    - error_pattern: 事例不能表现人物特点
+      misconception_type: 选材不当
+  variation_strategy:
+  - 通过事情写一个人并表达情感
+  - 说出所选事例表现了人物什么特点

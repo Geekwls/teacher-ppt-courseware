@@ -1,0 +1,32 @@
+unit_id: unit-08
+source_id: pep_chinese_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学语文四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g4-t1-u08-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「为中华之崛起而读书」等故事为切入点，感受人物的爱国情怀与品格
+    difficulty: 学生易只记住故事梗概而不能体会人物品格
+    typical_misconceptions:
+    - error_pattern: 只记梗概不体会品格
+      misconception_type: 体会不深入
+    - error_pattern: 把握主要内容时遗漏关键情节
+      misconception_type: 概括不完整
+  variation_strategy:
+  - 说出人物的品格特点
+  - 把握文章的主要内容
+- point_id: chi-g4-t1-u08-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「给某个人写一封信」的真实交流任务，学习书信格式与表达
+    difficulty: 学生易漏写祝语或署名日期
+    typical_misconceptions:
+    - error_pattern: 漏写祝语或署名日期
+      misconception_type: 格式不完整
+    - error_pattern: 正文内容不清楚
+      misconception_type: 表达不明确
+  variation_strategy:
+  - 按格式写一封信
+  - 把想说的话写清楚

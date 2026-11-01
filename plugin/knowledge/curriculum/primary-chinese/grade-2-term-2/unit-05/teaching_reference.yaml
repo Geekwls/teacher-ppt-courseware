@@ -1,0 +1,32 @@
+unit_id: unit-05
+source_id: pep_chinese_g2_t2_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《2026年春统编版教师教学用书语文二年级下册》为**纯扫描件（无文字层）**，本次未做 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: chi-g2-t2-u05-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「第一次丢羊后怎么做」与「第二次丢羊后怎么做」的对比帮助理解「亡羊补牢，为时不晚」
+    difficulty: 学生易把「亡」理解成「死亡」；说不出两则寓言各自的道理
+    typical_misconceptions:
+    - error_pattern: 把「亡羊补牢」的「亡」理解成「死亡」
+      misconception_type: 古今词义未区分
+    - error_pattern: 说不出「揠苗助长」的道理
+      misconception_type: 寓意未理解
+  variation_strategy:
+  - 讲一讲两则寓言并说出道理
+  - 说说生活中类似「揠苗助长」的事
+- point_id: chi-g2-t2-u05-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「站在不同位置看到的形状不同」帮助理解《画杨桃》，以「老牛和松鼠谁说得对」帮助理解《小马过河》
+    difficulty: 学生易只记住结论而说不出理由
+    typical_misconceptions:
+    - error_pattern: 只会说「要相信自己的眼睛」而说不出理由
+      misconception_type: 理由意识不足
+    - error_pattern: 说不出小马最后是怎样过河的
+      misconception_type: 情节遗漏
+  variation_strategy:
+  - 说说为什么同一个杨桃画出来不一样
+  - 分角色朗读《小马过河》并说出道理

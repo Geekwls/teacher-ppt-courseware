@@ -1,0 +1,157 @@
+unit_id: "unit-3"
+source_id: "pep_math_g3_t1_2024"
+points:
+  - point_id: "math-g3-t1-u03-p01"
+    lesson_id: "lesson-01"
+    point_name: "毫米的认识与 1厘米=10毫米"
+    learning_objectives:
+      - "认识长度单位毫米（mm），知道毫米是比厘米更小的单位"
+      - "在直尺上建立1毫米的长度表象，理解 1厘米 = 10毫米"
+      - "能根据物体特点判断何时用毫米作单位，会量出较短物体的长度"
+    prerequisites:
+      - "认识长度单位厘米、米"
+      - "会用直尺测量物体长度"
+    subsequent_points:
+      - "math-g3-t1-u03-p02"
+    applicable_question_types: ["fill_blank", "choice", "reading"]
+    teaching_boundary:
+      scope_allowed:
+        - "毫米与厘米的换算（如 1厘米=10毫米、3厘米=30毫米、50毫米=5厘米）"
+        - "选择毫米作单位的物体（身份证厚度、硬币厚度、铅笔芯粗细等）"
+        - "用直尺量出较短物体或非整厘米物体的长度"
+      scope_excluded:
+        - "微米、丝米等更小的长度单位（本册不作要求）"
+        - "毫米与其他单位的复合换算（如毫米化千米，高年级）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [20]
+      example_ref: ["ex_1"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u03-p02"
+    lesson_id: "lesson-01"
+    point_name: "分米的认识与 1分米=10厘米"
+    learning_objectives:
+      - "认识长度单位分米（dm），知道分米是比厘米更大的单位"
+      - "在直尺上指出10厘米的长度，理解 1分米 = 10厘米，建立1分米的长度表象"
+      - "能用手势表示1分米的长度，并选择合适的长度单位描述物体"
+    prerequisites:
+      - "math-g3-t1-u03-p01"
+    subsequent_points:
+      - "math-g3-t1-u03-p03"
+    applicable_question_types: ["fill_blank", "choice", "reading"]
+    teaching_boundary:
+      scope_allowed:
+        - "分米与厘米的换算（如 1分米=10厘米、8分米=80厘米、70厘米=7分米）"
+        - "用分米描述课桌高、书本长等物体的长度"
+      scope_excluded:
+        - "分米与千米的直接换算（本册不作要求）"
+        - "面积的单位换算（三年级下册）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [21]
+      example_ref: ["ex_2"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u03-p03"
+    lesson_id: "lesson-02"
+    point_name: "长度单位间的换算与 1米=10分米"
+    learning_objectives:
+      - "理解相邻常用长度单位（毫米、厘米、分米、米）间的进率都是10"
+      - "掌握高级单位与低级单位互换的方法：高级化低级乘进率，低级化高级除以进率"
+      - "能先统一单位再比较长度的大小，或解决与长度有关的实际问题"
+    prerequisites:
+      - "math-g3-t1-u03-p02"
+    subsequent_points:
+      - "math-g3-t1-u03-p04"
+    applicable_question_types: ["calculation", "fill_blank", "choice", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "米与分米、分米与厘米、厘米与毫米的两两换算（如 1米=10分米、2米=200厘米、60毫米=6厘米）"
+        - "复名数与单名数的改写（如 5厘米8毫米、比1分米短3厘米5毫米）"
+        - "比较大小前统一单位，以及简单的长度加减"
+      scope_excluded:
+        - "含千米的换算（归入 p04）"
+        - "小数形式的长度表示（三年级下册学习小数后）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [22, 23]
+      example_ref: ["ex_3", "ex_4", "ex_5"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u03-p04"
+    lesson_id: "lesson-03"
+    point_name: "千米的认识与 1千米=1000米"
+    learning_objectives:
+      - "认识长度单位千米（km），知道千米是计量较长路程的单位，也叫「公里」"
+      - "理解 1千米 = 1000米，会进行千米与米之间的简单换算"
+      - "结合跑道1圈400米等生活经验，建立1千米的长度观念"
+    prerequisites:
+      - "math-g3-t1-u03-p03"
+      - "1000 以内数的认识与乘除法"
+    subsequent_points:
+      - "math-g3-t1-u03-p05"
+    applicable_question_types: ["fill_blank", "choice", "word_problem"]
+    teaching_boundary:
+      scope_allowed:
+        - "千米与米的换算（如 1千米=1000米、3千米=3000米、5000米=5千米）"
+        - "与路程有关的问题（如跑道圈数、步行速度与路程）"
+      scope_excluded:
+        - "千米与毫米、厘米、分米的直接换算（本册不作要求）"
+        - "速度×时间的公式化表达（四年级起）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [25]
+      example_ref: ["ex_6"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u03-p05"
+    lesson_id: "lesson-04"
+    point_name: "选择合适的标准估计距离"
+    learning_objectives:
+      - "知道估计距离需要先选择一个长度作为标准，再数出有多少个这样的标准"
+      - "能结合步长、步行速度、乘车距离等经验估计一段距离，并说明估计的依据"
+      - "经历「阅读理解—分析解答—回顾反思」的过程，体会估计结果需要验证"
+    prerequisites:
+      - "math-g3-t1-u03-p04"
+    subsequent_points:
+      - "math-g3-t1-u03-p06"
+    applicable_question_types: ["reading", "word_problem", "fill_blank"]
+    teaching_boundary:
+      scope_allowed:
+        - "以步长、步行时间、乘车距离为标准估计家到学校等距离"
+        - "估计校园的长、宽，教学楼的高度等"
+      scope_excluded:
+        - "要求精确到个位的测量（应明确为估计）"
+        - "单位换算的多步复合计算（超出本单元范围）"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [26, 28]
+      example_ref: ["ex_7", "ex_8"]
+    verification_status: "verified"
+
+  - point_id: "math-g3-t1-u03-p06"
+    lesson_id: "lesson-05"
+    point_name: "长度单位的结构化整理与合理选用"
+    learning_objectives:
+      - "能按从大到小（或从小到大）的顺序整理毫米、厘米、分米、米、千米，并标出相邻单位间的进率"
+      - "能根据物体长短选择合适的长度单位，判断用错单位说法的正误"
+      - "在整理中体会长度单位都是「人们规定好的度量标准」，发展量感与结构化思维"
+    prerequisites:
+      - "math-g3-t1-u03-p03"
+      - "math-g3-t1-u03-p04"
+    subsequent_points: []
+    applicable_question_types: ["fill_blank", "choice", "reading"]
+    teaching_boundary:
+      scope_allowed:
+        - "整理长度单位及进率并填表（如马拉松42千米、语文书厚6毫米、天桥长30米）"
+        - "判断长度单位使用是否恰当并改正"
+        - "选择最近路线等简单的综合应用"
+      scope_excluded:
+        - "面积单位、质量单位、时间单位的整理（分属其他单元）"
+        - "引入更大（如光年）或更小单位作系统换算"
+    provenance:
+      source_id: "pep_math_g3_t1_2024"
+      page_ref: [29, 30]
+      example_ref: ["ex_9"]
+    verification_status: "verified"

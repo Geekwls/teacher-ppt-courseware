@@ -1,0 +1,201 @@
+unit_id: unit-02
+source_id: pep_math_g2_t2_2024
+points:
+- point_id: math-g2-t2-u02-p01
+  unit_id: unit-02
+  lesson_id: math-g2-t2-u02-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 乘法模型：求几个几的和用乘法
+  learning_objectives:
+  - 能识别「求几个几的和」的数量关系并用乘法解决
+  - 能说出用乘法的理由，理解乘法模型的含义
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P24
+    anchor_text: P24：「一盒酸奶有6杯，买3盒，一共买了多少杯酸奶？」「6×3=18（杯）」「都是求几个几的和的问题，都用乘法解决。」
+  teaching_boundary:
+    scope_allowed:
+    - 用乘法解决「求几个几的和」的问题
+    - 说出用乘法的理由
+    scope_excluded:
+    - 两位数乘两位数的乘法
+    - 三步问题
+- point_id: math-g2-t2-u02-p02
+  unit_id: unit-02
+  lesson_id: math-g2-t2-u02-l01
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 除法模型：已知几个几的和，求相同加数或个数用除法
+  learning_objectives:
+  - 能识别「已知几个几的和，求相同加数或相同加数的个数」的数量关系并用除法解决
+  - 能辨析等分除与包含除两类除法问题
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P24
+    anchor_text: P24：「一个笔袋8元，32元能买几个笔袋？」「32÷8=4（个）」「都是知道几个几的和，求相同加数或相同加数的个数，都用除法解决。」
+  teaching_boundary:
+    scope_allowed:
+    - 用除法解决两类「已知总数求每份数或份数」的问题
+    scope_excluded:
+    - 有余数除法问题（前一单元已学）
+    - 三步问题
+- point_id: math-g2-t2-u02-p03
+  unit_id: unit-02
+  lesson_id: math-g2-t2-u02-l02
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 倍的认识与求一个数是另一个数的几倍
+  learning_objectives:
+  - 理解「一个数是另一个数的几倍」的含义（就是求一个数里面有几个另一个数）
+  - 会用除法求一个数是另一个数的几倍
+  applicable_question_types:
+  - choice
+  - fill_blank
+  - reading
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P25
+    - P26
+    - P27
+    - P28
+    anchor_text: P25：「鸡比鹅多4只……也可以说鸡的只数是鹅的3倍。」P26：「求甲数是乙数的几倍，就是求甲数里面有几个乙数。」「求12盆是4盆的几倍，就是求12里面有几个4，用除法计算。」「12÷4=3」
+  teaching_boundary:
+    scope_allowed:
+    - 倍的含义与表述
+    - 用除法求一个数是另一个数的几倍
+    scope_excluded:
+    - 「增加了几倍」的表述
+    - 百分数与比
+- point_id: math-g2-t2-u02-p04
+  unit_id: unit-02
+  lesson_id: math-g2-t2-u02-l04
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 求一个数的几倍是多少（用乘法）
+  learning_objectives:
+  - 理解「求一个数的几倍是多少」就是求几个这个数是多少
+  - 会用乘法求一个数的几倍是多少，并能画图说明
+  applicable_question_types:
+  - fill_blank
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P29
+    anchor_text: P29：「李爷爷养了8头牛，养的羊的数量是牛的4倍。李爷爷养了多少只羊？」「8×4=32（只）」「求一个数的几倍是多少，就是求几个几是多少，用乘法解决。」
+  teaching_boundary:
+    scope_allowed:
+    - 用乘法求一个数的几倍是多少
+    - 画图表示倍数关系
+    scope_excluded:
+    - 连乘问题
+    - 「多几倍」的表述
+- point_id: math-g2-t2-u02-p05
+  unit_id: unit-02
+  lesson_id: math-g2-t2-u02-l05
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 已知一个数的几倍是多少，求这个数（用除法）
+  learning_objectives:
+  - 理解「已知一个数的几倍是多少，求这个数」就是求「几份是总数，1 份是多少」
+  - 会用除法求这个数，并能画线段图说明
+  applicable_question_types:
+  - fill_blank
+  - reading
+  - choice
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P30
+    - P31
+    - P32
+    anchor_text: P30：「一只袋鼠一次跳了12米，正好相当于它体长的6倍。这只袋鼠体长多少米？」「12÷6=2（米）」「6份是12米，求1份，用除法计算。」「这是线段图。」
+  teaching_boundary:
+    scope_allowed:
+    - 用除法求「已知几倍是多少，求1份」的问题
+    - 用线段图表示数量关系
+    scope_excluded:
+    - 连除问题
+    - 两步问题
+- point_id: math-g2-t2-u02-p06
+  unit_id: unit-02
+  lesson_id: math-g2-t2-u02-l06
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 提出数学问题或补充合适的条件
+  learning_objectives:
+  - 能根据已知条件提出可解决的数学问题
+  - 能根据所求问题补充合适的条件并解答
+  applicable_question_types:
+  - reading
+  - writing
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P33
+    - P34
+    - P35
+    - P36
+    - P37
+    anchor_text: P34「布置教室的同学中，男生有9人，女生有18人。请你提出数学问题并解答。」「可以求总人数、相差人数，或者提出乘除关系的问题。」P35「补充的条件要合理。例如，如果补充的是它们的总数，必须超过8个。」
+  teaching_boundary:
+    scope_allowed:
+    - 根据条件提出问题
+    - 根据问题补充条件
+    - 两步问题的解答
+    scope_excluded:
+    - 三步及以上的复合问题
+- point_id: math-g2-t2-u02-p07
+  unit_id: unit-02
+  lesson_id: math-g2-t2-u02-l07
+  subject: math
+  grade: 2
+  term: term-2
+  point_name: 整理和复习：加减关系与乘除关系的结构化梳理
+  learning_objectives:
+  - 能用知识图梳理「加减关系（相差关系）」与「乘除关系（倍的关系）」
+  - 能综合运用数量关系正确列式解决实际问题
+  applicable_question_types:
+  - reading
+  - choice
+  - fill_blank
+  verification_status: verified
+  provenance:
+    source_id: pep_math_g2_t2_2024
+    page_ref:
+    - P38
+    - P39
+    anchor_text: P38「整理和复习」：「我会用线段图表示数量之间的倍数关系。」「5的3倍就是指3个5，和乘法的含义相同。」「两个数量之间的关系：加减关系（相差关系）与乘除关系（倍的关系）。」
+  teaching_boundary:
+    scope_allowed:
+    - 数量关系的结构化整理
+    - 综合运用数量关系解决问题
+    scope_excluded:
+    - 比与比例
+    - 百分数

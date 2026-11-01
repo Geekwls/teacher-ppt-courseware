@@ -1,0 +1,37 @@
+lessons:
+- lesson_id: math-g5-t1-u01-l01
+  unit_id: unit-01
+  subject: math
+  grade: 5
+  term: term-1
+  lesson_number: 1
+  lesson_name: 从不同方向观察组合体
+  page_range: P1-P2
+  official_examples:
+  - 用 4 个同样的小正方体摆组合体，要求组合体中的每一个小正方体至少要有一个面与其他小正方体重合。
+  - 从上面看这 3 个组合体，图形相同吗？从左面和前面看呢？从上面看，图形相同；从左面看，图形也相同；从前面看，图形不相同。
+  - 从同一方向观察不同组合体，看到的图形可能相同，也可能不同。
+- lesson_id: math-g5-t1-u01-l02
+  unit_id: unit-01
+  subject: math
+  grade: 5
+  term: term-1
+  lesson_number: 2
+  lesson_name: 按要求摆组合体（根据视图还原）
+  page_range: P3
+  official_examples:
+  - （1）从前面看到的是 [某形状]，用 3 个小正方体摆，还可以在前面或后面增加小正方体。
+  - （2）从三个方向看到的图形如下，先在之前摆出的组合体的基础上，根据从左面和上面看到的进行调整。
+- lesson_id: math-g5-t1-u01-l03
+  unit_id: unit-01
+  subject: math
+  grade: 5
+  term: term-1
+  lesson_number: 3
+  lesson_name: 练习一与生活中的数学
+  page_range: P4-P6
+  official_examples:
+  - 连一连：下面的图形分别是从什么方向看到的？
+  - 画出从前面、上面和左面看到的图形。
+  - 用 5 个同样的小正方体按要求摆组合体：（1）从前面看是…（2）在第（1）题的基础上，从上面看是…
+  - 生活中的数学：视图可分为主视图、俯视图、仰视图、左视图、右视图和后视图；借助信息技术手段可以更方便地显示从不同方向观察物体看到的图形。

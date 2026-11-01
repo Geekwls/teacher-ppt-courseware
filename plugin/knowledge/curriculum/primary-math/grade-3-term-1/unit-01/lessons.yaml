@@ -1,0 +1,34 @@
+unit_id: "unit-1"
+source_id: "pep_math_g3_t1_2024"
+lessons:
+  - lesson_id: "lesson-01"
+    lesson_number: 1
+    lesson_name: "从不同方向观察物体"
+    page_range: "P1-P2"
+    official_examples:
+      - example_id: "ex_1"
+        title: "四名同学从不同方向观察同一物体"
+        page: 1
+        formula_or_context: "小红、小亮、小明、小丽分别从前面、上面、左面、右面观察同一组物体，判断每人看到的样子"
+        core_concept: "从不同方向观察同一个物体或几何体，看到的形状常常是不同的；可借助实物摆一摆、从各方向看一看加以验证。"
+      - example_id: "ex_2"
+        title: "根据看到的一个面推断立体图形"
+        page: 2
+        formula_or_context: "小明观察一个立体图形，看到的一个面是正方形，猜它可能是正方体，也可能是其他立体图形"
+        core_concept: "只凭一个方向看到的形状不能唯一确定立体图形，需要结合多个方向的信息；正方体相对两个面上的数之和是 7。"
+
+  - lesson_id: "lesson-02"
+    lesson_number: 2
+    lesson_name: "长方体纸盒的展开图"
+    page_range: "P3-P5"
+    official_examples:
+      - example_id: "ex_3"
+        title: "把长方体纸盒剪开、平铺在桌面上"
+        page: 3
+        formula_or_context: "一个没有开口的长方体纸盒，需要剪开几条边才能平铺？动手剪一剪、说一说"
+        core_concept: "长方体纸盒展开后是平面图形，共 6 个面，且三组相对的面各相同；每个面都至少有一条边与其他面相连，剪开的边不同得到的展开图也不同。"
+      - example_id: "ex_4"
+        title: "沿不同的边剪开得到不同的展开图"
+        page: 5
+        formula_or_context: "把做好的长方体纸盒沿不同的边剪开，得到与附页 1 不同的图形；判断给出的图形能否折成正方体"
+        core_concept: "同一个立体图形可以展开成多种不同的平面图形；判断平面图形能否折成正方体，要想象折叠后各个面的相对位置是否吻合。"

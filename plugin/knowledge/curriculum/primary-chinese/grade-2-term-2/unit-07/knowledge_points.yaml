@@ -1,0 +1,60 @@
+unit_id: unit-07
+source_id: pep_chinese_g2_t2_2024
+points:
+- point_id: chi-g2-t2-u07-p01
+  unit_id: unit-07
+  lesson_id: chi-g2-t2-u07-l01
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《大象的耳朵》与《蜘蛛开店》
+  learning_objectives:
+  - 能朗读两篇课文，能说出大象的耳朵为什么「竖起来」、蜘蛛开店为什么总换招牌
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P84
+    - P87
+    anchor_text: 单元起始页 P84 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《大象的耳朵》中大象由「怀疑自己」到「做自己」的转变
+    - 《蜘蛛开店》中蜘蛛三次换招牌的原因
+    scope_excluded:
+    - 动物学知识的系统讲解
+    - 写话
+- point_id: chi-g2-t2-u07-p02
+  unit_id: unit-07
+  lesson_id: chi-g2-t2-u07-l01
+  subject: chinese
+  grade: 2
+  term: term-2
+  point_name: 《青蛙卖泥塘》《小毛虫》与语文园地七
+  learning_objectives:
+  - 能朗读两篇课文，能说出青蛙的泥塘越变越好的原因、小毛虫怎样变成蝴蝶
+  - 能在练习中正确运用本知识点
+  applicable_question_types:
+  - fill_blank
+  - choice
+  - reading
+  verification_status: partial
+  provenance:
+    source_id: pep_chinese_g2_t2_2024
+    page_ref:
+    - P90
+    - P94
+    - P97
+    anchor_text: 单元起始页 P90 依课本目录登记；正文超出可读区间，具体课文原文与生字表待补课本页面凭证。
+  teaching_boundary:
+    scope_allowed:
+    - 《青蛙卖泥塘》中青蛙一次次改造泥塘的过程
+    - 《小毛虫》中小毛虫由笨拙到变成蝴蝶的经历
+    scope_excluded:
+    - 昆虫变态发育的科学系统讲解
+    - 写话

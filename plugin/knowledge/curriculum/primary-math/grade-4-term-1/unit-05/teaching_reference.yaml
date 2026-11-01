@@ -1,0 +1,88 @@
+unit_id: unit-05
+source_id: pep_math_g4_t1_tr_2024
+ref_page_note: 教参页码于 2026-10-10 核定：用户提供的《人教统编版小学数学四年级上册教师用书（教学参考）》为**纯扫描件（无文字层）**，本次未逐页 OCR，故本文件不引用教参具体页码；其中「教学关键点/典型错因/变式策略」系依据**用户提供的电子课本逐页实证**（页码见知识点 provenance）归纳，教参页码待补 OCR 后回填。
+teaching_references:
+- point_id: math-g4-t1-u05-p01
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「求总人数就是把每部分人数加起来」这一朴素经验为起点，把三个具体算式抽象为一个模型，再反向推出「分量 = 总量 − 分量」
+    difficulty: 学生易把「分量」与「总量」的角色搞反（如把「下午人数」当成总量）；易在「已知总量与一个分量求另一个分量」时仍用加法
+    typical_misconceptions:
+    - error_pattern: 把总量与分量搞反
+      misconception_type: 模型要素识别错误
+    - error_pattern: 求未知分量时仍用加法
+      misconception_type: 逆运算意识不足
+  variation_strategy:
+  - 根据表格信息提出加法问题并列出数量关系
+  - 已知总数与一部分，求另一部分
+- point_id: math-g4-t1-u05-p02
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 先让学生用「有序列举 + 逐一求和」解决，再引导发现「先求总和再减去一本」的逆向思路更快，从而体会同一个模型的不同用法
+    difficulty: 学生易漏举组合（如只列举 3 种而漏掉 1 种）；易在比较时把「>100」与「<100」判断反
+    typical_misconceptions:
+    - error_pattern: 组合列举不完整
+      misconception_type: 有序列举意识不足
+    - error_pattern: 把「超过 100 元」判断成「可以买」
+      misconception_type: 大小比较方向错误
+  variation_strategy:
+  - 列举出所有买法并判断哪些符合条件
+  - 用「先求总和再减去一本」的方法再算一次
+- point_id: math-g4-t1-u05-p03
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以小票这一真实载体把「单价 × 数量 = 总价」的三个量显性化，再通过「缺哪一个量就求哪一个量」的追问完成三个公式的相互推导
+    difficulty: 学生易把「单价」与「总价」混淆（如把 54 元当成单价）；易在「求单价」时用乘法
+    typical_misconceptions:
+    - error_pattern: 把总价当成单价
+      misconception_type: 三个量的含义混淆
+    - error_pattern: 求单价时误用乘法
+      misconception_type: 公式变形错误
+  variation_strategy:
+  - 根据小票信息写出数量关系并列式
+  - 补全小票中缺失的单价或数量
+- point_id: math-g4-t1-u05-p04
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把两种解法并列呈现，引导学生发现「12×4−9×4=（12−9）×4」，从而在解决实际问题中体会乘法分配律的合理性
+    difficulty: 学生易只掌握一种方法而说不出两种方法为什么相等；易把「节省的钱」算成「现在的总价」
+    typical_misconceptions:
+    - error_pattern: 把「节省的钱」算成「现在的总价」
+      misconception_type: 问题理解错误
+    - error_pattern: 说不出两种方法的联系
+      misconception_type: 算理理解不深
+  variation_strategy:
+  - 用两种方法求节省的钱并说明它们的联系
+  - 根据「买 4 袋大米比原来便宜 84 元」求原价
+- point_id: math-g4-t1-u05-p05
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 以「路程不同、时间也不同时怎样比快慢」制造认知冲突，引出「先求出每分钟走的路程（速度）再比较」的需要
+    difficulty: 学生易直接比较路程或时间就下结论；易把速度单位「米/分」写成「米」
+    typical_misconceptions:
+    - error_pattern: 直接比较路程或时间判断快慢
+      misconception_type: 速度概念未建立
+    - error_pattern: 速度单位漏写时间部分
+      misconception_type: 复合单位未掌握
+  variation_strategy:
+  - 比较两人谁走得快并说明理由
+  - 根据里程表数据求汽车的速度
+- point_id: math-g4-t1-u05-p06
+  ref_book: ''
+  ref_page: 待补（教参未 OCR）
+  pedagogical_focus:
+    key_point: 把三组数量关系并列成一张「模型卡」，让学生在每个问题前先判断「这是把几部分合起来，还是求几个相同加数的和」，再选模型
+    difficulty: 学生易在「总价 = 单价 × 数量」与「总量 = 分量 + 分量」之间选错模型；易把乘法模型中的三个量与其逆运算搞混
+    typical_misconceptions:
+    - error_pattern: 选错模型（该乘却加）
+      misconception_type: 模型辨识错误
+    - error_pattern: 在乘法模型的逆运算中混用公式
+      misconception_type: 公式变形错误
+  variation_strategy:
+  - 判断下面各题用哪一组数量关系并列出关系式
+  - 自编一道用到「路程=速度×时间」的题
