@@ -46,6 +46,7 @@
 
 ```
 teacher-ppt-courseware/
+├── AGENTS.md                           # 所有 Agent 的通用入口(项目说明+纪律+命令速查)
 ├── .claude-plugin/marketplace.json     # 插件市场清单(仿 k12)
 ├── plugin/
 │   ├── .claude-plugin/plugin.json
@@ -63,6 +64,30 @@ teacher-ppt-courseware/
 ```
 
 ## 三、安装与使用
+
+> 所有 Agent 均可使用:仓库根的 **[AGENTS.md](AGENTS.md)** 是通用入口(Codex / Gemini CLI / Cursor /
+> Copilot / Zed / Devin 等开机自动读取),指向标准 SKILL.md 与可独立执行的脚本;
+> Skill 采用 Agent Skills 开放标准(`SKILL.md` 目录)。
+
+| 使用环境 | 发现机制 | 说明 |
+|---|---|---|
+| Claude Code / ZCode | 插件市场(`.claude-plugin/`)或 `.claude/skills/` | 自动触发技能 |
+| Codex / Antigravity | `.agents/skills/`(共享约定) | 自动发现 |
+| 其他 Agent(含网页/托管 agent) | 读 `AGENTS.md` → 按 SKILL.md 工作流调用脚本 | 无需技能发现能力,能读文件跑命令即可 |
+| 人(无 Agent) | 直接跑三科金样 + 改 JSON 重渲染 | `scripts/run_acceptance.py` |
+
+### 同步安装(把正本刷到各发现目录)
+
+```bash
+python scripts/install_skill.py                  # 项目级:.agents/skills/ + .claude/skills/
+python scripts/install_skill.py --user           # 用户级:~/.agents/skills/ + ~/.claude/skills/(所有项目可用)
+python scripts/install_skill.py --dirs agents    # 只同步指定目录(agents|claude)
+python scripts/install_skill.py --target <dir>   # 安装到其他项目根
+python scripts/install_skill.py --check          # 校验全部目标与正本零漂移
+```
+
+跨项目/用户级安装时知识库通过 `COURSEWARE_KNOWLEDGE_DIR` 环境变量指向本仓库 `plugin/knowledge/`
+(或整仓克隆,kb_locate 会自动向上查找)。
 
 ### 方式 A:Claude Code / ZCode(插件市场)
 
@@ -82,9 +107,8 @@ claude plugin install teacher-ppt-courseware@teacher-ppt-courseware
 ### 方式 B:Codex / Antigravity(.agents 同步)
 
 ```bash
-python scripts/install_skill.py            # 同步到本项目 .agents/skills/
-python scripts/install_skill.py --check    # 校验零差异同构
-python scripts/install_skill.py --target <其他项目根>  # 跨项目安装(配 COURSEWARE_KNOWLEDGE_DIR)
+python scripts/install_skill.py --dirs agents   # 同步到 .agents/skills/
+python scripts/install_skill.py --check         # 校验零差异同构
 ```
 
 ### 依赖
