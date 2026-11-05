@@ -48,12 +48,12 @@ export async function renderPresentation(data, options = {}) {
   const t = resolveTheme(themeName, grade, "standard");
 
   const subjText = themeName === "chinese" ? "语文" : (themeName === "english" ? "英语" : "数学");
-  const footerText = `人教统编版${subjText}${grade}年级  |  智能课件分层引擎垂直切片`;
+  const footerText = `人教统编版${subjText}${grade}年级`;
 
   const pptx = new pptxgen();
   pptx.layout = "LAYOUT_WIDE";
-  pptx.author = "智能课件分层引擎 (Phase 3 Slice)";
-  pptx.title = meta.title || "整十、整百数乘一位数的口算";
+  pptx.author = "教师课件助手";
+  pptx.title = meta.title || "课件";
 
   const revealSlideMarks = [];
 
