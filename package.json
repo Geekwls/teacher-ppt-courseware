@@ -14,9 +14,9 @@
     "acceptance": "node scripts/run_acceptance.js",
     "install-skill": "node scripts/install_skill.js",
     "audit-kb": "node scripts/audit_kb.js",
-    "test": "node scripts/run_acceptance.js && node plugin/skills/lesson-courseware/tests/test_strategy_and_page_planner.js",
-    "test:acceptance": "node scripts/run_acceptance.js",
-    "test:unit": "node plugin/skills/lesson-courseware/tests/test_strategy_and_page_planner.js"
+    "test": "node --test test/unit/*.test.js && node scripts/run_acceptance.js",
+    "test:unit": "node --test test/unit/*.test.js",
+    "test:acceptance": "node scripts/run_acceptance.js"
   },
   "repository": {
     "type": "git",

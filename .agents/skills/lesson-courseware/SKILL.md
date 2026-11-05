@@ -44,11 +44,11 @@ Agent-Native 现代分层架构:**宿主大模型即教学设计与内容创作�
 
 ## 五条纪律(违反即返工)
 
-1. **先取材,后创作**:Step 2 没跑 query_curriculum.js 就动笔,是本技能的第一失败模式。课件的例题、重难点、易错点必须来自素材包,并逐页用 `source.point_id` 溯源。
-2. **不超纲**:数学一切数字受单元数域上界约束;三科内容都不得越过 knowledge_points 的 teaching_boundary.scope_excluded;素材没给的后续知识(如下一章公式)不得提前出现。
-3. **讲稿完备**:每个内容页 notes 写"课堂上实际要说的话与提问",渲染进备注栏,教师拿去能直接上课。缺 notes 校验器一票否决。
-4. **如实标注证据**:curriculum_status 如实引用素材包值;verified/partial 的差异要告知教师;绝不虚构教材页码——写不准就不写页码。
-5. **一次请求 = 一次完整交付**:校验+渲染在**同一轮**完成;教师拿到手的是可直接放映的 .pptx,不是半成品。
+1. **先取材,后创作**:Step 2 必须先运行 query_curriculum.js 获取课时素材包。教学设计的例题、重难点、易错点只能引用素材包真实存在的 `point_id`，禁止臆造。
+2. **不超纲与边界防线**:数学所有数字受单元数域上界 (`numeric_upper_bound`) 约束;三科内容都严禁越过知识点的教学禁区 (`teaching_boundary.scope_excluded`);素材库未涵盖的后续公式严禁提前出现。
+3. **教师讲稿指导完备**:教学环节必须包含详实的 `teacher_guidance` (实际课堂教学提问、过渡指令与朗读引导)，系统自动编译进 PPT 备注栏。缺指导语教学门禁一票否决。
+4. **不手写幻灯片坐标**:一律按 `references/schemas/lesson-plan.schema.json` 创作教学设计 AST，由 `build_courseware.js` 执行容量规划、门禁与确定性渲染，绝不直接手写 PPTX 二进制或手工排坐标。
+5. **严格几何体检交付**:交付前体检回执必须满足 `--strict` 几何门禁 (0 Critical 零压盖零出界)，任何版面重叠或文字溢出必须优先优化教学设计结构后重跑流水线。
 
 ## 保持教师知情 (Keeping the teacher posted)
 

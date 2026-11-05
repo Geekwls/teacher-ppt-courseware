@@ -5,4 +5,4 @@ RM1,R,算理表述正确,算理与 official_examples.core_concept / teaching_ref
 RM2,R,数域上界遵守,全deck出现的数不超过 unit.numeric_upper_bound,含图元/练习/答案,校验器NUMBER_OVER_BOUND兜底,
 RM3,R,竖式规范,vertical_calc 图元数位右对齐、运算符位置正确、结果与分步解一致,有竖式页时判,无竖式页跳过
 RM4,R,单位与答句完整,例题answer带单位与完整答句(如"20 × 3 = 60(元)"),练习计算题可从简,,
-OM1,O,图元选型恰当,竖式/数位表/数轴/表格的使用场景符合 courseware-json.md 图元表;用图片替代原生图元判失败,,
+OM1,O,图元选型恰当,数轴跳跃/竖式计算/计数图元的使用场景符合 presentation.schema.json 表现层规范;用图片替代原生图元判失败,,

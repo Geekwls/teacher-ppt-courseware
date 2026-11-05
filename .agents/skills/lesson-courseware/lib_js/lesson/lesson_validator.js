@@ -39,6 +39,30 @@ const NUMBER_SCAN_SKIP_KEYS = new Set([
   "path", "link", "url", "reveal_mode", "reveal_steps"
 ]);
 
+/** 教学禁区防误杀匹配: 区分词法边界，避免排除"分数"误杀"百分数"等复合词 */
+function isScopeExcludedHit(text, term) {
+  if (!text || !term) return false;
+  const trimmed = String(term).trim();
+  if (!trimmed) return false;
+
+  const escaped = trimmed.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  let prefixNeg = "";
+  if (trimmed === "分数") {
+    prefixNeg = "(?<!百)";
+  } else if (trimmed === "除法") {
+    prefixNeg = "(?<!消|免)";
+  } else if (trimmed === "角") {
+    prefixNeg = "(?<!视|主|配|豆|视|三|拐)";
+  }
+
+  const isAscii = /^[A-Za-z0-9_-]+$/.test(trimmed);
+  const pattern = isAscii
+    ? new RegExp(`\\b${escaped}\\b`, "i")
+    : new RegExp(`${prefixNeg}${escaped}`, "u");
+
+  return pattern.test(text);
+}
+
 /** 递归收集教学数值 (移植自旧管线 deck_schema.js, 全字段覆盖而非只查等号结果) */
 function collectNumbers(node, out, key = "") {
   if (node === null || node === undefined || typeof node === "boolean") return;
@@ -164,8 +188,9 @@ export function validateLessonPlan(data) {
           issues.push(issue("KB_LOAD_ERROR", `解析知识库 YAML 失败: ${e.message}`, "error"));
         }
 
+        let targetPoint = null;
         if (kpDoc && Array.isArray(kpDoc.points)) {
-          const targetPoint = kpDoc.points.find(p => p.point_id === meta.source_point_id);
+          targetPoint = kpDoc.points.find(p => p.point_id === meta.source_point_id);
           if (!targetPoint) {
             issues.push(issue(
               "POINT_ID_INVALID",
@@ -175,27 +200,48 @@ export function validateLessonPlan(data) {
               `可选白名单: ${kpDoc.points.map(p => p.point_id).join(", ")}`
             ));
           } else {
-            // 检查教学禁区
+            // 检查教学禁区: 仅扫描教学呈现内容，配合词界断言杜绝误杀
             const excluded = targetPoint.teaching_boundary?.scope_excluded || [];
-            const planText = JSON.stringify(data);
-            excluded.forEach(exc => {
-              if (planText.includes(exc)) {
-                issues.push(issue(
-                  "SCOPE_EXCLUDED_VIOLATION",
-                  `课件内容触碰教材禁区 [${exc}]`,
-                  "error",
-                  null,
-                  `知识点明确排除: ${exc}，请勿超纲教学。`
-                ));
-              }
-            });
+            if (excluded.length > 0) {
+              const teachingTexts = [];
+              (data.teaching_sequence || []).forEach(phase => {
+                const cb = phase.content_block || {};
+                function collectTexts(node) {
+                  if (typeof node === "string") {
+                    teachingTexts.push(node);
+                  } else if (Array.isArray(node)) {
+                    node.forEach(collectTexts);
+                  } else if (node && typeof node === "object") {
+                    for (const [k, v] of Object.entries(node)) {
+                      if (!NUMBER_SCAN_SKIP_KEYS.has(k)) collectTexts(v);
+                    }
+                  }
+                }
+                collectTexts(cb);
+              });
+              const teachingBody = teachingTexts.join("\n");
+
+              excluded.forEach(exc => {
+                if (isScopeExcludedHit(teachingBody, exc)) {
+                  issues.push(issue(
+                    "SCOPE_EXCLUDED_VIOLATION",
+                    `课件内容触碰教材禁区 [${exc}]`,
+                    "error",
+                    null,
+                    `知识点明确排除: ${exc}，请勿超纲教学。`
+                  ));
+                }
+              });
+            }
           }
         }
 
         // 数域上限检查: 递归覆盖 content_block 全部教学字段(算理步骤/例题/易错/板书/练习/模型参数),
         // 讲稿 teacher_guidance 含页码与步骤编号, 单独按 warning 处理, 避免误阻断正常创作。
-        // 注: 知识库 metadata.yaml 中 numeric_upper_bound 为顶层字段(兼容旧契约的嵌套写法)。
-        const rawUpperBound = unitMeta?.numeric_upper_bound ?? unitMeta?.teaching_boundary?.numeric_upper_bound;
+        // 注: 知识库 metadata.yaml 或 targetPoint 均可声明 numeric_upper_bound。
+        const rawUpperBound = unitMeta?.numeric_upper_bound ??
+          unitMeta?.teaching_boundary?.numeric_upper_bound ??
+          targetPoint?.teaching_boundary?.numeric_upper_bound;
         if (meta.subject === "math" && rawUpperBound) {
           const maxBound = Number(rawUpperBound);
           (data.teaching_sequence || []).forEach(phase => {

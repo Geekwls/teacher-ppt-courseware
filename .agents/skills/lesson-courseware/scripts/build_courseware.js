@@ -17,7 +17,6 @@
 
 import fs from "fs";
 import path from "path";
-import { runAutoUpdateCheck } from "../lib_js/auto_updater.js";
 import { validateLessonPlan } from "../lib_js/lesson/lesson_validator.js";
 import { planPresentationFromLesson } from "../lib_js/presentation/lesson_to_presentation.js";
 import { validatePresentation } from "../lib_js/presentation/presentation_validator.js";
@@ -57,7 +56,6 @@ function parseArgs() {
 }
 
 async function main() {
-  runAutoUpdateCheck();
   const { inputPath, outdir, outputBaseName, strict } = parseArgs();
 
   if (!fs.existsSync(inputPath)) {
