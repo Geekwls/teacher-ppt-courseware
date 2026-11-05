@@ -36,6 +36,10 @@ const CONTENT_BOTTOM = 6.65;
 /**
  * 卡片投影在渲染开始时由风格包注入 (minimal 近乎无投影, warm 更柔软)。
  * 保留模块级变量而非改造成每个调用点传参, 是为了不让换肤改动扩散到 50+ 个卡槽坐标。
+ *
+ * ⚠️ 只读模板: PptxGenJS 会原地把 shadow.blur/offset 乘 12700 转 EMU, 复用同一引用会
+ * 连乘 12700^N 直到溢出成非法 alpha, 渲染器随即丢弃该形状 (卡片/田字格凭空消失)。
+ * 调用点一律写 shadow: { ...CARD_SHADOW }。
  */
 let CARD_SHADOW = { type: "outer", color: "CBD5E1", blur: 4, offset: 2, angle: 90, opacity: 0.25 };
 
@@ -162,7 +166,7 @@ function renderCoverDecor(slide, pptx, t, { title, subtitle }) {
       slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
         x: 1.0, y: 1.8, w: CANVAS_W - 2.0, h: 2.6,
         fill: { color: t.chip }, line: { color: t.border, width: 1 }, rectRadius: 0.3,
-        shadow: CARD_SHADOW
+        shadow: { ...CARD_SHADOW }
       });
       drawTitle({ y: 2.05 });
       break;
@@ -326,7 +330,7 @@ export async function renderPresentation(data, options = {}) {
           x: 1.0, y: CONTENT_TOP + 0.2, w: cardW, h: 2.2,
           fill: { color: t.panel },
           line: { color: t.border, width: 1.2 },
-          shadow: CARD_SHADOW
+          shadow: { ...CARD_SHADOW }
         });
         const ctxBody = ctxCard?.properties?.body || "";
         const ctxBodySize = fitFontSize(ctxBody, cardW - 0.8, 1.15, t.fontSize.body);
@@ -344,7 +348,7 @@ export async function renderPresentation(data, options = {}) {
             fill: { color: t.chip || "EFF6FF" },
             // 描边粗细跟随风格包: 极简的近黑主色配 1.5pt 会像黑框, 按包内基础线宽微调
             line: { color: t.primary, width: Math.min(1.5, (t.card?.borderWidth ?? 1.2) + 0.3) },
-            shadow: CARD_SHADOW
+            shadow: { ...CARD_SHADOW }
           });
           const rawExpr = String(eqCard.properties?.expression || "").trim();
           let prefix = themeName === "math" ? "列式：" : "关键词：";
@@ -379,7 +383,7 @@ export async function renderPresentation(data, options = {}) {
           x: 0.8, y: CONTENT_TOP + 0.1, w: leftW, h: mainH,
           fill: { color: t.panel },
           line: { color: t.border, width: 1.2 },
-          shadow: CARD_SHADOW
+          shadow: { ...CARD_SHADOW }
         });
         if (animElem) {
           renderFigure(slide, pptx, { kind: "animation", ...animElem.properties }, [0.9, CONTENT_TOP + 0.4, leftW - 0.2, mainH - 0.8], t);
@@ -392,7 +396,7 @@ export async function renderPresentation(data, options = {}) {
           x: rightX, y: CONTENT_TOP + 0.1, w: rightW, h: mainH,
           fill: { color: t.panel },
           line: { color: t.border, width: 1.2 },
-          shadow: CARD_SHADOW
+          shadow: { ...CARD_SHADOW }
         });
         const steps = reasoningElem?.properties?.items || [];
         steps.forEach((st, sIdx) => {
@@ -419,7 +423,7 @@ export async function renderPresentation(data, options = {}) {
             x: 0.8, y: CONTENT_TOP + 3.75, w: CANVAS_W - 1.6, h: 1.0,
             fill: { color: "FEF3C7" },
             line: { color: "F59E0B", width: 1.5 },
-            shadow: CARD_SHADOW
+            shadow: { ...CARD_SHADOW }
           });
           slide.addText(conclusionElem.properties?.text || "", {
             x: 1.1, y: CONTENT_TOP + 3.85, w: CANVAS_W - 2.2, h: 0.8,
@@ -444,7 +448,7 @@ export async function renderPresentation(data, options = {}) {
           x: 0.8, y: CONTENT_TOP + 0.1, w: cardW, h: 1.05,
           fill: { color: t.panel },
           line: { color: t.border, width: 1.2 },
-          shadow: CARD_SHADOW
+          shadow: { ...CARD_SHADOW }
         });
         slide.addText(probCard?.properties?.body || "", {
           x: 1.1, y: CONTENT_TOP + 0.18, w: cardW - 0.6, h: 0.9,
@@ -481,7 +485,7 @@ export async function renderPresentation(data, options = {}) {
             x: 0.8, y: CONTENT_TOP + 4.35, w: cardW, h: 0.75,
             fill: { color: "ECFDF5" },
             line: { color: "10B981", width: 1.2 },
-            shadow: CARD_SHADOW
+            shadow: { ...CARD_SHADOW }
           });
           slide.addText(ansCard.properties?.text || "", {
             x: 1.1, y: CONTENT_TOP + 4.4, w: cardW - 0.6, h: 0.65,
@@ -506,7 +510,7 @@ export async function renderPresentation(data, options = {}) {
           x: 0.8, y: CONTENT_TOP + 0.2, w: colW, h: 3.0,
           fill: { color: "FEF2F2" },
           line: { color: "EF4444", width: 1.5 },
-          shadow: CARD_SHADOW
+          shadow: { ...CARD_SHADOW }
         });
         slide.addText([
           { text: "【典型错例】\n\n", options: { fontSize: t.fontSize.body_large, bold: true, color: "DC2626" } },
@@ -521,7 +525,7 @@ export async function renderPresentation(data, options = {}) {
           x: 0.8 + colW + 0.4, y: CONTENT_TOP + 0.2, w: colW, h: 3.0,
           fill: { color: t.panel },
           line: { color: t.border, width: 1.2 },
-          shadow: CARD_SHADOW
+          shadow: { ...CARD_SHADOW }
         });
         slide.addText([
           { text: "【病因诊断】\n\n", options: { fontSize: t.fontSize.body_large, bold: true, color: t.primaryDark } },
@@ -537,7 +541,7 @@ export async function renderPresentation(data, options = {}) {
             x: 0.8, y: CONTENT_TOP + 3.5, w: CANVAS_W - 1.6, h: 1.3,
             fill: { color: "ECFDF5" },
             line: { color: "10B981", width: 1.5 },
-            shadow: CARD_SHADOW
+            shadow: { ...CARD_SHADOW }
           });
           slide.addText(correctElem.properties?.text || "", {
             x: 1.1, y: CONTENT_TOP + 3.65, w: CANVAS_W - 2.2, h: 1.0,
@@ -566,7 +570,7 @@ export async function renderPresentation(data, options = {}) {
           x: 0.8, y: CONTENT_TOP + 0.1, w: cardW, h: gridH,
           fill: { color: t.panel },
           line: { color: t.border, width: 1.2 },
-          shadow: CARD_SHADOW
+          shadow: { ...CARD_SHADOW }
         });
         if (figElem) {
           renderFigure(slide, pptx, { kind: "tianzige", ...figElem.properties }, [1.0, CONTENT_TOP + 0.3, cardW - 0.4, gridH - 0.6], t);
@@ -611,7 +615,7 @@ export async function renderPresentation(data, options = {}) {
             x: 0.8, y: tipY, w: cardW, h: 0.68,
             fill: { color: "FEF3C7" },
             line: { color: "F59E0B", width: 1.5 },
-            shadow: CARD_SHADOW
+            shadow: { ...CARD_SHADOW }
           });
           slide.addText(tipElem.properties?.text || "", {
             x: 1.1, y: tipY + 0.04, w: cardW - 0.6, h: 0.6,
@@ -668,7 +672,7 @@ export async function renderPresentation(data, options = {}) {
           x: 0.8, y: CONTENT_TOP + 0.1, w: cardW, h: textCardH,
           fill: { color: t.panel },
           line: { color: t.border, width: 1.2 },
-          shadow: CARD_SHADOW
+          shadow: { ...CARD_SHADOW }
         });
 
         // 字号动态自适应：拆页后原文页享有 20~22pt 护眼大字
@@ -709,7 +713,7 @@ export async function renderPresentation(data, options = {}) {
               x: qx, y: qy, w: qW, h: qh,
               fill: { color: t.chip || "F8FAFC" },
               line: { color: t.border, width: 1 },
-              shadow: CARD_SHADOW
+              shadow: { ...CARD_SHADOW }
             });
             const fittedQ = fitTextLayout(q, qW - 0.4, qh - 0.2, qFontSize);
             slide.addText(fittedQ.text, {
@@ -730,7 +734,7 @@ export async function renderPresentation(data, options = {}) {
             x: 0.8, y: bannerY, w: cardW, h: 0.9,
             fill: { color: "ECFDF5" },
             line: { color: "10B981", width: 1.5 },
-            shadow: CARD_SHADOW
+            shadow: { ...CARD_SHADOW }
           });
           slide.addText(bannerElem.properties?.text || "", {
             x: 1.1, y: bannerY + 0.07, w: cardW - 0.6, h: 0.75,
@@ -762,7 +766,7 @@ export async function renderPresentation(data, options = {}) {
             x: 0.8, y: cy, w: cardW, h: cardH,
             fill: { color: t.panel },
             line: { color: t.border, width: 1.2 },
-            shadow: CARD_SHADOW
+            shadow: { ...CARD_SHADOW }
           });
           // 题干 (常驻)
           slide.addText(`${it.properties?.question_num || ""}  ${it.properties?.stem || ""}`, {
@@ -824,7 +828,7 @@ export async function renderPresentation(data, options = {}) {
           x: cardX, y: cardY, w: cardW, h: cardH,
           fill: { color: t.bgTint || "FFFFFF" },
           line: { color: t.accent, width: 1.5, dashType: "dash" },
-          shadow: CARD_SHADOW
+          shadow: { ...CARD_SHADOW }
         });
 
         const bodyText = items.map((it, i) => (i === 0 ? it : `· ${it}`)).join("\n\n");
@@ -849,7 +853,7 @@ export async function renderPresentation(data, options = {}) {
           x: 1.0, y: CONTENT_TOP + 0.15, w: CANVAS_W - 2.0, h: 0.95,
           fill: { color: t.chip || "EFF6FF" },
           line: { color: t.primary, width: 1.2 },
-          shadow: CARD_SHADOW
+          shadow: { ...CARD_SHADOW }
         });
         const topicText = topicCard?.properties?.body || "";
         slide.addText(`课题：${topicText}`, {
@@ -879,7 +883,7 @@ export async function renderPresentation(data, options = {}) {
             x: bx, y: branchY, w: colW, h: branchH,
             fill: { color: t.panel },
             line: { color: t.border, width: 1.2 },
-            shadow: CARD_SHADOW
+            shadow: { ...CARD_SHADOW }
           });
 
           // 分支顶部彩色胶囊
@@ -924,7 +928,7 @@ export async function renderPresentation(data, options = {}) {
             x: 1.0, y: CONTENT_BOTTOM - 0.75, w: CANVAS_W - 2.0, h: 0.7,
             fill: { color: t.chip || "EFF6FF" },
             line: { color: t.border, width: 1 },
-            shadow: CARD_SHADOW
+            shadow: { ...CARD_SHADOW }
           });
           const footerText = footerCard.properties?.text || "";
           slide.addText(footerText, {
@@ -956,7 +960,7 @@ export async function renderPresentation(data, options = {}) {
             x: 1.0, y: cy, w: cardW, h: rowH,
             fill: { color: t.panel },
             line: { color: t.border, width: 1.2 },
-            shadow: CARD_SHADOW
+            shadow: { ...CARD_SHADOW }
           });
           // 左端色块承载层级名 (必做/选做/挑战)
           slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {

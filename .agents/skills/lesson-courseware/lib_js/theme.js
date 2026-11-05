@@ -73,6 +73,11 @@ export const TERM_LABEL = {
 };
 
 // 极简现代微质感柔和投影 (克制细腻，不泛脏)
+//
+// ⚠️ 只读模板。PptxGenJS 的 addShape 会**原地**把 shadow.blur/offset 由 pt 乘 12700 改成 EMU,
+// 因此同一份对象被复用第 N 次时会连乘 12700^N, 数值迅速溢出成非法值 (alpha > 100000),
+// 渲染器遇到非法值会直接放弃绘制整个形状 —— 表现为"卡片/田字格凭空消失"。
+// 所有调用点必须写成 shadow: { ...CARD_SHADOW }, 每次传新副本。
 export const CARD_SHADOW = {
   type: "outer",
   color: "64748B",

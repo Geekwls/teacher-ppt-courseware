@@ -12,7 +12,11 @@
 
 import test from "node:test";
 import assert from "node:assert/strict";
+import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
 import pptxgen from "pptxgenjs";
+import JSZip from "jszip";
 
 import {
   SAFE_CONTENT_BOUNDS,
@@ -184,4 +188,51 @@ test("渲染层验收: 所有版式变体与高频新页型确定性渲染全部
 
   const audit = auditDeck(pptx);
   assert.equal(audit.summary.critical, 0, `变体与新页型出现几何体检 Critical 错误: ${JSON.stringify(audit.issues)}`);
+});
+
+test("卡片投影: 共享 shadow 模板不得被连乘放大", async () => {
+  // 回归背景: PptxGenJS 在**序列化阶段**把 shadow.blur/offset 由 pt 乘 12700 转成 EMU。
+  // 若多个形状共用同一个 shadow 对象引用, 该对象会被连乘 12700^N: 76200 → 9.7e8 → 1.2e13 → …
+  // alpha 同步溢出成非法值 (>100000), 渲染器遇到非法值会直接丢弃整个形状,
+  // 表现为"卡片/田字格凭空消失"(本课第5页中间三个格子曾整体不显示)。
+  // 正确写法: 每个调用点 shadow: { ...CARD_SHADOW } 传副本。
+  // 注意必须在 writeFile() 之后校验 —— 变异发生在序列化, 不在 addShape。
+  const pptx = newDeck();
+  const theme = resolveTheme("chinese", 3, "warm");
+  const shadow = { type: "outer", color: "CBD5E1", blur: 4, offset: 2, angle: 90, opacity: 0.25 };
+  const font = "Microsoft YaHei";
+
+  for (let i = 0; i < 6; i++) {
+    const slide = pptx.addSlide();
+    renderObjectivesCard(slide, pptx, theme, {
+      layout_variant: "grid",
+      elements: [{ type: "card_list", properties: { items: ["目标一：理解概念内涵", "目标二：掌握核心方法"] } }]
+    }, shadow, font);
+  }
+
+  const tmp = path.join(os.tmpdir(), `shadow-guard-${process.pid}-${Date.now()}.pptx`);
+  try {
+    await pptx.writeFile({ fileName: tmp });
+    const zip = await JSZip.loadAsync(fs.readFileSync(tmp));
+    const offenders = [];
+    for (const name of Object.keys(zip.files)) {
+      if (!/^ppt\/slides\/slide\d+\.xml$/.test(name)) continue;
+      const xml = await zip.file(name).async("string");
+      for (const m of xml.matchAll(/blurRad="(-?\d+)"/g)) {
+        const v = Number(m[1]);
+        if (v < 0 || v > 152400) offenders.push(`${name} blurRad=${v}`);
+      }
+      for (const m of xml.matchAll(/<a:alpha val="(\d+)"/g)) {
+        const v = Number(m[1]);
+        if (v > 100000) offenders.push(`${name} alpha=${v}`);
+      }
+    }
+    assert.deepEqual(
+      offenders,
+      [],
+      `阴影参数被连乘放大, 对应形状会被渲染器丢弃; 调用点须写 shadow: { ...shadow }: ${offenders.slice(0, 5).join("; ")}`
+    );
+  } finally {
+    if (fs.existsSync(tmp)) fs.unlinkSync(tmp);
+  }
 });

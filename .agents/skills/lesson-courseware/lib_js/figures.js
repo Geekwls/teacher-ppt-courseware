@@ -409,7 +409,7 @@ function renderTianzige(slide, pptx, fig, box, theme) {
       h: cell,
       fill: { color: "FFFFFF" },
       line: { color: theme.bad, width: 1.6 },
-      shadow: CARD_SHADOW
+      shadow: { ...CARD_SHADOW }
     });
 
     const mid = cell / 2;
@@ -543,7 +543,7 @@ function renderWordCard(slide, pptx, fig, box, theme) {
       h: cardH,
       fill: { color: "FFFFFF" },
       line: { color: theme.primary, width: 1.4 },
-      shadow: CARD_SHADOW,
+      shadow: { ...CARD_SHADOW },
       align: "center",
       valign: "middle",
       fontFace: FONT_FAMILY
@@ -577,7 +577,7 @@ function renderDialogBubble(slide, pptx, fig, box, theme) {
       h: bubbleH,
       fill: { color: left ? theme.chip : "FFFFFF" },
       line: { color: theme.primary, width: 1.2 },
-      shadow: CARD_SHADOW,
+      shadow: { ...CARD_SHADOW },
       valign: "middle",
       margin: 10,
       fontFace: FONT_FAMILY
@@ -681,7 +681,7 @@ function renderImage(slide, pptx, fig, box, theme) {
     sizing: { type: "cover", w: w, h: h },
     altText: fig.alt || "",
     rounding: false,
-    shadow: CARD_SHADOW
+    shadow: { ...CARD_SHADOW }
   });
 
   // 可选图注: 底部半透明白底说明条
@@ -713,7 +713,7 @@ function renderMediaInfoCard(slide, pptx, fig, box, theme) {
     x, y, w, h,
     fill: { color: theme.chip },
     line: { color: theme.primary, width: 1.2 },
-    shadow: CARD_SHADOW
+    shadow: { ...CARD_SHADOW }
   });
 
   slide.addText(title, {
@@ -820,7 +820,7 @@ function renderMedia(slide, pptx, fig, box, theme) {
     x, y, w, h,
     fill: { color: SEMANTIC.mediaBg },
     line: { color: SEMANTIC.mediaEdge, width: 1.5 },
-    shadow: CARD_SHADOW,
+    shadow: { ...CARD_SHADOW },
     ...(linkUrl ? { hyperlink: { url: linkUrl } } : {})
   });
 

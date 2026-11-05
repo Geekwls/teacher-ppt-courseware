@@ -36,7 +36,7 @@ export function renderObjectivesCard(slide, pptx, t, s, cardShadow, fontFamily) 
         x: slot.x, y: slot.y, w: slot.w, h: slot.h,
         fill: { color: t.panel },
         line: { color: t.border, width: 1.2 },
-        shadow: cardShadow
+        shadow: { ...cardShadow }
       });
       // 左侧高亮边饰
       slide.addShape(pptx.shapes.RECTANGLE, {
@@ -64,7 +64,7 @@ export function renderObjectivesCard(slide, pptx, t, s, cardShadow, fontFamily) 
       x: leftSlot.x, y: leftSlot.y, w: leftSlot.w, h: leftSlot.h,
       fill: { color: t.chip || "EFF6FF" },
       line: { color: t.primary, width: 1.5 },
-      shadow: cardShadow
+      shadow: { ...cardShadow }
     });
     slide.addText([
       { text: "【核心学习导向】\n\n", options: { fontSize: t.fontSize.body_large, bold: true, color: t.primaryDark } },
@@ -83,7 +83,7 @@ export function renderObjectivesCard(slide, pptx, t, s, cardShadow, fontFamily) 
         x: slot.x, y: slot.y, w: slot.w, h: slot.h,
         fill: { color: t.panel },
         line: { color: t.border, width: 1.2 },
-        shadow: cardShadow
+        shadow: { ...cardShadow }
       });
       const fitted = fitTextLayout(item, slot.w - 0.6, slot.h - 0.25, t.fontSize.body);
       slide.addText(fitted.text, {
@@ -107,7 +107,7 @@ export function renderObjectivesCard(slide, pptx, t, s, cardShadow, fontFamily) 
       x: slot.x, y: slot.y, w: slot.w, h: slot.h,
       fill: { color: t.panel },
       line: { color: t.border, width: 1.2 },
-      shadow: cardShadow
+      shadow: { ...cardShadow }
     });
     const fitted = fitTextLayout(item, slot.w - 0.6, slot.h - 0.25, t.fontSize.body);
     slide.addText(fitted.text, {
@@ -141,7 +141,7 @@ export function renderPracticeList(slide, pptx, t, s, cardShadow, fontFamily) {
         x: slot.x, y: slot.y, w: slot.w, h: slot.h,
         fill: { color: t.panel },
         line: { color: t.border, width: 1.2 },
-        shadow: cardShadow
+        shadow: { ...cardShadow }
       });
       const fitted = fitTextLayout(qText, slot.w - 0.5, slot.h - 0.2, Math.min(t.fontSize.body, 17));
       slide.addText(fitted.text, {
@@ -163,7 +163,7 @@ export function renderPracticeList(slide, pptx, t, s, cardShadow, fontFamily) {
       x: INSET_CONTENT_BOUNDS.x, y: INSET_CONTENT_BOUNDS.y, w: INSET_CONTENT_BOUNDS.w, h: bannerH,
       fill: { color: "FEF3C7" },
       line: { color: "F59E0B", width: 1.5 },
-      shadow: cardShadow
+      shadow: { ...cardShadow }
     });
     slide.addText("⏱【限时挑战 · 5分钟独立作答】请在规定时间内独立思考、专注作答，字迹工整，当堂达标！", {
       x: INSET_CONTENT_BOUNDS.x + 0.3, y: INSET_CONTENT_BOUNDS.y + 0.1, w: INSET_CONTENT_BOUNDS.w - 0.6, h: bannerH - 0.2,
@@ -211,7 +211,7 @@ export function renderPracticeList(slide, pptx, t, s, cardShadow, fontFamily) {
         x: slot.x, y: slot.y, w: slot.w, h: slot.h,
         fill: { color: t.panel },
         line: { color: t.border, width: 1.2 },
-        shadow: cardShadow
+        shadow: { ...cardShadow }
       });
       // 挑战编号角标
       slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
@@ -244,7 +244,7 @@ export function renderPracticeList(slide, pptx, t, s, cardShadow, fontFamily) {
       x: slot.x, y: slot.y, w: slot.w, h: slot.h,
       fill: { color: t.panel },
       line: { color: t.border, width: 1.2 },
-      shadow: cardShadow
+      shadow: { ...cardShadow }
     });
     const fitted = fitTextLayout(qText, slot.w - 0.6, slot.h - 0.2, Math.min(t.fontSize.body, 18));
     slide.addText(fitted.text, {
@@ -274,7 +274,7 @@ export function renderSummaryCard(slide, pptx, t, s, cardShadow, fontFamily) {
       x: leftSlot.x, y: leftSlot.y, w: leftSlot.w, h: leftSlot.h,
       fill: { color: t.chip || "EFF6FF" },
       line: { color: t.primary, width: 1.5 },
-      shadow: cardShadow
+      shadow: { ...cardShadow }
     });
     slide.addText([
       { text: "【知识主干脉络】\n\n", options: { fontSize: t.fontSize.body_large, bold: true, color: t.primaryDark } },
@@ -293,7 +293,7 @@ export function renderSummaryCard(slide, pptx, t, s, cardShadow, fontFamily) {
         x: slot.x, y: slot.y, w: slot.w, h: slot.h,
         fill: { color: t.panel },
         line: { color: t.primary, width: 1.2 },
-        shadow: cardShadow
+        shadow: { ...cardShadow }
       });
       const fitted = fitTextLayout(item, slot.w - 0.6, slot.h - 0.25, t.fontSize.body_large);
       slide.addText(fitted.text, {
@@ -315,7 +315,7 @@ export function renderSummaryCard(slide, pptx, t, s, cardShadow, fontFamily) {
       x: INSET_CONTENT_BOUNDS.x + 2.0, y: INSET_CONTENT_BOUNDS.y, w: INSET_CONTENT_BOUNDS.w - 4.0, h: topH,
       fill: { color: t.primary },
       line: { color: t.primaryDark, width: 1.2 },
-      shadow: cardShadow
+      shadow: { ...cardShadow }
     });
     slide.addText("★ 本课知识网络", {
       x: INSET_CONTENT_BOUNDS.x + 2.1, y: INSET_CONTENT_BOUNDS.y + 0.1, w: INSET_CONTENT_BOUNDS.w - 4.2, h: topH - 0.2,
@@ -370,7 +370,7 @@ export function renderSummaryCard(slide, pptx, t, s, cardShadow, fontFamily) {
         x: slot.x, y: slot.y, w: slot.w, h: slot.h,
         fill: { color: t.panel },
         line: { color: t.border, width: 1.2 },
-        shadow: cardShadow
+        shadow: { ...cardShadow }
       });
 
       // 分支顶部小胶囊
@@ -420,7 +420,7 @@ export function renderSummaryCard(slide, pptx, t, s, cardShadow, fontFamily) {
       x: slot.x, y: slot.y, w: slot.w, h: slot.h,
       fill: { color: t.panel },
       line: { color: t.primary, width: 1.5 },
-      shadow: cardShadow
+      shadow: { ...cardShadow }
     });
     const fitted = fitTextLayout(item, slot.w - 0.8, slot.h - 0.3, t.fontSize.body_large);
     slide.addText(fitted.text, {
@@ -450,7 +450,7 @@ export function renderActivityInstruction(slide, pptx, t, s, cardShadow, fontFam
     x: INSET_CONTENT_BOUNDS.x, y: INSET_CONTENT_BOUNDS.y, w: INSET_CONTENT_BOUNDS.w, h: topH,
     fill: { color: t.chip || "EFF6FF" },
     line: { color: t.primary, width: 1.5 },
-    shadow: cardShadow
+    shadow: { ...cardShadow }
   });
   slide.addText([
     { text: `【活动组织】${actType}    `, options: { fontSize: t.fontSize.body_large, bold: true, color: t.primaryDark } },
@@ -477,7 +477,7 @@ export function renderActivityInstruction(slide, pptx, t, s, cardShadow, fontFam
       x: slot.x, y: slot.y, w: slot.w, h: slot.h,
       fill: { color: t.panel },
       line: { color: t.border, width: 1.2 },
-      shadow: cardShadow
+      shadow: { ...cardShadow }
     });
     // 步骤标签
     slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
@@ -506,7 +506,7 @@ export function renderActivityInstruction(slide, pptx, t, s, cardShadow, fontFam
     x: INSET_CONTENT_BOUNDS.x, y: botY, w: INSET_CONTENT_BOUNDS.w, h: botH,
     fill: { color: "ECFDF5" },
     line: { color: "10B981", width: 1.5 },
-    shadow: cardShadow
+    shadow: { ...cardShadow }
   });
   slide.addText(`★ 交流与汇报提示：${prompt}`, {
     x: INSET_CONTENT_BOUNDS.x + 0.3, y: botY + 0.1, w: INSET_CONTENT_BOUNDS.w - 0.6, h: botH - 0.2,
@@ -546,7 +546,7 @@ export function renderComparisonTable(slide, pptx, t, s, cardShadow, fontFamily)
       x: cx, y: headerY, w: colW, h: headerH,
       fill: { color: cIdx === 1 ? "DC2626" : (cIdx === 2 ? "059669" : t.primary) },
       line: { color: t.border, width: 0 },
-      shadow: cardShadow
+      shadow: { ...cardShadow }
     });
     slide.addText(hText, {
       x: cx + 0.1, y: headerY + 0.05, w: colW - 0.2, h: headerH - 0.1,
@@ -575,7 +575,7 @@ export function renderComparisonTable(slide, pptx, t, s, cardShadow, fontFamily)
         x: cx, y: ry, w: colW, h: rowH,
         fill: { color: isWrongCol ? "FEF2F2" : (isRightCol ? "ECFDF5" : t.panel) },
         line: { color: isWrongCol ? "EF4444" : (isRightCol ? "10B981" : t.border), width: 1.2 },
-        shadow: cardShadow
+        shadow: { ...cardShadow }
       });
 
       const textColor = isWrongCol ? "991B1B" : (isRightCol ? "065F46" : t.ink);
@@ -599,7 +599,7 @@ export function renderComparisonTable(slide, pptx, t, s, cardShadow, fontFamily)
       x: INSET_CONTENT_BOUNDS.x, y: tipY, w: INSET_CONTENT_BOUNDS.w, h: tipH,
       fill: { color: "FEF3C7" },
       line: { color: "F59E0B", width: 1.5 },
-      shadow: cardShadow
+      shadow: { ...cardShadow }
     });
     slide.addText(`★ 对比启示：${summaryTip}`, {
       x: INSET_CONTENT_BOUNDS.x + 0.3, y: tipY + 0.1, w: INSET_CONTENT_BOUNDS.w - 0.6, h: tipH - 0.2,
@@ -626,7 +626,7 @@ export function renderKnowledgeTree(slide, pptx, t, s, cardShadow, fontFamily) {
     x: INSET_CONTENT_BOUNDS.x, y: INSET_CONTENT_BOUNDS.y, w: INSET_CONTENT_BOUNDS.w, h: rootH,
     fill: { color: t.chip || "EFF6FF" },
     line: { color: t.primary, width: 1.5 },
-    shadow: cardShadow
+    shadow: { ...cardShadow }
   });
   slide.addText(`🌳 知识主干：${rootTopic}`, {
     x: INSET_CONTENT_BOUNDS.x + 0.3, y: INSET_CONTENT_BOUNDS.y + 0.15, w: INSET_CONTENT_BOUNDS.w - 0.6, h: rootH - 0.3,
@@ -655,7 +655,7 @@ export function renderKnowledgeTree(slide, pptx, t, s, cardShadow, fontFamily) {
       x: slot.x, y: slot.y, w: slot.w, h: slot.h,
       fill: { color: t.panel },
       line: { color: t.border, width: 1.2 },
-      shadow: cardShadow
+      shadow: { ...cardShadow }
     });
 
     // 分支标题横条
