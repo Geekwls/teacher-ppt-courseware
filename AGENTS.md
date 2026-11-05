@@ -6,14 +6,14 @@
 
 ## 本项目是什么
 
-小学人教版**课时 PPT 课件生成系统**(语数英三科):教师给出自然语言指令
-(如"帮我做三年级上册数学第四单元第1课时的课件"),Agent 按五步工作流产出可编辑 `.pptx`。
+人教统编版**中小学课时 PPT 课件生成系统**(小学1~6年级语数英 + 初中7~9年级拓展示范):教师给出自然语言指令
+(如"帮我做三年级上册数学第四单元第1课时的课件"或"做初一语文《春》的课件"),Agent 按五步工作流产出可编辑 `.pptx`。
 
 四层架构(物理隔离,禁止混杂;唯一管线为 LessonPlan → PPTX,旧 courseware.json 页面级管线已于 2026-11 退役):
-1. `plugin/knowledge/` — 教材知识库(**只读事实源**,157单元/556知识点,含教材例题/教参重难点易错点)
+1. `plugin/knowledge/` — 教材知识库(**只读事实源**,158单元/557知识点,含教材例题/教参重难点易错点)
 2. `plugin/skills/lesson-courseware/` — Agent Skill(SKILL.md + references + scripts)
-3. `lib_js/lesson/lesson_validator.js` — 教学设计门禁(知识点归属/数域递归全字段扫描/算式真值/教学禁区,一票否决) + `lib_js/presentation/` 表现规划与门禁
-4. `scripts/build_courseware.js` + `lib_js/rendering/presentation_renderer.js` — 一键流水线:教学门禁 → 容量规划 → 表现门禁 → PptxGenJS 确定性渲染 → 原生动效注入 → `layout_audit.js` 几何体检(--strict 一票否决)
+3. `lib_js/lesson/lesson_validator.js` — 教学设计门禁(知识点归属/数域递归全字段扫描/算式真值/教学禁区词界防误杀,一票否决) + `lib_js/presentation/` 表现规划与门禁
+4. `scripts/build_courseware.js` + `lib_js/rendering/presentation_renderer.js` — 一键流水线:教学门禁 → 容量规划(含算理超载拆页与初中长文本智能拆页) → 表现门禁 → PptxGenJS 确定性渲染 → 原生动效注入 → `layout_audit.js` 几何体检(--strict 一票否决)
 
 ## 硬性纪律(违反即返工)
 

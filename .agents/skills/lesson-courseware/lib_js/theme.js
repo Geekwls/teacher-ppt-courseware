@@ -92,7 +92,8 @@ export function getGradeLevel(grade) {
   const g = parseInt(grade, 10);
   if (isNaN(g) || g <= 2) return "lower";
   if (g <= 4) return "middle";
-  return "upper";
+  if (g <= 6) return "upper";
+  return "junior"; // 7, 8, 9 年级 (初中学段)
 }
 
 /**
@@ -149,6 +150,23 @@ export const GRADE_TOKENS = {
     },
     lineHeightMultiplier: 1.18,
     maxItemsPerSlide: 5
+  },
+  junior: {
+    level: "junior",
+    levelName: "初中年级·深度鉴赏与思辨",
+    fontSize: {
+      cover_title: 44,
+      cover_subtitle: 22,
+      title: 28,
+      body: 20,
+      body_large: 22,
+      callout: 20,
+      figure: 16,
+      meta: 13,
+      footer: 12
+    },
+    lineHeightMultiplier: 1.25,
+    maxItemsPerSlide: 4
   }
 };
 
@@ -232,8 +250,8 @@ export function resolveTheme(subject = "math", grade = 3, style = "standard") {
       colors.bgTint = "ECFDF5";
       colors.chip = "D1FAE5";
     }
-  } else if (level === "upper") {
-    // 5-6年级: 沉稳深邃、冷感学术范、高对比度与严谨感
+  } else if (level === "upper" || level === "junior") {
+    // 5-6年级与初中7-9年级: 沉稳深邃、经典学术范、高对比度与严谨感
     if (sub === "math") {
       colors.primary = "1E3A8A";     // 深邃牛津蓝
       colors.primaryDark = "0F172A"; // 夜幕深蓝

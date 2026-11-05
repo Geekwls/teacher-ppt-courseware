@@ -49,6 +49,20 @@ export const GRADE_COGNITIVE_POLICIES = {
     maxStepsPerReasoningSlide: 6,
     minFontSizePt: 16,
     preferConcreteVisual: false,
+    readingSplitThresholdChars: 85,
+    readingSplitThresholdLines: 4,
+    motionPacing: "brisk"
+  },
+  junior: {
+    tier: "junior",
+    tierName: "初中年级·深度鉴赏与思辨",
+    grades: [7, 8, 9],
+    maxBlocksPerSlide: 4,
+    maxStepsPerReasoningSlide: 6,
+    minFontSizePt: 18,
+    preferConcreteVisual: false,
+    readingSplitThresholdChars: 70,
+    readingSplitThresholdLines: 3,
     motionPacing: "brisk"
   }
 };
@@ -95,11 +109,12 @@ export const LESSON_TYPE_POLICIES = {
   }
 };
 
-function getGradeTier(grade) {
+export function getGradeTier(grade) {
   const g = Number(grade) || 3;
   if (g <= 2) return "lower";
   if (g <= 4) return "middle";
-  return "upper";
+  if (g <= 6) return "upper";
+  return "junior"; // 7, 8, 9 年级 (初中学段)
 }
 
 /**
@@ -177,10 +192,12 @@ export function resolveStrategyContext(input = {}) {
       if (phaseContent.type === "text_reading") {
         const excerpt = String(phaseContent.paragraph_excerpt || "").trim();
         const questions = Array.isArray(phaseContent.focus_questions) ? phaseContent.focus_questions : [];
-        const isUpperOrJunior = gradeTier === "upper" || gradeNum >= 7;
-        const isLongText = excerpt.length > 70 || excerpt.split("\n").filter(Boolean).length >= 3;
+        const isJuniorOrUpper = gradeTier === "junior" || gradeTier === "upper";
+        const charsThreshold = gradePolicy.readingSplitThresholdChars || 70;
+        const linesThreshold = gradePolicy.readingSplitThresholdLines || 3;
+        const isLongText = excerpt.length > charsThreshold || excerpt.split("\n").filter(Boolean).length >= linesThreshold;
 
-        if (isUpperOrJunior && isLongText && questions.length >= 2) {
+        if (isJuniorOrUpper && isLongText && questions.length >= 2) {
           return {
             needSplit: true,
             reason: `长文本品读 (${excerpt.length}字) 伴随多重设问 (${questions.length}问)，为保障教室后排可读性(≥20pt)与深度思维探究，决策拆分为「原文沉浸品读」与「文本设问与深层探究」。`,

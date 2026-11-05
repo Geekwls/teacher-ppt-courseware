@@ -95,6 +95,10 @@ test("表现契约校验: 拆页生成的 Presentation AST 必须通过契约门
 });
 
 test("初中长文本智能拆页: 长文本伴随多设问应自动拆分为品读页与设问页", () => {
+  const ctxJunior = resolveStrategyContext({ subject: "chinese", grade: 7, lesson_type: "concept_learning" });
+  assert.equal(ctxJunior.meta.grade_tier, "junior", "七年级应正确映射为 junior 初中认知学段");
+  assert.equal(ctxJunior.cognitive.readingSplitThresholdChars, 70, "初中学段应具备专门的长文本拆页阈值");
+
   const readingPlan = {
     schema_version: "1.0.0",
     lesson_id: "test-chi-g7",
