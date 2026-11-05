@@ -1,0 +1,15 @@
+unit_id: unit-01
+unit_name: 第一单元 四季美景
+subject: chinese
+edition: 统编版
+grade: 7
+term: term-1
+version: 2026.11.1
+updated_at: '2026-11-05'
+verification_status: "verified"
+source_id: pep_chinese_g7_t1_2024
+teaching_reference_source_id: pep_chinese_g7_t1_tr_2024
+page_range: P1-P18
+page_evidence_note: 依据部编统编版七年级语文上册第一单元实证核定。本单元选编朱自清《春》、老舍《济南的冬天》、刘湛秋《雨的四季》及《古代诗歌四首》。单元人文主题为热爱大自然、品味四季美景；语文要素为朗读课文体会作者思想感情，揣摩品味优美词句，学习比喻、拟人等修辞手法的表达效果。
+unit_overview: 本单元以写景抒情名篇为主，核心课文《春》以生动细腻的笔触描绘了江南春天的动人景象。通过学习本单元，引导初中生掌握写景抒情散文的基本阅读方法，理清文章脉络，体会融情于景与多感官描写的精妙。
+numeric_upper_bound: 1000

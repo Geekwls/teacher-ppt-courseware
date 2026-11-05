@@ -1,0 +1,46 @@
+lessons:
+- lesson_id: chi-g7-t1-u01-l01
+  unit_id: unit-01
+  subject: chinese
+  grade: 7
+  term: term-1
+  lesson_number: 1
+  lesson_name: 1 春
+  page_range: P2-P6
+  official_examples:
+  - 作者朱自清，现代著名散文家。课文开头「盼望着，盼望着，东风来了，春天的脚步近了。」
+  - 绘春部分描绘五幅动人画卷：「小草偷偷地从土里钻出来，嫩嫩的，绿绿的。」「桃树、杏树、梨树，你不让我，我不让你，都开满了花赶趟儿。」「“吹面不寒杨柳风”，不错的，像母亲的手抚摸着你。」「看，像牛毛，像花针，像细丝，密密地斜织着。」「城里乡下，家家户户，老老小小，也赶趟儿似的，一个个都出来了。」
+  - 赞春部分末尾三段：「春天像刚落地的娃娃……春天像小姑娘……春天像健壮的青年……」
+  - 课后思考探究：朗读课文并体会作者对春天的赞美与热爱之情；揣摩下列语句中加点词语的表现力；体会比喻和拟人修辞手法的作用。
+- lesson_id: chi-g7-t1-u01-l02
+  unit_id: unit-01
+  subject: chinese
+  grade: 7
+  term: term-1
+  lesson_number: 2
+  lesson_name: 2 济南的冬天
+  page_range: P7-P11
+  official_examples:
+  - 作者老舍。「一个老城，有山有水，全在天底下晒着阳光，暖和安适地睡着，只等春风来把它们唤醒，这是不是个理想的境界？」
+- lesson_id: chi-g7-t1-u01-l03
+  unit_id: unit-01
+  subject: chinese
+  grade: 7
+  term: term-1
+  lesson_number: 3
+  lesson_name: 3 雨的四季
+  page_range: P12-P15
+  official_examples:
+  - 作者刘湛秋。「我喜欢雨，无论什么季节的雨，我都喜欢。她给我的形象和记忆，永远是美的。」
+- lesson_id: chi-g7-t1-u01-l04
+  unit_id: unit-01
+  subject: chinese
+  grade: 7
+  term: term-1
+  lesson_number: 4
+  lesson_name: 4 古代诗歌四首
+  page_range: P16-P18
+  official_examples:
+  - 《观沧海》（曹操）「东临碣石，以观沧海。水何澹澹，山岛竦峙。」
+  - 《次北固山下》（王湾）「海日生残夜，江春入旧年。」
+  - 《天净沙·秋思》（马致远）「枯藤老树昏鸦，小桥流水人家，古道西风瘦马。夕阳西下，断肠人在天涯。」

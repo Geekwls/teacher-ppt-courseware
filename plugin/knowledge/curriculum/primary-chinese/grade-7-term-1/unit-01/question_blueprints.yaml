@@ -1,0 +1,23 @@
+blueprints:
+- blueprint_id: bp-chi-g7-t1-u01-standard
+  title: 七年级上册第一单元《春》综合阅读素养测评
+  difficulty_ratio:
+    basic: 0.5
+    variation: 0.3
+    challenge: 0.2
+  slots:
+  - section: 一、字词积累与语境理解
+    question_type: fill_blank
+    item_count: 4
+    target_points:
+    - chi-g7-t1-u01-p01
+  - section: 二、课文结构与景物画卷梳理
+    question_type: choice
+    item_count: 4
+    target_points:
+    - chi-g7-t1-u01-p01
+  - section: 三、词句揣摩与修辞赏析
+    question_type: reading_comprehension
+    item_count: 4
+    target_points:
+    - chi-g7-t1-u01-p01

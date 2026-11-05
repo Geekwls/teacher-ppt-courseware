@@ -64,9 +64,14 @@ export function parsePrompt(prompt) {
     }
   }
 
-  const mGrade = prompt.match(/([1-6一二三四五六])\s*年级/);
+  const mGrade = prompt.match(/([1-9一二三四五六七八九])\s*年级|初\s*([一二三123])/);
   if (mGrade) {
-    out.grade = CN_NUM[mGrade[1]] || parseInt(mGrade[1], 10);
+    if (mGrade[1]) {
+      out.grade = CN_NUM[mGrade[1]] || parseInt(mGrade[1], 10);
+    } else if (mGrade[2]) {
+      const gMap = { "一": 7, "1": 7, "二": 8, "2": 8, "三": 9, "3": 9 };
+      out.grade = gMap[mGrade[2]] || 7;
+    }
   }
 
   if (/上册|上学期|秋季|秋学期/.test(prompt)) {

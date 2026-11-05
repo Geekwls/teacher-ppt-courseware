@@ -424,6 +424,8 @@ export async function renderPresentation(data, options = {}) {
           textCardH = 3.65;
         } else if (!hasQs && !hasBanner) {
           textCardH = 4.8;
+        } else if (hasQs && grade >= 7) {
+          textCardH = 2.25;
         }
 
         // 上部：课文原段 / 重点字词
@@ -436,7 +438,10 @@ export async function renderPresentation(data, options = {}) {
 
         const bodyText = textCard?.properties?.body || "";
         const bodyLines = bodyText.split("\n").filter(Boolean).length;
-        const textFontSize = (bodyLines > 3 || bodyText.length > 50) ? (themeName === "english" ? 16 : 18) : (hasQs ? 20 : t.fontSize.body);
+        let textFontSize = (bodyLines > 3 || bodyText.length > 50) ? (themeName === "english" ? 16 : 18) : (hasQs ? 20 : t.fontSize.body);
+        if (grade >= 7) {
+          textFontSize = (bodyLines > 3 || bodyText.length > 50) ? 15 : 16;
+        }
 
         slide.addText([
           { text: `${textCard?.properties?.title || "【精读赏析】"}\n\n`, options: { fontSize: textFontSize, bold: true, color: t.primaryDark } },
@@ -451,17 +456,19 @@ export async function renderPresentation(data, options = {}) {
         if (hasQs) {
           const qCount = qs.length;
           const qW = (cardW - (qCount - 1) * 0.25) / qCount;
+          const qy = CONTENT_TOP + textCardH + 0.15;
+          const qh = grade >= 7 ? 1.35 : 1.45;
           qs.forEach((q, qIdx) => {
             const qx = 0.8 + qIdx * (qW + 0.25);
             slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
-              x: qx, y: CONTENT_TOP + 2.35, w: qW, h: 1.45,
+              x: qx, y: qy, w: qW, h: qh,
               fill: { color: "F8FAFC" },
               line: { color: t.border, width: 1 },
               shadow: CARD_SHADOW
             });
             slide.addText(q, {
-              x: qx + 0.2, y: CONTENT_TOP + 2.45, w: qW - 0.4, h: 1.25,
-              fontSize: 16,
+              x: qx + 0.2, y: qy + 0.08, w: qW - 0.4, h: qh - 0.16,
+              fontSize: grade >= 7 ? 15 : 16,
               bold: true,
               color: t.ink,
               valign: "middle",

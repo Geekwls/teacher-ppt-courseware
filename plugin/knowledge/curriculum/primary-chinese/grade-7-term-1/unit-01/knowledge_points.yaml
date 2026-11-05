@@ -1,0 +1,38 @@
+points:
+- point_id: chi-g7-t1-u01-p01
+  lesson_id: chi-g7-t1-u01-l01
+  point_name: 朱自清《春》脉络结构、五幅春景图与修辞赏析
+  learning_objectives:
+  - 能流畅有感情地朗读课文，理清「盼春-绘春-赞春」的文章脉络与行文结构
+  - 能深入赏析春草图、春花图、春风图、春雨图、迎春图五幅春景画卷的写景特点与层次
+  - 能准确指出比喻、拟人等修辞手法，体会多感官（触觉、嗅觉、听觉、视觉）协同描写的表达效果
+  - 体会作者对春天、对生活与蓬勃生命力的赞美与热爱之情
+  prerequisites:
+  - chi-g6-t1-u01-p01
+  subsequent_points:
+  - chi-g7-t1-u01-p02
+  applicable_question_types:
+  - reading_comprehension
+  - word_analysis
+  - rhetoric_analysis
+  teaching_boundary:
+    scope_allowed:
+    - 脉络结构：盼春（第1段）、绘春（第2-7段宏观春回与五幅细部图景）、赞春（第8-10段比喻排比）
+    - 五幅春景图及核心物候特征（春草、春花、春风、春雨、人迎春）
+    - 重点词语揣摩：「钻」、「赶趟儿」、「抚摸」、「酝酿」、「呼朋引伴」、「花枝招展」
+    - 常见修辞方法品味：比喻、拟人、排比
+    - 多感官角度描写（视觉、触觉、听觉、嗅觉）
+    scope_excluded:
+    - 现代诗歌创作与长篇散文文体学深层理论探究
+    - 写作时代背景中复杂的现代文学史流派思潮深究
+  provenance:
+    source_id: pep_chinese_g7_t1_2024
+    page_ref:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    example_ref:
+    - 朱自清《春》课文原文及课后思考探究
+  verification_status: verified

@@ -1490,6 +1490,25 @@
               }
             ]
           }
+        },
+        "grade-7": {
+          "term-1": {
+            "status": "verified",
+            "verified_units_count": 1,
+            "partial_units_count": 0,
+            "units": [
+              {
+                "unit_id": "unit-01",
+                "unit_name": "第一单元 四季美景",
+                "status": "verified",
+                "dir": "knowledge/curriculum/primary-chinese/grade-7-term-1/unit-01",
+                "evidence_artifact": "knowledge/curriculum/primary-chinese/grade-7-term-1/unit-01/metadata.yaml",
+                "source": "教育部统编版义务教育教科书《语文 七年级上册》人民教育出版社",
+                "verified_at": "2026-11-05",
+                "note": "2026-11-05 七年级上册第一单元精读课文朱自清《春》事实核验建档。"
+              }
+            ]
+          }
         }
       }
     },
