@@ -55,6 +55,66 @@ function applyCardRadius(slide, radius) {
 }
 
 /**
+ * 朗读符号标注 → 富文本 runs
+ *
+ * 语文课的朗读指导必须"看得见": 停顿与重音要直接标在原文上, 学生才知道怎么读。
+ * 数据结构 (content_block.reading_guide):
+ *   annotated: "这时候，|窗外十分安静，|树枝不摇了，"   ← | 为停顿分隔符
+ *   stress:    ["窗外十分安静", "不摇了"]                 ← 需重读的片段
+ * 输出: 停顿渲染为琥珀色 "／", 重音渲染为加粗红色, 其余为主题正文色。
+ *
+ * 重音匹配按"最长优先"贪心切分, 避免 "安静" 抢先吃掉 "十分安静" 的首字;
+ * 只在单个停顿段内匹配, 跨段的标注属于作者错误, 不做模糊兜底。
+ */
+function buildReadingRuns(bodyText, guide, fontSize, t) {
+  const annotated = String(guide?.annotated || bodyText || "");
+  if (!annotated) return [];
+
+  const stressList = (Array.isArray(guide?.stress) ? guide.stress : [])
+    .map(s => String(s || "").trim())
+    .filter(Boolean)
+    .sort((a, b) => b.length - a.length);
+
+  const runs = [];
+  const pushText = (text, isStress) => {
+    if (!text) return;
+    runs.push({
+      text,
+      options: isStress
+        ? { fontSize, bold: true, color: "B91C1C" }
+        : { fontSize, color: t.ink }
+    });
+  };
+
+  const segments = annotated.split("|");
+  segments.forEach((seg, segIdx) => {
+    if (stressList.length === 0) {
+      pushText(seg, false);
+    } else {
+      let rest = seg;
+      while (rest.length) {
+        let hit = null;
+        for (const s of stressList) {
+          const i = rest.indexOf(s);
+          if (i >= 0 && (hit === null || i < hit.i)) hit = { i, s };
+        }
+        if (!hit) { pushText(rest, false); break; }
+        if (hit.i > 0) pushText(rest.slice(0, hit.i), false);
+        pushText(hit.s, true);
+        rest = rest.slice(hit.i + hit.s.length);
+      }
+    }
+    // 停顿符: 最后一个段落之后不再补, 避免句末多出一个孤立的 "／"
+    if (segIdx < segments.length - 1) {
+      runs.push({ text: "／", options: { fontSize, bold: true, color: "D97706" } });
+    }
+  });
+
+  return runs;
+}
+
+
+/**
  * 封面/封底装饰层
  *
  * 5 套构图全部只用整块色带、细线与虚线做区分, 标题/副标题文字盒保持
@@ -496,42 +556,45 @@ export async function renderPresentation(data, options = {}) {
         const rulesElem = s.elements.find(e => e.id === "card_rules");
         const tipElem = s.elements.find(e => e.id === "card_tip");
 
-        const leftW = 5.6;
-        const rightX = 6.7;
-        const rightW = CANVAS_W - rightX - 0.8;
-        const mainH = 3.6;
+        // 田字格独占整行: 写字课的核心视觉是范字, 挤在左半栏只能做到 0.86in,
+        // 教室后排看不清间架结构。改为全宽后单格可放大到 ~1.8in。
+        const cardW = CANVAS_W - 1.6;
+        const gridH = 3.05;
 
-        // 左侧田字格容器卡片
+        // 上部：田字格范字
         slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
-          x: 0.8, y: CONTENT_TOP + 0.1, w: leftW, h: mainH,
+          x: 0.8, y: CONTENT_TOP + 0.1, w: cardW, h: gridH,
           fill: { color: t.panel },
           line: { color: t.border, width: 1.2 },
           shadow: CARD_SHADOW
         });
         if (figElem) {
-          renderFigure(slide, pptx, { kind: "tianzige", ...figElem.properties }, [1.0, CONTENT_TOP + 0.3, leftW - 0.4, mainH - 0.6], t);
+          renderFigure(slide, pptx, { kind: "tianzige", ...figElem.properties }, [1.0, CONTENT_TOP + 0.3, cardW - 0.4, gridH - 0.6], t);
         }
 
-        // 右侧书写要领与规律卡片
-        slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
-          x: rightX, y: CONTENT_TOP + 0.1, w: rightW, h: mainH,
-          fill: { color: t.panel },
-          line: { color: t.border, width: 1.2 },
-          shadow: CARD_SHADOW
-        });
+        // 中部：书写要领 (不超过 3 列, 超过则换行)
         const rRules = rulesElem?.properties?.items || [];
-        const ruleCount = Math.max(1, rRules.length);
-        const ruleCardH = Math.min(0.95, (mainH - 0.4 - (ruleCount - 1) * 0.15) / ruleCount);
+        const ruleCols = Math.min(Math.max(rRules.length, 1), 3);
+        const ruleRows = Math.ceil(rRules.length / ruleCols) || 1;
+        const ruleGapX = 0.22;
+        const ruleGapY = 0.14;
+        const ruleW = (cardW - (ruleCols - 1) * ruleGapX) / ruleCols;
+        const ruleH = 1.0;
+        const rulesY = CONTENT_TOP + 0.1 + gridH + 0.16;
+
         rRules.forEach((ruleText, rIdx) => {
-          const ry = CONTENT_TOP + 0.25 + rIdx * (ruleCardH + 0.15);
+          const col = rIdx % ruleCols;
+          const row = Math.floor(rIdx / ruleCols);
+          const rx = 0.8 + col * (ruleW + ruleGapX);
+          const ry = rulesY + row * (ruleH + ruleGapY);
           slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
-            x: rightX + 0.25, y: ry, w: rightW - 0.5, h: ruleCardH,
+            x: rx, y: ry, w: ruleW, h: ruleH,
             fill: { color: t.chip || "F8FAFC" },
             line: { color: t.border, width: 1 }
           });
-          const fittedRule = fitTextLayout(ruleText, rightW - 0.8, ruleCardH - 0.1, 16);
+          const fittedRule = fitTextLayout(ruleText, ruleW - 0.5, ruleH - 0.1, 16);
           slide.addText(fittedRule.text, {
-            x: rightX + 0.4, y: ry + 0.05, w: rightW - 0.8, h: ruleCardH - 0.1,
+            x: rx + 0.25, y: ry + 0.05, w: ruleW - 0.5, h: ruleH - 0.1,
             fontSize: fittedRule.size,
             bold: true,
             color: t.ink,
@@ -540,16 +603,18 @@ export async function renderPresentation(data, options = {}) {
           });
         });
 
-        // 底部提示横幅
+        // 底部：书写提示横幅
         if (tipElem) {
+          const ruleAreaH = ruleRows * ruleH + (ruleRows - 1) * ruleGapY;
+          const tipY = rulesY + ruleAreaH + 0.15;
           slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
-            x: 0.8, y: CONTENT_TOP + 3.85, w: CANVAS_W - 1.6, h: 0.95,
+            x: 0.8, y: tipY, w: cardW, h: 0.68,
             fill: { color: "FEF3C7" },
             line: { color: "F59E0B", width: 1.5 },
             shadow: CARD_SHADOW
           });
           slide.addText(tipElem.properties?.text || "", {
-            x: 1.1, y: CONTENT_TOP + 3.92, w: CANVAS_W - 2.2, h: 0.8,
+            x: 1.1, y: tipY + 0.04, w: cardW - 0.6, h: 0.6,
             fontSize: t.fontSize.body,
             bold: true,
             color: "92400E",
@@ -570,6 +635,11 @@ export async function renderPresentation(data, options = {}) {
         const hasBanner = !!bannerElem;
         const bodyText = textCard?.properties?.body || "";
         const bodyLines = bodyText.split("\n").filter(Boolean).length;
+        // 朗读标注会让正文变长 (每个停顿多一个 "／"), 字号估算须按标注后的实际字数
+        const readingGuide = textCard?.properties?.reading_guide || null;
+        const measureText = readingGuide?.annotated
+          ? String(readingGuide.annotated).replace(/\|/g, "／")
+          : bodyText;
 
         // 根据是否有下半部分 questions / banner 动态分配高度
         let textCardH = 2.1;
@@ -604,21 +674,24 @@ export async function renderPresentation(data, options = {}) {
         // 字号动态自适应：拆页后原文页享有 20~22pt 护眼大字
         let textFontSize;
         if (!hasQs) {
-          textFontSize = (bodyText.length > 120 || bodyLines > 4) ? 20 : 22;
+          textFontSize = (measureText.length > 120 || bodyLines > 4) ? 20 : 22;
         } else if (isIntroPrompt) {
           textFontSize = 18;
         } else {
-          textFontSize = (bodyLines > 3 || bodyText.length > 50) ? (grade >= 7 ? 15 : 18) : (themeName === "english" ? 16 : 20);
+          textFontSize = (bodyLines > 3 || measureText.length > 50) ? (grade >= 7 ? 15 : 18) : (themeName === "english" ? 16 : 20);
         }
         // 按真实字宽与卡片高度兜底收敛, 防止长文溢出与末行孤字
         textFontSize = Math.min(
           textFontSize,
-          fitFontSize(bodyText, cardW - 0.6, Math.max(0.4, textCardH - 0.95), textFontSize, 14)
+          fitFontSize(measureText, cardW - 0.6, Math.max(0.4, textCardH - 0.95), textFontSize, 14)
         );
 
+        const bodyRuns = readingGuide
+          ? buildReadingRuns(bodyText, readingGuide, textFontSize, t)
+          : [{ text: bodyText, options: { fontSize: textFontSize, color: t.ink } }];
         slide.addText([
           { text: `${textCard?.properties?.title || "【精读赏析】"}\n\n`, options: { fontSize: textFontSize, bold: true, color: t.primaryDark } },
-          { text: bodyText, options: { fontSize: textFontSize, color: t.ink } }
+          ...bodyRuns
         ], {
           x: 1.1, y: CONTENT_TOP + 0.25, w: cardW - 0.6, h: textCardH - 0.35,
           fontSize: textFontSize,

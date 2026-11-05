@@ -395,8 +395,13 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
         title: `${phase.phase_name} · 原文品读`,
         context_title: "【原文精读】",
         context_body: excerpt,
+        reading_guide: cb.reading_guide || null,
         questions: [],
-        conclusion_text: cb.key_phrase || "",
+        // 原文页不再挂 key_phrase: 拆页后下一页已承载"以动衬静"的结论,
+        // 两页重复同一句横幅会让学生误以为还没讲完。原文页改为朗读符号说明。
+        conclusion_text: cb.reading_guide
+          ? "朗读提示：“／”处稍作停顿，红色加粗的词读得重一些、慢一些。"
+          : (cb.key_phrase || ""),
         notes: `${guidance}（第1部分：指导学生有感情地朗读原文，沉浸感受语言文字的意境美与节奏感）`
       });
 
@@ -471,6 +476,7 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
           title: phase.phase_name,
           context_title: "【课文精读】",
           context_body: cb.paragraph_excerpt || "",
+          reading_guide: cb.reading_guide || null,
           questions: cb.focus_questions || [],
           conclusion_text: cb.key_phrase || "",
           notes: guidance

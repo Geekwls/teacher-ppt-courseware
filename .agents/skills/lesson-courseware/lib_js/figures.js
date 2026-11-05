@@ -370,12 +370,18 @@ function renderTianzige(slide, pptx, fig, box, theme) {
   const [x, y, w, h] = box;
   const chars = (fig.chars || []).slice(0, 6).map(String);
   const pinyin = fig.pinyin || [];
+  const charMeta = fig.char_meta || [];
   const n = Math.max(1, chars.length);
-  const gap = 0.22;
-  const cell = Math.min(1.25, (w - gap * (n - 1)) / n, h - 0.42);
+
+  // 上方留给拼音, 下方留给「部首·笔画」标注; 格子本身吃满剩余高度
+  const PINYIN_H = 0.38;
+  const LABEL_H = 0.26;
+  const gap = Math.max(0.18, Math.min(0.34, w * 0.028));
+  // 上限从 1.25in 放宽到 2.0in: 教室后排要看清间架结构, 原尺寸只有 0.86in 偏小
+  const cell = Math.min(2.0, (w - gap * (n - 1)) / n, h - PINYIN_H - LABEL_H);
   const total = cell * n + gap * (n - 1);
   const x0 = x + (w - total) / 2;
-  const y0 = y + 0.42;
+  const y0 = y + PINYIN_H;
 
   chars.forEach((ch, i) => {
     const cx = x0 + i * (cell + gap);
@@ -384,12 +390,13 @@ function renderTianzige(slide, pptx, fig, box, theme) {
     if (i < pinyin.length && pinyin[i]) {
       slide.addText(String(pinyin[i]), {
         x: cx - 0.1,
-        y: y0 - 0.4,
+        y: y0 - PINYIN_H + 0.02,
         w: cell + 0.2,
-        h: 0.36,
-        fontSize: 14,
+        h: PINYIN_H - 0.04,
+        fontSize: Math.max(12, Math.min(20, Math.floor(cell * 11))),
         color: theme.muted,
         align: "center",
+        valign: "middle",
         fontFace: FONT_FAMILY
       });
     }
@@ -423,18 +430,40 @@ function renderTianzige(slide, pptx, fig, box, theme) {
       line: { color: "FCA5A5", width: 1.0, dashType: "dash" }
     });
 
-    // 汉字文字
+    // 汉字文字: 范字应占满格子约 3/4, 原比例 0.55 偏小, 间架结构看不出来
     slide.addText(ch, {
       x: cx,
       y: y0,
       w: cell,
       h: cell,
-      fontSize: Math.floor(cell * 40),
+      fontSize: Math.max(18, Math.floor(cell * 54)),
       color: theme.ink,
       align: "center",
       valign: "middle",
+      margin: 0,
       fontFace: FONT_FAMILY
     });
+
+    // 部首·笔画标注: 写字课要讲清"这个字几画、部首是什么", 光有范字不够
+    const meta = charMeta[i];
+    if (meta) {
+      const parts = [];
+      if (meta.radical) parts.push(`${meta.radical}部`);
+      if (meta.strokes) parts.push(`${meta.strokes}画`);
+      if (parts.length) {
+        slide.addText(parts.join(" · "), {
+          x: cx - 0.15,
+          y: y0 + cell + 0.02,
+          w: cell + 0.3,
+          h: LABEL_H - 0.02,
+          fontSize: Math.max(10, Math.min(14, Math.floor(cell * 7.5))),
+          color: theme.muted,
+          align: "center",
+          valign: "middle",
+          fontFace: FONT_FAMILY
+        });
+      }
+    }
   });
 }
 

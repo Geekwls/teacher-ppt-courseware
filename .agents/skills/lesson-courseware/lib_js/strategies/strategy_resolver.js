@@ -31,6 +31,9 @@ export const GRADE_COGNITIVE_POLICIES = {
     maxStepsPerReasoningSlide: 3,
     minFontSizePt: 22,
     preferConcreteVisual: true,
+    // 低年级识字量有限、课文短, 阈值放低: 超过 3 行就该拆, 保证字号不被压缩
+    readingSplitThresholdChars: 60,
+    readingSplitThresholdLines: 3,
     motionPacing: "gentle"
   },
   middle: {
@@ -40,6 +43,9 @@ export const GRADE_COGNITIVE_POLICIES = {
     maxStepsPerReasoningSlide: 4,
     minFontSizePt: 18,
     preferConcreteVisual: true,
+    // 3-4 年级课文段落明显变长, 原文+设问+结论同页会把字号压到 16pt 以下, 教室后排不可读
+    readingSplitThresholdChars: 70,
+    readingSplitThresholdLines: 4,
     motionPacing: "medium"
   },
   upper: {
@@ -123,6 +129,22 @@ export const LESSON_TYPE_POLICIES = {
     defaultPhases: skeletonPhases("reading_comprehension")
   }
 };
+
+/**
+ * 等效汉字宽度
+ *
+ * 阈值表按汉字宽度标定。英语课文用拉丁字母, 单字符仅约汉字一半宽,
+ * 若直接比字符数, 122 字符的英语段落会被判成"比 75 字的中文段落还长",
+ * 从而被过早拆页。此处把非汉字字符按 0.55 折算。
+ */
+function visualLength(text) {
+  const s = String(text || "");
+  let n = 0;
+  for (const ch of s) {
+    n += /[\u3400-\u4dbf\u4e00-\u9fff\u3000-\u303f\uff00-\uffef]/.test(ch) ? 1 : 0.55;
+  }
+  return n;
+}
 
 export function getGradeTier(grade) {
   const g = Number(grade) || 3;
@@ -208,15 +230,18 @@ export function resolveStrategyContext(input = {}) {
       if (phaseContent.type === "text_reading") {
         const excerpt = String(phaseContent.paragraph_excerpt || "").trim();
         const questions = Array.isArray(phaseContent.focus_questions) ? phaseContent.focus_questions : [];
-        const isJuniorOrUpper = gradeTier === "junior" || gradeTier === "upper";
-        const charsThreshold = gradePolicy.readingSplitThresholdChars || 70;
-        const linesThreshold = gradePolicy.readingSplitThresholdLines || 3;
-        const isLongText = excerpt.length > charsThreshold || excerpt.split("\n").filter(Boolean).length >= linesThreshold;
+        // 阈值按学段取自认知策略表; 未定义阈值的学段视为不拆页
+        const charsThreshold = gradePolicy.readingSplitThresholdChars;
+        const linesThreshold = gradePolicy.readingSplitThresholdLines;
+        const lineCount = excerpt.split("\n").filter(Boolean).length;
+        const equivLen = Math.round(visualLength(excerpt));
+        const isLongText = charsThreshold != null
+          && (equivLen > charsThreshold || lineCount >= linesThreshold);
 
-        if (isJuniorOrUpper && isLongText && questions.length >= 2) {
+        if (isLongText && questions.length >= 2) {
           return {
             needSplit: true,
-            reason: `长文本品读 (${excerpt.length}字) 伴随多重设问 (${questions.length}问)，为保障教室后排可读性(≥20pt)与深度思维探究，决策拆分为「原文沉浸品读」与「文本设问与深层探究」。`,
+            reason: `长文本品读 (${equivLen}字等效宽度) 伴随多重设问 (${questions.length}问)，为保障教室后排可读性(≥20pt)与深度思维探究，决策拆分为「原文沉浸品读」与「文本设问与深层探究」。`,
             splitMode: "text_reading_and_questions_dual_page"
           };
         }

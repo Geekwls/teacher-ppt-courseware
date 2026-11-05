@@ -180,7 +180,8 @@ export function planPresentationFromLesson(lessonPlan, options = {}) {
         elements.push(makeElement("txt_read_title", "title", { text: plan.title }));
         elements.push(makeElement("card_reading_text", "text_card", {
           title: plan.context_title || "【课文精读】",
-          body: plan.context_body || ""
+          body: plan.context_body || "",
+          reading_guide: plan.reading_guide || null
         }));
         if (plan.questions && plan.questions.length > 0) {
           elements.push(makeElement("card_questions", "card_list", { items: plan.questions }));
