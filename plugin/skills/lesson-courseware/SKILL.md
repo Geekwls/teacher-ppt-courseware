@@ -60,6 +60,22 @@ Agent-Native 现代分层架构:**宿主大模型即教学设计与内容创作�
 
 课文引文限于教学所需片段(生字所在句、精读段),不整页整课抄录;教材例题转述+页码溯源;教参内容(重难点/错因)做教学化转写,不逐字照搬。
 
-## 修订 (Revisions)
+## 课件修订与技能更新机制 (Revisions & Skill Updates)
 
-教师要求修改时:**只改 lesson_plan.json 中对应教学内容字段**(保持 phase_id 稳定),重跑 Step 4。所有幻灯片与时间线均由同一份教学设计自动派生,不会出现"改了卷面忘了备注或动效错乱"的漂移。
+### 1. 课件内容增量修订 (Content Patching)
+教师提出修改意见时（例如“第2题换一下”、“修改第3页设问”、“更新教师讲稿”）：
+- **绝对不手改 PPTX 二进制**；
+- 运行增量补丁工具定向修改对应教学环节：
+  ```bash
+  node scripts/patch_courseware.js --input <lesson_plan.json> --phase <phase_id> --notes "新讲稿"
+  # 或传入 patch.json:
+  node scripts/patch_courseware.js --input <lesson_plan.json> --patch <patch.json>
+  ```
+- 自动更新 LessonPlan AST、重新规划与体检，保持其余未修改页面的布局与动画零漂移。
+
+### 2. Skill 工具集自身的同步与版本更新 (Skill Self-Update)
+当本技能发布新版本或多 Agent 运行环境需要同步时：
+- **检查漂移与更新**：`npm run check-skill` (或 `node scripts/update_skill.js --check`)
+- **一键增量同构同步**：`npm run update-skill` (自动同步至正本与受控 Agent 目录)
+- **从 GitHub 远端拉取最新**：`npm run pull-skill` (自动拉取 main 分支并同步)
+- **更新至用户全局 Agent 目录**：`node scripts/update_skill.js --user`

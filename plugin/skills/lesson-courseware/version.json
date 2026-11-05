@@ -1,0 +1,20 @@
+{
+  "name": "lesson-courseware",
+  "version": "1.2.0",
+  "engine_type": "dual-ast-layered",
+  "released_at": "2026-11-05",
+  "git_branch": "main",
+  "capabilities": [
+    "LessonPlan AST content validation",
+    "PagePlanner cognitive capacity auto-splitting",
+    "Presentation AST layout orchestration",
+    "OpenXML native click fade-in timeline injection",
+    "Deterministic 0-critical layout geometry audit",
+    "Multi-subject support: Math, Chinese, English"
+  ],
+  "changelog": {
+    "1.2.0": "升级分层解耦智能课件引擎，落地一键流水线 build_courseware.js 与语数英三科垂直切片，几何体检 0 Critical 交付",
+    "1.1.0": "增加 OpenXML 原生单击淡入动效与几何审计门禁",
+    "1.0.0": "初始版本：基于五层教材知识库的人教版课件生成"
+  }
+}
