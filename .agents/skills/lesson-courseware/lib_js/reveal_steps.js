@@ -131,7 +131,10 @@ export function annotateRevealSteps(slide, opts = {}) {
           const customId = String(it.obj?.options?.customTargetId || "");
           const text = it.text;
 
-          const isMatch = targets.some(tgt => {
+          const isMatch = targets.some(rawTgt => {
+            // 契约要求 target 为元素 id 字符串; 这里做一次防御性归一, 避免非法输入直接抛 TypeError
+            const tgt = String(rawTgt ?? "");
+            if (!tgt) return false;
             if (objName && (objName === tgt || objName.startsWith(tgt + "_") || objName.startsWith(tgt + "."))) return true;
             if (customId && (customId === tgt || customId.startsWith(tgt + "_") || customId.startsWith(tgt + "."))) return true;
             if (tgt.endsWith(".explanation") && (text.includes("★ 参考答案") || text.includes("参考答案"))) {

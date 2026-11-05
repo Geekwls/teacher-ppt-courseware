@@ -8,7 +8,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "fs";
 import path from "path";
-import { validateLessonPlan } from "../../plugin/skills/lesson-courseware/lib_js/lesson/lesson_validator.js";
+import { validateLessonPlan, isScopeExcludedHit } from "../../plugin/skills/lesson-courseware/lib_js/lesson/lesson_validator.js";
 
 // 读取真实的三年级口算乘法金样
 const GOLDEN_PATH = path.join(process.cwd(), "acceptance", "lesson_plans", "math_g3_t1_u04_lesson_plan.json");
@@ -35,13 +35,36 @@ test("教学门禁: 数学算式真值错误应被严格拦截", () => {
   assert.ok(hasArithmeticError, "应精确拦截 MATH_CALCULATION_ERROR 错误");
 });
 
-test("教学门禁: 词法断言防误杀 - 包含「百分数」不应被误判为「分数」禁区违规", () => {
+test("禁区匹配: 词界防误杀「百分数」不命中「分数」, 真禁区仍命中", () => {
+  // 直接验证纯函数语义, 不依赖某份金样的禁区清单(否则断言恒真、起不到回归作用)
+  assert.equal(isScopeExcludedHit("打折后相当于原价的百分数优惠", "分数"), false, "「百分数」不应命中「分数」");
+  assert.equal(isScopeExcludedHit("把单位「1」平均分成若干份, 认识分数", "分数"), true, "真实「分数」表述应命中");
+  assert.equal(isScopeExcludedHit("消去法可以简化运算", "除法"), false, "「消去」不应命中「除法」");
+  assert.equal(isScopeExcludedHit("photosynthesis in plants", "photo"), false, "英文词界: photo 不应命中 photosynthesis");
+});
+
+test("禁区匹配: 带括注与引号的词条归一化后应可命中", () => {
+  assert.equal(isScopeExcludedHit("本节还顺带讲解整十数乘整十数", "整十数乘整十数（三年级下册）"), true, "括注不应导致漏检");
+  assert.equal(isScopeExcludedHit("我们来看看增加了几倍的表述", "「增加了几倍」的表述"), true, "引号不应导致漏检");
+});
+
+test("教学门禁: 带括注的禁区词条必须可命中 - 「整十数乘整十数（三年级下册）」", () => {
   const plan = getClone();
-  // 在情境中加入百分数词汇
-  plan.teaching_sequence[0].content_block.scenario = "商场举办活动，打折后相当于原价的百分数优惠。";
+  // 知识库词条带括注修饰, 课件正文不会写括注; 归一化后应能命中
+  plan.teaching_sequence[1].content_block.reasoning_steps.push("本节还顺带讲解整十数乘整十数");
   const res = validateLessonPlan(plan);
-  const scopeViolation = res.errors.filter(e => e.code === "SCOPE_EXCLUDED_VIOLATION");
-  assert.equal(scopeViolation.length, 0, "不应将百分数误杀为分数违规");
+  assert.equal(res.status, "fail");
+  const hit = res.errors.filter(e => e.code === "SCOPE_EXCLUDED_VIOLATION");
+  assert.ok(hit.length > 0, "带括注的禁区词条不应因括注而漏检");
+});
+
+test("教学门禁: 讲稿提及禁区应降级为 warning, 不阻断交付", () => {
+  const plan = getClone();
+  plan.teaching_sequence[1].teacher_guidance += "（可顺带提一句整十数乘整十数，本课不展开）";
+  const res = validateLessonPlan(plan);
+  assert.equal(res.status, "pass", "讲稿属排除性提醒, 不应一票否决");
+  const warn = res.warnings.filter(e => e.code === "SCOPE_EXCLUDED_IN_GUIDANCE");
+  assert.ok(warn.length > 0, "讲稿触碰禁区应留下警告回执");
 });
 
 test("教学门禁: 真实教学禁区拦截 - 触碰「除法口算」应被一票否决", () => {

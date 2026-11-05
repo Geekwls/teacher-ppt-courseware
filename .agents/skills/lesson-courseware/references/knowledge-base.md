@@ -18,6 +18,17 @@ curriculum/primary-{math,chinese,english}/grade-N-term-{1,2}/unit-XX/
 - `partial`:结构在但凭证不全(如教参纯扫描件未 OCR),内容可用但**必须**提醒教师课前核对;
 - 未建库单元:query 返回 not_found,不存在的覆盖不硬造。
 
+## 覆盖现状(2026-11)
+
+| 维度 | 事实 |
+|---|---|
+| 规模 | 158 单元 / 557 知识点 |
+| 核验 | verified 79 单元、partial 79 单元(约各半) |
+| 学段 | 小学 1~6 年级语数英(英语为人教版三年级起始);初中仅初一语文上册第一单元(试点) |
+| 学期缺口 | 11 个:语文 g3/g4/g5/g6 下册、g8、g9;数学 g4/g5/g6 下册;英语 g3~g6 下册 |
+
+> **命名说明**:目录前缀 `primary-` 沿用上游 `primary-school-practice-skill` 项目的库命名(避免与上游发布流程分叉),**不代表学段**——`primary-chinese/grade-7-term-1` 存放的是初一语文内容。定位逻辑按 `grade` 字段与目录名共同解析,不依赖前缀判断学段。
+
 ## 查询工具
 
 唯一入口 `scripts/query_curriculum.js`(支持 --prompt 自然语言 / 结构化参数 / --list-units / --search)。返回单一 JSON:

@@ -39,28 +39,44 @@ const NUMBER_SCAN_SKIP_KEYS = new Set([
   "path", "link", "url", "reveal_mode", "reveal_steps"
 ]);
 
+/**
+ * 知识库词条归一化: 词条常带括注与书名号修饰, 如
+ * "整十数乘整十数（三年级下册）" / "「增加了几倍」的表述" / "旧版篇目《赠刘景文》（『擎雨盖』等）"。
+ * 课件正文不会写出括注, 原样子串匹配会 100% 漏检, 因此生成多个候选变体参与匹配。
+ */
+function excludedTermVariants(term) {
+  const raw = String(term || "").trim();
+  if (!raw) return [];
+  const noBracket = raw
+    .replace(/[（(][^（）()]*[）)]/g, "")
+    .replace(/\s+/g, "")
+    .trim();
+  const noQuote = noBracket.replace(/[「」『』“”"]/g, "").trim();
+  return Array.from(new Set([raw, noBracket, noQuote])).filter(Boolean);
+}
+
 /** 教学禁区防误杀匹配: 区分词法边界，避免排除"分数"误杀"百分数"等复合词 */
-function isScopeExcludedHit(text, term) {
+export function isScopeExcludedHit(text, term) {
   if (!text || !term) return false;
-  const trimmed = String(term).trim();
-  if (!trimmed) return false;
 
-  const escaped = trimmed.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  let prefixNeg = "";
-  if (trimmed === "分数") {
-    prefixNeg = "(?<!百)";
-  } else if (trimmed === "除法") {
-    prefixNeg = "(?<!消|免)";
-  } else if (trimmed === "角") {
-    prefixNeg = "(?<!视|主|配|豆|视|三|拐)";
-  }
+  return excludedTermVariants(term).some(variant => {
+    const escaped = variant.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    let prefixNeg = "";
+    if (variant === "分数") {
+      prefixNeg = "(?<!百)";
+    } else if (variant === "除法") {
+      prefixNeg = "(?<!消|免)";
+    } else if (variant === "角") {
+      prefixNeg = "(?<!视|主|配|豆|三|拐)";
+    }
 
-  const isAscii = /^[A-Za-z0-9_-]+$/.test(trimmed);
-  const pattern = isAscii
-    ? new RegExp(`\\b${escaped}\\b`, "i")
-    : new RegExp(`${prefixNeg}${escaped}`, "u");
+    const isAscii = /^[A-Za-z0-9_-]+$/.test(variant);
+    const pattern = isAscii
+      ? new RegExp(`\\b${escaped}\\b`, "i")
+      : new RegExp(`${prefixNeg}${escaped}`, "u");
 
-  return pattern.test(text);
+    return pattern.test(text);
+  });
 }
 
 /** 递归收集教学数值 (移植自旧管线 deck_schema.js, 全字段覆盖而非只查等号结果) */
@@ -200,37 +216,48 @@ export function validateLessonPlan(data) {
               `可选白名单: ${kpDoc.points.map(p => p.point_id).join(", ")}`
             ));
           } else {
-            // 检查教学禁区: 仅扫描教学呈现内容，配合词界断言杜绝误杀
+            // 检查教学禁区: 呈现内容 error 一票否决; 讲稿 teacher_guidance 按 warning 提示(避免计划性提醒被误杀)
             const excluded = targetPoint.teaching_boundary?.scope_excluded || [];
             if (excluded.length > 0) {
-              const teachingTexts = [];
-              (data.teaching_sequence || []).forEach(phase => {
-                const cb = phase.content_block || {};
-                function collectTexts(node) {
-                  if (typeof node === "string") {
-                    teachingTexts.push(node);
-                  } else if (Array.isArray(node)) {
-                    node.forEach(collectTexts);
-                  } else if (node && typeof node === "object") {
-                    for (const [k, v] of Object.entries(node)) {
-                      if (!NUMBER_SCAN_SKIP_KEYS.has(k)) collectTexts(v);
+              const collectTexts = node => {
+                const out = [];
+                (function walk(n) {
+                  if (typeof n === "string") {
+                    out.push(n);
+                  } else if (Array.isArray(n)) {
+                    n.forEach(walk);
+                  } else if (n && typeof n === "object") {
+                    for (const [k, v] of Object.entries(n)) {
+                      if (!NUMBER_SCAN_SKIP_KEYS.has(k)) walk(v);
                     }
                   }
-                }
-                collectTexts(cb);
-              });
-              const teachingBody = teachingTexts.join("\n");
+                })(node);
+                return out.join("\n");
+              };
 
-              excluded.forEach(exc => {
-                if (isScopeExcludedHit(teachingBody, exc)) {
-                  issues.push(issue(
-                    "SCOPE_EXCLUDED_VIOLATION",
-                    `课件内容触碰教材禁区 [${exc}]`,
-                    "error",
-                    null,
-                    `知识点明确排除: ${exc}，请勿超纲教学。`
-                  ));
-                }
+              (data.teaching_sequence || []).forEach(phase => {
+                const bodyText = collectTexts(phase.content_block || {});
+                const guidanceText = typeof phase.teacher_guidance === "string" ? phase.teacher_guidance : "";
+
+                excluded.forEach(exc => {
+                  if (isScopeExcludedHit(bodyText, exc)) {
+                    issues.push(issue(
+                      "SCOPE_EXCLUDED_VIOLATION",
+                      `课件内容触碰教材禁区 [${exc}]`,
+                      "error",
+                      phase.phase_id,
+                      `知识点明确排除: ${exc}，请勿超纲教学。`
+                    ));
+                  } else if (isScopeExcludedHit(guidanceText, exc)) {
+                    issues.push(issue(
+                      "SCOPE_EXCLUDED_IN_GUIDANCE",
+                      `讲稿提及教材禁区 [${exc}]`,
+                      "warning",
+                      phase.phase_id,
+                      `该表述若为“本课不涉及”式的排除性提醒可忽略; 若确要讲授需改为本单元范围内。`
+                    ));
+                  }
+                });
               });
             }
           }
