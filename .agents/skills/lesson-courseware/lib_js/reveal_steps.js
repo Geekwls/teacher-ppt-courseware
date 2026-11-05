@@ -2,17 +2,17 @@
 /**
  * 课堂放映「播放步骤」自动编排 (reveal_steps.js)
  *
- * 目标: 让每一页内容在放映时按 1→2→3 步单击依次出现, 教师先提问/推导, 再点击揭晓。
+ * 核心目标:
+ * 彻底遵循教学规律 ——「先呈现题目上下文供学生思考，教师点击鼠标后再按步骤揭晓推演过程或参考答案」。
  *
- * 设计要点:
- * 1. 不改动任何布局函数。渲染器画完一页后直接读取 slide._slideObjects 的几何坐标,
- *    按「垂直区间重叠」把同一条目卡片(底板 / 编号圆 / 正文)聚类为一个播放步骤;
- * 2. 借 PptxGenJS 的 objectName 写入 <p:cNvPr name="REVEAL_<step>_<idx>">,
- *    deck_transition.js 解包后据此注入 OpenXML 单击进入动效;
- * 3. 框架形状(标题栏/页脚)用 baseCount 精确排除; 音视频 media 形状不参与分步,
- *    避免「点击后视频才出现」以及点击命中动效层导致放不出来;
- * 4. 默认自动推断, 现有课件 JSON 无需任何修改即生效;
- *    reveal_mode:"off" 可整页关闭, reveal_steps:N 可把该页均匀合并为 N 步。
+ * 教学感知规则:
+ * 1. 参考答案页 (answer): 4 道题的题目白底卡片、题号圆标、题干摘要文本【全部常驻显示】；
+ *    仅浅绿色「★ 参考答案」卡片逐题单击淡入出现 (第1次点击出题1答案, 第2次出题2答案...)；
+ * 2. 教材例题页 (example): 顶部的【例题】题干卡片【常驻显示】供学生读题；
+ *    下方的列式、口算思考、规范答语按步骤单击淡入；
+ * 3. 易错警示页 (misconception): 错例与错因诊断卡片【常驻显示】供学生辨析；
+ *    右侧/底部的「✓ 正解」卡片点击后再淡入揭晓；
+ * 4. 算理探究页 (concept): 上方推演步骤常驻或分步，底部的「★ 核心规律」卡片点击最后揭晓。
  */
 
 const EMU_PER_INCH = 914400;
@@ -27,6 +27,16 @@ const FRAME_PAGE_TYPES = new Set(["cover", "end"]);
 export function parseRevealName(name) {
   const m = /^REVEAL_(\d+)_(\d+)$/.exec(String(name || ""));
   return m ? { step: Number(m[1]), idx: Number(m[2]) } : null;
+}
+
+/** 提取形状文本内容 */
+function textOf(obj) {
+  const t = obj?.text;
+  if (typeof t === "string") return t;
+  if (Array.isArray(t)) {
+    return t.map(r => String(r?.text ?? "")).join("");
+  }
+  return "";
 }
 
 /** 与 layout_audit.js 一致: 兼容 PptxGenJS 内部路径直接写入 EMU 的情况 */
@@ -58,10 +68,10 @@ function mergeBuckets(buckets, target) {
  * @param {object} slide       PptxGenJS slide 对象
  * @param {object} opts
  *   - baseCount   {number} 页面框架已画完时的形状数, 之前的是标题/页脚, 不参与分步
- *   - pageType    {string} 页型, cover/end 跳过
+ *   - pageType    {string} 页型 (answer / example / misconception / concept / practice 等)
  *   - mode        {string} "auto" | "off", 来自 s.reveal_mode
  *   - targetSteps {number} 来自 s.reveal_steps, 指定该页合并成几步
- *   - maxSteps    {number} 自动推断时的步数上限, 防止教师点太多次
+ *   - maxSteps    {number} 自动推断时的步数上限
  * @returns {{ steps:number, shapes:number, mode:string, sizes:number[] }}
  */
 export function annotateRevealSteps(slide, opts = {}) {
@@ -78,7 +88,7 @@ export function annotateRevealSteps(slide, opts = {}) {
   }
 
   const objects = Array.isArray(slide?._slideObjects) ? slide._slideObjects : [];
-  const items = [];
+  const allContentItems = [];
 
   for (let i = Math.max(0, baseCount); i < objects.length; i++) {
     const obj = objects[i];
@@ -87,17 +97,64 @@ export function annotateRevealSteps(slide, opts = {}) {
     const g = shapeGeom(obj);
     // 零高/零宽的是分隔线等装饰, 不单独成步
     if (g.h < 0.05 || g.w < 0.05) continue;
-    items.push({ obj, ...g });
+    allContentItems.push({ obj, ...g, text: textOf(obj) });
   }
 
-  if (!items.length) return { steps: 0, shapes: 0, mode: "auto", sizes: [] };
+  if (!allContentItems.length) return { steps: 0, shapes: 0, mode: "auto", sizes: [] };
+
+  // =========================================================================
+  // 教学感知策略 1: 参考答案页 (answer) —— 题目常驻，仅答案逐题点击揭晓
+  // =========================================================================
+  if (pageType === "answer") {
+    // 过滤出带「参考答案」的形状
+    const answerItems = allContentItems.filter(it => it.text.includes("参考答案"));
+    if (answerItems.length > 0) {
+      answerItems.sort((a, b) => a.y - b.y);
+      answerItems.forEach((it, idx) => {
+        it.obj.options = it.obj.options || {};
+        it.obj.options.objectName = `${REVEAL_PREFIX}${idx + 1}_0`;
+      });
+      return {
+        steps: answerItems.length,
+        shapes: answerItems.length,
+        mode: "auto",
+        sizes: answerItems.map(() => 1)
+      };
+    }
+  }
+
+  // =========================================================================
+  // 教学感知策略 2: 例题页 (example) —— 顶部题干常驻，下方解答步骤点击逐个展示
+  // =========================================================================
+  let candidateItems = allContentItems;
+  if (pageType === "example") {
+    // 排除顶部题干区卡片 (y < 2.45 且包含【例题】或不包含解题关键词)，保持常驻可见
+    candidateItems = allContentItems.filter(it => {
+      const isProblemCard = it.text.includes("【例题】") ||
+        (it.y < 2.45 && !it.text.includes("横式") && !it.text.includes("思考") && !it.text.includes("答语") && !it.text.includes("答："));
+      return !isProblemCard;
+    });
+  }
+
+  // =========================================================================
+  // 教学感知策略 3: 易错警示页 (misconception) —— 错例常驻，错因与正解点击揭晓
+  // =========================================================================
+  if (pageType === "misconception") {
+    // 错例卡片常驻可见，让学生先观察思考
+    candidateItems = allContentItems.filter(it => {
+      const isWrongCaseCard = it.text.includes("错例") || (it.y < 2.3 && !it.text.includes("错因") && !it.text.includes("正解"));
+      return !isWrongCaseCard;
+    });
+  }
+
+  if (!candidateItems.length) return { steps: 0, shapes: 0, mode: "auto", sizes: [] };
 
   // 自上而下排序, 保证播放顺序与阅读顺序一致
-  items.sort((a, b) => (a.y - b.y) || (a.x - b.x));
+  candidateItems.sort((a, b) => (a.y - b.y) || (a.x - b.x));
 
-  // 同一条目卡片的底板/编号/文字垂直区间高度重叠 -> 归为同一步
+  // 垂直区间高度重叠 (>= 50%) -> 聚类为同一步
   const groups = [];
-  for (const it of items) {
+  for (const it of candidateItems) {
     const last = groups[groups.length - 1];
     if (last) {
       const overlap = Math.min(it.y + it.h, last.bottom) - Math.max(it.y, last.top);
@@ -126,7 +183,7 @@ export function annotateRevealSteps(slide, opts = {}) {
 
   return {
     steps: buckets.length,
-    shapes: items.length,
+    shapes: candidateItems.length,
     mode: "auto",
     sizes: buckets.map(b => b.length)
   };
