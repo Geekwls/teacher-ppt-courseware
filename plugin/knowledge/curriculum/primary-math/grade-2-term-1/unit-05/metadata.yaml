@@ -6,7 +6,7 @@ grade: 2
 term: term-1
 version: 2026.10.3
 updated_at: '2026-10-15'
-verification_status: verified
+verification_status: "verified"
 source_id: pep_math_g2_t1_2024
 teaching_reference_source_id: pep_math_g2_t1_tr_2024
 page_range: P73-P90

@@ -6,7 +6,7 @@ grade: 2
 term: term-2
 version: 2026.10.2
 updated_at: '2026-10-10'
-verification_status: verified
+verification_status: "verified"
 source_id: pep_chinese_g2_t2_2024
 teaching_reference_source_id: pep_chinese_g2_t2_tr_2024
 page_range: P42-P51

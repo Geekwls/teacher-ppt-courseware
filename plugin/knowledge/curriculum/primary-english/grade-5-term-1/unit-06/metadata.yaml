@@ -6,7 +6,7 @@ grade: 5
 term: term-1
 version: 2026.10.2
 updated_at: '2026-10-10'
-verification_status: partial
+verification_status: "partial"
 source_id: pep_english_g5_t1_2024
 teaching_reference_source_id: pep_english_g5_t1_tr_2024
 page_range: P62-P73
