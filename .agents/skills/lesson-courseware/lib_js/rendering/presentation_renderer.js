@@ -17,6 +17,8 @@ import { renderNumberLine, renderFigure } from "../figures.js";
 import { annotateRevealSteps } from "../reveal_steps.js";
 import { injectSlideTransitions } from "../deck_transition.js";
 import { auditDeck } from "../layout_audit.js";
+import { fitTextLayout, fitFontSize } from "../text_fit.js";
+import { prepareFigureAnimations } from "../animation_prep.js";
 
 const CANVAS_W = 13.333;
 const CANVAS_H = 7.5;
@@ -54,6 +56,18 @@ export async function renderPresentation(data, options = {}) {
   pptx.layout = "LAYOUT_WIDE";
   pptx.author = "教师课件助手";
   pptx.title = meta.title || "课件";
+
+  // 动态媒体预处理: 扫描全部 figure_animation 图元, 现场合成算理动画视频
+  // (数学门禁前置 + 幂等缓存), 合成产物路径就地写回元素, 之后由 renderFigure 原生嵌入。
+  const animEntries = [];
+  (data.slides || []).forEach((s, idx) => {
+    for (const el of s.elements || []) {
+      if (el.type === "figure_animation" && el.properties) {
+        animEntries.push({ slide: idx + 1, fig: el.properties });
+      }
+    }
+  });
+  const animPrepReport = await prepareFigureAnimations(animEntries, { outdir, strict });
 
   const revealSlideMarks = [];
 
@@ -108,9 +122,10 @@ export async function renderPresentation(data, options = {}) {
             line: { color: t.border, width: 1.2 },
             shadow: CARD_SHADOW
           });
-          slide.addText(item, {
+          const fitted = fitTextLayout(item, cardW - 0.6, 0.85, t.fontSize.body);
+          slide.addText(fitted.text, {
             x: 1.3, y: cy + 0.15, w: cardW - 0.6, h: 0.85,
-            fontSize: t.fontSize.body,
+            fontSize: fitted.size,
             bold: true,
             color: t.ink,
             valign: "middle",
@@ -131,9 +146,11 @@ export async function renderPresentation(data, options = {}) {
           line: { color: t.border, width: 1.2 },
           shadow: CARD_SHADOW
         });
+        const ctxBody = ctxCard?.properties?.body || "";
+        const ctxBodySize = fitFontSize(ctxBody, cardW - 0.8, 1.15, t.fontSize.body);
         slide.addText([
           { text: `${ctxCard?.properties?.title || "【情境】"}\n\n`, options: { fontSize: t.fontSize.body_large, bold: true, color: t.primaryDark } },
-          { text: ctxCard?.properties?.body || "", options: { fontSize: t.fontSize.body, color: t.ink } }
+          { text: ctxBody, options: { fontSize: ctxBodySize, color: t.ink } }
         ], {
           x: 1.4, y: CONTENT_TOP + 0.35, w: cardW - 0.8, h: 1.9,
           valign: "top", fontFace: FONT_FAMILY
@@ -160,6 +177,7 @@ export async function renderPresentation(data, options = {}) {
 
       case "model_left_reasoning_right": {
         const figElem = s.elements.find(e => e.type === "figure_number_line");
+        const animElem = s.elements.find(e => e.type === "figure_animation");
         const reasoningElem = s.elements.find(e => e.id === "card_reasoning");
         const conclusionElem = s.elements.find(e => e.type === "conclusion_banner");
 
@@ -168,14 +186,16 @@ export async function renderPresentation(data, options = {}) {
         const rightW = CANVAS_W - rightX - 0.8;
         const mainH = 3.4;
 
-        // 左侧数轴图元容器
+        // 左侧模型容器: 声明式动画走动态媒体子引擎, 数轴走矢量图元
         slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
           x: 0.8, y: CONTENT_TOP + 0.1, w: leftW, h: mainH,
           fill: { color: t.panel },
           line: { color: t.border, width: 1.2 },
           shadow: CARD_SHADOW
         });
-        if (figElem) {
+        if (animElem) {
+          renderFigure(slide, pptx, { kind: "animation", ...animElem.properties }, [0.9, CONTENT_TOP + 0.4, leftW - 0.2, mainH - 0.8], t);
+        } else if (figElem) {
           renderNumberLine(slide, pptx, { ...figElem.properties, id: figElem.id }, [0.9, CONTENT_TOP + 0.4, leftW - 0.2, mainH - 0.8], t);
         }
 
@@ -194,9 +214,10 @@ export async function renderPresentation(data, options = {}) {
             fill: { color: "F8FAFC" },
             line: { color: t.border, width: 1 }
           });
-          slide.addText(st, {
+          const fittedStep = fitTextLayout(st, rightW - 1.0, 0.6, t.fontSize.body);
+          slide.addText(fittedStep.text, {
             x: rightX + 0.5, y: sy + 0.08, w: rightW - 1.0, h: 0.6,
-            fontSize: t.fontSize.body,
+            fontSize: fittedStep.size,
             bold: true,
             color: t.ink,
             valign: "middle",
@@ -239,7 +260,7 @@ export async function renderPresentation(data, options = {}) {
         });
         slide.addText(probCard?.properties?.body || "", {
           x: 1.1, y: CONTENT_TOP + 0.18, w: cardW - 0.6, h: 0.9,
-          fontSize: t.fontSize.body_large,
+          fontSize: fitFontSize(probCard?.properties?.body || "", cardW - 0.6, 0.9, t.fontSize.body_large),
           bold: true,
           color: t.primaryDark,
           valign: "middle",
@@ -255,9 +276,10 @@ export async function renderPresentation(data, options = {}) {
             fill: { color: "F8FAFC" },
             line: { color: t.border, width: 1 }
           });
-          slide.addText(st, {
+          const fittedStep = fitTextLayout(st, cardW - 0.6, 0.62, t.fontSize.body);
+          slide.addText(fittedStep.text, {
             x: 1.1, y: sy + 0.08, w: cardW - 0.6, h: 0.62,
-            fontSize: t.fontSize.body,
+            fontSize: fittedStep.size,
             bold: true,
             color: t.ink,
             valign: "middle",
@@ -275,7 +297,7 @@ export async function renderPresentation(data, options = {}) {
           });
           slide.addText(ansCard.properties?.text || "", {
             x: 1.1, y: CONTENT_TOP + 4.4, w: cardW - 0.6, h: 0.65,
-            fontSize: t.fontSize.body,
+            fontSize: fitFontSize(ansCard.properties?.text || "", cardW - 0.6, 0.65, t.fontSize.body),
             bold: true,
             color: "065F46",
             valign: "middle",
@@ -300,7 +322,7 @@ export async function renderPresentation(data, options = {}) {
         });
         slide.addText([
           { text: "【典型错例】\n\n", options: { fontSize: t.fontSize.body_large, bold: true, color: "DC2626" } },
-          { text: wrongElem?.properties?.body || "", options: { fontSize: t.fontSize.body_large + 2, bold: true, color: "991B1B" } }
+          { text: wrongElem?.properties?.body || "", options: { fontSize: fitFontSize(wrongElem?.properties?.body || "", colW - 0.6, 1.6, t.fontSize.body_large + 2), bold: true, color: "991B1B" } }
         ], {
           x: 1.1, y: CONTENT_TOP + 0.4, w: colW - 0.6, h: 2.5,
           valign: "top", fontFace: FONT_FAMILY
@@ -315,7 +337,7 @@ export async function renderPresentation(data, options = {}) {
         });
         slide.addText([
           { text: "【病因诊断】\n\n", options: { fontSize: t.fontSize.body_large, bold: true, color: t.primaryDark } },
-          { text: causeElem?.properties?.body || "", options: { fontSize: t.fontSize.body, color: t.ink } }
+          { text: causeElem?.properties?.body || "", options: { fontSize: fitFontSize(causeElem?.properties?.body || "", colW - 0.6, 1.6, t.fontSize.body), color: t.ink } }
         ], {
           x: 0.8 + colW + 0.7, y: CONTENT_TOP + 0.4, w: colW - 0.6, h: 2.5,
           valign: "top", fontFace: FONT_FAMILY
@@ -331,7 +353,7 @@ export async function renderPresentation(data, options = {}) {
           });
           slide.addText(correctElem.properties?.text || "", {
             x: 1.1, y: CONTENT_TOP + 3.65, w: CANVAS_W - 2.2, h: 1.0,
-            fontSize: t.fontSize.body_large,
+            fontSize: fitFontSize(correctElem.properties?.text || "", CANVAS_W - 2.2, 1.0, t.fontSize.body_large),
             bold: true,
             color: "065F46",
             valign: "middle",
@@ -379,9 +401,10 @@ export async function renderPresentation(data, options = {}) {
             fill: { color: "F8FAFC" },
             line: { color: t.border, width: 1 }
           });
-          slide.addText(ruleText, {
+          const fittedRule = fitTextLayout(ruleText, rightW - 0.8, ruleCardH - 0.1, 16);
+          slide.addText(fittedRule.text, {
             x: rightX + 0.4, y: ry + 0.05, w: rightW - 0.8, h: ruleCardH - 0.1,
-            fontSize: 16,
+            fontSize: fittedRule.size,
             bold: true,
             color: t.ink,
             valign: "middle",
@@ -459,6 +482,11 @@ export async function renderPresentation(data, options = {}) {
         } else {
           textFontSize = (bodyLines > 3 || bodyText.length > 50) ? (grade >= 7 ? 15 : 18) : (themeName === "english" ? 16 : 20);
         }
+        // 按真实字宽与卡片高度兜底收敛, 防止长文溢出与末行孤字
+        textFontSize = Math.min(
+          textFontSize,
+          fitFontSize(bodyText, cardW - 0.6, Math.max(0.4, textCardH - 0.95), textFontSize, 14)
+        );
 
         slide.addText([
           { text: `${textCard?.properties?.title || "【精读赏析】"}\n\n`, options: { fontSize: textFontSize, bold: true, color: t.primaryDark } },
@@ -482,9 +510,10 @@ export async function renderPresentation(data, options = {}) {
               line: { color: t.border, width: 1 },
               shadow: CARD_SHADOW
             });
-            slide.addText(q, {
+            const fittedQ = fitTextLayout(q, qW - 0.4, qh - 0.2, qFontSize);
+            slide.addText(fittedQ.text, {
               x: qx + 0.2, y: qy + 0.1, w: qW - 0.4, h: qh - 0.2,
-              fontSize: qFontSize,
+              fontSize: fittedQ.size,
               bold: true,
               color: t.ink,
               valign: "middle",
@@ -527,9 +556,10 @@ export async function renderPresentation(data, options = {}) {
             line: { color: t.border, width: 1.2 },
             shadow: CARD_SHADOW
           });
-          slide.addText(qText, {
+          const fittedQ = fitTextLayout(qText, cardW - 0.6, 0.75, Math.min(t.fontSize.body, 18));
+          slide.addText(fittedQ.text, {
             x: 1.1, y: qy + 0.1, w: cardW - 0.6, h: 0.75,
-            fontSize: Math.min(t.fontSize.body, 18),
+            fontSize: fittedQ.size,
             bold: true,
             color: t.ink,
             valign: "middle",
@@ -557,7 +587,7 @@ export async function renderPresentation(data, options = {}) {
           // 题干 (常驻)
           slide.addText(`${it.properties?.question_num || ""}  ${it.properties?.stem || ""}`, {
             x: 1.1, y: cy + 0.05, w: cardW - 0.6, h: 0.40,
-            fontSize: 16,
+            fontSize: fitFontSize(`${it.properties?.question_num || ""}  ${it.properties?.stem || ""}`, cardW - 0.6, 0.40, 16, 13),
             bold: true,
             color: t.ink,
             fontFace: FONT_FAMILY
@@ -571,7 +601,7 @@ export async function renderPresentation(data, options = {}) {
           });
           slide.addText(it.properties?.explanation || "", {
             x: 1.2, y: cy + 0.46, w: cardW - 0.8, h: ansBoxH - 0.04,
-            fontSize: 15,
+            fontSize: fitFontSize(it.properties?.explanation || "", cardW - 0.8, ansBoxH - 0.04, 15, 12),
             bold: true,
             color: "047857",
             valign: "middle",
@@ -594,9 +624,10 @@ export async function renderPresentation(data, options = {}) {
             line: { color: t.primary, width: 1.5 },
             shadow: CARD_SHADOW
           });
-          slide.addText(item, {
+          const fittedItem = fitTextLayout(item, cardW - 0.8, 0.85, t.fontSize.body_large);
+          slide.addText(fittedItem.text, {
             x: 1.4, y: cy + 0.15, w: cardW - 0.8, h: 0.85,
-            fontSize: t.fontSize.body_large,
+            fontSize: fittedItem.size,
             bold: true,
             color: t.primaryDark,
             valign: "middle",
@@ -674,6 +705,7 @@ export async function renderPresentation(data, options = {}) {
     jsonPath,
     auditPath,
     auditResult,
-    animReport
+    animReport,
+    animPrepReport
   };
 }

@@ -25,7 +25,7 @@ curriculum/primary-{math,chinese,english}/grade-N-term-{1,2}/unit-XX/
 - `status=need_clarification`:带 candidates/missing_fields,向教师确认后重查;
 - `status=not_found`:知识库未覆盖,如实说明,不得用训练知识冒充教材内容并标 verified。
 
-## 引用纪律(写入 courseware.json 时)
+## 引用纪律(写入 lesson_plan.json 时)
 
 1. `curriculum_evidence.referenced_knowledge_points`:本 deck 实际用到的全部 point_id;
 2. 页面级溯源:例题/易错/练习页写 `source.point_id`;能确定教材页码时写 `source.textbook_page`(必须是素材包出现过的页码,校验器会核对页码范围);

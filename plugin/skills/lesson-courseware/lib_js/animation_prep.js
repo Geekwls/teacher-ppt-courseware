@@ -65,11 +65,11 @@ function isAnimationFigure(fig) {
 
 /**
  * 预处理整套课件的动画图元。
- * @param {object} data      课件契约 JSON (就地修改: 合成的 path 会写回 figure)
+ * @param {Array<{slide:number, fig:object}>} entries  动画图元条目 (fig 就地修改: 合成的 path 会写回)
  * @param {object} opts      { outdir: 渲染输出目录, strict: 严格模式 }
  * @returns {object} 动画处理报告, 供审计回执与控制台日志使用
  */
-export async function prepareSlideAnimations(data, { outdir = "output", strict = false } = {}) {
+export async function prepareFigureAnimations(entries, { outdir = "output", strict = false } = {}) {
   const report = {
     total: 0,
     generated: 0,
@@ -80,18 +80,11 @@ export async function prepareSlideAnimations(data, { outdir = "output", strict =
     items: []
   };
 
-  const outDir = path.join(outdir, "media");
-  const slides = Array.isArray(data?.slides) ? data.slides : [];
-  if (slides.length === 0) return report;
-
-  // 预扫描: 没有动画图元直接返回, 不触碰 FFmpeg 探测
-  const animFigs = [];
-  slides.forEach((s, idx) => {
-    if (isAnimationFigure(s.figure)) animFigs.push({ slide: idx + 1, fig: s.figure });
-  });
+  const animFigs = (entries || []).filter(e => isAnimationFigure(e?.fig));
   report.total = animFigs.length;
   if (animFigs.length === 0) return report;
 
+  const outDir = path.join(outdir, "media");
   const ffmpegOk = hasFFmpeg();
   if (!ffmpegOk) {
     console.warn("[animation_prep] 未检测到 FFmpeg, 算理动画将降级为静态播放卡片。");

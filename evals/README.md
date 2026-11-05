@@ -6,7 +6,7 @@
 
 课件生成全链路(对话过程 + 产出物两部分):
 - **对话过程**:宿主模型是否按 SKILL.md 工作流执行(取材、溯源、校验自愈、如实告知)——由 M 桶标准判;
-- **产出物**:courseware.json 与渲染出的 .pptx 内容质量——由 P/R/O 桶判。
+- **产出物**:lesson_plan.json(教学设计)与渲染出的 .pptx 内容质量——由 P/R/O 桶判。
 
 ## Rubric 结构
 
@@ -18,11 +18,11 @@
 
 ## 跑法(手动,配合既有 eval 框架)
 
-1. 用被测 skill 生成课件(保留对话记录 + courseware.json + .pptx);
-2. 给评审 LLM 两类输入:(a) 对话记录 + courseware.json;(b) rubric CSV(shared + 对应学科);
+1. 用被测 skill 生成课件(保留对话记录 + lesson_plan.json + .pptx);
+2. 给评审 LLM 两类输入:(a) 对话记录 + lesson_plan.json;(b) rubric CSV(shared + 对应学科);
 3. 评审系统提示词(必须包含):
 
-> 按 CSV 逐条判定。M 桶(M 开头 ID)对照**对话记录**判定;其余桶对照**课件 JSON 与页面内容**判定。`Conditional` 条件不满足时跳过该条(不计失败)。只输出合法 JSON 数组,不要输出其他任何内容。
+> 按 CSV 逐条判定。M 桶(M 开头 ID)对照**对话记录**判定;其余桶对照**教学设计 JSON 与页面内容**判定。`Conditional` 条件不满足时跳过该条(不计失败)。只输出合法 JSON 数组,不要输出其他任何内容。
 
 4. 评审输出格式(强制):
 

@@ -29,6 +29,40 @@ const SUBJECT_DIRS = {
   science: "primary-science"
 };
 
+// 数域扫描时跳过的「非教学数值」字段: 标识符、元数据、坐标、媒体路径、时长
+const NUMBER_SCAN_SKIP_KEYS = new Set([
+  "schema_version", "lesson_id", "phase_id", "objective_ref", "source_point_id",
+  "point_id", "textbook_page", "page_refs", "_no", "duration_sec", "duration",
+  "duration_minutes", "term", "unit", "grade", "lesson_type", "subject",
+  "x", "y", "w", "h", "width", "height", "fontSize", "page", "kind", "type",
+  "model_type", "show_result", "show_answers", "interaction_mode",
+  "path", "link", "url", "reveal_mode", "reveal_steps"
+]);
+
+/** 递归收集教学数值 (移植自旧管线 deck_schema.js, 全字段覆盖而非只查等号结果) */
+function collectNumbers(node, out, key = "") {
+  if (node === null || node === undefined || typeof node === "boolean") return;
+  if (NUMBER_SCAN_SKIP_KEYS.has(key)) return;
+  if (typeof node === "number") {
+    if (Number.isFinite(node)) out.push(Math.floor(node));
+    return;
+  }
+  if (typeof node === "string") {
+    // 标识符字符串 (math-g3-t1-u04-p01 / phase_01 / obj_2 等) 不参与数域扫描
+    if (/^(?:s\d+|unit-?\d+|l\d+|obj[\s_-]|phase[\s_-]|math-|chi-|eng-|cw-)/i.test(node)) return;
+    const matches = node.match(/\d+/g);
+    if (matches) for (const m of matches) out.push(parseInt(m, 10));
+    return;
+  }
+  if (Array.isArray(node)) {
+    for (const v of node) collectNumbers(v, out, key);
+    return;
+  }
+  if (typeof node === "object") {
+    for (const [k, v] of Object.entries(node)) collectNumbers(v, out, k);
+  }
+}
+
 function issue(code, message, severity = "error", phaseId = null, hint = null) {
   const item = { code, message, severity };
   if (phaseId) item.phase_id = phaseId;
@@ -158,23 +192,33 @@ export function validateLessonPlan(data) {
           }
         }
 
-        // 数域上限检查
-        if (meta.subject === "math" && unitMeta?.teaching_boundary?.numeric_upper_bound) {
-          const maxBound = Number(unitMeta.teaching_boundary.numeric_upper_bound);
-          // 扫描整个文本中的乘法积
-          const numMatches = JSON.stringify(data).matchAll(/=\s*(\d+)/g);
-          for (const m of numMatches) {
-            const val = parseInt(m[1], 10);
-            if (val > maxBound) {
-              issues.push(issue(
-                "NUMERIC_UPPER_BOUND_EXCEEDED",
-                `计算结果 ${val} 超出本单元数域上限 (${maxBound})`,
-                "error",
-                null,
-                "请将口算数字收敛在本学段教学范围之内。"
-              ));
-            }
-          }
+        // 数域上限检查: 递归覆盖 content_block 全部教学字段(算理步骤/例题/易错/板书/练习/模型参数),
+        // 讲稿 teacher_guidance 含页码与步骤编号, 单独按 warning 处理, 避免误阻断正常创作。
+        // 注: 知识库 metadata.yaml 中 numeric_upper_bound 为顶层字段(兼容旧契约的嵌套写法)。
+        const rawUpperBound = unitMeta?.numeric_upper_bound ?? unitMeta?.teaching_boundary?.numeric_upper_bound;
+        if (meta.subject === "math" && rawUpperBound) {
+          const maxBound = Number(rawUpperBound);
+          (data.teaching_sequence || []).forEach(phase => {
+            const reported = new Set();
+            const scan = (node, severity) => {
+              const nums = [];
+              collectNumbers(node, nums);
+              const over = Array.from(new Set(nums.filter(n => n > maxBound)));
+              over.forEach(val => {
+                if (reported.has(val)) return;
+                reported.add(val);
+                issues.push(issue(
+                  "NUMERIC_UPPER_BOUND_EXCEEDED",
+                  `数值 ${val} 超出本单元数域上限 (${maxBound})`,
+                  severity,
+                  phase.phase_id,
+                  "请将口算数字收敛在本学段教学范围之内。"
+                ));
+              });
+            };
+            scan(phase.content_block, "error");
+            if (phase.teacher_guidance) scan({ teacher_guidance: phase.teacher_guidance }, "warning");
+          });
         }
       }
     }

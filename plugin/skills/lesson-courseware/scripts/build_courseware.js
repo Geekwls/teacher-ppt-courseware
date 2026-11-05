@@ -22,6 +22,7 @@ import { validateLessonPlan } from "../lib_js/lesson/lesson_validator.js";
 import { planPresentationFromLesson } from "../lib_js/presentation/lesson_to_presentation.js";
 import { validatePresentation } from "../lib_js/presentation/presentation_validator.js";
 import { renderPresentation } from "../lib_js/rendering/presentation_renderer.js";
+import { strictHardFailure } from "../lib_js/animation_prep.js";
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -126,8 +127,23 @@ async function main() {
       strict
     });
 
+    // 算理动画数学门禁: strict 模式下参数/算理错误一票否决, 拒绝交付
+    const hardFail = strictHardFailure(renderRes.animPrepReport);
+    if (strict && hardFail) {
+      console.error(`❌ --strict: P${hardFail.slide} 算理动画参数未过数学门禁 (${hardFail.error}), 拒绝交付。`);
+      process.exit(1);
+    }
+
     const audit = renderRes.auditResult;
     const anim = renderRes.animReport;
+    const animPrep = renderRes.animPrepReport;
+
+    // 严格几何门禁: --strict 下存在 Critical 硬伤即拒绝交付
+    if (strict && (audit.summary?.critical || 0) > 0) {
+      console.error(`❌ --strict: 几何体检发现 ${audit.summary.critical} 个 Critical 硬伤, 拒绝交付。`);
+      console.error(`   详见审计回执: ${renderRes.auditPath}`);
+      process.exit(1);
+    }
 
     console.log("================================================================");
     console.log("🎉 智能课件生成并严格交付成功!");
@@ -138,6 +154,9 @@ async function main() {
     console.log("----------------------------------------------------------------");
     console.log(`  📊 幻灯片总数:        ${presentation.slides?.length || 0} 页`);
     console.log(`  🎬 原生动效分步:      ${anim.withTiming} 页含分步 / 共 ${anim.stepsTotal} 步交互 / 顺序合规: ${anim.orderValid ? "是" : "否"}`);
+    if (animPrep.total > 0) {
+      console.log(`  🎞️ 算理动画:          共 ${animPrep.total} 个 -> 合成 ${animPrep.generated} / 缓存 ${animPrep.cached} / 复用 ${animPrep.reusedExisting} / 降级 ${animPrep.fallback}${animPrep.mathErrors ? ` / 数学门禁拒绝 ${animPrep.mathErrors}` : ""}`);
+    }
     console.log(`  🛡️ 严格几何体检:      ${audit.summary.critical} Critical / ${audit.summary.warning} Warning`);
     console.log("================================================================");
 

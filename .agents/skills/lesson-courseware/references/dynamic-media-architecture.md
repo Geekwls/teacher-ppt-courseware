@@ -47,18 +47,18 @@
 1. 教材知识库 (plugin/knowledge/)
    └── 只读事实源：教材原文 · 知识点白名单 · 教学边界 · 数域上界
         ↓
-2. 教学设计与契约 AST (courseware.json)
-   ├── 页面结构：cover / objectives / concept / example / practice ...
-   ├── 媒体声明：声明式 media / animation 参数（受统一 Schema 约束）
-   └── 教师讲稿：notes（标准授课台词与提问台本）
+2. 教学设计与契约 AST (lesson_plan.json → Presentation AST)
+   ├── 教学结构：objectives / teaching_sequence 环节闭环
+   ├── 媒体声明：声明式 model_payload (kind:"animation") 参数（受统一 Schema 约束）
+   └── 教师讲稿：teacher_guidance（标准授课台词与提问台本）
         ↓
-3. 统一质量门禁 (validate_courseware.js)
+3. 统一质量门禁 (lesson_validator.js + presentation_validator.js)
    ├── Tier 1: 结构 Schema 与必填项校验
    ├── Tier 2: 知识点归属白名单校验
    ├── Tier 3: 数学过程验证、数域上界拦截与媒体参数核验
         ↓
 4. 双轨确定性渲染引擎
-   ├── [主轨] PPTX 确定性渲染器 (render_deck.js / lib_js/)
+   ├── [主轨] PPTX 确定性渲染器 (build_courseware.js / lib_js/rendering/)
    │    └── 原生文本框、卡片组件、矢量图元、页面状态跳转
    └── [子引擎] 动态媒体引擎 (Media Sub-engine，按需调用)
         └── 确定性动画组件库 (SVG/Canvas) + 讲稿 TTS 音画对齐管线

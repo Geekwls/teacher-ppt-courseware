@@ -59,6 +59,29 @@ export function planPresentationFromLesson(lessonPlan, options = {}) {
       }
 
       case "model_left_reasoning_right": {
+        // 声明式算理动画模型: 透传为 figure_animation 图元, 由渲染层的动态媒体子引擎接管
+        if (plan.figure_animation) {
+          elements.push(makeElement("txt_exp_title", "title", { text: plan.title }));
+          elements.push(makeElement("anim_math_model", "figure_animation", {
+            ...plan.figure_animation
+          }));
+          elements.push(makeElement("card_reasoning", "card_list", {
+            items: plan.reasoning_items || []
+          }));
+          if (plan.conclusion_text) {
+            elements.push(makeElement("banner_conclusion", "conclusion_banner", {
+              text: plan.conclusion_text
+            }));
+          }
+          timeline.push(makeTimelineStep(0, "show", "txt_exp_title"));
+          timeline.push(makeTimelineStep(0, "show", "anim_math_model"));
+          timeline.push(makeTimelineStep(1, "reveal", "card_reasoning"));
+          if (plan.conclusion_text) {
+            timeline.push(makeTimelineStep(2, "reveal", "banner_conclusion"));
+          }
+          break;
+        }
+
         const nlProps = plan.figure_number_line || { start: 0, end: 60, step: 20, arcs: [] };
         const normalizedArcs = (nlProps.arcs || []).map((arc, aIdx) => ({
           id: arc.id || `arc_${aIdx + 1}`,

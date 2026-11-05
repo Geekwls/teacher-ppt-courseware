@@ -47,6 +47,7 @@ const SUPPORTED_ELEMENT_TYPES = new Set([
   "equation",
   "figure_number_line",
   "figure_tianzige",
+  "figure_animation",
   "card_list",
   "conclusion_banner",
   "practice_list",

@@ -226,18 +226,35 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
         });
         break;
 
-      case "mathematical_reasoning":
-        slidePlans.push({
-          slide_id: nextSlideId("exploration"),
-          phase_ref: phase.phase_id,
-          layout: "model_left_reasoning_right",
-          title: phase.phase_name,
-          figure_number_line: cb.model_payload || cb.visual_model,
-          reasoning_items: cb.reasoning_steps || [],
-          conclusion_text: `★ 核心规律：${cb.core_rule || cb.conclusion || ""}`,
-          notes: guidance
-        });
+      case "mathematical_reasoning": {
+        const model = cb.model_payload || cb.visual_model;
+        // 声明式算理动画 (kind: "animation") 走动态媒体子引擎:
+        // 渲染前由 animation_prep 现场合成视频(数学门禁前置), 表现层零坐标感知。
+        if (model && model.kind === "animation") {
+          slidePlans.push({
+            slide_id: nextSlideId("exploration"),
+            phase_ref: phase.phase_id,
+            layout: "model_left_reasoning_right",
+            title: phase.phase_name,
+            figure_animation: model,
+            reasoning_items: cb.reasoning_steps || [],
+            conclusion_text: `★ 核心规律：${cb.core_rule || cb.conclusion || ""}`,
+            notes: guidance
+          });
+        } else {
+          slidePlans.push({
+            slide_id: nextSlideId("exploration"),
+            phase_ref: phase.phase_id,
+            layout: "model_left_reasoning_right",
+            title: phase.phase_name,
+            figure_number_line: model,
+            reasoning_items: cb.reasoning_steps || [],
+            conclusion_text: `★ 核心规律：${cb.core_rule || cb.conclusion || ""}`,
+            notes: guidance
+          });
+        }
         break;
+      }
 
       case "worked_example":
         slidePlans.push({

@@ -323,10 +323,10 @@ flowchart TD
 | `plugin/knowledge/` | 教材知识事实库 (SSOT) | `curriculum/` (157 单元 YAML) | **保持完全只读**，两代系统公用底层事实源 |
 | `lib_js/lesson/` | 教学内容规划与验证 | `scripts/query_curriculum.js` | 新增 `lesson_ast.js` 与 `lesson_validator.js` |
 | `lib_js/strategies/` | 年级/学科/课型策略矩阵 | `references/*-rules.md`、`theme.js` | 将 Markdown 提示词抽水沉淀为结构化策略解析器 |
-| `lib_js/presentation/` | 表现 AST 编排与预检 | `lib_js/layouts.js` | 提炼出布局注册表，先产出 AST 再执行渲染 |
+| `lib_js/presentation/` | 表现 AST 编排与预检 | 旧 `lib_js/layouts.js`(已退役) | 布局知识迁入 PagePlanner;文本度量纯函数迁入 `text_fit.js` 共享 |
 | `lib_js/figures/` | 学科专用图元参数化生成 | `lib_js/figures.js` (数轴、田字格) | 扩展为支持声明式调用的独立图元组件 |
 | `lib_js/motion/` | 动效与时间线后处理器 | `lib_js/reveal_steps.js`、`deck_transition.js` | 升级为直接消费 AST `timeline` 数组的标准引擎 |
-| `lib_js/rendering/` | 确定性 PPTX 与媒体渲染 | `scripts/render_deck.js`、`dynamic_media.js` | 保持 PptxGenJS 底座，对接 Presentation AST |
+| `lib_js/rendering/` | 确定性 PPTX 与媒体渲染 | `dynamic_media.js`、旧 `scripts/render_deck.js`(已退役) | PptxGenJS 底座收口至 `presentation_renderer.js`,一键流水线为 `build_courseware.js` |
 | `lib_js/audit/` | 几何审计与质量回执 | `lib_js/layout_audit.js` | 维持 `0 critical` 严格门禁标准不变 |
 
 ---

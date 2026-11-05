@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "mat-g3-t1-u04-l01",
+  "meta": {
+    "subject": "math",
+    "grade": 3,
+    "term": "term-1",
+    "unit": 4,
+    "topic": "整十、整百数乘一位数的口算",
+    "lesson_type": "concept_learning",
+    "source_point_id": "math-g3-t1-u04-p01",
+    "duration_minutes": 40
+  },
+  "objectives": [
+    {
+      "id": "OBJ_01",
+      "statement": "理解整十、整百数乘一位数的口算算理（几个十、几个百乘几得几十、几百）",
+      "assessment": "能结合数轴模型和计数单位，清晰说明 20×3 为什么等于 60"
+    },
+    {
+      "id": "OBJ_02",
+      "statement": "熟练掌握先用表内乘法口诀计算，再在积的末尾添相应个数 0 的口算算法",
+      "assessment": "能在 1 分钟内准确口算 8 道整十、整百数乘一位数的题目，尤其不错算 500×6 等口诀带 0 的题目"
+    }
+  ],
+  "teaching_sequence": [
+    {
+      "phase_id": "phase_01_warmup",
+      "phase_name": "情境导入 · 游乐园算算看",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "contextual_problem",
+        "scenario": "游乐园坐过山车每人每次 20 元",
+        "question": "3 人坐过山车一共需要多少元？",
+        "equation": "20 × 3 = 60 (元)"
+      },
+      "student_action": "结合生活经验列出算式 20×3，并用加法 20+20+20 解释其含义",
+      "teacher_guidance": "引导学生从相同加数连加过渡到乘法含义，抛出核心问题：如果不连加，怎样快速口算出结果？"
+    },
+    {
+      "phase_id": "phase_02_exploration",
+      "phase_name": "算理探究 · 数轴直观与计数单位",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "mathematical_reasoning",
+        "model_type": "number_line",
+        "model_payload": {
+          "start": 0,
+          "end": 60,
+          "step": 20,
+          "arcs": [
+            { "from": 0, "to": 20, "label": "+20" },
+            { "from": 20, "to": 40, "label": "+20" },
+            { "from": 40, "to": 60, "label": "+20" }
+          ]
+        },
+        "reasoning_steps": [
+          "想：20 是 2 个十",
+          "2 个十 × 3 = 6 个十",
+          "6 个十就是 60"
+        ],
+        "core_rule": "想计数单位：几个十乘一位数，得几个十；几个百乘一位数，得几个百。"
+      },
+      "student_action": "观察数轴上 3 次跳跃的累加过程，尝试用「几个十」表达口算思考过程",
+      "teacher_guidance": "借助数轴建立数形结合，重点追问「这里的 6 表示什么？为什么要在 6 后面添一个 0？」"
+    },
+    {
+      "phase_id": "phase_03_example",
+      "phase_name": "教材例1 · 规范解答与类推进阶",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "worked_example",
+        "problem": "教材例1：坐过山车每人 20 元，3 人需要多少元？200 人呢？",
+        "solution_steps": [
+          "整十数：20 × 3 = 60 (元)，想 2 个十 × 3 = 6 个十 = 60",
+          "整百数：200 × 3 = 600 (元)，想 2 个百 × 3 = 6 个百 = 600",
+          "整千数：2000 × 3 = 6000 (元)，想 2 个千 × 3 = 6 个千 = 6000"
+        ],
+        "answer": "3 人需要 60 元，200 人需要 600 元。"
+      },
+      "student_action": "在草稿本上写出 200×3 和 2000×3 的口算过程，同桌互相说一说思考方法",
+      "teacher_guidance": "引导学生通过观察 20×3、200×3、2000×3 的积，总结出「先算 2×3=6，再看因数末尾有几个 0，就在积的末尾添几个 0」的简便法则"
+    },
+    {
+      "phase_id": "phase_04_misconception",
+      "phase_name": "易错警示 · 口诀自带0的辨析",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "misconception_analysis",
+        "wrong_case": "口算 500 × 6 = 300 (错解：漏掉口诀自带的0)",
+        "cause_analysis": "算 5×6=30，误以为 30 里的 0 就是后面要添的 0，只补了一个 0",
+        "correct_method": "5 个百 × 6 = 30 个百 = 3000。口诀五六三十自带一个 0，因数末尾的两个 0 必须原样添在后面！"
+      },
+      "student_action": "化身小医生找出错因，举一反三计算 400×5、50×4",
+      "teacher_guidance": "用红笔圈出口诀本身的 0 和因数添上的 0，提醒学生数清 0 的总个数"
+    },
+    {
+      "phase_id": "phase_05_practice",
+      "phase_name": "课堂闯关 · 逐题诊断与演练",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "type": "calculation",
+            "stem": "【基础巩固】直接写出得数：30 × 4 = ( )",
+            "answer": "120",
+            "explanation": "想：3 个十 × 4 = 12 个十 = 120"
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "stem": "【单位诊断】判断：400 × 2 的积是 80。( )",
+            "answer": "错误",
+            "explanation": "400 是 4 个百，4 个百 × 2 = 8 个百 = 800"
+          },
+          {
+            "id": "q3",
+            "type": "calculation",
+            "stem": "【口诀带0】直接写出得数：500 × 6 = ( )",
+            "answer": "3000",
+            "explanation": "5 个百 × 6 = 30 个百 = 3000，口诀自带的 0 不能漏"
+          },
+          {
+            "id": "q4",
+            "type": "application",
+            "stem": "【生活应用】一辆小货车运送 8 箱苹果，每箱重 40 千克，一共运送多少千克？",
+            "answer": "40 × 8 = 320 (千克) 答：一共运送 320 千克苹果。",
+            "explanation": "每箱 40 千克乘 8 箱，4 个十乘 8 得 32 个十，即 320 千克"
+          }
+        ]
+      },
+      "student_action": "独立抢答或在练习纸上完成，核对答案时举手表决正误",
+      "teacher_guidance": "题目常驻大屏，逐题点击揭晓答案，针对易错题即时追问诊断"
+    },
+    {
+      "phase_id": "phase_06_summary",
+      "phase_name": "课堂小结 · 口算三步法",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "一看：确定因数中的非零数字（如 20 中的 2）",
+          "二算：用乘法口诀算出表内乘积（如 2×3=6）",
+          "三添：数清因数末尾有几个 0，就在积的末尾添上几个 0（口诀自带的 0 不能抵消）"
+        ]
+      },
+      "student_action": "跟随老师回顾口诀，同桌齐读口算三步法",
+      "teacher_guidance": "引导学生建构从整十到整百、整千的口算认知模型"
+    }
+  ]
+}

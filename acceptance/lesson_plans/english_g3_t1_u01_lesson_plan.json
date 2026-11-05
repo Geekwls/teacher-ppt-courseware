@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "eng-g3-t1-u01-l01",
+  "meta": {
+    "subject": "english",
+    "grade": 3,
+    "term": "term-1",
+    "unit": 1,
+    "topic": "Making friends",
+    "lesson_type": "concept_learning",
+    "source_point_id": "eng-g3-t1-u01-p04",
+    "duration_minutes": 40
+  },
+  "objectives": [
+    {
+      "id": "OBJ_01",
+      "statement": "能在真实或模拟情境中用 Hello! / Hi! 热情打招呼，并运用 I'm... 或 My name is... 自信介绍自己的姓名",
+      "assessment": "能熟练使用 Hello/Hi 与 I'm.../My name is... 准确完成自我介绍与相互打招呼"
+    },
+    {
+      "id": "OBJ_02",
+      "statement": "能熟练运用 Nice to meet you. 以及 Nice to meet you too. 进行得体礼貌应答，表达初次相识的喜悦",
+      "assessment": "听到 Nice to meet you 能准确自然脱口而出 Nice to meet you too"
+    },
+    {
+      "id": "OBJ_03",
+      "statement": "通过交友情境互动，体会友好交友的乐趣，养成积极主动与同伴礼貌交流的良好习惯",
+      "assessment": "积极参与同桌角色扮演，发音清晰自然、神态友好大方"
+    }
+  ],
+  "teaching_sequence": [
+    {
+      "phase_id": "phase_01_warmup",
+      "phase_name": "情境激趣 · 开启交友之旅",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "contextual_problem",
+        "scenario": "It's the first day of school. Many new students meet in the classroom. 新学期开学第一天，新同学们在教室里互相认识。",
+        "question": "How do they greet each other and make friends? 新朋友初次见面，怎样礼貌打招呼并介绍自己？",
+        "core_expression": "Making Friends · Daily Greetings"
+      },
+      "student_action": "观察教材插图中的人物（Mike 与 Wu Binbin），听录音感知新同学互相打招呼时的语气与表情",
+      "teacher_guidance": "用热情的语气向全班问好：Hello, boys and girls! 引导学生进入初识新朋友的学习情境"
+    },
+    {
+      "phase_id": "phase_02_exploration",
+      "phase_name": "核心对话 · 示范朗读与句型探究",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "text_reading",
+        "paragraph_excerpt": "Mike: Hello! I'm Mike Black.\nWu Binbin: Hi! My name is Wu Binbin.\nMike: Nice to meet you.\nWu Binbin: Nice to meet you too.",
+        "focus_questions": [
+          "1. 常用打招呼用语：Hello! 与 Hi! 可以互换使用，表达热情问候",
+          "2. 自我介绍常用句型：I'm... 与 My name is... 均可表达「我是……」",
+          "3. 初次结识礼貌回应：听到 Nice to meet you，一定要回答 Nice to meet you too"
+        ],
+        "key_phrase": "★ 核心交际用语：I'm... / My name is... ── Nice to meet you (too)."
+      },
+      "student_action": "分角色模仿跟读对话，注意语音语调，重点关注 Nice to meet you too 中 too 的轻读与连贯",
+      "teacher_guidance": "通过拆分角色示范（教师与学生示范、男女生对读），引导学生在情境中自然内化问候交友语流"
+    },
+    {
+      "phase_id": "phase_03_misconception",
+      "phase_name": "易错警示 · 避免应答脱节",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "misconception_analysis",
+        "wrong_case": "A: Nice to meet you.\nB: Hello! / I'm Mike. （❌ 答非所问、回应脱节）",
+        "cause_analysis": "对方表达初次结识的喜悦时，不能机械重复打招呼，必须礼貌回应相同的喜悦心情并加上 too。",
+        "correct_method": "Nice to meet you too. （✓ 礼貌回应：我也很高兴见到你。）"
+      },
+      "student_action": "观察正误对比，找出应答脱节的原因，并与同桌进行两两互练纠正",
+      "teacher_guidance": "强调社交礼貌的对称性原则：别人表达高兴认识你，你也一定要表达同样的心情"
+    },
+    {
+      "phase_id": "phase_04_practice",
+      "phase_name": "随堂巩固 · 情境交际大闯关",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "stem": "❶ 【日常问候】开学第一天你见到新同学 Sarah，你想主动问好，可以说：",
+            "answer": "A. Hello, Sarah!",
+            "explanation": "日常问好使用 Hello! 或 Hi!，表达热情主动。"
+          },
+          {
+            "stem": "❷ 【自我介绍】你想告诉新朋友你的名字是 John，正确的英文表达是：",
+            "answer": "A. I'm John. / My name is John.",
+            "explanation": "自我介绍使用第一人称 I'm... 或 My name is..."
+          },
+          {
+            "stem": "❸ 【礼貌应答】当新同学对你说：“Nice to meet you.” 时，你应当礼貌回应：",
+            "answer": "A. Nice to meet you too.",
+            "explanation": "回应初次见面的问候必须说 Nice to meet you too."
+          },
+          {
+            "stem": "❹ 【补全对话】Mike: Hi! I'm Mike.  Wu Binbin: _______",
+            "answer": "A. Hello! My name is Wu Binbin.",
+            "explanation": "对方自我介绍后，应当同样进行自我介绍。"
+          }
+        ]
+      },
+      "student_action": "独立思考练习题，记录答案；稍后在答案揭晓环节核对并大声朗读正确交际语句",
+      "teacher_guidance": "采用先独立思考后逐题揭晓反馈的策略，加深学生对情境应答逻辑的掌握"
+    },
+    {
+      "phase_id": "phase_05_summary",
+      "phase_name": "课堂小结 · 礼貌交友金钥匙",
+      "objective_ref": "OBJ_03",
+      "content_block": {
+        "type": "rule_summary",
+        "rules": [
+          "① 热情打招呼：Hello! / Hi! 开启新话题",
+          "② 自信做介绍：I'm... / My name is... 介绍自己",
+          "③ 礼貌表心意：Nice to meet you. / Nice to meet you too. 增进友谊"
+        ],
+        "core_rule": "Friendly and polite words help us make good friends!"
+      },
+      "student_action": "齐读交友三部曲口诀，同桌起立互相握手打招呼实践交友礼仪",
+      "teacher_guidance": "总结本节课核心交际技能，鼓励学生课后用英语主动与班级新同学打招呼"
+    }
+  ]
+}

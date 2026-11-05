@@ -4,8 +4,8 @@
   "description": "> **一句话定位**:老师对 AI 助手说一句\"帮我做三年级上册数学第四单元第1课时的课件\", > 得到一份可直接放映、可继续编辑的 `.pptx`——例题有教材页码、易错点有教参依据、 > 练习带参考答案页、每页备注栏里有讲稿。 > > **架构借鉴** [anthropics/k12-teacher-skills](https://github.com/anthropics/k12-teacher-skills), > 内容底座复用同工作区 `primary-school-practice-skill` 的人教版五层教材知识库,详见 [NOTICE.md](NOTICE.md)。",
   "scripts": {
     "query": "node plugin/skills/lesson-courseware/scripts/query_curriculum.js",
-    "validate": "node plugin/skills/lesson-courseware/scripts/validate_courseware.js",
-    "render": "node plugin/skills/lesson-courseware/scripts/render_deck.js",
+    "validate": "node plugin/skills/lesson-courseware/scripts/validate_lesson_plan.js",
+    "render": "node plugin/skills/lesson-courseware/scripts/build_courseware.js",
     "build": "node plugin/skills/lesson-courseware/scripts/build_courseware.js",
     "patch": "node plugin/skills/lesson-courseware/scripts/patch_courseware.js",
     "update-skill": "node scripts/update_skill.js",
@@ -14,7 +14,9 @@
     "acceptance": "node scripts/run_acceptance.js",
     "install-skill": "node scripts/install_skill.js",
     "audit-kb": "node scripts/audit_kb.js",
-    "test": "node scripts/run_acceptance.js"
+    "test": "node scripts/run_acceptance.js && node plugin/skills/lesson-courseware/tests/test_strategy_and_page_planner.js",
+    "test:acceptance": "node scripts/run_acceptance.js",
+    "test:unit": "node plugin/skills/lesson-courseware/tests/test_strategy_and_page_planner.js"
   },
   "repository": {
     "type": "git",

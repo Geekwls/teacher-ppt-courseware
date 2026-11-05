@@ -21,23 +21,23 @@
                                   │
 +---------------------------------------------------------------------+
 | 2. 课件 Skill (plugin/skills/lesson-courseware/)                     |
-|    SKILL.md 五步工作流:路由→澄清→取材→创作→校验→渲染→迭代            |
-|    宿主大模型即教学设计与内容创作引擎,输出 courseware.json 契约        |
+|    SKILL.md 五步工作流:路由→澄清→取材→创作教学设计→一键构建→迭代      |
+|    宿主大模型即教学设计引擎,输出 LessonPlan AST(纯教学逻辑)           |
 +---------------------------------------------------------------------+
                                   │
 +---------------------------------------------------------------------+
-| 3. 确定性裁判门禁 (plugin/skills/.../scripts/validate_courseware.js)  |
-|    Tier1 结构Schema/页面字段白名单/讲稿完备 · Tier2 知识点白名单/课时   |
-|    Tier3 数域上界(全卷面字段)/页码/教学边界红线 —— 一票否决+定向自愈    |
-|    知识库定位失败 fail-closed;--quiet 不隐藏 warnings                   |
+| 3. 教学设计门禁 + 表现规划 (lib_js/lesson/ + lib_js/presentation/)    |
+|    Tier1 Schema/环节闭环/讲稿完备 · Tier2 知识点白名单/数域递归全字段  |
+|    Tier3 算式真值/教学边界红线 —— 一票否决+定向自愈                    |
+|    PagePlanner: 学段认知×学科策略自动拆页编排(容量评估/练习答案分离)   |
 +---------------------------------------------------------------------+
                                   │
 +---------------------------------------------------------------------+
-| 4. 确定性渲染引擎 (scripts/render_deck.js + lib_js/, PptxGenJS)       |
-|    原生形状:封面/目标/分步新知/例题卡/易错三段/练习/板书/小结           |
-|    田字格·拼音行·竖式·数轴·数位表·词卡·对话气泡 · 防近视大字号          |
+| 4. 一键确定性渲染 (scripts/build_courseware.js + lib_js/rendering/)   |
+|    PptxGenJS 渲染 Presentation AST:封面/目标/分步算理/例题/易错/练习   |
+|    田字格·数轴·声明式算理动画(FFmpeg 合成视频,数学门禁前置)·防近视大字  |
 |    讲稿进备注栏;练习自动生成参考答案页;partial 状态页脚如实提示         |
-|    渲染后输出 .audit.json 几何体检(越界/裁切/压盖/答案缺题),--strict    |
+|    渲染后输出 .audit.json 几何体检(越界/裁切/压盖),--strict 拒绝交付    |
 |    每页自动编排「单击逐步出现」播放步骤(封面/结束页除外)                 |
 +---------------------------------------------------------------------+
 ```
@@ -54,12 +54,12 @@ teacher-ppt-courseware/
 │   ├── knowledge/                      # 【独立】人教版五层知识库(vendored)
 │   └── skills/lesson-courseware/
 │       ├── SKILL.md                    # 入口:五步工作流 + 五条纪律
-│       ├── references/                 # workflow / courseware-json 契约 / 三科规则 / 知识库规范
-│       ├── rendering/pptx.md           # 渲染入口(禁止为迁就单次生成改渲染器)
-│       ├── scripts/                    # query_curriculum / validate_courseware / render_all / render_deck
-│       └── lib_js/                     # deck_schema / theme / layouts / figures / kb_locate / layout_audit
+│       ├── references/                 # workflow / 双 AST 契约(schemas/) / 三科规则 / 知识库规范
+│       ├── scripts/                    # query_curriculum / validate_lesson_plan / build_courseware / patch_courseware
+│       ├── lib_js/                     # lesson 校验 / presentation 规划 / rendering 渲染 / theme / figures / layout_audit
+│       └── tests/                      # 策略解析与分页规划单元测试
 ├── evals/                              # LLM-as-judge 评测协议 + rubric CSV(shared+三科)
-├── acceptance/                         # 三科金样 courseware.json + cases.yaml(只读)
+├── acceptance/                         # 三科金样 lesson_plan.json(只读)
 ├── scripts/                            # run_acceptance.js / install_skill.js
 └── package.json                        # 纯 Node.js 现代全栈依赖 (PptxGenJS, ajv, js-yaml)
 ```
@@ -110,11 +110,12 @@ PowerPoint / LibreOffice 二次回退造成排版错位。需要严格「同输�
 
 | 门禁 | 拦截内容 |
 |---|---|
-| Tier 1 | Schema 违规、页面级自创字段、未知页型、缺必填字段、缺讲稿/讲稿过短、slide_id 重复、整页内容重复、图元参数错误、答案不在选项中、内容页过少 |
-| Tier 2 | 引用素材包外知识点(KP_NOT_IN_UNIT)、lesson_id 不属于本单元、知识库定位失败(KB_LOCATE_FAILED, fail-closed) |
-| Tier 3 | 数学数字超数域上界(NUMBER_OVER_BOUND, 覆盖全部卷面字段)、溯源页码越界(PAGE_OUT_OF_RANGE)、教学边界红线(SCOPE_EXCLUDED_VIOLATION, 未写 source 也有全单元兜底) |
-| 渲染后 | `.audit.json` 几何体检:画布越界、文字溢出裁切、文本互相压盖、参考答案缺题;`--strict` 下 critical 拒绝交付 |
-| 动效后 | `p:transition` 必须先于 `p:timing`;顺序错误或注入失败时 `--strict` 拒绝交付,回执 `reveal` 字段记录每页步数 |
+| Tier 1 | Schema 违规、缺必填字段、缺讲稿/讲稿过短、教学环节不闭环(导入/探究/应用/总结)、目标引用悬空 |
+| Tier 2 | 引用素材包外知识点(POINT_ID_INVALID)、知识库单元定位失败(KB_UNIT_NOT_FOUND, fail-closed) |
+| Tier 3 | 数学数字超数域上界(NUMERIC_UPPER_BOUND_EXCEEDED, 递归覆盖 content_block 全字段)、算式真值错误(MATH_CALCULATION_ERROR)、教学边界红线(SCOPE_EXCLUDED_VIOLATION) |
+| 渲染后 | `.audit.json` 几何体检:画布越界、文字溢出裁切、文本互相压盖;`--strict` 下 critical 拒绝交付 |
+| 动效后 | `p:transition` 必须先于 `p:timing`;顺序错误或注入失败时回执 `reveal` 字段记录每页步数 |
+| 算理动画 | 声明式参数数学门禁前置(起点+跳跃总和≠目标直接拒绝);FFmpeg 缺失自动降级静态卡 |
 
 `--quiet` 只精简修复提示,**不会隐藏 warnings**(如媒体文件缺失、动态媒体未接入、讲稿中的疑似超纲数)。
 
@@ -123,13 +124,15 @@ PowerPoint / LibreOffice 二次回退造成排版错位。需要严格「同输�
 ## 六、验证与验收
 
 ```bash
-npm test                              # 三科金样端到端:校验→渲染→几何审计→结构断言→报告
+npm test                              # 金样端到端:教学门禁→规划→渲染→几何审计→结构断言→报告
+                                      # 并附带策略/分页单元测试
 # 等价: node scripts/run_acceptance.js
-bash plugin/skills/lesson-courseware/scripts/render_all.sh <courseware.json> <输出目录>
+node plugin/skills/lesson-courseware/scripts/build_courseware.js \
+    --input <lesson_plan.json> --outdir <输出目录> --strict
 ```
 
-`npm test` 对每个金样断言:页数(与渲染器的自动答案页条件一致)、关键内容、
-**几何审计 0 critical**、**参考答案完整覆盖**、**讲稿确实写进 PPT 备注栏**。
+`npm test` 对每个金样断言:一键流水线退出码 0、三件套产物齐备、
+**几何审计 0 critical**、**内容页讲稿完备**、**分步时序 orderValid**。
 报告在 `output/reports/acceptance-report.md`。
 
 > 当前仓库**没有独立单元测试套件**,`npm test` 即端到端验收;新增渲染规则建议同步补金样用例。

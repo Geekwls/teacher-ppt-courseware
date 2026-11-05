@@ -24,7 +24,11 @@ function textOf(obj) {
   const t = obj?.text;
   if (typeof t === "string") return t;
   if (Array.isArray(t)) {
-    return t.map(r => String(r?.text ?? "") + (r?.options?.breakLine ? "\n" : "")).join("");
+    // breakLine 表示「该 run 之后换行」; 末尾 run 的 breakLine 不产生真实段落
+    // (pptxgenjs 写盘时不会为它输出空 <a:p>), 这里同样不能多计一行。
+    return t
+      .map((r, i) => String(r?.text ?? "") + (r?.options?.breakLine && i < t.length - 1 ? "\n" : ""))
+      .join("");
   }
   return "";
 }

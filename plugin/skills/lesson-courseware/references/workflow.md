@@ -11,7 +11,7 @@
 
 | 情形 | 默认 | 仍要问的情形 |
 |---|---|---|
-| 课时范围 | 单课时 | 教师说"整个单元"→ 逐课时各出一份 deck,先出第一份对齐风格 |
+| 课时范围 | 单课时 | 教师说"整个单元"→ 逐课时各出一份,先出第一份对齐风格 |
 | 风格 | standard(扎实讲授型) | 教师明确要"活动多/情境化"→ innovative |
 | 封面署名 | 留空 | 教师报了姓名/学校则写入 metadata |
 
@@ -31,47 +31,50 @@ node scripts/query_curriculum.js --subject math --grade 3 --term term-1 --unit u
 - `knowledge_points[]`:point_id / point_name / learning_objectives / teaching_boundary(scope_allowed/scope_excluded)/ provenance.page_ref
 - `teaching_reference[]`:key_point / difficulty / **typical_misconceptions(错例+错型)** / variation_strategy —— 易错页与变式练习的素材
 - `question_blueprint_summary`:练习蓝图(题型/题量/难度配比) —— 课堂练习的配比参考
-- `unit.numeric_upper_bound`:数学数域硬上界
+- `unit.numeric_upper_bound`:数学数域硬上界(lesson_validator 会递归扫描 content_block 全字段)
 - `unit.verification_status`:verified / partial
 
 **知识库未覆盖(not_found)**:如实告诉教师"该册该单元暂未建库",可改为教师贴教材内容共建,但 curriculum_status 如实标 missing,不得假造页码。
 
-## Step 3 —— 创作(读 courseware-json.md 后写 JSON)
+## Step 3 —— 创作教学设计(读 lesson-plan.schema.json 后写 LessonPlan JSON)
 
-标准结构(单课时 12~18 页):
+写**纯教学逻辑**(教学目标、导入、探究、易错剖析、随堂练习、板书总结),不写任何幻灯片坐标/字号/页型——页面编排由 PagePlanner 按学段认知与学科策略自动完成。
 
-```
-cover → objectives(3条) → warmup(复习/情境导入)
-→ concept(算理/新知,分步,可配图元) → example(教材例题,溯源) → concept/example(变式递进)
-→ misconception(教参高频错因,1~2页)
-→ practice(4~6题,基础:变式:挑战≈6:3:1,蓝图配比优先)
-→ summary(3条) → board(板书设计) → homework(2~3项,分层) → end
-```
-
+- 契约:`references/schemas/lesson-plan.schema.json`
+- 金样参考:`acceptance/lesson_plans/*.json`(三科四份)
 - 学科特化规则**必读**:math-rules.md / chinese-rules.md / english-rules.md(Step 0 阶段就应读完对应学科文件,跳过是关键失败)
-- 每个取材于知识点的页面写 `source: {point_id, textbook_page}`
-- notes 写讲稿:提问语、过渡语、学生活动指令、易错追问,不写"此处讲解"这类空话
+- `meta.source_point_id` 必须来自素材包的知识点白名单
+- 每个环节 `teacher_guidance` 写讲稿:提问语、过渡语、学生活动指令、易错追问,不写"此处讲解"这类空话
+- 数学探究环节的 `model_payload` 支持两种模型:
+  - 数轴模型 `{start, end, step, arcs[]}`(矢量图元);
+  - 声明式算理动画 `{kind:"animation", animation_type:"number_line_jump"|"vertical_calc_flow", parameters:{...}}`(渲染前现场合成视频,数学门禁前置校验,FFmpeg 缺失时自动降级为静态要点卡)。
 
-## Step 4 —— 校验自愈
-
-```bash
-node scripts/validate_courseware.js --input <courseware.json>
-```
-
-按 `errors[].code` 定向修复:KP_NOT_IN_UNIT=换了素材包没有的知识点;NUMBER_OVER_BOUND=数字超纲,改数;MISSING_NOTES=补讲稿;PRACTICE_ITEM_INCOMPLETE=补答案。**只改内容字段,不动 slide_id/type**。修完重跑,直至 `"status": "pass"`。
-
-## Step 5 —— 渲染交付
+## Step 4 —— 一键构建交付(校验/规划/渲染全内置)
 
 ```bash
-bash scripts/render_all.sh <courseware.json> <输出目录>
+node scripts/build_courseware.js --input <lesson_plan.json> --outdir <输出目录> --strict
 ```
+
+自动串联:教学门禁(知识点归属/数域/算式真值/讲稿完备) → 容量规划拆页 → 表现门禁 → 确定性渲染 → 原生动效注入 → `--strict` 几何体检(存在 Critical 即退出码 1 拒绝交付)。
+
+也可单独校验教学设计:
+
+```bash
+node scripts/validate_lesson_plan.js --input <lesson_plan.json>
+```
+
+按 `errors[].code` 定向修复:POINT_ID_INVALID=知识点不在本单元白名单;NUMERIC_UPPER_BOUND_EXCEEDED=数字超纲,改数;MATH_CALCULATION_ERROR=算式算错;TEACHER_GUIDANCE_REQUIRED=补讲稿。**只改教学字段,不动 phase_id/type**。修完重跑,直至 `"status": "pass"`。
 
 交付话术模板:
 > 课件已生成:`<路径>`(共 N 页,其中含练习参考答案页)。
 > 依据:人教版X年级上册第X单元《…》第X课时(知识点 A/B/C,教材 P__)。
-> 教师讲稿在各页备注栏;练习答案在每页练习后的"参考答案"页。
+> 教师讲稿在各页备注栏;练习答案在每页练习后的"参考答案"页;各页含单击分步放映。
 > (partial 时)本单元知识库为部分核验状态,请课前对照教材核对内容。
 
-## Step 6 —— 迭代
+## Step 5 —— 迭代
 
-改 JSON → 重校验 → 重渲染,一气呵成,同轮交付。常见迭代:换例题情境、增删练习题、调页顺序(直接移动 slides 数组元素)、加"第2课时"新 deck。
+改 lesson_plan.json → 重跑 build_courseware,一气呵成,同轮交付。常见迭代:换例题情境、增删练习题、更新讲稿、调整 `model_payload`。也可用增量补丁工具:
+
+```bash
+node scripts/patch_courseware.js --input <lesson_plan.json> --phase <phase_id> --notes "新讲稿"
+```

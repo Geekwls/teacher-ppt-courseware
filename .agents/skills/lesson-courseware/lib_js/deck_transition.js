@@ -10,7 +10,7 @@
  * 4. 严格遵循 OOXML 元素顺序: p:transition 必须排在 p:timing 之前;
  * 5. 每个进入动画配 <p:set style.visibility=visible>, 确保对象在点击前保持隐藏
  *    (只写 animEffect 时, 部分播放器会把形状一直显示为可见, 动效等于没生效);
- * 6. 返回动效报告供 render_deck.js 写入 .audit.json 回执。
+ * 6. 返回动效报告供渲染引擎写入 .audit.json 回执。
  */
 
 import fs from "fs";
