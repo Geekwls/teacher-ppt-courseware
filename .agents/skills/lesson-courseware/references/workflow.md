@@ -52,10 +52,24 @@ node scripts/query_curriculum.js --subject math --grade 3 --term term-1 --unit u
 ## Step 4 —— 一键构建交付(校验/规划/渲染全内置)
 
 ```bash
-node scripts/build_courseware.js --input <lesson_plan.json> --outdir <输出目录> --strict
+node scripts/build_courseware.js --input <lesson_plan.json> --outdir <输出目录> --strict [--style <风格包>]
 ```
 
 自动串联:教学门禁(知识点归属/数域/算式真值/讲稿完备) → 容量规划拆页 → 表现门禁 → 确定性渲染 → 原生动效注入 → `--strict` 几何体检(存在 Critical 即退出码 1 拒绝交付)。
+
+### 风格包 (`--style` / `meta.style`)
+
+5 套风格包只改变**配色、圆角、页眉装饰、封面构图与字号节奏**,不动任何卡槽坐标,因此任意风格都走同一套几何门禁。优先级:`--style` > `meta.style` > `clean`。
+
+| 风格包 | 名称 | 视觉特征 | 建议场景 |
+|---|---|---|---|
+| `clean` | 清爽白 | 白底细描边、顶部主色条、圆角轻投影 | 默认、日常课 |
+| `warm` | 暖阳 | 米杏底、左侧强调色带、大圆角、暖橙点睛 | 低中段、公开课 |
+| `academic` | 学术 | 纯白净底、直角细线、标题下压重线、封面左文右栏 | 高段、复习课 |
+| `minimal` | 极简 | 黑白灰、无圆角无投影、上下发丝线 | 家长会、汇报 |
+| `chalk` | 板书手账 | 米黄纸底、墨绿书脊、虚线页脚与下划线标题 | 板书型课、听课记录 |
+
+> 为什么不提供深色黑板风格:渲染器里的语义底色(答案绿/错例红/提示黄)都按"浅底深字"设计,真黑底会让这些卡片的深色文字失去对比。`chalk` 用米黄纸 + 墨绿墨迹来表达板书质感,保持全部语义色可读。
 
 也可单独校验教学设计:
 

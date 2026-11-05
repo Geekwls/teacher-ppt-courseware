@@ -26,13 +26,14 @@ Agent-Native 现代分层架构:**宿主大模型即教学设计与内容创作�
 【Step 0 静默路由】识别 学科/年级/册次/单元/课时;先读 references/workflow.md
         │
 【Step 1 澄清】最多问 2 个问题(课时范围/风格偏好);信息明确则直接默认推进
+        │          风格偏好问法示例:"想要清爽白、暖阳、学术、极简还是板书手账?"(不答则 clean)
         │
 【Step 2 取材】node scripts/query_curriculum.js 拉取课时素材包(必做,禁止跳过)
         │
 【Step 3 创作教学设计】按 references/schemas/lesson-plan.schema.json 写 lesson_plan.json
         │               (仅编写教学设计、情境设问、算理/字词/对话、典型错例、练习题与板书)
         │
-【Step 4 一键流水线交付】node scripts/build_courseware.js --input <lesson_plan.json> --outdir output
+【Step 4 一键流水线交付】node scripts/build_courseware.js --input <lesson_plan.json> --outdir output [--style warm]
         │                 (自动全串联: 教学门禁 -> 容量规划 -> 表现门禁 -> 确定性渲染 -> 原生动效注入 -> 几何审计)
         │
 【Step 5 汇报交付】向教师汇报课件页数、依据的教材知识点、各页原生单击分步动画与几何体检结果

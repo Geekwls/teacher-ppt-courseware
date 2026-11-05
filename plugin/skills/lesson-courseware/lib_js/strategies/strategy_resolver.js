@@ -158,6 +158,7 @@ export function resolveStrategyContext(input = {}) {
     lesson_type: lessonTypePolicy,
     preferences: {
       theme: resolvedTheme,
+      style: prefs.style || "clean",
       aspect_ratio: prefs.aspect_ratio || "16:9",
       motion_enabled: prefs.motion_enabled !== false
     },

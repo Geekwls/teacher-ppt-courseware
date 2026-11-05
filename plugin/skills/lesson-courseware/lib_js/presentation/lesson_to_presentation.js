@@ -268,6 +268,7 @@ export function planPresentationFromLesson(lessonPlan, options = {}) {
     deck_meta: {
       source_lesson_id: lessonPlan.lesson_id || "lesson_unknown",
       theme: strategyContext.preferences.theme,
+      style: strategyContext.preferences.style,
       aspect_ratio: strategyContext.preferences.aspect_ratio
     },
     slides

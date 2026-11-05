@@ -24,7 +24,151 @@ const CANVAS_W = 13.333;
 const CANVAS_H = 7.5;
 const CONTENT_TOP = 1.35;
 const CONTENT_BOTTOM = 6.65;
-const CARD_SHADOW = { type: "outer", color: "CBD5E1", blur: 4, offset: 2, angle: 90, opacity: 0.25 };
+
+/**
+ * 卡片投影在渲染开始时由风格包注入 (minimal 近乎无投影, warm 更柔软)。
+ * 保留模块级变量而非改造成每个调用点传参, 是为了不让换肤改动扩散到 50+ 个卡槽坐标。
+ */
+let CARD_SHADOW = { type: "outer", color: "CBD5E1", blur: 4, offset: 2, angle: 90, opacity: 0.25 };
+
+/**
+ * 把风格包的圆角同步到本页已创建的圆角矩形上。
+ * PptxGenJS 的 rectRadius 是写入时才读取的选项, 因此在 addSlide 之后统一回填即可,
+ * 无需逐个修改 addShape 调用点 (改 50 处比改 1 处更容易引入漏改)。
+ */
+function applyCardRadius(slide, radius) {
+  if (radius === undefined || radius === null) return;
+  for (const obj of slide?._slideObjects || []) {
+    const shapeType = obj?.options?.shape;
+    if (shapeType === "roundRect" || shapeType === "ROUNDED_RECTANGLE") {
+      obj.options.rectRadius = radius;
+    }
+  }
+}
+
+/**
+ * 封面/封底装饰层
+ *
+ * 5 套构图全部只用整块色带、细线与虚线做区分, 标题/副标题文字盒保持
+ * 在 x∈[1.0, 12.3]、y∈[1.7, 4.9] 的安全区内, 因此任意风格都不会越界或压盖。
+ * 唯一例外是 academic 的右侧竖块, 它只铺在空白列 (x≥9.9), 不与文字盒相交。
+ */
+function renderCoverDecor(slide, pptx, t, { title, subtitle }) {
+  const layout = t.cover?.layout || "center_rule";
+  const radius = t.card?.radius ?? 0.06;
+  const titleSize = t.fontSize.cover_title;
+  const subSize = t.fontSize.cover_subtitle;
+
+  slide.background = { color: t.bgTint };
+
+  // 标题/副标题文字盒 (各构图只改对齐与纵向位置, 宽度始终在安全区内)
+  const drawTitle = ({ x = 1.0, y = 2.15, w = CANVAS_W - 2.0, align = "center" } = {}) => {
+    slide.addText(title, {
+      x, y, w, h: 1.4,
+      fontSize: titleSize,
+      bold: true,
+      color: t.ink,
+      align,
+      valign: "middle",
+      fontFace: FONT_FAMILY
+    });
+    if (subtitle) {
+      slide.addText(subtitle, {
+        x, y: y + 1.5, w, h: 0.8,
+        fontSize: subSize,
+        color: t.muted,
+        align,
+        valign: "middle",
+        fontFace: FONT_FAMILY
+      });
+    }
+  };
+
+  switch (layout) {
+    case "center_band": {
+      // 暖阳: 左侧色带 + 大圆角色块承载标题
+      slide.addShape(pptx.shapes.RECTANGLE, {
+        x: 0, y: 0, w: 0.16, h: CANVAS_H,
+        fill: { color: t.accent }, line: { color: t.accent, width: 0 }
+      });
+      slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
+        x: 1.0, y: 1.8, w: CANVAS_W - 2.0, h: 2.6,
+        fill: { color: t.chip }, line: { color: t.border, width: 1 }, rectRadius: 0.3,
+        shadow: CARD_SHADOW
+      });
+      drawTitle({ y: 2.05 });
+      break;
+    }
+    case "left_split": {
+      // 学术: 右侧竖块 + 左对齐标题 + 标题下重线
+      slide.addShape(pptx.shapes.RECTANGLE, {
+        x: 9.9, y: 0, w: CANVAS_W - 9.9, h: CANVAS_H,
+        fill: { color: t.chip }, line: { color: t.chip, width: 0 }
+      });
+      slide.addShape(pptx.shapes.RECTANGLE, {
+        x: 9.9, y: 0, w: 0.07, h: CANVAS_H,
+        fill: { color: t.primary }, line: { color: t.primary, width: 0 }
+      });
+      slide.addShape(pptx.shapes.RECTANGLE, {
+        x: 0, y: 0, w: 9.9, h: 0.05,
+        fill: { color: t.primary }, line: { color: t.primary, width: 0 }
+      });
+      slide.addShape(pptx.shapes.RECTANGLE, {
+        x: 1.0, y: 1.62, w: 0.7, h: 0.07,
+        fill: { color: t.accent }, line: { color: t.accent, width: 0 }
+      });
+      drawTitle({ x: 1.0, y: 1.85, w: 8.4, align: "left" });
+      break;
+    }
+    case "minimal": {
+      // 极简: 上下发丝线, 左对齐, 无装饰色
+      slide.addShape(pptx.shapes.LINE, {
+        x: 1.0, y: 1.55, w: CANVAS_W - 2.0, h: 0,
+        line: { color: t.ink, width: 0.75 }
+      });
+      slide.addShape(pptx.shapes.LINE, {
+        x: 1.0, y: CANVAS_H - 1.3, w: CANVAS_W - 2.0, h: 0,
+        line: { color: t.border, width: 0.75 }
+      });
+      drawTitle({ x: 1.0, y: 2.35, w: CANVAS_W - 2.4, align: "left" });
+      break;
+    }
+    case "paper": {
+      // 手账: 米黄纸 + 左侧墨绿书脊 + 上下虚线
+      slide.addShape(pptx.shapes.RECTANGLE, {
+        x: 0, y: 0, w: 0.2, h: CANVAS_H,
+        fill: { color: t.primary }, line: { color: t.primary, width: 0 }
+      });
+      slide.addShape(pptx.shapes.LINE, {
+        x: 1.0, y: 1.5, w: CANVAS_W - 2.0, h: 0,
+        line: { color: t.accent, width: 1.5, dashType: "dash" }
+      });
+      slide.addShape(pptx.shapes.LINE, {
+        x: 1.0, y: CANVAS_H - 1.2, w: CANVAS_W - 2.0, h: 0,
+        line: { color: t.border, width: 1, dashType: "dash" }
+      });
+      drawTitle({ y: 2.0 });
+      break;
+    }
+    default: {
+      // 清爽: 顶部主色条 + 标题上方短强调线 + 底部细线
+      slide.addShape(pptx.shapes.RECTANGLE, {
+        x: 0, y: 0, w: CANVAS_W, h: 0.12,
+        fill: { color: t.primary }, line: { color: t.primary, width: 0 }
+      });
+      slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
+        x: (CANVAS_W - 1.6) / 2, y: 1.6, w: 1.6, h: 0.1,
+        fill: { color: t.accent }, line: { color: t.accent, width: 0 }, rectRadius: radius
+      });
+      slide.addShape(pptx.shapes.LINE, {
+        x: 2.0, y: CANVAS_H - 0.9, w: CANVAS_W - 4.0, h: 0,
+        line: { color: t.border, width: 0.75 }
+      });
+      drawTitle({ y: 2.1 });
+    }
+  }
+}
+
 
 function findElement(elements, id) {
   return elements.find(e => e.id === id) || null;
@@ -47,7 +191,13 @@ export async function renderPresentation(data, options = {}) {
   let grade = 3;
   const gradeMatch = (meta.source_lesson_id || "").match(/-g(\d)-/);
   if (gradeMatch) grade = parseInt(gradeMatch[1], 10);
-  const t = resolveTheme(themeName, grade, "standard");
+
+  // 风格优先级: CLI --style > 契约 deck_meta.style > clean
+  const styleName = options.style || meta.style || "clean";
+  const t = resolveTheme(themeName, grade, styleName);
+  // "shadow" in card 而非取值判断: minimal 用 null 表示"不写阴影节点",
+  // 若写成 || 会把 null 回落成默认投影, 极简风格就失效了
+  CARD_SHADOW = t.card && "shadow" in t.card ? t.card.shadow : CARD_SHADOW;
 
   const subjText = themeName === "chinese" ? "语文" : (themeName === "english" ? "英语" : "数学");
   const footerText = `人教统编版${subjText}${grade}年级`;
@@ -89,23 +239,7 @@ export async function renderPresentation(data, options = {}) {
     switch (s.layout) {
       case "title_cover": {
         const subtitle = titleElem?.properties?.subtitle || "";
-        slide.addText(pageTitle, {
-          x: 1.0, y: 2.2, w: CANVAS_W - 2.0, h: 1.4,
-          fontSize: t.fontSize.cover_title,
-          bold: true,
-          color: t.ink,
-          align: "center",
-          fontFace: FONT_FAMILY
-        });
-        if (subtitle) {
-          slide.addText(subtitle, {
-            x: 1.5, y: 3.8, w: CANVAS_W - 3.0, h: 0.8,
-            fontSize: t.fontSize.cover_subtitle,
-            color: t.muted,
-            align: "center",
-            fontFace: FONT_FAMILY
-          });
-        }
+        renderCoverDecor(slide, pptx, t, { title: pageTitle, subtitle });
         break;
       }
 
@@ -159,8 +293,9 @@ export async function renderPresentation(data, options = {}) {
         if (eqCard) {
           slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
             x: 1.0, y: CONTENT_TOP + 2.7, w: cardW, h: 1.4,
-            fill: { color: "EFF6FF" },
-            line: { color: t.primary, width: 1.5 },
+            fill: { color: t.chip || "EFF6FF" },
+            // 描边粗细跟随风格包: 极简的近黑主色配 1.5pt 会像黑框, 按包内基础线宽微调
+            line: { color: t.primary, width: Math.min(1.5, (t.card?.borderWidth ?? 1.2) + 0.3) },
             shadow: CARD_SHADOW
           });
           slide.addText(`列式：${eqCard.properties?.expression || ""}`, {
@@ -211,7 +346,7 @@ export async function renderPresentation(data, options = {}) {
           const sy = CONTENT_TOP + 0.35 + sIdx * 0.95;
           slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
             x: rightX + 0.3, y: sy, w: rightW - 0.6, h: 0.75,
-            fill: { color: "F8FAFC" },
+            fill: { color: t.chip || "F8FAFC" },
             line: { color: t.border, width: 1 }
           });
           const fittedStep = fitTextLayout(st, rightW - 1.0, 0.6, t.fontSize.body);
@@ -273,7 +408,7 @@ export async function renderPresentation(data, options = {}) {
           const sy = CONTENT_TOP + 1.35 + sIdx * 0.95;
           slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
             x: 0.8, y: sy, w: cardW, h: 0.78,
-            fill: { color: "F8FAFC" },
+            fill: { color: t.chip || "F8FAFC" },
             line: { color: t.border, width: 1 }
           });
           const fittedStep = fitTextLayout(st, cardW - 0.6, 0.62, t.fontSize.body);
@@ -398,7 +533,7 @@ export async function renderPresentation(data, options = {}) {
           const ry = CONTENT_TOP + 0.25 + rIdx * (ruleCardH + 0.15);
           slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
             x: rightX + 0.25, y: ry, w: rightW - 0.5, h: ruleCardH,
-            fill: { color: "F8FAFC" },
+            fill: { color: t.chip || "F8FAFC" },
             line: { color: t.border, width: 1 }
           });
           const fittedRule = fitTextLayout(ruleText, rightW - 0.8, ruleCardH - 0.1, 16);
@@ -638,22 +773,8 @@ export async function renderPresentation(data, options = {}) {
       }
 
       case "end_cover": {
-        slide.addText(pageTitle || "同学们，下课！", {
-          x: 1.0, y: 2.4, w: CANVAS_W - 2.0, h: 1.4,
-          fontSize: t.fontSize.cover_title,
-          bold: true,
-          color: t.ink,
-          align: "center",
-          fontFace: FONT_FAMILY
-        });
         const sub = titleElem?.properties?.subtitle || "认真练习，熟能生巧";
-        slide.addText(sub, {
-          x: 1.5, y: 4.0, w: CANVAS_W - 3.0, h: 0.8,
-          fontSize: t.fontSize.cover_subtitle,
-          color: t.muted,
-          align: "center",
-          fontFace: FONT_FAMILY
-        });
+        renderCoverDecor(slide, pptx, t, { title: pageTitle || "同学们，下课！", subtitle: sub });
         break;
       }
 
@@ -662,6 +783,9 @@ export async function renderPresentation(data, options = {}) {
     }
 
     // 注入精准 Timeline 动效步骤标记
+    // 统一回填风格包圆角 (只改外观, 不改包围盒)
+    applyCardRadius(slide, t.card?.radius);
+
     const annot = annotateRevealSteps(slide, {
       baseCount,
       pageType: s.layout,

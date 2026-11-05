@@ -124,18 +124,37 @@ PowerPoint / LibreOffice 二次回退造成排版错位。需要严格「同输�
 ## 六、验证与验收
 
 ```bash
-npm test                              # 金样端到端:教学门禁→规划→渲染→几何审计→结构断言→报告
-                                      # 并附带策略/分页单元测试
-# 等价: node scripts/run_acceptance.js
+npm test                              # 单元测试 + 金样端到端 + 风格矩阵
+# 只跑其中一类:
+npm run test:unit                     # node:test 单元测试 (契约/门禁/文本度量/审计/分步/风格包)
+npm run test:acceptance               # 金样端到端 + 风格矩阵, 报告写入 output/reports/
+
 node plugin/skills/lesson-courseware/scripts/build_courseware.js \
-    --input <lesson_plan.json> --outdir <输出目录> --strict
+    --input <lesson_plan.json> --outdir <输出目录> --strict [--style warm]
 ```
 
 `npm test` 对每个金样断言:一键流水线退出码 0、三件套产物齐备、
-**几何审计 0 critical**、**内容页讲稿完备**、**分步时序 orderValid**。
-报告在 `output/reports/acceptance-report.md`。
+**几何审计 0 critical**、**内容页讲稿完备**、**分步时序 orderValid**;
+再对每份金样 x 5 套风格包(clean/warm/academic/minimal/chalk)跑一遍 `--strict`,
+确认换肤不会把任何一页撑破。报告在 `output/reports/acceptance-report.md`。
 
-> 当前仓库**没有独立单元测试套件**,`npm test` 即端到端验收;新增渲染规则建议同步补金样用例。
+### 风格包
+
+课件长相由 `--style`(或教学设计里的 `meta.style`)决定,共 5 套:
+
+| 风格包 | 名称 | 特征 | 建议场景 |
+|---|---|---|---|
+| `clean` | 清爽白 | 白底细描边、顶部主色条、圆角轻投影 | 默认、日常课 |
+| `warm` | 暖阳 | 米杏底、左侧强调色带、大圆角、暖橙点睛 | 低中段、公开课 |
+| `academic` | 学术 | 纯白净底、直角细线、标题下压重线、封面左文右栏 | 高段、复习课 |
+| `minimal` | 极简 | 黑白灰、无圆角无投影、上下发丝线 | 家长会、汇报 |
+| `chalk` | 板书手账 | 米黄纸底、墨绿书脊、虚线页脚与下划线标题 | 板书型课、听课记录 |
+
+风格包只改配色、圆角、页眉装饰、封面构图与字号节奏,**不动任何卡槽坐标**,
+所以 5 套风格共用同一套几何门禁与验收矩阵。
+
+> 单元测试覆盖契约校验、教学门禁(数域/禁区/算式真值)、文本度量与折行、
+> 几何审计、放映分步、风格包 token 与对比度;渲染规则变更请同步补单测与金样。
 
 > 边界声明:自动化门禁只判定"可结构化"的项目;课件内容的教学正确性须经教师人工审核。
 > 本项目与原练习生成项目共用一套诚实原则:**绝不把"生成成功"当作"内容正确"**。

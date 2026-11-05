@@ -40,7 +40,7 @@
         "grade": {
           "type": "integer",
           "minimum": 1,
-          "maximum": 6
+          "maximum": 9
         },
         "term": {
           "type": "string",
@@ -67,6 +67,12 @@
         "source_point_id": {
           "type": "string",
           "description": "关联的教材知识库知识点 ID"
+        },
+        "style": {
+          "type": "string",
+          "enum": ["clean", "warm", "academic", "minimal", "chalk"],
+          "default": "clean",
+          "description": "视觉风格包: clean 清爽白 / warm 暖阳 / academic 学术 / minimal 极简 / chalk 板书手账。只影响配色与装饰, 不改动页面结构与卡槽坐标"
         },
         "duration_minutes": {
           "type": "integer",

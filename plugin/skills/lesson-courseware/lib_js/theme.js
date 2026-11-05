@@ -219,6 +219,162 @@ export const THEMES = {
 export const FONT_SIZES = GRADE_TOKENS.middle.fontSize;
 
 /**
+ * 5. 风格包 (Style Pack) 注册表
+ *
+ * 设计原则: **只换装饰与字号节奏, 不动固定卡槽坐标**。
+ * 页面几何由 layout_audit 事后体检兜底, 风格包若改动外框尺寸, 每种风格都需要
+ * 单独维护一套坐标, 变体一多必然重演"校验全绿、产物压盖"的老问题。
+ * 因此风格包只控制:
+ *   - colors: 底色/卡片底/描边/强调色的收敛程度 (学科主色默认保留, 保证三科可辨)
+ *   - type:   标题与正文的缩放节奏 (0.95~1.05, 幅度克制, 由 text_fit 自适应兜底)
+ *   - card:   卡片圆角、投影、描边粗细
+ *   - frame:  页眉装饰、标题标记、页脚分割线形态
+ *   - cover:  封面构图 (居中/色带/左分栏/极简/纸感), 均为纯装饰, 文字盒尺寸不变
+ *
+ * 明暗约束: 渲染器里存在语义色硬编码 (答案绿 ECFDF5 / 错例红 FEF2F2 / 提示黄 FEF3C7),
+ * 这些底色都按"浅底深字"设计。深色黑板风格会让 t.ink 深字落在浅色卡上失去对比,
+ * 所以 chalk 采用"米黄纸 + 墨绿"的板书手账质感, 而不是真黑底。
+ */
+export const STYLE_PACKS = {
+  clean: {
+    id: "clean",
+    label: "清爽白",
+    summary: "当前默认: 白底细描边、圆角轻投影, 三科主色分明",
+    colors: { bgTint: "F8FAFC", panel: "FFFFFF", border: "E2E8F0" },
+    type: { title: 1.0, body: 1.0, cover: 1.0 },
+    card: {
+      radius: 0.06,
+      borderWidth: 1.2,
+      shadow: { type: "outer", color: "CBD5E1", blur: 4, offset: 2, angle: 90, opacity: 0.25 }
+    },
+    frame: { header: "bar", titleMark: "bar", footerRule: "solid" },
+    cover: { layout: "center_rule" }
+  },
+  warm: {
+    id: "warm",
+    label: "暖阳",
+    summary: "米杏底、大圆角、暖橙强调, 适合低中段与公开课",
+    colors: {
+      bgTint: "FFFBF2",
+      panel: "FFFFFF",
+      chip: "FEF3E2",
+      border: "F1DFC4",
+      accent: "F97316",
+      muted: "6F5A40"
+    },
+    // 正文不放大: 实测 warm 的 1.02 倍会让二年级情境卡 5 行文本溢出卡槽
+    // (TEXT_OVERFLOW warning), 风格差异由配色/圆角/色带承担即可
+    type: { title: 1.04, body: 1.0, cover: 1.02 },
+    card: {
+      radius: 0.16,
+      borderWidth: 1.0,
+      shadow: { type: "outer", color: "E7C9A0", blur: 9, offset: 3, angle: 90, opacity: 0.28 }
+    },
+    frame: { header: "band", titleMark: "dot", footerRule: "solid" },
+    cover: { layout: "center_band" }
+  },
+  academic: {
+    id: "academic",
+    label: "学术",
+    summary: "纯白净底、直角细线、标题下压重线, 适合高段与复习课",
+    colors: {
+      bgTint: "FFFFFF",
+      panel: "FFFFFF",
+      chip: "F1F5F9",
+      border: "CBD5E1",
+      muted: "475569"
+    },
+    type: { title: 0.96, body: 0.97, cover: 0.98 },
+    card: {
+      radius: 0.02,
+      borderWidth: 1.4,
+      shadow: { type: "outer", color: "94A3B8", blur: 3, offset: 1, angle: 90, opacity: 0.16 }
+    },
+    frame: { header: "rule", titleMark: "underline", footerRule: "solid" },
+    cover: { layout: "left_split" }
+  },
+  minimal: {
+    id: "minimal",
+    label: "极简",
+    summary: "黑白灰、无圆角无投影, 一页一观点, 家长会与汇报首选",
+    colors: {
+      primary: "111827",
+      primaryDark: "030712",
+      accent: "6B7280",
+      bgTint: "FFFFFF",
+      panel: "FFFFFF",
+      chip: "F9FAFB",
+      border: "E5E7EB",
+      ink: "111827",
+      muted: "6B7280",
+      good: "047857",
+      bad: "B91C1C"
+    },
+    type: { title: 0.98, body: 1.0, cover: 1.0 },
+    card: {
+      radius: 0.0,
+      borderWidth: 0.75,
+      // 极简要求"无投影": 用 null 让 PptxGenJS 完全不写 effectLst。
+      // 曾尝试 opacity:0 + blur:0, 结果 pptxgenjs 把 0 参与除法, 写出
+      // blurRad=1.29e9 的畸形阴影, LibreOffice 渲染成描边发黑的假边框。
+      shadow: null
+    },
+    frame: { header: "hairline", titleMark: "none", footerRule: "none" },
+    cover: { layout: "minimal" }
+  },
+  chalk: {
+    id: "chalk",
+    label: "板书手账",
+    summary: "米黄纸底、墨绿分栏、虚线页脚, 课堂板书与听课笔记质感",
+    colors: {
+      primary: "1F4D3D",
+      primaryDark: "122B22",
+      accent: "B45309",
+      bgTint: "FBF7EC",
+      panel: "FFFDF6",
+      chip: "F3EDDD",
+      border: "D8CDB4",
+      ink: "1B2B22",
+      muted: "6B6252",
+      good: "065F46",
+      bad: "B91C1C"
+    },
+    type: { title: 1.0, body: 1.0, cover: 1.0 },
+    card: {
+      radius: 0.04,
+      borderWidth: 1.2,
+      shadow: { type: "outer", color: "C9BC9C", blur: 3, offset: 2, angle: 90, opacity: 0.2 }
+    },
+    frame: { header: "paper", titleMark: "underline", footerRule: "dash" },
+    cover: { layout: "paper" }
+  }
+};
+
+/** 旧调用方仍可能传 standard / innovative, 做别名归一, 未知值一律回落到 clean */
+const STYLE_ALIASES = {
+  standard: "clean",
+  default: "clean",
+  fresh: "clean",
+  innovative: "warm",
+  warm_sun: "warm",
+  serious: "academic",
+  mono: "minimal",
+  black_white: "minimal",
+  blackboard: "chalk",
+  handbook: "chalk"
+};
+
+export const STYLE_PACK_IDS = Object.keys(STYLE_PACKS);
+
+export function resolveStylePack(style) {
+  const key = String(style || "").trim().toLowerCase();
+  if (STYLE_PACKS[key]) return STYLE_PACKS[key];
+  const alias = STYLE_ALIASES[key];
+  if (alias && STYLE_PACKS[alias]) return STYLE_PACKS[alias];
+  return STYLE_PACKS.clean;
+}
+
+/**
  * 4. 学科 x 学段 动态主题解析器 (Core Dynamic Resolver)
  */
 export function resolveTheme(subject = "math", grade = 3, style = "standard") {
@@ -277,22 +433,48 @@ export function resolveTheme(subject = "math", grade = 3, style = "standard") {
     }
   }
 
-  // metadata.style = "innovative": 让契约里的风格字段真正生效(更活泼的强调色与底色)
-  if (style === "innovative") {
-    colors.accent = { math: "8B5CF6", chinese: "EA580C", english: "0891B2" }[sub] || colors.accent;
-    colors.chip = { math: "F5F3FF", chinese: "FFF7ED", english: "ECFEFF" }[sub] || colors.chip;
-    colors.bgTint = { math: "FAFAFF", chinese: "FFFCF7", english: "F7FEFF" }[sub] || colors.bgTint;
-  }
+  // 风格包: 在学科 x 学段色之后叠加装饰层 (学科主色默认保留, 三科仍可一眼分辨)
+  const pack = resolveStylePack(style);
+  colors = { ...colors, ...(pack.colors || {}) };
+
+  const scaledFontSize = scaleFontSize(gradeTokens.fontSize, pack);
 
   return {
     ...colors,
-    style,
+    style: pack.id,
+    stylePack: pack,
+    styleLabel: pack.label,
+    card: pack.card,
+    frame: pack.frame,
+    cover: pack.cover,
     gradeLevel: level,
     gradeLevelName: gradeTokens.levelName,
-    fontSize: gradeTokens.fontSize,
+    fontSize: scaledFontSize,
     lineHeightMultiplier: gradeTokens.lineHeightMultiplier,
     maxItemsPerSlide: gradeTokens.maxItemsPerSlide
   };
+}
+
+/**
+ * 按风格包缩放字号阶梯。
+ * 只做 0.95~1.05 的温和缩放: 风格差异靠配色/圆角/装饰承担,
+ * 字号用于微调节奏, 过大会直接撑破固定高度卡槽 (由 layout_audit 判 critical)。
+ */
+function scaleFontSize(fontSize, pack) {
+  const titleScale = pack?.type?.title ?? 1;
+  const bodyScale = pack?.type?.body ?? 1;
+  const coverScale = pack?.type?.cover ?? 1;
+  const titleKeys = new Set(["title", "cover_title"]);
+  const out = {};
+  for (const [key, value] of Object.entries(fontSize)) {
+    const scale = key === "cover_title" || key === "cover_subtitle"
+      ? coverScale
+      : titleKeys.has(key)
+        ? titleScale
+        : bodyScale;
+    out[key] = Math.max(11, Math.round(Number(value) * scale));
+  }
+  return out;
 }
 
 export function footerOf(meta) {
@@ -317,35 +499,91 @@ export function drawPageFrame(slide, pptx, themeTokens, titleText, footerText, p
     ? themeTokens
     : resolveTheme(themeTokens || "math", 3);
 
+  const frame = t.frame || { header: "bar", titleMark: "bar", footerRule: "solid" };
+  const radius = t.card?.radius ?? 0.06;
+
   // 幻灯片全局背景
   slide.background = { color: t.bgTint };
 
-  // 1. 顶部精致主色条
-  slide.addShape(pptx.shapes.RECTANGLE, {
-    x: 0,
-    y: 0,
-    w: CANVAS_W,
-    h: 0.08,
-    fill: { color: t.primary },
-    line: { color: t.primary, width: 0 }
-  });
+  // 1. 页眉装饰 (风格包决定形态, 全部贴在画布边缘, 不侵占内容安全区)
+  switch (frame.header) {
+    case "band":
+      // 暖阳: 左侧通栏色带 (强调色, 与标题圆点同色系, 不与学科冷色主色打架)
+      slide.addShape(pptx.shapes.RECTANGLE, {
+        x: 0, y: 0, w: 0.16, h: CANVAS_H,
+        fill: { color: t.accent },
+        line: { color: t.accent, width: 0 }
+      });
+      break;
+    case "rule":
+      // 学术: 顶部一粗一细双线
+      slide.addShape(pptx.shapes.RECTANGLE, {
+        x: 0, y: 0, w: CANVAS_W, h: 0.05,
+        fill: { color: t.primary },
+        line: { color: t.primary, width: 0 }
+      });
+      slide.addShape(pptx.shapes.LINE, {
+        x: 0.8, y: 0.13, w: CANVAS_W - 1.6, h: 0,
+        line: { color: t.border, width: 0.75 }
+      });
+      break;
+    case "hairline":
+      // 极简: 一条发丝线
+      slide.addShape(pptx.shapes.LINE, {
+        x: 0, y: 0.02, w: CANVAS_W, h: 0,
+        line: { color: t.ink, width: 0.75 }
+      });
+      break;
+    case "paper":
+      // 手账: 顶部虚线
+      slide.addShape(pptx.shapes.LINE, {
+        x: 0.4, y: 0.07, w: CANVAS_W - 0.8, h: 0,
+        line: { color: t.accent, width: 1.5, dashType: "dash" }
+      });
+      break;
+    default:
+      // 清爽: 顶部主色条
+      slide.addShape(pptx.shapes.RECTANGLE, {
+        x: 0, y: 0, w: CANVAS_W, h: 0.08,
+        fill: { color: t.primary },
+        line: { color: t.primary, width: 0 }
+      });
+  }
 
-  // 2. 标题区 (左侧圆角竖条 + 标题文字)
+  // 2. 标题区 (标记形态由风格包决定; 文字盒始终落在 0.8~12.53 之间)
   const y = 0.35;
   if (titleText) {
-    slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
-      x: 0.8,
-      y: y + 0.08,
-      w: 0.14,
-      h: 0.52,
-      fill: { color: t.accent },
-      line: { color: t.accent, width: 0 }
-    });
+    const mark = frame.titleMark || "bar";
+    let titleX = 0.8;
+
+    if (mark === "bar") {
+      titleX = 1.05;
+      slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
+        x: 0.8, y: y + 0.08, w: 0.14, h: 0.52,
+        fill: { color: t.accent },
+        line: { color: t.accent, width: 0 },
+        rectRadius: radius
+      });
+    } else if (mark === "dot") {
+      titleX = 1.15;
+      slide.addShape(pptx.shapes.OVAL, {
+        x: 0.86, y: y + 0.22, w: 0.2, h: 0.2,
+        fill: { color: t.accent },
+        line: { color: t.accent, width: 0 }
+      });
+    } else if (mark === "underline") {
+      titleX = 0.8;
+      slide.addShape(pptx.shapes.RECTANGLE, {
+        x: 0.8, y: y + 0.7, w: 1.0, h: 0.06,
+        fill: { color: t.accent },
+        line: { color: t.accent, width: 0 }
+      });
+    }
 
     slide.addText(titleText, {
-      x: 1.05,
+      x: titleX,
       y: y,
-      w: CANVAS_W - 2.0,
+      w: CANVAS_W - titleX - 0.8,
       h: 0.68,
       fontSize: t.fontSize.title,
       bold: true,
@@ -354,24 +592,29 @@ export function drawPageFrame(slide, pptx, themeTokens, titleText, footerText, p
       valign: "middle"
     });
 
-    // 标题下方细微半透明分割线
-    slide.addShape(pptx.shapes.LINE, {
-      x: 0.8,
-      y: y + 0.72,
-      w: CANVAS_W - 1.6,
-      h: 0,
-      line: { color: t.border, width: 0.75 }
-    });
+    // 标题下方分割线: underline 风格由强调短线代劳, 避免双线叠压
+    if (titleText && mark !== "underline") {
+      slide.addShape(pptx.shapes.LINE, {
+        x: 0.8, y: y + 0.72, w: CANVAS_W - 1.6, h: 0,
+        line: { color: t.border, width: 0.75 }
+      });
+    }
   }
 
   // 3. 底部页脚分割线
-  slide.addShape(pptx.shapes.LINE, {
-    x: 0.8,
-    y: CANVAS_H - 0.45,
-    w: CANVAS_W - 1.6,
-    h: 0,
-    line: { color: t.border, width: 0.5 }
-  });
+  if (frame.footerRule !== "none") {
+    slide.addShape(pptx.shapes.LINE, {
+      x: 0.8,
+      y: CANVAS_H - 0.45,
+      w: CANVAS_W - 1.6,
+      h: 0,
+      line: {
+        color: t.border,
+        width: 0.5,
+        ...(frame.footerRule === "dash" ? { dashType: "dash" } : {})
+      }
+    });
+  }
 
   // 4. 页脚文字
   if (footerText) {

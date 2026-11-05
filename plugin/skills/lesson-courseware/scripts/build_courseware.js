@@ -12,7 +12,8 @@
  * 6. 严格几何审计 (layout_audit) -> 0 Critical 交付保障
  *
  * 用法:
- *   node build_courseware.js --input <lesson-plan.json> [--outdir <dir>] [--name <basename>] [--no-strict]
+ *   node build_courseware.js --input <lesson-plan.json> [--outdir <dir>] [--name <basename>]
+ *                            [--style clean|warm|academic|minimal|chalk] [--no-strict]
  */
 
 import fs from "fs";
@@ -22,6 +23,7 @@ import { planPresentationFromLesson } from "../lib_js/presentation/lesson_to_pre
 import { validatePresentation } from "../lib_js/presentation/presentation_validator.js";
 import { renderPresentation } from "../lib_js/rendering/presentation_renderer.js";
 import { strictHardFailure } from "../lib_js/animation_prep.js";
+import { STYLE_PACK_IDS } from "../lib_js/theme.js";
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -29,6 +31,7 @@ function parseArgs() {
   let outdir = "output";
   let outputBaseName = "";
   let strict = true;
+  let style = "";
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--input" && args[i + 1]) {
@@ -40,6 +43,9 @@ function parseArgs() {
     } else if ((args[i] === "--name" || args[i] === "--basename") && args[i + 1]) {
       outputBaseName = args[i + 1];
       i++;
+    } else if (args[i] === "--style" && args[i + 1]) {
+      style = args[i + 1];
+      i++;
     } else if (args[i] === "--no-strict") {
       strict = false;
     } else if (args[i] === "--strict") {
@@ -48,15 +54,15 @@ function parseArgs() {
   }
 
   if (!inputPath) {
-    console.error("用法: node build_courseware.js --input <lesson-plan.json> [--outdir <dir>] [--name <basename>] [--no-strict]");
+    console.error("用法: node build_courseware.js --input <lesson-plan.json> [--outdir <dir>] [--name <basename>] [--style clean|warm|academic|minimal|chalk] [--no-strict]");
     process.exit(1);
   }
 
-  return { inputPath, outdir, outputBaseName, strict };
+  return { inputPath, outdir, outputBaseName, strict, style };
 }
 
 async function main() {
-  const { inputPath, outdir, outputBaseName, strict } = parseArgs();
+  const { inputPath, outdir, outputBaseName, strict, style } = parseArgs();
 
   if (!fs.existsSync(inputPath)) {
     console.error(`[build_courseware] 错误: 文件不存在: ${inputPath}`);
@@ -74,6 +80,15 @@ async function main() {
   const title = lessonPlan.meta?.topic || lessonPlan.meta?.title || lessonPlan.lesson_id || "课件";
   const subject = lessonPlan.meta?.subject || "通用";
   const grade = lessonPlan.meta?.grade || "?";
+
+  // 风格包: CLI --style 优先, 其次契约 meta.style, 缺省 clean
+  const styleAliases = { standard: "clean", innovative: "warm" };
+  const rawStyle = (style || lessonPlan.meta?.style || "clean").trim().toLowerCase();
+  const resolvedStyle = styleAliases[rawStyle] || rawStyle;
+  if (!STYLE_PACK_IDS.includes(resolvedStyle)) {
+    console.error(`❌ 未知风格: ${rawStyle}。可选: ${STYLE_PACK_IDS.join(" / ")}`);
+    process.exit(1);
+  }
 
   console.log("================================================================");
   console.log("🚀 启动课件端到端一键生成流水线 (LessonPlan -> Presentation -> PPTX)");
@@ -97,8 +112,8 @@ async function main() {
   console.log("[3/4] 结合学段认知容量与学科策略，自动规划幻灯片表现 (PagePlanner)...");
   let presentation;
   try {
-    presentation = planPresentationFromLesson(lessonPlan);
-    console.log(`      ✓ 幻灯片编排成功: 共规划 ${presentation.slides?.length || 0} 页`);
+    presentation = planPresentationFromLesson(lessonPlan, { style: resolvedStyle });
+    console.log(`      ✓ 幻灯片编排成功: 共规划 ${presentation.slides?.length || 0} 页 (风格: ${resolvedStyle})`);
   } catch (err) {
     console.error(`❌ 表现规划失败: ${err.message}`);
     process.exit(1);
@@ -122,7 +137,8 @@ async function main() {
     const renderRes = await renderPresentation(presentation, {
       outdir,
       outputBaseName: baseName,
-      strict
+      strict,
+      style: resolvedStyle
     });
 
     // 算理动画数学门禁: strict 模式下参数/算理错误一票否决, 拒绝交付

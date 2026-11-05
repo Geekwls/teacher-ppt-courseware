@@ -9,7 +9,9 @@
  *   2. .pptx / .presentation.json / .audit.json 三件套产物齐备;
  *   3. 几何体检 0 Critical;
  *   4. 讲稿完备: 除封面/封底外每个内容页 notes 非空;
- *   5. 原生单击分步时序 orderValid 合规。
+ *   5. 原生单击分步时序 orderValid 合规;
+ *   6. 风格矩阵: 每份金样 x 5 套风格包 (clean/warm/academic/minimal/chalk) 均 0 Critical,
+ *      防止"新增风格把几何搞崩"却没人发现 (变体必须进验收, 见 STYLE_PACKS)。
  * 用法: node scripts/run_acceptance.js
  * 产出: output/acceptance/<case_id>/ 三件套 与 output/reports/acceptance-report.md
  * 退出码: 0=全部通过; 1=存在失败。
@@ -18,6 +20,7 @@
 import fs from "fs";
 import path from "path";
 import { execSync } from "child_process";
+import { STYLE_PACK_IDS } from "../plugin/skills/lesson-courseware/lib_js/theme.js";
 
 const ROOT = process.cwd();
 const GOLDEN_DIR = path.join(ROOT, "acceptance", "lesson_plans");
@@ -135,7 +138,39 @@ function runCase(caseItem) {
   return result;
 }
 
-function writeReport(results) {
+/**
+ * 风格矩阵: 同一份金样跑遍全部风格包, 只断言 strict 退出码与几何 Critical。
+ * 风格包只动装饰不动卡槽, 一旦某种风格把文字撑破卡槽, 这里会立刻红。
+ */
+function runStyleMatrix(cases) {
+  const rows = [];
+  for (const c of cases) {
+    const row = { case_id: c.case_id, subject: c.subject, cells: {} };
+    for (const style of STYLE_PACK_IDS) {
+      const outdir = path.join(OUT_ACCEPT, "style_matrix", c.case_id, style);
+      fs.mkdirSync(outdir, { recursive: true });
+      try {
+        execSync(
+          `node "${BUILD_SCRIPT}" --input "${c.filePath}" --outdir "${outdir}" --style ${style} --strict`,
+          { encoding: "utf-8", stdio: ["pipe", "pipe", "pipe"] }
+        );
+        const auditFile = fs.readdirSync(outdir).find(f => f.endsWith(".audit.json"));
+        const audit = auditFile
+          ? JSON.parse(fs.readFileSync(path.join(outdir, auditFile), "utf-8"))
+          : null;
+        const critical = audit?.summary?.critical ?? -1;
+        const warning = audit?.summary?.warning ?? -1;
+        row.cells[style] = { pass: critical === 0, critical, warning };
+      } catch (err) {
+        row.cells[style] = { pass: false, critical: null, warning: null, error: String(err.stderr || err.message).slice(0, 300) };
+      }
+    }
+    rows.push(row);
+  }
+  return rows;
+}
+
+function writeReport(results, styleRows = []) {
   fs.mkdirSync(OUT_REPORT, { recursive: true });
   const lines = [];
   lines.push("# 端到端验收报告 (新管线 LessonPlan -> PPTX)");
@@ -155,6 +190,23 @@ function writeReport(results) {
     lines.push(`| ${r.case_id} | ${r.subject} | ${r.grade} | ${r.pages ?? "-"} | ${reveal} | ${geo} | ${notes?.pass ? "✓" : "✗"} | ${timing?.pass ? "✓" : "✗"} | ${ok ? "✅ 通过" : "❌ 失败"} |`);
   }
   lines.push("");
+  if (styleRows && styleRows.length > 0) {
+    lines.push("");
+    lines.push("## 风格矩阵 (每份金样 x 5 套风格包, 断言 0 Critical)");
+    lines.push("");
+    lines.push(`| 用例 | ${STYLE_PACK_IDS.join(" | ")} |`);
+    lines.push(`|---|${STYLE_PACK_IDS.map(() => "---").join("|")}|`);
+    for (const row of styleRows) {
+      const cells = STYLE_PACK_IDS.map(st => {
+        const cell = row.cells[st];
+        if (!cell) return "-";
+        if (cell.error) return "❌ 构建失败";
+        return cell.pass ? `✅ ${cell.critical}C/${cell.warning}W` : `❌ ${cell.critical}C/${cell.warning}W`;
+      });
+      lines.push(`| ${row.case_id} | ${cells.join(" | ")} |`);
+    }
+  }
+
   const failed = results.filter(r => r.build_status !== "pass" || !r.checks.every(c => c.pass));
   if (failed.length === 0) {
     lines.push("**结论: 全部金样通过端到端验收。**");
@@ -196,8 +248,18 @@ function main() {
     }
     console.log("");
   }
-  writeReport(results);
-  const failedCount = results.filter(r => r.build_status !== "pass" || !r.checks.every(c => c.pass)).length;
+  console.log(`=== 风格矩阵: ${cases.length} 金样 x ${STYLE_PACK_IDS.length} 风格 ===\n`);
+  const styleRows = runStyleMatrix(cases);
+  let styleFailed = 0;
+  for (const row of styleRows) {
+    const bad = STYLE_PACK_IDS.filter(st => !row.cells[st]?.pass);
+    if (bad.length > 0) styleFailed += 1;
+    console.log(`  ${bad.length === 0 ? "✅" : "❌"} ${row.case_id} — ${bad.length === 0 ? `${STYLE_PACK_IDS.length} 套风格全部 0 Critical` : `失败风格: ${bad.join(", ")}`}`);
+  }
+  console.log("");
+
+  writeReport(results, styleRows);
+  const failedCount = results.filter(r => r.build_status !== "pass" || !r.checks.every(c => c.pass)).length + styleFailed;
   console.log(`报告已写入: ${path.join(OUT_REPORT, "acceptance-report.md")}`);
   console.log(`总计: ${results.length} 用例 / ${results.length - failedCount} 通过 / ${failedCount} 失败`);
   process.exit(failedCount > 0 ? 1 : 0);

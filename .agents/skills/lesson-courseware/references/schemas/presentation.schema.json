@@ -20,6 +20,11 @@
       "properties": {
         "source_lesson_id": { "type": "string" },
         "theme": { "type": "string" },
+        "style": {
+          "type": "string",
+          "enum": ["clean", "warm", "academic", "minimal", "chalk"],
+          "description": "视觉风格包, 缺省 clean; 渲染器也接受 CLI --style 覆盖"
+        },
         "aspect_ratio": { "type": "string", "enum": ["16:9", "4:3"] }
       },
       "additionalProperties": false
