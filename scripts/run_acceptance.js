@@ -122,6 +122,24 @@ function runCase(caseItem) {
       pass: missing === 0
     });
     result.audit = audit.summary;
+
+    // 课堂放映「播放步骤」: 内容页需含分步, OOXML 顺序合规, 封面/结束页保持整页呈现
+    const reveal = audit.reveal || {};
+    result.checks.push({
+      check: `播放步骤: ${reveal.withTiming || 0}/${renderedSlides} 页含分步, 共 ${reveal.stepsTotal || 0} 步`,
+      pass: (reveal.withTiming || 0) >= 3 && (reveal.stepsTotal || 0) > 0
+    });
+    result.checks.push({
+      check: `动效 OOXML 顺序合规 (transition 在 timing 之前)`,
+      pass: reveal.orderValid === true
+    });
+    const perSlide = reveal.perSlide || [];
+    const firstSteps = perSlide[0]?.steps || 0;
+    const lastSteps = perSlide.length ? (perSlide[perSlide.length - 1]?.steps || 0) : 0;
+    result.checks.push({
+      check: `封面/结束页保持整页呈现 (首/末页步数 ${firstSteps}/${lastSteps})`,
+      pass: firstSteps === 0 && lastSteps === 0
+    });
   }
 
   // 教师讲稿必须真的写进 PPT 备注栏, 而不只是留在 JSON 里

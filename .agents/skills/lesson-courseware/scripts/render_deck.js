@@ -19,6 +19,7 @@ import { THEMES, resolveTheme, footerOf, drawPageFrame } from "../lib_js/theme.j
 import { LAYOUTS, renderAnswerPage } from "../lib_js/layouts.js";
 import { injectSlideTransitions } from "../lib_js/deck_transition.js";
 import { auditDeck } from "../lib_js/layout_audit.js";
+import { annotateRevealSteps } from "../lib_js/reveal_steps.js";
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -90,6 +91,7 @@ async function main() {
   let totalRendered = 0;
   const slideLabels = [];
   const answerExpectations = [];
+  const revealStats = [];
 
   for (const s of (data.slides || [])) {
     const stype = s.type;
@@ -110,6 +112,9 @@ async function main() {
       drawPageFrame(slide, pptx, t, s.title, footer, pageNo);
     }
 
+    // 页面框架已画完, 之后的形状才参与「播放步骤」自动编排
+    const baseCount = slide._slideObjects.length;
+
     // 渲染页面特定内容
     const ctx = { t, meta, theme: themeName, pageNo, footer };
     renderFn(slide, pptx, s, ctx);
@@ -118,6 +123,15 @@ async function main() {
     if (s.notes) {
       slide.addNotes(String(s.notes));
     }
+
+    // 按几何自动编排本页单击出现步骤 (封面/结束页跳过)
+    const reveal = annotateRevealSteps(slide, {
+      baseCount,
+      pageType: stype,
+      mode: s.reveal_mode || "auto",
+      targetSteps: s.reveal_steps || 0
+    });
+    revealStats.push({ slide: totalRendered, type: stype, steps: reveal.steps, shapes: reveal.shapes });
 
     // 课堂练习页自动追加"参考答案"页 (多题延时模式下; 单题即时模式当堂点击揭晓、不追加冗余页)
     const isInstant = s.interaction_mode === "instant" || (Array.isArray(s.items) && s.items.length === 1);
@@ -129,8 +143,15 @@ async function main() {
       totalRendered++;
       pageNo++;
       drawPageFrame(ansSlide, pptx, t, ansTitle, footer, pageNo);
+      const ansBaseCount = ansSlide._slideObjects.length;
       renderAnswerPage(ansSlide, pptx, s, ctx);
       ansSlide.addNotes("【参考答案页】供教师在学生完成随堂练习后核对并讲解使用。");
+      const ansReveal = annotateRevealSteps(ansSlide, {
+        baseCount: ansBaseCount,
+        pageType: "answer",
+        mode: s.reveal_mode || "auto"
+      });
+      revealStats.push({ slide: totalRendered, type: "answer", steps: ansReveal.steps, shapes: ansReveal.shapes });
     }
   }
 
@@ -149,8 +170,9 @@ async function main() {
   // 导出 PPTX
   await pptx.writeFile({ fileName: pptxOutPath });
 
-  // 注入全屏放映平滑转场动效 (Fade)
-  injectSlideTransitions(pptxOutPath, "fade");
+  // 注入全屏转场 + 单击逐步出现动效, 并回读校验 OOXML 顺序
+  const revealReport = injectSlideTransitions(pptxOutPath, "fade") || {};
+  audit.reveal = { ...revealReport, perSlideMarks: revealStats };
 
   // 同步复制 JSON 副本到输出目录
   const jsonOutPath = path.join(outdir, `${baseTitle}.json`);
@@ -165,6 +187,7 @@ async function main() {
   console.log(`  - 几何审计: ${auditOutPath}`);
   console.log(`  - 渲染总页数: ${totalRendered} 页 (含参考答案页)`);
   console.log(`  - 几何体检: ${audit.summary.critical} critical / ${audit.summary.warning} warning`);
+  console.log(`  - 播放步骤: ${revealReport.withTiming || 0} 页含分步 / 共 ${revealReport.stepsTotal || 0} 步 / 顺序合规: ${revealReport.orderValid === false ? "否" : "是"}`);
 
   for (const it of audit.issues.slice(0, 10)) {
     console.warn(`    [${it.severity}] P${it.slide} ${it.code}: ${it.message}`);
@@ -173,8 +196,8 @@ async function main() {
     console.warn(`    ... 另有 ${audit.issues.length - 10} 项, 详见审计回执`);
   }
 
-  if (strict && audit.summary.critical > 0) {
-    console.error(`[render_deck] --strict: 存在 ${audit.summary.critical} 项严重几何问题, 拒绝交付。`);
+  if (strict && (audit.summary.critical > 0 || revealReport.orderValid === false)) {
+    console.error(`[render_deck] --strict: 存在 ${audit.summary.critical} 项严重几何问题或动效顺序不合规, 拒绝交付。`);
     process.exit(1);
   }
 }

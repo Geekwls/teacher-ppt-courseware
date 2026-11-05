@@ -38,6 +38,7 @@
 |    田字格·拼音行·竖式·数轴·数位表·词卡·对话气泡 · 防近视大字号          |
 |    讲稿进备注栏;练习自动生成参考答案页;partial 状态页脚如实提示         |
 |    渲染后输出 .audit.json 几何体检(越界/裁切/压盖/答案缺题),--strict    |
+|    每页自动编排「单击逐步出现」播放步骤(封面/结束页除外)                 |
 +---------------------------------------------------------------------+
 ```
 
@@ -113,6 +114,7 @@ PowerPoint / LibreOffice 二次回退造成排版错位。需要严格「同输�
 | Tier 2 | 引用素材包外知识点(KP_NOT_IN_UNIT)、lesson_id 不属于本单元、知识库定位失败(KB_LOCATE_FAILED, fail-closed) |
 | Tier 3 | 数学数字超数域上界(NUMBER_OVER_BOUND, 覆盖全部卷面字段)、溯源页码越界(PAGE_OUT_OF_RANGE)、教学边界红线(SCOPE_EXCLUDED_VIOLATION, 未写 source 也有全单元兜底) |
 | 渲染后 | `.audit.json` 几何体检:画布越界、文字溢出裁切、文本互相压盖、参考答案缺题;`--strict` 下 critical 拒绝交付 |
+| 动效后 | `p:transition` 必须先于 `p:timing`;顺序错误或注入失败时 `--strict` 拒绝交付,回执 `reveal` 字段记录每页步数 |
 
 `--quiet` 只精简修复提示,**不会隐藏 warnings**(如媒体文件缺失、动态媒体未接入、讲稿中的疑似超纲数)。
 

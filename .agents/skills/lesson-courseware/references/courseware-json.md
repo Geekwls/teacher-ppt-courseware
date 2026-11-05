@@ -51,6 +51,31 @@
 - `source`: {"point_id": "...", "textbook_page": 40} —— 溯源,凡内容取自某知识点必填 point_id
 - `figure`: 声明式图元(见下)
 - `notes`: 教师讲稿,渲染进 PPT 备注栏;objectives/warmup/concept/example/misconception/practice/summary/homework **必填**,写"课堂上实际要说的话与提问"
+- `reveal_mode`: `"auto"`(默认,省略即可) / `"off"`(该页不做分步,整页一次呈现)
+- `reveal_steps`: 整数 1~8,把该页自动推断出的步骤**均匀合并**成指定步数,用于控制课堂节奏
+
+## 课堂放映「播放步骤」
+
+课件默认就是**可逐步播放**的:除封面/结束页外,渲染器自动把每页内容按几何位置聚类成若干步骤,
+放映时教师每单击一次淡入出现一步,实现「先出示题目/推导 → 再点击揭晓结论或答案」。
+同一条目卡片的底板、编号、正文属于同一步,会一次点击同时出现。
+
+- **无需在 JSON 里写任何字段**,现有课件直接重渲染即生效;
+- 步骤顺序自上而下,自动跟随版面,不依赖页面是否写了 `source`;
+- 音视频媒体不参与分步(避免点击命中动效层导致视频放不出来);
+- 实现链路:`lib_js/reveal_steps.js` 打 `objectName=REVEAL_<step>_<idx>` 标记 →
+  `lib_js/deck_transition.js` 解包注入 OpenXML `<p:timing>` 单击进入动效 →
+  回执写入 `<标题>.audit.json` 的 `reveal` 字段;
+- `--strict` 下若检测到 `p:transition` / `p:timing` 顺序不合规(会导致 PowerPoint 判文件需修复),直接拒绝交付。
+
+示例(只在该页想放慢节奏时才写):
+
+```json
+{"type": "example", "problem": "…", "solution_steps": ["…"], "answer": "…",
+ "reveal_steps": 3, "notes": "…"}
+```
+
+`{"reveal_mode": "off"}` 适合封面式整页情境图、需要一次性展示的图表页。
 
 practice 条目:`{"stem": "...", "options": ["A.1","B.2"], "answer": "B", "source": {...}}`
 - `answer` 必填(渲染到答案页,卷面页不显示);开放题写"略(见教参)"
@@ -91,6 +116,7 @@ practice 条目:`{"stem": "...", "options": ["A.1","B.2"], "answer": "B", "sourc
 6. **结构合法**:页面字段按本契约白名单(`slides.items` schema),自创字段会被拒;实质内容页 ≥4
 7. **知识库可达**:知识库定位失败时 **fail-closed 判 fail**,不再静默跳过 Tier2/3
 8. **渲染几何体检**:渲染后输出 `<标题>.audit.json`,检测画布越界、文字裁切、文本压盖、参考答案缺题;`--strict` 下 critical 直接拒绝交付
+9. **动效顺序合规**:`p:transition` 必须排在 `p:timing` 之前;`--strict` 下顺序错误直接拒绝交付
 
 ## 修改与迭代
 

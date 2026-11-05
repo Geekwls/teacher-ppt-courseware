@@ -88,6 +88,9 @@ export const ENVELOPE_SCHEMA = {
         content: { type: "string" },
         show_answers: { type: "boolean" },
         interaction_mode: { type: "string" },
+        // 课堂放映「播放步骤」: 默认 auto 自动推断; off 整页关闭; steps 指定该页合并成几步
+        reveal_mode: { enum: ["auto", "off"] },
+        reveal_steps: { type: "integer", minimum: 1, maximum: 8 },
         source: { $ref: "#/$defs/source" },
         figure: { $ref: "#/$defs/figure" }
       }
@@ -224,7 +227,8 @@ function extractNumbers(obj) {
 const NUMBER_SCAN_SKIP_KEYS = new Set([
   "slide_id", "textbook_page", "page_refs", "_no", "duration_sec", "duration",
   "x", "y", "w", "h", "width", "height", "fontSize", "page", "kind", "type",
-  "show_result", "show_answers", "interaction_mode", "path", "link", "url"
+  "show_result", "show_answers", "interaction_mode", "path", "link", "url",
+  "reveal_mode", "reveal_steps"
 ]);
 
 function collectNumbers(node, out, key = "") {
