@@ -10,12 +10,13 @@ description: >-
 
 # 小学课时 PPT 课件生成 (Lesson Courseware)
 
-Agent-Native 架构:**宿主大模型即教学设计与内容创作引擎**,本工程提供三样东西:
+Agent-Native 现代分层架构:**宿主大模型即教学设计与内容创作引擎**,本工程提供四大支柱:
 1. **教材证据提供者** —— 五层知识库:教材例题原文(lessons)、知识点/教学目标/边界(knowledge_points)、教参重难点/典型错因/变式策略(teaching_reference);
-2. **确定性裁判门禁** —— 校验器拦截超纲数域、伪造知识点引用、缺讲稿、结构错误;
-3. **确定性渲染引擎** —— PptxGenJS 把课件 JSON 渲染成 16:9 可编辑 .pptx(防近视大字号、田字格/竖式/数轴/词卡等原生图形、讲稿进备注栏、练习自动升页+参考答案页)。
+2. **教学设计规范与门禁 (LessonPlan AST)** —— 大模型只需专注纯教学逻辑(教学目标、导入、探究、易错剖析、随堂练习、板书总结)，彻底脱离幻灯片物理坐标与排版束缚;
+3. **表现智能规划器 (PagePlanner)** —— 依据学段认知阶梯(防近视大字号、低密度)与学科策略(田字格、数轴模型、对话卡片)，自动执行容量评估拆页、练习与答案分离拆页，并装配 OpenXML 单击淡入时间线;
+4. **一键确定性渲染与严格几何体检** —— PptxGenJS 把 Presentation AST 渲染成 16:9 可编辑 .pptx，注入全屏单击动画，并通过 `--strict` 门禁保证 0 压盖、0 出界的工业级交付。
 
-你要做的事:取材 → 教学设计创作 → 写课件 JSON → 校验自愈 → 调渲染器。**不直接生成 pptx 二进制**。
+你要做的事:取材 → 编写教学设计 (LessonPlan AST) → 一键流水线构建交付。**不直接生成 pptx 二进制，不手写幻灯片坐标**。
 
 ## 标准五步工作流 (Standard 5-Step Loop)
 
@@ -24,21 +25,22 @@ Agent-Native 架构:**宿主大模型即教学设计与内容创作引擎**,本�
         │
 【Step 0 静默路由】识别 学科/年级/册次/单元/课时;先读 references/workflow.md
         │
-【Step 1 澄清】最多问 2 个问题(课时范围/风格偏好);能默认则默认
+【Step 1 澄清】最多问 2 个问题(课时范围/风格偏好);信息明确则直接默认推进
         │
 【Step 2 取材】node scripts/query_curriculum.js 拉取课时素材包(必做,禁止跳过)
         │
-【Step 3 创作】按 references/courseware-json.md 写 courseware.json
-        │        (教学目标/导入/新知分步/例题溯源/易错警示/分层练习/小结/板书/作业)
+【Step 3 创作教学设计】按 references/schemas/lesson-plan.schema.json 写 lesson_plan.json
+        │               (仅编写教学设计、情境设问、算理/字词/对话、典型错例、练习题与板书)
         │
-【Step 4 校验自愈】node scripts/validate_courseware.js;失败按修复提示定向修改,直至 pass
+【Step 4 一键流水线交付】node scripts/build_courseware.js --input <lesson_plan.json> --outdir output
+        │                 (自动全串联: 教学门禁 -> 容量规划 -> 表现门禁 -> 确定性渲染 -> 原生动效注入 -> 几何审计)
         │
-【Step 5 渲染交付】bash scripts/render_all.sh → .pptx;向教师报告页数/依据/注意事项
+【Step 5 汇报交付】向教师汇报课件页数、依据的教材知识点、各页原生单击分步动画与几何体检结果
         │
-【Step 6 迭代】改内容 = 先改 JSON → 重校验 → 重渲染(绝不手改 pptx)
+【Step 6 迭代】改内容 = 只修改 lesson_plan.json 对应教学字段 -> 重跑 Step 4(绝不手改 pptx)
 ```
 
-各步细则见 `references/workflow.md`;学科差异见 `references/{math,chinese,english}-rules.md`;动态演示与微课扩展规范见 `references/dynamic-media-architecture.md`。
+各步细则见 `references/workflow.md`;分层架构规范见 `references/modular-architecture.md`;学科差异见 `references/{math,chinese,english}-rules.md`;动态演示与微课扩展规范见 `references/dynamic-media-architecture.md`。
 
 ## 五条纪律(违反即返工)
 
@@ -60,4 +62,4 @@ Agent-Native 架构:**宿主大模型即教学设计与内容创作引擎**,本�
 
 ## 修订 (Revisions)
 
-教师要求修改时:**只改 courseware.json 中对应内容字段**(保持 slide_id/type 稳定),重跑 Step 4-5。所有页面由同一份 JSON 派生,不会出现"改了卷面忘了备注"的漂移。
+教师要求修改时:**只改 lesson_plan.json 中对应教学内容字段**(保持 phase_id 稳定),重跑 Step 4。所有幻灯片与时间线均由同一份教学设计自动派生,不会出现"改了卷面忘了备注或动效错乱"的漂移。

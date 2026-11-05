@@ -436,10 +436,10 @@ export async function renderPresentation(data, options = {}) {
 
         const bodyText = textCard?.properties?.body || "";
         const bodyLines = bodyText.split("\n").filter(Boolean).length;
-        const textFontSize = (bodyLines > 4 || bodyText.length > 50) ? 18 : (hasQs ? 20 : t.fontSize.body);
+        const textFontSize = (bodyLines > 3 || bodyText.length > 50) ? (themeName === "english" ? 16 : 18) : (hasQs ? 20 : t.fontSize.body);
 
         slide.addText([
-          { text: `${textCard?.properties?.title || "【精读赏析】"}\n\n`, options: { fontSize: hasQs ? 20 : t.fontSize.body_large, bold: true, color: t.primaryDark } },
+          { text: `${textCard?.properties?.title || "【精读赏析】"}\n\n`, options: { fontSize: textFontSize, bold: true, color: t.primaryDark } },
           { text: bodyText, options: { fontSize: textFontSize, color: t.ink } }
         ], {
           x: 1.1, y: CONTENT_TOP + 0.25, w: cardW - 0.6, h: textCardH - 0.35,
