@@ -9,6 +9,7 @@
  */
 
 import Ajv from "ajv";
+import { validateSlideMathSemantics } from "./math_solver.js";
 
 export const ENVELOPE_SCHEMA = {
   type: "object",
@@ -622,6 +623,22 @@ export function checkSemantics(data, unitMeta = null, knowledgePointIds = null, 
         }
       });
     }
+  }
+
+  // 6. 数学算式与答案语义正确性校验 (拦截大模型算错或逻辑矛盾)
+  if (meta.subject === "math") {
+    (data.slides || []).forEach(slide => {
+      const mathIssues = validateSlideMathSemantics(slide);
+      mathIssues.forEach(mi => {
+        issues.push(issue(
+          mi.code,
+          `数学教学语义错误: ${mi.message}`,
+          "error",
+          mi.slide_id,
+          "请核对题干算式与参考答案，杜绝计算错误与命题矛盾。"
+        ));
+      });
+    });
   }
 
   return issues;
