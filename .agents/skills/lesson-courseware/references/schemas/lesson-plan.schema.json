@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.teaching.org/v1/lesson-plan.schema.json",
+  "title": "LessonPlanAST",
+  "description": "小学课时教学计划内容抽象语法树契约 (v1.0.0) —— 纯教学内容与认知过程，不含任何展示坐标与样式",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "lesson_id",
+    "meta",
+    "objectives",
+    "teaching_sequence"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^1\\.\\d+\\.\\d+$",
+      "description": "契约大版本号，当前统一为 1.0.0"
+    },
+    "lesson_id": {
+      "type": "string",
+      "description": "标准课时全局唯一标识，如 mat-g3-t1-u04-l01"
+    },
+    "meta": {
+      "type": "object",
+      "required": [
+        "subject",
+        "grade",
+        "term",
+        "unit",
+        "topic",
+        "lesson_type",
+        "source_point_id"
+      ],
+      "properties": {
+        "subject": {
+          "type": "string",
+          "enum": ["math", "chinese", "english", "science"]
+        },
+        "grade": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "term": {
+          "type": "string",
+          "enum": ["term-1", "term-2"]
+        },
+        "unit": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 2
+        },
+        "lesson_type": {
+          "type": "string",
+          "enum": [
+            "concept_learning",
+            "practice_consolidation",
+            "unit_review",
+            "experiment_inquiry",
+            "reading_comprehension"
+          ]
+        },
+        "source_point_id": {
+          "type": "string",
+          "description": "关联的教材知识库知识点 ID"
+        },
+        "duration_minutes": {
+          "type": "integer",
+          "default": 40
+        }
+      },
+      "additionalProperties": false
+    },
+    "objectives": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "statement", "assessment"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^OBJ_\\d+$"
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 5
+          },
+          "assessment": {
+            "type": "string",
+            "minLength": 5
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "teaching_sequence": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "phase_id",
+          "phase_name",
+          "objective_ref",
+          "content_block",
+          "teacher_guidance"
+        ],
+        "properties": {
+          "phase_id": {
+            "type": "string",
+            "pattern": "^phase_[a-z0-9_]+$"
+          },
+          "phase_name": {
+            "type": "string"
+          },
+          "objective_ref": {
+            "type": "string",
+            "description": "指向 objectives 中的 id"
+          },
+          "content_block": {
+            "type": "object",
+            "required": ["type"],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "contextual_problem",
+                  "mathematical_reasoning",
+                  "text_reading",
+                  "character_writing",
+                  "vocabulary_focus",
+                  "worked_example",
+                  "misconception_analysis",
+                  "practice_challenge",
+                  "rule_summary"
+                ]
+              }
+            },
+            "additionalProperties": true
+          },
+          "student_action": {
+            "type": "string"
+          },
+          "teacher_guidance": {
+            "type": "string",
+            "minLength": 5
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

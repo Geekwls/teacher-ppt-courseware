@@ -572,6 +572,7 @@ export function renderExample(slide, pptx, s, ctx) {
   // 答语卡片 (绿色优雅高亮面板)
   if (answer) {
     const cleanAns = String(answer).replace(/^答[:：]?\s*/, '');
+    const ansFontSize = hasFig ? Math.min(body, 18) : body;
     slide.addText(`答：${cleanAns}`, {
       x: sx,
       y: CONTENT_BOTTOM - 0.72,
@@ -581,7 +582,7 @@ export function renderExample(slide, pptx, s, ctx) {
       line: { color: t.good, width: 1.2 },
       shadow: CARD_SHADOW,
       shape: pptx.shapes.ROUNDED_RECTANGLE,
-      fontSize: body,
+      fontSize: ansFontSize,
       bold: true,
       color: SEMANTIC.goodInk,
       valign: "middle",

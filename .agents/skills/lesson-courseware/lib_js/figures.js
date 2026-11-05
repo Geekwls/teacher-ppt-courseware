@@ -156,12 +156,14 @@ function renderVerticalCalc(slide, pptx, fig, box, theme) {
   }
 }
 
-function renderNumberLine(slide, pptx, fig, box, theme) {
+export function renderNumberLine(slide, pptx, fig, box, theme) {
   const [x, y, w, h] = box;
   const start = parseInt(fig.start, 10);
   const end = parseInt(fig.end, 10);
   const step = parseInt(fig.step || 1, 10);
   if (end <= start || step <= 0) return;
+
+  const figId = fig.id || fig.element_id || "nl_math_model";
 
   const ticks = [];
   for (let v = start; v <= end; v += step) ticks.push(v);
@@ -175,6 +177,7 @@ function renderNumberLine(slide, pptx, fig, box, theme) {
 
   // 主轴横线
   slide.addShape(pptx.shapes.LINE, {
+    objectName: `${figId}.axis`,
     x: x0 - 0.25,
     y: lineY,
     w: (x1 - x0) + 0.5,
@@ -230,7 +233,7 @@ function renderNumberLine(slide, pptx, fig, box, theme) {
 
   // 跳跃弧线 (Jump Arcs) 过程推演演示
   if (Array.isArray(fig.arcs)) {
-    fig.arcs.forEach(arc => {
+    fig.arcs.forEach((arc, arcIdx) => {
       const fromVal = parseInt(arc.from, 10);
       const toVal = parseInt(arc.to, 10);
       if (isNaN(fromVal) || isNaN(toVal) || fromVal === toVal) return;
@@ -244,9 +247,12 @@ function renderNumberLine(slide, pptx, fig, box, theme) {
       const arcW = ax2 - ax1;
       const arcH = Math.min(0.55, Math.max(0.24, arcW * 0.4));
       const arcY = lineY - arcH;
+      const arcId = arc.id || `arc_${arcIdx + 1}`;
+      const targetId = `${figId}.${arcId}`;
 
       // 弧线 (使用 ARC 拱形)
       slide.addShape(pptx.shapes.ARC, {
+        objectName: targetId,
         x: ax1,
         y: arcY,
         w: arcW,
@@ -257,6 +263,7 @@ function renderNumberLine(slide, pptx, fig, box, theme) {
       // 步长说明 (如 "+2", "第1次")
       const labelText = arc.label || (toVal > fromVal ? `+${toVal - fromVal}` : `${toVal - fromVal}`);
       slide.addText(labelText, {
+        objectName: `${targetId}_label`,
         x: ax1,
         y: arcY - 0.28,
         w: arcW,

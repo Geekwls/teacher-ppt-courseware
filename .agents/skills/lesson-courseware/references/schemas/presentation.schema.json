@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.teaching.org/v1/presentation.schema.json",
+  "title": "PresentationAST",
+  "description": "课件表现层抽象语法树契约 (v1.0.0) —— 结构化页面、图元对象、布局卡槽与显式动画时间线",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "deck_meta",
+    "slides"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^1\\.\\d+\\.\\d+$"
+    },
+    "deck_meta": {
+      "type": "object",
+      "required": ["source_lesson_id", "theme", "aspect_ratio"],
+      "properties": {
+        "source_lesson_id": { "type": "string" },
+        "theme": { "type": "string" },
+        "aspect_ratio": { "type": "string", "enum": ["16:9", "4:3"] }
+      },
+      "additionalProperties": false
+    },
+    "slides": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["slide_id", "layout", "elements", "timeline", "notes"],
+        "properties": {
+          "slide_id": {
+            "type": "string",
+            "pattern": "^slide_[a-z0-9_]+$"
+          },
+          "phase_ref": {
+            "type": "string"
+          },
+          "layout": {
+            "type": "string",
+            "enum": [
+              "title_cover",
+              "objectives_card",
+              "context_problem",
+              "model_left_reasoning_right",
+              "example_step_by_step",
+              "misconception_split",
+              "practice_list",
+              "answer_reveal_list",
+              "reading_focus",
+              "character_practice",
+              "summary_card",
+              "board_design",
+              "homework_card",
+              "end_cover"
+            ]
+          },
+          "elements": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["id", "type", "properties"],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9_]+$"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "title",
+                    "subtitle",
+                    "text_card",
+                    "equation",
+                    "figure_number_line",
+                    "figure_tianzige",
+                    "card_list",
+                    "conclusion_banner",
+                    "practice_list",
+                    "answer_feedback"
+                  ]
+                },
+                "properties": {
+                  "type": "object"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "timeline": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["step", "action", "target"],
+              "properties": {
+                "step": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "action": {
+                  "type": "string",
+                  "enum": ["show", "reveal", "hide"]
+                },
+                "target": {
+                  "type": "string",
+                  "description": "指向 elements 中的 id，或者元素子图元 id (如 nl_01.arc_1)"
+                },
+                "visible": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "notes": {
+            "type": "string",
+            "minLength": 5,
+            "description": "教师授课讲稿，将写入 PPT 备注栏"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -21,7 +21,7 @@ export const REVEAL_PREFIX = "REVEAL_";
 export const DEFAULT_MAX_STEPS = 6;
 
 // 封面与结束页是整页呈现, 不做分步
-const FRAME_PAGE_TYPES = new Set(["cover", "end"]);
+const FRAME_PAGE_TYPES = new Set(["cover", "end", "title_cover", "end_cover"]);
 
 /** 解析形状名里的步骤编号: REVEAL_2_3 -> { step: 2, idx: 3 } */
 export function parseRevealName(name) {
@@ -101,6 +101,75 @@ export function annotateRevealSteps(slide, opts = {}) {
   }
 
   if (!allContentItems.length) return { steps: 0, shapes: 0, mode: "auto", sizes: [] };
+
+  // =========================================================================
+  // 教学感知策略 0 (最高优先级): 显式 Timeline 驱动 —— 契约中声明了精确时序
+  // =========================================================================
+  if (Array.isArray(opts.timeline) && opts.timeline.length > 0) {
+    const revealSteps = opts.timeline.filter(t => t.step >= 1 && (t.action === "reveal" || !t.action));
+    if (revealSteps.length === 0) {
+      // 全页元素均为 step 0 (常驻显示), 无分步动作
+      return { steps: 0, shapes: 0, mode: "timeline", sizes: [] };
+    }
+    if (revealSteps.length > 0) {
+      const byStep = new Map();
+      revealSteps.forEach(t => {
+        if (!byStep.has(t.step)) byStep.set(t.step, []);
+        byStep.get(t.step).push(t.target);
+      });
+
+      const sortedSteps = [...byStep.keys()].sort((a, b) => a - b);
+      let markedCount = 0;
+      const stepSizes = [];
+
+      sortedSteps.forEach((stepNum, stepIdx) => {
+        const targets = byStep.get(stepNum);
+        let subIdx = 0;
+
+        allContentItems.forEach(it => {
+          const objName = String(it.obj?.options?.objectName || "");
+          const customId = String(it.obj?.options?.customTargetId || "");
+          const text = it.text;
+
+          const isMatch = targets.some(tgt => {
+            if (objName && (objName === tgt || objName.startsWith(tgt + "_") || objName.startsWith(tgt + "."))) return true;
+            if (customId && (customId === tgt || customId.startsWith(tgt + "_") || customId.startsWith(tgt + "."))) return true;
+            if (tgt.endsWith(".explanation") && (text.includes("★ 参考答案") || text.includes("参考答案"))) {
+              const qNumMatch = tgt.match(/ans_item_(\d+)/);
+              if (qNumMatch && text.includes(`题 ${qNumMatch[1]}`)) return true;
+              return true;
+            }
+            if (tgt === "banner_conclusion" && (text.includes("★ 核心规律") || text.includes("★ 规律发现") || text.includes("★核心规律"))) return true;
+            if (tgt === "card_correct" && (text.includes("✓ 正解") || text.includes("✓正解"))) return true;
+            if (tgt === "card_cause" && (text.includes("【病因诊断】") || text.includes("病因诊断"))) return true;
+            if (tgt === "card_reasoning" && (text.includes("①") || text.includes("②") || text.includes("③") || text.includes("想："))) return true;
+            if (tgt === "card_ex_steps" && (text.includes("20 × 3") || text.includes("200 × 3") || text.includes("2000 × 3"))) return true;
+            if (tgt === "ans_ex_feedback" && (text.includes("答：") || text.includes("答:"))) return true;
+            if (tgt === "card_obj_list" && (text.includes("1.") || text.includes("2.") || text.includes("3."))) return true;
+            if (tgt === "card_sum_list" && (text.includes("一看") || text.includes("二算") || text.includes("三添"))) return true;
+            if (tgt === "eq_warmup" && (text.includes("20 + 20") || text.includes("20 × 3"))) return true;
+            return false;
+          });
+
+          if (isMatch) {
+            it.obj.options = it.obj.options || {};
+            it.obj.options.objectName = `${REVEAL_PREFIX}${stepIdx + 1}_${subIdx++}`;
+            markedCount++;
+          }
+        });
+        stepSizes.push(subIdx);
+      });
+
+      if (markedCount > 0) {
+        return {
+          steps: sortedSteps.length,
+          shapes: markedCount,
+          mode: "timeline",
+          sizes: stepSizes
+        };
+      }
+    }
+  }
 
   // =========================================================================
   // 教学感知策略 1: 参考答案页 (answer) —— 题目常驻，仅答案逐题点击揭晓
