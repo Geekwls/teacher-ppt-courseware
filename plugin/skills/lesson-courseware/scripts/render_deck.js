@@ -20,6 +20,7 @@ import { LAYOUTS, renderAnswerPage } from "../lib_js/layouts.js";
 import { injectSlideTransitions } from "../lib_js/deck_transition.js";
 import { auditDeck } from "../lib_js/layout_audit.js";
 import { annotateRevealSteps } from "../lib_js/reveal_steps.js";
+import { prepareSlideAnimations, strictHardFailure } from "../lib_js/animation_prep.js";
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -87,6 +88,20 @@ async function main() {
 
   // 解析 学科 x 学段 动态主题与字号体系
   const t = resolveTheme(themeName, meta.grade || 3, meta.style || "standard");
+
+  // 算理动画预生成: animation 图元现场合成 mp4 并注入 path (带幂等缓存与降级)
+  const animReport = await prepareSlideAnimations(data, { outdir, strict });
+  if (animReport.total > 0) {
+    const act = animReport.items.reduce((m, it) => ((m[it.action] = (m[it.action] || 0) + 1), m), {});
+    console.log(`[render_deck] 算理动画: 共 ${animReport.total} 个 -> 合成 ${animReport.generated} / 缓存 ${animReport.cached} / 复用 ${animReport.reusedExisting} / 降级 ${animReport.fallback}${animReport.mathErrors ? ` / 数学门禁拒绝 ${animReport.mathErrors}` : ""}`);
+    for (const [k, v] of Object.entries(act)) {
+      if (k === "fallback") {
+        const item = animReport.items.find(it => it.action === "fallback");
+        console.warn(`    [fallback] P${item.slide}: ${item.error}`);
+      }
+    }
+  }
+
   let pageNo = 0;
   let totalRendered = 0;
   const slideLabels = [];
@@ -173,6 +188,7 @@ async function main() {
   // 注入全屏转场 + 单击逐步出现动效, 并回读校验 OOXML 顺序
   const revealReport = injectSlideTransitions(pptxOutPath, "fade") || {};
   audit.reveal = { ...revealReport, perSlideMarks: revealStats };
+  audit.animations = animReport;
 
   // 同步复制 JSON 副本到输出目录
   const jsonOutPath = path.join(outdir, `${baseTitle}.json`);
@@ -198,6 +214,13 @@ async function main() {
 
   if (strict && (audit.summary.critical > 0 || revealReport.orderValid === false)) {
     console.error(`[render_deck] --strict: 存在 ${audit.summary.critical} 项严重几何问题或动效顺序不合规, 拒绝交付。`);
+    process.exit(1);
+  }
+
+  // strict 最终裁决: 算理动画数学门禁失败一票否决 (绝不交付含错误算理的课件)
+  const hardFail = strictHardFailure(animReport);
+  if (strict && hardFail) {
+    console.error(`[render_deck] --strict: P${hardFail.slide} 算理动画参数未过数学门禁 (${hardFail.error}), 拒绝交付。`);
     process.exit(1);
   }
 }
