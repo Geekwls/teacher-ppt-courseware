@@ -20,7 +20,7 @@ curriculum/primary-{math,chinese,english}/grade-N-term-{1,2}/unit-XX/
 
 ## 查询工具
 
-唯一入口 `scripts/query_curriculum.py`(支持 --prompt 自然语言 / 结构化参数 / --list-units / --search)。返回单一 JSON:
+唯一入口 `scripts/query_curriculum.js`(支持 --prompt 自然语言 / 结构化参数 / --list-units / --search)。返回单一 JSON:
 - `status=ok`:直接使用;
 - `status=need_clarification`:带 candidates/missing_fields,向教师确认后重查;
 - `status=not_found`:知识库未覆盖,如实说明,不得用训练知识冒充教材内容并标 verified。

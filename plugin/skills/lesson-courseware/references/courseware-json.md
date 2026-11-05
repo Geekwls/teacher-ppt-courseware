@@ -40,7 +40,7 @@
 | `concept` | 新知讲解(分步) | steps(3~5步) | **必填**。另可选 `callout`(关键结论高亮框) |
 | `example` | 教材例题 | problem, solution_steps(2~5步), answer | **必填** |
 | `misconception` | 易错警示 | wrong(错例), reason(错因), correct(正解) | **必填** |
-| `practice` | 课堂练习 | items(3~6题,每题 stem+answer) | **必填**。`show_answers:false`(默认)时渲染器自动追加答案页 |
+| `practice` | 课堂练习 | items(1~6题,每题 stem+answer) | **必填**。若 `interaction_mode:"instant"` 为单题即时互动页(左题右答、单击揭晓答案、不追加冗余页)；默认多题模式下渲染器自动追加参考答案页 |
 | `summary` | 课堂小结 | items(2~4条) | **必填** |
 | `board` | 板书设计 | content(多行文本,\n 换行) | 可选 |
 | `homework` | 作业布置 | items(2~4条) | **必填** |
@@ -61,29 +61,36 @@ practice 条目:`{"stem": "...", "options": ["A.1","B.2"], "answer": "B", "sourc
 
 | kind | 参数 | 用途 |
 |---|---|---|
-| `vertical_calc` | operand_a, operand_b, operator(+ - × ÷), result?, show_result? | 数学竖式(数位对齐) |
-| `number_line` | start, end, step, marks?, label? | 数轴 |
+| `vertical_calc` | operand_a, operand_b, operator(+ - × ÷), result?, show_result?, carries? | 数学竖式(数位对齐、支持进位/退位小数字标注) |
+| `number_line` | start, end, step, marks?, label?, arcs?[{from, to, label?}] | 数轴(支持跳跃推演拱形弧线与步长标注) |
 | `tianzige` | chars(≤6字), pinyin?(与 chars 等长) | 语文田字格生字 |
 | `pinyin_line` | pairs:[{pinyin, char}](≤12对) | 拼音上行汉字下行 |
 | `word_card` | cards:[{word, phonetic?, meaning?}](≤8张) | 英语词卡 |
 | `dialog_bubble` | lines:[{speaker, text}](≤8句) | 英语情景对话 |
 | `place_value` | digits:{thousands?,hundreds?,tens?,ones}, label? | 数位表(数学数形结合) |
 | `table` | headers[], rows[][](≤8行,列数一致) | 价目表/统计表 |
+| `media` | title?, type?(video/audio), path?, duration?, link?, prompt?, cover? | 趣味微课/操作视频/课文朗读音频(本地 mp4 原生嵌入; `cover` 可指定封面图, 默认用主题浅色) |
+| `animation` | animation_type(number_line_jump/vertical_calc_flow), parameters, title?, prompt?, conclusion?, path? | 动态演示: 填 `path` 指向已生成的 mp4 时可嵌入; 未填时如实渲染为「静态演示要点卡」, 不会伪装成可播放视频 |
 
 例:
 ```json
-{"kind": "vertical_calc", "operand_a": 20, "operand_b": 3, "operator": "×", "result": 60, "show_result": true}
+{"kind": "vertical_calc", "operand_a": 28, "operand_b": 3, "operator": "×", "result": 84, "show_result": true, "carries": {"1": 2}}
+{"kind": "number_line", "start": 0, "end": 60, "step": 10, "marks": [0, 20, 40, 60], "arcs": [{"from": 0, "to": 20, "label": "+20"}, {"from": 20, "to": 40, "label": "+20"}]}
 {"kind": "tianzige", "chars": ["金", "色"], "pinyin": ["jīn", "sè"]}
 {"kind": "dialog_bubble", "lines": [{"speaker": "A", "text": "What's your father's job?"}, {"speaker": "B", "text": "He's a doctor."}]}
+{"kind": "media", "type": "video", "title": "【操作微课】折纸认识分数", "duration": "01:30", "link": "https://example.com/video", "prompt": "观察折纸对折的方法与重合特点"}
 ```
 
 ## 硬性门禁(校验器一票否决)
 
-1. **知识点白名单**:所有 point_id 只能取自 query_curriculum.py 返回的本单元素材
-2. **数域上界**(数学):图元/练习题干与答案中出现的数不得超过 unit.numeric_upper_bound
-3. **页码范围**:source.textbook_page 必须落在单元 page_range 内
-4. **讲稿完备**:内容页 notes 非空
-5. **结构合法**:类型/字段按本契约;实质内容页(目标/导入/新知/例题/练习/小结等)≥4
+1. **知识点白名单**:所有 point_id 只能取自 `query_curriculum.js` 返回的本单元素材
+2. **数域上界**(数学):**全部卷面字段**(图元/算理步骤/例题/易错/板书/结论/练习)中的数均不得超过 `unit.numeric_upper_bound`;讲稿中的疑似超纲数降为 warning(避免页码、步骤编号误报)
+3. **教学边界红线**:`teaching_boundary.scope_excluded` 对卷面文本生效;页面未写 `source` 时按全单元红线兜底
+4. **页码范围**:source.textbook_page 必须落在单元 page_range 内
+5. **讲稿完备**:内容页 notes 非空且不少于 20 字(warning);整页内容重复会告警
+6. **结构合法**:页面字段按本契约白名单(`slides.items` schema),自创字段会被拒;实质内容页 ≥4
+7. **知识库可达**:知识库定位失败时 **fail-closed 判 fail**,不再静默跳过 Tier2/3
+8. **渲染几何体检**:渲染后输出 `<标题>.audit.json`,检测画布越界、文字裁切、文本压盖、参考答案缺题;`--strict` 下 critical 直接拒绝交付
 
 ## 修改与迭代
 

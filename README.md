@@ -26,16 +26,18 @@
 +---------------------------------------------------------------------+
                                   │
 +---------------------------------------------------------------------+
-| 3. 确定性裁判门禁 (scripts/validate_courseware.py)                    |
-|    Tier1 结构Schema/讲稿完备 · Tier2 知识点白名单/课时归属             |
-|    Tier3 数域上界拦截(数学)/教材页码范围核验 —— 一票否决+定向自愈      |
+| 3. 确定性裁判门禁 (plugin/skills/.../scripts/validate_courseware.js)  |
+|    Tier1 结构Schema/页面字段白名单/讲稿完备 · Tier2 知识点白名单/课时   |
+|    Tier3 数域上界(全卷面字段)/页码/教学边界红线 —— 一票否决+定向自愈    |
+|    知识库定位失败 fail-closed;--quiet 不隐藏 warnings                   |
 +---------------------------------------------------------------------+
                                   │
 +---------------------------------------------------------------------+
-| 4. 确定性渲染引擎 (scripts/render_deck.py + lib/)                     |
-|    python-pptx 原生形状:封面/目标/分步新知/例题卡/易错三段/练习         |
+| 4. 确定性渲染引擎 (scripts/render_deck.js + lib_js/, PptxGenJS)       |
+|    原生形状:封面/目标/分步新知/例题卡/易错三段/练习/板书/小结           |
 |    田字格·拼音行·竖式·数轴·数位表·词卡·对话气泡 · 防近视大字号          |
-|    讲稿进备注栏;练习自动升页+自动参考答案页;partial 状态页脚如实提示    |
+|    讲稿进备注栏;练习自动生成参考答案页;partial 状态页脚如实提示         |
+|    渲染后输出 .audit.json 几何体检(越界/裁切/压盖/答案缺题),--strict    |
 +---------------------------------------------------------------------+
 ```
 
@@ -47,73 +49,51 @@
 ```
 teacher-ppt-courseware/
 ├── AGENTS.md                           # 所有 Agent 的通用入口(项目说明+纪律+命令速查)
-├── .claude-plugin/marketplace.json     # 插件市场清单(仿 k12)
 ├── plugin/
-│   ├── .claude-plugin/plugin.json
 │   ├── knowledge/                      # 【独立】人教版五层知识库(vendored)
 │   └── skills/lesson-courseware/
 │       ├── SKILL.md                    # 入口:五步工作流 + 五条纪律
 │       ├── references/                 # workflow / courseware-json 契约 / 三科规则 / 知识库规范
-│       ├── rendering/pptx.md           # 渲染入口(禁止阅读渲染器源码)
+│       ├── rendering/pptx.md           # 渲染入口(禁止为迁就单次生成改渲染器)
 │       ├── scripts/                    # query_curriculum / validate_courseware / render_all / render_deck
-│       └── lib/                        # deck_schema 契约校验 / theme / layouts / figures / kb_locate
+│       └── lib_js/                     # deck_schema / theme / layouts / figures / kb_locate / layout_audit
 ├── evals/                              # LLM-as-judge 评测协议 + rubric CSV(shared+三科)
 ├── acceptance/                         # 三科金样 courseware.json + cases.yaml(只读)
-├── scripts/                            # run_acceptance.py / install_skill.py
-└── tests/                              # pytest(结构校验/查询/渲染/几何边界)
+├── scripts/                            # run_acceptance.js / install_skill.js
+└── package.json                        # 纯 Node.js 现代全栈依赖 (PptxGenJS, ajv, js-yaml)
 ```
 
 ## 三、安装与使用
 
-> 所有 Agent 均可使用:仓库根的 **[AGENTS.md](AGENTS.md)** 是通用入口(Codex / Gemini CLI / Cursor /
-> Copilot / Zed / Devin 等开机自动读取),指向标准 SKILL.md 与可独立执行的脚本;
+> 所有 Agent 均可使用: 仓库根的 **[AGENTS.md](AGENTS.md)** 是通用入口(Codex / Gemini CLI / Cursor /
+> Copilot / Zed / Antigravity 等开机自动读取), 指向标准 SKILL.md 与可独立执行的脚本;
 > Skill 采用 Agent Skills 开放标准(`SKILL.md` 目录)。
 
 | 使用环境 | 发现机制 | 说明 |
 |---|---|---|
-| Claude Code / ZCode | 插件市场(`.claude-plugin/`)或 `.claude/skills/` | 自动触发技能 |
 | Codex / Antigravity | `.agents/skills/`(共享约定) | 自动发现 |
-| 其他 Agent(含网页/托管 agent) | 读 `AGENTS.md` → 按 SKILL.md 工作流调用脚本 | 无需技能发现能力,能读文件跑命令即可 |
-| 人(无 Agent) | 直接跑三科金样 + 改 JSON 重渲染 | `scripts/run_acceptance.py` |
+| 其他 Agent(含网页/托管 agent) | 读 `AGENTS.md` → 按 SKILL.md 工作流调用脚本 | 无需技能发现能力, 能读文件跑命令即可 |
+| 人(无 Agent) | 直接跑三科金样 + 改 JSON 重渲染 | `npm test` 或 `node scripts/run_acceptance.js` |
 
 ### 同步安装(把正本刷到各发现目录)
 
 ```bash
-python scripts/install_skill.py                  # 项目级:.agents/skills/ + .claude/skills/
-python scripts/install_skill.py --user           # 用户级:~/.agents/skills/ + ~/.claude/skills/(所有项目可用)
-python scripts/install_skill.py --dirs agents    # 只同步指定目录(agents|claude)
-python scripts/install_skill.py --target <dir>   # 安装到其他项目根
-python scripts/install_skill.py --check          # 校验全部目标与正本零漂移
+node scripts/install_skill.js                  # 项目级: .agents/skills/
+node scripts/install_skill.js --user           # 用户级: ~/.agents/skills/ (所有项目可用)
+node scripts/install_skill.js --target <dir>   # 安装到其他项目根
+node scripts/install_skill.js --check          # 校验全部目标与正本零漂移
 ```
 
 跨项目/用户级安装时知识库通过 `COURSEWARE_KNOWLEDGE_DIR` 环境变量指向本仓库 `plugin/knowledge/`
-(或整仓克隆,kb_locate 会自动向上查找)。
-
-### 方式 A:Claude Code / ZCode(插件市场)
-
-```bash
-# 从 GitHub 直接安装
-claude plugin marketplace add Geekwls/teacher-ppt-courseware
-claude plugin install teacher-ppt-courseware@teacher-ppt-courseware
-
-# 或本地克隆后安装
-git clone https://github.com/Geekwls/teacher-ppt-courseware
-claude plugin marketplace add ./teacher-ppt-courseware
-claude plugin install teacher-ppt-courseware@teacher-ppt-courseware
-```
-
-装好后直接对话:"帮我做三年级上册数学第四单元第1课时的课件"。
-
-### 方式 B:Codex / Antigravity(.agents 同步)
-
-```bash
-python scripts/install_skill.py --dirs agents   # 同步到 .agents/skills/
-python scripts/install_skill.py --check         # 校验零差异同构
-```
+(或整仓克隆, kb_locate 会自动向上查找)。
 
 ### 依赖
 
-Python 3.10+;`pip install -r requirements.txt`(python-pptx / PyYAML / jsonschema)。
+Node.js 18+; 执行 `npm install` 安装依赖 (`pptxgenjs`, `ajv`, `js-yaml`)。
+
+字体:渲染时会探测本机实际可用的中文字体名写入 pptx,避免未装「微软雅黑」时
+PowerPoint / LibreOffice 二次回退造成排版错位。需要严格「同输入恒同输出」时,
+用 `COURSEWARE_FONT=Microsoft YaHei` 固定字体名。
 
 ## 四、老师怎么用(示例指令)
 
@@ -129,21 +109,28 @@ Python 3.10+;`pip install -r requirements.txt`(python-pptx / PyYAML / jsonschema
 
 | 门禁 | 拦截内容 |
 |---|---|
-| Tier 1 | Schema 违规、未知页型、缺必填字段、缺讲稿、slide_id 重复、图元参数错误、内容页过少 |
-| Tier 2 | 引用素材包外知识点(KP_NOT_IN_UNIT)、lesson_id 不属于本单元 |
-| Tier 3 | 数学数字超数域上界(NUMBER_OVER_BOUND)、溯源页码越出单元范围(PAGE_OUT_OF_RANGE) |
+| Tier 1 | Schema 违规、页面级自创字段、未知页型、缺必填字段、缺讲稿/讲稿过短、slide_id 重复、整页内容重复、图元参数错误、答案不在选项中、内容页过少 |
+| Tier 2 | 引用素材包外知识点(KP_NOT_IN_UNIT)、lesson_id 不属于本单元、知识库定位失败(KB_LOCATE_FAILED, fail-closed) |
+| Tier 3 | 数学数字超数域上界(NUMBER_OVER_BOUND, 覆盖全部卷面字段)、溯源页码越界(PAGE_OUT_OF_RANGE)、教学边界红线(SCOPE_EXCLUDED_VIOLATION, 未写 source 也有全单元兜底) |
+| 渲染后 | `.audit.json` 几何体检:画布越界、文字溢出裁切、文本互相压盖、参考答案缺题;`--strict` 下 critical 拒绝交付 |
+
+`--quiet` 只精简修复提示,**不会隐藏 warnings**(如媒体文件缺失、动态媒体未接入、讲稿中的疑似超纲数)。
 
 核验状态如实呈现:verified 可放心使用;partial 渲染时页脚自动附"使用前请核对"。
 
 ## 六、验证与验收
 
 ```bash
-python -m pytest tests/ -q          # 35 项单元测试
-python scripts/run_acceptance.py    # 三科金样端到端:校验→渲染→结构断言→报告
+npm test                              # 三科金样端到端:校验→渲染→几何审计→结构断言→报告
+# 等价: node scripts/run_acceptance.js
+bash plugin/skills/lesson-courseware/scripts/render_all.sh <courseware.json> <输出目录>
 ```
 
-三科金样(数学口算乘法 / 语文第5课 / 英语 Part A)全部通过:
-校验 pass、页数 15~16、关键内容齐全、讲稿覆盖、零画布越界;报告在 `output/reports/acceptance-report.md`。
+`npm test` 对每个金样断言:页数(与渲染器的自动答案页条件一致)、关键内容、
+**几何审计 0 critical**、**参考答案完整覆盖**、**讲稿确实写进 PPT 备注栏**。
+报告在 `output/reports/acceptance-report.md`。
+
+> 当前仓库**没有独立单元测试套件**,`npm test` 即端到端验收;新增渲染规则建议同步补金样用例。
 
 > 边界声明:自动化门禁只判定"可结构化"的项目;课件内容的教学正确性须经教师人工审核。
 > 本项目与原练习生成项目共用一套诚实原则:**绝不把"生成成功"当作"内容正确"**。

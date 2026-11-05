@@ -13,7 +13,7 @@ description: >-
 Agent-Native 架构:**宿主大模型即教学设计与内容创作引擎**,本工程提供三样东西:
 1. **教材证据提供者** —— 五层知识库:教材例题原文(lessons)、知识点/教学目标/边界(knowledge_points)、教参重难点/典型错因/变式策略(teaching_reference);
 2. **确定性裁判门禁** —— 校验器拦截超纲数域、伪造知识点引用、缺讲稿、结构错误;
-3. **确定性渲染引擎** —— python-pptx 把课件 JSON 渲染成 16:9 可编辑 .pptx(防近视大字号、田字格/竖式/数轴/词卡等原生图形、讲稿进备注栏、练习自动升页+参考答案页)。
+3. **确定性渲染引擎** —— PptxGenJS 把课件 JSON 渲染成 16:9 可编辑 .pptx(防近视大字号、田字格/竖式/数轴/词卡等原生图形、讲稿进备注栏、练习自动升页+参考答案页)。
 
 你要做的事:取材 → 教学设计创作 → 写课件 JSON → 校验自愈 → 调渲染器。**不直接生成 pptx 二进制**。
 
@@ -26,23 +26,23 @@ Agent-Native 架构:**宿主大模型即教学设计与内容创作引擎**,本�
         │
 【Step 1 澄清】最多问 2 个问题(课时范围/风格偏好);能默认则默认
         │
-【Step 2 取材】python scripts/query_curriculum.py 拉取课时素材包(必做,禁止跳过)
+【Step 2 取材】node scripts/query_curriculum.js 拉取课时素材包(必做,禁止跳过)
         │
 【Step 3 创作】按 references/courseware-json.md 写 courseware.json
         │        (教学目标/导入/新知分步/例题溯源/易错警示/分层练习/小结/板书/作业)
         │
-【Step 4 校验自愈】python scripts/validate_courseware.py;失败按修复提示定向修改,直至 pass
+【Step 4 校验自愈】node scripts/validate_courseware.js;失败按修复提示定向修改,直至 pass
         │
 【Step 5 渲染交付】bash scripts/render_all.sh → .pptx;向教师报告页数/依据/注意事项
         │
 【Step 6 迭代】改内容 = 先改 JSON → 重校验 → 重渲染(绝不手改 pptx)
 ```
 
-各步细则见 `references/workflow.md`;学科差异见 `references/{math,chinese,english}-rules.md`。
+各步细则见 `references/workflow.md`;学科差异见 `references/{math,chinese,english}-rules.md`;动态演示与微课扩展规范见 `references/dynamic-media-architecture.md`。
 
 ## 五条纪律(违反即返工)
 
-1. **先取材,后创作**:Step 2 没跑 query_curriculum.py 就动笔,是本技能的第一失败模式。课件的例题、重难点、易错点必须来自素材包,并逐页用 `source.point_id` 溯源。
+1. **先取材,后创作**:Step 2 没跑 query_curriculum.js 就动笔,是本技能的第一失败模式。课件的例题、重难点、易错点必须来自素材包,并逐页用 `source.point_id` 溯源。
 2. **不超纲**:数学一切数字受单元数域上界约束;三科内容都不得越过 knowledge_points 的 teaching_boundary.scope_excluded;素材没给的后续知识(如下一章公式)不得提前出现。
 3. **讲稿完备**:每个内容页 notes 写"课堂上实际要说的话与提问",渲染进备注栏,教师拿去能直接上课。缺 notes 校验器一票否决。
 4. **如实标注证据**:curriculum_status 如实引用素材包值;verified/partial 的差异要告知教师;绝不虚构教材页码——写不准就不写页码。

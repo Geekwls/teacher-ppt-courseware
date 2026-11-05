@@ -1,0 +1,30 @@
+{
+  "name": "teacher-ppt-courseware",
+  "version": "1.0.0",
+  "description": "> **一句话定位**:老师对 AI 助手说一句\"帮我做三年级上册数学第四单元第1课时的课件\", > 得到一份可直接放映、可继续编辑的 `.pptx`——例题有教材页码、易错点有教参依据、 > 练习带参考答案页、每页备注栏里有讲稿。 > > **架构借鉴** [anthropics/k12-teacher-skills](https://github.com/anthropics/k12-teacher-skills), > 内容底座复用同工作区 `primary-school-practice-skill` 的人教版五层教材知识库,详见 [NOTICE.md](NOTICE.md)。",
+  "scripts": {
+    "query": "node plugin/skills/lesson-courseware/scripts/query_curriculum.js",
+    "validate": "node plugin/skills/lesson-courseware/scripts/validate_courseware.js",
+    "render": "node plugin/skills/lesson-courseware/scripts/render_deck.js",
+    "acceptance": "node scripts/run_acceptance.js",
+    "install-skill": "node scripts/install_skill.js",
+    "test": "node scripts/run_acceptance.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geekwls/teacher-ppt-courseware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Geekwls/teacher-ppt-courseware/issues"
+  },
+  "homepage": "https://github.com/Geekwls/teacher-ppt-courseware#readme",
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "js-yaml": "^5.5.0",
+    "pptxgenjs": "^4.0.1"
+  }
+}

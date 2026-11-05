@@ -21,9 +21,9 @@
 
 ```bash
 cd <skill目录>/plugin/skills/lesson-courseware   # 即本 references 的上级目录
-python scripts/query_curriculum.py --prompt "三年级上册数学第四单元第1课时"
+node scripts/query_curriculum.js --prompt "三年级上册数学第四单元第1课时"
 # 或结构化参数
-python scripts/query_curriculum.py --subject math --grade 3 --term term-1 --unit unit-4 --lesson 1
+node scripts/query_curriculum.js --subject math --grade 3 --term term-1 --unit unit-4 --lesson 1
 ```
 
 素材包字段速览:
@@ -55,7 +55,7 @@ cover → objectives(3条) → warmup(复习/情境导入)
 ## Step 4 —— 校验自愈
 
 ```bash
-python scripts/validate_courseware.py --input <courseware.json>
+node scripts/validate_courseware.js --input <courseware.json>
 ```
 
 按 `errors[].code` 定向修复:KP_NOT_IN_UNIT=换了素材包没有的知识点;NUMBER_OVER_BOUND=数字超纲,改数;MISSING_NOTES=补讲稿;PRACTICE_ITEM_INCOMPLETE=补答案。**只改内容字段,不动 slide_id/type**。修完重跑,直至 `"status": "pass"`。

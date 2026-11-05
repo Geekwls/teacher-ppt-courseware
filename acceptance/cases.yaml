@@ -1,5 +1,5 @@
-# 端到端验收场景(只读输入;运行 scripts/run_acceptance.py 执行)
-# 每个用例: 校验三层门禁 → 渲染 → 结构断言(页数/讲稿/答案页)
+# 端到端验收场景(只读输入;运行 node scripts/run_acceptance.js 执行)
+# 每个用例: 校验三层门禁 → 渲染 → 结构断言(页数/关键内容/几何审计/答案完整/讲稿备注)
 cases:
   - case_id: math-g3-u04-l01
     subject: math
