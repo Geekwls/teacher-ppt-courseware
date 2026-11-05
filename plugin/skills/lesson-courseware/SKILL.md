@@ -79,3 +79,4 @@ Agent-Native 现代分层架构:**宿主大模型即教学设计与内容创作�
 - **一键增量同构同步**：`npm run update-skill` (自动同步至正本与受控 Agent 目录)
 - **从 GitHub 远端拉取最新**：`npm run pull-skill` (自动拉取 main 分支并同步)
 - **更新至用户全局 Agent 目录**：`node scripts/update_skill.js --user`
+

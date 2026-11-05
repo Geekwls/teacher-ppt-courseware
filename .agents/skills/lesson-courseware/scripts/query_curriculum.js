@@ -18,6 +18,7 @@ import fs from "fs";
 import path from "path";
 import * as yaml from "js-yaml";
 import { findKbRoot } from "../lib_js/kb_locate.js";
+import { runAutoUpdateCheck } from "../lib_js/auto_updater.js";
 
 const KB_ROOT = findKbRoot();
 
@@ -405,6 +406,7 @@ function parseCli() {
 }
 
 function main() {
+  runAutoUpdateCheck();
   const params = parseCli();
 
   if (params.search) {
