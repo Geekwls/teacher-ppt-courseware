@@ -10,6 +10,7 @@ node_modules/
 
 # Agent 本地数据与系统回收站(不入库)
 .workbuddy/
+.workbuddy-ai/
 .Trash-0/
 .update_cache.json
 
