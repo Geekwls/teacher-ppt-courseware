@@ -170,16 +170,16 @@ export const THEMES = {
     panel: "FFFFFF"
   },
   chinese: {
-    primary: "B91C1C",
-    primaryDark: "7F1D1D",
-    accent: "D97706",
-    bgTint: "FFFBF5",
-    chip: "FEF2F2",
-    border: "FDE8E8",
-    good: "059669",
+    primary: "991B1B",     // 典雅绛红
+    primaryDark: "7F1D1D", // 浓墨重红
+    accent: "1E3A5F",      // 沉静黛蓝
+    bgTint: "FBF9F5",      // 温润宣纸底色
+    chip: "F5EFE6",        // 柔和微黄卡片底
+    border: "E7E2DA",      // 雅致纸质边框
+    good: "065F46",        // 竹青
     bad: "DC2626",
-    ink: "1C1917",
-    muted: "78716C",
+    ink: "1C1917",         // 徽墨黑
+    muted: "78716C",       // 雅灰
     panel: "FFFFFF"
   },
   english: {
@@ -241,11 +241,15 @@ export function resolveTheme(subject = "math", grade = 3, style = "standard") {
       colors.bgTint = "F8FAFC";
       colors.chip = "F1F5F9";
     } else if (sub === "chinese") {
-      colors.primary = "881337";     // 典雅墨红紫
+      colors.primary = "991B1B";     // 典雅绛红
       colors.primaryDark = "4C0519"; // 浓墨重彩
-      colors.accent = "B45309";      // 暗古铜金
-      colors.bgTint = "FBF7F0";      // 古意宣纸底
-      colors.chip = "F5EBE1";
+      colors.accent = "1E3A5F";      // 沉静黛蓝
+      colors.bgTint = "FBF9F5";      // 温润宣纸底色
+      colors.chip = "F5EFE6";        // 宣纸竹卷微黄淡标
+      colors.border = "E7E2DA";      // 雅致纸质边框
+      colors.good = "065F46";        // 竹青
+      colors.ink = "1C1917";         // 徽墨黑
+      colors.muted = "57534E";       // 雅灰
     } else if (sub === "english") {
       colors.primary = "064E3B";     // 深邃常青墨绿
       colors.primaryDark = "022C22";

@@ -417,15 +417,29 @@ export async function renderPresentation(data, options = {}) {
         const qs = questionsCard?.properties?.items || [];
         const hasQs = qs.length > 0;
         const hasBanner = !!bannerElem;
+        const bodyText = textCard?.properties?.body || "";
+        const bodyLines = bodyText.split("\n").filter(Boolean).length;
 
         // 根据是否有下半部分 questions / banner 动态分配高度
         let textCardH = 2.1;
+        let qh = grade >= 7 ? 1.35 : 1.45;
+        let qy = CONTENT_TOP + textCardH + 0.15;
+        const isIntroPrompt = hasQs && bodyLines <= 2 && bodyText.length <= 65;
+
         if (!hasQs && hasBanner) {
-          textCardH = 3.65;
+          // 拆页后的【原文品读页】：大空间大字号舒展呈现原文
+          textCardH = 4.0;
         } else if (!hasQs && !hasBanner) {
           textCardH = 4.8;
+        } else if (isIntroPrompt) {
+          // 拆页后的【设问探究页】：引导语紧凑，把充足纵向空间留给设问卡片
+          textCardH = 1.25;
+          qy = CONTENT_TOP + textCardH + 0.15;
+          qh = 2.05;
         } else if (hasQs && grade >= 7) {
           textCardH = 2.25;
+          qy = CONTENT_TOP + textCardH + 0.15;
+          qh = 1.35;
         }
 
         // 上部：课文原段 / 重点字词
@@ -436,11 +450,14 @@ export async function renderPresentation(data, options = {}) {
           shadow: CARD_SHADOW
         });
 
-        const bodyText = textCard?.properties?.body || "";
-        const bodyLines = bodyText.split("\n").filter(Boolean).length;
-        let textFontSize = (bodyLines > 3 || bodyText.length > 50) ? (themeName === "english" ? 16 : 18) : (hasQs ? 20 : t.fontSize.body);
-        if (grade >= 7) {
-          textFontSize = (bodyLines > 3 || bodyText.length > 50) ? 15 : 16;
+        // 字号动态自适应：拆页后原文页享有 20~22pt 护眼大字
+        let textFontSize;
+        if (!hasQs) {
+          textFontSize = (bodyText.length > 120 || bodyLines > 4) ? 20 : 22;
+        } else if (isIntroPrompt) {
+          textFontSize = 18;
+        } else {
+          textFontSize = (bodyLines > 3 || bodyText.length > 50) ? (grade >= 7 ? 15 : 18) : (themeName === "english" ? 16 : 20);
         }
 
         slide.addText([
@@ -456,19 +473,18 @@ export async function renderPresentation(data, options = {}) {
         if (hasQs) {
           const qCount = qs.length;
           const qW = (cardW - (qCount - 1) * 0.25) / qCount;
-          const qy = CONTENT_TOP + textCardH + 0.15;
-          const qh = grade >= 7 ? 1.35 : 1.45;
+          const qFontSize = qh >= 1.9 ? 18 : (grade >= 7 ? 15 : 16);
           qs.forEach((q, qIdx) => {
             const qx = 0.8 + qIdx * (qW + 0.25);
             slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
               x: qx, y: qy, w: qW, h: qh,
-              fill: { color: "F8FAFC" },
+              fill: { color: t.chip || "F8FAFC" },
               line: { color: t.border, width: 1 },
               shadow: CARD_SHADOW
             });
             slide.addText(q, {
-              x: qx + 0.2, y: qy + 0.08, w: qW - 0.4, h: qh - 0.16,
-              fontSize: grade >= 7 ? 15 : 16,
+              x: qx + 0.2, y: qy + 0.1, w: qW - 0.4, h: qh - 0.2,
+              fontSize: qFontSize,
               bold: true,
               color: t.ink,
               valign: "middle",
@@ -479,7 +495,7 @@ export async function renderPresentation(data, options = {}) {
 
         // 底部：核心重点词句横幅
         if (hasBanner) {
-          const bannerY = hasQs ? CONTENT_TOP + 3.95 : CONTENT_TOP + textCardH + 0.2;
+          const bannerY = isIntroPrompt ? (qy + qh + 0.18) : (hasQs ? CONTENT_TOP + 3.95 : CONTENT_TOP + textCardH + 0.2);
           slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
             x: 0.8, y: bannerY, w: cardW, h: 0.9,
             fill: { color: "ECFDF5" },

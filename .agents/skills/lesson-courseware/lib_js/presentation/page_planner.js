@@ -138,7 +138,40 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
       return;
     }
 
-    // 场景 C: 标准单页容纳
+    // 场景 C: 长文本品读与多设问，触发原文品读与设问深究拆页 (保障大字号与深度思维)
+    if (decision.needSplit && decision.splitMode === "text_reading_and_questions_dual_page") {
+      const excerpt = cb.paragraph_excerpt || "";
+      const qs = cb.focus_questions || [];
+
+      // 拆分子页 1: 原文沉浸品读 (大字号、充足行距)
+      slidePlans.push({
+        slide_id: nextSlideId("reading_text"),
+        phase_ref: phase.phase_id,
+        layout: "reading_focus",
+        title: `${phase.phase_name} · 原文品读`,
+        context_title: "【原文精读】",
+        context_body: excerpt,
+        questions: [],
+        conclusion_text: cb.key_phrase || "",
+        notes: `${guidance}（第1部分：指导学生有感情地朗读原文，沉浸感受语言文字的意境美与节奏感）`
+      });
+
+      // 拆分子页 2: 文本设问与深层探究 (设问卡片 + 核心写作手法/主旨横幅)
+      slidePlans.push({
+        slide_id: nextSlideId("reading_questions"),
+        phase_ref: phase.phase_id,
+        layout: "reading_focus",
+        title: `${phase.phase_name} · 研读思考与探究`,
+        context_title: "【研读思考】",
+        context_body: "结合上页原文重点语句，深入探究下列核心问题并交流分享：",
+        questions: qs,
+        conclusion_text: cb.core_rule || cb.key_phrase || "★ 写作启示：观察景物要调动多重感官，融情入景。",
+        notes: `${guidance}（第2部分：结合设问引导学生深入探究修辞特色、感官协同与内在行文逻辑）`
+      });
+      return;
+    }
+
+    // 场景 D: 标准单页容纳
     switch (cb.type) {
       case "contextual_problem":
         slidePlans.push({

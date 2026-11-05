@@ -173,6 +173,22 @@ export function resolveStrategyContext(input = {}) {
         };
       }
 
+      // 如果是长文本精读且设问较多，触发原文品读与设问探究拆页 (保障大字号与深度思维)
+      if (phaseContent.type === "text_reading") {
+        const excerpt = String(phaseContent.paragraph_excerpt || "").trim();
+        const questions = Array.isArray(phaseContent.focus_questions) ? phaseContent.focus_questions : [];
+        const isUpperOrJunior = gradeTier === "upper" || gradeNum >= 7;
+        const isLongText = excerpt.length > 70 || excerpt.split("\n").filter(Boolean).length >= 3;
+
+        if (isUpperOrJunior && isLongText && questions.length >= 2) {
+          return {
+            needSplit: true,
+            reason: `长文本品读 (${excerpt.length}字) 伴随多重设问 (${questions.length}问)，为保障教室后排可读性(≥20pt)与深度思维探究，决策拆分为「原文沉浸品读」与「文本设问与深层探究」。`,
+            splitMode: "text_reading_and_questions_dual_page"
+          };
+        }
+      }
+
       return {
         needSplit: false,
         reason: null,
