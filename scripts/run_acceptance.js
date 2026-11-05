@@ -248,15 +248,22 @@ function main() {
     }
     console.log("");
   }
-  console.log(`=== 风格矩阵: ${cases.length} 金样 x ${STYLE_PACK_IDS.length} 风格 ===\n`);
-  const styleRows = runStyleMatrix(cases);
+  const runMatrix = process.argv.includes("--matrix") || process.argv.includes("--full");
+  let styleRows = [];
   let styleFailed = 0;
-  for (const row of styleRows) {
-    const bad = STYLE_PACK_IDS.filter(st => !row.cells[st]?.pass);
-    if (bad.length > 0) styleFailed += 1;
-    console.log(`  ${bad.length === 0 ? "✅" : "❌"} ${row.case_id} — ${bad.length === 0 ? `${STYLE_PACK_IDS.length} 套风格全部 0 Critical` : `失败风格: ${bad.join(", ")}`}`);
+
+  if (runMatrix) {
+    console.log(`=== 风格矩阵: ${cases.length} 金样 x ${STYLE_PACK_IDS.length} 风格 ===\n`);
+    styleRows = runStyleMatrix(cases);
+    for (const row of styleRows) {
+      const bad = STYLE_PACK_IDS.filter(st => !row.cells[st]?.pass);
+      if (bad.length > 0) styleFailed += 1;
+      console.log(`  ${bad.length === 0 ? "✅" : "❌"} ${row.case_id} — ${bad.length === 0 ? `${STYLE_PACK_IDS.length} 套风格全部 0 Critical` : `失败风格: ${bad.join(", ")}`}`);
+    }
+    console.log("");
+  } else {
+    console.log("ℹ 提示: 当前跳过 30 套全量风格矩阵以保证极速反馈。若需全量回归风格矩阵，请运行: npm run test:matrix\n");
   }
-  console.log("");
 
   writeReport(results, styleRows);
   const failedCount = results.filter(r => r.build_status !== "pass" || !r.checks.every(c => c.pass)).length + styleFailed;

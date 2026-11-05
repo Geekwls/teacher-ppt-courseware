@@ -122,6 +122,14 @@ export function annotateRevealSteps(slide, opts = {}) {
       let markedCount = 0;
       const stepSizes = [];
 
+      // 答案页逐题揭晓: 按纵向顺序给「参考答案」形状编号, 供 ans_item_N 精确定位,
+      // 避免所有答案被同一个 step 的兜底规则重复命中(后者覆盖前者, 最终并成一步)。
+      const answerOrder = new Map();
+      allContentItems
+        .filter(it => it.text.includes("参考答案"))
+        .sort((a, b) => a.y - b.y)
+        .forEach((it, idx) => answerOrder.set(it.obj, idx));
+
       sortedSteps.forEach((stepNum, stepIdx) => {
         const targets = byStep.get(stepNum);
         let subIdx = 0;
@@ -139,7 +147,7 @@ export function annotateRevealSteps(slide, opts = {}) {
             if (customId && (customId === tgt || customId.startsWith(tgt + "_") || customId.startsWith(tgt + "."))) return true;
             if (tgt.endsWith(".explanation") && (text.includes("★ 参考答案") || text.includes("参考答案"))) {
               const qNumMatch = tgt.match(/ans_item_(\d+)/);
-              if (qNumMatch && text.includes(`题 ${qNumMatch[1]}`)) return true;
+              if (qNumMatch) return answerOrder.get(it.obj) === Number(qNumMatch[1]) - 1;
               return true;
             }
             if (tgt === "banner_conclusion" && (text.includes("★ 核心规律") || text.includes("★ 规律发现") || text.includes("★核心规律"))) return true;

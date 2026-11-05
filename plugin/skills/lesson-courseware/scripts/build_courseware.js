@@ -24,6 +24,7 @@ import { validatePresentation } from "../lib_js/presentation/presentation_valida
 import { renderPresentation } from "../lib_js/rendering/presentation_renderer.js";
 import { strictHardFailure } from "../lib_js/animation_prep.js";
 import { STYLE_PACK_IDS } from "../lib_js/theme.js";
+import { SCENE_PRESET_IDS } from "../lib_js/strategies/scene_presets.js";
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -32,6 +33,7 @@ function parseArgs() {
   let outputBaseName = "";
   let strict = true;
   let style = "";
+  let preset = "";
   let skeletonFill = true;
 
   for (let i = 0; i < args.length; i++) {
@@ -47,6 +49,9 @@ function parseArgs() {
     } else if (args[i] === "--style" && args[i + 1]) {
       style = args[i + 1];
       i++;
+    } else if (args[i] === "--preset" && args[i + 1]) {
+      preset = args[i + 1];
+      i++;
     } else if (args[i] === "--no-skeleton-fill") {
       skeletonFill = false;
     } else if (args[i] === "--no-strict") {
@@ -57,15 +62,15 @@ function parseArgs() {
   }
 
   if (!inputPath) {
-    console.error("用法: node build_courseware.js --input <lesson-plan.json> [--outdir <dir>] [--name <basename>] [--style clean|warm|academic|minimal|chalk] [--no-skeleton-fill] [--no-strict]");
+    console.error("用法: node build_courseware.js --input <lesson-plan.json> [--outdir <dir>] [--name <basename>] [--style clean|warm|academic|minimal|chalk] [--preset standard|open_class|review|parent_meeting|new_teacher] [--no-skeleton-fill] [--no-strict]");
     process.exit(1);
   }
 
-  return { inputPath, outdir, outputBaseName, strict, style, skeletonFill };
+  return { inputPath, outdir, outputBaseName, strict, style, preset, skeletonFill };
 }
 
 async function main() {
-  const { inputPath, outdir, outputBaseName, strict, style, skeletonFill } = parseArgs();
+  const { inputPath, outdir, outputBaseName, strict, style, preset, skeletonFill } = parseArgs();
 
   if (!fs.existsSync(inputPath)) {
     console.error(`[build_courseware] 错误: 文件不存在: ${inputPath}`);
@@ -117,6 +122,7 @@ async function main() {
   try {
     presentation = planPresentationFromLesson(lessonPlan, {
       style: resolvedStyle,
+      preset,
       skeleton_fill: skeletonFill
     });
     console.log(`      ✓ 幻灯片编排成功: 共规划 ${presentation.slides?.length || 0} 页 (风格: ${resolvedStyle})`);

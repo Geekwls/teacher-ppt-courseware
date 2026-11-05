@@ -25,6 +25,15 @@
           "enum": ["clean", "warm", "academic", "minimal", "chalk"],
           "description": "视觉风格包, 缺省 clean; 渲染器也接受 CLI --style 覆盖"
         },
+        "preset": {
+          "type": "string",
+          "enum": ["standard", "open_class", "review", "parent_meeting", "new_teacher"],
+          "description": "场景预设"
+        },
+        "layout_variants": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
         "aspect_ratio": { "type": "string", "enum": ["16:9", "4:3"] }
       },
       "additionalProperties": false
@@ -43,6 +52,10 @@
           "phase_ref": {
             "type": "string"
           },
+          "layout_variant": {
+            "type": "string",
+            "description": "当前页使用的版式变体 (如 list, grid, split_lr, two_column 等)"
+          },
           "layout": {
             "type": "string",
             "enum": [
@@ -59,6 +72,10 @@
               "summary_card",
               "board_design",
               "homework_card",
+              "activity_instruction",
+              "comparison_table",
+              "knowledge_tree",
+              "phase_placeholder",
               "end_cover"
             ]
           },
@@ -86,7 +103,11 @@
                     "card_list",
                     "conclusion_banner",
                     "practice_list",
-                    "answer_feedback"
+                    "answer_feedback",
+                    "tier_list",
+                    "activity_card",
+                    "comparison_table",
+                    "tree_graph"
                   ]
                 },
                 "properties": {

@@ -177,7 +177,11 @@ export function validateLessonPlan(data) {
     if (!phase.content_block || typeof phase.content_block !== "object") {
       issues.push(issue("CONTENT_BLOCK_MISSING", `环节 ${phase.phase_id} 必须包含 content_block`, "error", phase.phase_id));
     }
-    if (!phase.teacher_guidance || phase.teacher_guidance.length < 5) {
+    const tg = phase.teacher_guidance;
+    const tgText = typeof tg === "string"
+      ? tg
+      : (tg && typeof tg === "object" ? [tg.say, tg.ask, tg.expected_answer, tg.transition].filter(Boolean).join(" ") : "");
+    if (!tgText || tgText.trim().length < 5) {
       issues.push(issue("TEACHER_GUIDANCE_REQUIRED", `环节 ${phase.phase_id} 必须包含充分的 teacher_guidance 教师引导讲稿`, "error", phase.phase_id));
     }
   });
@@ -237,7 +241,11 @@ export function validateLessonPlan(data) {
 
               (data.teaching_sequence || []).forEach(phase => {
                 const bodyText = collectTexts(phase.content_block || {});
-                const guidanceText = typeof phase.teacher_guidance === "string" ? phase.teacher_guidance : "";
+                const guidanceText = typeof phase.teacher_guidance === "string"
+                  ? phase.teacher_guidance
+                  : (phase.teacher_guidance && typeof phase.teacher_guidance === "object"
+                      ? [phase.teacher_guidance.say, phase.teacher_guidance.ask, phase.teacher_guidance.expected_answer, phase.teacher_guidance.transition].filter(Boolean).join(" ")
+                      : "");
 
                 excluded.forEach(exc => {
                   if (isScopeExcludedHit(bodyText, exc)) {
@@ -320,9 +328,24 @@ export function validateLessonPlan(data) {
       ));
     });
 
-    // 随堂练习题目与参考答案核对
+    // 随堂练习题目与参考答案核对及题型完整性门禁
     if (cb.type === "practice_challenge" && Array.isArray(cb.items)) {
       cb.items.forEach(q => {
+        // 标准单项选择题 (答案为 A/B/C/D 等) 必须具备 options 选项或题干包含选项
+        if (q.type === "choice" && /^[A-D]$/i.test(String(q.answer || "").trim())) {
+          const hasStemOptions = /[A-D][.、\s]/.test(String(q.stem || ""));
+          const hasOptionList = Array.isArray(q.options) && q.options.length >= 2;
+          if (!hasOptionList && !hasStemOptions) {
+            issues.push(issue(
+              "CHOICE_QUESTION_MISSING_OPTIONS",
+              `选择题 [${q.id || "未命名"}] 缺少选项 options 列表 (至少提供 A/B/C 等选项)`,
+              "error",
+              phase.phase_id,
+              "选择题必须在 options 数组中提供选项内容，例如 ['A. ...', 'B. ...', 'C. ...']，严禁无选项选择题。"
+            ));
+          }
+        }
+
         const qMath = checkArithmeticInText(`${q.stem} ${q.explanation}`);
         qMath.forEach(mi => {
           issues.push(issue(
@@ -334,6 +357,21 @@ export function validateLessonPlan(data) {
         });
       });
     }
+
+    // 通识错别字与笔误扫描
+    const scanTypos = (obj) => {
+      if (!obj) return;
+      if (typeof obj === "string") {
+        if (obj.includes("赋子")) {
+          issues.push(issue("TYPO_DETECTED", `文本存在错别字「赋子」(应为「赋予」)`, "error", phase.phase_id));
+        }
+      } else if (Array.isArray(obj)) {
+        obj.forEach(scanTypos);
+      } else if (typeof obj === "object") {
+        Object.values(obj).forEach(scanTypos);
+      }
+    };
+    scanTypos(cb);
   });
 
   const errors = issues.filter(i => i.severity === "error");

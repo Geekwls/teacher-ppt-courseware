@@ -74,6 +74,17 @@
           "default": "clean",
           "description": "视觉风格包: clean 清爽白 / warm 暖阳 / academic 学术 / minimal 极简 / chalk 板书手账。只影响配色与装饰, 不改动页面结构与卡槽坐标"
         },
+        "preset": {
+          "type": "string",
+          "enum": ["standard", "open_class", "review", "parent_meeting", "new_teacher"],
+          "default": "standard",
+          "description": "场景预设: standard 常态课 / open_class 公开课 / review 复习课 / parent_meeting 家长会 / new_teacher 新教师备课。联动结构、风格、密度与讲稿"
+        },
+        "layout_variants": {
+          "type": "object",
+          "description": "显式指定各页型的版式变体映射 (如 {'objectives_card': 'grid'})",
+          "additionalProperties": { "type": "string" }
+        },
         "duration_minutes": {
           "type": "integer",
           "default": 40
@@ -143,7 +154,12 @@
                   "worked_example",
                   "misconception_analysis",
                   "practice_challenge",
-                  "rule_summary"
+                  "rule_summary",
+                  "activity_instruction",
+                  "comparison_table",
+                  "knowledge_tree",
+                  "board_design",
+                  "layered_homework"
                 ]
               }
             },
@@ -153,8 +169,25 @@
             "type": "string"
           },
           "teacher_guidance": {
-            "type": "string",
-            "minLength": 5
+            "oneOf": [
+              {
+                "type": "string",
+                "minLength": 5,
+                "description": "传统纯文本教师引导讲稿"
+              },
+              {
+                "type": "object",
+                "description": "结构化教案讲稿",
+                "properties": {
+                  "say": { "type": "string", "description": "教师讲授台词" },
+                  "ask": { "type": "string", "description": "启发提问" },
+                  "expected_answer": { "type": "string", "description": "预设学生回答" },
+                  "transition": { "type": "string", "description": "环节过渡语" },
+                  "timing": { "type": "string", "description": "建议时长，如 '3分钟'" }
+                },
+                "additionalProperties": false
+              }
+            ]
           }
         },
         "additionalProperties": false

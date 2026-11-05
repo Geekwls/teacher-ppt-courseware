@@ -19,7 +19,7 @@ function makeTimelineStep(step, action, target) {
 }
 
 export function planPresentationFromLesson(lessonPlan, options = {}) {
-  const { strategyContext, slidePlans, skeletonReport } = planSlidesFromLesson(lessonPlan, options);
+  const { strategyContext, scenePreset, slidePlans, skeletonReport } = planSlidesFromLesson(lessonPlan, options);
 
   const slides = slidePlans.map(plan => {
     const elements = [];
@@ -258,7 +258,7 @@ export function planPresentationFromLesson(lessonPlan, options = {}) {
         }));
         branches.forEach((b, idx) => {
           elements.push(makeElement(`card_board_${idx}`, "card_list", {
-            head: b.head,
+            head: b.head || b.heading,
             items: b.items || []
           }));
         });
@@ -285,6 +285,47 @@ export function planPresentationFromLesson(lessonPlan, options = {}) {
         break;
       }
 
+      case "activity_instruction": {
+        elements.push(makeElement("txt_act_title", "title", { text: plan.title }));
+        elements.push(makeElement("card_activity", "activity_card", {
+          activity_type: plan.activity_type,
+          duration: plan.duration,
+          tasks: plan.tasks || [],
+          prompt: plan.prompt
+        }));
+        timeline.push(makeTimelineStep(0, "show", "txt_act_title"));
+        timeline.push(makeTimelineStep(1, "reveal", "card_activity"));
+        break;
+      }
+
+      case "comparison_table": {
+        elements.push(makeElement("txt_cmp_title", "title", { text: plan.title }));
+        elements.push(makeElement("tbl_comparison", "comparison_table", {
+          headers: plan.headers || [],
+          rows: plan.rows || []
+        }));
+        if (plan.summary_tip) {
+          elements.push(makeElement("banner_cmp_tip", "conclusion_banner", { text: plan.summary_tip }));
+        }
+        timeline.push(makeTimelineStep(0, "show", "txt_cmp_title"));
+        timeline.push(makeTimelineStep(1, "reveal", "tbl_comparison"));
+        if (plan.summary_tip) {
+          timeline.push(makeTimelineStep(2, "reveal", "banner_cmp_tip"));
+        }
+        break;
+      }
+
+      case "knowledge_tree": {
+        elements.push(makeElement("txt_tree_title", "title", { text: plan.title }));
+        elements.push(makeElement("graph_tree", "tree_graph", {
+          root_topic: plan.root_topic,
+          branches: plan.branches || []
+        }));
+        timeline.push(makeTimelineStep(0, "show", "txt_tree_title"));
+        timeline.push(makeTimelineStep(1, "reveal", "graph_tree"));
+        break;
+      }
+
       case "end_cover": {
         elements.push(makeElement("end_title", "title", {
           text: plan.title,
@@ -298,7 +339,7 @@ export function planPresentationFromLesson(lessonPlan, options = {}) {
         break;
     }
 
-    return {
+    const slideObj = {
       slide_id: plan.slide_id,
       phase_ref: plan.phase_ref,
       layout: plan.layout,
@@ -306,6 +347,10 @@ export function planPresentationFromLesson(lessonPlan, options = {}) {
       timeline,
       notes: plan.notes || "请同学们认真学习。"
     };
+    if (plan.layout_variant) {
+      slideObj.layout_variant = plan.layout_variant;
+    }
+    return slideObj;
   });
 
   return {
@@ -314,6 +359,8 @@ export function planPresentationFromLesson(lessonPlan, options = {}) {
       source_lesson_id: lessonPlan.lesson_id || "lesson_unknown",
       theme: strategyContext.preferences.theme,
       style: strategyContext.preferences.style,
+      preset: scenePreset?.preset_id || "standard",
+      layout_variants: scenePreset?.variants || {},
       aspect_ratio: strategyContext.preferences.aspect_ratio,
       // 课型骨架回执: 供 CLI 打印缺口、供后续教案迭代对齐
       skeleton: skeletonReport

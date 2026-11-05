@@ -15,8 +15,7 @@
 
 import fs from "fs";
 import path from "path";
-import os from "os";
-import { execSync } from "child_process";
+import JSZip from "jszip";
 import { parseRevealName } from "./reveal_steps.js";
 
 /**
@@ -119,32 +118,29 @@ function findRevealGroups(xml) {
 
 /**
  * 主处理函数: 注入转场 + 分组单击动效, 并回读校验 OOXML 顺序。
- * @returns {{ pages:number, withTiming:number, stepsTotal:number, orderValid:boolean, perSlide:object[] }}
+ * @returns {Promise<{ pages:number, withTiming:number, stepsTotal:number, orderValid:boolean, perSlide:object[] }>}
  */
-export function injectSlideTransitions(pptxPath, transitionType = "fade") {
+export async function injectSlideTransitions(pptxPath, transitionType = "fade") {
   const report = { pages: 0, withTiming: 0, stepsTotal: 0, orderValid: true, perSlide: [] };
   if (!fs.existsSync(pptxPath)) return report;
 
-  const tmpDir = path.join(os.tmpdir(), `deck_anim_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`);
-  fs.mkdirSync(tmpDir, { recursive: true });
-
   try {
-    execSync(`unzip -q "${pptxPath}" -d "${tmpDir}"`, { stdio: "pipe" });
+    const rawBuffer = fs.readFileSync(pptxPath);
+    const zip = await JSZip.loadAsync(rawBuffer);
 
-    const slidesDir = path.join(tmpDir, "ppt", "slides");
-    if (!fs.existsSync(slidesDir)) return report;
-
-    const slideFiles = fs.readdirSync(slidesDir)
-      .filter(f => /^slide\d+\.xml$/.test(f))
-      .sort((a, b) => Number(a.match(/\d+/)[0]) - Number(b.match(/\d+/)[0]));
+    const slideEntries = Object.keys(zip.files).filter(f => /^ppt\/slides\/slide\d+\.xml$/.test(f));
+    slideEntries.sort((a, b) => {
+      const numA = Number(a.match(/slide(\d+)\.xml/)[1]);
+      const numB = Number(b.match(/slide(\d+)\.xml/)[1]);
+      return numA - numB;
+    });
 
     let transTag = "<p:fade/>";
     if (transitionType === "push") transTag = '<p:push dir="l"/>';
     else if (transitionType === "wipe") transTag = '<p:wipe dir="r"/>';
 
-    for (const sFile of slideFiles) {
-      const sPath = path.join(slidesDir, sFile);
-      let xml = fs.readFileSync(sPath, "utf-8");
+    for (const sFile of slideEntries) {
+      let xml = await zip.file(sFile).async("string");
 
       const groups = findRevealGroups(xml);
       const timingXml = buildTimingXml(groups);
@@ -173,25 +169,28 @@ export function injectSlideTransitions(pptxPath, transitionType = "fade") {
       const orderOk = iTrans === -1 || iTiming === -1 || iTrans < iTiming;
       if (!orderOk) report.orderValid = false;
 
-      fs.writeFileSync(sPath, xml, "utf-8");
-      report.perSlide.push({ slide: sFile, steps: groups.length, orderValid: orderOk });
+      zip.file(sFile, xml);
+
+      const fileNameOnly = path.basename(sFile);
+      report.perSlide.push({ slide: fileNameOnly, steps: groups.length, orderValid: orderOk });
       if (groups.length > 0) {
         report.withTiming++;
         report.stepsTotal += groups.length;
       }
     }
 
-    report.pages = slideFiles.length;
+    report.pages = slideEntries.length;
 
-    const absPptx = path.resolve(pptxPath);
-    execSync(`cd "${tmpDir}" && zip -q -r "${absPptx}" * && cd -`, { stdio: "pipe" });
+    const outBuffer = await zip.generateAsync({
+      type: "nodebuffer",
+      compression: "DEFLATE",
+      compressionOptions: { level: 6 }
+    });
+
+    fs.writeFileSync(pptxPath, outBuffer);
   } catch (err) {
     console.warn(`[deck_transition] 注入动效异常 (已跳过保持原件): ${err.message}`);
     report.orderValid = false;
-  } finally {
-    try {
-      fs.rmSync(tmpDir, { recursive: true, force: true });
-    } catch (_) {}
   }
 
   return report;

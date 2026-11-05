@@ -19,6 +19,14 @@ import { injectSlideTransitions } from "../deck_transition.js";
 import { auditDeck } from "../layout_audit.js";
 import { fitTextLayout, fitFontSize } from "../text_fit.js";
 import { prepareFigureAnimations } from "../animation_prep.js";
+import {
+  renderObjectivesCard,
+  renderPracticeList,
+  renderSummaryCard,
+  renderActivityInstruction,
+  renderComparisonTable,
+  renderKnowledgeTree
+} from "./new_page_renderers.js";
 
 const CANVAS_W = 13.333;
 const CANVAS_H = 7.5;
@@ -200,7 +208,8 @@ export async function renderPresentation(data, options = {}) {
   CARD_SHADOW = t.card && "shadow" in t.card ? t.card.shadow : CARD_SHADOW;
 
   const subjText = themeName === "chinese" ? "语文" : (themeName === "english" ? "英语" : "数学");
-  const footerText = `人教统编版${subjText}${grade}年级`;
+  const gradeCn = { 1: "一年级", 2: "二年级", 3: "三年级", 4: "四年级", 5: "五年级", 6: "六年级", 7: "七年级", 8: "八年级", 9: "九年级" }[grade] || `${grade}年级`;
+  const footerText = `人教统编版 ${subjText} · ${gradeCn}`;
 
   const pptx = new pptxgen();
   pptx.layout = "LAYOUT_WIDE";
@@ -244,28 +253,7 @@ export async function renderPresentation(data, options = {}) {
       }
 
       case "objectives_card": {
-        const cardList = s.elements.find(e => e.type === "card_list");
-        const items = cardList?.properties?.items || [];
-        const cardW = CANVAS_W - 2.0;
-        const startY = CONTENT_TOP + 0.3;
-        items.forEach((item, idx) => {
-          const cy = startY + idx * 1.45;
-          slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
-            x: 1.0, y: cy, w: cardW, h: 1.15,
-            fill: { color: t.panel },
-            line: { color: t.border, width: 1.2 },
-            shadow: CARD_SHADOW
-          });
-          const fitted = fitTextLayout(item, cardW - 0.6, 0.85, t.fontSize.body);
-          slide.addText(fitted.text, {
-            x: 1.3, y: cy + 0.15, w: cardW - 0.6, h: 0.85,
-            fontSize: fitted.size,
-            bold: true,
-            color: t.ink,
-            valign: "middle",
-            fontFace: FONT_FAMILY
-          });
-        });
+        renderObjectivesCard(slide, pptx, t, s, CARD_SHADOW, FONT_FAMILY);
         break;
       }
 
@@ -298,7 +286,12 @@ export async function renderPresentation(data, options = {}) {
             line: { color: t.primary, width: Math.min(1.5, (t.card?.borderWidth ?? 1.2) + 0.3) },
             shadow: CARD_SHADOW
           });
-          slide.addText(`列式：${eqCard.properties?.expression || ""}`, {
+          const rawExpr = String(eqCard.properties?.expression || "").trim();
+          let prefix = themeName === "math" ? "列式：" : "关键词：";
+          if (rawExpr.startsWith("列式：") || rawExpr.startsWith("关键词：") || rawExpr.startsWith("核心聚焦：")) {
+            prefix = "";
+          }
+          slide.addText(`${prefix}${rawExpr}`, {
             x: 1.4, y: CONTENT_TOP + 2.8, w: cardW - 0.8, h: 1.2,
             fontSize: t.fontSize.body_large + 2,
             bold: true,
@@ -679,28 +672,7 @@ export async function renderPresentation(data, options = {}) {
       }
 
       case "practice_list": {
-        const prElem = s.elements.find(e => e.type === "practice_list");
-        const qs = prElem?.properties?.questions || [];
-        const cardW = CANVAS_W - 1.6;
-
-        qs.forEach((qText, qIdx) => {
-          const qy = CONTENT_TOP + 0.15 + qIdx * 1.15;
-          slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
-            x: 0.8, y: qy, w: cardW, h: 0.95,
-            fill: { color: t.panel },
-            line: { color: t.border, width: 1.2 },
-            shadow: CARD_SHADOW
-          });
-          const fittedQ = fitTextLayout(qText, cardW - 0.6, 0.75, Math.min(t.fontSize.body, 18));
-          slide.addText(fittedQ.text, {
-            x: 1.1, y: qy + 0.1, w: cardW - 0.6, h: 0.75,
-            fontSize: fittedQ.size,
-            bold: true,
-            color: t.ink,
-            valign: "middle",
-            fontFace: FONT_FAMILY
-          });
-        });
+        renderPracticeList(slide, pptx, t, s, CARD_SHADOW, FONT_FAMILY);
         break;
       }
 
@@ -747,28 +719,22 @@ export async function renderPresentation(data, options = {}) {
       }
 
       case "summary_card": {
-        const sumCard = s.elements.find(e => e.type === "card_list");
-        const items = sumCard?.properties?.items || [];
-        const cardW = CANVAS_W - 2.0;
+        renderSummaryCard(slide, pptx, t, s, CARD_SHADOW, FONT_FAMILY);
+        break;
+      }
 
-        items.forEach((item, idx) => {
-          const cy = CONTENT_TOP + 0.3 + idx * 1.45;
-          slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
-            x: 1.0, y: cy, w: cardW, h: 1.15,
-            fill: { color: t.panel },
-            line: { color: t.primary, width: 1.5 },
-            shadow: CARD_SHADOW
-          });
-          const fittedItem = fitTextLayout(item, cardW - 0.8, 0.85, t.fontSize.body_large);
-          slide.addText(fittedItem.text, {
-            x: 1.4, y: cy + 0.15, w: cardW - 0.8, h: 0.85,
-            fontSize: fittedItem.size,
-            bold: true,
-            color: t.primaryDark,
-            valign: "middle",
-            fontFace: FONT_FAMILY
-          });
-        });
+      case "activity_instruction": {
+        renderActivityInstruction(slide, pptx, t, s, CARD_SHADOW, FONT_FAMILY);
+        break;
+      }
+
+      case "comparison_table": {
+        renderComparisonTable(slide, pptx, t, s, CARD_SHADOW, FONT_FAMILY);
+        break;
+      }
+
+      case "knowledge_tree": {
+        renderKnowledgeTree(slide, pptx, t, s, CARD_SHADOW, FONT_FAMILY);
         break;
       }
 
@@ -823,47 +789,55 @@ export async function renderPresentation(data, options = {}) {
           fontFace: FONT_FAMILY
         });
 
-        // 分支卡: 1 支占满整行, 2 支左右分栏
-        const colCount = Math.max(1, Math.min(2, branches.length));
+        // 分支卡: 1~3 支自适应多栏
+        const colCount = Math.max(1, Math.min(3, branches.length));
         const gap = 0.35;
         const colW = (CANVAS_W - 2.0 - gap * (colCount - 1)) / colCount;
-        const branchY = CONTENT_TOP + 1.4;
-        const branchH = 3.05;
+        const branchY = CONTENT_TOP + 1.25;
+        const branchH = 3.9;
 
-        branches.slice(0, 2).forEach((b, idx) => {
+        const branchColors = [t.primary, t.accent, t.primaryDark];
+
+        branches.slice(0, 3).forEach((b, idx) => {
           const bx = 1.0 + idx * (colW + gap);
+          const bColor = branchColors[idx] || t.primary;
+
           slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
             x: bx, y: branchY, w: colW, h: branchH,
             fill: { color: t.panel },
             line: { color: t.border, width: 1.2 },
             shadow: CARD_SHADOW
           });
-          // 左侧色条标记分支 (内缩一点, 不压住圆角边)
-          slide.addShape(pptx.shapes.RECTANGLE, {
-            x: bx + 0.07, y: branchY + 0.2, w: 0.08, h: branchH - 0.4,
-            fill: { color: idx === 0 ? t.primary : t.accent },
-            line: { color: idx === 0 ? t.primary : t.accent, width: 0 }
+
+          // 分支顶部彩色胶囊
+          slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
+            x: bx + 0.15, y: branchY + 0.15, w: colW - 0.3, h: 0.52,
+            fill: { color: t.chip || "EFF6FF" },
+            line: { color: bColor, width: 1.2 }
           });
 
-          const head = b.properties?.head || "";
+          const head = b.properties?.head || `要点 ${idx + 1}`;
           slide.addText(head, {
-            x: bx + 0.3, y: branchY + 0.15, w: colW - 0.55, h: 0.45,
+            x: bx + 0.2, y: branchY + 0.16, w: colW - 0.4, h: 0.5,
             fontSize: t.fontSize.body,
             bold: true,
-            color: idx === 0 ? t.primaryDark : t.ink,
+            color: bColor,
+            align: "center",
             valign: "middle",
             fontFace: FONT_FAMILY
           });
 
-          // 每条要点独立成块: 拼成一个长文本框时, 折行会把上一条的续行挤到左边缘,
-          // 视觉上分不清条目边界; 独立成块后每条各自自适应字号。
+          // 要点列表
           const items = b.properties?.items || [];
-          const itemTop = branchY + 0.68;
-          const itemH = 0.75;
-          items.slice(0, 3).forEach((it, iIdx) => {
-            const fitted = fitTextLayout(`· ${it}`, colW - 0.65, itemH - 0.06, t.fontSize.body - 1);
+          const itemTop = branchY + 0.8;
+          const maxItemCount = Math.min(4, items.length);
+          const itemSlotH = (branchH - 0.95) / Math.max(1, maxItemCount);
+
+          items.slice(0, 4).forEach((it, iIdx) => {
+            const cleanText = String(it).trim();
+            const fitted = fitTextLayout(`•  ${cleanText}`, colW - 0.5, itemSlotH - 0.05, t.fontSize.body - 1);
             slide.addText(fitted.text, {
-              x: bx + 0.3, y: itemTop + iIdx * itemH, w: colW - 0.55, h: itemH - 0.06,
+              x: bx + 0.25, y: itemTop + iIdx * itemSlotH, w: colW - 0.5, h: itemSlotH - 0.05,
               fontSize: fitted.size,
               color: t.ink,
               valign: "middle",
@@ -872,7 +846,7 @@ export async function renderPresentation(data, options = {}) {
           });
         });
 
-        if (footerCard) {
+        if (footerCard && footerCard.properties?.text) {
           slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
             x: 1.0, y: CONTENT_BOTTOM - 0.75, w: CANVAS_W - 2.0, h: 0.7,
             fill: { color: t.chip || "EFF6FF" },
@@ -976,7 +950,7 @@ export async function renderPresentation(data, options = {}) {
   await pptx.writeFile({ fileName: pptxPath });
 
   // 注入全屏原生 OpenXML 单击淡入动画
-  const animReport = injectSlideTransitions(pptxPath, "fade");
+  const animReport = await injectSlideTransitions(pptxPath, "fade");
 
   // 几何体检 (layout_audit)
   const auditResult = auditDeck(pptx, { strict });
