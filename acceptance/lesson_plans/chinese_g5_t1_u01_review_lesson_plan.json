@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "chi-g5-t1-u01-l06",
+  "meta": {
+    "subject": "chinese",
+    "grade": 5,
+    "term": "term-1",
+    "unit": 1,
+    "topic": "第一单元复习·借物抒情与动静描写",
+    "lesson_type": "unit_review",
+    "source_point_id": "chi-g5-t1-u01-p01",
+    "duration_minutes": 40
+  },
+  "objectives": [
+    {
+      "id": "OBJ_01",
+      "statement": "梳理本单元四篇课文的共同写法，理解借物抒情中「物」与「情」的对应关系",
+      "assessment": "能任选一篇课文，说清作者借什么物、抒什么情、二者如何联系"
+    },
+    {
+      "id": "OBJ_02",
+      "statement": "能区分静态描写与动态描写，并说明各自在文中的表达效果",
+      "assessment": "给出任意一句景物描写，能准确判断类型并说出理由"
+    }
+  ],
+  "teaching_sequence": [
+    {
+      "phase_id": "phase_01_network",
+      "phase_name": "知识网络 · 单元脉络梳理",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "借物抒情：借一个具体事物，寄托自己的情感或志向",
+          "静态描写：把景物「定格」，写出形态、色彩、光泽",
+          "动态描写：写出动作与变化，让画面「活」起来"
+        ]
+      },
+      "student_action": "对照板书，把四篇课文分别归入「借物抒情」「动静描写」两条线索",
+      "teacher_guidance": "同学们，第一单元四篇课文我们已经学完了。请大家先看这张结构图，想一想：白鹭、花生、桂花、珍珠鸟，它们有什么共同点？作者为什么要写这些事物？"
+    },
+    {
+      "phase_id": "phase_02_topic_drill",
+      "phase_name": "专题精练 · 借物抒情三连问",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "stem": "《桂花雨》中母亲说「这里的桂花再香，也比不上家乡院子里的桂花」，这句话表达了什么？",
+            "answer": "借桂花表达对故乡的思念",
+            "explanation": "物是桂花，情是思乡；他乡的桂花再香，也比不上故乡记忆里的味道。"
+          },
+          {
+            "id": "q2",
+            "stem": "《落花生》中父亲把花生和桃子、石榴、苹果作对比，用意是什么？",
+            "answer": "突出花生朴实无华、默默奉献的特点",
+            "explanation": "对比是为了反衬，落脚点在「人要做有用的人，不要做只讲体面的人」。"
+          },
+          {
+            "id": "q3",
+            "stem": "判断：《白鹭》中「黄昏的空中偶见白鹭的低飞」属于静态描写。",
+            "answer": "错，属于动态描写",
+            "explanation": "「低飞」写的是动作与变化，让画面动起来，是动态描写。"
+          }
+        ]
+      },
+      "student_action": "先独立作答，再同桌互评：答案有没有同时说到「物」和「情」",
+      "teacher_guidance": "这三道题分别考三种能力：找情感、看写法、辨动静。请先独立写，写完后和同桌交换，重点看对方有没有说清「为什么」。"
+    },
+    {
+      "phase_id": "phase_03_error_analysis",
+      "phase_name": "错因诊断 · 赏析别停在表面",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "misconception_analysis",
+        "wrong_case": "赏析《桂花雨》时只写「作者很喜欢桂花，写出了桂花的香」，没有联系「故乡」「母亲」这些关键词。",
+        "cause_analysis": "只读到「物」，没有读到「情」，停留在内容复述层面，没有抓住借物抒情的物情对应关系。",
+        "correct_method": "先找「物」（桂花），再找「情」（思乡），最后说清「物」是怎样承载「情」的。"
+      },
+      "student_action": "对照自己的答案，圈出缺的是「物」还是「情」，补上一句",
+      "teacher_guidance": "老师看到不少同学的答案都停在「很喜欢桂花」。请大家判断：这样的答案缺了什么？如果让你补一句，你会补什么？"
+    },
+    {
+      "phase_id": "phase_04_summary",
+      "phase_name": "课堂小结 · 三步读法带走",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "借物抒情：物是载体，情是内核，写物是为了写人",
+          "静态描写抓形态色彩，动态描写抓动作变化",
+          "赏析三步：找物 → 找情 → 说清二者联系"
+        ]
+      },
+      "student_action": "用三步读法口头赏析一句自己最喜欢的课文原句",
+      "teacher_guidance": "今天我们把整个单元收拢成三步：找物、找情、说清联系。请大家选一句你最喜欢的课文原句，用这三步说给同桌听。"
+    }
+  ]
+}

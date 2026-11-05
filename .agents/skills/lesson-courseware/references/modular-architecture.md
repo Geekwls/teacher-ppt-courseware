@@ -230,9 +230,25 @@
   - 铁律约束：保持目标语言原汁原味、句型操练高亮核心变量替换词。
 
 ### 4.3 课型流程策略 (Lesson Type Strategy)
-- **新授课 (`concept_learning`)**：情境导入(1) → 概念/探究(2) → 例题精讲(1) → 易错辨析(1) → 课堂闯关(1) → 小结(1)
-- **练习课 (`practice_consolidation`)**：基础口算/字词(2) → 综合变式(2) → 错因深挖(2) → 拓展培优(1)
-- **复习课 (`unit_review`)**：知识网络框架(1) → 考点专题对比(3) → 综合实战(2)
+
+课型不是标签,而是结构化骨架,唯一事实源是 `lib_js/strategies/lesson_skeleton.js` 的 `LESSON_SKELETONS`
+(策略表 `LESSON_TYPE_POLICIES.defaultPhases` 由它派生,禁止两处各写一份):
+
+| 课型 | 骨架环节 | 收尾页 |
+| :--- | :--- | :--- |
+| `concept_learning` 新授课 | 情境导入 → 核心探究 → (例题示范) → (易错辨析) → 当堂练习 → 课堂小结 | — |
+| `practice_consolidation` 练习课 | 复习唤醒 → 基础练习 → 变式练习 → (错因诊断) → 课堂小结 | 分层作业 |
+| `unit_review` 复习课 | 知识网络 → 专题精练 → (错因诊断) → 课堂小结 | 板书结构 + 分层作业 |
+| `experiment_inquiry` 实验课 | 问题情境 → 实验操作 → (结论探究) → 应用迁移 → 课堂小结 | 分层作业 |
+| `reading_comprehension` 阅读课 | 情境导入 → (字词梳理) → 文本品读 → (研读思辨) → 当堂练习 → 课堂小结 | — |
+
+括号内为可选环节。三条落地规则:
+
+1. **角色归一 (`resolvePhaseRole`)**:`phase_id` 关键字优先(同一 `practice_challenge` 可区分基础/变式练习),
+   `content_block.type` 兜底;语文"文本品读"作为"核心探究"的等价角色,不误判缺探究。
+2. **缺口补齐**:必备环节缺失时,PagePlanner 按骨架锚点插入 `phase_placeholder` 占位页(虚线框 + 补什么/怎么补),
+   并在构建日志告警;缺口多于已覆盖槽位时判为片段式课件,只诊断不补页。
+3. **不重排**:教学顺序是教师专业判断,骨架只做顺序偏离诊断,绝不擅自重排。
 
 ### 4.4 优先级仲裁机制 (Priority Arbitration)
 ```

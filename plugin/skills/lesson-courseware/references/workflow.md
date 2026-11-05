@@ -41,7 +41,7 @@ node scripts/query_curriculum.js --subject math --grade 3 --term term-1 --unit u
 写**纯教学逻辑**(教学目标、导入、探究、易错剖析、随堂练习、板书总结),不写任何幻灯片坐标/字号/页型——页面编排由 PagePlanner 按学段认知与学科策略自动完成。
 
 - 契约:`references/schemas/lesson-plan.schema.json`
-- 金样参考:`acceptance/lesson_plans/*.json`(三科四份)
+- 金样参考:`acceptance/lesson_plans/*.json`(三科六份,覆盖新授/练习/复习三种课型)
 - 学科特化规则**必读**:math-rules.md / chinese-rules.md / english-rules.md(Step 0 阶段就应读完对应学科文件,跳过是关键失败)
 - `meta.source_point_id` 必须来自素材包的知识点白名单
 - 每个环节 `teacher_guidance` 写讲稿:提问语、过渡语、学生活动指令、易错追问,不写"此处讲解"这类空话
@@ -49,13 +49,33 @@ node scripts/query_curriculum.js --subject math --grade 3 --term term-1 --unit u
   - 数轴模型 `{start, end, step, arcs[]}`(矢量图元);
   - 声明式算理动画 `{kind:"animation", animation_type:"number_line_jump"|"vertical_calc_flow", parameters:{...}}`(渲染前现场合成视频,数学门禁前置校验,FFmpeg 缺失时自动降级为静态要点卡)。
 
+### 先定课型,再写环节 (`meta.lesson_type`)
+
+`lesson_type` 不是标签,它决定这节课的**教学法骨架**:必备环节、页序、收尾页。写环节前先对照下表,否则会缺环节(系统会补"待补充"占位页,但补不出内容)。
+
+| `lesson_type` | 课型 | 骨架(→ 为页序) | 收尾页 |
+|---|---|---|---|
+| `concept_learning` | 新授课 | 情境导入 → 核心探究 → 例题示范 → 易错辨析 → 当堂练习 → 课堂小结 | — |
+| `practice_consolidation` | 练习巩固课 | 复习唤醒 → 基础练习 → 变式练习 → 错因诊断 → 课堂小结 | 分层作业 |
+| `unit_review` | 单元复习课 | 知识网络 → 专题精练 → 错因诊断 → 课堂小结 | 板书结构 + 分层作业 |
+| `experiment_inquiry` | 实验探究课 | 问题情境 → 实验操作 → 应用迁移 → 课堂小结 | 分层作业 |
+| `reading_comprehension` | 阅读指导课 | 情境导入 → 字词梳理 → 文本品读 → 研读思辨 → 当堂练习 → 课堂小结 | — |
+
+- **必备 vs 可选**:上表未标注的均为必备环节,缺失即补占位页并告警;例题示范、易错辨析、字词梳理为可选(语文课没有例题页是正常的)。
+- **等价角色**:语文/英语课用"文本品读"承担数学"核心探究"的职能,不会被判缺探究。
+- **不重排**:系统只诊断顺序、补缺口,绝不擅自重排老师写好的教学序列;顺序偏离只给提示。
+- **片段式设计**:若缺口比已覆盖环节还多(例如只想生成某个品读片段),判为局部课件,只诊断不补页。
+- **收尾页**只在对应课型出现,内容从已规划页面聚合(板书取小结要点与正解,作业按目标分层),不新编教材事实。
+
 ## Step 4 —— 一键构建交付(校验/规划/渲染全内置)
 
 ```bash
-node scripts/build_courseware.js --input <lesson_plan.json> --outdir <输出目录> --strict [--style <风格包>]
+node scripts/build_courseware.js --input <lesson_plan.json> --outdir <输出目录> --strict [--style <风格包>] [--no-skeleton-fill]
 ```
 
-自动串联:教学门禁(知识点归属/数域/算式真值/讲稿完备) → 容量规划拆页 → 表现门禁 → 确定性渲染 → 原生动效注入 → `--strict` 几何体检(存在 Critical 即退出码 1 拒绝交付)。
+自动串联:教学门禁(知识点归属/数域/算式真值/讲稿完备) → 课型骨架诊断与补齐 → 容量规划拆页 → 表现门禁 → 确定性渲染 → 原生动效注入 → `--strict` 几何体检(存在 Critical 即退出码 1 拒绝交付)。
+
+构建日志会打印骨架回执(`ℹ 课型骨架: …`),缺环节时给出 `⚠ 缺失必备环节: …` 并说明已补占位页;`--no-skeleton-fill` 可关闭补齐、只保留诊断。
 
 ### 风格包 (`--style` / `meta.style`)
 

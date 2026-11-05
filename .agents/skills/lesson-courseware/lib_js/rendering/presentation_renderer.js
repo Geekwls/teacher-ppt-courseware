@@ -772,6 +772,173 @@ export async function renderPresentation(data, options = {}) {
         break;
       }
 
+      case "phase_placeholder": {
+        // 骨架必备环节缺失的提示页: 虚线框 + 待补文案, 一眼看出这不是教学内容
+        const hintCard = s.elements.find(e => e.type === "card_list");
+        const items = hintCard?.properties?.items || [];
+        const cardW = CANVAS_W - 2.0;
+        const cardX = 1.0;
+        const cardY = CONTENT_TOP + 0.3;
+        const cardH = 4.0;
+
+        slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
+          x: cardX, y: cardY, w: cardW, h: cardH,
+          fill: { color: t.bgTint || "FFFFFF" },
+          line: { color: t.accent, width: 1.5, dashType: "dash" },
+          shadow: CARD_SHADOW
+        });
+
+        const bodyText = items.map((it, i) => (i === 0 ? it : `· ${it}`)).join("\n\n");
+        const fittedBody = fitTextLayout(bodyText, cardW - 1.0, cardH - 0.8, t.fontSize.body);
+        slide.addText(fittedBody.text, {
+          x: cardX + 0.5, y: cardY + 0.4, w: cardW - 1.0, h: cardH - 0.8,
+          fontSize: fittedBody.size,
+          color: t.ink,
+          valign: "middle",
+          fontFace: FONT_FAMILY
+        });
+        break;
+      }
+
+      case "board_design": {
+        const topicCard = s.elements.find(e => e.type === "text_card");
+        const branches = s.elements.filter(e => e.type === "card_list");
+        const footerCard = s.elements.find(e => e.type === "conclusion_banner");
+
+        // 顶部课题条: 主色浅底, 板书标题居中
+        slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
+          x: 1.0, y: CONTENT_TOP + 0.15, w: CANVAS_W - 2.0, h: 0.95,
+          fill: { color: t.chip || "EFF6FF" },
+          line: { color: t.primary, width: 1.2 },
+          shadow: CARD_SHADOW
+        });
+        const topicText = topicCard?.properties?.body || "";
+        slide.addText(`课题：${topicText}`, {
+          x: 1.3, y: CONTENT_TOP + 0.2, w: CANVAS_W - 2.6, h: 0.85,
+          fontSize: t.fontSize.body_large,
+          bold: true,
+          color: t.primaryDark,
+          valign: "middle",
+          align: "center",
+          fontFace: FONT_FAMILY
+        });
+
+        // 分支卡: 1 支占满整行, 2 支左右分栏
+        const colCount = Math.max(1, Math.min(2, branches.length));
+        const gap = 0.35;
+        const colW = (CANVAS_W - 2.0 - gap * (colCount - 1)) / colCount;
+        const branchY = CONTENT_TOP + 1.4;
+        const branchH = 3.05;
+
+        branches.slice(0, 2).forEach((b, idx) => {
+          const bx = 1.0 + idx * (colW + gap);
+          slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
+            x: bx, y: branchY, w: colW, h: branchH,
+            fill: { color: t.panel },
+            line: { color: t.border, width: 1.2 },
+            shadow: CARD_SHADOW
+          });
+          // 左侧色条标记分支 (内缩一点, 不压住圆角边)
+          slide.addShape(pptx.shapes.RECTANGLE, {
+            x: bx + 0.07, y: branchY + 0.2, w: 0.08, h: branchH - 0.4,
+            fill: { color: idx === 0 ? t.primary : t.accent },
+            line: { color: idx === 0 ? t.primary : t.accent, width: 0 }
+          });
+
+          const head = b.properties?.head || "";
+          slide.addText(head, {
+            x: bx + 0.3, y: branchY + 0.15, w: colW - 0.55, h: 0.45,
+            fontSize: t.fontSize.body,
+            bold: true,
+            color: idx === 0 ? t.primaryDark : t.ink,
+            valign: "middle",
+            fontFace: FONT_FAMILY
+          });
+
+          // 每条要点独立成块: 拼成一个长文本框时, 折行会把上一条的续行挤到左边缘,
+          // 视觉上分不清条目边界; 独立成块后每条各自自适应字号。
+          const items = b.properties?.items || [];
+          const itemTop = branchY + 0.68;
+          const itemH = 0.75;
+          items.slice(0, 3).forEach((it, iIdx) => {
+            const fitted = fitTextLayout(`· ${it}`, colW - 0.65, itemH - 0.06, t.fontSize.body - 1);
+            slide.addText(fitted.text, {
+              x: bx + 0.3, y: itemTop + iIdx * itemH, w: colW - 0.55, h: itemH - 0.06,
+              fontSize: fitted.size,
+              color: t.ink,
+              valign: "middle",
+              fontFace: FONT_FAMILY
+            });
+          });
+        });
+
+        if (footerCard) {
+          slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
+            x: 1.0, y: CONTENT_BOTTOM - 0.75, w: CANVAS_W - 2.0, h: 0.7,
+            fill: { color: t.chip || "EFF6FF" },
+            line: { color: t.border, width: 1 },
+            shadow: CARD_SHADOW
+          });
+          const footerText = footerCard.properties?.text || "";
+          slide.addText(footerText, {
+            x: 1.3, y: CONTENT_BOTTOM - 0.72, w: CANVAS_W - 2.6, h: 0.64,
+            fontSize: t.fontSize.body,
+            bold: true,
+            color: t.primaryDark,
+            valign: "middle",
+            fontFace: FONT_FAMILY
+          });
+        }
+        break;
+      }
+
+      case "homework_card": {
+        const tierElem = s.elements.find(e => e.type === "tier_list");
+        const tiers = tierElem?.properties?.tiers || [];
+        const cardW = CANVAS_W - 2.0;
+        const rowH = 1.45;
+        const rowGap = 0.3;
+        const startY = CONTENT_TOP + 0.28;
+        const tierColors = [t.primary, t.accent, t.primaryDark];
+
+        tiers.forEach((tier, idx) => {
+          const cy = startY + idx * (rowH + rowGap);
+          const tone = tierColors[idx] || t.primary;
+
+          slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
+            x: 1.0, y: cy, w: cardW, h: rowH,
+            fill: { color: t.panel },
+            line: { color: t.border, width: 1.2 },
+            shadow: CARD_SHADOW
+          });
+          // 左端色块承载层级名 (必做/选做/挑战)
+          slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
+            x: 1.0, y: cy, w: 1.5, h: rowH,
+            fill: { color: tone },
+            line: { color: tone, width: 0 }
+          });
+          slide.addText(tier.tier || "", {
+            x: 1.0, y: cy, w: 1.5, h: rowH,
+            fontSize: t.fontSize.body_large,
+            bold: true,
+            color: "FFFFFF",
+            align: "center",
+            valign: "middle",
+            fontFace: FONT_FAMILY
+          });
+
+          const fittedDesc = fitTextLayout(tier.desc || "", cardW - 2.3, rowH - 0.45, t.fontSize.body);
+          slide.addText(fittedDesc.text, {
+            x: 2.8, y: cy + 0.2, w: cardW - 2.1, h: rowH - 0.4,
+            fontSize: fittedDesc.size,
+            color: t.ink,
+            valign: "middle",
+            fontFace: FONT_FAMILY
+          });
+        });
+        break;
+      }
+
       case "end_cover": {
         const sub = titleElem?.properties?.subtitle || "认真练习，熟能生巧";
         renderCoverDecor(slide, pptx, t, { title: pageTitle || "同学们，下课！", subtitle: sub });

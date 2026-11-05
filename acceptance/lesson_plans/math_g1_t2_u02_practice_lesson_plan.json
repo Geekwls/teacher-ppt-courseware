@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "mat-g1-t2-u02-l05",
+  "meta": {
+    "subject": "math",
+    "grade": 1,
+    "term": "term-2",
+    "unit": 2,
+    "topic": "20以内退位减法·练习巩固",
+    "lesson_type": "practice_consolidation",
+    "source_point_id": "math-g1-t2-u02-p01",
+    "duration_minutes": 40
+  },
+  "objectives": [
+    {
+      "id": "OBJ_01",
+      "statement": "熟练用破十法、平十法口算 20 以内的退位减法",
+      "assessment": "能在 2 分钟内正确完成 10 道 20 以内退位减法口算题"
+    },
+    {
+      "id": "OBJ_02",
+      "statement": "能根据具体情境选择合适的方法解决求剩余的实际问题",
+      "assessment": "能说清「为什么用减法」，并列出正确算式解答"
+    }
+  ],
+  "teaching_sequence": [
+    {
+      "phase_id": "phase_01_recall",
+      "phase_name": "复习唤醒 · 三种方法齐上阵",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "破十法：13 分成 10 和 3，10 - 9 = 1，1 + 3 = 4",
+          "平十法：13 先减 3 得 10，10 再减 6 得 4",
+          "想加算减：9 + 4 = 13，所以 13 - 9 = 4"
+        ]
+      },
+      "student_action": "跟着老师复述三种方法的思考过程，同桌互相说一遍",
+      "teacher_guidance": "同学们，上节课我们学了 20 以内退位减法的三种方法。先请大家看屏幕，和同桌说一说每种方法第一步做什么，我们比一比谁说得最清楚。"
+    },
+    {
+      "phase_id": "phase_02_basic_practice",
+      "phase_name": "基础练习 · 破十法闯关",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "stem": "15 - 8 = （  ）",
+            "answer": "7",
+            "explanation": "10 - 8 = 2，2 + 5 = 7"
+          },
+          {
+            "id": "q2",
+            "stem": "12 - 6 = （  ）",
+            "answer": "6",
+            "explanation": "10 - 6 = 4，4 + 2 = 6"
+          },
+          {
+            "id": "q3",
+            "stem": "17 - 9 = （  ）",
+            "answer": "8",
+            "explanation": "10 - 9 = 1，1 + 7 = 8"
+          },
+          {
+            "id": "q4",
+            "stem": "14 - 7 = （  ）",
+            "answer": "7",
+            "explanation": "10 - 7 = 3，3 + 4 = 7"
+          }
+        ]
+      },
+      "student_action": "独立完成 4 道口算，写出破十的中间过程",
+      "teacher_guidance": "现在请大家拿出练习本，独立完成这 4 道题。每道题都要在旁边写出破十的过程，写完举手示意，老师看看谁又快又稳。"
+    },
+    {
+      "phase_id": "phase_03_variant_practice",
+      "phase_name": "变式练习 · 走进生活情境",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q5",
+            "stem": "树上有 16 个桃子，猴子摘走 9 个，还剩几个？",
+            "answer": "7 个",
+            "explanation": "求剩余用减法：16 - 9 = 7"
+          },
+          {
+            "id": "q6",
+            "stem": "小明有 13 张卡片，送给同学 8 张，还剩几张？",
+            "answer": "5 张",
+            "explanation": "求剩余用减法：13 - 8 = 5"
+          },
+          {
+            "id": "q7",
+            "stem": "已经知道 15 - 8 = 7，那么 15 - 7 = （  ），你是怎么想的？",
+            "answer": "8",
+            "explanation": "想加算减：8 + 7 = 15，所以 15 - 7 = 8"
+          }
+        ]
+      },
+      "student_action": "读题后先说清算式含义，再列式计算，最后口头检验",
+      "teacher_guidance": "这 3 道题变了样子，但方法还是我们学过的。先别急着算，读一遍题，想一想为什么要用减法，说清楚了再动笔。"
+    },
+    {
+      "phase_id": "phase_04_error_analysis",
+      "phase_name": "错因诊断 · 我错在哪里",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "misconception_analysis",
+        "wrong_case": "计算 13 - 8 时，直接算 8 - 3 = 5，得到 13 - 8 = 5，过程说不清楚。",
+        "cause_analysis": "个位 3 不够减 8，没有先「破十」从十位借 1 个十，而是把两个数字倒过来相减，属于典型的位值混淆。",
+        "correct_method": "13 - 8：先算 10 - 8 = 2，再算 2 + 3 = 5，所以 13 - 8 = 5。"
+      },
+      "student_action": "判断错例错在哪里，用自己的话说出正确过程",
+      "teacher_guidance": "老师刚才巡视时发现了这样一道题。请大家当小老师，看看他错在哪一步，是算错了还是想法错了。想清楚的同学举手说给大家听。"
+    },
+    {
+      "phase_id": "phase_05_summary",
+      "phase_name": "课堂小结 · 我的方法锦囊",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "个位不够减，先破十：用 10 减去减数，再加上个位",
+          "也可以平十：先减到 10，再减剩下的部分",
+          "想加算减最省力：加法算得熟，减法就快"
+        ]
+      },
+      "student_action": "把三种方法整理成自己的「方法锦囊」，说给同桌听",
+      "teacher_guidance": "这节课我们练了这么多题，方法其实就三条。请大家把这三种方法在脑子里过一遍，选一个你觉得最好用的，说说为什么。"
+    }
+  ]
+}

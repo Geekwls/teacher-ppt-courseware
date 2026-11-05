@@ -19,7 +19,7 @@ function makeTimelineStep(step, action, target) {
 }
 
 export function planPresentationFromLesson(lessonPlan, options = {}) {
-  const { strategyContext, slidePlans } = planSlidesFromLesson(lessonPlan, options);
+  const { strategyContext, slidePlans, skeletonReport } = planSlidesFromLesson(lessonPlan, options);
 
   const slides = slidePlans.map(plan => {
     const elements = [];
@@ -240,6 +240,51 @@ export function planPresentationFromLesson(lessonPlan, options = {}) {
         break;
       }
 
+      case "phase_placeholder": {
+        // 课型骨架必备环节缺失时的提示页: 全部常驻显示, 不做分步 (它不是教学内容)
+        elements.push(makeElement("txt_ph_title", "title", { text: plan.title }));
+        elements.push(makeElement("card_ph_hint", "card_list", { items: plan.items || [] }));
+        timeline.push(makeTimelineStep(0, "show", "txt_ph_title"));
+        timeline.push(makeTimelineStep(0, "show", "card_ph_hint"));
+        break;
+      }
+
+      case "board_design": {
+        const branches = plan.board_branches || [];
+        elements.push(makeElement("txt_board_title", "title", { text: plan.title }));
+        elements.push(makeElement("card_board_topic", "text_card", {
+          title: "【课题】",
+          body: plan.board_topic || ""
+        }));
+        branches.forEach((b, idx) => {
+          elements.push(makeElement(`card_board_${idx}`, "card_list", {
+            head: b.head,
+            items: b.items || []
+          }));
+        });
+        if (plan.board_footer) {
+          elements.push(makeElement("banner_board_footer", "conclusion_banner", { text: plan.board_footer }));
+        }
+
+        timeline.push(makeTimelineStep(0, "show", "txt_board_title"));
+        timeline.push(makeTimelineStep(0, "show", "card_board_topic"));
+        branches.forEach((b, idx) => {
+          timeline.push(makeTimelineStep(idx + 1, "reveal", `card_board_${idx}`));
+        });
+        if (plan.board_footer) {
+          timeline.push(makeTimelineStep(branches.length + 1, "reveal", "banner_board_footer"));
+        }
+        break;
+      }
+
+      case "homework_card": {
+        elements.push(makeElement("txt_hw_title", "title", { text: plan.title }));
+        elements.push(makeElement("card_hw_tiers", "tier_list", { tiers: plan.homework_tiers || [] }));
+        timeline.push(makeTimelineStep(0, "show", "txt_hw_title"));
+        timeline.push(makeTimelineStep(1, "reveal", "card_hw_tiers"));
+        break;
+      }
+
       case "end_cover": {
         elements.push(makeElement("end_title", "title", {
           text: plan.title,
@@ -269,7 +314,22 @@ export function planPresentationFromLesson(lessonPlan, options = {}) {
       source_lesson_id: lessonPlan.lesson_id || "lesson_unknown",
       theme: strategyContext.preferences.theme,
       style: strategyContext.preferences.style,
-      aspect_ratio: strategyContext.preferences.aspect_ratio
+      aspect_ratio: strategyContext.preferences.aspect_ratio,
+      // 课型骨架回执: 供 CLI 打印缺口、供后续教案迭代对齐
+      skeleton: skeletonReport
+        ? {
+            lesson_type: skeletonReport.lesson_type,
+            lesson_type_name: skeletonReport.lesson_type_name,
+            intent: skeletonReport.intent,
+            complete: skeletonReport.complete,
+            fragmented: skeletonReport.fragmented,
+            missing: skeletonReport.missing.map(m => m.label || m.role),
+            filled: skeletonReport.filled.map(f => f.label || f.role),
+            off_skeleton_roles: skeletonReport.off_skeleton_roles.map(r => r.label || r.role),
+            out_of_order: skeletonReport.outOfOrder.map(o => o.phase_id),
+            closers: skeletonReport.closers
+          }
+        : null
     },
     slides
   };

@@ -13,7 +13,7 @@
  *
  * 用法:
  *   node build_courseware.js --input <lesson-plan.json> [--outdir <dir>] [--name <basename>]
- *                            [--style clean|warm|academic|minimal|chalk] [--no-strict]
+ *                            [--style clean|warm|academic|minimal|chalk] [--no-skeleton-fill] [--no-strict]
  */
 
 import fs from "fs";
@@ -32,6 +32,7 @@ function parseArgs() {
   let outputBaseName = "";
   let strict = true;
   let style = "";
+  let skeletonFill = true;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--input" && args[i + 1]) {
@@ -46,6 +47,8 @@ function parseArgs() {
     } else if (args[i] === "--style" && args[i + 1]) {
       style = args[i + 1];
       i++;
+    } else if (args[i] === "--no-skeleton-fill") {
+      skeletonFill = false;
     } else if (args[i] === "--no-strict") {
       strict = false;
     } else if (args[i] === "--strict") {
@@ -54,15 +57,15 @@ function parseArgs() {
   }
 
   if (!inputPath) {
-    console.error("用法: node build_courseware.js --input <lesson-plan.json> [--outdir <dir>] [--name <basename>] [--style clean|warm|academic|minimal|chalk] [--no-strict]");
+    console.error("用法: node build_courseware.js --input <lesson-plan.json> [--outdir <dir>] [--name <basename>] [--style clean|warm|academic|minimal|chalk] [--no-skeleton-fill] [--no-strict]");
     process.exit(1);
   }
 
-  return { inputPath, outdir, outputBaseName, strict, style };
+  return { inputPath, outdir, outputBaseName, strict, style, skeletonFill };
 }
 
 async function main() {
-  const { inputPath, outdir, outputBaseName, strict, style } = parseArgs();
+  const { inputPath, outdir, outputBaseName, strict, style, skeletonFill } = parseArgs();
 
   if (!fs.existsSync(inputPath)) {
     console.error(`[build_courseware] 错误: 文件不存在: ${inputPath}`);
@@ -112,8 +115,31 @@ async function main() {
   console.log("[3/4] 结合学段认知容量与学科策略，自动规划幻灯片表现 (PagePlanner)...");
   let presentation;
   try {
-    presentation = planPresentationFromLesson(lessonPlan, { style: resolvedStyle });
+    presentation = planPresentationFromLesson(lessonPlan, {
+      style: resolvedStyle,
+      skeleton_fill: skeletonFill
+    });
     console.log(`      ✓ 幻灯片编排成功: 共规划 ${presentation.slides?.length || 0} 页 (风格: ${resolvedStyle})`);
+
+    // 课型骨架回执: 口径与提示必须打印, 否则老师看不出这一版和上一版结构差在哪
+    const sk = presentation.deck_meta?.skeleton;
+    if (sk) {
+      console.log(`      ℹ 课型骨架: ${sk.lesson_type_name} · ${sk.intent || ""}`);
+      if (sk.filled.length) {
+        console.log(`      ⚠ 缺失必备环节: ${sk.filled.join("、")} —— 已各生成 1 页"待补充"占位页, 补全教学设计后可自动替换`);
+      } else if (sk.fragmented && sk.missing.length) {
+        console.log(`      ℹ 片段式设计: 缺 ${sk.missing.join("、")}, 判定为局部片段课件, 未自动补齐 (需完整课时请补全环节)`);
+      }
+      if (sk.out_of_order.length) {
+        console.log(`      ⚠ 环节顺序与骨架不一致: ${sk.out_of_order.join("、")} (仅提示, 不重排老师已定的教学顺序)`);
+      }
+      if (sk.off_skeleton_roles.length) {
+        console.log(`      ℹ 骨架外环节(保留): ${sk.off_skeleton_roles.join("、")}`);
+      }
+      if (sk.complete && !sk.filled.length) {
+        console.log("      ✓ 课型骨架完备: 必备环节齐备, 顺序与教学法一致");
+      }
+    }
   } catch (err) {
     console.error(`❌ 表现规划失败: ${err.message}`);
     process.exit(1);

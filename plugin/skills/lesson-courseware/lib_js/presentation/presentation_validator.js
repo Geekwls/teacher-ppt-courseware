@@ -37,6 +37,7 @@ const SUPPORTED_LAYOUTS = new Set([
   "summary_card",
   "board_design",
   "homework_card",
+  "phase_placeholder",
   "end_cover"
 ]);
 
@@ -49,6 +50,7 @@ const SUPPORTED_ELEMENT_TYPES = new Set([
   "figure_tianzige",
   "figure_animation",
   "card_list",
+  "tier_list",
   "conclusion_banner",
   "practice_list",
   "answer_feedback"

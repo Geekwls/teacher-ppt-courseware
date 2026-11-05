@@ -50,6 +50,16 @@ const mockLessonPlan = {
         ]
       },
       teacher_guidance: "逐题对答案进行诊断和病因分析"
+    },
+    {
+      phase_id: "phase_summary",
+      phase_name: "课堂小结",
+      objective_ref: "OBJ_01",
+      content_block: {
+        type: "rule_summary",
+        summary_points: ["先算表内乘法", "再看因数末尾有几个0就添几个0"]
+      },
+      teacher_guidance: "回扣学习目标，让学生用一句话说出整十数口算的方法"
     }
   ]
 };
@@ -61,7 +71,10 @@ test("策略解析器: 三年级数学策略与基准规划", () => {
   assert.equal(ctxMiddle.subject.splitPracticeAndAnswer, true, "数学新授课应策略性拆分练习与答案页");
 
   const resMiddle = planSlidesFromLesson(mockLessonPlan);
-  assert.equal(resMiddle.slidePlans.length, 7, "基准环节应生成 7 页");
+  // 封面 + 目标 + 导入 + 探究 + 练习 + 答案 + 小结 + 封底 = 8
+  assert.equal(resMiddle.slidePlans.length, 8, "结构完整的新授课应生成 8 页");
+  assert.equal(resMiddle.skeletonReport.complete, true, "基准案的必备环节齐备, 骨架应判定完备");
+  assert.equal(resMiddle.skeletonReport.filled.length, 0, "环节齐备时不应产生任何待补充占位页");
   const practiceSlide = resMiddle.slidePlans.find(s => s.layout === "practice_list");
   const answerSlide = resMiddle.slidePlans.find(s => s.layout === "answer_reveal_list");
   assert.ok(practiceSlide && answerSlide, "练习环节应被成功拆分为独立做题页与答案诊断页");
@@ -79,7 +92,8 @@ test("智能分页: 算理步骤超载跨页拆分 (零删减硬约束)", () => 
   ];
 
   const res = planSlidesFromLesson(plan);
-  assert.equal(res.slidePlans.length, 8, "算理超载时应自动拆页为 8 页");
+  // 拆页比单页多 1 页: 8 + 1 = 9
+  assert.equal(res.slidePlans.length, 9, "算理超载时应自动拆页为 9 页");
   const modelSlide = res.slidePlans.find(s => s.slide_id.includes("exploration_model"));
   const reasoningSlide = res.slidePlans.find(s => s.slide_id.includes("exploration_reasoning"));
   assert.ok(modelSlide && reasoningSlide, "应拆分为数形建模页与算理升华页");

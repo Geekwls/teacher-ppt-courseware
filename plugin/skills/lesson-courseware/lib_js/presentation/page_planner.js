@@ -3,15 +3,112 @@
  * 课件页面智能规划器 (page_planner.js)
  *
  * 核心职责:
- * 1. 协调教学环节与页面容量: 依据 StrategyResolver 提供的认知负荷评估，决定每个环节的页面数量;
- * 2. 算理超限自动拆页 (防止删减算理):
+ * 1. 课型骨架: 由 lesson_type 决定必备环节 (见 strategies/lesson_skeleton.js),
+ *    缺失的必备环节补"待补充"占位页并在报告中明示, 而不是悄悄产出一节结构残缺的课;
+ * 2. 协调教学环节与页面容量: 依据 StrategyResolver 提供的认知负荷评估，决定每个环节的页面数量;
+ * 3. 算理超限自动拆页 (防止删减算理):
  *    当探究算理步骤过多时，自动拆分为「探究一·数形建模」与「探究二·算理升华」，杜绝文字溢出;
- * 3. 练习与答案协同拆页:
+ * 4. 练习与答案协同拆页:
  *    当练习题量达到 2 题以上时，拆分为「课堂自主作答页」与「逐题诊断参考答案页」;
- * 4. 产出标准 SlidePlan 数组，供 PresentationPlanner 装配。
+ * 5. 课型收尾页: 练习课/复习课追加分层作业页, 复习课另有板书结构页;
+ * 6. 产出标准 SlidePlan 数组，供 PresentationPlanner 装配。
  */
 
 import { resolveStrategyContext } from "../strategies/strategy_resolver.js";
+import { diagnoseSkeleton, missingPhaseStubs } from "../strategies/lesson_skeleton.js";
+
+/** 占位页与作业页的文案都要控制长度, 超过卡槽容量会被折行挤压 */
+function clip(text, max) {
+  const s = String(text || "").trim();
+  return s.length > max ? `${s.slice(0, max - 1)}…` : s;
+}
+
+/**
+ * 课型收尾页: 板书结构 (复习课)。
+ * 内容只从已规划页面里聚合, 不新编教材事实:
+ * 主线取小结要点, 易错取易错辨析页的正解。
+ */
+function buildBoardDesignSlide(meta, slidePlans, objectives, nextSlideId) {
+  const lastOf = layout => [...slidePlans].reverse().find(s => s.layout === layout);
+
+  const summarySlide = lastOf("summary_card");
+  const miscSlide = lastOf("misconception_split");
+
+  const branches = [];
+  const points = (summarySlide?.items || []).filter(Boolean);
+  if (points.length) {
+    branches.push({ head: "知识主线", items: points.slice(0, 3).map(p => clip(p, 26)) });
+  }
+  if (miscSlide?.correct_method) {
+    branches.push({ head: "易错提醒", items: [clip(miscSlide.correct_method, 42)] });
+  }
+  if (!branches.length) {
+    branches.push({ head: "本课要点", items: [clip(meta.topic || "本课知识", 26)] });
+  }
+
+  // 页脚回扣学习目标: 比再复述一遍小结要点更有板书价值, 也避免与"知识主线"重复
+  const firstObjective = String(objectives?.[0]?.statement || "").trim();
+
+  return {
+    slide_id: nextSlideId("board"),
+    phase_ref: "meta_board_design",
+    layout: "board_design",
+    title: "板书设计",
+    board_topic: meta.topic || "本课知识",
+    board_branches: branches,
+    board_footer: firstObjective ? `目标回扣：${clip(firstObjective, 30)}` : "",
+    notes: `这是本节课的板书结构。请同学们对照板书，把${meta.topic || "本课知识"}的知识主线在笔记本上重新梳理一遍，特别注意易错提醒部分。`
+  };
+}
+
+/**
+ * 课型收尾页: 分层作业 (练习课/复习课/实验课)。
+ * 只给"练什么"的层级与目标指向, 不编具体题号 —— 题目由教师按本班教材版本填写。
+ */
+function buildHomeworkSlide(meta, objectives, nextSlideId) {
+  const objs = (objectives || []).map(o => String(o.statement || "")).filter(Boolean);
+  const tiers = [
+    {
+      tier: "必做",
+      desc: objs[0] ? clip(objs[0], 30) : "完成教材配套基础练习，巩固本课核心方法"
+    },
+    {
+      tier: "选做",
+      desc: objs[1] ? clip(objs[1], 30) : "尝试变式题，检验方法能否迁移到新情境"
+    },
+    {
+      tier: "挑战",
+      desc: "联系生活找一个本课知识的实际应用，下次课前分享"
+    }
+  ];
+
+  return {
+    slide_id: nextSlideId("homework"),
+    phase_ref: "meta_homework",
+    layout: "homework_card",
+    title: "作业布置",
+    homework_tiers: tiers,
+    notes: `今天的分层作业：必做题人人完成，对应${objs[0] ? "目标①" : "本课基础"}；选做题给学有余力的同学；挑战题不限形式，鼓励用自己的话讲清楚道理。`
+  };
+}
+
+function buildSkeletonQueue(sequence, stubs) {
+  const queue = sequence.map(phase => ({ kind: "phase", phase }));
+
+  for (const stub of stubs) {
+    const item = { kind: "placeholder", stub };
+    if (stub.insertAfterPhaseId) {
+      const idx = queue.findIndex(q => q.phase?.phase_id === stub.insertAfterPhaseId);
+      queue.splice(idx < 0 ? queue.length : idx + 1, 0, item);
+    } else if (stub.insertBeforePhaseId) {
+      const idx = queue.findIndex(q => q.phase?.phase_id === stub.insertBeforePhaseId);
+      queue.splice(idx < 0 ? 0 : idx, 0, item);
+    } else {
+      queue.push(item);
+    }
+  }
+  return queue;
+}
 
 export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
   if (!lessonPlan || typeof lessonPlan !== "object") {
@@ -28,6 +125,13 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
     lesson_type: meta.lesson_type,
     userPreferences
   });
+
+  // 课型骨架: 默认开启补齐 (缺失必备环节才补页, 环节齐备时零副作用);
+  // 片段式设计 (缺口比已覆盖槽位还多) 只诊断不补页, 避免把"只要这一段"的课件塞满占位页
+  const skeletonReport = diagnoseSkeleton(lessonPlan);
+  const fillMissing = userPreferences.skeleton_fill !== false && !skeletonReport.fragmented;
+  const stubs = fillMissing ? missingPhaseStubs(skeletonReport) : [];
+  const queue = buildSkeletonQueue(sequence, stubs);
 
   const slidePlans = [];
   let pageCounter = 1;
@@ -56,8 +160,29 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
     notes: `本节课的核心学习目标：${objectives.map(o => o.statement).join("；")}。请大家明确学习方向。`
   });
 
-  // 3. 动态规划教学环节
-  sequence.forEach(phase => {
+  // 3. 动态规划教学环节 (已按课型骨架补齐缺失的必备环节)
+  queue.forEach(item => {
+    // 场景 0: 骨架必备环节缺失 —— 落"待补充"占位页并明示, 不静默跳过
+    if (item.kind === "placeholder") {
+      const { stub } = item;
+      slidePlans.push({
+        slide_id: nextSlideId("placeholder"),
+        phase_ref: `phase_missing_${stub.role}`,
+        layout: "phase_placeholder",
+        title: `${stub.label}（待补充）`,
+        placeholder_role: stub.role,
+        placeholder_label: stub.label,
+        items: [
+          `本节课的「${stub.label}」环节在教学设计中没有提供内容。`,
+          stub.hint ? `建议：${stub.hint}。` : "建议：补充该环节的教学内容后再重新生成。",
+          "补全这个环节后重新生成课件，本页会自动替换为正式内容。"
+        ],
+        notes: `本页是待补充环节的提示页。${stub.label}是本课型的必备环节，建议补充后再授课。${stub.hint || ""}`
+      });
+      return;
+    }
+
+    const phase = item.phase;
     const cb = phase.content_block || {};
     const rawGuidance = String(phase.teacher_guidance || "").trim();
     const guidance = rawGuidance.length >= 5
@@ -299,7 +424,15 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
     }
   });
 
-  // 4. 封底
+  // 4. 课型收尾页 (骨架声明): 复习课先板书结构, 再分层作业
+  if (skeletonReport.closers.includes("board")) {
+    slidePlans.push(buildBoardDesignSlide(meta, slidePlans, objectives, nextSlideId));
+  }
+  if (skeletonReport.closers.includes("homework")) {
+    slidePlans.push(buildHomeworkSlide(meta, objectives, nextSlideId));
+  }
+
+  // 5. 封底
   slidePlans.push({
     slide_id: nextSlideId("end"),
     phase_ref: "meta_end",
@@ -311,6 +444,10 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
 
   return {
     strategyContext,
-    slidePlans
+    slidePlans,
+    skeletonReport: {
+      ...skeletonReport,
+      filled: stubs.map(s => ({ role: s.role, label: s.label }))
+    }
   };
 }

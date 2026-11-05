@@ -13,7 +13,7 @@
 1. `plugin/knowledge/` — 教材知识库(**只读事实源**,158单元/557知识点,含教材例题/教参重难点易错点)
 2. `plugin/skills/lesson-courseware/` — Agent Skill(SKILL.md + references + scripts)
 3. `lib_js/lesson/lesson_validator.js` — 教学设计门禁(知识点归属/数域递归全字段扫描/算式真值/教学禁区词界防误杀,一票否决) + `lib_js/presentation/` 表现规划与门禁
-4. `scripts/build_courseware.js` + `lib_js/rendering/presentation_renderer.js` — 一键流水线:教学门禁 → 容量规划(含算理超载拆页与初中长文本智能拆页) → 表现门禁 → PptxGenJS 确定性渲染 → 原生动效注入 → `layout_audit.js` 几何体检(--strict 一票否决)
+4. `scripts/build_courseware.js` + `lib_js/rendering/presentation_renderer.js` — 一键流水线:教学门禁 → 课型骨架诊断/补齐(`lib_js/strategies/lesson_skeleton.js`) → 容量规划(含算理超载拆页与初中长文本智能拆页) → 表现门禁 → PptxGenJS 确定性渲染 → 原生动效注入 → `layout_audit.js` 几何体检(--strict 一票否决)
 
 ## 硬性纪律(违反即返工)
 
@@ -38,15 +38,15 @@ node plugin/skills/lesson-courseware/scripts/query_curriculum.js \
 #   --search "口算乘法"                                    跨库检索
 
 # 2) 创作教学设计 (LessonPlan AST):契约 references/schemas/lesson-plan.schema.json
-#    金样参考: acceptance/lesson_plans/*.json(三科四份)
+#    金样参考: acceptance/lesson_plans/*.json(三科六份,覆盖新授/练习/复习三种课型)
 #    学科规则必读: references/{math,chinese,english}-rules.md
 
 # 3) 单独校验教学设计(可选;build 已内置)
 node plugin/skills/lesson-courseware/scripts/validate_lesson_plan.js --input <lesson_plan.json>
 
-# 4) 一键交付(教学门禁→容量规划→表现门禁→确定性渲染→动效注入→--strict 几何门禁)
+# 4) 一键交付(教学门禁→课型骨架补齐→容量规划→表现门禁→确定性渲染→动效注入→--strict 几何门禁)
 node plugin/skills/lesson-courseware/scripts/build_courseware.js \
-    --input <lesson_plan.json> --outdir <输出目录> [--strict]
+    --input <lesson_plan.json> --outdir <输出目录> [--strict] [--style warm] [--no-skeleton-fill]
 
 # 5) 自检(金样端到端验收 + 策略/分页单元测试,退出码 0=通过)
 npm test

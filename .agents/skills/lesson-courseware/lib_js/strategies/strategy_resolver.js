@@ -91,21 +91,36 @@ export const SUBJECT_TEACHING_POLICIES = {
   }
 };
 
+import { LESSON_SKELETONS } from "./lesson_skeleton.js";
+
+/** 课型的环节序列以骨架为唯一事实源, 避免策略表与骨架表两处定义漂移 */
+const skeletonPhases = key => (LESSON_SKELETONS[key]?.phases || []).map(p => p.role);
+
 export const LESSON_TYPE_POLICIES = {
   concept_learning: {
     type: "concept_learning",
     name: "新授探究课",
-    defaultPhases: ["warmup", "exploration", "example", "misconception", "practice", "summary"]
+    defaultPhases: skeletonPhases("concept_learning")
   },
   practice_consolidation: {
     type: "practice_consolidation",
     name: "练习巩固课",
-    defaultPhases: ["recall", "basic_practice", "variant_practice", "error_analysis", "summary"]
+    defaultPhases: skeletonPhases("practice_consolidation")
   },
   unit_review: {
     type: "unit_review",
     name: "单元复习课",
-    defaultPhases: ["network", "topic_drill", "summary"]
+    defaultPhases: skeletonPhases("unit_review")
+  },
+  experiment_inquiry: {
+    type: "experiment_inquiry",
+    name: "实验探究课",
+    defaultPhases: skeletonPhases("experiment_inquiry")
+  },
+  reading_comprehension: {
+    type: "reading_comprehension",
+    name: "阅读指导课",
+    defaultPhases: skeletonPhases("reading_comprehension")
   }
 };
 

@@ -130,13 +130,29 @@ npm run test:unit                     # node:test 单元测试 (契约/门禁/�
 npm run test:acceptance               # 金样端到端 + 风格矩阵, 报告写入 output/reports/
 
 node plugin/skills/lesson-courseware/scripts/build_courseware.js \
-    --input <lesson_plan.json> --outdir <输出目录> --strict [--style warm]
+    --input <lesson_plan.json> --outdir <输出目录> --strict [--style warm] [--no-skeleton-fill]
 ```
 
 `npm test` 对每个金样断言:一键流水线退出码 0、三件套产物齐备、
 **几何审计 0 critical**、**内容页讲稿完备**、**分步时序 orderValid**;
 再对每份金样 x 5 套风格包(clean/warm/academic/minimal/chalk)跑一遍 `--strict`,
 确认换肤不会把任何一页撑破。报告在 `output/reports/acceptance-report.md`。
+
+### 课型骨架
+
+`meta.lesson_type` 决定这节课的教学法结构,不只是个标签:
+
+| 课型 | 骨架 | 收尾页 |
+|---|---|---|
+| `concept_learning` 新授课 | 情境导入 → 核心探究 → 例题示范 → 易错辨析 → 当堂练习 → 课堂小结 | — |
+| `practice_consolidation` 练习课 | 复习唤醒 → 基础练习 → 变式练习 → 错因诊断 → 课堂小结 | 分层作业 |
+| `unit_review` 复习课 | 知识网络 → 专题精练 → 错因诊断 → 课堂小结 | 板书结构 + 分层作业 |
+| `experiment_inquiry` 实验课 | 问题情境 → 实验操作 → 应用迁移 → 课堂小结 | 分层作业 |
+| `reading_comprehension` 阅读课 | 情境导入 → 字词梳理 → 文本品读 → 研读思辨 → 当堂练习 → 课堂小结 | — |
+
+缺失必备环节时补一页"待补充"占位页并在构建日志告警,补不出内容就明示;
+缺口比已覆盖环节还多时判为片段式课件,只诊断不补页。系统**不重排**教师已定的教学序列,
+顺序偏离只给提示。`--no-skeleton-fill` 可关闭补齐。
 
 ### 风格包
 
