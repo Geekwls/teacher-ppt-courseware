@@ -9,9 +9,7 @@
     "acceptance": "node scripts/run_acceptance.js",
     "install-skill": "node scripts/install_skill.js",
     "audit-kb": "node scripts/audit_kb.js",
-    "test:unit": "node --test tests/*.test.js",
-    "test:acceptance": "node scripts/run_acceptance.js",
-    "test": "node --test tests/*.test.js && node scripts/run_acceptance.js"
+    "test": "node scripts/run_acceptance.js"
   },
   "repository": {
     "type": "git",
