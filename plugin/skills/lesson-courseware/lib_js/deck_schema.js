@@ -187,6 +187,10 @@ export const FIGURE_REQUIREMENTS = {
     required: [],
     optional: ["path", "type", "title", "duration", "link", "url", "prompt", "cover"]
   },
+  image: {
+    required: ["path"],
+    optional: ["alt", "caption"]
+  },
   animation: {
     required: ["animation_type", "parameters"],
     optional: ["title", "duration_sec", "prompt", "conclusion", "path", "type", "cover"]

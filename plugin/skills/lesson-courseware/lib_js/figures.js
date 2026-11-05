@@ -613,7 +613,54 @@ function renderTable(slide, pptx, fig, box, theme) {
   });
 }
 
-// ---------------------------------------------------------------- 微课音视频与操作视频媒体图元
+// ---------------------------------------------------------------- 情境插图图元 (本地图片文件)
+function renderImage(slide, pptx, fig, box, theme) {
+  const [x, y, w, h] = box;
+  const filePath = fig.path ? String(fig.path) : "";
+  const hasFile = filePath && fs.existsSync(filePath);
+
+  // 降级: 图片缺失时渲染说明占位卡, 如实告知原因, 不留空白也不伪装
+  if (!hasFile) {
+    slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
+      x: x, y: y, w: w, h: h,
+      fill: { color: SEMANTIC.white },
+      line: { color: SEMANTIC.badBorder, width: 1.2, dashType: "dash" },
+      shape: pptx.shapes.ROUNDED_RECTANGLE
+    });
+    slide.addText(fig.alt ? `插图缺失: ${fig.alt}` : "插图缺失 (图片文件未找到)", {
+      x: x + 0.2, y: y, w: w - 0.4, h: h,
+      fontSize: Math.min(14, Math.max(10, Math.floor(h * 22))),
+      color: SEMANTIC.mediaMuted,
+      align: "center", valign: "middle", fontFace: FONT_FAMILY,
+      margin: 4
+    });
+    console.warn(`[renderImage] 插图文件不存在, 已降级为占位卡: ${filePath || "(未填 path)"}`);
+    return;
+  }
+
+  // 正常渲染: 等比裁剪填满版面 (cover), 保留 alt 无障碍描述
+  slide.addImage({
+    path: filePath,
+    x: x, y: y, w: w, h: h,
+    sizing: { type: "cover", w: w, h: h },
+    altText: fig.alt || "",
+    rounding: false,
+    shadow: CARD_SHADOW
+  });
+
+  // 可选图注: 底部半透明白底说明条
+  if (fig.caption) {
+    slide.addText(String(fig.caption), {
+      x: x, y: y + h - 0.42, w: w, h: 0.42,
+      fill: { color: SEMANTIC.white, transparency: 22 },
+      fontSize: 12, color: "334155",
+      align: "center", valign: "middle", fontFace: FONT_FAMILY,
+      margin: 2
+    });
+  }
+}
+
+
 
 /**
  * 诚实的降级卡片: animation / media 图元在没有真实视频也没有外链时,
@@ -697,6 +744,7 @@ function addMediaOverlay(slide, pptx, fig, box, theme) {
   }
 }
 
+// ---------------------------------------------------------------- 微课音视频与操作视频媒体图元
 function renderMedia(slide, pptx, fig, box, theme) {
   const [x, y, w, h] = box;
   const filePath = fig.path ? String(fig.path) : "";
@@ -799,5 +847,6 @@ const DISPATCH = {
   dialog_bubble: renderDialogBubble,
   table: renderTable,
   media: renderMedia,
-  animation: renderMedia
+  animation: renderMedia,
+  image: renderImage
 };

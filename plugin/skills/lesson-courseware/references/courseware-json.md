@@ -95,6 +95,7 @@ practice 条目:`{"stem": "...", "options": ["A.1","B.2"], "answer": "B", "sourc
 | `place_value` | digits:{thousands?,hundreds?,tens?,ones}, label? | 数位表(数学数形结合) |
 | `table` | headers[], rows[][](≤8行,列数一致) | 价目表/统计表 |
 | `media` | title?, type?(video/audio), path?, duration?, link?, prompt?, cover? | 趣味微课/操作视频/课文朗读音频(本地 mp4 原生嵌入; `cover` 可指定封面图, 默认用主题浅色) |
+| `image` | path, alt?, caption? | 情境插图/课文配图: `path` 指向本地图片文件(png/jpg), 等比裁剪填满版面; `alt` 写无障碍描述(必给, 供读屏与备课参考); `caption` 为底部图注; 文件缺失时降级为占位提示卡并在渲染日志留痕 |
 | `animation` | animation_type(number_line_jump/vertical_calc_flow), parameters, title?, prompt?, conclusion?, duration_sec?, path? | 算理动画: 渲染时现场合成 (SVG 逐帧+FFmpeg, 纯确定性) 并原生嵌入 PPT, 可在播放器内直接播放; 相同参数自动缓存复用; `path` 指向已有 mp4 时直接嵌入不再合成; FFmpeg 缺失或参数未过数学门禁时降级为静态演示要点卡并在审计回执留痕, `--strict` 下数学门禁失败一票否决 |
 
 例:
