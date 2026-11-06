@@ -1,0 +1,94 @@
+# 声明式组合版式库 (composite-specs.yaml)
+#
+# 用途: 让"某单元/某课型想要不一样的版面"成为数据问题 —— 声明一个命名 spec,
+# 在 block-layout-map.yaml 里把内容块类型映射到 `composite` 并指定 spec 即可,
+# 无需编写任何渲染代码。也可以在教学设计 content_block.layout_spec 内联 spec。
+#
+# spec 语法:
+#   grid:
+#     cols: 1~4 (默认 2)          # 列数; 行数由槽位流式排布自动推导
+#     gapX/gapY: 0~2 英寸 (默认 0.3 / 0.25)
+#   zones:                        # 1~12 个槽位, 按行优先流式摆放, span 跨列
+#     - id: <^[a-z0-9_]+$>        # 缺省 zone_1..n
+#       type: <COMPOSITE_ELEMENT_TYPES 之一>
+#         title / subtitle / text_card / equation / card_list / conclusion_banner
+#         figure_number_line / figure_tianzige / figure_animation
+#       span: 1~cols (默认 1)
+#       properties: { ... }       # 元素属性; 字符串值可用 "$plan:字段路径" 引用 SlidePlan 字段
+#   timeline:                     # 可选; 缺省全部槽位 step 0 常驻
+#     - { step: 1, action: reveal, target: <zone id> }
+#
+# $plan 引用: 值为 "$plan:reasoning_items" 表示取 SlidePlan 上同名字段 (支持点路径),
+# 缺失即装配失败 —— spec 作者需与该版式所服务的内容字段对齐。
+# figure_number_line 的 marks 缺省时由 arcs 自动推导 ([start, ...arcs.to])。
+#
+# 变更需走 PR 评审: spec 决定课堂版面, 属于教学内容资产。
+
+version: 1
+
+specs:
+  # 左情境右要点 + 底部结论横幅: 情境导入/规则归纳类课时的通用两栏版面
+  two_cards_banner:
+    description: 两栏(情境卡+要点卡) + 跨栏结论横幅
+    grid: { cols: 2, gapX: 0.3, gapY: 0.25 }
+    zones:
+      - id: context
+        type: text_card
+        properties:
+          title: "$plan:context_title"
+          body: "$plan:context_body"
+      - id: points
+        type: card_list
+        properties:
+          items: "$plan:reasoning_items"
+      - id: conclusion
+        type: conclusion_banner
+        span: 2
+        properties:
+          text: "$plan:conclusion_text"
+    timeline:
+      - { step: 1, action: reveal, target: points }
+      - { step: 2, action: reveal, target: conclusion }
+
+  # 左数轴模型右算理要点 + 底部规律横幅: 算理探究类课时的两栏版面
+  model_and_banner:
+    description: 两栏(数轴模型+算理卡) + 跨栏规律横幅
+    grid: { cols: 2, gapX: 0.3, gapY: 0.25 }
+    zones:
+      - id: model
+        type: figure_number_line
+        properties:
+          start: "$plan:model_start"
+          end: "$plan:model_end"
+          step: "$plan:model_step"
+          arcs: "$plan:model_arcs"
+      - id: steps
+        type: card_list
+        properties:
+          items: "$plan:reasoning_items"
+      - id: rule
+        type: conclusion_banner
+        span: 2
+        properties:
+          text: "$plan:conclusion_text"
+    timeline:
+      - { step: 1, action: reveal, target: steps }
+      - { step: 2, action: reveal, target: rule }
+
+  # 三栏并列要点: 复习课知识梳理 / 英语情景三问等并列结构 (全部常驻)
+  three_column_points:
+    description: 三栏并列要点卡, 全部常驻
+    grid: { cols: 3, gapX: 0.28, gapY: 0.25 }
+    zones:
+      - id: col_left
+        type: card_list
+        properties:
+          items: "$plan:left_items"
+      - id: col_middle
+        type: card_list
+        properties:
+          items: "$plan:middle_items"
+      - id: col_right
+        type: card_list
+        properties:
+          items: "$plan:right_items"

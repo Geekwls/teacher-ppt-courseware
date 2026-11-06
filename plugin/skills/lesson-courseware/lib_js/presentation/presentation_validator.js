@@ -145,6 +145,14 @@ export function validatePresentation(data) {
           ));
         }
       }
+      if (Number.isInteger(required.minElements) && elements.length < required.minElements) {
+        issues.push(issue(
+          "LAYOUT_REQUIRED_ELEMENT_MISSING",
+          `页面 [${sId}] 版式 ${slide.layout} 至少需要 ${required.minElements} 个元素, 实际 ${elements.length} 个`,
+          "error",
+          sId
+        ));
+      }
     }
 
     // Timeline 时间线校验
