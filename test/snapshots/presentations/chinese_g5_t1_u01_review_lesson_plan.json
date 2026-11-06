@@ -1,0 +1,502 @@
+{
+  "deck_meta": {
+    "source_lesson_id": "chi-g5-t1-u01-l06",
+    "theme": "warm_chinese_bamboo",
+    "style": "clean",
+    "preset": "standard",
+    "layout_variants": {
+      "objectives_card": "list",
+      "practice_list": "single_column",
+      "summary_card": "points"
+    },
+    "skeleton": {
+      "lesson_type": "unit_review",
+      "lesson_type_name": "单元复习课",
+      "intent": "知识网络 → 专题精练 → 错因诊断 → 课堂小结 → 板书结构 → 分层作业",
+      "complete": true,
+      "fragmented": false,
+      "missing": [],
+      "filled": [],
+      "off_skeleton_roles": [],
+      "out_of_order": [],
+      "closers": [
+        "board",
+        "homework"
+      ]
+    }
+  },
+  "slides": [
+    {
+      "slide_id": "slide_01_cover",
+      "phase_ref": "meta_cover",
+      "layout": "title_cover",
+      "elements": [
+        {
+          "id": "cover_title",
+          "type": "title",
+          "properties": {
+            "text": "第一单元复习·借物抒情与动静描写",
+            "subtitle": "五年级上册 · 语文 · 第1单元 · 课时 1"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "cover_title"
+        }
+      ],
+      "notes": "同学们好！今天我们一起学习《第一单元复习·借物抒情与动静描写》。请同学们准备好课本和练习本，先看大屏幕上的学习目标，明确这节课要完成的三件事，然后跟着老师一步步往下走。"
+    },
+    {
+      "slide_id": "slide_02_objectives",
+      "phase_ref": "meta_objectives",
+      "layout": "objectives_card",
+      "layout_variant": "list",
+      "elements": [
+        {
+          "id": "txt_obj_title",
+          "type": "title",
+          "properties": {
+            "text": "学习目标"
+          }
+        },
+        {
+          "id": "card_obj_list",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "1. 梳理本单元四篇课文的共同写法，理解借物抒情中「物」与「情」的对应关系",
+              "2. 能区分静态描写与动态描写，并说明各自在文中的表达效果"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_obj_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_obj_list"
+        }
+      ],
+      "notes": "本节课的核心学习目标：梳理本单元四篇课文的共同写法，理解借物抒情中「物」与「情」的对应关系；能区分静态描写与动态描写，并说明各自在文中的表达效果。请大家明确学习方向。"
+    },
+    {
+      "slide_id": "slide_03_summary",
+      "phase_ref": "phase_01_network",
+      "layout": "summary_card",
+      "layout_variant": "points",
+      "elements": [
+        {
+          "id": "txt_sum_title",
+          "type": "title",
+          "properties": {
+            "text": "知识网络 · 单元脉络梳理"
+          }
+        },
+        {
+          "id": "card_sum_list",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "借物抒情：借一个具体事物，寄托自己的情感或志向",
+              "静态描写：把景物「定格」，写出形态、色彩、光泽",
+              "动态描写：写出动作与变化，让画面「活」起来"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_sum_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_sum_list"
+        }
+      ],
+      "notes": "同学们，第一单元四篇课文我们已经学完了。请大家先看这张结构图，想一想：白鹭、花生、桂花、珍珠鸟，它们有什么共同点？作者为什么要写这些事物？"
+    },
+    {
+      "slide_id": "slide_04_practice",
+      "phase_ref": "phase_02_topic_drill",
+      "layout": "practice_list",
+      "layout_variant": "single_column",
+      "elements": [
+        {
+          "id": "txt_pr_title",
+          "type": "title",
+          "properties": {
+            "text": "专题精练 · 借物抒情三连问"
+          }
+        },
+        {
+          "id": "card_questions",
+          "type": "practice_list",
+          "properties": {
+            "questions": [
+              "❶ 《桂花雨》中母亲说「这里的桂花再香，也比不上家乡院子里的桂花」，这句话表达了什么？",
+              "❷ 《落花生》中父亲把花生和桃子、石榴、苹果作对比，用意是什么？",
+              "❸ 判断：《白鹭》中「黄昏的空中偶见白鹭的低飞」属于静态描写。"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_pr_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_questions"
+        }
+      ],
+      "notes": "这三道题分别考三种能力：找情感、看写法、辨动静。请先独立写，写完后和同桌交换，重点看对方有没有说清「为什么」。"
+    },
+    {
+      "slide_id": "slide_05_answer",
+      "phase_ref": "phase_02_topic_drill",
+      "layout": "answer_reveal_list",
+      "elements": [
+        {
+          "id": "txt_ans_title",
+          "type": "title",
+          "properties": {
+            "text": "专题精练 · 借物抒情三连问 · 参考答案与诊断"
+          }
+        },
+        {
+          "id": "ans_item_1",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❶",
+            "stem": "《桂花雨》中母亲说「这里的桂…",
+            "explanation": "★ 参考答案：借桂花表达对故乡的思念   【解析】物是桂花，情是思乡；他乡的桂花再香，也比不上故乡记忆里的味道。"
+          }
+        },
+        {
+          "id": "ans_item_2",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❷",
+            "stem": "《落花生》中父亲把花生和桃子…",
+            "explanation": "★ 参考答案：突出花生朴实无华、默默奉献的特点   【解析】对比是为了反衬，落脚点在「人要做有用的人，不要做只讲体面的人」。"
+          }
+        },
+        {
+          "id": "ans_item_3",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❸",
+            "stem": "判断：《白鹭》中「黄昏的空中…",
+            "explanation": "★ 参考答案：错，属于动态描写   【解析】「低飞」写的是动作与变化，让画面动起来，是动态描写。"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_ans_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_1.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_2.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_3.stem"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "ans_item_1.explanation"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "ans_item_2.explanation"
+        },
+        {
+          "step": 3,
+          "action": "reveal",
+          "target": "ans_item_3.explanation"
+        }
+      ],
+      "notes": "逐题点击揭晓参考答案：先请学生说出思路，再显示答案，对照订正并说明理由。"
+    },
+    {
+      "slide_id": "slide_06_misconception",
+      "phase_ref": "phase_03_error_analysis",
+      "layout": "misconception_split",
+      "elements": [
+        {
+          "id": "txt_misc_title",
+          "type": "title",
+          "properties": {
+            "text": "错因诊断 · 赏析别停在表面"
+          }
+        },
+        {
+          "id": "card_wrong",
+          "type": "text_card",
+          "properties": {
+            "title": "【典型错例】",
+            "body": "赏析《桂花雨》时只写「作者很喜欢桂花，写出了桂花的香」，没有联系「故乡」「母亲」这些关键词。"
+          }
+        },
+        {
+          "id": "card_cause",
+          "type": "text_card",
+          "properties": {
+            "title": "【病因诊断】",
+            "body": "只读到「物」，没有读到「情」，停留在内容复述层面，没有抓住借物抒情的物情对应关系。"
+          }
+        },
+        {
+          "id": "card_correct",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "✓ 正解：先找「物」（桂花），再找「情」（思乡），最后说清「物」是怎样承载「情」的。"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_misc_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_wrong"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_cause"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "card_correct"
+        }
+      ],
+      "notes": "老师看到不少同学的答案都停在「很喜欢桂花」。请大家判断：这样的答案缺了什么？如果让你补一句，你会补什么？"
+    },
+    {
+      "slide_id": "slide_07_summary",
+      "phase_ref": "phase_04_summary",
+      "layout": "summary_card",
+      "layout_variant": "points",
+      "elements": [
+        {
+          "id": "txt_sum_title",
+          "type": "title",
+          "properties": {
+            "text": "课堂小结 · 三步读法带走"
+          }
+        },
+        {
+          "id": "card_sum_list",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "借物抒情：物是载体，情是内核，写物是为了写人",
+              "静态描写抓形态色彩，动态描写抓动作变化",
+              "赏析三步：找物 → 找情 → 说清二者联系"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_sum_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_sum_list"
+        }
+      ],
+      "notes": "今天我们把整个单元收拢成三步：找物、找情、说清联系。请大家选一句你最喜欢的课文原句，用这三步说给同桌听。"
+    },
+    {
+      "slide_id": "slide_08_board",
+      "phase_ref": "meta_board_design",
+      "layout": "board_design",
+      "elements": [
+        {
+          "id": "txt_board_title",
+          "type": "title",
+          "properties": {
+            "text": "板书设计"
+          }
+        },
+        {
+          "id": "card_board_topic",
+          "type": "text_card",
+          "properties": {
+            "title": "【课题】",
+            "body": "第一单元复习·借物抒情与动静描写"
+          }
+        },
+        {
+          "id": "card_board_0",
+          "type": "card_list",
+          "properties": {
+            "head": "课文主线",
+            "items": [
+              "上学：各族相聚 欢声笑语",
+              "上课：安静听读 动物驻足",
+              "下课：摔跤跳舞 边疆欢乐"
+            ]
+          }
+        },
+        {
+          "id": "card_board_1",
+          "type": "card_list",
+          "properties": {
+            "head": "语文要素",
+            "items": [
+              "关注新鲜词句",
+              "品读生动拟人",
+              "体会童真童趣"
+            ]
+          }
+        },
+        {
+          "id": "card_board_2",
+          "type": "card_list",
+          "properties": {
+            "head": "字词书写",
+            "items": [
+              "左窄右宽 左右避让",
+              "字形匀称 重心平稳"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_board_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_board_topic"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_board_0"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "card_board_1"
+        },
+        {
+          "step": 3,
+          "action": "reveal",
+          "target": "card_board_2"
+        }
+      ],
+      "notes": "这是本节课的板书设计。请同学们对照黑板板书，在课堂笔记本上清晰梳理本课脉络与重点。"
+    },
+    {
+      "slide_id": "slide_09_homework",
+      "phase_ref": "meta_homework",
+      "layout": "homework_card",
+      "elements": [
+        {
+          "id": "txt_hw_title",
+          "type": "title",
+          "properties": {
+            "text": "分层作业布置"
+          }
+        },
+        {
+          "id": "card_hw_tiers",
+          "type": "tier_list",
+          "properties": {
+            "tiers": [
+              {
+                "tier": "必做",
+                "desc": "【基础巩固】在田字格本上工整书写本课生字与核心词语，朗读课文重点段落。"
+              },
+              {
+                "tier": "选做",
+                "desc": "【能力提升】有感情地朗读课文，在摘抄本上摘抄 2~3 处有新鲜感的优美词句。"
+              },
+              {
+                "tier": "挑战",
+                "desc": "【思维拓展】观察生活中的一处熟悉场景，尝试运用拟人手法写 1~2 句生动的话。"
+              }
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_hw_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_hw_tiers"
+        }
+      ],
+      "notes": "今天的分层作业：基础必做题全员完成；选做题供学有余力的同学提升；挑战题鼓励联系生活自主探究。"
+    },
+    {
+      "slide_id": "slide_10_end",
+      "phase_ref": "meta_end",
+      "layout": "end_cover",
+      "elements": [
+        {
+          "id": "end_title",
+          "type": "title",
+          "properties": {
+            "text": "同学们，下课！",
+            "subtitle": "多读多写，日积月累"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "end_title"
+        }
+      ],
+      "notes": "今天的课就上到这里。课后请完成分层作业：必做部分人人过关，选做和挑战量力而行；下节课我们先交流摘抄与观察写话。同学们，下课！"
+    }
+  ]
+}

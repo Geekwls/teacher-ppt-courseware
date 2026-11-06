@@ -9,9 +9,11 @@
  */
 
 import { execFileSync } from "child_process";
+import { CANVAS_W, CANVAS_H } from "./domain/canvas.js";
 
-export const CANVAS_W = 13.333;
-export const CANVAS_H = 7.5;
+// 兼容既有导入路径: 画布尺寸与学科标签的唯一定义在 domain/
+export { CANVAS_W, CANVAS_H } from "./domain/canvas.js";
+export { SUBJECT_LABEL } from "./domain/subjects.js";
 
 /**
  * 字体解析: 固定写死 "Microsoft YaHei" 时, Linux / macOS / 未装雅黑的机器会
@@ -59,12 +61,6 @@ export const SEMANTIC = {
   mediaSurface: "F8FAFC",
   mediaPanel: "1E293B",
   mediaHint: "CBD5E1"
-};
-
-export const SUBJECT_LABEL = {
-  math: "数学",
-  chinese: "语文",
-  english: "英语"
 };
 
 export const TERM_LABEL = {

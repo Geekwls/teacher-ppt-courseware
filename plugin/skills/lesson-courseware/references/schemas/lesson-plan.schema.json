@@ -52,7 +52,8 @@
         },
         "topic": {
           "type": "string",
-          "minLength": 2
+          "minLength": 1,
+          "description": "课题名；单字篇目（如《春》）同样合法"
         },
         "lesson_type": {
           "type": "string",
@@ -191,6 +192,19 @@
           }
         },
         "additionalProperties": false
+      }
+    },
+    "revision_history": {
+      "type": "array",
+      "description": "局部修订留痕（patch_courseware 写入），用于内容资产可追溯",
+      "items": {
+        "type": "object",
+        "required": ["revised_at", "summary"],
+        "properties": {
+          "revised_at": { "type": "string", "description": "ISO 时间戳" },
+          "summary": { "type": "string", "minLength": 1, "description": "本次修订摘要" }
+        },
+        "additionalProperties": true
       }
     }
   },

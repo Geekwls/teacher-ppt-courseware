@@ -16,6 +16,8 @@
  * 5. 教师讲稿完备性: notes 字段必填且具有教学内容。
  */
 
+import { LAYOUT_IDS, ELEMENT_TYPES, ACTIONS, LAYOUTS } from "./layout_registry.js";
+
 function issue(code, message, severity = "error", slideId = null, hint = null) {
   const item = { code, message, severity };
   if (slideId) item.slide_id = slideId;
@@ -23,46 +25,9 @@ function issue(code, message, severity = "error", slideId = null, hint = null) {
   return item;
 }
 
-const SUPPORTED_LAYOUTS = new Set([
-  "title_cover",
-  "objectives_card",
-  "context_problem",
-  "model_left_reasoning_right",
-  "example_step_by_step",
-  "misconception_split",
-  "practice_list",
-  "answer_reveal_list",
-  "reading_focus",
-  "character_practice",
-  "summary_card",
-  "board_design",
-  "homework_card",
-  "activity_instruction",
-  "comparison_table",
-  "knowledge_tree",
-  "phase_placeholder",
-  "end_cover"
-]);
-
-const SUPPORTED_ELEMENT_TYPES = new Set([
-  "title",
-  "subtitle",
-  "text_card",
-  "equation",
-  "figure_number_line",
-  "figure_tianzige",
-  "figure_animation",
-  "card_list",
-  "tier_list",
-  "activity_card",
-  "comparison_table",
-  "tree_graph",
-  "conclusion_banner",
-  "practice_list",
-  "answer_feedback"
-]);
-
-const SUPPORTED_ACTIONS = new Set(["show", "reveal", "hide"]);
+const SUPPORTED_LAYOUTS = new Set(LAYOUT_IDS);
+const SUPPORTED_ELEMENT_TYPES = new Set(ELEMENT_TYPES);
+const SUPPORTED_ACTIONS = new Set(ACTIONS);
 
 export function validatePresentation(data) {
   const issues = [];
@@ -156,6 +121,31 @@ export function validatePresentation(data) {
         validTargets.add(`${eId}.explanation`);
       }
     });
+
+    // 版式必需元素检查: 防止"门禁放行、渲染出来是空页"
+    const required = LAYOUTS[slide.layout]?.required;
+    if (required) {
+      for (const id of required.ids || []) {
+        if (!elemIds.has(id)) {
+          issues.push(issue(
+            "LAYOUT_REQUIRED_ELEMENT_MISSING",
+            `页面 [${sId}] 版式 ${slide.layout} 缺少必需元素: [${id}]`,
+            "error",
+            sId
+          ));
+        }
+      }
+      for (const type of required.types || []) {
+        if (!elements.some(e => e.type === type)) {
+          issues.push(issue(
+            "LAYOUT_REQUIRED_ELEMENT_MISSING",
+            `页面 [${sId}] 版式 ${slide.layout} 缺少必需图元类型: [${type}]`,
+            "error",
+            sId
+          ));
+        }
+      }
+    }
 
     // Timeline 时间线校验
     const timeline = Array.isArray(slide.timeline) ? slide.timeline : [];

@@ -1,0 +1,686 @@
+{
+  "deck_meta": {
+    "source_lesson_id": "chi-g2-t1-u04-l04",
+    "theme": "warm_chinese_bamboo",
+    "style": "clean",
+    "preset": "standard",
+    "layout_variants": {
+      "objectives_card": "list",
+      "practice_list": "single_column",
+      "summary_card": "points"
+    },
+    "skeleton": {
+      "lesson_type": "concept_learning",
+      "lesson_type_name": "新授课",
+      "intent": "情境导入 → 核心探究 → 例题示范 → 易错辨析 → 当堂练习 → 课堂小结",
+      "complete": true,
+      "fragmented": false,
+      "missing": [],
+      "filled": [],
+      "off_skeleton_roles": [],
+      "out_of_order": [],
+      "closers": []
+    }
+  },
+  "slides": [
+    {
+      "slide_id": "slide_01_cover",
+      "phase_ref": "meta_cover",
+      "layout": "title_cover",
+      "elements": [
+        {
+          "id": "cover_title",
+          "type": "title",
+          "properties": {
+            "text": "葡萄沟",
+            "subtitle": "二年级上册 · 语文 · 第4单元 · 课时 1"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "cover_title"
+        }
+      ],
+      "notes": "同学们好！今天我们一起学习《葡萄沟》。请同学们准备好课本和练习本，先看大屏幕上的学习目标，明确这节课要完成的三件事，然后跟着老师一步步往下走。"
+    },
+    {
+      "slide_id": "slide_02_objectives",
+      "phase_ref": "meta_objectives",
+      "layout": "objectives_card",
+      "layout_variant": "list",
+      "elements": [
+        {
+          "id": "txt_obj_title",
+          "type": "title",
+          "properties": {
+            "text": "学习目标"
+          }
+        },
+        {
+          "id": "card_obj_list",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "1. 认识「沟、产、份、枝」等生字，会写「份、枝、客、城、市、味」6个会写生字，掌握左窄右宽书写结构",
+              "2. 有感情地朗读课文，结合语境理解「五光十色、热情好客」等重点词语，体会葡萄成熟时的美丽景色",
+              "3. 了解葡萄沟阴房晾制葡萄干的巧妙过程，深刻感悟「葡萄沟真是个好地方」"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_obj_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_obj_list"
+        }
+      ],
+      "notes": "本节课的核心学习目标：认识「沟、产、份、枝」等生字，会写「份、枝、客、城、市、味」6个会写生字，掌握左窄右宽书写结构；有感情地朗读课文，结合语境理解「五光十色、热情好客」等重点词语，体会葡萄成熟时的美丽景色；了解葡萄沟阴房晾制葡萄干的巧妙过程，深刻感悟「葡萄沟真是个好地方」。请大家明确学习方向。"
+    },
+    {
+      "slide_id": "slide_03_warmup",
+      "phase_ref": "phase_01_warmup",
+      "layout": "context_problem",
+      "elements": [
+        {
+          "id": "txt_warmup_title",
+          "type": "title",
+          "properties": {
+            "text": "情境激趣 · 走进新疆吐鲁番"
+          }
+        },
+        {
+          "id": "card_context",
+          "type": "text_card",
+          "properties": {
+            "title": "【情境呈现】",
+            "body": "在我国新疆吐鲁番，有一个盛产瓜果的神奇地方，名叫葡萄沟。 那里出产哪些好吃的水果？为什么大家都说葡萄沟是个好地方？"
+          }
+        },
+        {
+          "id": "eq_warmup",
+          "type": "equation",
+          "properties": {
+            "expression": "新疆吐鲁番 · 葡萄沟"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_warmup_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_context"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "eq_warmup"
+        }
+      ],
+      "notes": "【修订更新测试讲稿】请同学们看大屏幕上的中国地图，找出新疆吐鲁番在哪里！"
+    },
+    {
+      "slide_id": "slide_04_vocab",
+      "phase_ref": "phase_02_vocabulary",
+      "layout": "reading_focus",
+      "elements": [
+        {
+          "id": "txt_read_title",
+          "type": "title",
+          "properties": {
+            "text": "生字初探 · 识记与多音字辨析"
+          }
+        },
+        {
+          "id": "card_reading_text",
+          "type": "text_card",
+          "properties": {
+            "title": "【重点字词与易错字形】",
+            "body": "葡萄沟 (pú tao gōu) ── 轻声词\n热情好客 (rè qíng hào kè) ── 多音字「好」读四声 hào\n五光十色 (wǔ guāng shí sè) ── 形容颜色鲜艳繁多\n水分蒸发 (shuǐ fèn zhēng fā) ── 多音字「分」读四声 fèn",
+            "reading_guide": null
+          }
+        },
+        {
+          "id": "banner_key_phrase",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "注意「好客」读 hào kè，「水分」读 shuǐ fèn，前鼻音「份、产」，后鼻音「城、钉」。"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_read_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_reading_text"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "banner_key_phrase"
+        }
+      ],
+      "notes": "运用字理识字法和语境辨析，帮助低年级学生在语言环境中扎实掌握生字读音与字义"
+    },
+    {
+      "slide_id": "slide_05_writing",
+      "phase_ref": "phase_03_writing",
+      "layout": "character_practice",
+      "elements": [
+        {
+          "id": "txt_write_title",
+          "type": "title",
+          "properties": {
+            "text": "书写指导 · 田字格生字范写"
+          }
+        },
+        {
+          "id": "fig_tianzige",
+          "type": "figure_tianzige",
+          "properties": {
+            "kind": "tianzige",
+            "chars": [
+              "份",
+              "枝",
+              "客",
+              "城",
+              "市",
+              "味"
+            ],
+            "pinyin": [
+              "fèn",
+              "zhī",
+              "kè",
+              "chéng",
+              "shì",
+              "wèi"
+            ]
+          }
+        },
+        {
+          "id": "card_rules",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "结构归类：左右结构（份、枝、城、味），上下结构（客），独体/上下（市）",
+              "笔画提示：「枝」字木字旁捺变点；「味」字右边是未（上横短下横长）",
+              "书写口诀：左窄右宽要均称，中心点位坐正中，横平竖直结构稳"
+            ]
+          }
+        },
+        {
+          "id": "card_tip",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "描红一个、临写两个，注意坐姿端正、握笔规范。"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_write_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "fig_tianzige"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_rules"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "card_tip"
+        }
+      ],
+      "notes": "示范书写「枝」与「味」，强调左右结构偏旁部首的避让规则（木字旁捺变点）"
+    },
+    {
+      "slide_id": "slide_06_reading_text",
+      "phase_ref": "phase_04_reading_grapes",
+      "layout": "reading_focus",
+      "elements": [
+        {
+          "id": "txt_read_title",
+          "type": "title",
+          "properties": {
+            "text": "课文品读 · 葡萄盛产五光十色 · 原文品读"
+          }
+        },
+        {
+          "id": "card_reading_text",
+          "type": "text_card",
+          "properties": {
+            "title": "【原文精读】",
+            "body": "茂密的枝叶向四面展开，就像搭起了一个个绿色的凉棚。到了秋季，葡萄一大串一大串地挂在绿叶底下，有红的、白的、紫的、暗红的、淡绿的，五光十色，美丽极了。",
+            "reading_guide": null
+          }
+        },
+        {
+          "id": "banner_key_phrase",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "五光十色：不仅颜色鲜艳丰富，而且在阳光下晶莹发亮！"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_read_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_reading_text"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "banner_key_phrase"
+        }
+      ],
+      "notes": "指导朗读，重读「一大串一大串」和各种颜色词，引导学生在脑海中浮现阳光下葡萄晶莹剔透的诱人画面（第1部分：指导学生有感情地朗读原文，沉浸感受语言文字的意境美与节奏感）"
+    },
+    {
+      "slide_id": "slide_07_reading_questions",
+      "phase_ref": "phase_04_reading_grapes",
+      "layout": "reading_focus",
+      "elements": [
+        {
+          "id": "txt_read_title",
+          "type": "title",
+          "properties": {
+            "text": "课文品读 · 葡萄盛产五光十色 · 研读思考与探究"
+          }
+        },
+        {
+          "id": "card_reading_text",
+          "type": "text_card",
+          "properties": {
+            "title": "【研读思考】",
+            "body": "结合上页原文重点语句，深入探究下列核心问题并交流分享：",
+            "reading_guide": null
+          }
+        },
+        {
+          "id": "card_questions",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "1. 句子把「茂密的枝叶」比作了什么？（绿色的凉棚）",
+              "2. 课文中描写了哪些颜色的葡萄？为什么用「五光十色」而不用「五颜六色」？",
+              "3. 老乡是怎样对待远方客人的？体会维吾尔族老乡的「热情好客」。"
+            ]
+          }
+        },
+        {
+          "id": "banner_key_phrase",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "五光十色：不仅颜色鲜艳丰富，而且在阳光下晶莹发亮！"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_read_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_reading_text"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_questions"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "banner_key_phrase"
+        }
+      ],
+      "notes": "指导朗读，重读「一大串一大串」和各种颜色词，引导学生在脑海中浮现阳光下葡萄晶莹剔透的诱人画面（第2部分：结合设问引导学生深入探究修辞特色、感官协同与内在行文逻辑）"
+    },
+    {
+      "slide_id": "slide_08_reading_text",
+      "phase_ref": "phase_05_reading_drying",
+      "layout": "reading_focus",
+      "elements": [
+        {
+          "id": "txt_read_title",
+          "type": "title",
+          "properties": {
+            "text": "课文品读 · 阴房晾晒葡萄干 · 原文品读"
+          }
+        },
+        {
+          "id": "card_reading_text",
+          "type": "text_card",
+          "properties": {
+            "title": "【原文精读】",
+            "body": "阴房修在山坡上，样子很像碉堡，四周留着许多小孔。把成串的葡萄挂在架子上，利用流动的热空气，把水分蒸发掉，就成了颜色鲜、味道甜的葡萄干。",
+            "reading_guide": null
+          }
+        },
+        {
+          "id": "banner_key_phrase",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "流动的热空气：智慧的劳动人民因地制宜制作美味！"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_read_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_reading_text"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "banner_key_phrase"
+        }
+      ],
+      "notes": "引导学生结合吐鲁番炎热干燥的气候特点，体会新疆维吾尔族人民因地制宜的非凡劳动智慧（第1部分：指导学生有感情地朗读原文，沉浸感受语言文字的意境美与节奏感）"
+    },
+    {
+      "slide_id": "slide_09_reading_questions",
+      "phase_ref": "phase_05_reading_drying",
+      "layout": "reading_focus",
+      "elements": [
+        {
+          "id": "txt_read_title",
+          "type": "title",
+          "properties": {
+            "text": "课文品读 · 阴房晾晒葡萄干 · 研读思考与探究"
+          }
+        },
+        {
+          "id": "card_reading_text",
+          "type": "text_card",
+          "properties": {
+            "title": "【研读思考】",
+            "body": "结合上页原文重点语句，深入探究下列核心问题并交流分享：",
+            "reading_guide": null
+          }
+        },
+        {
+          "id": "card_questions",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "1. 阴房修在哪里？样子像什么？（山坡上，很像碉堡）",
+              "2. 阴房四周为什么要留许多小孔？（利用流动的热空气蒸发水分）",
+              "3. 这样晾制出来的葡萄干有什么特点？（颜色鲜、味道甜、非常有名）"
+            ]
+          }
+        },
+        {
+          "id": "banner_key_phrase",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "流动的热空气：智慧的劳动人民因地制宜制作美味！"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_read_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_reading_text"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_questions"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "banner_key_phrase"
+        }
+      ],
+      "notes": "引导学生结合吐鲁番炎热干燥的气候特点，体会新疆维吾尔族人民因地制宜的非凡劳动智慧（第2部分：结合设问引导学生深入探究修辞特色、感官协同与内在行文逻辑）"
+    },
+    {
+      "slide_id": "slide_10_practice",
+      "phase_ref": "phase_06_practice",
+      "layout": "practice_list",
+      "layout_variant": "single_column",
+      "elements": [
+        {
+          "id": "txt_pr_title",
+          "type": "title",
+          "properties": {
+            "text": "课堂闯关 · 逐题诊断与演练"
+          }
+        },
+        {
+          "id": "card_questions",
+          "type": "practice_list",
+          "properties": {
+            "questions": [
+              "❶ 【看拼音写生字】把生字工整写入括号：shì (    ) zhǎn (    ) kè (    )",
+              "❷ 【多音字辨析】下列加点字读音正确的一项是：(    )\nA. 热情好客 (hǎo)\nB. 水分蒸发 (fèn)\nC. 结出葡萄 (táo)",
+              "❸ 【词语搭配】照样子填一填：( 五光十色 ) 的葡萄，( 热情好客 ) 的老乡，(    ) 的凉棚",
+              "❹ 【课文主旨】根据课文填空：葡萄沟盛产水果，葡萄美丽，老乡热情，葡萄沟真是个 (    )！"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_pr_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_questions"
+        }
+      ],
+      "notes": "题目常驻展示，点击逐题淡入参考答案，对多音字与写字重点展开即时诊断"
+    },
+    {
+      "slide_id": "slide_11_answer",
+      "phase_ref": "phase_06_practice",
+      "layout": "answer_reveal_list",
+      "elements": [
+        {
+          "id": "txt_ans_title",
+          "type": "title",
+          "properties": {
+            "text": "课堂闯关 · 逐题诊断与演练 · 参考答案与诊断"
+          }
+        },
+        {
+          "id": "ans_item_1",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❶",
+            "stem": "【看拼音写生字】",
+            "explanation": "★ 参考答案：市、展、客   【解析】市、展、客（注意「客」字各部首间架匀称）"
+          }
+        },
+        {
+          "id": "ans_item_2",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❷",
+            "stem": "【多音字辨析】",
+            "explanation": "★ 参考答案：B   【解析】B（A.好客读 hào；B.水分读 fèn；C.葡萄读轻声）"
+          }
+        },
+        {
+          "id": "ans_item_3",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❸",
+            "stem": "【词语搭配】",
+            "explanation": "★ 参考答案：绿色 / 茂密   【解析】绿色（或 茂密、清凉）"
+          }
+        },
+        {
+          "id": "ans_item_4",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❹",
+            "stem": "【课文主旨】",
+            "explanation": "★ 参考答案：好地方   【解析】好地方（全文中心句，表达对葡萄沟的赞美之情）"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_ans_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_1.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_2.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_3.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_4.stem"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "ans_item_1.explanation"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "ans_item_2.explanation"
+        },
+        {
+          "step": 3,
+          "action": "reveal",
+          "target": "ans_item_3.explanation"
+        },
+        {
+          "step": 4,
+          "action": "reveal",
+          "target": "ans_item_4.explanation"
+        }
+      ],
+      "notes": "逐题点击揭晓参考答案：先请学生说出思路，再显示答案，对照订正并说明理由。"
+    },
+    {
+      "slide_id": "slide_12_summary",
+      "phase_ref": "phase_07_summary",
+      "layout": "summary_card",
+      "layout_variant": "points",
+      "elements": [
+        {
+          "id": "txt_sum_title",
+          "type": "title",
+          "properties": {
+            "text": "课堂小结 · 赞美葡萄沟"
+          }
+        },
+        {
+          "id": "card_sum_list",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "瓜果飘香：杏子、香梨、蜜桃，特别是葡萄一大串一大串",
+              "景美情深：葡萄五光十色晶莹诱人，老乡热情好客端出果子",
+              "智慧赞歌：奇特阴房晾制葡萄干，葡萄沟真是个名副其实的好地方"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_sum_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_sum_list"
+        }
+      ],
+      "notes": "升华情感体验，鼓励学生热爱祖国壮丽河山与劳动人民的智慧创造"
+    },
+    {
+      "slide_id": "slide_13_end",
+      "phase_ref": "meta_end",
+      "layout": "end_cover",
+      "elements": [
+        {
+          "id": "end_title",
+          "type": "title",
+          "properties": {
+            "text": "同学们，下课！",
+            "subtitle": "多读多写，日积月累"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "end_title"
+        }
+      ],
+      "notes": "今天的课就上到这里。课后请完成分层作业：必做部分人人过关，选做和挑战量力而行；下节课我们先交流摘抄与观察写话。同学们，下课！"
+    }
+  ]
+}

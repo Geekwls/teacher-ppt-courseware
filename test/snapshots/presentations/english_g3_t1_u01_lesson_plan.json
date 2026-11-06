@@ -1,0 +1,504 @@
+{
+  "deck_meta": {
+    "source_lesson_id": "eng-g3-t1-u01-l01",
+    "theme": "fresh_english_morning",
+    "style": "clean",
+    "preset": "standard",
+    "layout_variants": {
+      "objectives_card": "list",
+      "practice_list": "single_column",
+      "summary_card": "points"
+    },
+    "skeleton": {
+      "lesson_type": "concept_learning",
+      "lesson_type_name": "新授课",
+      "intent": "情境导入 → 核心探究 → 例题示范 → 易错辨析 → 当堂练习 → 课堂小结",
+      "complete": true,
+      "fragmented": false,
+      "missing": [],
+      "filled": [],
+      "off_skeleton_roles": [],
+      "out_of_order": [],
+      "closers": []
+    }
+  },
+  "slides": [
+    {
+      "slide_id": "slide_01_cover",
+      "phase_ref": "meta_cover",
+      "layout": "title_cover",
+      "elements": [
+        {
+          "id": "cover_title",
+          "type": "title",
+          "properties": {
+            "text": "Making friends",
+            "subtitle": "三年级上册 · 英语 · 第1单元 · 课时 1"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "cover_title"
+        }
+      ],
+      "notes": "同学们好！今天我们一起学习《Making friends》。请同学们准备好课本和练习本，先看大屏幕上的学习目标，明确这节课要完成的三件事，然后跟着老师一步步往下走。"
+    },
+    {
+      "slide_id": "slide_02_objectives",
+      "phase_ref": "meta_objectives",
+      "layout": "objectives_card",
+      "layout_variant": "list",
+      "elements": [
+        {
+          "id": "txt_obj_title",
+          "type": "title",
+          "properties": {
+            "text": "学习目标"
+          }
+        },
+        {
+          "id": "card_obj_list",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "1. 能在真实或模拟情境中用 Hello! / Hi! 热情打招呼，并运用 I'm... 或 My name is... 自信介绍自己的姓名",
+              "2. 能熟练运用 Nice to meet you. 以及 Nice to meet you too. 进行得体礼貌应答，表达初次相识的喜悦",
+              "3. 通过交友情境互动，体会友好交友的乐趣，养成积极主动与同伴礼貌交流的良好习惯"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_obj_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_obj_list"
+        }
+      ],
+      "notes": "本节课的核心学习目标：能在真实或模拟情境中用 Hello! / Hi! 热情打招呼，并运用 I'm... 或 My name is... 自信介绍自己的姓名；能熟练运用 Nice to meet you. 以及 Nice to meet you too. 进行得体礼貌应答，表达初次相识的喜悦；通过交友情境互动，体会友好交友的乐趣，养成积极主动与同伴礼貌交流的良好习惯。请大家明确学习方向。"
+    },
+    {
+      "slide_id": "slide_03_warmup",
+      "phase_ref": "phase_01_warmup",
+      "layout": "context_problem",
+      "elements": [
+        {
+          "id": "txt_warmup_title",
+          "type": "title",
+          "properties": {
+            "text": "情境激趣 · 开启交友之旅"
+          }
+        },
+        {
+          "id": "card_context",
+          "type": "text_card",
+          "properties": {
+            "title": "【情境呈现】",
+            "body": "It's the first day of school. Many new students meet in the classroom. 新学期开学第一天，新同学们在教室里互相认识。 How do they greet each other and make friends? 新朋友初次见面，怎样礼貌打招呼并介绍自己？"
+          }
+        },
+        {
+          "id": "eq_warmup",
+          "type": "equation",
+          "properties": {
+            "expression": "Making Friends · Daily Greetings"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_warmup_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_context"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "eq_warmup"
+        }
+      ],
+      "notes": "用热情的语气向全班问好：Hello, boys and girls! 引导学生进入初识新朋友的学习情境"
+    },
+    {
+      "slide_id": "slide_04_reading_text",
+      "phase_ref": "phase_02_exploration",
+      "layout": "reading_focus",
+      "elements": [
+        {
+          "id": "txt_read_title",
+          "type": "title",
+          "properties": {
+            "text": "核心对话 · 示范朗读与句型探究 · 原文品读"
+          }
+        },
+        {
+          "id": "card_reading_text",
+          "type": "text_card",
+          "properties": {
+            "title": "【原文精读】",
+            "body": "Mike: Hello! I'm Mike Black.\nWu Binbin: Hi! My name is Wu Binbin.\nMike: Nice to meet you.\nWu Binbin: Nice to meet you too.",
+            "reading_guide": null
+          }
+        },
+        {
+          "id": "banner_key_phrase",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "★ 核心交际用语：I'm... / My name is... ── Nice to meet you (too)."
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_read_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_reading_text"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "banner_key_phrase"
+        }
+      ],
+      "notes": "通过拆分角色示范（教师与学生示范、男女生对读），引导学生在情境中自然内化问候交友语流（第1部分：指导学生有感情地朗读原文，沉浸感受语言文字的意境美与节奏感）"
+    },
+    {
+      "slide_id": "slide_05_reading_questions",
+      "phase_ref": "phase_02_exploration",
+      "layout": "reading_focus",
+      "elements": [
+        {
+          "id": "txt_read_title",
+          "type": "title",
+          "properties": {
+            "text": "核心对话 · 示范朗读与句型探究 · 研读思考与探究"
+          }
+        },
+        {
+          "id": "card_reading_text",
+          "type": "text_card",
+          "properties": {
+            "title": "【研读思考】",
+            "body": "结合上页原文重点语句，深入探究下列核心问题并交流分享：",
+            "reading_guide": null
+          }
+        },
+        {
+          "id": "card_questions",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "1. 常用打招呼用语：Hello! 与 Hi! 可以互换使用，表达热情问候",
+              "2. 自我介绍常用句型：I'm... 与 My name is... 均可表达「我是……」",
+              "3. 初次结识礼貌回应：听到 Nice to meet you，一定要回答 Nice to meet you too"
+            ]
+          }
+        },
+        {
+          "id": "banner_key_phrase",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "★ 核心交际用语：I'm... / My name is... ── Nice to meet you (too)."
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_read_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_reading_text"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_questions"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "banner_key_phrase"
+        }
+      ],
+      "notes": "通过拆分角色示范（教师与学生示范、男女生对读），引导学生在情境中自然内化问候交友语流（第2部分：结合设问引导学生深入探究修辞特色、感官协同与内在行文逻辑）"
+    },
+    {
+      "slide_id": "slide_06_misconception",
+      "phase_ref": "phase_03_misconception",
+      "layout": "misconception_split",
+      "elements": [
+        {
+          "id": "txt_misc_title",
+          "type": "title",
+          "properties": {
+            "text": "易错警示 · 避免应答脱节"
+          }
+        },
+        {
+          "id": "card_wrong",
+          "type": "text_card",
+          "properties": {
+            "title": "【典型错例】",
+            "body": "A: Nice to meet you.\nB: Hello! / I'm Mike. （❌ 答非所问、回应脱节）"
+          }
+        },
+        {
+          "id": "card_cause",
+          "type": "text_card",
+          "properties": {
+            "title": "【病因诊断】",
+            "body": "对方表达初次结识的喜悦时，不能机械重复打招呼，必须礼貌回应相同的喜悦心情并加上 too。"
+          }
+        },
+        {
+          "id": "card_correct",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "✓ 正解：Nice to meet you too. （✓ 礼貌回应：我也很高兴见到你。）"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_misc_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_wrong"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_cause"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "card_correct"
+        }
+      ],
+      "notes": "强调社交礼貌的对称性原则：别人表达高兴认识你，你也一定要表达同样的心情"
+    },
+    {
+      "slide_id": "slide_07_practice",
+      "phase_ref": "phase_04_practice",
+      "layout": "practice_list",
+      "layout_variant": "single_column",
+      "elements": [
+        {
+          "id": "txt_pr_title",
+          "type": "title",
+          "properties": {
+            "text": "随堂巩固 · 情境交际大闯关"
+          }
+        },
+        {
+          "id": "card_questions",
+          "type": "practice_list",
+          "properties": {
+            "questions": [
+              "❶ ❶ 【日常问候】开学第一天你见到新同学 Sarah，你想主动问好，可以说：",
+              "❷ ❷ 【自我介绍】你想告诉新朋友你的名字是 John，正确的英文表达是：",
+              "❸ ❸ 【礼貌应答】当新同学对你说：“Nice to meet you.” 时，你应当礼貌回应：",
+              "❹ ❹ 【补全对话】Mike: Hi! I'm Mike.  Wu Binbin: _______"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_pr_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_questions"
+        }
+      ],
+      "notes": "采用先独立思考后逐题揭晓反馈的策略，加深学生对情境应答逻辑的掌握"
+    },
+    {
+      "slide_id": "slide_08_answer",
+      "phase_ref": "phase_04_practice",
+      "layout": "answer_reveal_list",
+      "elements": [
+        {
+          "id": "txt_ans_title",
+          "type": "title",
+          "properties": {
+            "text": "随堂巩固 · 情境交际大闯关 · 参考答案与诊断"
+          }
+        },
+        {
+          "id": "ans_item_1",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❶",
+            "stem": "❶ 【日常问候】开学第一天你…",
+            "explanation": "★ 参考答案：A. Hello, Sarah!   【解析】日常问好使用 Hello! 或 Hi!，表达热情主动。"
+          }
+        },
+        {
+          "id": "ans_item_2",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❷",
+            "stem": "❷ 【自我介绍】你想告诉新朋…",
+            "explanation": "★ 参考答案：A. I'm John. / My name is John.   【解析】自我介绍使用第一人称 I'm... 或 My name is..."
+          }
+        },
+        {
+          "id": "ans_item_3",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❸",
+            "stem": "❸ 【礼貌应答】当新同学对你…",
+            "explanation": "★ 参考答案：A. Nice to meet you too.   【解析】回应初次见面的问候必须说 Nice to meet you too."
+          }
+        },
+        {
+          "id": "ans_item_4",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❹",
+            "stem": "❹ 【补全对话】Mike: …",
+            "explanation": "★ 参考答案：A. Hello! My name is Wu Binbin.   【解析】对方自我介绍后，应当同样进行自我介绍。"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_ans_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_1.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_2.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_3.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_4.stem"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "ans_item_1.explanation"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "ans_item_2.explanation"
+        },
+        {
+          "step": 3,
+          "action": "reveal",
+          "target": "ans_item_3.explanation"
+        },
+        {
+          "step": 4,
+          "action": "reveal",
+          "target": "ans_item_4.explanation"
+        }
+      ],
+      "notes": "逐题点击揭晓参考答案：先请学生说出思路，再显示答案，对照订正并说明理由。"
+    },
+    {
+      "slide_id": "slide_09_summary",
+      "phase_ref": "phase_05_summary",
+      "layout": "summary_card",
+      "layout_variant": "points",
+      "elements": [
+        {
+          "id": "txt_sum_title",
+          "type": "title",
+          "properties": {
+            "text": "课堂小结 · 礼貌交友金钥匙"
+          }
+        },
+        {
+          "id": "card_sum_list",
+          "type": "card_list",
+          "properties": {
+            "items": []
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_sum_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_sum_list"
+        }
+      ],
+      "notes": "总结本节课核心交际技能，鼓励学生课后用英语主动与班级新同学打招呼"
+    },
+    {
+      "slide_id": "slide_10_end",
+      "phase_ref": "meta_end",
+      "layout": "end_cover",
+      "elements": [
+        {
+          "id": "end_title",
+          "type": "title",
+          "properties": {
+            "text": "同学们，下课！",
+            "subtitle": "多听多说，熟能生巧"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "end_title"
+        }
+      ],
+      "notes": "今天的课就上到这里。课后请完成分层作业：必做部分人人过关，选做和挑战量力而行；下节课我们先交流摘抄与观察写话。同学们，下课！"
+    }
+  ]
+}

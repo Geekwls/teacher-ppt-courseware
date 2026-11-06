@@ -11,8 +11,10 @@
  * 3. 安全有效内容区 SafeBounds 缺省为 x: 0.8, y: 1.45, w: 11.733, h: 5.15in。
  */
 
-export const CANVAS_W = 13.333;
-export const CANVAS_H = 7.5;
+import { CANVAS_W, CANVAS_H } from "../domain/canvas.js";
+
+// 兼容既有导入路径: 画布尺寸唯一定义在 domain/canvas.js
+export { CANVAS_W, CANVAS_H } from "../domain/canvas.js";
 
 export const SAFE_CONTENT_BOUNDS = {
   x: 0.8,

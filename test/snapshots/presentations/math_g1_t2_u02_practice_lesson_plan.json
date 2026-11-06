@@ -1,0 +1,554 @@
+{
+  "deck_meta": {
+    "source_lesson_id": "mat-g1-t2-u02-l05",
+    "theme": "clean_math_ocean",
+    "style": "clean",
+    "preset": "standard",
+    "layout_variants": {
+      "objectives_card": "list",
+      "practice_list": "single_column",
+      "summary_card": "points"
+    },
+    "skeleton": {
+      "lesson_type": "practice_consolidation",
+      "lesson_type_name": "练习巩固课",
+      "intent": "复习唤醒 → 基础练习 → 变式练习 → 错因诊断 → 课堂小结 → 分层作业",
+      "complete": true,
+      "fragmented": false,
+      "missing": [],
+      "filled": [],
+      "off_skeleton_roles": [],
+      "out_of_order": [],
+      "closers": [
+        "homework"
+      ]
+    }
+  },
+  "slides": [
+    {
+      "slide_id": "slide_01_cover",
+      "phase_ref": "meta_cover",
+      "layout": "title_cover",
+      "elements": [
+        {
+          "id": "cover_title",
+          "type": "title",
+          "properties": {
+            "text": "20以内退位减法·练习巩固",
+            "subtitle": "一年级下册 · 数学 · 第2单元 · 课时 1"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "cover_title"
+        }
+      ],
+      "notes": "同学们好！今天我们一起学习《20以内退位减法·练习巩固》。请同学们准备好课本和练习本，先看大屏幕上的学习目标，明确这节课要完成的三件事，然后跟着老师一步步往下走。"
+    },
+    {
+      "slide_id": "slide_02_objectives",
+      "phase_ref": "meta_objectives",
+      "layout": "objectives_card",
+      "layout_variant": "list",
+      "elements": [
+        {
+          "id": "txt_obj_title",
+          "type": "title",
+          "properties": {
+            "text": "学习目标"
+          }
+        },
+        {
+          "id": "card_obj_list",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "1. 熟练用破十法、平十法口算 20 以内的退位减法",
+              "2. 能根据具体情境选择合适的方法解决求剩余的实际问题"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_obj_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_obj_list"
+        }
+      ],
+      "notes": "本节课的核心学习目标：熟练用破十法、平十法口算 20 以内的退位减法；能根据具体情境选择合适的方法解决求剩余的实际问题。请大家明确学习方向。"
+    },
+    {
+      "slide_id": "slide_03_summary",
+      "phase_ref": "phase_01_recall",
+      "layout": "summary_card",
+      "layout_variant": "points",
+      "elements": [
+        {
+          "id": "txt_sum_title",
+          "type": "title",
+          "properties": {
+            "text": "复习唤醒 · 三种方法齐上阵"
+          }
+        },
+        {
+          "id": "card_sum_list",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "破十法：13 分成 10 和 3，10 - 9 = 1，1 + 3 = 4",
+              "平十法：13 先减 3 得 10，10 再减 6 得 4",
+              "想加算减：9 + 4 = 13，所以 13 - 9 = 4"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_sum_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_sum_list"
+        }
+      ],
+      "notes": "同学们，上节课我们学了 20 以内退位减法的三种方法。先请大家看屏幕，和同桌说一说每种方法第一步做什么，我们比一比谁说得最清楚。"
+    },
+    {
+      "slide_id": "slide_04_practice",
+      "phase_ref": "phase_02_basic_practice",
+      "layout": "practice_list",
+      "layout_variant": "single_column",
+      "elements": [
+        {
+          "id": "txt_pr_title",
+          "type": "title",
+          "properties": {
+            "text": "基础练习 · 破十法闯关"
+          }
+        },
+        {
+          "id": "card_questions",
+          "type": "practice_list",
+          "properties": {
+            "questions": [
+              "❶ 15 - 8 = （  ）",
+              "❷ 12 - 6 = （  ）",
+              "❸ 17 - 9 = （  ）",
+              "❹ 14 - 7 = （  ）"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_pr_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_questions"
+        }
+      ],
+      "notes": "现在请大家拿出练习本，独立完成这 4 道题。每道题都要在旁边写出破十的过程，写完举手示意，老师看看谁又快又稳。"
+    },
+    {
+      "slide_id": "slide_05_answer",
+      "phase_ref": "phase_02_basic_practice",
+      "layout": "answer_reveal_list",
+      "elements": [
+        {
+          "id": "txt_ans_title",
+          "type": "title",
+          "properties": {
+            "text": "基础练习 · 破十法闯关 · 参考答案与诊断"
+          }
+        },
+        {
+          "id": "ans_item_1",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❶",
+            "stem": "15 - 8 = （  ）…",
+            "explanation": "★ 参考答案：7   【解析】10 - 8 = 2，2 + 5 = 7"
+          }
+        },
+        {
+          "id": "ans_item_2",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❷",
+            "stem": "12 - 6 = （  ）…",
+            "explanation": "★ 参考答案：6   【解析】10 - 6 = 4，4 + 2 = 6"
+          }
+        },
+        {
+          "id": "ans_item_3",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❸",
+            "stem": "17 - 9 = （  ）…",
+            "explanation": "★ 参考答案：8   【解析】10 - 9 = 1，1 + 7 = 8"
+          }
+        },
+        {
+          "id": "ans_item_4",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❹",
+            "stem": "14 - 7 = （  ）…",
+            "explanation": "★ 参考答案：7   【解析】10 - 7 = 3，3 + 4 = 7"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_ans_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_1.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_2.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_3.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_4.stem"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "ans_item_1.explanation"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "ans_item_2.explanation"
+        },
+        {
+          "step": 3,
+          "action": "reveal",
+          "target": "ans_item_3.explanation"
+        },
+        {
+          "step": 4,
+          "action": "reveal",
+          "target": "ans_item_4.explanation"
+        }
+      ],
+      "notes": "逐题点击揭晓参考答案：先请学生说出思路，再显示答案，对照订正并说明理由。"
+    },
+    {
+      "slide_id": "slide_06_practice",
+      "phase_ref": "phase_03_variant_practice",
+      "layout": "practice_list",
+      "layout_variant": "single_column",
+      "elements": [
+        {
+          "id": "txt_pr_title",
+          "type": "title",
+          "properties": {
+            "text": "变式练习 · 走进生活情境"
+          }
+        },
+        {
+          "id": "card_questions",
+          "type": "practice_list",
+          "properties": {
+            "questions": [
+              "❶ 树上有 16 个桃子，猴子摘走 9 个，还剩几个？",
+              "❷ 小明有 13 张卡片，送给同学 8 张，还剩几张？",
+              "❸ 已经知道 15 - 8 = 7，那么 15 - 7 = （  ），你是怎么想的？"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_pr_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_questions"
+        }
+      ],
+      "notes": "这 3 道题变了样子，但方法还是我们学过的。先别急着算，读一遍题，想一想为什么要用减法，说清楚了再动笔。"
+    },
+    {
+      "slide_id": "slide_07_answer",
+      "phase_ref": "phase_03_variant_practice",
+      "layout": "answer_reveal_list",
+      "elements": [
+        {
+          "id": "txt_ans_title",
+          "type": "title",
+          "properties": {
+            "text": "变式练习 · 走进生活情境 · 参考答案与诊断"
+          }
+        },
+        {
+          "id": "ans_item_1",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❶",
+            "stem": "树上有 16 个桃子，猴子摘…",
+            "explanation": "★ 参考答案：7 个   【解析】求剩余用减法：16 - 9 = 7"
+          }
+        },
+        {
+          "id": "ans_item_2",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❷",
+            "stem": "小明有 13 张卡片，送给同…",
+            "explanation": "★ 参考答案：5 张   【解析】求剩余用减法：13 - 8 = 5"
+          }
+        },
+        {
+          "id": "ans_item_3",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❸",
+            "stem": "已经知道 15 - 8 = …",
+            "explanation": "★ 参考答案：8   【解析】想加算减：8 + 7 = 15，所以 15 - 7 = 8"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_ans_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_1.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_2.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_3.stem"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "ans_item_1.explanation"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "ans_item_2.explanation"
+        },
+        {
+          "step": 3,
+          "action": "reveal",
+          "target": "ans_item_3.explanation"
+        }
+      ],
+      "notes": "逐题点击揭晓参考答案：先请学生说出思路，再显示答案，对照订正并说明理由。"
+    },
+    {
+      "slide_id": "slide_08_misconception",
+      "phase_ref": "phase_04_error_analysis",
+      "layout": "misconception_split",
+      "elements": [
+        {
+          "id": "txt_misc_title",
+          "type": "title",
+          "properties": {
+            "text": "错因诊断 · 我错在哪里"
+          }
+        },
+        {
+          "id": "card_wrong",
+          "type": "text_card",
+          "properties": {
+            "title": "【典型错例】",
+            "body": "计算 13 - 8 时，直接算 8 - 3 = 5，得到 13 - 8 = 5，过程说不清楚。"
+          }
+        },
+        {
+          "id": "card_cause",
+          "type": "text_card",
+          "properties": {
+            "title": "【病因诊断】",
+            "body": "个位 3 不够减 8，没有先「破十」从十位借 1 个十，而是把两个数字倒过来相减，属于典型的位值混淆。"
+          }
+        },
+        {
+          "id": "card_correct",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "✓ 正解：13 - 8：先算 10 - 8 = 2，再算 2 + 3 = 5，所以 13 - 8 = 5。"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_misc_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_wrong"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_cause"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "card_correct"
+        }
+      ],
+      "notes": "老师刚才巡视时发现了这样一道题。请大家当小老师，看看他错在哪一步，是算错了还是想法错了。想清楚的同学举手说给大家听。"
+    },
+    {
+      "slide_id": "slide_09_summary",
+      "phase_ref": "phase_05_summary",
+      "layout": "summary_card",
+      "layout_variant": "points",
+      "elements": [
+        {
+          "id": "txt_sum_title",
+          "type": "title",
+          "properties": {
+            "text": "课堂小结 · 我的方法锦囊"
+          }
+        },
+        {
+          "id": "card_sum_list",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "个位不够减，先破十：用 10 减去减数，再加上个位",
+              "也可以平十：先减到 10，再减剩下的部分",
+              "想加算减最省力：加法算得熟，减法就快"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_sum_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_sum_list"
+        }
+      ],
+      "notes": "这节课我们练了这么多题，方法其实就三条。请大家把这三种方法在脑子里过一遍，选一个你觉得最好用的，说说为什么。"
+    },
+    {
+      "slide_id": "slide_10_homework",
+      "phase_ref": "meta_homework",
+      "layout": "homework_card",
+      "elements": [
+        {
+          "id": "txt_hw_title",
+          "type": "title",
+          "properties": {
+            "text": "分层作业布置"
+          }
+        },
+        {
+          "id": "card_hw_tiers",
+          "type": "tier_list",
+          "properties": {
+            "tiers": [
+              {
+                "tier": "必做",
+                "desc": "【基础练习】完成教材配套练习题，熟练掌握基本算理与计算方法。"
+              },
+              {
+                "tier": "选做",
+                "desc": "【变式拓展】尝试完成教材中的思维思考题，检验知识迁移应用能力。"
+              },
+              {
+                "tier": "挑战",
+                "desc": "【生活应用】在生活中找一个能够运用本课数学知识解决的实际问题，记录思路。"
+              }
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_hw_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_hw_tiers"
+        }
+      ],
+      "notes": "今天的分层作业：基础必做题全员完成；选做题供学有余力的同学提升；挑战题鼓励联系生活自主探究。"
+    },
+    {
+      "slide_id": "slide_11_end",
+      "phase_ref": "meta_end",
+      "layout": "end_cover",
+      "elements": [
+        {
+          "id": "end_title",
+          "type": "title",
+          "properties": {
+            "text": "同学们，下课！",
+            "subtitle": "认真练习，熟能生巧"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "end_title"
+        }
+      ],
+      "notes": "今天的课就上到这里。课后请完成分层作业：必做部分人人过关，选做和挑战量力而行；下节课我们先交流摘抄与观察写话。同学们，下课！"
+    }
+  ]
+}

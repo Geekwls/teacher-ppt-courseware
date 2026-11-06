@@ -1,0 +1,616 @@
+{
+  "deck_meta": {
+    "source_lesson_id": "chi-g7-t1-u01-l01",
+    "theme": "warm_chinese_bamboo",
+    "style": "clean",
+    "preset": "standard",
+    "layout_variants": {
+      "objectives_card": "list",
+      "practice_list": "single_column",
+      "summary_card": "points"
+    },
+    "skeleton": {
+      "lesson_type": "concept_learning",
+      "lesson_type_name": "新授课",
+      "intent": "情境导入 → 核心探究 → 例题示范 → 易错辨析 → 当堂练习 → 课堂小结",
+      "complete": true,
+      "fragmented": false,
+      "missing": [],
+      "filled": [],
+      "off_skeleton_roles": [],
+      "out_of_order": [],
+      "closers": []
+    }
+  },
+  "slides": [
+    {
+      "slide_id": "slide_01_cover",
+      "phase_ref": "meta_cover",
+      "layout": "title_cover",
+      "elements": [
+        {
+          "id": "cover_title",
+          "type": "title",
+          "properties": {
+            "text": "春",
+            "subtitle": "七年级上册 · 语文 · 第1单元 · 课时 1"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "cover_title"
+        }
+      ],
+      "notes": "同学们好！今天我们一起学习《春》。请同学们准备好课本和练习本，先看大屏幕上的学习目标，明确这节课要完成的三件事，然后跟着老师一步步往下走。"
+    },
+    {
+      "slide_id": "slide_02_objectives",
+      "phase_ref": "meta_objectives",
+      "layout": "objectives_card",
+      "layout_variant": "list",
+      "elements": [
+        {
+          "id": "txt_obj_title",
+          "type": "title",
+          "properties": {
+            "text": "学习目标"
+          }
+        },
+        {
+          "id": "card_obj_list",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "1. 流畅有感情地朗读课文，把握散文抒情节奏，理清课文「盼春-绘春-赞春」的脉络结构",
+              "2. 精读品味春草图、春花图、春风图、春雨图、迎春图，赏析比喻、拟人修辞与多感官协同描写手法",
+              "3. 揣摩关键词句与结尾三段比喻排比句，体会作者对春天与勃发生命力的赞美，学习情景交融的写景方法"
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_obj_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_obj_list"
+        }
+      ],
+      "notes": "本节课的核心学习目标：流畅有感情地朗读课文，把握散文抒情节奏，理清课文「盼春-绘春-赞春」的脉络结构；精读品味春草图、春花图、春风图、春雨图、迎春图，赏析比喻、拟人修辞与多感官协同描写手法；揣摩关键词句与结尾三段比喻排比句，体会作者对春天与勃发生命力的赞美，学习情景交融的写景方法。请大家明确学习方向。"
+    },
+    {
+      "slide_id": "slide_03_warmup",
+      "phase_ref": "phase_01_warmup",
+      "layout": "context_problem",
+      "elements": [
+        {
+          "id": "txt_warmup_title",
+          "type": "title",
+          "properties": {
+            "text": "情境激趣 · 走入江南诗意春光"
+          }
+        },
+        {
+          "id": "card_context",
+          "type": "text_card",
+          "properties": {
+            "title": "【情境呈现】",
+            "body": "春天是万物复苏、生机盎然的季节。朱自清先生以诗意清丽的笔触，为我们描摹了一幅幅动人心弦的江南春景图卷。 作者是按照怎样的感情脉络来写春天的？又是怎样将无形的春风春雨描摹得具体可感的？"
+          }
+        },
+        {
+          "id": "eq_warmup",
+          "type": "equation",
+          "properties": {
+            "expression": "朱自清《春》 · 写景抒情散文经典研读"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_warmup_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_context"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "eq_warmup"
+        }
+      ],
+      "notes": "引导初一学生进入写景抒情散文的情感氛围，提示大家关注作者观察自然、感受自然的独特视角"
+    },
+    {
+      "slide_id": "slide_04_reading_text",
+      "phase_ref": "phase_02_structure",
+      "layout": "reading_focus",
+      "elements": [
+        {
+          "id": "txt_read_title",
+          "type": "title",
+          "properties": {
+            "text": "结构梳理 · 把握篇章脉络之美 · 原文品读"
+          }
+        },
+        {
+          "id": "card_reading_text",
+          "type": "text_card",
+          "properties": {
+            "title": "【原文精读】",
+            "body": "【文章脉络三部曲】\n一、盼春（第1段）：反复与拟人，「盼望着，盼望着，东风来了，春天的脚步近了」——急切向往。\n二、绘春（第2-7段）：宏观春回大地＋五幅细部画卷（春草/春花/春风/春雨/迎春）——生机盎然。\n三、赞春（第8-10段）：排比比喻（娃娃/小姑娘/青年）——由小到大，颂扬生命蓬勃力量。",
+            "reading_guide": null
+          }
+        },
+        {
+          "id": "banner_key_phrase",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "★ 脉络结构：盼春（急切） ── 绘春（生机） ── 赞春（蓬勃）"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_read_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_reading_text"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "banner_key_phrase"
+        }
+      ],
+      "notes": "指导初中生运用提纲法梳理长篇散文的行文线索，建立宏观与微观相结合的阅读思维（第1部分：指导学生有感情地朗读原文，沉浸感受语言文字的意境美与节奏感）"
+    },
+    {
+      "slide_id": "slide_05_reading_questions",
+      "phase_ref": "phase_02_structure",
+      "layout": "reading_focus",
+      "elements": [
+        {
+          "id": "txt_read_title",
+          "type": "title",
+          "properties": {
+            "text": "结构梳理 · 把握篇章脉络之美 · 研读思考与探究"
+          }
+        },
+        {
+          "id": "card_reading_text",
+          "type": "text_card",
+          "properties": {
+            "title": "【研读思考】",
+            "body": "结合上页原文重点语句，深入探究下列核心问题并交流分享：",
+            "reading_guide": null
+          }
+        },
+        {
+          "id": "card_questions",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "1. 盼春：开头连用两个「盼望着」，表现了作者怎样的心情？（急切向往）",
+              "2. 绘春：作者描绘了哪五幅生机勃勃的春景画卷？（草、花、风、雨、人）",
+              "3. 赞春：结尾三个比喻段落能否颠倒位置？为什么？（体现由生到长的生命逻辑）"
+            ]
+          }
+        },
+        {
+          "id": "banner_key_phrase",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "★ 脉络结构：盼春（急切） ── 绘春（生机） ── 赞春（蓬勃）"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_read_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_reading_text"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_questions"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "banner_key_phrase"
+        }
+      ],
+      "notes": "指导初中生运用提纲法梳理长篇散文的行文线索，建立宏观与微观相结合的阅读思维（第2部分：结合设问引导学生深入探究修辞特色、感官协同与内在行文逻辑）"
+    },
+    {
+      "slide_id": "slide_06_reading_text",
+      "phase_ref": "phase_03_exploration",
+      "layout": "reading_focus",
+      "elements": [
+        {
+          "id": "txt_read_title",
+          "type": "title",
+          "properties": {
+            "text": "画面细读 · 五幅动人春景图赏析 · 原文品读"
+          }
+        },
+        {
+          "id": "card_reading_text",
+          "type": "text_card",
+          "properties": {
+            "title": "【原文精读】",
+            "body": "【五幅春景图核心画卷品读】\n· 春草图：「小草偷偷地从土里钻出来，嫩嫩的，绿绿的」——动词「钻」、叠词，写破土生机。\n· 春花图：「桃树、杏树、梨树，都开满了花赶趟儿……红的像火，粉的像霞，白的像雪」——虚实相生。\n· 春风图：「“吹面不寒杨柳风”，像母亲的手抚摸着你」——触觉、嗅觉、听觉协同交融。",
+            "reading_guide": null
+          }
+        },
+        {
+          "id": "banner_key_phrase",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "★ 写景手法：情景交融 · 多感官协同 · 动静虚实结合"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_read_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_reading_text"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "banner_key_phrase"
+        }
+      ],
+      "notes": "引导学生从单一视觉观察走向视、听、嗅、触全感官沉浸，体会朱自清散文语言的音乐美与画面感（第1部分：指导学生有感情地朗读原文，沉浸感受语言文字的意境美与节奏感）"
+    },
+    {
+      "slide_id": "slide_07_reading_questions",
+      "phase_ref": "phase_03_exploration",
+      "layout": "reading_focus",
+      "elements": [
+        {
+          "id": "txt_read_title",
+          "type": "title",
+          "properties": {
+            "text": "画面细读 · 五幅动人春景图赏析 · 研读思考与探究"
+          }
+        },
+        {
+          "id": "card_reading_text",
+          "type": "text_card",
+          "properties": {
+            "title": "【研读思考】",
+            "body": "结合上页原文重点语句，深入探究下列核心问题并交流分享：",
+            "reading_guide": null
+          }
+        },
+        {
+          "id": "card_questions",
+          "type": "card_list",
+          "properties": {
+            "items": [
+              "1. 动词品味：「钻」和「偷偷地」好在哪里？（人格化描写，写出小草破土而出的顽强生命力）",
+              "2. 修辞品析：写春花为什么联想到「仿佛已经满是桃儿、杏儿、梨儿」？（由实入虚，引发丰收联想）",
+              "3. 感官品析：春风无形，作者如何调动多感官将其写活？（触觉柔和、嗅觉芬芳、听觉悦耳）"
+            ]
+          }
+        },
+        {
+          "id": "banner_key_phrase",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "★ 写景手法：情景交融 · 多感官协同 · 动静虚实结合"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_read_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_reading_text"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_questions"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "banner_key_phrase"
+        }
+      ],
+      "notes": "引导学生从单一视觉观察走向视、听、嗅、触全感官沉浸，体会朱自清散文语言的音乐美与画面感（第2部分：结合设问引导学生深入探究修辞特色、感官协同与内在行文逻辑）"
+    },
+    {
+      "slide_id": "slide_08_misconception",
+      "phase_ref": "phase_04_misconception",
+      "layout": "misconception_split",
+      "elements": [
+        {
+          "id": "txt_misc_title",
+          "type": "title",
+          "properties": {
+            "text": "鉴赏辨析 · 避免散文品读表面化"
+          }
+        },
+        {
+          "id": "card_wrong",
+          "type": "text_card",
+          "properties": {
+            "title": "【典型错例】",
+            "body": "【典型浅读】认为写春风只有触觉（像母亲的手抚摸），忽略了嗅觉与听觉；认为结尾三个比喻只是同义反复、可以随意互换顺序。"
+          }
+        },
+        {
+          "id": "card_cause",
+          "type": "text_card",
+          "properties": {
+            "title": "【病因诊断】",
+            "body": "初中生赏析写景散文时容易局限于单一感官，缺乏全景协同意识；对文末三段的理解停留在修辞层面，未体会其蕴含的由新生命萌发到茁壮成长的深层哲理。"
+          }
+        },
+        {
+          "id": "card_correct",
+          "type": "conclusion_banner",
+          "properties": {
+            "text": "✓ 正解：多感官全景捕捉（触/嗅/听/视）＋ 领会「刚落地的娃娃 ➔ 花枝招展的小姑娘 ➔ 健壮的青年」由小到大、力量渐增的发展脉络。"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_misc_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_wrong"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_cause"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "card_correct"
+        }
+      ],
+      "notes": "点拨学生理解散文结尾的意境升华：不仅是写自然之春，更是颂扬人类生命与时代的勃勃生机"
+    },
+    {
+      "slide_id": "slide_09_practice",
+      "phase_ref": "phase_05_practice",
+      "layout": "practice_list",
+      "layout_variant": "single_column",
+      "elements": [
+        {
+          "id": "txt_pr_title",
+          "type": "title",
+          "properties": {
+            "text": "随堂巩固 · 语言品析与思维闯关"
+          }
+        },
+        {
+          "id": "card_questions",
+          "type": "practice_list",
+          "properties": {
+            "questions": [
+              "❶ ❶ 【词语品析】「小草偷偷地从土里钻出来」中加点词表达效果最准确的一项是：",
+              "❷ ❷ 【感官角度】「“吹面不寒杨柳风”，不错的，像母亲的手抚摸着你」描写的感官角度是：",
+              "❸ ❸ 【修辞与逻辑】课文末尾连续三个比喻句的排列顺序，体现的内在逻辑是：",
+              "❹ ❹ 【写景手法】关于《春》的写作艺术，下列说法不正确的一项是："
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_pr_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "card_questions"
+        }
+      ],
+      "notes": "巡视课堂做题情况，重点关注学生对修辞逻辑和多角度写景手法的迁移运用能力"
+    },
+    {
+      "slide_id": "slide_10_answer",
+      "phase_ref": "phase_05_practice",
+      "layout": "answer_reveal_list",
+      "elements": [
+        {
+          "id": "txt_ans_title",
+          "type": "title",
+          "properties": {
+            "text": "随堂巩固 · 语言品析与思维闯关 · 参考答案与诊断"
+          }
+        },
+        {
+          "id": "ans_item_1",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❶",
+            "stem": "❶ 【词语品析】「小草偷偷地…",
+            "explanation": "★ 参考答案：A. 运用拟人手法，生动写出春草在不经意间破土而出的顽强生命力。   【解析】「偷偷地」写出悄然萌发，「钻」表现顽强突破的生命张力。"
+          }
+        },
+        {
+          "id": "ans_item_2",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❷",
+            "stem": "❷ 【感官角度】「“吹面不寒…",
+            "explanation": "★ 参考答案：A. 触觉角度   【解析】引用诗句与比喻，生动传神地写出春风柔和温暖的触感。"
+          }
+        },
+        {
+          "id": "ans_item_3",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❸",
+            "stem": "❸ 【修辞与逻辑】课文末尾连…",
+            "explanation": "★ 参考答案：A. 生命成长发育的自然进程（新生命萌芽 -> 容貌美好 -> 强健有力）   【解析】三个比喻分别比作娃娃、小姑娘、青年，具有不可颠倒的发展脉络。"
+          }
+        },
+        {
+          "id": "ans_item_4",
+          "type": "answer_feedback",
+          "properties": {
+            "question_num": "❹",
+            "stem": "❹ 【写景手法】关于《春》的…",
+            "explanation": "★ 参考答案：C. （错误项：全文仅描写了自然风光，没有涉及任何人物的社会活动）   【解析】「迎春图」专门生动描绘了「城里乡下，老老小小」迎春劳作的热烈场面。"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_ans_title"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_1.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_2.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_3.stem"
+        },
+        {
+          "step": 0,
+          "action": "show",
+          "target": "ans_item_4.stem"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "ans_item_1.explanation"
+        },
+        {
+          "step": 2,
+          "action": "reveal",
+          "target": "ans_item_2.explanation"
+        },
+        {
+          "step": 3,
+          "action": "reveal",
+          "target": "ans_item_3.explanation"
+        },
+        {
+          "step": 4,
+          "action": "reveal",
+          "target": "ans_item_4.explanation"
+        }
+      ],
+      "notes": "逐题点击揭晓参考答案：先请学生说出思路，再显示答案，对照订正并说明理由。"
+    },
+    {
+      "slide_id": "slide_11_summary",
+      "phase_ref": "phase_06_summary",
+      "layout": "summary_card",
+      "layout_variant": "points",
+      "elements": [
+        {
+          "id": "txt_sum_title",
+          "type": "title",
+          "properties": {
+            "text": "课堂小结 · 散文审美与写作启示"
+          }
+        },
+        {
+          "id": "card_sum_list",
+          "type": "card_list",
+          "properties": {
+            "items": []
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_sum_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_sum_list"
+        }
+      ],
+      "notes": "总结升华：朱自清的《春》不仅是一篇写景美文，更是启迪我们热爱自然、积极面对人生的精神诗篇"
+    },
+    {
+      "slide_id": "slide_12_end",
+      "phase_ref": "meta_end",
+      "layout": "end_cover",
+      "elements": [
+        {
+          "id": "end_title",
+          "type": "title",
+          "properties": {
+            "text": "同学们，下课！",
+            "subtitle": "多读多写，日积月累"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "end_title"
+        }
+      ],
+      "notes": "今天的课就上到这里。课后请完成分层作业：必做部分人人过关，选做和挑战量力而行；下节课我们先交流摘抄与观察写话。同学们，下课！"
+    }
+  ]
+}
