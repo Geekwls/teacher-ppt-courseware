@@ -29,6 +29,7 @@ import * as activity_instruction from "./layouts/activity_instruction.js";
 import * as comparison_table from "./layouts/comparison_table.js";
 import * as knowledge_tree from "./layouts/knowledge_tree.js";
 import * as end_cover from "./layouts/end_cover.js";
+import * as composite from "./layouts/composite.js";
 
 const MODULES = {
   title_cover,
@@ -48,7 +49,8 @@ const MODULES = {
   activity_instruction,
   comparison_table,
   knowledge_tree,
-  end_cover
+  end_cover,
+  composite
 };
 
 export const LAYOUT_IDS = Object.keys(MODULES);

@@ -25,6 +25,7 @@ import * as activity_instruction from "./activity_instruction.js";
 import * as comparison_table from "./comparison_table.js";
 import * as knowledge_tree from "./knowledge_tree.js";
 import * as end_cover from "./end_cover.js";
+import * as composite from "./composite.js";
 
 const MODULES = {
   title_cover,
@@ -44,7 +45,8 @@ const MODULES = {
   activity_instruction,
   comparison_table,
   knowledge_tree,
-  end_cover
+  end_cover,
+  composite
 };
 
 export const RENDER_LAYOUT_IDS = Object.keys(MODULES);

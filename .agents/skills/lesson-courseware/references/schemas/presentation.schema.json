@@ -97,7 +97,8 @@
               "comparison_table",
               "knowledge_tree",
               "phase_placeholder",
-              "end_cover"
+              "end_cover",
+              "composite"
             ]
           },
           "elements": {

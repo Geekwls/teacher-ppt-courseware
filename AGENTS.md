@@ -66,6 +66,9 @@ npm run test:matrix
 | `plugin/skills/lesson-courseware/references/modular-architecture.md` | 分层解耦架构规范(双 AST 设计 + Layout Registry) |
 | `plugin/skills/lesson-courseware/references/strategies/content-packs.yaml` | 学科兜底内容包(板书/作业/拆页文案,教学内容资产) |
 | `plugin/skills/lesson-courseware/references/strategies/quality-rules.yaml` | 质量规则包(错别字/禁区词边界例外/数域扫描策略) |
+| `plugin/skills/lesson-courseware/references/strategies/block-layout-map.yaml` | 内容块→版式映射(单元/学科级覆盖,换版面不改代码) |
+| `plugin/skills/lesson-courseware/references/strategies/policy-packs.yaml` | 单元/课时策略偏好包(第四维策略入口) |
+| `plugin/skills/lesson-courseware/references/layouts/composite-specs.yaml` | 声明式组合版式库(网格+槽位+时序,数据定义新版面) |
 | `plugin/skills/lesson-courseware/references/knowledge-base.md` | 知识库结构与引用纪律 |
 | `plugin/skills/lesson-courseware/references/dynamic-media-architecture.md` | 动态媒体与微课视频扩展架构规范 (受控子引擎/三阶段路线) |
 | `evals/README.md` | 评测协议(P/R/O/M 四桶 rubric) |

@@ -17,6 +17,7 @@
    - 4.2 学科表达策略 (Subject Expression Strategy)
    - 4.3 课型流程策略 (Lesson Type Strategy)
    - 4.4 优先级仲裁机制 (Priority Arbitration)
+   - 4.5 声明式组合版式与单元级策略 (Composite Layout & Unit Policy)
 5. [动画与媒体策略引擎 (Motion Strategy Engine)](#五动画与媒体策略引擎-motion-strategy-engine)
    - 5.1 五大动效语义 (Motion Semantics)
    - 5.2 三级渐进降级通道 (3-Level Graceful Degradation)
@@ -262,6 +263,25 @@
      ↓
 [可选优先级] Level 5: 教师视觉偏好 (配色主题、强调高亮色，只在不破坏前置约束时生效)
 ```
+
+### 4.5 声明式组合版式与单元级策略 (Composite Layout & Unit Policy)
+
+"每个科目/单元/课时的版面不同"通过**数据**表达, 而非分支代码; 结构可以千变万化, 但必须说同一套"语法"(安全区/门禁/0-Critical 体检不变):
+
+1. **声明式组合版式 (composite)**: 版式 = 命名/内联 spec (网格 + 槽位 + 揭示时序),
+   由通用 assembler 与 renderer 执行, 图元复用 figures.js。
+   spec 库: `references/layouts/composite-specs.yaml`; 也可在教学设计 `content_block.layout_spec` 内联。
+   内容经 `"$plan:字段"` 引用装配器产出的字段, spec 非法装配即失败 (fail-closed)。
+2. **内容块 → 版式映射 (`references/strategies/block-layout-map.yaml`)**:
+   优先级 `content_block.layout 显式 > units[unitKey] > subjects[subject] > default`,
+   default 精确镜像历史版式选择; 单元想换版面只改映射, 不改渲染器。
+3. **单元/课时策略偏好包 (`references/strategies/policy-packs.yaml`)**:
+   第四维策略入口 (风格/场景/变体/骨架补齐开关), 挂在 Level 5;
+   合并次序 `显式 userPreferences > lessons[lessonId] > units[unitKey] > meta 默认`,
+   白名单外的键加载即报错。
+
+三条红线: 不为每个单元写专属渲染器; 不让模型直接输出坐标/自由页面 JSON;
+不在渲染器里按 unit_id 写 if-else —— 单元差异只允许通过上述三类策略数据表达。
 
 ---
 
