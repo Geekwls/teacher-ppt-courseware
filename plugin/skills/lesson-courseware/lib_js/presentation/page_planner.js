@@ -22,6 +22,9 @@ import { formatTeacherGuidance } from "../lesson/guidance_formatter.js";
 import { GRADE_NAMES } from "../domain/grades.js";
 import { subjectLabel } from "../domain/subjects.js";
 import { contentPackFor } from "../strategies/content_packs.js";
+import { resolveBlockLayout } from "../strategies/block_layout_map.js";
+import { resolvePolicyPack } from "../strategies/policy_packs.js";
+import { PLAN_BUILDERS } from "./plan_builders.js";
 
 /**
  * 课型收尾页: 板书结构 (复习课/公开课兜底)。
@@ -96,10 +99,25 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
   const objectives = lessonPlan.objectives || [];
   const sequence = lessonPlan.teaching_sequence || [];
 
-  const presetKey = userPreferences.preset || meta.preset || "standard";
+  // 策略偏好合并 (modular-architecture.md 4.4 Level 5):
+  // 显式 userPreferences > 课时/单元 policy pack > meta 默认; 空包时与历史行为等价
+  const policyPack = resolvePolicyPack(meta, lessonPlan.lesson_id || "");
+  const prefs = {
+    preset: userPreferences.preset || policyPack.preset || meta.preset || "standard",
+    style: userPreferences.style || policyPack.style || meta.style,
+    layout_variant: userPreferences.layout_variant || policyPack.layout_variant,
+    layout_variants: {
+      ...(meta.layout_variants || {}),
+      ...(policyPack.layout_variants || {}),
+      ...(userPreferences.layout_variants || {})
+    },
+    skeleton_fill: userPreferences.skeleton_fill ?? policyPack.skeleton_fill
+  };
+
+  const presetKey = prefs.preset;
   const scenePreset = resolveScenePreset(presetKey, {
-    style: userPreferences.style || meta.style,
-    layout_variants: { ...(meta.layout_variants || {}), ...(userPreferences.layout_variants || {}) }
+    style: prefs.style,
+    layout_variants: prefs.layout_variants
   });
 
   const strategyContext = resolveStrategyContext({
@@ -118,7 +136,7 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
   // 课型骨架: 默认开启补齐 (缺失必备环节才补页, 环节齐备时零副作用);
   // 片段式设计 (缺口比已覆盖槽位还多) 只诊断不补页, 避免把"只要这一段"的课件塞满占位页
   const skeletonReport = diagnoseSkeleton(lessonPlan);
-  const fillMissing = userPreferences.skeleton_fill !== false && !skeletonReport.fragmented;
+  const fillMissing = prefs.skeleton_fill !== false && !skeletonReport.fragmented;
   const stubs = fillMissing ? missingPhaseStubs(skeletonReport) : [];
   const queue = buildSkeletonQueue(sequence, stubs);
 
@@ -148,7 +166,7 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
 
   // 2. 学习目标 (变体仲裁: list / grid / split_lr)
   const objVariant = resolveLayoutVariant("objectives_card", {
-    explicitVariant: meta.layout_variants?.objectives_card || userPreferences.layout_variant,
+    explicitVariant: meta.layout_variants?.objectives_card || prefs.layout_variant,
     presetVariants: scenePreset.variants,
     itemCount: objectives.length
   });
@@ -196,8 +214,25 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
     const practiceNotes = guidance.replace(/\n\n【环节过渡】[\s\S]*$/, "");
     const transitionNote = (guidance.match(/【环节过渡】[\s\S]*$/) || [""])[0];
 
-    // 场景 A: 探究步骤膨胀，触发跨页拆分
-    if (decision.needSplit && decision.splitMode === "model_and_reasoning_sequence") {
+    // 版式解析: 显式 content_block.layout > block-layout-map (units > subjects > default)
+    const layoutChoice = resolveBlockLayout({ meta, cb });
+
+    // 场景 E: 组合版式单页直装 —— 内容字段由 spec 的 "$plan:" 引用, 不参与拆页场景
+    if (layoutChoice.layout === "composite") {
+      slidePlans.push({
+        slide_id: nextSlideId("composite"),
+        phase_ref: phase.phase_id,
+        layout: "composite",
+        ...cb,
+        title: phase.phase_name,
+        ...(layoutChoice.spec ? { layout_spec_name: layoutChoice.spec } : {}),
+        notes: guidance
+      });
+      return;
+    }
+
+    // 场景 A: 探究步骤膨胀，触发跨页拆分 (教师显式指定版式时不擅自拆页)
+    if (!layoutChoice.explicit && decision.needSplit && decision.splitMode === "model_and_reasoning_sequence") {
       const nlProps = cb.model_payload || cb.visual_model || { start: 0, end: 60, step: 20, arcs: [] };
 
       // 拆分子页 1: 直观建模
@@ -230,8 +265,8 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
       return;
     }
 
-    // 场景 B: 练习题量较多，触发题目页与答案页拆分
-    if (decision.needSplit && decision.splitMode === "practice_and_answer_dual_page") {
+    // 场景 B: 练习题量较多，触发题目页与答案页拆分 (教师显式指定版式时不擅自拆页)
+    if (!layoutChoice.explicit && decision.needSplit && decision.splitMode === "practice_and_answer_dual_page") {
       const items = cb.items || [];
       const prVariant = resolveLayoutVariant("practice_list", {
         explicitVariant: meta.layout_variants?.practice_list || cb.layout_variant,
@@ -294,8 +329,8 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
       return;
     }
 
-    // 场景 C: 长文本品读与多设问，触发原文品读与设问深究拆页 (保障大字号与深度思维)
-    if (decision.needSplit && decision.splitMode === "text_reading_and_questions_dual_page") {
+    // 场景 C: 长文本品读与多设问，触发原文品读与设问深究拆页 (教师显式指定版式时不擅自拆页)
+    if (!layoutChoice.explicit && decision.needSplit && decision.splitMode === "text_reading_and_questions_dual_page") {
       const excerpt = cb.paragraph_excerpt || "";
       const qs = cb.focus_questions || [];
 
@@ -332,226 +367,20 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
       return;
     }
 
-    // 场景 D: 标准单页容纳
-    switch (cb.type) {
-      case "contextual_problem":
-        slidePlans.push({
-          slide_id: nextSlideId("warmup"),
-          phase_ref: phase.phase_id,
-          layout: "context_problem",
-          title: phase.phase_name,
-          context_title: "【情境呈现】",
-          context_body: `${cb.scenario || ""} ${cb.question || ""}`,
-          equation: cb.equation || cb.core_expression || "",
-          notes: guidance
-        });
-        break;
-
-      case "vocabulary_focus": {
-        const recognizeChars = Array.isArray(cb.recognize_chars) ? cb.recognize_chars.filter(Boolean) : [];
-        const wordLines = (cb.words || []).map(w => `${w.word} (${w.pinyin}) ── ${w.focus}`);
-        // 识字表单独成行, 让"认识N个生字"的目标在页面上有落点
-        if (recognizeChars.length) {
-          wordLines.push(`会认字（${recognizeChars.length}个）：${recognizeChars.join(" ")}`);
-        }
-        slidePlans.push({
-          slide_id: nextSlideId("vocab"),
-          phase_ref: phase.phase_id,
-          layout: "reading_focus",
-          title: phase.phase_name,
-          context_title: "【重点字词与易错字形】",
-          context_body: wordLines.join("\n"),
-          conclusion_text: cb.core_rule || "",
-          notes: guidance
-        });
-        break;
-      }
-
-      case "character_writing":
-        slidePlans.push({
-          slide_id: nextSlideId("writing"),
-          phase_ref: phase.phase_id,
-          layout: "character_practice",
-          title: phase.phase_name,
-          figure_tianzige: cb.figure || { kind: "tianzige", chars: [], pinyin: [] },
-          rules: cb.writing_rules || [],
-          guidance_tip: cb.guidance_tip || "认真描红，工整书写。",
-          notes: guidance
-        });
-        break;
-
-      case "text_reading":
-        slidePlans.push({
-          slide_id: nextSlideId("reading"),
-          phase_ref: phase.phase_id,
-          layout: "reading_focus",
-          title: phase.phase_name,
-          context_title: "【课文精读】",
-          context_body: cb.paragraph_excerpt || "",
-          reading_guide: cb.reading_guide || null,
-          questions: cb.focus_questions || [],
-          conclusion_text: cb.key_phrase || "",
-          notes: guidance
-        });
-        break;
-
-      case "mathematical_reasoning": {
-        const model = cb.model_payload || cb.visual_model;
-        // 声明式算理动画 (kind: "animation") 走动态媒体子引擎:
-        // 渲染前由 animation_prep 现场合成视频(数学门禁前置), 表现层零坐标感知。
-        if (model && model.kind === "animation") {
-          slidePlans.push({
-            slide_id: nextSlideId("exploration"),
-            phase_ref: phase.phase_id,
-            layout: "model_left_reasoning_right",
-            title: phase.phase_name,
-            figure_animation: model,
-            reasoning_items: cb.reasoning_steps || [],
-            conclusion_text: `★ 核心规律：${cb.core_rule || cb.conclusion || ""}`,
-            notes: guidance
-          });
-        } else {
-          slidePlans.push({
-            slide_id: nextSlideId("exploration"),
-            phase_ref: phase.phase_id,
-            layout: "model_left_reasoning_right",
-            title: phase.phase_name,
-            figure_number_line: model,
-            reasoning_items: cb.reasoning_steps || [],
-            conclusion_text: `★ 核心规律：${cb.core_rule || cb.conclusion || ""}`,
-            notes: guidance
-          });
-        }
-        break;
-      }
-
-      case "worked_example":
-        slidePlans.push({
-          slide_id: nextSlideId("example"),
-          phase_ref: phase.phase_id,
-          layout: "example_step_by_step",
-          title: phase.phase_name,
-          problem_title: "【教材例题】",
-          problem_body: cb.problem || "",
-          steps: cb.solution_steps || [],
-          answer: cb.answer || "",
-          notes: guidance
-        });
-        break;
-
-      case "misconception_analysis":
-        slidePlans.push({
-          slide_id: nextSlideId("misconception"),
-          phase_ref: phase.phase_id,
-          layout: "misconception_split",
-          title: phase.phase_name,
-          wrong_case: cb.wrong_case || "",
-          cause_analysis: cb.cause_analysis || "",
-          correct_method: cb.correct_method || "",
-          notes: guidance
-        });
-        break;
-
-      case "rule_summary": {
-        const sumVariant = resolveLayoutVariant("summary_card", {
-          explicitVariant: meta.layout_variants?.summary_card || cb.layout_variant,
-          presetVariants: scenePreset.variants,
-          itemCount: (cb.summary_points || []).length
-        });
-        slidePlans.push({
-          slide_id: nextSlideId("summary"),
-          phase_ref: phase.phase_id,
-          layout: "summary_card",
-          layout_variant: sumVariant,
-          title: phase.phase_name,
-          items: cb.summary_points || [],
-          notes: guidance
-        });
-        break;
-      }
-
-      case "activity_instruction": {
-        slidePlans.push({
-          slide_id: nextSlideId("activity"),
-          phase_ref: phase.phase_id,
-          layout: "activity_instruction",
-          title: phase.phase_name,
-          activity_type: cb.activity_type || "小组合作",
-          duration: cb.duration || "4分钟",
-          tasks: cb.tasks || cb.steps || ["组内轮流表达自己的思路", "记录关键发现与不同解法", "推选代表准备全班分享"],
-          prompt: cb.prompt || cb.requirements || "表达清晰，倾听专注，相互补充。",
-          notes: guidance
-        });
-        break;
-      }
-
-      case "comparison_table": {
-        slidePlans.push({
-          slide_id: nextSlideId("compare"),
-          phase_ref: phase.phase_id,
-          layout: "comparison_table",
-          title: phase.phase_name,
-          headers: cb.headers || ["对比维度", "常见误区 / 对照项", "标准做法 / 核心规律"],
-          rows: cb.rows || [
-            ["关键特征", cb.left_feature || "易混点", cb.right_feature || "正解点"]
-          ],
-          summary_tip: cb.summary_tip || cb.conclusion || "对比辨析，抓住本质特征",
-          notes: guidance
-        });
-        break;
-      }
-
-      case "knowledge_tree": {
-        slidePlans.push({
-          slide_id: nextSlideId("tree"),
-          phase_ref: phase.phase_id,
-          layout: "knowledge_tree",
-          title: phase.phase_name,
-          root_topic: cb.root_topic || meta.topic || "本单元核心知识",
-          branches: cb.branches || (cb.nodes || []).map(n => ({
-            name: n.name || n.title,
-            leaves: n.leaves || n.items || []
-          })),
-          notes: guidance
-        });
-        break;
-      }
-
-      case "board_design": {
-        slidePlans.push({
-          slide_id: nextSlideId("board"),
-          phase_ref: phase.phase_id,
-          layout: "board_design",
-          title: phase.phase_name || "板书设计",
-          board_topic: cb.center_topic || cb.title || meta.topic || "本课知识",
-          board_branches: cb.columns || cb.branches || [],
-          notes: guidance
-        });
-        break;
-      }
-
-      case "layered_homework": {
-        const tiers = [];
-        if (cb.required) tiers.push({ tier: "必做", desc: cb.required });
-        if (cb.optional) tiers.push({ tier: "选做", desc: cb.optional });
-        if (cb.challenge) tiers.push({ tier: "挑战", desc: cb.challenge });
-        if (!tiers.length && Array.isArray(cb.tiers)) {
-          tiers.push(...cb.tiers);
-        }
-        slidePlans.push({
-          slide_id: nextSlideId("homework"),
-          phase_ref: phase.phase_id,
-          layout: "homework_card",
-          title: phase.phase_name || "分层课后作业",
-          homework_tiers: tiers,
-          notes: guidance
-        });
-        break;
-      }
-
-      default:
-        break;
+    // 场景 D: 标准单页容纳 —— 版式来自映射/显式指定, 内容字段来自装配器
+    if (!layoutChoice.layout) return; // 未映射的内容块类型: 保持历史行为 (不产页)
+    const builder = PLAN_BUILDERS[cb.type];
+    if (!builder) {
+      throw new Error(`[page_planner] 版式映射将 ${cb.type} 指向 ${layoutChoice.layout}, 但该内容块类型没有页面装配器`);
     }
+    const { key, ...fields } = builder({ cb, phase, meta, scenePreset, layout: layoutChoice.layout });
+    slidePlans.push({
+      slide_id: nextSlideId(key),
+      phase_ref: phase.phase_id,
+      layout: layoutChoice.layout,
+      ...fields,
+      notes: guidance
+    });
   });
 
   // 4. 课型收尾页 (骨架声明 + 场景预设额外收尾页):
