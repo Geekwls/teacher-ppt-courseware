@@ -336,7 +336,7 @@ flowchart TD
 
 | 新架构规划目录 | 职责定义 | 现有资产承接源 | 演进改动说明 |
 | :--- | :--- | :--- | :--- |
-| `plugin/knowledge/` | 教材知识事实库 (SSOT) | `curriculum/` (157 单元 YAML) | **保持完全只读**，两代系统公用底层事实源 |
+| `plugin/knowledge/` | 教材知识事实库 (SSOT) | `curriculum/` (158 单元 YAML) | **保持完全只读**，两代系统公用底层事实源 |
 | `lib_js/lesson/` | 教学内容规划与验证 | `scripts/query_curriculum.js` | 新增 `lesson_ast.js` 与 `lesson_validator.js` |
 | `lib_js/strategies/` | 年级/学科/课型策略矩阵 | `references/*-rules.md`、`theme.js` | 将 Markdown 提示词抽水沉淀为结构化策略解析器 |
 | `lib_js/presentation/` | 表现 AST 编排与预检 | 旧 `lib_js/layouts.js`(已退役) | 布局知识迁入 PagePlanner;文本度量纯函数迁入 `text_fit.js` 共享 |

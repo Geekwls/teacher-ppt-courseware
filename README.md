@@ -16,7 +16,7 @@
 | 1. 教材知识库 (plugin/knowledge/)                                     |
 |    五层事实源:metadata / lessons(教材例题原文) / knowledge_points     |
 |    (教学目标·边界) / teaching_reference(教参重难点·典型错因) / 蓝图    |
-|    157 单元 / 556 知识点,verified 需原始凭证,绝不假造                 |
+|    158 单元 / 557 知识点,verified 需原始凭证,绝不假造                 |
 +---------------------------------------------------------------------+
                                   │
 +---------------------------------------------------------------------+
@@ -180,3 +180,12 @@ node plugin/skills/lesson-courseware/scripts/build_courseware.js \
 LLM-as-judge 协议见 [evals/README.md](evals/README.md):P(教学设计)/R(学科严谨)/O(输出契约)/
 M(模型脚手架)四桶逐条 0/1 判分,`rubrics/{shared,math,chinese,english}.csv`,
 M 桶对照对话过程、其余对照产出物;partial 场景必须验证"如实告知"行为。
+
+## 八、许可
+
+本项目以 **Apache License 2.0** 发布,全文见 [LICENSE](LICENSE)。
+可自由用于商业场景,须保留版权声明与 [NOTICE.md](NOTICE.md) 中的来源归属。
+
+三方归属:插件工程架构借鉴 [anthropics/k12-teacher-skills](https://github.com/anthropics/k12-teacher-skills)(Apache-2.0),
+知识库事实层 vendored 自同工作区的 `primary-school-practice-skill`,详见 NOTICE。
+教材内容的著作权归人民教育出版社,本仓库仅存放结构化教学事实,不含任何教材/教参扫描件。
