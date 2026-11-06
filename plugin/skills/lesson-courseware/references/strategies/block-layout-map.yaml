@@ -1,0 +1,51 @@
+# 内容块类型 → 页面版式映射表 (block-layout-map.yaml)
+#
+# 用途: 把 page_planner 中"内容块类型决定版式"的硬编码 switch 数据化,
+# 让"不同学科/单元的课时长得不一样"成为映射配置, 而不是分支代码。
+#
+# 解析优先级 (高 → 低):
+#   1. content_block.layout 显式指定 (单课时临时覆盖, 必须是已注册版式);
+#   2. units.<unitKey>.<block_type>      unitKey 形如 math-g3-t1-u04;
+#   3. subjects.<subject>.<block_type>;
+#   4. default.<block_type>。
+#
+# 映射值两种写法:
+#   - 字符串: 版式 id (presentation/layout_registry.js 中注册的任一版式);
+#   - 对象:   { layout: <版式id>, spec: <composite 命名 spec id> }  (spec 仅 composite 使用)。
+#
+# 注意:
+#   - 映射只决定"用哪个版式画", 内容字段仍由该 block_type 的装配器产出;
+#     组合版式 (composite) 通过 "$plan:字段" 引用这些字段 (见 composite-specs.yaml);
+#   - 未在 default 中映射的内容块类型 (如 practice_challenge) 走拆页场景或跳过, 与历史行为一致;
+#   - 变更需走 PR 评审并跑金样快照回归。
+
+version: 1
+
+default:
+  contextual_problem: context_problem
+  vocabulary_focus: reading_focus
+  character_writing: character_practice
+  text_reading: reading_focus
+  mathematical_reasoning: model_left_reasoning_right
+  worked_example: example_step_by_step
+  misconception_analysis: misconception_split
+  rule_summary: summary_card
+  activity_instruction: activity_instruction
+  comparison_table: comparison_table
+  knowledge_tree: knowledge_tree
+  board_design: board_design
+  layered_homework: homework_card
+
+# 学科级覆盖示例 (解除注释即生效):
+# subjects:
+#   math:
+#     misconception_analysis: comparison_table   # 数学易错课改用对比表呈现
+
+# 单元级覆盖示例 (解除注释即生效):
+# units:
+#   math-g3-t1-u04:
+#     mathematical_reasoning:
+#       layout: composite
+#       spec: model_and_banner
+units: {}
+subjects: {}
