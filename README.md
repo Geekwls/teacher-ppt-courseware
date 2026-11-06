@@ -70,6 +70,18 @@ teacher-ppt-courseware/
 > Copilot / Zed / Antigravity 等开机自动读取), 指向标准 SKILL.md 与可独立执行的脚本;
 > Skill 采用 Agent Skills 开放标准(`SKILL.md` 目录)。
 
+### 最省事的方式: 让 AI 助手装(推荐给老师)
+
+不用自己配环境、不用记命令, 把仓库地址交给你的 AI 助手(Claude Code / Codex / CodeBuddy 等):
+
+> 把 github.com/Geekwls/teacher-ppt-courseware 装成你的 skill
+
+助手会自己克隆、装依赖、把技能注册到发现目录。装完直接说需求即可:
+
+> 帮我做三年级上册数学第四单元第 1 课时的课件
+
+下面两节是给需要手动控制安装位置、或想在本仓库内开发调试的人看的。
+
 | 使用环境 | 发现机制 | 说明 |
 |---|---|---|
 | Codex / Antigravity | `.agents/skills/`(共享约定) | 自动发现 |
