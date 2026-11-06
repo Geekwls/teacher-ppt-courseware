@@ -20,24 +20,16 @@ import path from "path";
 import * as yaml from "js-yaml";
 import { findKbRoot } from "../kb_locate.js";
 import { checkArithmeticInText } from "../math_solver.js";
+import { SUBJECT_DIRS } from "../domain/subjects.js";
+import { getNumberScanPolicy, getScopeExceptions, getTypoRules } from "../quality/rules.js";
 
 const KB_ROOT = findKbRoot();
-const SUBJECT_DIRS = {
-  math: "primary-math",
-  chinese: "primary-chinese",
-  english: "primary-english",
-  science: "primary-science"
-};
 
-// 数域扫描时跳过的「非教学数值」字段: 标识符、元数据、坐标、媒体路径、时长
-const NUMBER_SCAN_SKIP_KEYS = new Set([
-  "schema_version", "lesson_id", "phase_id", "objective_ref", "source_point_id",
-  "point_id", "textbook_page", "page_refs", "_no", "duration_sec", "duration",
-  "duration_minutes", "term", "unit", "grade", "lesson_type", "subject",
-  "x", "y", "w", "h", "width", "height", "fontSize", "page", "kind", "type",
-  "model_type", "show_result", "show_answers", "interaction_mode",
-  "path", "link", "url", "reveal_mode", "reveal_steps"
-]);
+// 规则数据统一来自 references/strategies/quality-rules.yaml
+const NUMBER_SCAN_POLICY = getNumberScanPolicy();
+const NUMBER_SCAN_SKIP_KEYS = NUMBER_SCAN_POLICY.skipKeys;
+const SCOPE_EXCEPTIONS = getScopeExceptions();
+const TYPO_RULES = getTypoRules();
 
 /**
  * 知识库词条归一化: 词条常带括注与书名号修饰, 如
@@ -59,17 +51,13 @@ function excludedTermVariants(term) {
 export function isScopeExcludedHit(text, term) {
   if (!text || !term) return false;
 
+  const notPrecededBy = SCOPE_EXCEPTIONS.get(String(term).trim()) || [];
+  const prefixNeg = notPrecededBy.length
+    ? `(?<!${notPrecededBy.map(ch => String(ch).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})`
+    : "";
+
   return excludedTermVariants(term).some(variant => {
     const escaped = variant.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    let prefixNeg = "";
-    if (variant === "分数") {
-      prefixNeg = "(?<!百)";
-    } else if (variant === "除法") {
-      prefixNeg = "(?<!消|免)";
-    } else if (variant === "角") {
-      prefixNeg = "(?<!视|主|配|豆|三|拐)";
-    }
-
     const isAscii = /^[A-Za-z0-9_-]+$/.test(variant);
     const pattern = isAscii
       ? new RegExp(`\\b${escaped}\\b`, "i")
@@ -89,7 +77,7 @@ function collectNumbers(node, out, key = "") {
   }
   if (typeof node === "string") {
     // 标识符字符串 (math-g3-t1-u04-p01 / phase_01 / obj_2 等) 不参与数域扫描
-    if (/^(?:s\d+|unit-?\d+|l\d+|obj[\s_-]|phase[\s_-]|math-|chi-|eng-|cw-)/i.test(node)) return;
+    if (NUMBER_SCAN_POLICY.idPatterns.some(pattern => pattern.test(node))) return;
     const matches = node.match(/\d+/g);
     if (matches) for (const m of matches) out.push(parseInt(m, 10));
     return;
@@ -358,12 +346,19 @@ export function validateLessonPlan(data) {
       });
     }
 
-    // 通识错别字与笔误扫描
+    // 通识错别字与笔误扫描 (规则来自 quality-rules.yaml)
     const scanTypos = (obj) => {
       if (!obj) return;
       if (typeof obj === "string") {
-        if (obj.includes("赋子")) {
-          issues.push(issue("TYPO_DETECTED", `文本存在错别字「赋子」(应为「赋予」)`, "error", phase.phase_id));
+        for (const rule of TYPO_RULES) {
+          if (obj.includes(rule.wrong)) {
+            issues.push(issue(
+              "TYPO_DETECTED",
+              rule.message || `文本存在错别字「${rule.wrong}」(应为「${rule.right}」)`,
+              "error",
+              phase.phase_id
+            ));
+          }
         }
       } else if (Array.isArray(obj)) {
         obj.forEach(scanTypos);
