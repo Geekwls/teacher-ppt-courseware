@@ -10,6 +10,8 @@
  * 估算采用「字宽 em」模型, 阈值刻意放宽, 目的是拦截肉眼可见的硬伤而非追求像素级精确。
  */
 
+import { CANVAS_W, CANVAS_H } from "./domain/canvas.js";
+
 const EMU_PER_INCH = 914400;
 const CJK = /[\u1100-\u115F\u2E80-\u9FFF\uAC00-\uD7AF\uF900-\uFAFF\u3000-\u303F\uFF00-\uFF60]/;
 const EDGE_TOLERANCE = 0.02;
@@ -103,8 +105,8 @@ function shapeGeom(obj) {
 export function auditDeck(pptx, labels = [], expectations = {}) {
   const slides = pptx?._slides || [];
   const layout = pptx?._presLayout || {};
-  const canvasW = (Number(layout.width) || 13.333 * EMU_PER_INCH) / EMU_PER_INCH;
-  const canvasH = (Number(layout.height) || 7.5 * EMU_PER_INCH) / EMU_PER_INCH;
+  const canvasW = (Number(layout.width) || CANVAS_W * EMU_PER_INCH) / EMU_PER_INCH;
+  const canvasH = (Number(layout.height) || CANVAS_H * EMU_PER_INCH) / EMU_PER_INCH;
   const issues = [];
 
   slides.forEach((slide, idx) => {

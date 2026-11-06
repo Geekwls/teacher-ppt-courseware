@@ -1,0 +1,75 @@
+# 教学质量规则包 (quality-rules.yaml)
+#
+# 用途: 把"错别字 / 禁区词边界例外 / 数域扫描策略"从校验器代码里抽出来。
+# 这些是数据规则, 不是算法; 新增一条错别字或一个误杀例外不应改动代码。
+# 变更需走 PR 评审, 并在 test/unit/lesson_guard.test.js 补对应断言。
+
+version: 1
+
+# 错别字/笔误: 命中即 error (一票否决), 由 lesson_validator 扫描 content_block 全文
+typos:
+  - wrong: "赋子"
+    right: "赋予"
+    message: "文本存在错别字「赋子」(应为「赋予」)"
+
+# 禁区词边界例外: 避免排除"分数"时误杀"百分数"等复合词。
+# term 为知识库 teaching_boundary.scope_excluded 中的原词;
+# not_preceded_by 为"紧邻其前出现即不判命中"的字。
+scope_exclusions:
+  - term: "分数"
+    not_preceded_by: ["百"]
+  - term: "除法"
+    not_preceded_by: ["消", "免"]
+  - term: "角"
+    not_preceded_by: ["视", "主", "配", "豆", "三", "拐"]
+
+# 数域上限扫描策略: 哪些字段/标识符不参与教学数值扫描
+number_scan:
+  skip_keys:
+    - schema_version
+    - lesson_id
+    - phase_id
+    - objective_ref
+    - source_point_id
+    - point_id
+    - textbook_page
+    - page_refs
+    - _no
+    - duration_sec
+    - duration
+    - duration_minutes
+    - term
+    - unit
+    - grade
+    - lesson_type
+    - subject
+    - x
+    - y
+    - w
+    - h
+    - width
+    - height
+    - fontSize
+    - page
+    - kind
+    - type
+    - model_type
+    - show_result
+    - show_answers
+    - interaction_mode
+    - path
+    - link
+    - url
+    - reveal_mode
+    - reveal_steps
+  # 这些前缀的字符串是标识符 (lesson_id / phase_01 / obj_2 ...), 不参与数域扫描
+  skip_id_patterns:
+    - "^s\\d+$"
+    - "^unit-?\\d+$"
+    - "^l\\d+$"
+    - "^obj[\\s_-]"
+    - "^phase[\\s_-]"
+    - "^math-"
+    - "^chi-"
+    - "^eng-"
+    - "^cw-"

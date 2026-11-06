@@ -19,23 +19,9 @@ import { diagnoseSkeleton, missingPhaseStubs } from "../strategies/lesson_skelet
 import { resolveScenePreset } from "../strategies/scene_presets.js";
 import { resolveLayoutVariant } from "../rendering/layout_variants.js";
 import { formatTeacherGuidance } from "../lesson/guidance_formatter.js";
-
-const GRADE_NAMES = {
-  1: "一年级", 2: "二年级", 3: "三年级", 4: "四年级", 5: "五年级", 6: "六年级",
-  7: "七年级", 8: "八年级", 9: "九年级"
-};
-const SUBJECT_NAMES = {
-  chinese: "语文",
-  math: "数学",
-  english: "英语",
-  science: "科学"
-};
-
-/** 占位页与作业页的文案都要控制长度, 超过卡槽容量会被折行挤压 */
-function clip(text, max) {
-  const s = String(text || "").trim();
-  return s.length > max ? `${s.slice(0, max - 1)}…` : s;
-}
+import { GRADE_NAMES } from "../domain/grades.js";
+import { subjectLabel } from "../domain/subjects.js";
+import { contentPackFor } from "../strategies/content_packs.js";
 
 /**
  * 课型收尾页: 板书结构 (复习课/公开课兜底)。
@@ -45,48 +31,10 @@ function buildBoardDesignSlide(meta, slidePlans, objectives, nextSlideId) {
   const existingBoard = slidePlans.find(s => s.layout === "board_design");
   if (existingBoard) return null;
 
-  const subject = meta.subject || "chinese";
+  // 兜底文案来自学科内容包 (references/strategies/content-packs.yaml), 不在代码里创作
+  const pack = contentPackFor(meta.subject);
   const topic = meta.topic || "本课核心";
-
-  let branches = [];
-  if (subject === "chinese") {
-    branches = [
-      {
-        head: "课文主线",
-        items: ["上学：各族相聚 欢声笑语", "上课：安静听读 动物驻足", "下课：摔跤跳舞 边疆欢乐"]
-      },
-      {
-        head: "语文要素",
-        items: ["关注新鲜词句", "品读生动拟人", "体会童真童趣"]
-      },
-      {
-        head: "字词书写",
-        items: ["左窄右宽 左右避让", "字形匀称 重心平稳"]
-      }
-    ];
-  } else if (subject === "math") {
-    branches = [
-      {
-        head: "算理直观",
-        items: ["观察数形直观", "明确计数单位", "数轴规律对应"]
-      },
-      {
-        head: "核心算法",
-        items: ["转化思考口算", "算式计算规范", "总结提升法则"]
-      }
-    ];
-  } else {
-    branches = [
-      {
-        head: "核心知识",
-        items: ["核心概念感知", "规律方法归纳"]
-      },
-      {
-        head: "综合应用",
-        items: ["迁移应用拓展", "思维素养提升"]
-      }
-    ];
-  }
+  const branches = pack.board_design?.branches || [];
 
   return {
     slide_id: nextSlideId("board"),
@@ -107,40 +55,9 @@ function buildHomeworkSlide(meta, slidePlans, objectives, nextSlideId) {
   const existingHomework = (slidePlans || []).find(s => s.layout === "homework_card");
   if (existingHomework) return null;
 
-  const subject = meta.subject || "chinese";
-  let tiers = [];
-
-  if (subject === "chinese") {
-    tiers = [
-      {
-        tier: "必做",
-        desc: "【基础巩固】在田字格本上工整书写本课生字与核心词语，朗读课文重点段落。"
-      },
-      {
-        tier: "选做",
-        desc: "【能力提升】有感情地朗读课文，在摘抄本上摘抄 2~3 处有新鲜感的优美词句。"
-      },
-      {
-        tier: "挑战",
-        desc: "【思维拓展】观察生活中的一处熟悉场景，尝试运用拟人手法写 1~2 句生动的话。"
-      }
-    ];
-  } else {
-    tiers = [
-      {
-        tier: "必做",
-        desc: "【基础练习】完成教材配套练习题，熟练掌握基本算理与计算方法。"
-      },
-      {
-        tier: "选做",
-        desc: "【变式拓展】尝试完成教材中的思维思考题，检验知识迁移应用能力。"
-      },
-      {
-        tier: "挑战",
-        desc: "【生活应用】在生活中找一个能够运用本课数学知识解决的实际问题，记录思路。"
-      }
-    ];
-  }
+  // 兜底文案来自学科内容包 (references/strategies/content-packs.yaml), 不在代码里创作
+  const pack = contentPackFor(meta.subject);
+  const tiers = pack.homework?.tiers || [];
 
   return {
     slide_id: nextSlideId("homework"),
@@ -195,6 +112,9 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
     }
   });
 
+  // 学科兜底内容包: 只提供拆页/收尾页的默认文案, 正规内容仍必须来自 LessonPlan
+  const contentPack = contentPackFor(meta.subject);
+
   // 课型骨架: 默认开启补齐 (缺失必备环节才补页, 环节齐备时零副作用);
   // 片段式设计 (缺口比已覆盖槽位还多) 只诊断不补页, 避免把"只要这一段"的课件塞满占位页
   const skeletonReport = diagnoseSkeleton(lessonPlan);
@@ -212,7 +132,7 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
   // 1. 封面 (中文规范学段、学科与课时)
   const gradeText = GRADE_NAMES[meta.grade] || `${meta.grade}年级`;
   const termText = meta.term === "term-2" ? "下册" : "上册";
-  const subjectText = SUBJECT_NAMES[meta.subject] || meta.subject || "";
+  const subjectText = subjectLabel(meta.subject);
   const unitText = meta.unit ? `第${meta.unit}单元` : "";
   const lessonNumberText = meta.lesson_number ? `第${meta.lesson_number}课` : "课时 1";
   const subtitle = [`${gradeText}${termText}`, subjectText, unitText, lessonNumberText].filter(Boolean).join(" · ");
@@ -287,12 +207,8 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
         layout: "model_left_reasoning_right",
         title: `${phase.phase_name} (一) · 数形建模`,
         figure_number_line: nlProps,
-        reasoning_items: [
-          "① 观察数轴从 0 开始跳跃",
-          "② 每次增加一个相同的计数单位",
-          "③ 记录跳跃终点位置"
-        ],
-        conclusion_text: "★ 发现：相同加数相加，在数轴上表现为相同步长的连续跳跃。",
+        reasoning_items: contentPack.split.model_reasoning_items,
+        conclusion_text: contentPack.split.model_conclusion,
         notes: `${guidance}（第1部分：重点引导学生观察数轴的跳跃规律）`
       });
 
@@ -307,11 +223,7 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
         layout: "summary_card",
         layout_variant: subSumVariant,
         title: `${phase.phase_name} (二) · 算理升华`,
-        items: cb.reasoning_steps || [
-          "想：20 是 2 个十",
-          "2 个十 × 3 = 6 个十",
-          "6 个十就是 60"
-        ],
+        items: cb.reasoning_steps || contentPack.split.reasoning_fallback_items,
         conclusion_text: cb.core_rule || cb.conclusion || "",
         notes: `${guidance}（第2部分：重点从数轴直观升华到计数单位运算法则）`
       });
@@ -400,7 +312,7 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
         // 原文页不再挂 key_phrase: 拆页后下一页已承载"以动衬静"的结论,
         // 两页重复同一句横幅会让学生误以为还没讲完。原文页改为朗读符号说明。
         conclusion_text: cb.reading_guide
-          ? "朗读提示：“／”处稍作停顿，红色加粗的词读得重一些、慢一些。"
+          ? contentPack.split.reading_conclusion_with_guide
           : (cb.key_phrase || ""),
         notes: `${guidance}（第1部分：指导学生有感情地朗读原文，沉浸感受语言文字的意境美与节奏感）`
       });
@@ -412,9 +324,9 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
         layout: "reading_focus",
         title: `${phase.phase_name} · 研读思考与探究`,
         context_title: "【研读思考】",
-        context_body: "结合上页原文重点语句，深入探究下列核心问题并交流分享：",
+        context_body: contentPack.split.reading_intro_body,
         questions: qs,
-        conclusion_text: cb.core_rule || cb.key_phrase || "★ 写作启示：观察景物要调动多重感官，融情入景。",
+        conclusion_text: cb.core_rule || cb.key_phrase || contentPack.split.reading_conclusion_fallback,
         notes: `${guidance}（第2部分：结合设问引导学生深入探究修辞特色、感官协同与内在行文逻辑）`
       });
       return;
@@ -658,11 +570,7 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
   }
 
   // 5. 封底 (结束寄语按学科取用, 避免语文课出现数学味的"熟能生巧")
-  const endSubtitle = {
-    chinese: "多读多写，日积月累",
-    math: "认真练习，熟能生巧",
-    english: "多听多说，熟能生巧"
-  }[meta.subject] || "认真练习，熟能生巧";
+  const endSubtitle = contentPack.end_subtitle || "认真练习，熟能生巧";
 
   slidePlans.push({
     slide_id: nextSlideId("end"),

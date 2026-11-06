@@ -12,7 +12,7 @@
 import fs from "fs";
 import path from "path";
 import os from "os";
-import { execSync } from "child_process";
+import { execFileSync } from "child_process";
 
 /**
  * 1. 数学过程参数强校验门禁
@@ -287,9 +287,19 @@ export async function exportNumberLineJumpVideo({
     }
 
     // 4. 调用 FFmpeg 编码为 1080P/720P H.264 MP4
-    const ffmpegCmd = `ffmpeg -y -framerate ${fps} -i "${tmpFramesDir}/frame_%04d.svg" -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p "${outPath}"`;
+    // 使用参数数组而非拼接 shell 字符串: 路径含空格/引号/& 时不会被解释执行
+    const ffmpegArgs = [
+      "-y",
+      "-framerate", String(fps),
+      "-i", path.join(tmpFramesDir, "frame_%04d.svg"),
+      "-c:v", "libx264",
+      "-profile:v", "high",
+      "-crf", "20",
+      "-pix_fmt", "yuv420p",
+      outPath
+    ];
     try {
-      execSync(ffmpegCmd, { stdio: "pipe" });
+      execFileSync("ffmpeg", ffmpegArgs, { stdio: "pipe" });
     } catch (ffErr) {
       throw new Error(`[dynamic_media] FFmpeg 视频编码失败 (请检查系统是否已安装 ffmpeg 并支持 librsvg): ${ffErr.message}`);
     }
@@ -525,9 +535,18 @@ export async function exportVerticalCalcVideo({
       fs.writeFileSync(path.join(tmpFramesDir, frameFilename), svg, "utf-8");
     }
 
-    const ffmpegCmd = `ffmpeg -y -framerate ${fps} -i "${tmpFramesDir}/frame_%04d.svg" -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p "${outPath}"`;
+    const ffmpegArgs = [
+      "-y",
+      "-framerate", String(fps),
+      "-i", path.join(tmpFramesDir, "frame_%04d.svg"),
+      "-c:v", "libx264",
+      "-profile:v", "high",
+      "-crf", "20",
+      "-pix_fmt", "yuv420p",
+      outPath
+    ];
     try {
-      execSync(ffmpegCmd, { stdio: "pipe" });
+      execFileSync("ffmpeg", ffmpegArgs, { stdio: "pipe" });
     } catch (ffErr) {
       throw new Error(`[dynamic_media] FFmpeg 视频编码失败: ${ffErr.message}`);
     }

@@ -34,6 +34,27 @@
           "type": "object",
           "additionalProperties": { "type": "string" }
         },
+        "skeleton": {
+          "description": "课型骨架诊断回执: 供 CLI 提示与教案迭代对齐, 不属于渲染几何契约",
+          "type": ["object", "null"],
+          "required": [
+            "lesson_type", "lesson_type_name", "intent", "complete", "fragmented",
+            "missing", "filled", "off_skeleton_roles", "out_of_order", "closers"
+          ],
+          "properties": {
+            "lesson_type": { "type": "string" },
+            "lesson_type_name": { "type": "string" },
+            "intent": { "type": "string" },
+            "complete": { "type": "boolean" },
+            "fragmented": { "type": "boolean" },
+            "missing": { "type": "array", "items": { "type": "string" } },
+            "filled": { "type": "array", "items": { "type": "string" } },
+            "off_skeleton_roles": { "type": "array", "items": { "type": "string" } },
+            "out_of_order": { "type": "array", "items": { "type": "string" } },
+            "closers": { "type": "array", "items": { "type": "string" } }
+          },
+          "additionalProperties": false
+        },
         "aspect_ratio": { "type": "string", "enum": ["16:9", "4:3"] }
       },
       "additionalProperties": false

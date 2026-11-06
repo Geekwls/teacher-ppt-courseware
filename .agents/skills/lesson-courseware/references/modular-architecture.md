@@ -334,16 +334,18 @@ flowchart TD
 ### 7.2 现有代码模块的承接与重组映射
 我们将现有项目中的代码有机融入八层体系中，做到**平滑演进、零浪费**：
 
-| 新架构规划目录 | 职责定义 | 现有资产承接源 | 演进改动说明 |
+| 当前目录（`skill/` = `plugin/skills/lesson-courseware/`） | 职责定义 | 现有资产承接源 | 演进改动说明 |
 | :--- | :--- | :--- | :--- |
 | `plugin/knowledge/` | 教材知识事实库 (SSOT) | `curriculum/` (158 单元 YAML) | **保持完全只读**，两代系统公用底层事实源 |
-| `lib_js/lesson/` | 教学内容规划与验证 | `scripts/query_curriculum.js` | 新增 `lesson_ast.js` 与 `lesson_validator.js` |
-| `lib_js/strategies/` | 年级/学科/课型策略矩阵 | `references/*-rules.md`、`theme.js` | 将 Markdown 提示词抽水沉淀为结构化策略解析器 |
-| `lib_js/presentation/` | 表现 AST 编排与预检 | 旧 `lib_js/layouts.js`(已退役) | 布局知识迁入 PagePlanner;文本度量纯函数迁入 `text_fit.js` 共享 |
-| `lib_js/figures/` | 学科专用图元参数化生成 | `lib_js/figures.js` (数轴、田字格) | 扩展为支持声明式调用的独立图元组件 |
-| `lib_js/motion/` | 动效与时间线后处理器 | `lib_js/reveal_steps.js`、`deck_transition.js` | 升级为直接消费 AST `timeline` 数组的标准引擎 |
-| `lib_js/rendering/` | 确定性 PPTX 与媒体渲染 | `dynamic_media.js`、旧 `scripts/render_deck.js`(已退役) | PptxGenJS 底座收口至 `presentation_renderer.js`,一键流水线为 `build_courseware.js` |
-| `lib_js/audit/` | 几何审计与质量回执 | `lib_js/layout_audit.js` | 维持 `0 critical` 严格门禁标准不变 |
+| `skill/lib_js/domain/` | 画布/学科/学段等横切常量 | `theme.js`、`page_planner.js` 内的重复映射 | 唯一事实源，其他模块只 import 不再本地定义 |
+| `skill/lib_js/lesson/` | 教学内容门禁 | `lesson_validator.js` + `quality/rules.js` | 错别字/禁区例外/扫描策略从 YAML 规则包加载 |
+| `skill/lib_js/strategies/` | 年级/学科/课型策略矩阵与内容包 | `strategy_resolver.js`、`lesson_skeleton.js`、`content_packs.js` | 板书/作业/拆页兜底文案下沉为版本化 YAML |
+| `skill/lib_js/presentation/` | 表现 AST 编排与预检 | `page_planner.js`、`layout_registry.js`、`layouts/*.js` | **Layout Registry 为版式唯一事实源**，schema 与门禁枚举从中派生 |
+| `skill/lib_js/figures.js` | 学科专用图元参数化生成 | 数轴、田字格、拼音线、竖式等 | 维持声明式图元分发，按需再拆目录 |
+| `skill/lib_js/reveal_steps.js` / `deck_transition.js` | 动效与时间线后处理器 | 原生 OpenXML 单击淡入 | 直接消费 AST `timeline` 数组 |
+| `skill/lib_js/rendering/` | 确定性 PPTX 与媒体渲染 | `deck_builder.js`（编排）+ `renderers/*.js`（按版式绘制）+ `dynamic_media.js` | 绘制与 I/O 编排分离，新增版式只加一个 renderer 模块 |
+| `skill/lib_js/pipeline/` | 构建用例编排（可被 CLI/批处理/Web 复用） | `build_courseware.js` 内的流程代码 | 暴露 `runCoursewareBuild()`，CLI 仅做参数适配 |
+| `skill/lib_js/layout_audit.js` | 几何审计与质量回执 | 越界/裁切/压盖检测 | 维持 `0 critical` 严格门禁标准不变 |
 
 ---
 
