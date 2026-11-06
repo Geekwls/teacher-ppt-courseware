@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "chi-g3-t1-u01-l01",
+  "meta": {
+    "subject": "chinese",
+    "grade": 3,
+    "term": "term-1",
+    "unit": 1,
+    "topic": "大青树下的小学",
+    "lesson_type": "concept_learning",
+    "source_point_id": "chi-g3-t1-u01-p03",
+    "duration_minutes": 40
+  },
+  "objectives": [
+    {
+      "id": "OBJ_01",
+      "statement": "认识「坝、汉、艳」等生字，会写「晨、绒、球、汉、装、读」等字，在田字格中工整书写",
+      "assessment": "能看拼音工整书写本课重点生字，笔顺正确、间架结构匀称"
+    },
+    {
+      "id": "OBJ_02",
+      "statement": "有感情地朗读课文，关注有新鲜感的词句，体会边疆小学的团结友爱与欢乐氛围",
+      "assessment": "能画出课文中具有新鲜感的词句，读出排比与描写中的画面美"
+    },
+    {
+      "id": "OBJ_03",
+      "statement": "品读描写窗外安静的生动语段，体会「以动衬静」的新鲜表达妙处",
+      "assessment": "能说出写小鸟、蝴蝶安静对表现同学们专心读课文的作用"
+    }
+  ],
+  "teaching_sequence": [
+    {
+      "phase_id": "phase_01_warmup",
+      "phase_name": "情境激趣 · 走进边疆大青树下的小学",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "contextual_problem",
+        "scenario": "在祖国美丽的西南边疆，有一所特别的学校，校园里有一棵古老粗壮的大青树。",
+        "question": "那里的各民族小学生是怎样学习生活的？让我们一起走进《大青树下的小学》。",
+        "core_expression": "西南边疆 · 大青树下的小学"
+      },
+      "student_action": "看边疆小学风貌插图，齐读课题，自由分享对边疆校园生活的向往与好奇",
+      "teacher_guidance": "出示课题与边疆小学情境图，引导学生关注'大青树'和'边疆'两个关键词，激发阅读期待。"
+    },
+    {
+      "phase_id": "phase_02_vocabulary",
+      "phase_name": "字词通关 · 认读与多音字辨析",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "vocabulary_focus",
+        "words": [
+          {
+            "word": "坪坝",
+            "pinyin": "píng bà",
+            "focus": "山间平整的场地"
+          },
+          {
+            "word": "绒球花",
+            "pinyin": "róng qiú huā",
+            "focus": "高原特色植物"
+          },
+          {
+            "word": "摇晃",
+            "pinyin": "yáo huàng",
+            "focus": "多音字「晃」读四声 huàng"
+          },
+          {
+            "word": "明晃晃",
+            "pinyin": "míng huǎng huang",
+            "focus": "多音字「晃」读三声 huǎng"
+          }
+        ],
+        "core_rule": "注意「摇晃」读四声 huàng（动作摇摆），「明晃晃」读三声 huǎng（光亮闪烁）。"
+      },
+      "student_action": "开火车认读词语，注意区分多音字'晃'的不同语境与读音，同桌互相听读",
+      "teacher_guidance": "引导学生在具体语境中掌握多音字：动作晃荡读四声，光亮耀眼读三声，结合生活经验加深记忆。"
+    },
+    {
+      "phase_id": "phase_03_writing",
+      "phase_name": "书写指导 · 田字格生字范写",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "character_writing",
+        "figure": {
+          "kind": "tianzige",
+          "chars": [
+            "晨",
+            "绒",
+            "球",
+            "汉",
+            "装",
+            "读"
+          ],
+          "pinyin": [
+            "chén",
+            "róng",
+            "qiú",
+            "hàn",
+            "zhuāng",
+            "dú"
+          ]
+        },
+        "writing_rules": [
+          "结构归类：左右结构（绒、球、汉、读），上下结构（晨、装）",
+          "笔画避让：「绒」左窄右宽绞丝旁提笔；「装」上部壮写紧凑下部衣托底",
+          "书写口诀：左右礼让重心稳，上下对齐笔画清"
+        ],
+        "guidance_tip": "描红一个、临写两个，注意执笔端正，坐姿规范。"
+      },
+      "student_action": "观察田字格中生字的间架结构与关键笔画位置，伸出小手书空，并在田字格本上描红临写",
+      "teacher_guidance": "示范书写'绒'与'装'，强调左右结构的避让原则与上下结构的重心对齐，巡视指导坐姿。"
+    },
+    {
+      "phase_id": "phase_04_reading_fresh_phrases",
+      "phase_name": "句段品读 · 关注有新鲜感的句子",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "text_reading",
+        "paragraph_excerpt": "早晨，从山坡上，从坪坝里，从一条条开着绒球花和太阳花的小路上，走来了许多小学生……",
+        "reading_guide": {
+          "annotated": "早晨，|从山坡上，|从坪坝里，|从一条条开着绒球花和太阳花的小路上，|走来了许多小学生……",
+          "stress": [
+            "绒球花和太阳花",
+            "许多小学生"
+          ]
+        },
+        "focus_questions": [
+          "1. 连用三个「从……」，展现了怎样的情景？（孩子们从四面八方欢快走来）",
+          "2. 找一找句中特别有画面感、有新鲜感的词语（坪坝、绒球花、太阳花）。"
+        ],
+        "key_phrase": "新鲜表达：连用三个「从……」，把上学路上的风景和孩子们的欢快写活了！"
+      },
+      "student_action": "自由朗读句子，圈出有新鲜感的词语，跟同桌读一读，读出山路上轻快跳跃的节奏感",
+      "teacher_guidance": "指导朗读节奏：三个'从……'语调层层上扬，引导学生展开想象，在脑海中浮现五彩斑斓的小路画面。"
+    },
+    {
+      "phase_id": "phase_05_reading_quiet",
+      "phase_name": "精读感悟 · 以动衬静读出专注",
+      "objective_ref": "OBJ_03",
+      "content_block": {
+        "type": "text_reading",
+        "paragraph_excerpt": "这时候，窗外十分安静，树枝不摇了，鸟儿不叫了，蝴蝶停在花朵上，好像都在听同学们读课文。",
+        "reading_guide": {
+          "annotated": "这时候，|窗外十分安静，|树枝不摇了，|鸟儿不叫了，|蝴蝶停在花朵上，|好像都在听同学们读课文。",
+          "stress": [
+            "十分安静",
+            "不摇了",
+            "不叫了",
+            "听同学们读课文"
+          ]
+        },
+        "focus_questions": [
+          "1. 课文写大家读课文，为什么要写树枝、鸟儿和蝴蝶？（以动衬静）",
+          "2. 这句话好在哪里？（写小动物的安静听讲，更有力地衬托出同学们读得专心入迷）"
+        ],
+        "key_phrase": "以动衬静：窗外的安静，正是因为同学们读书读得太动听、太投入了！"
+      },
+      "student_action": "轻声有感情地齐读语段，读出安静与沉醉的意境，结合生活体验交流'以动衬静'的妙处",
+      "teacher_guidance": "引导学生对比体会：如果只写'教室里很安静'，和写小鸟蝴蝶都停下来听，哪种更有新鲜感？引导学生感悟表达魅力。"
+    },
+    {
+      "phase_id": "phase_06_practice",
+      "phase_name": "随堂演练 · 语文素养达标",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "type": "calculation",
+            "stem": "【多音字辨析】给加点字选择正确读音（huàng 或 huǎng）：摇晃 ( )；明晃晃 ( )",
+            "answer": "huàng；huǎng",
+            "explanation": "表示动作摇动读四声 huàng；表示光亮耀眼读三声 huǎng"
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "stem": "【新鲜句理解】「窗外十分安静，树枝不摇了，鸟儿不叫了……」运用了哪种写法？",
+            "answer": "以动衬静（通过写树枝、小鸟、蝴蝶的静止，衬托同学们读书专心）",
+            "explanation": "抓住自然环境与动物的静止状态，侧面烘托课堂朗读的投入"
+          },
+          {
+            "id": "q3",
+            "type": "application",
+            "stem": "【句式仿写】照样子连用三个「向……」写一句话：「同学们向小鸟打招呼，向老师问好，向国旗敬礼。」",
+            "answer": "略（评价要点：连用三个「向……」，语义连贯，符合生活情境）",
+            "explanation": "注意排比句式连贯，写清楚向谁做什么"
+          }
+        ]
+      },
+      "student_action": "在练习本上独立作答，完成后同桌互评，看大屏逐题核对并交流做题思路",
+      "teacher_guidance": "练习页常驻大屏幕让学生独立思考完成；转到答案页后逐题揭示答案，重点鼓励学生大胆说出仿写的句子。"
+    },
+    {
+      "phase_id": "phase_07_summary",
+      "phase_name": "课堂小结 · 寻找新鲜词句的秘诀",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "一圈：初读课文时，随时圈出读起来特别有画面感、有特色的新鲜词句",
+          "二品：联系上下文想象画面，体会词句运用的生动与修辞手法（如排比、以动衬静）",
+          "三积累：准备一个新鲜词句摘抄本，把喜欢的好句子积累下来并在习作中尝试运用"
+        ]
+      },
+      "student_action": "齐读小结口诀，梳理本课所学的新鲜词句鉴赏方法",
+      "teacher_guidance": "总结本课核心语文要素：关注有新鲜感的词语和句子，培养自主阅读与敏锐的语言感受力。"
+    },
+    {
+      "phase_id": "phase_08_homework",
+      "phase_name": "课后作业 · 分层积累与表达",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "layered_homework",
+        "required": "工整书写本课 6 个生字各两遍；熟读课文并将窗外安静的语段背诵给家人听",
+        "optional": "在笔记本上摘抄 2 句课文中自己觉得最有新鲜感的句子，并写一句话批注",
+        "challenge": "小练笔：观察放学后的校园或上学路上的景色，用两三句话写一写，用上一个有新鲜感的词语"
+      },
+      "student_action": "记录作业要求，明确必做与选做内容，结合自身情况挑战小练笔",
+      "teacher_guidance": "布置课后分层作业：基础作业夯实字词与朗读，拓展作业重在积累与表达迁移。"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "mat-g3-t1-u04-l01",
+  "meta": {
+    "subject": "math",
+    "grade": 3,
+    "term": "term-1",
+    "unit": 4,
+    "topic": "整十、整百数乘一位数的口算",
+    "lesson_type": "concept_learning",
+    "source_point_id": "math-g3-t1-u04-p01",
+    "duration_minutes": 40
+  },
+  "objectives": [
+    {
+      "id": "OBJ_01",
+      "statement": "知道20是2个十、200是2个百，理解整十、整百数乘一位数的算理",
+      "assessment": "能结合数轴与计数单位，清楚说出20×3和200×3的思考过程"
+    },
+    {
+      "id": "OBJ_02",
+      "statement": "熟练运用表内乘法口诀口算，能正确在表内积末尾添相应个数的0",
+      "assessment": "能在1分钟内准确完成口算，不错算500×6，不漏添因数末尾的0"
+    }
+  ],
+  "teaching_sequence": [
+    {
+      "phase_id": "phase_01_warmup",
+      "phase_name": "情境导入 · 游乐园购票",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "contextual_problem",
+        "scenario": "游乐园坐过山车每人每次 20 元",
+        "question": "3 人坐过山车一共需要多少元？",
+        "equation": "20 × 3 = ？(元)"
+      },
+      "student_action": "观察情境图，提出数学问题，列出算式 20×3，并用相同加数连加 20+20+20 说明列乘法算式的道理",
+      "teacher_guidance": "出示情境图，引导学生找出数学信息并自主提问；追问：为什么用乘法算？单击揭晓算式 20×3。启发提问：如果不连加，怎样快速口算出结果？我们进入算理探究。"
+    },
+    {
+      "phase_id": "phase_02_exploration",
+      "phase_name": "算理探究 · 数轴直观与计数单位",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "mathematical_reasoning",
+        "model_type": "number_line",
+        "model_payload": {
+          "start": 0,
+          "end": 60,
+          "step": 20,
+          "arcs": [
+            { "from": 0, "to": 20, "label": "+20" },
+            { "from": 20, "to": 40, "label": "+20" },
+            { "from": 40, "to": 60, "label": "+20" }
+          ]
+        },
+        "reasoning_steps": [
+          "连加验证：3 个 20 连加是 60",
+          "想计数单位：20 是 2 个十",
+          "2 个十 × 3 = 6 个十，6 个十就是 60"
+        ],
+        "core_rule": "算理归纳：想计数单位，几个十乘几得几十，几个百乘几得几百。"
+      },
+      "student_action": "观察数轴上 3 次跳跃的累加过程，同桌互说口算思考过程：20是2个十，2个十乘3得6个十，就是60",
+      "teacher_guidance": "借助数轴建立数形结合直观。重点追问学生：这里的 6 表示什么？为什么要在 6 后面添一个 0？组织学生齐说计数单位算理。"
+    },
+    {
+      "phase_id": "phase_03_example",
+      "phase_name": "例题示范 · 类推拓展到整百数",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "worked_example",
+        "problem": "教材例1：坐过山车每人 20 元，3 人需要多少元？如果特快专列每人 200 元，3 人需要多少元？",
+        "solution_steps": [
+          "整十数：20 × 3 = 60 (元)  想：2 个十 × 3 = 6 个十 = 60",
+          "整百数：200 × 3 = 600 (元) 想：2 个百 × 3 = 6 个百 = 600"
+        ],
+        "answer": "3 人坐过山车需要 60 元，坐特快专列需要 600 元。"
+      },
+      "student_action": "在草稿本上尝试口算 200×3，写出想的过程，同桌交流为什么积的末尾有两个 0",
+      "teacher_guidance": "引导学生对比 20×3 与 200×3：因数从 2 个十变成 2 个百，积就从 6 个十变成 6 个百。帮助学生提炼先算表内积、再在末尾添 0 的规律。"
+    },
+    {
+      "phase_id": "phase_04_misconception",
+      "phase_name": "易错剖析 · 警惕少添因数末尾的0",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "misconception_analysis",
+        "wrong_case": "500 × 6 = 300 (错解：少添了一个因数末尾的0)",
+        "cause_analysis": "算 5×6=30 后，误以为 30 里的 0 就是要添的 0，少添了一个 0（误把 30 个百当作了 30 个十）",
+        "correct_method": "5 个百 × 6 = 30 个百 = 3000。先算表内积 5×6=30，再添上因数末尾的 2 个 0！"
+      },
+      "student_action": "观察错例举手表决判断正误，化身小老师指出错因，全班口算 400×5 和 50×4 进行纠错强化",
+      "teacher_guidance": "出示错例先让学生独立发现问题并暴露错因。用红笔圈出表内积 30 和因数添上的两个 0，提醒学生：30 自身的 0 不能少，因数末尾的 0 也不能漏！"
+    },
+    {
+      "phase_id": "phase_05_practice",
+      "phase_name": "当堂达标 · 分层过关",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "type": "calculation",
+            "stem": "【整十口算】直接写出得数：30 × 4 = ( )",
+            "answer": "120",
+            "explanation": "想：3个十×4=12个十=120"
+          },
+          {
+            "id": "q2",
+            "type": "calculation",
+            "stem": "【整百口算】直接写出得数：200 × 4 = ( )",
+            "answer": "800",
+            "explanation": "想：2个百×4=8个百=800"
+          },
+          {
+            "id": "q3",
+            "type": "calculation",
+            "stem": "【易错辨析】直接写出得数：500 × 6 = ( )",
+            "answer": "3000",
+            "explanation": "想：先算5×6=30，再添两个0得3000"
+          },
+          {
+            "id": "q4",
+            "type": "application",
+            "stem": "【生活应用】一箱苹果重 40 千克，3 箱一共重多少千克？",
+            "answer": "40 × 3 = 120 (千克) 答：一共重 120 千克。",
+            "explanation": "每箱40千克乘3箱，4个十乘3得12个十，即120千克"
+          }
+        ]
+      },
+      "student_action": "在练习本上独立完成 4 道闯关题，同桌互查订正，看大屏逐题核对并口述理由",
+      "teacher_guidance": "练习页常驻大屏，留给学生 3 分钟独立做；转到答案页后利用单击动效逐题揭示答案，重点诊断第 3 题积末尾 0 的个数。"
+    },
+    {
+      "phase_id": "phase_06_summary",
+      "phase_name": "课堂小结 · 口算两步法",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "一算（算表内积）：先用乘法口诀算出非零数字相乘的积（如 5×6=30）",
+          "二添（添末尾零）：再看因数末尾一共有几个 0，就在表内积后面添几个 0",
+          "注意：表内积末尾自带的 0 必须完整保留，不能少添因数末尾的 0"
+        ]
+      },
+      "student_action": "全班齐读口算两步法法则，回顾本课所学的计数单位算理",
+      "teacher_guidance": "引导学生梳理知识脉络：从整十到整百口算，本质都是借助计数单位用乘法口诀推导。总结口算两步法。"
+    },
+    {
+      "phase_id": "phase_07_homework",
+      "phase_name": "课后作业 · 分层巩固",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "layered_homework",
+        "required": "教材第 42 页练习九第 1 题、第 2 题",
+        "optional": "用口算卡片与同桌或家长互相抽考 5 道整十、整百数乘法",
+        "challenge": "想一想：500 × 8 的积末尾有几个 0？为什么？"
+      },
+      "student_action": "明确课后任务，记录在作业本上，根据自身掌握情况选择挑战题",
+      "teacher_guidance": "布置课后分层作业：必做题人人过关，选做与挑战题激发思维，下节课课前进行抽查表扬。"
+    }
+  ]
+}
