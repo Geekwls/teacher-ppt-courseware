@@ -26,14 +26,16 @@
 +---------------------------------------------------------------------+
                                   │
 +---------------------------------------------------------------------+
-| 3. 教学设计门禁 + 表现规划 (lib_js/lesson/ + lib_js/presentation/)    |
+| 3. 教学设计门禁 + 表现规划                                          |
+|    skill/lib_js/lesson/ + skill/lib_js/presentation/                 |
 |    Tier1 Schema/环节闭环/讲稿完备 · Tier2 知识点白名单/数域递归全字段  |
 |    Tier3 算式真值/教学边界红线 —— 一票否决+定向自愈                    |
 |    PagePlanner: 学段认知×学科策略自动拆页编排(容量评估/练习答案分离)   |
 +---------------------------------------------------------------------+
                                   │
 +---------------------------------------------------------------------+
-| 4. 一键确定性渲染 (scripts/build_courseware.js + lib_js/rendering/)   |
+| 4. 一键确定性渲染                                                    |
+|    scripts/build_courseware.js + skill/lib_js/rendering/             |
 |    PptxGenJS 渲染 Presentation AST:封面/目标/分步算理/例题/易错/练习   |
 |    田字格·数轴·声明式算理动画(FFmpeg 合成视频,数学门禁前置)·防近视大字  |
 |    讲稿进备注栏;练习自动生成参考答案页;partial 状态页脚如实提示         |
@@ -41,6 +43,8 @@
 |    每页自动编排「单击逐步出现」播放步骤(封面/结束页除外)                 |
 +---------------------------------------------------------------------+
 ```
+
+> 图中 `skill/` = `plugin/skills/lesson-courseware/`
 
 **Non-Goals**:不做海量课件预生成(现场按课时创作);不做未经核验的教材宣称;
 不直接产出 pptx 二进制(一律经 JSON 契约+校验+确定性渲染,同输入恒同输出)。
@@ -54,13 +58,14 @@ teacher-ppt-courseware/
 │   ├── knowledge/                      # 【独立】人教版五层知识库(vendored)
 │   └── skills/lesson-courseware/
 │       ├── SKILL.md                    # 入口:五步工作流 + 五条纪律
-│       ├── references/                 # workflow / 双 AST 契约(schemas/) / 三科规则 / 知识库规范
+│       ├── references/                 # workflow / 双 AST 契约(schemas/) / 三科规则 / 策略与质量规则包
 │       ├── scripts/                    # query_curriculum / validate_lesson_plan / build_courseware / patch_courseware
-│       ├── lib_js/                     # lesson 校验 / presentation 规划 / rendering 渲染 / theme / figures / layout_audit
-│       └── tests/                      # 策略解析与分页规划单元测试
+│       └── lib_js/                     # domain 常量 / lesson 校验 / presentation 注册表 / rendering 渲染 / pipeline
+├── test/                               # 单元测试 + 契约测试 + 金样 AST 快照
 ├── evals/                              # LLM-as-judge 评测协议 + rubric CSV(shared+三科)
+├── content/lesson_plans/               # 可复用教学设计源(示例课件)
 ├── acceptance/                         # 三科金样 lesson_plan.json(只读)
-├── scripts/                            # run_acceptance.js / install_skill.js
+├── scripts/                            # run_acceptance.js / install_skill.js / update_snapshots.js
 └── package.json                        # 纯 Node.js 现代全栈依赖 (PptxGenJS, ajv, js-yaml)
 ```
 
@@ -136,18 +141,21 @@ PowerPoint / LibreOffice 二次回退造成排版错位。需要严格「同输�
 ## 六、验证与验收
 
 ```bash
-npm test                              # 单元测试 + 金样端到端 + 风格矩阵
+npm test                              # 单元+契约+快照 + 金样端到端 + 知识库结构审计
 # 只跑其中一类:
-npm run test:unit                     # node:test 单元测试 (契约/门禁/文本度量/审计/分步/风格包)
-npm run test:acceptance               # 金样端到端 + 风格矩阵, 报告写入 output/reports/
+npm run test:unit                     # node:test 单元 + 双 AST 契约 + AST 快照
+npm run test:acceptance               # 金样端到端, 报告写入 output/reports/
+npm run test:matrix                   # 6 金样 x 5 套风格包 (30 套, 断言 0 Critical)
 
 node plugin/skills/lesson-courseware/scripts/build_courseware.js \
-    --input <lesson_plan.json> --outdir <输出目录> --strict [--style warm] [--no-skeleton-fill]
+    --input <lesson_plan.json> --outdir <输出目录> --strict [--style warm] [--no-skeleton-fill] [--json]
 ```
 
 `npm test` 对每个金样断言:一键流水线退出码 0、三件套产物齐备、
 **几何审计 0 critical**、**内容页讲稿完备**、**分步时序 orderValid**;
-再对每份金样 x 5 套风格包(clean/warm/academic/minimal/chalk)跑一遍 `--strict`,
+并对金样 LessonPlan / Presentation AST 做 JSON Schema 契约校验、对规划产物做结构快照回归、
+对知识库做「核心 YAML 可解析 + point_id 全局唯一」结构审计。
+风格矩阵单独用 `npm run test:matrix` 跑(每份金样 x 5 套风格包),
 确认换肤不会把任何一页撑破。报告在 `output/reports/acceptance-report.md`。
 
 ### 课型骨架

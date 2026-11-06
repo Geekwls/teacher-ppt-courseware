@@ -12,8 +12,8 @@
 四层架构(物理隔离,禁止混杂;唯一管线为 LessonPlan → PPTX,旧 courseware.json 页面级管线已于 2026-11 退役):
 1. `plugin/knowledge/` — 教材知识库(**只读事实源**,158单元/557知识点,含教材例题/教参重难点易错点)
 2. `plugin/skills/lesson-courseware/` — Agent Skill(SKILL.md + references + scripts)
-3. `lib_js/lesson/lesson_validator.js` — 教学设计门禁(知识点归属/数域递归全字段扫描/算式真值/教学禁区词界防误杀,一票否决) + `lib_js/presentation/` 表现规划与门禁
-4. `scripts/build_courseware.js` + `lib_js/rendering/presentation_renderer.js` — 一键流水线:教学门禁 → 课型骨架诊断/补齐(`lib_js/strategies/lesson_skeleton.js`) → 容量规划(含算理超载拆页与初中长文本智能拆页) → 表现门禁 → PptxGenJS 确定性渲染 → 原生动效注入 → `layout_audit.js` 几何体检(--strict 一票否决)
+3. `plugin/skills/lesson-courseware/lib_js/lesson/lesson_validator.js` — 教学设计门禁(知识点归属/数域递归全字段扫描/算式真值/教学禁区词界防误杀,一票否决) + `lib_js/presentation/` 表现规划与门禁(Layout Registry 为版式唯一事实源)
+4. `plugin/skills/lesson-courseware/scripts/build_courseware.js` + `lib_js/pipeline/courseware_builder.js` + `lib_js/rendering/` — 一键流水线:教学门禁 → 课型骨架诊断/补齐(`lib_js/strategies/lesson_skeleton.js`) → 容量规划(含算理超载拆页与初中长文本智能拆页) → 表现门禁 → PptxGenJS 确定性渲染(按版式拆分的 renderers) → 原生动效注入 → `layout_audit.js` 几何体检(--strict 一票否决)
 
 ## 硬性纪律(违反即返工)
 
@@ -48,8 +48,11 @@ node plugin/skills/lesson-courseware/scripts/validate_lesson_plan.js --input <le
 node plugin/skills/lesson-courseware/scripts/build_courseware.js \
     --input <lesson_plan.json> --outdir <输出目录> [--strict] [--style warm] [--no-skeleton-fill]
 
-# 5) 自检(金样端到端验收 + 策略/分页单元测试,退出码 0=通过)
+# 5) 自检(单元/契约/快照 + 金样端到端 + 知识库结构审计,退出码 0=通过)
 npm test
+
+# 6) 全量风格矩阵(6 金样 x 5 风格,较慢)
+npm run test:matrix
 ```
 
 ## 关键文档
@@ -60,7 +63,9 @@ npm test
 | `plugin/skills/lesson-courseware/references/workflow.md` | 各步细则与话术模板 |
 | `plugin/skills/lesson-courseware/references/schemas/lesson-plan.schema.json` | 教学设计契约(LessonPlan AST) |
 | `plugin/skills/lesson-courseware/references/schemas/presentation.schema.json` | 表现层契约(Presentation AST,含图元) |
-| `plugin/skills/lesson-courseware/references/modular-architecture.md` | 分层解耦架构规范(双 AST 设计) |
+| `plugin/skills/lesson-courseware/references/modular-architecture.md` | 分层解耦架构规范(双 AST 设计 + Layout Registry) |
+| `plugin/skills/lesson-courseware/references/strategies/content-packs.yaml` | 学科兜底内容包(板书/作业/拆页文案,教学内容资产) |
+| `plugin/skills/lesson-courseware/references/strategies/quality-rules.yaml` | 质量规则包(错别字/禁区词边界例外/数域扫描策略) |
 | `plugin/skills/lesson-courseware/references/knowledge-base.md` | 知识库结构与引用纪律 |
 | `plugin/skills/lesson-courseware/references/dynamic-media-architecture.md` | 动态媒体与微课视频扩展架构规范 (受控子引擎/三阶段路线) |
 | `evals/README.md` | 评测协议(P/R/O/M 四桶 rubric) |

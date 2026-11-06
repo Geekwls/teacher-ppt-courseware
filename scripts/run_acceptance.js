@@ -19,7 +19,7 @@
 
 import fs from "fs";
 import path from "path";
-import { execSync } from "child_process";
+import { execFileSync } from "child_process";
 import { STYLE_PACK_IDS } from "../plugin/skills/lesson-courseware/lib_js/theme.js";
 
 const ROOT = process.cwd();
@@ -67,8 +67,9 @@ function runCase(caseItem) {
   // 1. 一键流水线 (含 strict 几何门禁, 退出码非 0 即失败)
   let buildOutput = "";
   try {
-    buildOutput = execSync(
-      `node "${BUILD_SCRIPT}" --input "${caseItem.filePath}" --outdir "${outdir}" --strict`,
+    buildOutput = execFileSync(
+      "node",
+      [BUILD_SCRIPT, "--input", caseItem.filePath, "--outdir", outdir, "--strict"],
       { encoding: "utf-8", stdio: ["pipe", "pipe", "pipe"] }
     );
   } catch (err) {
@@ -150,8 +151,9 @@ function runStyleMatrix(cases) {
       const outdir = path.join(OUT_ACCEPT, "style_matrix", c.case_id, style);
       fs.mkdirSync(outdir, { recursive: true });
       try {
-        execSync(
-          `node "${BUILD_SCRIPT}" --input "${c.filePath}" --outdir "${outdir}" --style ${style} --strict`,
+        execFileSync(
+          "node",
+          [BUILD_SCRIPT, "--input", c.filePath, "--outdir", outdir, "--style", style, "--strict"],
           { encoding: "utf-8", stdio: ["pipe", "pipe", "pipe"] }
         );
         const auditFile = fs.readdirSync(outdir).find(f => f.endsWith(".audit.json"));

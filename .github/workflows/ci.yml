@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    name: test (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: 单元 + 契约测试
+        run: npm run test:unit
+      - name: 金样端到端验收 (--strict)
+        run: npm run test:acceptance
+      - name: 知识库结构完整性
+        run: npm run audit-kb:strict
+      - name: 技能副本同构 (plugin ↔ .agents)
+        run: npm run check-sync

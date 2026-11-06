@@ -22,7 +22,7 @@ import fs from "fs";
 import path from "path";
 import os from "os";
 import crypto from "crypto";
-import { execSync } from "child_process";
+import { execFileSync } from "child_process";
 import {
   validateAnimationParams,
   generateAnimationVideo
@@ -33,7 +33,7 @@ let ffmpegAvailable = null;
 function hasFFmpeg() {
   if (ffmpegAvailable !== null) return ffmpegAvailable;
   try {
-    execSync("ffmpeg -version", { stdio: "ignore", timeout: 10_000 });
+    execFileSync("ffmpeg", ["-version"], { stdio: "ignore", timeout: 10_000 });
     ffmpegAvailable = true;
   } catch (_) {
     ffmpegAvailable = false;
@@ -42,8 +42,11 @@ function hasFFmpeg() {
 }
 
 /** 动画参数指纹: 类型 + 全部画面相关字段的稳定哈希, 用作缓存文件名 */
+const ANIMATION_CACHE_VERSION = "v1";
+
 function animationFingerprint(fig) {
   const payload = JSON.stringify({
+    cache_version: ANIMATION_CACHE_VERSION,
     type: fig.animation_type,
     parameters: fig.parameters || {},
     title: fig.title || "",

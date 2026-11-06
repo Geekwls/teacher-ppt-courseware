@@ -2,8 +2,8 @@
 output/*
 !output/*/
 output/*/*
-# 例外: 教学设计源 lesson_plan.json 属于内容资产, 需版本化可追溯
-!output/*/lesson_plan.json
+
+# 教学设计源属于内容资产, 统一放在 content/lesson_plans/ 下版本化
 
 # 知识库原始来源(不入库,与原项目一致)
 knowledge/sources/

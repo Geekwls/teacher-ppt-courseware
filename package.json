@@ -1,7 +1,7 @@
 {
   "name": "teacher-ppt-courseware",
-  "version": "1.0.0",
-  "description": "> **一句话定位**:老师对 AI 助手说一句\"帮我做三年级上册数学第四单元第1课时的课件\", > 得到一份可直接放映、可继续编辑的 `.pptx`——例题有教材页码、易错点有教参依据、 > 练习带参考答案页、每页备注栏里有讲稿。 > > **架构借鉴** [anthropics/k12-teacher-skills](https://github.com/anthropics/k12-teacher-skills), > 内容底座复用同工作区 `primary-school-practice-skill` 的人教版五层教材知识库,详见 [NOTICE.md](NOTICE.md)。",
+  "version": "1.3.0",
+  "description": "人教统编版课时 PPT 课件生成系统：LessonPlan AST → 教学门禁 → 表现规划 → 确定性 PPTX 渲染",
   "scripts": {
     "query": "node plugin/skills/lesson-courseware/scripts/query_curriculum.js",
     "validate": "node plugin/skills/lesson-courseware/scripts/validate_lesson_plan.js",
@@ -10,15 +10,19 @@
     "patch": "node plugin/skills/lesson-courseware/scripts/patch_courseware.js",
     "update-skill": "node scripts/update_skill.js",
     "check-skill": "node scripts/update_skill.js --check",
+    "check-sync": "node scripts/install_skill.js --check",
     "pull-skill": "node scripts/update_skill.js --pull",
     "acceptance": "node scripts/run_acceptance.js",
     "install-skill": "node scripts/install_skill.js",
     "audit-kb": "node scripts/audit_kb.js",
-    "test": "node --test test/unit/*.test.js && node scripts/run_acceptance.js",
-    "test:unit": "node --test test/unit/*.test.js",
+    "audit-kb:strict": "node scripts/audit_kb.js --strict",
+    "test": "node --test \"test/unit/*.test.js\" \"test/contract/*.test.js\" && node scripts/run_acceptance.js && node scripts/audit_kb.js --strict",
+    "test:unit": "node --test \"test/unit/*.test.js\" \"test/contract/*.test.js\"",
+    "test:contract": "node --test \"test/contract/*.test.js\"",
+    "test:update-snapshots": "node scripts/update_snapshots.js",
     "test:acceptance": "node scripts/run_acceptance.js",
     "test:matrix": "node scripts/run_acceptance.js --matrix",
-    "test:all": "node --test test/unit/*.test.js && node scripts/run_acceptance.js --matrix"
+    "test:all": "node --test \"test/unit/*.test.js\" \"test/contract/*.test.js\" && node scripts/run_acceptance.js --matrix && node scripts/audit_kb.js --strict"
   },
   "repository": {
     "type": "git",
@@ -26,7 +30,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "type": "module",
   "bugs": {
     "url": "https://github.com/Geekwls/teacher-ppt-courseware/issues"
