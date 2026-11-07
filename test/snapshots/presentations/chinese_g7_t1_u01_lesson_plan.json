@@ -12,14 +12,16 @@
     "skeleton": {
       "lesson_type": "concept_learning",
       "lesson_type_name": "新授课",
-      "intent": "情境导入 → 核心探究 → 例题示范 → 易错辨析 → 当堂练习 → 课堂小结",
+      "intent": "情境导入 → 核心探究 → 例题示范 → 易错辨析 → 当堂练习 → 课堂小结 → 分层作业",
       "complete": true,
       "fragmented": false,
       "missing": [],
       "filled": [],
       "off_skeleton_roles": [],
       "out_of_order": [],
-      "closers": []
+      "closers": [
+        "homework"
+      ]
     }
   },
   "slides": [
@@ -552,7 +554,7 @@
           "target": "ans_item_4.explanation"
         }
       ],
-      "notes": "逐题点击揭晓参考答案：先请学生说出思路，再显示答案，对照订正并说明理由。"
+      "notes": "逐题揭晓参考答案。先请学生说出思路再核对。\n\n【理答与错因点拨】\n第1题点拨：「偷偷地」写出悄然萌发，「钻」表现顽强突破的生命张力。\n第2题点拨：引用诗句与比喻，生动传神地写出春风柔和温暖的触感。\n第3题点拨：三个比喻分别比作娃娃、小姑娘、青年，具有不可颠倒的发展脉络。\n第4题点拨：「迎春图」专门生动描绘了「城里乡下，老老小小」迎春劳作的热烈场面。"
     },
     {
       "slide_id": "slide_11_summary",
@@ -590,7 +592,54 @@
       "notes": "总结升华：朱自清的《春》不仅是一篇写景美文，更是启迪我们热爱自然、积极面对人生的精神诗篇"
     },
     {
-      "slide_id": "slide_12_end",
+      "slide_id": "slide_12_homework",
+      "phase_ref": "meta_homework",
+      "layout": "homework_card",
+      "elements": [
+        {
+          "id": "txt_hw_title",
+          "type": "title",
+          "properties": {
+            "text": "分层作业布置"
+          }
+        },
+        {
+          "id": "card_hw_tiers",
+          "type": "tier_list",
+          "properties": {
+            "tiers": [
+              {
+                "tier": "必做",
+                "desc": "【基础巩固】在田字格本上工整书写本课生字与核心词语，朗读课文重点段落。"
+              },
+              {
+                "tier": "选做",
+                "desc": "【能力提升】有感情地朗读课文，在摘抄本上摘抄 2~3 处有新鲜感的优美词句。"
+              },
+              {
+                "tier": "挑战",
+                "desc": "【思维拓展】观察生活中的一处熟悉场景，尝试运用拟人手法写 1~2 句生动的话。"
+              }
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_hw_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_hw_tiers"
+        }
+      ],
+      "notes": "今天的分层作业：生字书写人人过关；熟读精读品味语言；挑战题鼓励联系生活观察写话。"
+    },
+    {
+      "slide_id": "slide_13_end",
       "phase_ref": "meta_end",
       "layout": "end_cover",
       "elements": [
@@ -610,7 +659,7 @@
           "target": "end_title"
         }
       ],
-      "notes": "今天的课就上到这里。课后请完成分层作业：必做部分人人过关，选做和挑战量力而行；下节课我们先交流摘抄与观察写话。同学们，下课！"
+      "notes": "今天的课就上到这里。课后请认真完成分层作业，工整书写生字，熟读精读重点段落。同学们，下课！"
     }
   ]
 }

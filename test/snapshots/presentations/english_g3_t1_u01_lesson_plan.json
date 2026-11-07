@@ -12,14 +12,16 @@
     "skeleton": {
       "lesson_type": "concept_learning",
       "lesson_type_name": "新授课",
-      "intent": "情境导入 → 核心探究 → 例题示范 → 易错辨析 → 当堂练习 → 课堂小结",
+      "intent": "情境导入 → 核心探究 → 例题示范 → 易错辨析 → 当堂练习 → 课堂小结 → 分层作业",
       "complete": true,
       "fragmented": false,
       "missing": [],
       "filled": [],
       "off_skeleton_roles": [],
       "out_of_order": [],
-      "closers": []
+      "closers": [
+        "homework"
+      ]
     }
   },
   "slides": [
@@ -440,7 +442,7 @@
           "target": "ans_item_4.explanation"
         }
       ],
-      "notes": "逐题点击揭晓参考答案：先请学生说出思路，再显示答案，对照订正并说明理由。"
+      "notes": "逐题揭晓参考答案。先请学生说出思路再核对。\n\n【理答与错因点拨】\n第1题点拨：日常问好使用 Hello! 或 Hi!，表达热情主动。\n第2题点拨：自我介绍使用第一人称 I'm... 或 My name is...\n第3题点拨：回应初次见面的问候必须说 Nice to meet you too.\n第4题点拨：对方自我介绍后，应当同样进行自我介绍。"
     },
     {
       "slide_id": "slide_09_summary",
@@ -478,7 +480,54 @@
       "notes": "总结本节课核心交际技能，鼓励学生课后用英语主动与班级新同学打招呼"
     },
     {
-      "slide_id": "slide_10_end",
+      "slide_id": "slide_10_homework",
+      "phase_ref": "meta_homework",
+      "layout": "homework_card",
+      "elements": [
+        {
+          "id": "txt_hw_title",
+          "type": "title",
+          "properties": {
+            "text": "分层作业布置"
+          }
+        },
+        {
+          "id": "card_hw_tiers",
+          "type": "tier_list",
+          "properties": {
+            "tiers": [
+              {
+                "tier": "必做",
+                "desc": "【听读巩固】大声跟读课文对话与核心词汇 3 遍，注意语音、语调与连读。"
+              },
+              {
+                "tier": "选做",
+                "desc": "【角色操练】与同伴或家长进行课文角色扮演，流畅脱稿运用本课核心句型。"
+              },
+              {
+                "tier": "挑战",
+                "desc": "【情境交际】结合真实生活场景创编一段 3~4 轮的英文小对话，下节课展示分享。"
+              }
+            ]
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "step": 0,
+          "action": "show",
+          "target": "txt_hw_title"
+        },
+        {
+          "step": 1,
+          "action": "reveal",
+          "target": "card_hw_tiers"
+        }
+      ],
+      "notes": "今天的分层作业：听读跟读人人过关；角色操练流畅脱稿；挑战题鼓励结合生活真实交际。"
+    },
+    {
+      "slide_id": "slide_11_end",
       "phase_ref": "meta_end",
       "layout": "end_cover",
       "elements": [
@@ -498,7 +547,7 @@
           "target": "end_title"
         }
       ],
-      "notes": "今天的课就上到这里。课后请完成分层作业：必做部分人人过关，选做和挑战量力而行；下节课我们先交流摘抄与观察写话。同学们，下课！"
+      "notes": "今天的课就上到这里。课后请按要求完成分层作业，多听多读多表达。Goodbye, class!"
     }
   ]
 }
