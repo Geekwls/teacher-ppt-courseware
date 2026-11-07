@@ -29,16 +29,23 @@
   "teaching_sequence": [
     {
       "phase_id": "phase_01_warmup",
-      "phase_name": "情境导入",
+      "phase_name": "情境导入：Family Photo",
       "objective_ref": "OBJ_01",
       "content_block": {
         "type": "contextual_problem",
-        "scenario": "Sarah is showing her family photo. She wants to tell us about her family's jobs.",
+        "scenario": "Sarah is showing her family photo. She wants to tell us about her family members and their jobs.",
         "question": "How do you ask about someone's job in English?",
-        "core_expression": "核心聚焦：What's your father's job?"
+        "core_expression": "核心聚焦：What's your father's job?",
+        "image_alt": "五种职业场景图：office worker / farmer / doctor / factory worker / nurse（请替换为教材情景挂图）"
       },
       "student_action": "观察家庭照片情境，尝试用英语提问",
-      "teacher_guidance": "出示 Sarah 的全家福：Look at Sarah's family photo. 提问：How does Sarah talk about jobs? 引出本课核心问句 What's your father's job? 并带读两遍。"
+      "teacher_guidance": {
+        "timing": "3分钟",
+        "say": "Good morning, class! Look at the screen. Sarah is sharing her family photo. There are four people in her family.",
+        "ask": "How can we ask about her father's job? 怎样用英语询问她爸爸的职业？",
+        "expected_answer": "预设1（已有感知）：部分学生能尝试说出 What is your father? 或 What does your father do? 理答：Great! 今天我们来学习教材中最纯正地道的表达：What's your father's job?\n预设2（答不上来）：引导观察单词 job。理答：job 就是工作、职业，带读 job, job, father's job。",
+        "transition": "Let's listen to Sarah and Mike's conversation and find out the answer!"
+      }
     },
     {
       "phase_id": "phase_02_exploration",
@@ -51,7 +58,13 @@
         "key_phrase": "★ What's your …'s job? — He's / She's a …"
       },
       "student_action": "听录音跟读对话，分角色朗读，圈出问句与答句",
-      "teacher_guidance": "操练三步走：全班跟读 → 分角色读 → 同桌替换关键词 pair work。提示学生注意问句里 's 的读音，答句开头用 He's 或 She's。"
+      "teacher_guidance": {
+        "timing": "10分钟",
+        "say": "Let's read the dialogue together. 操练三步走：全班轻声跟读 → 男女生分角色读 → 同桌齐读。",
+        "ask": "What's Sarah's father's job? And what about her mother?",
+        "expected_answer": "预设1（直接回答职业词）：He's a doctor. / She's a factory worker. 理答：Excellent! 注意答句开头：男士用 He's a，女士用 She's a，别漏掉冠词 a！\n预设2（语音细节）：学生在读 What's your father's job 时容易吞掉 's。理答：范读拆解 father + 's，打拍子连读两遍。",
+        "transition": "除了 doctor 和 factory worker，生活中还有哪些常见的职业呢？Let's learn more words!"
+      }
     },
     {
       "phase_id": "phase_03_vocab",
@@ -60,20 +73,46 @@
       "content_block": {
         "type": "vocabulary_focus",
         "words": [
-          { "word": "office worker", "pinyin": "n.", "focus": "上班族 ── an office worker" },
-          { "word": "farmer", "pinyin": "n.", "focus": "农民 ── a farmer" },
-          { "word": "doctor", "pinyin": "n.", "focus": "医生 ── Doctors are great!" },
-          { "word": "factory worker", "pinyin": "n.", "focus": "工厂工人 ── a factory worker" },
-          { "word": "nurse", "pinyin": "n.", "focus": "护士 ── a nurse" }
+          {
+            "word": "office worker",
+            "pinyin": "n.",
+            "focus": "上班族 ── an office worker"
+          },
+          {
+            "word": "farmer",
+            "pinyin": "n.",
+            "focus": "农民 ── a farmer"
+          },
+          {
+            "word": "doctor",
+            "pinyin": "n.",
+            "focus": "医生 ── Doctors are great!"
+          },
+          {
+            "word": "factory worker",
+            "pinyin": "n.",
+            "focus": "工厂工人 ── a factory worker"
+          },
+          {
+            "word": "nurse",
+            "pinyin": "n.",
+            "focus": "护士 ── a nurse"
+          }
         ],
         "core_rule": "★ 词不离句：介绍职业要用 He's / She's a + 职业名词"
       },
-      "student_action": "看图认读五个职业词汇，开火车快读",
-      "teacher_guidance": "逐一出示职业图片，先听后说：office worker 拆读 office + worker。用 What's his job? 随机点图，学生用 He's a … 抢答，做到词不离句。"
+      "student_action": "看图认读五个职业词汇，开火车快读并造句",
+      "teacher_guidance": {
+        "timing": "8分钟",
+        "say": "Look at the flashcards: office worker, farmer, doctor, factory worker, nurse. 坚持“词不离句”。",
+        "ask": "Look at Picture 1: He works in an office. What's his job?",
+        "expected_answer": "预设：学生完整抢答 He's an office worker. 理答：特别棒！office 是元音音素开头，前面用 an office worker，非常严谨！",
+        "transition": "在造句时，有两位小马虎犯了常见错误，我们一起来当小侦探！"
+      }
     },
     {
       "phase_id": "phase_04_misconception",
-      "phase_name": "易错辨析",
+      "phase_name": "易错辨析：不漏 a、不丢 's",
       "objective_ref": "OBJ_02",
       "content_block": {
         "type": "misconception_analysis",
@@ -82,11 +121,41 @@
         "correct_method": "He's a doctor. ✓    What's your mother's job? ✓"
       },
       "student_action": "找错、说因、齐读正确句子",
-      "teacher_guidance": "把错句写在黑板上让学生当小老师找错。追问：丢掉 a 和 's 后句子还通顺吗？带领全班用两遍节奏读正确句，强化 a 和 's。"
+      "teacher_guidance": {
+        "timing": "5分钟",
+        "say": "大屏幕上有两个典型错句，请大家当小法官快速找茬！",
+        "ask": "为什么说 He's doctor 不规范？第二句少了什么小尾巴？",
+        "expected_answer": "预设：第一句漏了 a，第二句 mother 后面漏了 's。理答：总结得非常准确！牢记口诀：单数职业 a 占位，问谁职业加撇 s！全班打拍子读两遍正解。",
+        "transition": "语言是用来交流的！接下来进入最精彩的双人角色扮演 Pair Work！"
+      }
     },
     {
-      "phase_id": "phase_05_practice",
-      "phase_name": "当堂练习",
+      "phase_id": "phase_05_pair_work",
+      "phase_name": "核心操练：同桌问答 Pair Work",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "activity_instruction",
+        "activity_type": "双人问答操练 Pair Work",
+        "duration": "4分钟",
+        "tasks": [
+          "① 同桌两人一组，各选一张家人职业道具卡（doctor / nurse / farmer / office worker）",
+          "② A 同学用核心句型发问：What's your father's / mother's job?",
+          "③ B 同学看卡片流利回答：He's / She's a ...，随后两人互换角色操练"
+        ],
+        "prompt": "句型完整，声音洪亮；听到漏 a 或漏所有格，小裁判举手示意。"
+      },
+      "student_action": "同桌两人结对，用职业道具卡进行角色扮演问答，互相纠音纠错",
+      "teacher_guidance": {
+        "timing": "6分钟",
+        "say": "Now let's do Pair Work! 同桌两人为一组，用大屏幕上的职业卡片进行问答接龙，计时 4 分钟。",
+        "ask": "Which pair wants to come to the front and show your dialogue?",
+        "expected_answer": "预设1（流利展示）：学生脱稿自然对话 What's your mother's job? - She's a nurse. 理答：Great job! 发音标准，连读自然，全班鼓掌！\n预设2（遗漏冠词）：学生说成 He's doctor. 理答：微笑提示“a... He's a doctor”，引导学生自我纠正后重新完整说一遍。",
+        "transition": "大家的口语展示非常精彩！最后我们通过两道小题检验书面掌握情况。"
+      }
+    },
+    {
+      "phase_id": "phase_06_practice",
+      "phase_name": "当堂笔答巩固",
       "objective_ref": "OBJ_01",
       "content_block": {
         "type": "practice_challenge",
@@ -95,7 +164,11 @@
             "id": "q1",
             "type": "choice",
             "stem": "补全对话：______ your father's job?",
-            "options": ["A. What", "B. What's", "C. Where"],
+            "options": [
+              "A. What",
+              "B. What's",
+              "C. Where"
+            ],
             "answer": "B",
             "explanation": "答句 He's a farmer.；询问职业用 What's your …'s job?，What is 缩写为 What's。"
           },
@@ -108,11 +181,17 @@
           }
         ]
       },
-      "student_action": "独立完成两题，同桌互批订正",
-      "teacher_guidance": "讲评第 1 题时请学生完整读问句；第 2 题追问为什么必须加 a，再请学生用 He's a … / She's a … 各说一句自己的家人职业。"
+      "student_action": "独立完成两题笔答，核对答案并订正",
+      "teacher_guidance": {
+        "timing": "4分钟",
+        "say": "请大家拿出笔，独立完成屏幕上的两道巩固题，2 分钟后揭晓答案。",
+        "ask": "第 2 题为什么填 a？换成 office worker 应该填什么？",
+        "expected_answer": "预设：填 a，换成 office worker 填 an。理答：知识迁移举一反三，掌握得非常扎实！",
+        "transition": "让我们一起梳理今天学到的核心问答与词汇。"
+      }
     },
     {
-      "phase_id": "phase_06_summary",
+      "phase_id": "phase_07_summary",
       "phase_name": "课堂小结",
       "objective_ref": "OBJ_02",
       "content_block": {
@@ -124,7 +203,13 @@
         ]
       },
       "student_action": "齐读句型卡与词汇表，同桌互问互答一轮",
-      "teacher_guidance": "用板书句型卡带全班齐读问答各两遍。布置作业：回家用 What's your …'s job? 采访两位家人的职业，下节课汇报。"
+      "teacher_guidance": {
+        "timing": "4分钟",
+        "say": "Time for summary! 让我们齐读大屏幕上的总结卡片，把核心问答牢记在心。",
+        "ask": "今天我们学会了哪句问职业的话？",
+        "expected_answer": "预设：What's your ...'s job? - He's/She's a ...",
+        "transition": "最后来看今天的课后分层作业！"
+      }
     }
   ]
 }
