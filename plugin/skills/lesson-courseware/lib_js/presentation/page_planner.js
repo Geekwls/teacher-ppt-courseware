@@ -152,7 +152,9 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
   const termText = meta.term === "term-2" ? "下册" : "上册";
   const subjectText = subjectLabel(meta.subject);
   const unitText = meta.unit ? `第${meta.unit}单元` : "";
-  const lessonNumberText = meta.lesson_number ? `第${meta.lesson_number}课` : "课时 1";
+  const lessonNumberText = meta.class_period
+    ? `第${meta.class_period}课时`
+    : (meta.lesson_number ? `第${meta.lesson_number}课` : "课时 1");
   const subtitle = [`${gradeText}${termText}`, subjectText, unitText, lessonNumberText].filter(Boolean).join(" · ");
 
   slidePlans.push({

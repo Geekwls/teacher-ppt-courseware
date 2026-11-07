@@ -69,6 +69,12 @@
           "type": "string",
           "description": "关联的教材知识库知识点 ID"
         },
+        "class_period": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20,
+          "description": "课时序号：同一课文分多课时施教时标注第几课时，封面副标题显示「第N课时」；缺省时单课时课件不标注"
+        },
         "style": {
           "type": "string",
           "enum": ["clean", "warm", "academic", "minimal", "chalk"],
