@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "eng-g4-t1-u01-l01",
+  "meta": {
+    "subject": "english",
+    "grade": 4,
+    "term": "term-1",
+    "unit": 1,
+    "topic": "Unit 1 Helping at home · Part A Let's talk（第一课时）",
+    "lesson_type": "concept_learning",
+    "source_point_id": "eng-g4-t1-u01-p01",
+    "style": "clean",
+    "duration_minutes": 40
+  },
+  "objectives": [
+    {
+      "id": "OBJ_01",
+      "type": "cognitive",
+      "statement": "能用 What's your …'s job? 询问他人的职业",
+      "assessment": "能两人一组准确互问 What's your father's / mother's job?"
+    },
+    {
+      "id": "OBJ_02",
+      "type": "cognitive",
+      "statement": "能用 He's / She's a … 介绍职业，认读 office worker, farmer, doctor, factory worker, nurse 五个职业词汇",
+      "assessment": "能看图说出职业名并造句 He's a farmer.；能改正漏 a、漏 's 的典型错误"
+    }
+  ],
+  "teaching_sequence": [
+    {
+      "phase_id": "phase_01_warmup",
+      "phase_name": "情境导入",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "contextual_problem",
+        "scenario": "Sarah is showing her family photo. She wants to tell us about her family's jobs.",
+        "question": "How do you ask about someone's job in English?",
+        "core_expression": "核心聚焦：What's your father's job?"
+      },
+      "student_action": "观察家庭照片情境，尝试用英语提问",
+      "teacher_guidance": "出示 Sarah 的全家福：Look at Sarah's family photo. 提问：How does Sarah talk about jobs? 引出本课核心问句 What's your father's job? 并带读两遍。"
+    },
+    {
+      "phase_id": "phase_02_exploration",
+      "phase_name": "核心探究：Let's talk 对话学习",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "text_reading",
+        "paragraph_excerpt": "A: What's your father's job?\nB: He's a doctor. Doctors are great!\nA: What's your mother's job?\nB: She's a factory worker.",
+        "focus_questions": [],
+        "key_phrase": "★ What's your …'s job? — He's / She's a …"
+      },
+      "student_action": "听录音跟读对话，分角色朗读，圈出问句与答句",
+      "teacher_guidance": "操练三步走：全班跟读 → 分角色读 → 同桌替换关键词 pair work。提示学生注意问句里 's 的读音，答句开头用 He's 或 She's。"
+    },
+    {
+      "phase_id": "phase_03_vocab",
+      "phase_name": "字词识记：职业词汇",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "vocabulary_focus",
+        "words": [
+          { "word": "office worker", "pinyin": "n.", "focus": "上班族 ── an office worker" },
+          { "word": "farmer", "pinyin": "n.", "focus": "农民 ── a farmer" },
+          { "word": "doctor", "pinyin": "n.", "focus": "医生 ── Doctors are great!" },
+          { "word": "factory worker", "pinyin": "n.", "focus": "工厂工人 ── a factory worker" },
+          { "word": "nurse", "pinyin": "n.", "focus": "护士 ── a nurse" }
+        ],
+        "core_rule": "★ 词不离句：介绍职业要用 He's / She's a + 职业名词"
+      },
+      "student_action": "看图认读五个职业词汇，开火车快读",
+      "teacher_guidance": "逐一出示职业图片，先听后说：office worker 拆读 office + worker。用 What's his job? 随机点图，学生用 He's a … 抢答，做到词不离句。"
+    },
+    {
+      "phase_id": "phase_04_misconception",
+      "phase_name": "易错辨析",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "misconception_analysis",
+        "wrong_case": "He's doctor. / What's your mother job?",
+        "cause_analysis": "职业名词单数前要加冠词 a；询问职业要用 What's + 人 + 's + job，所有格 's 不能漏。",
+        "correct_method": "He's a doctor. ✓    What's your mother's job? ✓"
+      },
+      "student_action": "找错、说因、齐读正确句子",
+      "teacher_guidance": "把错句写在黑板上让学生当小老师找错。追问：丢掉 a 和 's 后句子还通顺吗？带领全班用两遍节奏读正确句，强化 a 和 's。"
+    },
+    {
+      "phase_id": "phase_05_practice",
+      "phase_name": "当堂练习",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "stem": "补全对话：______ your father's job?",
+            "options": ["A. What", "B. What's", "C. Where"],
+            "answer": "B",
+            "explanation": "答句 He's a farmer.；询问职业用 What's your …'s job?，What is 缩写为 What's。"
+          },
+          {
+            "id": "q2",
+            "type": "fill_blank",
+            "stem": "改错并填空：He's doctor. → He's ___ doctor.（提示：别漏冠词）",
+            "answer": "a",
+            "explanation": "职业名词单数前要加 a：He's a doctor. ✓"
+          }
+        ]
+      },
+      "student_action": "独立完成两题，同桌互批订正",
+      "teacher_guidance": "讲评第 1 题时请学生完整读问句；第 2 题追问为什么必须加 a，再请学生用 He's a … / She's a … 各说一句自己的家人职业。"
+    },
+    {
+      "phase_id": "phase_06_summary",
+      "phase_name": "课堂小结",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "问职业：What's your father's / mother's job?",
+          "答职业：He's / She's a + 职业名词（别漏 a，别丢 's）",
+          "五个职业词：office worker, farmer, doctor, factory worker, nurse"
+        ]
+      },
+      "student_action": "齐读句型卡与词汇表，同桌互问互答一轮",
+      "teacher_guidance": "用板书句型卡带全班齐读问答各两遍。布置作业：回家用 What's your …'s job? 采访两位家人的职业，下节课汇报。"
+    }
+  ]
+}

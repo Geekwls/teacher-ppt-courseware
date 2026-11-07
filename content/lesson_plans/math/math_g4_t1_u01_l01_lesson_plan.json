@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "math-g4-t1-u01-l01",
+  "meta": {
+    "subject": "math",
+    "grade": 4,
+    "term": "term-1",
+    "unit": 1,
+    "topic": "亿以内数的认识",
+    "lesson_type": "concept_learning",
+    "source_point_id": "math-g4-t1-u01-p01",
+    "style": "clean",
+    "duration_minutes": 40
+  },
+  "objectives": [
+    {
+      "id": "OBJ_01",
+      "type": "cognitive",
+      "statement": "能说出个（一）至亿的计数单位，以及相邻两个计数单位之间的十进关系",
+      "assessment": "能完成「10 个一万是十万」式的填空与接龙，说出进率都是十"
+    },
+    {
+      "id": "OBJ_02",
+      "type": "cognitive",
+      "statement": "能在数位顺序表中定位数位与数级，说出亿以内数各数字的意义",
+      "assessment": "能对 21893095 说出位数、最高位与指定数字表示多少"
+    },
+    {
+      "id": "OBJ_03",
+      "type": "cognitive",
+      "statement": "知道自然数的意义，记住最小的自然数是 0，没有最大的自然数",
+      "assessment": "能判断「有没有最大的自然数」并说明理由"
+    }
+  ],
+  "teaching_sequence": [
+    {
+      "phase_id": "phase_01_warmup",
+      "phase_name": "情境导入",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "contextual_problem",
+        "scenario": "2020 年第七次全国人口普查：北京市人口 21893095 人。",
+        "question": "这个数和我们以前学的数有什么不一样？比万大的数，要怎样认识它？",
+        "core_expression": "关键词：比万大的数"
+      },
+      "student_action": "读出普查数据，发现比万大的数，产生认数需求",
+      "teacher_guidance": "出示人口普查数据，请学生试着读一读 21893095。提问：这个数里有几个数字？比万大还是小？引出课题：今天我们学习亿以内数的认识。"
+    },
+    {
+      "phase_id": "phase_02_exploration",
+      "phase_name": "核心探究：计数单位与数级",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "一万一万地数：10 个一万是十万；10 个十万是一百万；10 个一百万是一千万；10 个一千万是一亿",
+          "个（一）、十、百、千、万、十万、百万、千万、亿都是计数单位",
+          "相邻两个计数单位之间的进率都是十（十进制计数法）",
+          "按照我国的计数习惯，从右边起每四个数位是一级：个级、万级、亿级"
+        ]
+      },
+      "student_action": "跟着数数活动一万一万地数，归纳计数单位与数级",
+      "teacher_guidance": "带领全班一万一万地数：一万、两万……十万。追问：数到十万时有什么发现？引导说出 10 个一万是十万。继续数到一亿，板贴计数单位；再让学生观察数位顺序表，发现从右边起每四位一级。"
+    },
+    {
+      "phase_id": "phase_03_example",
+      "phase_name": "例题示范：数的组成",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "worked_example",
+        "problem": "说一说北京人口 21893095 人：① 它是几位数？② 最高位是什么位？③ 数字「8」在哪个数位，表示多少？",
+        "solution_steps": [
+          "它是 8 位数，最高位是千万位",
+          "从右边起每四位一级分级：2189 | 3095，万级 2189，个级 3095",
+          "8 在十万位上，表示 8 个十万"
+        ],
+        "answer": "21893095 是 8 位数，最高位是千万位；8 在十万位上，表示 8 个十万"
+      },
+      "student_action": "先分级再定位，说出每个数字的意义",
+      "teacher_guidance": "示范先分级再看位：2189｜3095。提问：最高位在哪一级？强调先说数位再说单位。请两名学生完整表述，全班同桌互说一遍。"
+    },
+    {
+      "phase_id": "phase_04_misconception",
+      "phase_name": "易错辨析：数位 ≠ 计数单位",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "misconception_analysis",
+        "wrong_case": "「21893095 中的 8 在万上」——把数位说成了计数单位。",
+        "cause_analysis": "数位是数字所占的位置（如十万位），计数单位是所表示的单位（如十万）。两者一一对应，但「位」和「单位」不是一回事。",
+        "correct_method": "先说数位：8 在十万位上；再说意义：表示 8 个十万"
+      },
+      "student_action": "判断错例、说明错因，并给出正确表述",
+      "teacher_guidance": "先出示错例让学生判断对不对，再追问：万位和万一样吗？引导区分「位置」与「单位」，并用规范语言重说一遍 8 的意义。"
+    },
+    {
+      "phase_id": "phase_05_practice",
+      "phase_name": "当堂练习",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "type": "fill_blank",
+            "stem": "10 个一万是（　　），10 个一千万是（　　）。",
+            "answer": "十万；一亿",
+            "explanation": "相邻两个计数单位之间的进率都是十。"
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "stem": "21893095 的最高位是（　　）。",
+            "options": ["A. 万位", "B. 十万位", "C. 千万位"],
+            "answer": "C",
+            "explanation": "它是 8 位数，最高位是千万位。"
+          },
+          {
+            "id": "q3",
+            "type": "fill_blank",
+            "stem": "从右边起，每（　　）个数位是一级，分别是个级、（　　）级、（　　）级。",
+            "answer": "四；万；亿",
+            "explanation": "按我国的计数习惯，从右边起每四个数位是一级。"
+          }
+        ]
+      },
+      "student_action": "独立完成三道题，同桌互批",
+      "teacher_guidance": "学生独立作答，教师巡视收集典型错误。讲评时追问：判断最高位之前先做什么？（先分级）"
+    },
+    {
+      "phase_id": "phase_06_summary",
+      "phase_name": "课堂小结",
+      "objective_ref": "OBJ_03",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "计数单位：个（一）、十、百、千、万、十万、百万、千万、亿，相邻进率都是十",
+          "数位与数级：计数单位占的位置叫数位；从右边起每四位一级——个级、万级、亿级",
+          "自然数：表示物体个数的 1，2，3……都是自然数；最小的自然数是 0，没有最大的自然数"
+        ]
+      },
+      "student_action": "回顾本课要点，齐读数位顺序",
+      "teacher_guidance": "请学生用三句话说清今天学到了什么：计数单位、数位与数级、自然数。布置课后小任务：回家把数位顺序表说给家长听。"
+    }
+  ]
+}
