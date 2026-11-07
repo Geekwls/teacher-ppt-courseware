@@ -61,6 +61,7 @@ function buildHomeworkSlide(meta, slidePlans, objectives, nextSlideId) {
   // 兜底文案来自学科内容包 (references/strategies/content-packs.yaml), 不在代码里创作
   const pack = contentPackFor(meta.subject);
   const tiers = pack.homework?.tiers || [];
+  const hwNotes = pack.homework?.notes || "今天的分层作业：基础必做题全员完成；选做题供学有余力的同学提升；挑战题鼓励联系生活自主探究。";
 
   return {
     slide_id: nextSlideId("homework"),
@@ -68,7 +69,7 @@ function buildHomeworkSlide(meta, slidePlans, objectives, nextSlideId) {
     layout: "homework_card",
     title: "分层作业布置",
     homework_tiers: tiers,
-    notes: "今天的分层作业：基础必做题全员完成；选做题供学有余力的同学提升；挑战题鼓励联系生活自主探究。"
+    notes: hwNotes
   };
 }
 
@@ -155,7 +156,14 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
   const lessonNumberText = meta.class_period
     ? `第${meta.class_period}课时`
     : (meta.lesson_number ? `第${meta.lesson_number}课` : "课时 1");
-  const subtitle = [`${gradeText}${termText}`, subjectText, unitText, lessonNumberText].filter(Boolean).join(" · ");
+  const subtitle = [
+    `${gradeText}${termText}`,
+    subjectText,
+    unitText,
+    lessonNumberText,
+    meta.school || "",
+    meta.teacher ? `执教：${meta.teacher}` : ""
+  ].filter(Boolean).join(" · ");
 
   slidePlans.push({
     slide_id: nextSlideId("cover"),
@@ -326,7 +334,21 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
             explanation: explanationText
           };
         }),
-        notes: `逐题点击揭晓参考答案：先请学生说出思路，再显示答案，对照订正并说明理由。${transitionNote ? `\n\n${transitionNote}` : ""}`
+        notes: (() => {
+          const itemTips = items
+            .map((it, idx) => {
+              const exp = (it.explanation || "").trim();
+              return exp ? `第${idx + 1}题点拨：${exp}` : null;
+            })
+            .filter(Boolean);
+          const answerGuidance = cb.answer_notes || phase.answer_notes;
+          const notesBody = answerGuidance
+            ? answerGuidance
+            : (itemTips.length > 0
+                ? `逐题揭晓参考答案。先请学生说出思路再核对。\n\n【理答与错因点拨】\n${itemTips.join("\n")}`
+                : "逐题点击揭晓参考答案：先请学生说出思路，再显示答案，对照订正并说明理由。");
+          return `${notesBody}${transitionNote ? `\n\n${transitionNote}` : ""}`;
+        })()
       });
       return;
     }
@@ -395,13 +417,20 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
     const boardSlide = buildBoardDesignSlide(meta, slidePlans, objectives, nextSlideId);
     if (boardSlide) slidePlans.push(boardSlide);
   }
+  let hasHomeworkSlide = false;
   if (closersToRender.has("homework")) {
     const hwSlide = buildHomeworkSlide(meta, slidePlans, objectives, nextSlideId);
-    if (hwSlide) slidePlans.push(hwSlide);
+    if (hwSlide) {
+      slidePlans.push(hwSlide);
+      hasHomeworkSlide = true;
+    }
   }
 
-  // 5. 封底 (结束寄语按学科取用, 避免语文课出现数学味的"熟能生巧")
+  // 5. 封底 (结束寄语与讲稿按学科取用, 彻底解耦学科属性与是否有作业页)
   const endSubtitle = contentPack.end_subtitle || "认真练习，熟能生巧";
+  const endNotes = hasHomeworkSlide
+    ? (contentPack.end_notes || "今天的课就上到这里。课后请完成分层作业：必做部分人人过关，选做和挑战量力而行。同学们，下课！")
+    : (contentPack.end_notes_no_homework || "今天的课就上到这里。请同学们课后认真复习，巩固所学。同学们，下课！");
 
   slidePlans.push({
     slide_id: nextSlideId("end"),
@@ -409,7 +438,7 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
     layout: "end_cover",
     title: "同学们，下课！",
     subtitle: endSubtitle,
-    notes: "今天的课就上到这里。课后请完成分层作业：必做部分人人过关，选做和挑战量力而行；下节课我们先交流摘抄与观察写话。同学们，下课！"
+    notes: endNotes
   });
 
   return {

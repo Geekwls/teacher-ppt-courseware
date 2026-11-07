@@ -94,9 +94,9 @@ export const PHASE_ROLES = {
   },
   practice: {
     label: "当堂练习",
-    blockTypes: ["practice_challenge"],
-    phaseKeywords: /practice|exercise|consolidat/,
-    hint: "当堂独立完成的巩固题，教师巡视收集典型问题"
+    blockTypes: ["practice_challenge", "activity_instruction"],
+    phaseKeywords: /practice|exercise|consolidat|activity|pair_work|role_play/,
+    hint: "当堂独立完成的巩固题或互动操练活动，教师巡视收集典型问题"
   },
   error_analysis: {
     label: "错因诊断",
@@ -156,16 +156,16 @@ const ROLE_KEYWORD_ORDER = [
 export const LESSON_SKELETONS = {
   concept_learning: {
     name: "新授课",
-    intent: "情境导入 → 核心探究 → 例题示范 → 易错辨析 → 当堂练习 → 课堂小结",
+    intent: "情境导入 → 核心探究 → 例题示范 → 易错辨析 → 当堂练习 → 课堂小结 → 分层作业",
     phases: [
       { role: "warmup", required: true },
       { role: "exploration", required: true, repeatable: true, aliases: ["reading", "vocabulary", "writing", "experiment"] },
       { role: "example", required: false },
       { role: "misconception", required: false },
-      { role: "practice", required: true },
+      { role: "practice", required: true, repeatable: true },
       { role: "summary", required: true }
     ],
-    closers: []
+    closers: ["homework"]
   },
   practice_consolidation: {
     name: "练习巩固课",
@@ -204,16 +204,16 @@ export const LESSON_SKELETONS = {
   },
   reading_comprehension: {
     name: "阅读指导课",
-    intent: "情境导入 → 字词梳理 → 文本品读 → 研读思辨 → 当堂练习 → 课堂小结",
+    intent: "情境导入 → 字词梳理 → 文本品读 → 研读思辨 → 当堂练习 → 课堂小结 → 分层作业",
     phases: [
       { role: "warmup", required: true },
       { role: "vocabulary", required: false },
       { role: "reading", required: true, repeatable: true, aliases: ["exploration"] },
       { role: "misconception", required: false },
-      { role: "practice", required: true },
+      { role: "practice", required: true, repeatable: true },
       { role: "summary", required: true }
     ],
-    closers: []
+    closers: ["homework"]
   }
 };
 
