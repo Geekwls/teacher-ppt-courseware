@@ -97,11 +97,12 @@ export const PLAN_BUILDERS = {
     correct_method: cb.correct_method || ""
   }),
 
-  rule_summary: ({ cb, phase, meta, scenePreset, layout }) => ({
+  rule_summary: ({ cb, phase, meta, scenePreset, layout, styleVariants }) => ({
     key: "summary",
     layout_variant: resolveLayoutVariant(layout, {
       explicitVariant: meta.layout_variants?.summary_card || cb.layout_variant,
       presetVariants: scenePreset.variants,
+      styleVariants,
       itemCount: (cb.summary_points || []).length
     }),
     title: phase.phase_name,

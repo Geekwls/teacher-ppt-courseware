@@ -249,7 +249,9 @@ export const STYLE_PACKS = {
       shadow: { type: "outer", color: "CBD5E1", blur: 4, offset: 2, angle: 90, opacity: 0.25 }
     },
     frame: { header: "bar", titleMark: "bar", footerRule: "solid" },
-    cover: { layout: "center_rule" }
+    cover: { layout: "center_rule" },
+    // 风格→版式变体绑定 (三套骨架之一): clean 为基线, 不额外偏好, 变体走默认自适应
+    variants: {}
   },
   warm: {
     id: "warm",
@@ -272,7 +274,9 @@ export const STYLE_PACKS = {
       shadow: { type: "outer", color: "E7C9A0", blur: 9, offset: 3, angle: 90, opacity: 0.28 }
     },
     frame: { header: "band", titleMark: "dot", footerRule: "solid" },
-    cover: { layout: "center_band" }
+    cover: { layout: "center_band" },
+    // warm 骨架: 目标页矩阵化, 其余维持单列/要点 (图文亲和, 页面饱满)
+    variants: { objectives_card: "grid", practice_list: "single_column", summary_card: "points" }
   },
   chalk: {
     id: "chalk",
@@ -298,7 +302,9 @@ export const STYLE_PACKS = {
       shadow: { type: "outer", color: "C9BC9C", blur: 3, offset: 2, angle: 90, opacity: 0.2 }
     },
     frame: { header: "paper", titleMark: "underline", footerRule: "dash" },
-    cover: { layout: "paper" }
+    cover: { layout: "paper" },
+    // chalk 骨架: 目标纵向列表, 练习两栏板书题组, 小结知识树 (板书脉络感)
+    variants: { objectives_card: "list", practice_list: "two_column", summary_card: "tree" }
   }
 };
 

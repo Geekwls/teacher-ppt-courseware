@@ -99,16 +99,19 @@ export function getRegisteredVariants(layout) {
 
 /**
  * 版式变体智能仲裁解析
+ * 优先级: 显式指定 > 场景预设 > 风格包绑定 > 内容自适应
  * @param {string} layout 页面布局名称 (如 objectives_card)
  * @param {object} options
  *   - explicitVariant: 显式指定的变体 (最高优先级)
  *   - presetVariants: 场景预设传入的默认变体映射
+ *   - styleVariants:  风格包绑定的变体映射 (STYLE_PACKS[].variants)
  *   - itemCount: 该页条目数 (用于自适应决策)
  * @returns {string} 仲裁出的变体 ID
  */
 export function resolveLayoutVariant(layout, {
   explicitVariant = null,
   presetVariants = {},
+  styleVariants = {},
   itemCount = 0
 } = {}) {
   const entry = REGISTERED_LAYOUT_VARIANTS[layout];
@@ -125,7 +128,13 @@ export function resolveLayoutVariant(layout, {
     return fromPreset;
   }
 
-  // 3. 依据内容特征自适应智能推荐
+  // 3. 风格包绑定的骨架偏好 (三套皮肤各自长不同的版式结构)
+  const fromStyle = styleVariants && styleVariants[layout];
+  if (fromStyle && entry.variants[fromStyle]) {
+    return fromStyle;
+  }
+
+  // 4. 依据内容特征自适应智能推荐
   if (layout === "objectives_card") {
     if (itemCount >= 4) return "grid";
     return entry.default;

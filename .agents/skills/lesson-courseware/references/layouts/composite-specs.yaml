@@ -108,3 +108,48 @@ specs:
         properties:
           title: "$plan:context_title"
           body: "$plan:context_body"
+
+  # warm 情境页骨架: 上方情境通栏 + 下行「算式 | 配图」并排。
+  # 依赖 SlidePlan 的 image_alt (image_path 可为空串 → 占位卡);
+  # 风格级重定向由规划器把关: 未声明配图位的教学设计自动回落原生情境布局。
+  context_two_row:
+    description: 情境通栏 + 算式与配图并排 (warm)
+    grid: { cols: 2, gapX: 0.3, gapY: 0.25 }
+    zones:
+      - id: context
+        type: text_card
+        span: 2
+        properties:
+          title: "$plan:context_title"
+          body: "$plan:context_body"
+      - id: expression
+        type: equation
+        properties:
+          expression: "$plan:equation"
+      - id: picture
+        type: figure_image
+        properties:
+          path: "$plan:image_path"
+          alt: "$plan:image_alt"
+          caption: "$plan:image_alt"
+    timeline:
+      - { step: 1, action: reveal, target: expression }
+
+  # chalk 情境页骨架: 板书条带式 —— 通栏情境条 + 通栏算式条, 等高双行, 无内容依赖
+  context_board:
+    description: 板书条带式情境页 (chalk)
+    grid: { cols: 2, gapX: 0.3, gapY: 0.25 }
+    zones:
+      - id: context
+        type: text_card
+        span: 2
+        properties:
+          title: "$plan:context_title"
+          body: "$plan:context_body"
+      - id: expression
+        type: equation
+        span: 2
+        properties:
+          expression: "$plan:equation"
+    timeline:
+      - { step: 1, action: reveal, target: expression }

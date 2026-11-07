@@ -187,6 +187,8 @@ node plugin/skills/lesson-courseware/scripts/build_courseware.js \
 风格包只改配色、圆角、页眉装饰、封面构图与字号节奏,**不动任何卡槽坐标**,
 所以 3 套风格共用同一套几何门禁与验收矩阵。
 
+三套风格还各自绑定**页面骨架**: 版式变体 (目标页/练习页/小结页) 与情境页组合版式按风格分化, 详见 `block-layout-map.yaml` 的 `styles` 层与 `composite-specs.yaml`。
+
 > 单元测试覆盖契约校验、教学门禁(数域/禁区/算式真值)、文本度量与折行、
 > 几何审计、放映分步、风格包 token 与对比度;渲染规则变更请同步补单测与金样。
 

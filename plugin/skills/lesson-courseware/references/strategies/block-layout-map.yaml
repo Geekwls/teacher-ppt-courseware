@@ -7,7 +7,8 @@
 #   1. content_block.layout 显式指定 (单课时临时覆盖, 必须是已注册版式);
 #   2. units.<unitKey>.<block_type>      unitKey 形如 math-g3-t1-u04;
 #   3. subjects.<subject>.<block_type>;
-#   4. default.<block_type>。
+#   4. styles.<style>.<block_type>       按风格包绑定页面骨架 (三套皮肤三套架构);
+#   5. default.<block_type>。
 #
 # 映射值两种写法:
 #   - 字符串: 版式 id (presentation/layout_registry.js 中注册的任一版式);
@@ -49,3 +50,17 @@ default:
 #       spec: model_and_banner
 units: {}
 subjects: {}
+
+# 风格级骨架绑定 (三套皮肤三套架构):
+#   warm  情境页走「上下两行+右下配图」的组合版式 —— 教学设计须声明 image_alt/image_path,
+#         未声明图片时规划器自动回落原生情境布局 (clean 基线形态);
+#   chalk 情境页走「板书条带式」组合版式 (通栏情境条 + 通栏算式条), 无内容依赖。
+styles:
+  warm:
+    contextual_problem:
+      layout: composite
+      spec: context_two_row
+  chalk:
+    contextual_problem:
+      layout: composite
+      spec: context_board

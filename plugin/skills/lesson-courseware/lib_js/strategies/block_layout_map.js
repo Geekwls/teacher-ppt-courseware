@@ -42,7 +42,7 @@ function loadBlockLayoutMap() {
   if (!doc || typeof doc !== "object" || !doc.default || typeof doc.default !== "object") {
     throw new Error(`[block_layout_map] 映射表缺少 default 段: ${MAP_PATH}`);
   }
-  const out = { default: {}, subjects: {}, units: {} };
+  const out = { default: {}, subjects: {}, units: {}, styles: {} };
 
   for (const [blockType, entry] of Object.entries(doc.default)) {
     out.default[blockType] = validateEntry(entry, `default.${blockType}`);
@@ -51,6 +51,12 @@ function loadBlockLayoutMap() {
     out.subjects[subject] = {};
     for (const [blockType, entry] of Object.entries(entries || {})) {
       out.subjects[subject][blockType] = validateEntry(entry, `subjects.${subject}.${blockType}`);
+    }
+  }
+  for (const [styleId, entries] of Object.entries(doc.styles || {})) {
+    out.styles[styleId] = {};
+    for (const [blockType, entry] of Object.entries(entries || {})) {
+      out.styles[styleId][blockType] = validateEntry(entry, `styles.${styleId}.${blockType}`);
     }
   }
   for (const [unitKey, entries] of Object.entries(doc.units || {})) {
@@ -75,35 +81,47 @@ export function unitKeyOf(meta = {}) {
  * 纯函数查表: 供 resolveBlockLayout 与单测复用, 优先级 units > subjects > default。
  * @returns {{ layout: string, spec: string|null }} 未命中返回 null
  */
-export function resolveFromMap(map, { meta = {}, cb = {} } = {}) {
+/**
+ * 纯函数查表: 供 resolveBlockLayout 与单测复用。
+ * 优先级: units > subjects > styles > default; 返回带 level 标记的归一化条目。
+ * @returns {{ layout: string, spec: string|null, level: string }|null} 未命中返回 null
+ */
+export function resolveFromMap(map, { meta = {}, cb = {}, style = "" } = {}) {
   const blockType = cb.type;
   const unitKey = unitKeyOf(meta);
-  const entry = map.units?.[unitKey]?.[blockType]
-    ?? map.subjects?.[meta.subject]?.[blockType]
-    ?? map.default?.[blockType]
-    ?? null;
-  if (!entry) return null;
+  const hit = [
+    ["units", map.units?.[unitKey]?.[blockType]],
+    ["subjects", map.subjects?.[meta.subject]?.[blockType]],
+    ["styles", map.styles?.[style]?.[blockType]],
+    ["default", map.default?.[blockType]]
+  ].find(([, entry]) => entry !== undefined && entry !== null);
+  if (!hit) return null;
+  const [level, entry] = hit;
   // 兼容原始映射 (测试/外部构造): 字符串与 {layout, spec} 两种写法都归一化
   return typeof entry === "string"
-    ? { layout: entry, spec: null }
-    : { layout: entry.layout, spec: entry.spec || null };
+    ? { layout: entry, spec: null, level }
+    : { layout: entry.layout, spec: entry.spec || null, level };
 }
 
 /**
  * 解析某内容块应使用的版式。
- * @returns {{ layout: string|null, spec: string|null, explicit: boolean }}
+ * @param {object} input
+ *   - meta: 教学设计 meta
+ *   - cb:   content_block
+ *   - style: 最终生效的风格包 id (来自场景预设/style 解析), 用于 styles 层覆盖
+ * @returns {{ layout: string|null, spec: string|null, explicit: boolean, level: string|null }}
  *   layout 为 null 表示映射表与显式指定都未覆盖 (调用方按历史行为跳过)。
  */
-export function resolveBlockLayout({ meta = {}, cb = {} } = {}) {
+export function resolveBlockLayout({ meta = {}, cb = {}, style = "" } = {}) {
   if (cb.layout) {
     if (!LAYOUT_IDS.includes(cb.layout)) {
       throw new Error(`[block_layout_map] content_block.layout [${cb.layout}] 不是已注册版式, 可用: ${LAYOUT_IDS.join(", ")}`);
     }
-    return { layout: cb.layout, spec: cb.layout_spec_name || null, explicit: true };
+    return { layout: cb.layout, spec: cb.layout_spec_name || null, explicit: true, level: "explicit" };
   }
 
   const map = loadBlockLayoutMap();
-  const entry = resolveFromMap(map, { meta, cb });
-  if (!entry) return { layout: null, spec: null, explicit: false };
+  const entry = resolveFromMap(map, { meta, cb, style });
+  if (!entry) return { layout: null, spec: null, explicit: false, level: null };
   return { ...entry, explicit: false };
 }

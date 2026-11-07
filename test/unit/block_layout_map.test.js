@@ -72,7 +72,7 @@ test("block_layout_map: 优先级 units > subjects > default 与对象映射", (
 
 test("block_layout_map: 显式 content_block.layout 优先且校验合法性", () => {
   const explicit = resolveBlockLayout({ meta: META, cb: { type: "rule_summary", layout: "comparison_table" } });
-  assert.deepEqual(explicit, { layout: "comparison_table", spec: null, explicit: true });
+  assert.deepEqual(explicit, { layout: "comparison_table", spec: null, explicit: true, level: "explicit" });
   assert.throws(
     () => resolveBlockLayout({ meta: META, cb: { type: "rule_summary", layout: "no_such_layout" } }),
     /不是已注册版式/

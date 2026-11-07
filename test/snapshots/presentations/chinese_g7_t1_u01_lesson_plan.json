@@ -4,11 +4,7 @@
     "theme": "warm_chinese_bamboo",
     "style": "clean",
     "preset": "standard",
-    "layout_variants": {
-      "objectives_card": "list",
-      "practice_list": "single_column",
-      "summary_card": "points"
-    },
+    "layout_variants": {},
     "skeleton": {
       "lesson_type": "concept_learning",
       "lesson_type_name": "新授课",
@@ -422,7 +418,7 @@
       "slide_id": "slide_09_practice",
       "phase_ref": "phase_05_practice",
       "layout": "practice_list",
-      "layout_variant": "single_column",
+      "layout_variant": "two_column",
       "elements": [
         {
           "id": "txt_pr_title",

@@ -4,11 +4,7 @@
     "theme": "clean_math_ocean",
     "style": "clean",
     "preset": "standard",
-    "layout_variants": {
-      "objectives_card": "list",
-      "practice_list": "single_column",
-      "summary_card": "points"
-    },
+    "layout_variants": {},
     "skeleton": {
       "lesson_type": "practice_consolidation",
       "lesson_type_name": "练习巩固课",
@@ -129,7 +125,7 @@
       "slide_id": "slide_04_practice",
       "phase_ref": "phase_02_basic_practice",
       "layout": "practice_list",
-      "layout_variant": "single_column",
+      "layout_variant": "two_column",
       "elements": [
         {
           "id": "txt_pr_title",

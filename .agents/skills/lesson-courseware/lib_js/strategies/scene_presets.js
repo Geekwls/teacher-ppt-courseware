@@ -19,11 +19,9 @@ export const SCENE_PRESETS = {
     default_style: "clean",
     density: "standard",
     speech_detail: "bullet",
-    default_variants: {
-      objectives_card: "list",
-      practice_list: "single_column",
-      summary_card: "points"
-    },
+    // 基线场景不钉变体: 版式随风格包绑定 (三套皮肤三套骨架) 与内容自适应走,
+    // 否则预设优先级会永远压过风格骨架绑定
+    default_variants: {},
     extra_closers: [],
     motion_pacing: "medium"
   },

@@ -15,7 +15,8 @@ import { resolveSpecForPlan } from "../composite_specs.js";
 export const id = "composite";
 export const required = { ids: ["txt_composite_title"], types: [], minElements: 2 };
 
-/** 解析 "$plan:a.b" 形式的字符串引用; 其余值原样返回 */
+/** 解析 "$plan:a.b" 形式的字符串引用; 其余值原样返回。
+ *  空串是合法值 (如 image_path="" 表示用占位卡), 仅 undefined/null 视为缺失。 */
 function resolvePlanRefs(value, plan, zoneId) {
   if (typeof value === "string") {
     if (!value.startsWith("$plan:")) return value;
@@ -24,7 +25,7 @@ function resolvePlanRefs(value, plan, zoneId) {
       if (node === null || node === undefined) return undefined;
       return node[key];
     }, plan);
-    if (resolved === undefined || resolved === null || resolved === "") {
+    if (resolved === undefined || resolved === null) {
       throw new Error(`[composite] 槽位 ${zoneId} 的引用 ${value} 在 SlidePlan 上无值, 请补齐内容或调整 spec`);
     }
     return resolved;

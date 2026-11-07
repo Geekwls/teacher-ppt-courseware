@@ -22,6 +22,7 @@ import { formatTeacherGuidance } from "../lesson/guidance_formatter.js";
 import { GRADE_NAMES } from "../domain/grades.js";
 import { subjectLabel } from "../domain/subjects.js";
 import { contentPackFor } from "../strategies/content_packs.js";
+import { resolveStylePack } from "../theme.js";
 import { resolveBlockLayout } from "../strategies/block_layout_map.js";
 import { resolvePolicyPack } from "../strategies/policy_packs.js";
 import { PLAN_BUILDERS } from "./plan_builders.js";
@@ -115,6 +116,9 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
     skeleton_fill: userPreferences.skeleton_fill ?? policyPack.skeleton_fill
   };
 
+  // 风格→骨架绑定: 风格包的 preferred variants (三套皮肤三套架构)
+  const styleVariants = resolveStylePack(prefs.style).variants || {};
+
   const presetKey = prefs.preset;
   const scenePreset = resolveScenePreset(presetKey, {
     style: prefs.style,
@@ -178,6 +182,7 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
   const objVariant = resolveLayoutVariant("objectives_card", {
     explicitVariant: meta.layout_variants?.objectives_card || prefs.layout_variant,
     presetVariants: scenePreset.variants,
+    styleVariants,
     itemCount: objectives.length
   });
 
@@ -225,15 +230,28 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
     const transitionNote = (guidance.match(/【环节过渡】[\s\S]*$/) || [""])[0];
 
     // 版式解析: 显式 content_block.layout > block-layout-map (units > subjects > default)
-    const layoutChoice = resolveBlockLayout({ meta, cb });
+    let layoutChoice = resolveBlockLayout({ meta, cb, style: prefs.style });
 
-    // 场景 E: 组合版式单页直装 —— 内容字段由 spec 的 "$plan:" 引用, 不参与拆页场景
+    // 场景 E: 组合版式单页直装 —— 内容字段由 spec 的 "$plan:" 引用, 不参与拆页场景。
+    // 风格级(styles 层)重定向的情境组合页依赖配图位: 教学设计未声明图片时回落原生布局
+    if (layoutChoice.layout === "composite" && layoutChoice.level === "styles" && !(cb.image_path || cb.image || cb.image_alt)) {
+      layoutChoice = { layout: "context_problem", spec: null, explicit: false, level: null };
+    }
     if (layoutChoice.layout === "composite") {
+      // 组合页与原生页共用同一个页面装配器: spec 的 "$plan:" 引用依赖装配器产出的
+      // 字段 (context_title/context_body 等), 不能只透传原始 content_block
+      const builder = PLAN_BUILDERS[cb.type];
+      const { key, ...fields } = builder
+        ? builder({ cb, phase, meta, scenePreset, layout: layoutChoice.layout, styleVariants })
+        : { key: "composite", ...cb };
       slidePlans.push({
-        slide_id: nextSlideId("composite"),
+        slide_id: nextSlideId(key),
         phase_ref: phase.phase_id,
-        layout: "composite",
+        // cb 打底 (spec 可能引用 cb 上的原始字段如 model_start), 装配器字段覆盖同名键
         ...cb,
+        ...fields,
+        layout: "composite",
+        ...(cb.layout_spec ? { layout_spec: cb.layout_spec } : {}),
         title: phase.phase_name,
         ...(layoutChoice.spec ? { layout_spec_name: layoutChoice.spec } : {}),
         notes: guidance
@@ -260,6 +278,7 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
       // 拆分子页 2: 算理升华与算法总结 (变体跟随 points/tree/mindmap)
       const subSumVariant = resolveLayoutVariant("summary_card", {
         presetVariants: scenePreset.variants,
+        styleVariants,
         itemCount: 3
       });
       slidePlans.push({
@@ -281,6 +300,7 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
       const prVariant = resolveLayoutVariant("practice_list", {
         explicitVariant: meta.layout_variants?.practice_list || cb.layout_variant,
         presetVariants: scenePreset.variants,
+        styleVariants,
         itemCount: items.length
       });
       // 题目页 (全常驻)
@@ -397,7 +417,7 @@ export function planSlidesFromLesson(lessonPlan, userPreferences = {}) {
     if (!builder) {
       throw new Error(`[page_planner] 版式映射将 ${cb.type} 指向 ${layoutChoice.layout}, 但该内容块类型没有页面装配器`);
     }
-    const { key, ...fields } = builder({ cb, phase, meta, scenePreset, layout: layoutChoice.layout });
+    const { key, ...fields } = builder({ cb, phase, meta, scenePreset, layout: layoutChoice.layout, styleVariants });
     slidePlans.push({
       slide_id: nextSlideId(key),
       phase_ref: phase.phase_id,

@@ -4,11 +4,7 @@
     "theme": "warm_chinese_bamboo",
     "style": "clean",
     "preset": "standard",
-    "layout_variants": {
-      "objectives_card": "list",
-      "practice_list": "single_column",
-      "summary_card": "points"
-    },
+    "layout_variants": {},
     "skeleton": {
       "lesson_type": "unit_review",
       "lesson_type_name": "单元复习课",
