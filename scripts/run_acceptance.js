@@ -10,7 +10,7 @@
  *   3. 几何体检 0 Critical;
  *   4. 讲稿完备: 除封面/封底外每个内容页 notes 非空;
  *   5. 原生单击分步时序 orderValid 合规;
- *   6. 风格矩阵: 每份金样 x 5 套风格包 (clean/warm/academic/minimal/chalk) 均 0 Critical,
+ *   6. 风格矩阵: 每份金样 x 3 套风格包 (clean/warm/chalk) 均 0 Critical,
  *      防止"新增风格把几何搞崩"却没人发现 (变体必须进验收, 见 STYLE_PACKS)。
  * 用法: node scripts/run_acceptance.js
  * 产出: output/acceptance/<case_id>/ 三件套 与 output/reports/acceptance-report.md

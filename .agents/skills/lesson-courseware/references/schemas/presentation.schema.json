@@ -22,7 +22,7 @@
         "theme": { "type": "string" },
         "style": {
           "type": "string",
-          "enum": ["clean", "warm", "academic", "minimal", "chalk"],
+          "enum": ["clean", "warm", "chalk"],
           "description": "视觉风格包, 缺省 clean; 渲染器也接受 CLI --style 覆盖"
         },
         "preset": {

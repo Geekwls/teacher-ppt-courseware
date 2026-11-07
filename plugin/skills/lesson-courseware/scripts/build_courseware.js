@@ -8,14 +8,14 @@
  *
  * 用法:
  *   node build_courseware.js --input <lesson-plan.json> [--outdir <dir>] [--name <basename>]
- *                            [--style clean|warm|academic|minimal|chalk] [--preset ...]
+ *                            [--style clean|warm|chalk] [--preset ...]
  *                            [--no-skeleton-fill] [--no-strict] [--json] [--help]
  */
 
 import fs from "fs";
 import { runCoursewareBuild, resolveStyle, CoursewareBuildError } from "../lib_js/pipeline/courseware_builder.js";
 
-const USAGE = "用法: node build_courseware.js --input <lesson-plan.json> [--outdir <dir>] [--name <basename>] [--style clean|warm|academic|minimal|chalk] [--preset standard|open_class|review|parent_meeting|new_teacher] [--no-skeleton-fill] [--no-strict] [--json]";
+const USAGE = "用法: node build_courseware.js --input <lesson-plan.json> [--outdir <dir>] [--name <basename>] [--style clean|warm|chalk] [--preset standard|open_class|review|parent_meeting|new_teacher] [--no-skeleton-fill] [--no-strict] [--json]";
 
 function parseArgs() {
   const args = process.argv.slice(2);

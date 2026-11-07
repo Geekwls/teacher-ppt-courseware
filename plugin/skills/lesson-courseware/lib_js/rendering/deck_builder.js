@@ -63,7 +63,7 @@ export async function buildDeck(data, options = {}) {
   // 风格优先级: CLI --style > 契约 deck_meta.style > clean
   const styleName = options.style || meta.style || "clean";
   const t = resolveTheme(themeName, grade, styleName);
-  // "shadow" in card 而非取值判断: minimal 用 null 表示"不写阴影节点",
+  // "shadow" in card 而非取值判断: 个别风格包可能用 null 表示"不写阴影节点"(当前内置包均提供投影, 保留兜底),
   // 若写成 || 会把 null 回落成默认投影, 极简风格就失效了
   const cardShadow = t.card && "shadow" in t.card ? t.card.shadow : DEFAULT_CARD_SHADOW;
 

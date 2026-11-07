@@ -71,7 +71,7 @@ node plugin/skills/lesson-courseware/scripts/build_courseware.js \
 # 5) 自检(单元/契约/快照 + 金样端到端 + 知识库结构审计,退出码 0=通过)
 npm test
 
-# 6) 全量风格矩阵(6 金样 x 5 风格,较慢)
+# 6) 全量风格矩阵(6 金样 x 3 风格,较慢)
 npm run test:matrix
 ```
 

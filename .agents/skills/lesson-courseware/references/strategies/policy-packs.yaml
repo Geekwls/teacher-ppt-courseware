@@ -9,7 +9,7 @@
 #   CLI/显式 userPreferences > lessons[lesson_id] > units[unitKey] > meta 默认
 #
 # 允许键 (白名单, 未知键加载即报错, 防止静默拼错):
-#   style:           风格包 id (clean/warm/academic/minimal/chalk)
+#   style:           风格包 id (clean/warm/chalk)
 #   preset:          场景预设 id (standard/open_class/review/parent_meeting/new_teacher)
 #   layout_variant:  单页型变体偏好 (如 grid / two_column)
 #   layout_variants: 按页型的变体映射, 如 { objectives_card: grid }

@@ -274,55 +274,6 @@ export const STYLE_PACKS = {
     frame: { header: "band", titleMark: "dot", footerRule: "solid" },
     cover: { layout: "center_band" }
   },
-  academic: {
-    id: "academic",
-    label: "学术",
-    summary: "纯白净底、直角细线、标题下压重线, 适合高段与复习课",
-    colors: {
-      bgTint: "FFFFFF",
-      panel: "FFFFFF",
-      chip: "F1F5F9",
-      border: "CBD5E1",
-      muted: "475569"
-    },
-    type: { title: 0.96, body: 0.97, cover: 0.98 },
-    card: {
-      radius: 0.02,
-      borderWidth: 1.4,
-      shadow: { type: "outer", color: "94A3B8", blur: 3, offset: 1, angle: 90, opacity: 0.16 }
-    },
-    frame: { header: "rule", titleMark: "underline", footerRule: "solid" },
-    cover: { layout: "left_split" }
-  },
-  minimal: {
-    id: "minimal",
-    label: "极简",
-    summary: "黑白灰、无圆角无投影, 一页一观点, 家长会与汇报首选",
-    colors: {
-      primary: "111827",
-      primaryDark: "030712",
-      accent: "6B7280",
-      bgTint: "FFFFFF",
-      panel: "FFFFFF",
-      chip: "F9FAFB",
-      border: "E5E7EB",
-      ink: "111827",
-      muted: "6B7280",
-      good: "047857",
-      bad: "B91C1C"
-    },
-    type: { title: 0.98, body: 1.0, cover: 1.0 },
-    card: {
-      radius: 0.0,
-      borderWidth: 0.75,
-      // 极简要求"无投影": 用 null 让 PptxGenJS 完全不写 effectLst。
-      // 曾尝试 opacity:0 + blur:0, 结果 pptxgenjs 把 0 参与除法, 写出
-      // blurRad=1.29e9 的畸形阴影, LibreOffice 渲染成描边发黑的假边框。
-      shadow: null
-    },
-    frame: { header: "hairline", titleMark: "none", footerRule: "none" },
-    cover: { layout: "minimal" }
-  },
   chalk: {
     id: "chalk",
     label: "板书手账",
@@ -358,9 +309,6 @@ const STYLE_ALIASES = {
   fresh: "clean",
   innovative: "warm",
   warm_sun: "warm",
-  serious: "academic",
-  mono: "minimal",
-  black_white: "minimal",
   blackboard: "chalk",
   handbook: "chalk"
 };

@@ -145,7 +145,7 @@ npm test                              # 单元+契约+快照 + 金样端到端 +
 # 只跑其中一类:
 npm run test:unit                     # node:test 单元 + 双 AST 契约 + AST 快照
 npm run test:acceptance               # 金样端到端, 报告写入 output/reports/
-npm run test:matrix                   # 6 金样 x 5 套风格包 (30 套, 断言 0 Critical)
+npm run test:matrix                   # 6 金样 x 3 套风格包 (18 套, 断言 0 Critical)
 
 node plugin/skills/lesson-courseware/scripts/build_courseware.js \
     --input <lesson_plan.json> --outdir <输出目录> --strict [--style warm] [--no-skeleton-fill] [--json]
@@ -155,7 +155,7 @@ node plugin/skills/lesson-courseware/scripts/build_courseware.js \
 **几何审计 0 critical**、**内容页讲稿完备**、**分步时序 orderValid**;
 并对金样 LessonPlan / Presentation AST 做 JSON Schema 契约校验、对规划产物做结构快照回归、
 对知识库做「核心 YAML 可解析 + point_id 全局唯一」结构审计。
-风格矩阵单独用 `npm run test:matrix` 跑(每份金样 x 5 套风格包),
+风格矩阵单独用 `npm run test:matrix` 跑(每份金样 x 3 套风格包),
 确认换肤不会把任何一页撑破。报告在 `output/reports/acceptance-report.md`。
 
 ### 课型骨架
@@ -176,18 +176,16 @@ node plugin/skills/lesson-courseware/scripts/build_courseware.js \
 
 ### 风格包
 
-课件长相由 `--style`(或教学设计里的 `meta.style`)决定,共 5 套:
+课件长相由 `--style`(或教学设计里的 `meta.style`)决定,共 3 套:
 
 | 风格包 | 名称 | 特征 | 建议场景 |
 |---|---|---|---|
 | `clean` | 清爽白 | 白底细描边、顶部主色条、圆角轻投影 | 默认、日常课 |
 | `warm` | 暖阳 | 米杏底、左侧强调色带、大圆角、暖橙点睛 | 低中段、公开课 |
-| `academic` | 学术 | 纯白净底、直角细线、标题下压重线、封面左文右栏 | 高段、复习课 |
-| `minimal` | 极简 | 黑白灰、无圆角无投影、上下发丝线 | 家长会、汇报 |
 | `chalk` | 板书手账 | 米黄纸底、墨绿书脊、虚线页脚与下划线标题 | 板书型课、听课记录 |
 
 风格包只改配色、圆角、页眉装饰、封面构图与字号节奏,**不动任何卡槽坐标**,
-所以 5 套风格共用同一套几何门禁与验收矩阵。
+所以 3 套风格共用同一套几何门禁与验收矩阵。
 
 > 单元测试覆盖契约校验、教学门禁(数域/禁区/算式真值)、文本度量与折行、
 > 几何审计、放映分步、风格包 token 与对比度;渲染规则变更请同步补单测与金样。

@@ -46,7 +46,7 @@ export const SCENE_PRESETS = {
     id: "review",
     name: "复习课",
     desc: "期中/期末/单元复习，两栏题组与知识网络，高密度表格化排版",
-    default_style: "academic",
+    default_style: "clean",
     density: "compact",
     speech_detail: "diagnostic",
     default_variants: {
@@ -61,7 +61,7 @@ export const SCENE_PRESETS = {
     id: "parent_meeting",
     name: "家长会",
     desc: "汇报展示与家校沟通，结论先行、一页一观点、少字多图",
-    default_style: "minimal",
+    default_style: "clean",
     density: "minimal",
     speech_detail: "speech",
     default_variants: {
@@ -76,7 +76,7 @@ export const SCENE_PRESETS = {
     id: "new_teacher",
     name: "新教师备课",
     desc: "初入职/实习教师备课，全环节严谨闭环，讲稿逐句写出台词、发问、应答与过渡",
-    default_style: "academic",
+    default_style: "clean",
     density: "standard",
     speech_detail: "verbatim",
     default_variants: {
