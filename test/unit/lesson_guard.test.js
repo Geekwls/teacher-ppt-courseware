@@ -18,7 +18,7 @@ import path from "path";
 import { validateLessonPlan, isScopeExcludedHit } from "../../plugin/skills/lesson-courseware/lib_js/lesson/lesson_validator.js";
 import { extractGuidanceText, formatTeacherGuidance } from "../../plugin/skills/lesson-courseware/lib_js/lesson/guidance_formatter.js";
 
-const GOLDEN_PATH = path.join(process.cwd(), "acceptance", "lesson_plans", "math_g3_t1_u04_lesson_plan.json");
+const GOLDEN_PATH = path.join(process.cwd(), "acceptance", "lesson_plans", "math", "math_g3_t1_u04_lesson_plan.json");
 const goldenSample = JSON.parse(fs.readFileSync(GOLDEN_PATH, "utf-8"));
 
 function cloneGolden() {

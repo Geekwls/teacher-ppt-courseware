@@ -15,6 +15,26 @@
 3. `plugin/skills/lesson-courseware/lib_js/lesson/lesson_validator.js` — 教学设计门禁(知识点归属/数域递归全字段扫描/算式真值/教学禁区词界防误杀,一票否决) + `lib_js/presentation/` 表现规划与门禁(Layout Registry 为版式唯一事实源)
 4. `plugin/skills/lesson-courseware/scripts/build_courseware.js` + `lib_js/pipeline/courseware_builder.js` + `lib_js/rendering/` — 一键流水线:教学门禁 → 课型骨架诊断/补齐(`lib_js/strategies/lesson_skeleton.js`) → 容量规划(含算理超载拆页与初中长文本智能拆页) → 表现门禁 → PptxGenJS 确定性渲染(按版式拆分的 renderers) → 原生动效注入 → `layout_audit.js` 几何体检(--strict 一票否决)
 
+## 仓库导览(什么放哪里)
+
+```
+plugin/knowledge/            教材知识库 SSOT(只读事实源, 158 单元 × 五件套 YAML)
+plugin/skills/lesson-courseware/   生成引擎正本: SKILL.md + references(契约/策略/版式) + scripts(CLI) + lib_js(分层引擎)
+content/lesson_plans/        教学设计源(内容资产, 按学科分域, 准入与命名规范见其 README)
+acceptance/lesson_plans/     回归金样(只读测试夹具, 按学科分域, 晋级纪律见其 README)
+test/{unit,contract,snapshots}/    单测 + 可执行契约 + 金样 AST 快照
+evals/                       LLM-as-judge 评测协议(P/R/O/M rubric)
+scripts/                     仓库工具: 验收 / 知识库审计 / 技能同步 / 快照生成
+output/                      运行产物(gitignore, 可随时删除重建)
+```
+
+一个课时的一生: `query_curriculum 取材` → `content/lesson_plans/<学科>/ 创作/迭代`
+→ `build_courseware --strict` → `output/<lesson_id>/ 三件套`; 只有被确认为"必须永远
+生成正确"的形态才晋级进 `acceptance/`(并补 AST 快照)。
+
+教学设计文件命名(与 lesson_id 一一对应):
+`{subject}_g{年级}_t{册1|2}_u{单元02d}_l{课时02d}[_slug]_lesson_plan.json`。
+
 ## 硬性纪律(违反即返工)
 
 1. **先取材后创作**:写教学设计前必须运行 `query_curriculum.js`,内容只能引用其返回的 point_id;

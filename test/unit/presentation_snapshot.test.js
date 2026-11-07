@@ -12,6 +12,7 @@ import assert from "node:assert/strict";
 import fs from "fs";
 import path from "path";
 import { buildSnapshot } from "../../scripts/lib/presentation_snapshot.js";
+import { findGoldenLessonPlan } from "../../scripts/lib/golden_lessons.js";
 
 const ROOT = process.cwd();
 const GOLDEN_DIR = path.join(ROOT, "acceptance", "lesson_plans");
@@ -26,9 +27,9 @@ test("表现 AST 快照: 金样结构、元素与讲稿必须与基线一致", (
   assert.ok(cases.length > 0, "至少需要 1 份快照");
 
   for (const caseId of cases) {
-    const lessonPlan = JSON.parse(
-      fs.readFileSync(path.join(GOLDEN_DIR, `${caseId}.json`), "utf-8")
-    );
+    const goldenPath = findGoldenLessonPlan(GOLDEN_DIR, caseId);
+    assert.ok(goldenPath, `[${caseId}] 在 ${GOLDEN_DIR} 下找不到对应金样教学设计`);
+    const lessonPlan = JSON.parse(fs.readFileSync(goldenPath, "utf-8"));
     const expected = JSON.parse(
       fs.readFileSync(path.join(SNAPSHOT_DIR, `${caseId}.json`), "utf-8")
     );

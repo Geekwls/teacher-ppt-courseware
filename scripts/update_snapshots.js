@@ -14,6 +14,7 @@
 import fs from "fs";
 import path from "path";
 import { buildSnapshot } from "./lib/presentation_snapshot.js";
+import { listGoldenLessonPlans } from "./lib/golden_lessons.js";
 
 const ROOT = process.cwd();
 const GOLDEN_DIR = path.join(ROOT, "acceptance", "lesson_plans");
@@ -26,10 +27,10 @@ function main() {
   }
   fs.mkdirSync(SNAPSHOT_DIR, { recursive: true });
 
-  const files = fs.readdirSync(GOLDEN_DIR).filter(f => f.endsWith(".json")).sort();
-  for (const file of files) {
-    const caseId = file.replace(/\.json$/, "");
-    const lessonPlan = JSON.parse(fs.readFileSync(path.join(GOLDEN_DIR, file), "utf-8"));
+  const files = listGoldenLessonPlans(GOLDEN_DIR);
+  for (const filePath of files) {
+    const caseId = path.basename(filePath).replace(/\.json$/, "");
+    const lessonPlan = JSON.parse(fs.readFileSync(filePath, "utf-8"));
     const snapshot = buildSnapshot(lessonPlan);
     const outPath = path.join(SNAPSHOT_DIR, `${caseId}.json`);
     fs.writeFileSync(outPath, `${JSON.stringify(snapshot, null, 2)}\n`, "utf-8");

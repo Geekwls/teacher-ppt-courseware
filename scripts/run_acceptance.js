@@ -20,6 +20,7 @@
 import fs from "fs";
 import path from "path";
 import { execFileSync } from "child_process";
+import { listGoldenLessonPlans } from "./lib/golden_lessons.js";
 import { STYLE_PACK_IDS } from "../plugin/skills/lesson-courseware/lib_js/theme.js";
 
 const ROOT = process.cwd();
@@ -33,13 +34,11 @@ const BUILD_SCRIPT = path.join(
 const CONTENT_PAGE_SKIP_NOTES = new Set(["title_cover", "end_cover"]);
 
 function listGoldenCases() {
-  if (!fs.existsSync(GOLDEN_DIR)) return [];
-  return fs.readdirSync(GOLDEN_DIR)
-    .filter(f => f.endsWith(".json"))
-    .sort()
-    .map(f => {
-      const filePath = path.join(GOLDEN_DIR, f);
+  // 金样按学科分域 (math/ chinese/ english/), 递归枚举; caseId 取文件名保证唯一
+  return listGoldenLessonPlans(GOLDEN_DIR)
+    .map(filePath => {
       const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      const f = path.basename(filePath);
       return {
         case_id: f.replace(/\.json$/, ""),
         file: f,
@@ -48,7 +47,8 @@ function listGoldenCases() {
         grade: data.meta?.grade || "?",
         title: data.meta?.topic || data.meta?.title || f
       };
-    });
+    })
+    .sort((a, b) => a.case_id.localeCompare(b.case_id));
 }
 
 function runCase(caseItem) {

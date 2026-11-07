@@ -9,7 +9,8 @@
     "topic": "整十、整百数乘一位数的口算",
     "lesson_type": "concept_learning",
     "source_point_id": "math-g3-t1-u04-p01",
-    "duration_minutes": 40
+    "duration_minutes": 40,
+    "style": "warm"
   },
   "objectives": [
     {
@@ -49,9 +50,21 @@
           "end": 60,
           "step": 20,
           "arcs": [
-            { "from": 0, "to": 20, "label": "+20" },
-            { "from": 20, "to": 40, "label": "+20" },
-            { "from": 40, "to": 60, "label": "+20" }
+            {
+              "from": 0,
+              "to": 20,
+              "label": "+20"
+            },
+            {
+              "from": 20,
+              "to": 40,
+              "label": "+20"
+            },
+            {
+              "from": 40,
+              "to": 60,
+              "label": "+20"
+            }
           ]
         },
         "reasoning_steps": [

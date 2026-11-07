@@ -19,6 +19,7 @@ import Ajv2020 from "ajv/dist/2020.js";
 import { planPresentationFromLesson } from "../../plugin/skills/lesson-courseware/lib_js/presentation/lesson_to_presentation.js";
 import { LAYOUT_IDS, ELEMENT_TYPES } from "../../plugin/skills/lesson-courseware/lib_js/presentation/layout_registry.js";
 import { RENDER_LAYOUT_IDS } from "../../plugin/skills/lesson-courseware/lib_js/rendering/renderers/index.js";
+import { listGoldenLessonPlans } from "../../scripts/lib/golden_lessons.js";
 
 const ROOT = process.cwd();
 const GOLDEN_DIR = path.join(ROOT, "acceptance", "lesson_plans");
@@ -39,29 +40,28 @@ function formatErrors(errors) {
     .join("\n");
 }
 
-const goldenFiles = fs.readdirSync(GOLDEN_DIR)
-  .filter(f => f.endsWith(".json"))
-  .sort();
+const goldenFiles = listGoldenLessonPlans(GOLDEN_DIR)
+  .sort((a, b) => a.localeCompare(b));
 
 test("LessonPlan 契约: 全部金样必须通过 lesson-plan.schema.json", () => {
   const validate = ajv.compile(loadSchema("lesson-plan.schema.json"));
   assert.ok(goldenFiles.length > 0, "至少需要 1 份金样教学设计");
 
-  for (const file of goldenFiles) {
-    const data = JSON.parse(fs.readFileSync(path.join(GOLDEN_DIR, file), "utf-8"));
+  for (const filePath of goldenFiles) {
+    const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
     const valid = validate(data);
-    assert.equal(valid, true, `[${file}] 违反 LessonPlan 契约:\n${formatErrors(validate.errors)}`);
+    assert.equal(valid, true, `[${path.basename(filePath)}] 违反 LessonPlan 契约:\n${formatErrors(validate.errors)}`);
   }
 });
 
 test("Presentation 契约: 规划产物必须通过 presentation.schema.json", () => {
   const validate = ajv.compile(loadSchema("presentation.schema.json"));
 
-  for (const file of goldenFiles) {
-    const lessonPlan = JSON.parse(fs.readFileSync(path.join(GOLDEN_DIR, file), "utf-8"));
+  for (const filePath of goldenFiles) {
+    const lessonPlan = JSON.parse(fs.readFileSync(filePath, "utf-8"));
     const presentation = planPresentationFromLesson(lessonPlan, {});
     const valid = validate(presentation);
-    assert.equal(valid, true, `[${file}] 违反 Presentation 契约:\n${formatErrors(validate.errors)}`);
+    assert.equal(valid, true, `[${path.basename(filePath)}] 违反 Presentation 契约:\n${formatErrors(validate.errors)}`);
   }
 });
 
