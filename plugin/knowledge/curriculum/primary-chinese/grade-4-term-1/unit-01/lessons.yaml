@@ -7,6 +7,145 @@ lessons:
   lesson_number: 1
   lesson_name: 1 观潮
   page_range: P2-P4
+  core_writing_chars:
+  - 潮
+  - 据
+  - 堤
+  - 阔
+  - 盼
+  - 滚
+  - 顿
+  - 逐
+  - 渐
+  - 堵
+  - 犹
+  - 崩
+  - 震
+  - 霎
+  - 余
+  core_writing_details:
+  - char: 潮
+    pinyin: cháo
+    structure: 左右结构（左窄右宽）
+    radical: 氵
+  - char: 据
+    pinyin: jù
+    structure: 左右结构
+    radical: 扌
+  - char: 堤
+    pinyin: dī
+    structure: 左右结构（左窄右宽，右部是“是”）
+    radical: 土
+  - char: 阔
+    pinyin: kuò
+    structure: 半包围结构（门字框内是“活”）
+    radical: 门
+  - char: 盼
+    pinyin: pàn
+    structure: 左右结构（目字旁）
+    radical: 目
+  - char: 滚
+    pinyin: gǔn
+    structure: 左右结构（右边中间是“公”，下边不是“衣”）
+    radical: 氵
+  - char: 顿
+    pinyin: dùn
+    structure: 左右结构（页字旁）
+    radical: 页
+  - char: 逐
+    pinyin: zhú
+    structure: 半包围结构（先内后外）
+    radical: 辶
+  - char: 渐
+    pinyin: jiàn
+    structure: 左中右结构
+    radical: 氵
+  - char: 堵
+    pinyin: dǔ
+    structure: 左右结构（左窄右宽）
+    radical: 土
+  - char: 犹
+    pinyin: yóu
+    structure: 左右结构（反犬旁）
+    radical: 犭
+  - char: 崩
+    pinyin: bēng
+    structure: 上下结构（山字头，下边是“朋”）
+    radical: 山
+  - char: 震
+    pinyin: zhèn
+    structure: 上下结构（雨字头，下边是“辰”）
+    radical: 雨
+  - char: 霎
+    pinyin: shà
+    structure: 上下结构（雨字头，下边是“妾”）
+    radical: 雨
+  - char: 余
+    pinyin: yú
+    structure: 上中下结构
+    radical: 人
+  recognize_chars:
+  - char: 盐
+    pinyin: yán
+  - char: 屹
+    pinyin: yì
+  - char: 昂
+    pinyin: áng
+  - char: 顿
+    pinyin: dùn
+  - char: 鼎
+    pinyin: dǐng
+  - char: 沸
+    pinyin: fèi
+  - char: 贯
+    pinyin: guàn
+  - char: 浩
+    pinyin: hào
+  - char: 崩
+    pinyin: bēng
+  - char: 震
+    pinyin: zhèn
+  - char: 霎
+    pinyin: shà
+  - char: 余
+    pinyin: yú
+  polyphone_chars:
+  - char: 闷
+    pronunciations:
+    - pinyin: mèn
+      phrase: 闷雷滚动
+    - pinyin: mēn
+      phrase: 闷热
+  - char: 号
+    pronunciations:
+    - pinyin: háo
+      phrase: 风号浪吼
+    - pinyin: hào
+      phrase: 号角
+  - char: 称
+    pronunciations:
+    - pinyin: chēng
+      phrase: 被称为
+    - pinyin: chèn
+      phrase: 称心
+  core_vocab_words:
+  - 奇观
+  - 农历
+  - 据说
+  - 宽阔
+  - 人山人海
+  - 滚动
+  - 顿时
+  - 逐渐
+  - 犹如
+  - 齐头并进
+  - 山崩地裂
+  - 霎时
+  - 余波
+  vocab_provenance:
+    source_id: pep_chinese_g4_t1_2024
+    page_ref: ["P2", "P3", "P4"]
+    note: "会写字/会认字/多音字/词语表依据统编版语文四年级上册《观潮》课后识字表与课文（本单元 verified 证据链 pep_chinese_g4_t1_2024，P2-P4）；2026-11-07 补录，用于课件字词环节，拼音与部首结构已逐字核对。"
   official_examples:
   - 钱塘江大潮，自古以来被称为天下奇观。
   - 课文按照「潮来前—潮来时—潮头过后」的顺序描写钱塘江大潮。潮来时：那条白线很快地向我们移来，逐渐拉长，变粗，横贯江面……犹如千万匹白色战马齐头并进，浩浩荡荡地飞奔而来；那声音如同山崩地裂。
