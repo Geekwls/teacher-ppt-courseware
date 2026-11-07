@@ -150,6 +150,7 @@ export function renderPracticeList(slide, pptx, t, s, cardShadow, fontFamily) {
         bold: true,
         color: t.ink,
         valign: "middle",
+        lineSpacingMultiple: 1.15,
         fontFace: fontFamily
       });
     });
@@ -229,14 +230,37 @@ export function renderPracticeList(slide, pptx, t, s, cardShadow, fontFamily) {
         bold: true,
         color: t.ink,
         valign: "middle",
+        lineSpacingMultiple: 1.15,
         fontFace: fontFamily
       });
     });
     return;
   }
 
-  // 默认 single_column: 经典单列大题卡
-  const slots = makeListSlots(INSET_CONTENT_BOUNDS, { count: qs.length, maxItemH: 1.05, gap: 0.25 });
+  // 默认 single_column: 经典单列大题卡。
+  // 缺陷修复: 旧版对每卡一刀切 maxItemH 1.05in, 是按"一行题干"的口算短题设计的;
+  // 选择题"题干+A/B/C 选项"可达 4~5 行, 压到 14pt 仍装不下, 行距被挤到近乎叠行。
+  // 现按内容行数加权分配卡高 (与 timed_challenge 同构), 短题保底, 长题多占, 并给显式行距。
+  const gap = 0.25;
+  const totalH = INSET_CONTENT_BOUNDS.h - gap * Math.max(0, qs.length - 1);
+  const usableW = INSET_CONTENT_BOUNDS.w - 1.2;
+  const baseSize = Math.min(t.fontSize.body, 18);
+  const weights = qs.map(q => Math.max(1, estimateLines(String(q ?? ""), usableW, baseSize)));
+  const minH = 0.9;
+  let heights;
+  if (totalH >= minH * qs.length) {
+    const extra = totalH - minH * qs.length;
+    const wsum = weights.reduce((acc, w) => acc + (w - 1), 0);
+    heights = weights.map(w => minH + (wsum > 0 ? (extra * (w - 1)) / wsum : extra / qs.length));
+  } else {
+    heights = weights.map(() => totalH / qs.length);
+  }
+  let cy = INSET_CONTENT_BOUNDS.y;
+  const slots = qs.map((_, i) => {
+    const slot = { x: INSET_CONTENT_BOUNDS.x, y: cy, w: INSET_CONTENT_BOUNDS.w, h: heights[i] };
+    cy += heights[i] + gap;
+    return slot;
+  });
   qs.forEach((qText, idx) => {
     const slot = slots[idx];
     if (!slot) return;
@@ -246,13 +270,14 @@ export function renderPracticeList(slide, pptx, t, s, cardShadow, fontFamily) {
       line: { color: t.border, width: 1.2 },
       shadow: { ...cardShadow }
     });
-    const fitted = fitTextLayout(qText, slot.w - 0.6, slot.h - 0.2, Math.min(t.fontSize.body, 18));
+    const fitted = fitTextLayout(qText, slot.w - 0.6, slot.h - 0.2, baseSize);
     slide.addText(fitted.text, {
       x: slot.x + 0.3, y: slot.y + 0.1, w: slot.w - 0.6, h: slot.h - 0.2,
       fontSize: fitted.size,
       bold: true,
       color: t.ink,
       valign: "middle",
+      lineSpacingMultiple: 1.15,
       fontFace: fontFamily
     });
   });
