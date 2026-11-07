@@ -75,6 +75,16 @@
           "maximum": 20,
           "description": "课时序号：同一课文分多课时施教时标注第几课时，封面副标题显示「第N课时」；缺省时单课时课件不标注"
         },
+        "school": {
+          "type": "string",
+          "maxLength": 40,
+          "description": "学校名称（可选），封面副标题展示；公开课场景使用"
+        },
+        "teacher": {
+          "type": "string",
+          "maxLength": 30,
+          "description": "执教教师姓名（可选），封面副标题显示「执教：某某」"
+        },
         "style": {
           "type": "string",
           "enum": ["clean", "warm", "academic", "minimal", "chalk"],

@@ -558,6 +558,7 @@ export function renderComparisonTable(slide, pptx, t, s, cardShadow, fontFamily)
   const summaryTip = bannerElem?.properties?.text || tblElem.summary_tip;
 
   const colCount = headers.length;
+  const isContrastMisconception = colCount === 3 && headers.some(h => /误|错|对照/i.test(h));
   const gap = 0.15;
   const totalGap = (colCount - 1) * gap;
   const colW = (INSET_CONTENT_BOUNDS.w - totalGap) / colCount;
@@ -567,9 +568,12 @@ export function renderComparisonTable(slide, pptx, t, s, cardShadow, fontFamily)
   const headerH = 0.7;
   headers.forEach((hText, cIdx) => {
     const cx = INSET_CONTENT_BOUNDS.x + cIdx * (colW + gap);
+    const headerFill = isContrastMisconception
+      ? (cIdx === 1 ? "DC2626" : (cIdx === 2 ? "059669" : t.primary))
+      : t.primary;
     slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
       x: cx, y: headerY, w: colW, h: headerH,
-      fill: { color: cIdx === 1 ? "DC2626" : (cIdx === 2 ? "059669" : t.primary) },
+      fill: { color: headerFill },
       line: { color: t.border, width: 0 },
       shadow: { ...cardShadow }
     });
@@ -593,17 +597,19 @@ export function renderComparisonTable(slide, pptx, t, s, cardShadow, fontFamily)
     const ry = headerY + headerH + 0.15 + rIdx * (rowH + 0.15);
     (Array.isArray(row) ? row : []).slice(0, colCount).forEach((cellText, cIdx) => {
       const cx = INSET_CONTENT_BOUNDS.x + cIdx * (colW + gap);
-      const isWrongCol = cIdx === 1;
-      const isRightCol = cIdx === 2;
+      const isWrongCol = isContrastMisconception && cIdx === 1;
+      const isRightCol = isContrastMisconception && cIdx === 2;
+      const cellFill = isWrongCol ? "FEF2F2" : (isRightCol ? "ECFDF5" : (rIdx % 2 === 0 ? "FFFFFF" : (t.panel || "#F8FAFC")));
+      const cellBorder = isWrongCol ? "EF4444" : (isRightCol ? "10B981" : t.border);
+      const textColor = isWrongCol ? "991B1B" : (isRightCol ? "065F46" : t.ink);
 
       slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
         x: cx, y: ry, w: colW, h: rowH,
-        fill: { color: isWrongCol ? "FEF2F2" : (isRightCol ? "ECFDF5" : t.panel) },
-        line: { color: isWrongCol ? "EF4444" : (isRightCol ? "10B981" : t.border), width: 1.2 },
+        fill: { color: cellFill },
+        line: { color: cellBorder, width: 1.2 },
         shadow: { ...cardShadow }
       });
 
-      const textColor = isWrongCol ? "991B1B" : (isRightCol ? "065F46" : t.ink);
       const fitted = fitTextLayout(String(cellText || ""), colW - 0.4, rowH - 0.2, t.fontSize.body - 1);
       slide.addText(fitted.text, {
         x: cx + 0.2, y: ry + 0.1, w: colW - 0.4, h: rowH - 0.2,
@@ -626,7 +632,8 @@ export function renderComparisonTable(slide, pptx, t, s, cardShadow, fontFamily)
       line: { color: "F59E0B", width: 1.5 },
       shadow: { ...cardShadow }
     });
-    slide.addText(`★ 对比启示：${summaryTip}`, {
+    const tipText = summaryTip.startsWith("★") ? summaryTip : `★ 对比启示：${summaryTip}`;
+    slide.addText(tipText, {
       x: INSET_CONTENT_BOUNDS.x + 0.3, y: tipY + 0.1, w: INSET_CONTENT_BOUNDS.w - 0.6, h: tipH - 0.2,
       fontSize: t.fontSize.body,
       bold: true,

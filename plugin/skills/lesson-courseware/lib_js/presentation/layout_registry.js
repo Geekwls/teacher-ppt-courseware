@@ -72,6 +72,7 @@ export const ELEMENT_TYPES = [
   "figure_number_line",
   "figure_tianzige",
   "figure_animation",
+  "figure_image",
   "card_list",
   "conclusion_banner",
   "practice_list",

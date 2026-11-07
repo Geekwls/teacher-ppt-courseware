@@ -92,3 +92,19 @@ specs:
         type: card_list
         properties:
           items: "$plan:right_items"
+
+  # 左插图右文本: 课文插图/情境大图 + 核心要点或设问
+  media_and_text:
+    description: 两栏(左插图+右文本卡)
+    grid: { cols: 2, gapX: 0.3, gapY: 0.25 }
+    zones:
+      - id: illustration
+        type: figure_image
+        properties:
+          path: "$plan:image_path"
+          alt: "$plan:image_alt"
+      - id: content
+        type: text_card
+        properties:
+          title: "$plan:context_title"
+          body: "$plan:context_body"

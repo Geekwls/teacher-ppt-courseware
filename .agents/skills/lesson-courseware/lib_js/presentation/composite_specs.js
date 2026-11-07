@@ -28,7 +28,8 @@ export const COMPOSITE_ELEMENT_TYPES = [
   "conclusion_banner",
   "figure_number_line",
   "figure_tianzige",
-  "figure_animation"
+  "figure_animation",
+  "figure_image"
 ];
 
 /** 与 presentation/layout_registry.js 的 ACTIONS 保持一致 (避免循环导入, 契约测试守护同构) */

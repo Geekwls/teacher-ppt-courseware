@@ -74,7 +74,8 @@ function paintZone(slide, ctx, elem, box) {
 
     case "figure_number_line":
     case "figure_tianzige":
-    case "figure_animation": {
+    case "figure_animation":
+    case "figure_image": {
       slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
         x: box.x, y: box.y, w: box.w, h: box.h,
         fill: { color: t.panel },
@@ -83,6 +84,8 @@ function paintZone(slide, ctx, elem, box) {
       });
       if (elem.type === "figure_number_line") {
         renderNumberLine(slide, pptx, { ...props, id: elem.id }, inner, t);
+      } else if (elem.type === "figure_image") {
+        renderFigure(slide, pptx, { kind: "image", ...props }, inner, t);
       } else {
         const kind = elem.type === "figure_tianzige" ? "tianzige" : "animation";
         renderFigure(slide, pptx, { kind, ...props }, inner, t);

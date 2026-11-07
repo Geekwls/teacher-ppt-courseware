@@ -16,7 +16,11 @@ export const PLAN_BUILDERS = {
     title: phase.phase_name,
     context_title: "【情境呈现】",
     context_body: `${cb.scenario || ""} ${cb.question || ""}`,
-    equation: cb.equation || cb.core_expression || ""
+    equation: cb.equation || cb.core_expression || "",
+    // 配图位 (B3): 仅当教学设计显式声明时透传, 避免无图课件被塞入占位元素
+    ...(cb.image_path || cb.image || cb.image_alt
+      ? { image_path: cb.image_path || cb.image || "", image_alt: cb.image_alt || phase.phase_name }
+      : {})
   }),
 
   vocabulary_focus: ({ cb, phase }) => {
@@ -50,7 +54,9 @@ export const PLAN_BUILDERS = {
     context_body: cb.paragraph_excerpt || "",
     reading_guide: cb.reading_guide || null,
     questions: cb.focus_questions || [],
-    conclusion_text: cb.key_phrase || ""
+    conclusion_text: cb.key_phrase || "",
+    image_path: cb.image_path || cb.image || "",
+    image_alt: cb.image_alt || phase.phase_name
   }),
 
   mathematical_reasoning: ({ cb, phase }) => {
