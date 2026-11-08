@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "math-g4-t1-u01-l06",
+  "meta": {
+    "subject": "math",
+    "grade": 4,
+    "term": "term-1",
+    "unit": 1,
+    "topic": "练习二：亿以上数的读写与组成",
+    "class_period": 6,
+    "lesson_type": "practice_consolidation",
+    "source_point_id": "math-g4-t1-u01-p04",
+    "style": "clean",
+    "duration_minutes": 40
+  },
+  "objectives": [
+    {
+      "id": "OBJ_01",
+      "type": "cognitive",
+      "statement": "能准确说出任意位数的最高位是什么位，熟练判断数的位数",
+      "assessment": "能回答五位数、九位数、十二位数的最高位问题"
+    },
+    {
+      "id": "OBJ_02",
+      "type": "cognitive",
+      "statement": "能按级分解亿以上的数，说明数的组成，并正确读写",
+      "assessment": "能说出 6154000000 由 61 个亿和 5400 个万组成，并正确读写相关数"
+    }
+  ],
+  "teaching_sequence": [
+    {
+      "phase_id": "phase_01_recall",
+      "phase_name": "复习唤醒",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "contextual_problem",
+        "scenario": "上节课我们把数位顺序表扩展到了千亿位。这节课练习二，专门检验亿以上数的读写与组成。",
+        "question": "一个五位数，它的最高位是什么位？一个九位数呢？一个十二位数呢？",
+        "core_expression": "关键词：看位数，定最高位"
+      },
+      "student_action": "借助数位顺序表回答三个位数问题",
+      "teacher_guidance": {
+        "timing": "3分钟",
+        "say": "位数和最高位是对应的，先数数位再定最高位。",
+        "ask": "九位数从右边数到第九位是哪一位？十二位数呢？",
+        "expected_answer": "预设：九位数最高位是亿位，十二位数最高位是千亿位。理答：让学生在数位顺序表上指认，强调数位数到哪、最高位就在哪。",
+        "transition": "这个本领马上要用到第一组练习里。"
+      }
+    },
+    {
+      "phase_id": "phase_02_basic_practice",
+      "phase_name": "基础练习：位数与最高位",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "type": "fill_blank",
+            "stem": "一个五位数，它的最高位是（　　）位；一个九位数，最高位是（　　）位；一个十二位数，最高位是（　　）位。",
+            "answer": "万；亿；千亿",
+            "explanation": "第五位是万位，第九位是亿位，第十二位是千亿位——在数位顺序表上指认即得。"
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "stem": "「一个数的最高位是百亿位」，这个数是（　　）位数。",
+            "options": ["A. 十位", "B. 十一位", "C. 十二位"],
+            "answer": "B",
+            "explanation": "亿位是第九位，往左依次是十亿位（第十位）、百亿位（第十一位），所以最高位是百亿位的数共十一位。"
+          },
+          {
+            "id": "q3",
+            "type": "fill_blank",
+            "stem": "最小的九位数是（　　），最大的九位数是（　　）。",
+            "answer": "100000000；999999999",
+            "explanation": "九位数最高位是亿位：最高位最小取 1 得 100000000，每位都取最大 9 得 999999999。"
+          }
+        ]
+      },
+      "student_action": "独立完成三题，在数位顺序表上指认验证",
+      "teacher_guidance": {
+        "timing": "10分钟",
+        "say": "先数位数，再定最高位；反过来给最高位也能定位数。",
+        "ask": "第 3 题最小和最大的九位数是怎么取出来的？",
+        "expected_answer": "预设：最小让最高位取 1 其余取 0，最大每位都取 9。理答：强调最高位不能为 0——这是位数判断的前提。",
+        "transition": "位数过关，接下来练亿以上数的组成与读写。"
+      }
+    },
+    {
+      "phase_id": "phase_03_variant_practice",
+      "phase_name": "变式练习：组成与读写",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "type": "fill_blank",
+            "stem": "6154000000 是（　　）个亿和（　　）个万。",
+            "answer": "61；5400",
+            "explanation": "分级 61｜5400｜0000：亿级 61 表示 61 个亿，万级 5400 表示 5400 个万。"
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "stem": "「六十一亿五千四百万」的正确写法是（　　）。",
+            "options": ["A. 6154000000", "B. 61540000000", "C. 615400000"],
+            "answer": "A",
+            "explanation": "分级 61｜5400｜0000，共十位；B 十一位、C 九位，位数都不对。"
+          },
+          {
+            "id": "q3",
+            "type": "fill_blank",
+            "stem": "读出下面各数：6154000000 读作＿＿＿＿；20500000000 读作＿＿＿＿。",
+            "answer": "六十一亿五千四百万；二百零五亿",
+            "explanation": "分级 61｜5400｜0000 与 205｜0000｜0000，从最高级读起，读完亿级加「亿」字。"
+          }
+        ]
+      },
+      "student_action": "独立完成三题，每题先画分级线再作答",
+      "teacher_guidance": {
+        "timing": "15分钟",
+        "say": "变式三题：组成、写数、读数各一道，先分级。",
+        "ask": "6154000000 的亿级为什么是 61 而不是 615？",
+        "expected_answer": "预设：分级从右起每四位一级，61｜5400｜0000，亿级只有 61。理答：请分级分错的学生重新从右起每四位画线，强调方向。",
+        "transition": "亿以上读写过关，下节课学习数的大小比较。"
+      }
+    },
+    {
+      "phase_id": "phase_04_summary",
+      "phase_name": "课堂小结",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "位数定最高位：第 5 位是万位、第 9 位是亿位、第 12 位是千亿位",
+          "按级看组成：分级后每级表示多少个相应单位",
+          "读写前先分级：从右起每四位画一条分级线"
+        ]
+      },
+      "student_action": "回顾两道易错题，齐说分级口诀",
+      "teacher_guidance": {
+        "timing": "5分钟",
+        "say": "今天的练习核心是分级这把钥匙。",
+        "ask": "分级要从哪边开始？每几位一级？",
+        "expected_answer": "预设：从右边起，每四位一级。理答：作业——回家用分级线把家里的几个大数（如手机号外的账单数字）分一分、读一读。"
+      }
+    }
+  ]
+}

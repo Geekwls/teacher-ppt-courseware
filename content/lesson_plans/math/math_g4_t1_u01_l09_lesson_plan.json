@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "math-g4-t1-u01-l09",
+  "meta": {
+    "subject": "math",
+    "grade": 4,
+    "term": "term-1",
+    "unit": 1,
+    "topic": "整理和复习：万以上数的认识",
+    "class_period": 9,
+    "lesson_type": "unit_review",
+    "source_point_id": "math-g4-t1-u01-p02",
+    "style": "clean",
+    "duration_minutes": 40
+  },
+  "objectives": [
+    {
+      "id": "OBJ_01",
+      "type": "cognitive",
+      "statement": "能用知识结构图梳理本单元脉络：计数单位与数位数级 → 数的读写 → 大小比较 → 改写与近似数",
+      "assessment": "能独立画出本单元知识树的主干与分支"
+    },
+    {
+      "id": "OBJ_02",
+      "type": "cognitive",
+      "statement": "综合运用读写、比较、改写与四舍五入解决问题，突破 0 的读法与占位、舍入判断两个易错点",
+      "assessment": "能正确完成含 0 大数的读写、比较与求近似数的综合题"
+    }
+  ],
+  "teaching_sequence": [
+    {
+      "phase_id": "phase_01_network",
+      "phase_name": "知识网络",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "knowledge_tree",
+        "root_topic": "万以上数的认识",
+        "branches": [
+          {
+            "name": "数的基础",
+            "leaves": ["计数单位（个到千亿）", "数位与数级（每四位一级）", "十进制计数法（相邻进率都是十）"]
+          },
+          {
+            "name": "数的读写",
+            "leaves": ["先分级，从最高级读起、写起", "0 的读法：末尾不读、中间只读一个零", "0 的写法：哪一位没有就写 0 占位"]
+          },
+          {
+            "name": "比较·改写·近似",
+            "leaves": ["位数多就大，逐位比", "整万整亿改写（＝，去 0 加单位）", "四舍五入求近似数（≈，看尾数最高位）"]
+          }
+        ]
+      },
+      "student_action": "对照知识树回顾单元脉络，在练习本上画自己的知识树",
+      "teacher_guidance": {
+        "timing": "10分钟",
+        "say": "这个单元我们学了三大块：数的基础、数的读写、比较改写近似。看知识树，一条一条回忆。",
+        "ask": "每一根分支下，你最有把握的是哪一条？最没把握的是哪一条？",
+        "expected_answer": "预设：多数学生认为读写中 0 的处理最难。理答：把学生说的薄弱点写在黑板角上，接下来的精练优先攻这些点。",
+        "transition": "知识树画好了，下面按专题精练四道综合题。"
+      }
+    },
+    {
+      "phase_id": "phase_02_topic_drill",
+      "phase_name": "专题精练",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "stem": "3080004 的正确读法是（　　）。",
+            "options": ["A. 三百零八万零零零四", "B. 三百零八万零四", "C. 三百八十万零四"],
+            "answer": "B",
+            "explanation": "分级 308｜0004：每级末尾的 0 不读，中间连续几个 0 只读一个零。"
+          },
+          {
+            "id": "q2",
+            "type": "fill_blank",
+            "stem": "写出下面各数：七千零三亿零二十万 写作＿＿＿＿；六千零一万零一百 写作＿＿＿＿。",
+            "answer": "700300200000；6010100",
+            "explanation": "分级 7003｜0020｜0000 与 6010｜0100，0 占位一个不能少。"
+          },
+          {
+            "id": "q3",
+            "type": "fill_blank",
+            "stem": "在 ○ 里填 ＞ 或 ＜：玉米产量 272550600 ○ 稻谷产量 212842400。",
+            "answer": "＞",
+            "explanation": "两个都是九位数，从最高位比起：2＝2，下一位 7＞1。"
+          },
+          {
+            "id": "q4",
+            "type": "fill_blank",
+            "stem": "先改写再取近似数：218309＝＿＿＿＿（填分级结果）＋尾数，218309≈＿＿＿＿万。",
+            "answer": "21｜8309（21 万 8309）；22",
+            "explanation": "分级 21｜8309：尾数最高位千位是 8，满五入，所以 218309≈22 万。"
+          }
+        ]
+      },
+      "student_action": "独立完成四道综合题，每题先写用的是哪条分支的知识",
+      "teacher_guidance": {
+        "timing": "15分钟",
+        "say": "四道题分别对应知识树的四个分支：读、写、比较、近似数。",
+        "ask": "第 4 题为什么要先分级再取近似数？",
+        "expected_answer": "预设：分级才能看清万级是 21、尾数最高位是千位 8。理答：四道题逐题请学生说「我用了知识树哪根分支的方法」，把解题与结构挂钩。",
+        "transition": "综合题过了，最后我们把本单元最容易错的地方钉一遍。"
+      }
+    },
+    {
+      "phase_id": "phase_03_summary",
+      "phase_name": "课堂小结",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "单元主线：数的基础 → 读写 → 比较 → 改写与近似数，分级线贯穿始终",
+          "两大易错钉子：0 的读法与占位；四舍五入看尾数最高位",
+          "自查三招：数位数、读一遍还原、对着 5 比大小"
+        ]
+      },
+      "student_action": "对照知识树自查薄弱点，齐读两个易错钉子",
+      "teacher_guidance": {
+        "timing": "5分钟",
+        "say": "本单元到此整理完毕，知识树请大家抄进积累本。",
+        "ask": "黑板角上的薄弱点，你现在解决了吗？",
+        "expected_answer": "预设：学生对照自查，仍有问题的举手。理答：作业——完成课本整理和复习剩余题目；仍有疑问的同学课后单独找老师。"
+      }
+    }
+  ]
+}

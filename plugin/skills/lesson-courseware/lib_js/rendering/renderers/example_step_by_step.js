@@ -27,18 +27,22 @@ export function render(slide, s, ctx) {
     fontFace: FONT_FAMILY
   });
 
-  // 中间分步
+  // 中间分步: 步骤多时压缩间距与卡高, 保证不与答语框/页脚重叠 (n<=3 与历史坐标一致)
   const exSteps = stepsCard?.properties?.items || [];
+  const stepsTop = CONTENT_TOP + 1.35;
+  const availH = CONTENT_TOP + 4.35 - stepsTop - 0.15;
+  const stepPitch = Math.min(0.95, availH / Math.max(exSteps.length, 1));
+  const stepCardH = Math.min(0.78, stepPitch - 0.12);
   exSteps.forEach((st, sIdx) => {
-    const sy = CONTENT_TOP + 1.35 + sIdx * 0.95;
+    const sy = stepsTop + sIdx * stepPitch;
     slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
-      x: 0.8, y: sy, w: cardW, h: 0.78,
+      x: 0.8, y: sy, w: cardW, h: stepCardH,
       fill: { color: t.chip || "F8FAFC" },
       line: { color: t.border, width: 1 }
     });
-    const fittedStep = fitTextLayout(st, cardW - 0.6, 0.62, t.fontSize.body);
+    const fittedStep = fitTextLayout(st, cardW - 0.6, stepCardH - 0.16, t.fontSize.body);
     slide.addText(fittedStep.text, {
-      x: 1.1, y: sy + 0.08, w: cardW - 0.6, h: 0.62,
+      x: 1.1, y: sy + 0.05, w: cardW - 0.6, h: stepCardH - 0.16,
       fontSize: fittedStep.size,
       bold: true,
       color: t.ink,
@@ -47,7 +51,6 @@ export function render(slide, s, ctx) {
     });
   });
 
-  // 底部答语
   if (ansCard) {
     slide.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
       x: 0.8, y: CONTENT_TOP + 4.35, w: cardW, h: 0.75,

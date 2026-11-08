@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "math-g4-t1-u01-l02",
+  "meta": {
+    "subject": "math",
+    "grade": 4,
+    "term": "term-1",
+    "unit": 1,
+    "topic": "亿以内数的读法",
+    "class_period": 2,
+    "lesson_type": "concept_learning",
+    "source_point_id": "math-g4-t1-u01-p02",
+    "style": "clean",
+    "duration_minutes": 40
+  },
+  "objectives": [
+    {
+      "id": "OBJ_01",
+      "type": "cognitive",
+      "statement": "掌握含两级数的读法：先读万级，再读个级；万级的数按个级的读法读，再在后面加一个「万」字",
+      "assessment": "能正确读出 32680 等不含 0 与含 0 的两级数"
+    },
+    {
+      "id": "OBJ_02",
+      "type": "cognitive",
+      "statement": "掌握 0 的读法规则：每级末尾不管有几个 0 都不读，其他数位上有一个 0 或连续几个 0 都只读一个 0",
+      "assessment": "能正确读出中间含 0、末尾含 0 的数，并说出理由"
+    }
+  ],
+  "teaching_sequence": [
+    {
+      "phase_id": "phase_01_warmup",
+      "phase_name": "复习导入",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "contextual_problem",
+        "scenario": "上节课我们认识了亿以内的数，还请出了数位顺序表。北京人口 21893095 人——这个数你会读吗？",
+        "question": "读数的时候，先读哪一级？万级读完要加什么？",
+        "core_expression": "关键词：先分级，再逐级读"
+      },
+      "student_action": "借助数位顺序表尝试读 21893095，说出读数顺序",
+      "teacher_guidance": {
+        "timing": "3分钟",
+        "say": "上节课我们认识了亿以内的数。大屏幕上 21893095 这个数，谁来试着读一读？",
+        "ask": "你是怎么读的？先读哪一级，再读哪一级？",
+        "expected_answer": "预设1：学生借数位顺序表正确读出二百一十八万九千三百零九十五。理答：追问「万级的 2189 你是怎么读的」——按个级读法读，再加「万」字。\n预设2：学生读错或不敢读。理答：先分级 2189｜3095，先读万级，再读个级，逐级带读。",
+        "transition": "有的同学读得又对又快，因为他们用了一个好方法——分级。这节课我们就来总结亿以内数的读法。"
+      }
+    },
+    {
+      "phase_id": "phase_02_exploration",
+      "phase_name": "核心探究：读数法则",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "worked_example",
+        "problem": "含有两级的数怎么读？以 32680 和 21893095 为例，总结读数的方法。",
+        "solution_steps": [
+          "先分级：3｜2680，2189｜3095（从右起每四位一级）",
+          "先读万级，再读个级：32680 读作三万二千六百八十",
+          "万级的数按个级的读法读，再在后面加一个「万」字：2189 读作二千一百八十九万"
+        ],
+        "answer": "含两级数的读法：先分级；先读万级再读个级；万级按个级的读法读，再加「万」字"
+      },
+      "student_action": "借助分级线试读，归纳三条读数法则",
+      "teacher_guidance": {
+        "timing": "10分钟",
+        "say": "先分级，比较容易读。32680 分成 3｜2680，先读万级 3，再读个级 2680。",
+        "ask": "万级的「3」读作什么？为什么要加一个「万」字？21893095 的万级 2189 又怎么读？",
+        "expected_answer": "预设1：万级的 3 读「三」，加「万」字是告诉我们它在万级。理答：不读「三万二千六百八十」里的万级就变成个级了，加「万」字才准确。\n预设2：有学生把 2189 读成「二千一百八十九」就停了。理答：引导补上「万」——二千一百八十九万，再读个级 3095。",
+        "transition": "不含 0 的数会读了，含 0 的数怎么读？这是读数里最容易出错的地方。"
+      }
+    },
+    {
+      "phase_id": "phase_03_misconception",
+      "phase_name": "易错辨析：0 的读法",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "misconception_analysis",
+        "wrong_case": "3080004 读成「三百零八万零零零四」——把中间连续的 0 一个一个都读出来。",
+        "cause_analysis": "分级 308｜0004：万级末尾的 0 不读；个级开头的连续 0 只读一个「零」——这就是 0 的读法规则。",
+        "correct_method": "3080004 读作：三百零八万零四"
+      },
+      "student_action": "判断错例、对照规则说错因，正确读出该数",
+      "teacher_guidance": {
+        "timing": "8分钟",
+        "say": "先分级 308｜0004。每级末尾的 0 不读，其他数位上连续几个 0 只读一个零。",
+        "ask": "3080004 里哪些 0 要读？哪些 0 不读？为什么只读一个零？",
+        "expected_answer": "预设：万级末尾的 0 不读；个级开头的三个 0 只读一个「零」。理答：让学生对照数位顺序表逐位指出，强调「连续」和「只读一个」两个关键词。",
+        "transition": "法则清楚了，下面几道题当堂检验，特别小心 0。"
+      }
+    },
+    {
+      "phase_id": "phase_04_practice",
+      "phase_name": "当堂练习",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "type": "fill_blank",
+            "stem": "读出下面各数：32680 读作＿＿＿＿；54621 读作＿＿＿＿。",
+            "answer": "三万二千六百八十；五万四千六百二十一",
+            "explanation": "先分级 3｜2680、5｜4621，先读万级再读个级，万级读完加「万」字。"
+          },
+          {
+            "id": "q2",
+            "type": "choice",
+            "stem": "3080004 的正确读法是（　　）。",
+            "options": ["A. 三百零八万零零零四", "B. 三百零八万零四", "C. 三百八十万零四"],
+            "answer": "B",
+            "explanation": "分级 308｜0004：万级末尾的 0 不读，个级开头连续三个 0 只读一个「零」。"
+          },
+          {
+            "id": "q3",
+            "type": "fill_blank",
+            "stem": "填一填：每级末尾不管有几个 0 都＿＿＿＿；其他数位上有一个 0 或连续几个 0，都只读＿＿＿＿个 0。",
+            "answer": "不读；一",
+            "explanation": "这就是 0 的读法规则，读数前先分级、再对照规则检查。"
+          }
+        ]
+      },
+      "student_action": "独立完成三题，同桌互批，重点检查 0 的读法",
+      "teacher_guidance": {
+        "timing": "12分钟",
+        "say": "独立完成三道题，读数时先分级再动口。",
+        "ask": "第 2 题为什么 B 正确？A 错在哪里？",
+        "expected_answer": "预设：学生能对照规则说出 A 把连续的 0 逐个读出来了。理答：请错的学生重新分级 308｜0004，再逐位检查 0 的位置。",
+        "transition": "会读还要会写，下节课我们学习亿以内数的写法。"
+      }
+    },
+    {
+      "phase_id": "phase_05_summary",
+      "phase_name": "课堂小结",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "读数三步：先分级 → 先读万级再读个级 → 万级读完加「万」字",
+          "0 的规则：每级末尾的 0 都不读；中间有一个 0 或连续几个 0 只读一个 0",
+          "好习惯：读数前先画分级线，再对照数位顺序表检查"
+        ]
+      },
+      "student_action": "齐读读数法则，同桌互出一个含 0 的数考对方",
+      "teacher_guidance": {
+        "timing": "4分钟",
+        "say": "今天我们总结了读数三步和 0 的规则。",
+        "ask": "谁能不看屏幕说出读数三步？",
+        "expected_answer": "预设：先分级，先读万级再读个级，万级加「万」字。理答：布置作业——回家读给家长三个含 0 的大数，请家长当裁判。"
+      }
+    }
+  ]
+}

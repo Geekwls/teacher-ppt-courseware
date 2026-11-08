@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "math-g4-t1-u01-l04",
+  "meta": {
+    "subject": "math",
+    "grade": 4,
+    "term": "term-1",
+    "unit": 1,
+    "topic": "练习一：数位、组成与读写",
+    "class_period": 4,
+    "lesson_type": "practice_consolidation",
+    "source_point_id": "math-g4-t1-u01-p01",
+    "style": "clean",
+    "duration_minutes": 40
+  },
+  "objectives": [
+    {
+      "id": "OBJ_01",
+      "type": "cognitive",
+      "statement": "能说出一个数中指定数字所在的数位和表示的含义，会用多种方式表示一个数",
+      "assessment": "能完成 32086、280064、440000 的含义与组成填空"
+    },
+    {
+      "id": "OBJ_02",
+      "type": "cognitive",
+      "statement": "能正确读出亿以内含 0 的数，熟练运用分级的方法",
+      "assessment": "能正确读出 280064 等数并说出 0 的处理理由"
+    }
+  ],
+  "teaching_sequence": [
+    {
+      "phase_id": "phase_01_recall",
+      "phase_name": "复习唤醒",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "contextual_problem",
+        "scenario": "前两节课我们认识了亿以内的数，学会了读和写。这节课上一堂练习课，检验学得扎不扎实。",
+        "question": "先回忆：数位顺序表里，从右边起每四位分一级，分成哪三级？",
+        "core_expression": "关键词：分级是读写大数的钥匙"
+      },
+      "student_action": "口答数位顺序表的三级划分，唤醒分级方法",
+      "teacher_guidance": {
+        "timing": "3分钟",
+        "say": "练习课开始前先唤醒工具——数位顺序表。",
+        "ask": "从右边起每四位一级，分成哪三级？每级包含哪些数位？",
+        "expected_answer": "预设：个级（个十百千位）、万级（万十万百万千万位）、亿级（亿位）。理答：齐背一遍数位顺序，强调分级线是这节课的钥匙。",
+        "transition": "带着这把钥匙，完成三组练习。"
+      }
+    },
+    {
+      "phase_id": "phase_02_basic_practice",
+      "phase_name": "基础练习：数的含义与组成",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "type": "fill_blank",
+            "stem": "32086 中「3」表示（　　）个万，「2」表示（　　）个千。",
+            "answer": "3；2",
+            "explanation": "分级 3｜2086：「3」在万位表示 3 个万，「2」在千位表示 2 个千。"
+          },
+          {
+            "id": "q2",
+            "type": "fill_blank",
+            "stem": "280064 表示（　　）个万和（　　）个一。",
+            "answer": "28；64",
+            "explanation": "分级 28｜0064：万级 28 表示 28 个万，个级 64 表示 64 个一。"
+          },
+          {
+            "id": "q3",
+            "type": "fill_blank",
+            "stem": "440000 由（　　）个十万和（　　）个万组成，即 400000＋40000。",
+            "answer": "4；4",
+            "explanation": "四十万和四万合起来是四十四万，两种表示方式说的是同一个数。"
+          }
+        ]
+      },
+      "student_action": "独立完成三道组成题，同桌互说每个数字的含义",
+      "teacher_guidance": {
+        "timing": "10分钟",
+        "say": "先分级，再看指定数字在哪一级哪一位。",
+        "ask": "280064 的万级是 28，表示什么？个级的 0064 里两个 0 起什么作用？",
+        "expected_answer": "预设：28 个万；0 起占位作用，把 64 顶到个级。理答：强调 0 虽不读但占位不可少，呼应上一课的写法法则。",
+        "transition": "含义与组成过关了，接下来练读和写。"
+      }
+    },
+    {
+      "phase_id": "phase_03_variant_practice",
+      "phase_name": "变式练习：读与写",
+      "objective_ref": "OBJ_02",
+      "content_block": {
+        "type": "practice_challenge",
+        "items": [
+          {
+            "id": "q1",
+            "type": "choice",
+            "stem": "280064 的正确读法是（　　）。",
+            "options": ["A. 二十八万零六十四", "B. 二十八万六十四", "C. 二万八千零六十四"],
+            "answer": "A",
+            "explanation": "分级 28｜0064：万级读二十八万，个级 0064 的 0 占位且开头读一个零。"
+          },
+          {
+            "id": "q2",
+            "type": "fill_blank",
+            "stem": "「九十万零六百」写作＿＿＿＿；「四十万四千」写作＿＿＿＿。",
+            "answer": "900600；404000",
+            "explanation": "分级 90｜0600 与 40｜4000，占位 0 按法则补齐。"
+          },
+          {
+            "id": "q3",
+            "type": "fill_blank",
+            "stem": "用不同方式表示：3080004 由（　　）个万和（　　）个一组成。",
+            "answer": "308；4",
+            "explanation": "分级 308｜0004，先分级再看组成，这是读写大数的通用入口。"
+          }
+        ]
+      },
+      "student_action": "独立完成三题，圈出每题里的 0 并说明读法或占位",
+      "teacher_guidance": {
+        "timing": "15分钟",
+        "say": "变式升级：每道题里都有 0，先分级、再动笔。",
+        "ask": "900600 的万级 90 读作什么？末尾的 0 读吗？",
+        "expected_answer": "预设：读作九十万，末尾两个 0 不读。理答：请学生逐位指出每个 0 的位置并说明是否读，巩固 0 的规则。",
+        "transition": "两组练习都过关了，看看今天这节课的收获。"
+      }
+    },
+    {
+      "phase_id": "phase_04_summary",
+      "phase_name": "课堂小结",
+      "objective_ref": "OBJ_01",
+      "content_block": {
+        "type": "rule_summary",
+        "summary_points": [
+          "分级线是读写大数的钥匙：从右起每四位一级",
+          "看组成：先分级，再说每级表示多少个相应单位",
+          "0 的两件事：读的时候按规则读，写的时候占位不能少"
+        ]
+      },
+      "student_action": "回顾练习中的易错点，齐读小结要点",
+      "teacher_guidance": {
+        "timing": "5分钟",
+        "say": "今天的练习检验了分级这把钥匙。",
+        "ask": "这节课你最容易错的是哪一类题？",
+        "expected_answer": "预设：含 0 的读法或占位。理答：作业——完成课本练习一剩余题目，家长听写两个含 0 的大数。"
+      }
+    }
+  ]
+}
